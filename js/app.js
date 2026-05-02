@@ -103,6 +103,9 @@
                 a.href = "#" + t.id;
                 a.textContent = t.name;
                 a.dataset.topicId = t.id;
+                a.addEventListener("click", () => {
+                  document.getElementById("sidebar").classList.add("hidden");
+                });
                 groupTopics.appendChild(a);
               });
               groupWrap.appendChild(groupTopics);
