@@ -104,7 +104,9 @@
                 a.textContent = t.name;
                 a.dataset.topicId = t.id;
                 a.addEventListener("click", () => {
-                  document.getElementById("sidebar").classList.add("hidden");
+                  if (window.innerWidth <= 768) {
+                    document.getElementById("sidebar").classList.add("hidden");
+                  }
                 });
                 groupTopics.appendChild(a);
               });
