@@ -73,18 +73,31 @@ window.SUBJECTS = [
         id: "geography",
         name: "Geography",
         topics: [
-          { id: "geo-universe", name: "Universe & Solar System", group: "Physical Geography" },
-          { id: "geo-earth", name: "Earth: Structure & Movements", group: "Physical Geography" },
-          { id: "geo-atmosphere", name: "Atmosphere, Climate & Winds", group: "Physical Geography" },
-          { id: "geo-hydrosphere", name: "Oceans, Currents & Tides", group: "Physical Geography" },
+          // World / Physical Geography
+          { id: "geo-universe", name: "Universe & Solar System", group: "World Geography" },
+          { id: "geo-earth", name: "Earth: Structure & Movements", group: "World Geography" },
+          { id: "geo-rocks", name: "Rocks & Minerals", group: "World Geography" },
+          { id: "geo-landforms", name: "Landforms (Earthquakes, Volcanoes, Mountains)", group: "World Geography" },
+          { id: "geo-atmosphere", name: "Atmosphere, Climate & Winds", group: "World Geography" },
+          { id: "geo-hydrosphere", name: "Hydrosphere: Oceans, Currents & Tides", group: "World Geography" },
+          { id: "geo-world-continents", name: "World Continents & Major Features", group: "World Geography" },
+          { id: "geo-world-rivers", name: "World Rivers, Mountains & Deserts", group: "World Geography" },
+
+          // Indian Geography
           { id: "geo-india-physical", name: "Physical Features of India", group: "Indian Geography" },
           { id: "geo-india-rivers", name: "Indian Rivers & Drainage", group: "Indian Geography" },
           { id: "geo-india-climate", name: "Indian Climate & Monsoon", group: "Indian Geography" },
-          { id: "geo-india-soils", name: "Soils & Vegetation of India", group: "Indian Geography" },
+          { id: "geo-india-soils", name: "Soils & Natural Vegetation of India", group: "Indian Geography" },
           { id: "geo-india-agriculture", name: "Indian Agriculture & Crops", group: "Indian Geography" },
-          { id: "geo-india-minerals", name: "Minerals & Industries of India", group: "Indian Geography" },
-          { id: "geo-world-continents", name: "World Continents & Major Features", group: "World Geography" },
-          { id: "geo-world-rivers", name: "World Rivers, Mountains & Deserts", group: "World Geography" }
+          { id: "geo-india-minerals", name: "Minerals & Mining in India", group: "Indian Geography" },
+          { id: "geo-india-industries", name: "Industries of India", group: "Indian Geography" },
+          { id: "geo-india-energy", name: "Energy Resources of India", group: "Indian Geography" },
+          { id: "geo-india-transport", name: "Transportation in India", group: "Indian Geography" },
+
+          // Environment & Ecology
+          { id: "geo-ecology", name: "Ecology & Ecosystems", group: "Environment & Ecology" },
+          { id: "geo-pollution", name: "Pollution & Climate Change", group: "Environment & Ecology" },
+          { id: "geo-biodiversity", name: "Biodiversity, National Parks & Wildlife", group: "Environment & Ecology" }
         ]
       },
       {
