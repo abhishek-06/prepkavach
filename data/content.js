@@ -145,6 +145,8 @@ window.SUBJECTS = [
           { id: "eco-insurance", name: "Insurance and Social Security", group: "Financial Services" },
           { id: "eco-international-orgs", name: "International Financial Organisations", group: "External Sector" },
           { id: "eco-trade-commerce", name: "Trade, Commerce, BoP and Forex", group: "External Sector" },
+          { id: "eco-indices-reports", name: "Indices & Reports (HDI, GHI, EPI, etc.)", group: "Reports & Indices" },
+          { id: "eco-digital-economy", name: "Digital Economy (UPI, CBDC, ONDC)", group: "Reports & Indices" },
           { id: "eco-terminology", name: "Economy Terminology Quick Revision", group: "Revision" }
         ]
       },
