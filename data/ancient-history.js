@@ -2,8 +2,19 @@
 (function() {
   const T = window.TOPICS;
 
+  const fig = (file, caption, w) => {
+    const width = w || 600;
+    const url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + encodeURIComponent(file) + "?width=" + width;
+    return '<figure><img src="' + url + '" alt="' + caption + '" loading="lazy"><figcaption>' + caption + '</figcaption></figure>';
+  };
+  const figRow = (items) => '<div class="img-row">' + items.map(([f, c]) => fig(f, c, 400)).join("") + '</div>';
+
   T["ah-sources"] = {
     body: `
+      ${figRow([
+        ["Ashoka_Major_Rock_Edict_at_Junagadh.jpg", "Ashokan Rock Edict, Junagadh — example of an inscription"],
+        ["Indus_seal_impression.jpg", "Indus Valley seal — example of archaeological source"]
+      ])}
       <h3>Why Study Sources?</h3>
       <p>Unlike modern history (which is documented by newspapers, archives, photographs), ancient Indian history must be reconstructed from <b>fragments</b>: ruined cities, broken inscriptions, undeciphered scripts, manuscripts copied across centuries, and traveler accounts. Historians divide these into three groups: <b>Literary, Archaeological, and Foreign Accounts</b>.</p>
 
@@ -163,6 +174,10 @@
 
   T["ah-stone-age"] = {
     body: `
+      ${figRow([
+        ["Bhimbetka_rock_painting1.jpg", "Bhimbetka rock paintings (Mesolithic, MP)"],
+        ["Acheulean_handaxe.jpg", "Acheulean handaxe — Lower Palaeolithic stone tool"]
+      ])}
       <h3>Why "Prehistoric"?</h3>
       <p>"Prehistoric" means "before written records". Since humans only began to write around 3000 BC (Sumerian cuneiform) and the Indus script (~2500 BC) is undeciphered, everything before then has to be reconstructed from <b>stone tools, bones, paintings, and skeletons</b>. The first systematic Indian prehistoric discovery was made in 1863 by <b>Robert Bruce Foote</b>, a British geologist who found a Paleolithic hand-axe at <b>Pallavaram, near Madras</b>.</p>
 
@@ -313,6 +328,11 @@
 
   T["ah-indus"] = {
     body: `
+      ${figRow([
+        ["Indus_Valley_Civilization,_Mature_Phase_(2600-1900_BCE).png", "Extent of the Indus Valley Civilization"],
+        ["Mohenjo-daro.jpg", "Mohenjo-daro — Great Bath ruins"],
+        ["Mohenjo-daro_Priesterk%C3%B6nig.jpeg", "'Priest-King' bust from Mohenjo-daro"]
+      ])}
       <h3>Discovery and Names</h3>
       <ul>
         <li>Called <b>Indus Valley Civilization (IVC)</b> because most early sites were near the Indus river; also called the <b>Harappan Civilization</b> (after the first excavated site, Harappa) — the term preferred today since many sites are <i>not</i> on the Indus.</li>
@@ -516,6 +536,7 @@
 
   T["ah-vedic"] = {
     body: `
+      ${fig("Rigveda_MS2097.jpg", "Rigveda manuscript (early 19th c. copy of the oldest Veda)")}
       <h3>Aryans — Origin Debate</h3>
       <ul>
         <li>"Arya" in Sanskrit means "noble"; <b>Aryans</b> spoke an Indo-European language (parent of Sanskrit, Latin, Greek, Persian, Germanic, Celtic).</li>
@@ -785,6 +806,10 @@
 
   T["ah-religions"] = {
     body: `
+      ${figRow([
+        ["Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg", "Buddha (Sarnath, Gupta period)"],
+        ["Mahavira.jpg", "Mahavira — 24th Jain Tirthankara"]
+      ])}
       <h3>Why New Religions in 6th Century BC?</h3>
       <p>The 6th century BC was a period of religious churning in India. Several factors caused dissatisfaction with the existing Brahmanical Vedic religion:</p>
       <ol>
@@ -1065,6 +1090,7 @@
 
   T["ah-mahajanapadas"] = {
     body: `
+      ${fig("Mahajanapadas_(c._500_BCE).png", "16 Mahajanapadas (c. 6th century BCE)", 700)}
       <h3>From Janapadas to Mahajanapadas</h3>
       <p>By the 6th century BC, India had transitioned from <b>tribal janapadas</b> (small tribal territories of the Vedic age) to <b>16 Mahajanapadas</b> (great kingdoms). The shift was driven by:</p>
       <ul>
@@ -1223,6 +1249,11 @@
 
   T["ah-mauryas"] = {
     body: `
+      ${figRow([
+        ["Maurya_Dynasty_in_265_BCE.jpg", "Maurya Empire under Ashoka (c. 265 BCE)"],
+        ["Sarnath_capital.jpg", "Sarnath Lion Capital of Ashoka — India's national emblem"],
+        ["Sanchi_Stupa_from_Eastern_Gate,_Madhya_Pradesh.jpg", "Sanchi Stupa (built by Ashoka, MP)"]
+      ])}
       <h3>The First Indian Empire (322–185 BC)</h3>
       <p>The Mauryan Empire was India's <b>first great empire</b> — covering virtually the entire subcontinent except deep south. It was built and held by three remarkable rulers — <b>Chandragupta, Bindusara, and Ashoka</b> — over about a century, then collapsed in two generations. Our knowledge of it comes from a richer set of sources than any earlier period in Indian history.</p>
 
@@ -1558,6 +1589,10 @@
 
   T["ah-postmaurya"] = {
     body: `
+      ${figRow([
+        ["Gandhara_Buddha_(tnm).jpeg", "Gandhara Buddha — Indo-Greek artistic influence"],
+        ["Kanishka_I.jpg", "Kanishka — greatest Kushana ruler"]
+      ])}
       <h3>The Post-Mauryan Centuries (185 BC – 320 AD)</h3>
       <p>The fall of the Mauryan empire (185 BC) was followed by 500 years of fragmentation in north India and a parallel rise of Deccan powers. This period is sometimes called the <b>"Dark Age"</b> of Indian history (mistakenly) — in fact it was a time of cultural florescence: <b>Mahayana Buddhism, Gandhara/Mathura art, Sangam Tamil literature, Roman trade, the Saka era</b>, and the foundations of Sanskrit kavya.</p>
 
@@ -1829,6 +1864,10 @@
 
   T["ah-guptas"] = {
     body: `
+      ${figRow([
+        ["Gupta_Empire_320_-_600_ad.PNG", "Gupta Empire at its peak (c. 4th-5th c. CE)"],
+        ["Iron_Pillar_of_Delhi_02.jpg", "Iron Pillar of Delhi — Gupta-era metallurgy"]
+      ])}
       <h3>Why "Golden Age"?</h3>
       <p>The Gupta period (320–550 AD) is called the <b>"Golden Age" of ancient India</b> not because it was politically vast (it wasn't — Mauryan empire was bigger) but because of <b>cultural florescence</b>: Sanskrit literature peaked (Kalidasa), mathematics & astronomy (Aryabhatta, Varahamihira), classical sculpture (Sarnath Buddha), temple architecture (Dashavatara, Deogarh), gold coins of unmatched beauty, the decimal system with zero, and a stable Brahmanical-Sanskritic synthesis.</p>
 
@@ -2167,6 +2206,7 @@
 
   T["ah-south"] = {
     body: `
+      ${fig("Brihadeeswara_Temple_12.jpg", "Brihadeeshvara Temple, Thanjavur — Chola dynasty (Rajaraja I)")}
       <h3>South India — A Different Story</h3>
       <p>South of the Vindhyas, history followed a parallel but distinct course. While the north fragmented after the Guptas (550 AD), the south saw a series of long-lived dynasties — <b>Pallavas, Chalukyas, Rashtrakutas, and Cholas</b> — who built the great Dravidian temples, expanded overseas trade, founded universities, and projected Indian power into Southeast Asia. The earliest stratum was the <b>Sangam Age</b> in Tamil-speaking south.</p>
 
@@ -2461,6 +2501,11 @@
 
   T["ah-temple-architecture"] = {
     body: `
+      ${figRow([
+        ["Kandariya_Mahadev_Temple_in_Khajuraho_002.jpg", "Nagara style — Khajuraho (Kandariya Mahadev)"],
+        ["Airavatesvara_Temple_Lion.JPG", "Dravida style — Airavateshvara, Darasuram"],
+        ["Doddabasappa_Temple_at_Dambal.JPG", "Vesara style — Doddabasappa Temple, Dambal"]
+      ])}
       <h3>Temple Architecture in India — Three Great Styles</h3>
       <p>Indian temples (5th c. AD onwards) developed three distinct regional styles, codified in <b>Shilpa Shastras</b> (Manasara, Mayamatam, Vishvakarma Vastushastra):</p>
       <table>

@@ -2,8 +2,19 @@
 (function() {
   const T = window.TOPICS;
 
+  const fig = (file, caption, w) => {
+    const width = w || 600;
+    const url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + encodeURIComponent(file) + "?width=" + width;
+    return '<figure><img src="' + url + '" alt="' + caption + '" loading="lazy"><figcaption>' + caption + '</figcaption></figure>';
+  };
+
+  const figRow = (items) => {
+    return '<div class="img-row">' + items.map(([f, c]) => fig(f, c, 400)).join("") + '</div>';
+  };
+
   T["geo-universe"] = {
     body: `
+      ${fig("Planets2013.svg", "Solar System: the Sun and 8 planets (Mercury → Neptune)")}
       <h3>The Universe</h3>
       <ul>
         <li><b>Universe</b>: vast expanse of space + everything in it (galaxies, stars, planets, gas, dust).</li>
@@ -180,6 +191,10 @@
 
   T["geo-earth"] = {
     body: `
+      ${figRow([
+        ["The_Earth_seen_from_Apollo_17.jpg", "Earth from Apollo 17 (the 'Blue Marble')"],
+        ["Earth_axial_tilt_23.4.svg", "Earth's axial tilt (23.5°) — cause of seasons"]
+      ])}
       <h3>Earth — Quick Facts</h3>
       <ul>
         <li><b>3rd planet</b> from Sun; only known habitable planet.</li>
@@ -366,6 +381,7 @@
 
   T["geo-rocks"] = {
     body: `
+      ${fig("Rockcycle.jpg", "The Rock Cycle — igneous, sedimentary, and metamorphic transitions")}
       <h3>Rocks — Building Blocks of Earth's Crust</h3>
       <p><b>Rock</b>: aggregate of one or more minerals. <b>Mineral</b>: naturally occurring inorganic substance with definite chemical composition.</p>
 
@@ -542,6 +558,10 @@
 
   T["geo-landforms"] = {
     body: `
+      ${figRow([
+        ["Plates_tect2_en.svg", "Earth's major tectonic plates"],
+        ["Volcano_scheme.svg", "Cross-section of a volcano"]
+      ])}
       <h3>Plate Tectonics</h3>
       <p>Earth's lithosphere is broken into <b>~7 major and several minor "tectonic plates"</b> that float on the asthenosphere and slowly move (a few cm per year). Their movement causes mountains, earthquakes, volcanoes, ocean trenches.</p>
 
@@ -771,6 +791,7 @@
 
   T["geo-atmosphere"] = {
     body: `
+      ${fig("Atmosphere_layers-en.svg", "Layers of Earth's atmosphere — troposphere, stratosphere, mesosphere, thermosphere, exosphere")}
       <h3>Atmosphere — Earth's Gaseous Envelope</h3>
       <p>Layer of gases held by Earth's gravity. Extends ~10,000 km up but most mass within ~50 km.</p>
 
@@ -987,6 +1008,7 @@
 
   T["geo-hydrosphere"] = {
     body: `
+      ${fig("Corrientes-oceanicas.png", "Major ocean currents of the world (warm: red; cold: blue)")}
       <h3>Hydrosphere — Earth's Water</h3>
       <ul>
         <li>Total water on Earth: ~<b>1,386 million km³</b>.</li>
@@ -1154,6 +1176,7 @@
 
   T["geo-world-continents"] = {
     body: `
+      ${fig("Continents_colour_coded.png", "The seven continents of the world", 700)}
       <h3>The Seven Continents</h3>
       <table>
         <tr><th>#</th><th>Continent</th><th>Area (km²)</th><th>% of land</th><th>Population</th></tr>
@@ -1324,6 +1347,10 @@
 
   T["geo-world-rivers"] = {
     body: `
+      ${figRow([
+        ["Mountain_Ranges_Map.png", "Major mountain ranges of the world"],
+        ["Map_of_major_deserts.png", "Major deserts of the world"]
+      ])}
       <h3>Major Rivers of the World</h3>
 
       <h4>Top 10 Longest Rivers</h4>
@@ -1484,6 +1511,7 @@
 
   T["geo-india-physical"] = {
     body: `
+      ${fig("India_topo_big.jpg", "Physical / Topographic map of India — Himalayas, Indo-Gangetic plain, Deccan plateau, coasts", 700)}
       <h3>India — Quick Facts</h3>
       <ul>
         <li><b>Area</b>: 32,87,263 km² (~3.28 mn km²) — <b>7th largest country</b> in world.</li>
@@ -1765,6 +1793,7 @@
 
   T["geo-india-rivers"] = {
     body: `
+      ${fig("Major_rivers_of_India.svg", "Major rivers of India — Himalayan and Peninsular systems", 700)}
       <h3>Indian Drainage System</h3>
       <p>Two main systems based on origin:</p>
       <ul>
@@ -1947,6 +1976,7 @@
 
   T["geo-india-climate"] = {
     body: `
+      ${fig("India_southwest_summer_monsoon_onset_map_en.svg", "South-West Monsoon onset dates across India", 700)}
       <h3>India's Climate</h3>
       <p>India has a <b>"Tropical Monsoon" climate</b> due to its location, latitude, the Himalayas, and the Indian Ocean. The Tropic of Cancer divides India into the tropical south and subtropical north.</p>
 
@@ -2068,6 +2098,7 @@
 
   T["geo-india-soils"] = {
     body: `
+      ${fig("India-Soils.png", "Soil types across India (alluvial, black, red, laterite, desert, mountain)", 600)}
       <h3>Soils of India</h3>
       <p>Indian Council of Agricultural Research (ICAR) classifies Indian soils into <b>8 major types</b>.</p>
 
@@ -2549,6 +2580,7 @@
 
   T["geo-india-transport"] = {
     body: `
+      ${fig("Indian_Railway_zones_map.svg", "Indian Railway zones (18 zones)", 600)}
       <h2>Transportation in India</h2>
 
       <h3>Railways</h3>
@@ -2628,6 +2660,7 @@
 
   T["geo-ecology"] = {
     body: `
+      ${fig("FoodChain.svg", "Food chain — energy flow from producers to top consumers")}
       <h2>Ecology & Ecosystems</h2>
       <p><b>Ecology</b> (term: Ernst Haeckel, 1869) studies organism-environment interactions. <b>Ecosystem</b> (A.G. Tansley, 1935) is a self-sustaining unit of biotic + abiotic components.</p>
 
@@ -2717,6 +2750,7 @@
 
   T["geo-pollution"] = {
     body: `
+      ${fig("The_green_house_effect.svg", "The greenhouse effect — how GHGs trap heat in Earth's atmosphere")}
       <h2>Pollution & Climate Change</h2>
 
       <h3>Air Pollutants</h3>
@@ -2820,6 +2854,10 @@
 
   T["geo-biodiversity"] = {
     body: `
+      ${figRow([
+        ["Panthera_tigris_tigris.jpg", "Royal Bengal Tiger — India's national animal"],
+        ["Asiatic_Lion.jpg", "Asiatic Lion of Gir National Park"]
+      ])}
       <h2>Biodiversity, National Parks & Wildlife</h2>
       <p><b>Biodiversity</b> = variety of life at three levels: <b>genetic, species, ecosystem</b>. Term popularised by E.O. Wilson. India is one of 17 <b>megadiverse</b> countries.</p>
 

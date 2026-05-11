@@ -2,8 +2,16 @@
 (function() {
   const T = window.TOPICS;
 
+  const fig = (file, caption, w) => {
+    const width = w || 600;
+    const url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + encodeURIComponent(file) + "?width=" + width;
+    return '<figure><img src="' + url + '" alt="' + caption + '" loading="lazy"><figcaption>' + caption + '</figcaption></figure>';
+  };
+  const figRow = (items) => '<div class="img-row">' + items.map(([f, c]) => fig(f, c, 400)).join("") + '</div>';
+
   T["mdh-sources"] = {
     body: `
+      ${fig("Akbarnama1.jpg", "Akbarnama miniature — a key Mughal court chronicle (Abul Fazl)")}
       <h3>What is "Medieval India"?</h3>
       <p>"Medieval India" usually means the period from <b>~750 AD (post-Harsha)</b> through <b>~1761 AD (Third Battle of Panipat)</b>, before the British rise. It is divided into:</p>
       <ul>
@@ -113,6 +121,7 @@
 
   T["mdh-early-medieval"] = {
     body: `
+      ${fig("Khajuraho-Lakshmana-Temple.jpg", "Lakshmana Temple, Khajuraho — Chandela dynasty (Nagara style)")}
       <h3>The Setting (~750 – 1206 AD)</h3>
       <p>After Harsha's death (647 AD), no single power controlled north India for over five centuries. Instead, three regional powers fought for the prestige city of <b>Kannauj</b> — the <b>Tripartite Struggle</b>. Meanwhile, in the second half of the period, two waves of Islamic invasion changed Indian history: first the <b>Arabs in Sindh (712 AD)</b>, then the <b>Turks of Central Asia (1000 AD onwards)</b>, leading finally to the establishment of the Delhi Sultanate (1206 AD).</p>
 
@@ -322,6 +331,10 @@
 
   T["mdh-delhi-sultanate"] = {
     body: `
+      ${figRow([
+        ["Delhi_Qutb_Minar_2011.jpg", "Qutb Minar, Delhi — begun by Qutb-ud-din Aibak"],
+        ["Alai_Darwaza_-_Qutb_complex.jpg", "Alai Darwaza — Khilji architecture, Qutb complex"]
+      ])}
       <h3>Delhi Sultanate (1206–1526) — 320 Years, 5 Dynasties</h3>
       <table>
         <tr><th>Dynasty</th><th>Period</th><th>Sultans</th><th>Founder</th></tr>
@@ -675,6 +688,7 @@
 
   T["mdh-vijayanagar"] = {
     body: `
+      ${fig("Hampi_virupaksha_temple.jpg", "Virupaksha Temple, Hampi — Vijayanagara Empire's capital", 700)}
       <h3>The Two Great Deccan Powers (14th–17th c.)</h3>
       <p>Out of the chaos of Muhammad bin Tughlaq's southern collapse arose two long-lasting powers in the Deccan: the Hindu <b>Vijayanagara empire (1336)</b> and the Muslim <b>Bahmani Sultanate (1347)</b>. They fought endless wars over the fertile <b>Raichur Doab</b> (between Krishna and Tungabhadra rivers) and gold-rich Konkan ports. Their three centuries of rivalry, art, and trade shaped peninsular India.</p>
 
@@ -940,6 +954,10 @@
 
   T["mdh-bhakti-sufi"] = {
     body: `
+      ${figRow([
+        ["Kabir004.jpg", "Sant Kabir — leading nirguna Bhakti poet"],
+        ["Guru_Nanak_Dev_Ji.jpg", "Guru Nanak — founder of Sikhism"]
+      ])}
       <h3>Why Bhakti and Sufism Matter</h3>
       <p>Between ~700 and 1700 AD, India saw two parallel religious-spiritual movements that transformed daily life:</p>
       <ol>
@@ -1303,6 +1321,11 @@
 
   T["mdh-mughals-early"] = {
     body: `
+      ${figRow([
+        ["Mughal-Empire-extent.png", "Mughal Empire — territorial growth and peak under Aurangzeb"],
+        ["Akbar_riding_an_elephant.jpg", "Akbar — greatest Mughal emperor"],
+        ["Humayun's_Tomb,_New_Delhi.jpg", "Humayun's Tomb, Delhi — first Mughal garden tomb"]
+      ])}
       <h3>Mughal Empire (1526–1857)</h3>
       <p>"Mughal" = Persian for "Mongol". Babur descended from <b>Timur</b> (paternal) and <b>Genghis Khan</b> (maternal). The Six "Great Mughals" were Babur, Humayun, Akbar, Jahangir, Shah Jahan, Aurangzeb.</p>
 
@@ -1583,6 +1606,10 @@
 
   T["mdh-mughals-late"] = {
     body: `
+      ${figRow([
+        ["Taj_Mahal_(Edited).jpeg", "Taj Mahal, Agra — built by Shah Jahan for Mumtaz Mahal"],
+        ["Aurangzeb-portrait.jpg", "Aurangzeb — last great Mughal emperor"]
+      ])}
       <h3>JAHANGIR (1605–1627)</h3>
       <ul>
         <li>Real name: <b>Salim</b>; titled <b>Nuruddin Muhammad Jahangir Padshah Ghazi</b>; "Jahangir" = World-Conqueror.</li>
@@ -2234,6 +2261,10 @@
 
   T["mdh-marathas"] = {
     body: `
+      ${figRow([
+        ["Shivaji_British_Museum.jpg", "Chhatrapati Shivaji Maharaj — founder of Maratha Empire"],
+        ["Raigad_fort.JPG", "Raigad Fort — capital of Shivaji"]
+      ])}
       <h3>Background — The Maratha Country</h3>
       <p>The Marathas were a Marathi-speaking people of the Western Ghats (modern Maharashtra). Their rise from local zamindars to a pan-Indian empire — the strongest Indian power of the 18th century — was the most important political development between the decline of the Mughals and the rise of the British.</p>
 
@@ -2558,6 +2589,10 @@
 
   T["mdh-sikhs"] = {
     body: `
+      ${figRow([
+        ["Guru_Gobind_Singh_Ji.jpg", "Guru Gobind Singh — 10th Sikh Guru, founder of Khalsa (1699)"],
+        ["The_Golden_Temple_-_Amritsar.jpg", "Harmandir Sahib (Golden Temple), Amritsar"]
+      ])}
       <h3>Sikhism — A Religion Forged in Punjab (1469 – present)</h3>
       <p>Sikhism began as a peaceful Bhakti-Sufi-influenced religion under <b>Guru Nanak (1469–1539)</b> and evolved over <b>10 Gurus and 240 years</b> into a militant religious-political community — the <b>Khalsa (1699)</b>. After the Gurus, Sikhs built misls and finally an empire under Maharaja Ranjit Singh (1799–1839). British annexed Punjab in 1849.</p>
 
@@ -2890,6 +2925,7 @@
 
   T["mdh-arab-turk"] = {
     body: `
+      ${fig("Mahmud_of_Ghazni.jpg", "Mahmud of Ghazni — Turkish invader who raided India 17 times")}
       <h3>The Two Waves of Islamic Invasion (8th–13th c.)</h3>
       <p>India was invaded by Muslim conquerors in two distinct waves separated by ~300 years:</p>
       <ol>
