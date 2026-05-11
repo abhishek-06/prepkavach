@@ -198,6 +198,46 @@
 
       <h3>Looking Ahead</h3>
       <p>The actual making of the Constitution was the work of the <b>Constituent Assembly (1946–49)</b> — covered in the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Major Acts before Constitution — "RPCC-MGM-IIA"</b>:
+          <ul>
+            <li><b>R</b>egulating Act 1773 — Warren Hastings 1st GG of Bengal; Supreme Court Calcutta</li>
+            <li><b>P</b>itt's India Act 1784 — Dual control; Board of Control + Court of Directors</li>
+            <li><b>C</b>harter Act 1813 — EIC trade monopoly ended (except tea + China)</li>
+            <li><b>C</b>harter Act 1833 — Bentinck = 1st GG of India (not just Bengal); centralization</li>
+            <li><b>M</b>aculay's Charter Act 1853 — first time legislative + executive separated; ICS open competition</li>
+            <li><b>G</b>OI Act 1858 — Crown rule; Viceroy + Secretary of State for India</li>
+            <li><b>M</b>orley-Minto / Indian Councils Act 1909 — separate electorates for Muslims (first time)</li>
+            <li><b>M</b>ontagu-Chelmsford / GOI Act 1919 — Diarchy in provinces; bicameral central legislature</li>
+            <li><b>I</b>ndian Councils Act 1861 — included Indians in legislative council</li>
+            <li><b>I</b>ndian Councils Act 1892 — added more Indians</li>
+            <li><b>A</b>ct of 1935 — Provincial Autonomy; Federation; 3 lists; longest</li>
+            <li><b>I</b>ndian Independence Act 1947</li>
+          </ul>
+        </li>
+        <li><b>Trick — major dates</b>: "<b>73-84-13-33-53-58-61-92-09-19-35-47</b>" = key Act years।</li>
+        <li><b>Diarchy concept</b>:
+          <ul>
+            <li>1919 — <b>Provincial level Diarchy</b> (Reserved subjects with Governor, Transferred with Indian ministers)</li>
+            <li>1935 — <b>Central level Diarchy</b> (Federal subjects); Provincial Autonomy (Diarchy abolished there)</li>
+          </ul>
+        </li>
+        <li><b>Crown Rule (1858 features)</b>:
+          <ul>
+            <li>EIC abolished</li>
+            <li>Viceroy of India (first: Canning)</li>
+            <li>Secretary of State for India (UK Cabinet) — first: Charles Wood</li>
+            <li>15-member India Council (advisory)</li>
+            <li>Doctrine of Lapse abandoned</li>
+            <li>Queen's Proclamation 1 Nov 1858</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: <b>"All separate electorates from Morley-Minto 1909"</b> — root of partition seeds।</li>
+        <li><b>Story</b>: 1773 से 1947 तक British ने धीरे-धीरे Indians को थोड़ा-थोड़ा representation दिया — पर control अपने पास रखा। हर 10-20 साल में नया Act। 1858 (Crown rule) → 1909 (separate electorates) → 1919 (Diarchy) → 1935 (Provincial Autonomy) → 1947 (Independence)। Indian Constitution Act 1935 का 75% provisions adopt करता है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Regulating Act of 1773 designated which Governor as 'Governor-General of Bengal'?", opts: ["Robert Clive", "Warren Hastings", "Cornwallis", "Wellesley"], a: 1, ex: "Warren Hastings (1773–85) — first Governor General of Bengal." },
@@ -423,6 +463,78 @@
 
       <h3>Looking Ahead</h3>
       <p>The Constitution that emerged is unique in length, depth, and ambition. Its <b>salient features and Preamble</b> — covered next — articulate India's foundational principles.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Demand for Constituent Assembly</b>:
+          <ul>
+            <li>First by <b>M.N. Roy 1934</b></li>
+            <li>Congress demand 1935</li>
+            <li>Officially accepted in <b>August Offer 1940</b></li>
+            <li>Provided in <b>Cabinet Mission Plan 1946</b></li>
+          </ul>
+        </li>
+        <li><b>Constituent Assembly</b>:
+          <ul>
+            <li>Constituted under <b>Cabinet Mission Plan 1946</b></li>
+            <li><b>Elections July 1946</b> — by Provincial Assemblies (indirect)</li>
+            <li>389 members (later 299 after partition)</li>
+            <li><b>First sitting: 9 December 1946</b></li>
+            <li>Temporary President: <b>Sachchidananda Sinha</b> (oldest)</li>
+            <li><b>Permanent President: Rajendra Prasad</b> (elected 11 Dec 1946)</li>
+            <li>Vice-President: H.C. Mukherjee</li>
+            <li>Constitutional Advisor: <b>B.N. Rau</b></li>
+          </ul>
+        </li>
+        <li><b>Objective Resolution — 13 December 1946</b> by <b>Jawaharlal Nehru</b>; adopted 22 Jan 1947 — basis for Preamble।</li>
+        <li><b>Drafting Committee — 29 Aug 1947</b>:
+          <ul>
+            <li><b>Chairman: B.R. Ambedkar</b> — "Father of Indian Constitution"</li>
+            <li>7 members: Ambedkar, K.M. Munshi, Alladi Krishnaswami Ayyar, N. Gopalaswami Ayyangar, Mohammad Saadulla, B.L. Mitter (later N. Madhava Rao), D.P. Khaitan (later T.T. Krishnamachari)</li>
+            <li>Trick: "<b>BAKAGM</b>" — Bhim Ambedkar + KM + Alladi + Gopal + Madhava + (Khaitan)</li>
+          </ul>
+        </li>
+        <li><b>Time taken</b>: <b>2 years 11 months 18 days</b> (2y 11m 18d) — Dec 1946 to Nov 1949।</li>
+        <li><b>Sessions</b>: 11 sessions, 165 days।</li>
+        <li><b>Cost</b>: ₹6.4 million।</li>
+        <li><b>Key Dates trick</b>:
+          <ul>
+            <li><b>9 Dec 1946</b> — 1st sitting</li>
+            <li><b>22 Jan 1947</b> — Objective Resolution adopted</li>
+            <li><b>15 Aug 1947</b> — Sovereign body</li>
+            <li><b>29 Aug 1947</b> — Drafting Committee</li>
+            <li><b>26 Nov 1949</b> — Constitution adopted ("<b>Constitution Day / Samvidhan Divas</b>")</li>
+            <li><b>26 Jan 1950</b> — Constitution effective ("Republic Day" — chose 26 Jan to honour Lahore 1929 Purna Swaraj date)</li>
+          </ul>
+        </li>
+        <li><b>Sources of Indian Constitution</b>:
+          <ul>
+            <li><b>UK</b> — Parliamentary system, Single citizenship, Rule of Law, Cabinet, Bicameralism, Writs</li>
+            <li><b>USA</b> — Fundamental Rights, Supreme Court, Judicial Review, Impeachment, VP role</li>
+            <li><b>USSR</b> — Fundamental Duties (42nd Amend), Five-Year Plans</li>
+            <li><b>Ireland</b> — DPSPs, President's nomination (Rajya Sabha 12 members)</li>
+            <li><b>Australia</b> — Concurrent List, Joint sitting</li>
+            <li><b>Canada</b> — Federation with strong Centre, Residual powers, Appointment of Governors</li>
+            <li><b>South Africa</b> — Amendment procedure, RS election</li>
+            <li><b>Germany (Weimar)</b> — Emergency provisions</li>
+            <li><b>Japan</b> — Procedure established by law (Art 21)</li>
+            <li><b>France</b> — Republic; Liberty, Equality, Fraternity</li>
+            <li><b>GOI Act 1935</b> — Federal scheme, judiciary, governors, emergency, PSC, admin (largest source — 250+ articles)</li>
+          </ul>
+        </li>
+        <li><b>Trick to remember sources</b>: "<b>UK = Parliament, USA = Rights, USSR = Duties, Ireland = DPSP, Canada = Federation, GOI 1935 = Most</b>"।</li>
+        <li><b>Original Constitution</b>:
+          <ul>
+            <li>395 articles, 22 parts, 8 schedules</li>
+            <li>Today (after amendments): ~470 articles, 25 parts, 12 schedules</li>
+            <li>Hand-written (calligraphed by <b>Prem Behari Narain Raizada</b>); illustrated by <b>Nandalal Bose</b> (Shantiniketan)</li>
+            <li>Both Hindi + English originals</li>
+            <li>Longest written Constitution in world</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: Cabinet Mission 1946 के plan पर Constituent Assembly बनी। 9 Dec 1946 को पहली बैठक। Nehru ने 13 Dec को Objective Resolution दी — आज का Preamble उसी का developed form। Aug 1947 में Ambedkar drafting committee head। 2y-11m-18d बाद, 26 Nov 1949 को Constitution adopt हुआ। 26 Jan 1950 (Republic Day — Lahore Purna Swaraj 1929 की याद में) को लागू हुआ।</li>
+      </ul>
     `,
     mcq: [
       { q: "Constituent Assembly was constituted under?", opts: ["GoI Act 1935", "Cabinet Mission Plan 1946", "Mountbatten Plan", "Indian Independence Act 1947"], a: 1, ex: "Cabinet Mission Plan (May 1946); first sat 9 December 1946." },
@@ -706,6 +818,59 @@
 
       <h3>Looking Ahead</h3>
       <p>The Constitution's structure — <b>Parts, Schedules, and Articles</b> — is the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Preamble — Memorize word for word</b>:
+          <p style="background:#f1f5f9;padding:0.5rem;border-radius:6px;font-size:0.9rem;"><i>"WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE — social, economic and political; LIBERTY — of thought, expression, belief, faith and worship; EQUALITY — of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation..."</i></p>
+        </li>
+        <li><b>Preamble keywords — "SSSDR + JLEF"</b>:
+          <ul>
+            <li><b>S</b>overeign — independent</li>
+            <li><b>S</b>ocialist — (added 42nd Amend 1976)</li>
+            <li><b>S</b>ecular — (added 42nd Amend 1976)</li>
+            <li><b>D</b>emocratic — universal adult franchise</li>
+            <li><b>R</b>epublic — elected Head (President)</li>
+            <li><b>J</b>ustice — social, economic, political</li>
+            <li><b>L</b>iberty — thought, expression, belief, faith, worship</li>
+            <li><b>E</b>quality — status, opportunity</li>
+            <li><b>F</b>raternity — dignity, unity, integrity</li>
+          </ul>
+        </li>
+        <li><b>"Unity and integrity"</b> — "integrity" added by <b>42nd Amendment 1976</b></li>
+        <li><b>Preamble source</b>: Inspired by <b>French Revolution</b> (Liberty-Equality-Fraternity) + <b>Objective Resolution by Nehru</b>।</li>
+        <li><b>Berubari case 1960</b>: Preamble NOT part of Constitution। <b>Kesavananda Bharati 1973</b>: Preamble IS part of Constitution (overruled)। <b>LIC case 1995</b>: Preamble is part but NOT enforceable in court।</li>
+        <li><b>Salient Features — "PFLISERP-MUSF"</b>:
+          <ul>
+            <li><b>P</b>arliamentary form (UK)</li>
+            <li><b>F</b>ederal with unitary bias</li>
+            <li><b>L</b>ongest written constitution</li>
+            <li><b>I</b>ndependent Judiciary</li>
+            <li><b>S</b>ingle citizenship</li>
+            <li><b>E</b>mergency provisions (Germany)</li>
+            <li><b>R</b>igid + flexible (combination)</li>
+            <li><b>P</b>rocedure Established by Law (Japan, Art 21)</li>
+            <li><b>M</b>ixed system (parliamentary executive + federal)</li>
+            <li><b>U</b>niversal Adult Franchise (Art 326) — 18 yrs (61st Amend 1989; was 21)</li>
+            <li><b>S</b>ecularism (added 1976)</li>
+            <li><b>F</b>undamental Rights + DPSPs + Duties</li>
+          </ul>
+        </li>
+        <li><b>Federalism with unitary bias features</b>:
+          <ul>
+            <li>Single citizenship</li>
+            <li>Single constitution</li>
+            <li>Strong centre (residuary powers)</li>
+            <li>Integrated judiciary</li>
+            <li>All India Services (IAS, IPS, IFS)</li>
+            <li>Emergency provisions</li>
+            <li>President's rule in states</li>
+          </ul>
+        </li>
+        <li><b>Trick — Federal but quasi-federal</b>: K.C. Wheare called it "<b>Quasi-federal</b>"; Dr. Ambedkar said "<b>Federal in structure, Unitary in spirit</b>"।</li>
+        <li><b>Story</b>: Indian Constitution दुनिया का सबसे लंबा लिखित संविधान है — 470+ articles। Preamble में "We the People" से शुरू = Constitution अपने आप में अधिकार रखता है (American style), parliamentary government UK से लिया है, federation Canada से, fundamental rights USA से, DPSP Ireland से, emergency Germany से। यह एक <b>borrowed but unique</b> document है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Originally, the Indian Constitution had how many articles?", opts: ["395", "448", "470", "500"], a: 0, ex: "395 articles, 22 parts, 8 schedules originally." },
@@ -876,6 +1041,99 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Citizenship and Fundamental Rights</b> — Articles 5–35.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Important Parts of Constitution — "Memorize 1-22"</b>:
+          <ul>
+            <li><b>Part I</b> — Union and its Territory (Art 1-4)</li>
+            <li><b>Part II</b> — Citizenship (Art 5-11)</li>
+            <li><b>Part III</b> — <b>Fundamental Rights (Art 12-35)</b> ⭐</li>
+            <li><b>Part IV</b> — <b>DPSPs (Art 36-51)</b> ⭐</li>
+            <li><b>Part IVA</b> — <b>Fundamental Duties (Art 51A)</b> — added 42nd Amend</li>
+            <li><b>Part V</b> — Union (President, PM, Parliament, SC)</li>
+            <li><b>Part VI</b> — States (Governor, CM, Legislature, HC)</li>
+            <li><b>Part VII</b> — Part B States (repealed 7th Amend)</li>
+            <li><b>Part VIII</b> — UTs</li>
+            <li><b>Part IX</b> — <b>Panchayats</b> (added 73rd Amend 1992)</li>
+            <li><b>Part IXA</b> — <b>Municipalities</b> (74th Amend)</li>
+            <li><b>Part IXB</b> — Cooperative Societies (97th Amend)</li>
+            <li><b>Part X</b> — Scheduled & Tribal Areas</li>
+            <li><b>Part XI</b> — Centre-State relations (legislative, administrative)</li>
+            <li><b>Part XII</b> — Finance, Property, Contracts</li>
+            <li><b>Part XIII</b> — Trade, Commerce within India</li>
+            <li><b>Part XIV</b> — Services under Centre and States; PSCs</li>
+            <li><b>Part XIVA</b> — Tribunals (42nd Amend)</li>
+            <li><b>Part XV</b> — <b>Elections, ECI</b></li>
+            <li><b>Part XVI</b> — Special provisions for SC/ST/OBCs</li>
+            <li><b>Part XVII</b> — Official Language</li>
+            <li><b>Part XVIII</b> — <b>Emergency provisions (Art 352-360)</b></li>
+            <li><b>Part XIX</b> — Miscellaneous</li>
+            <li><b>Part XX</b> — Amendment (Art 368)</li>
+            <li><b>Part XXI</b> — Temporary, Transitional, Special (Art 370 etc.)</li>
+            <li><b>Part XXII</b> — Short title, commencement</li>
+          </ul>
+        </li>
+        <li><b>12 Schedules — Trick "TT-SLLEAP-LMLP"</b>:
+          <ul>
+            <li><b>1st</b> — States + UTs list</li>
+            <li><b>2nd</b> — <b>Salaries</b> of President, Governors, Judges, etc.</li>
+            <li><b>3rd</b> — <b>Oath</b>/Affirmation forms for President, MPs, Judges, etc.</li>
+            <li><b>4th</b> — <b>Rajya Sabha seat allocation</b> per state</li>
+            <li><b>5th</b> — Administration of <b>Scheduled Areas + Tribes</b> (general)</li>
+            <li><b>6th</b> — Administration of <b>Tribal Areas in NE (Assam, Meghalaya, Tripura, Mizoram)</b></li>
+            <li><b>7th</b> — <b>Union, State, Concurrent Lists</b> (97, 66, 47 items respectively)</li>
+            <li><b>8th</b> — <b>Languages</b> (22 currently — Sindhi added 21st Amend; Bodo, Dogri, Maithili, Santhali added 92nd Amend 2003)</li>
+            <li><b>9th</b> — Land reform laws (added 1st Amend); shielded from JR</li>
+            <li><b>10th</b> — <b>Anti-defection</b> (added 52nd Amend 1985)</li>
+            <li><b>11th</b> — <b>Panchayat</b> powers (added 73rd Amend 1992) — 29 subjects</li>
+            <li><b>12th</b> — <b>Municipality</b> powers (added 74th Amend) — 18 subjects</li>
+          </ul>
+        </li>
+        <li><b>Easy mnemonic for Schedules</b>:
+          <ul>
+            <li>"States, Salaries, Sapath (oath), Seats (RS)" = 1-2-3-4</li>
+            <li>"Scheduled Areas, Sixth Schedule NE, Seventh = 3 lists" = 5-6-7</li>
+            <li>"Eight = 8 = languages" + "9 = land laws (added later)"</li>
+            <li>"10 = defection (added 52nd)", "11 = Panchayat", "12 = Municipality"</li>
+          </ul>
+        </li>
+        <li><b>22 Official Languages (8th Schedule)</b> — Original 14 + 4 (Sindhi added 1967 - 21st Amend) + 4 (Bodo, Dogri, Maithili, Santhali added 2003 - 92nd Amend):
+          <ul>
+            <li>Trick: "<b>Asma Beni KaKa MMM-PPPPP-S-T-U-G-O-K-N-K-Sa-K Bo-Do-Ma-Sa</b>" — Assamese, Bengali, Kannada, Kashmiri, Malayalam, Marathi, Manipuri, Punjabi, Sanskrit, Sindhi, Tamil, Telugu, Urdu, Gujarati, Oriya/Odia, Hindi, Konkani, Nepali, Sa(nskrit), + 4 new ones</li>
+          </ul>
+        </li>
+        <li><b>Articles to remember (most asked)</b>:
+          <ul>
+            <li>Art 1: India = "Union of States"</li>
+            <li>Art 14: Equality before law</li>
+            <li>Art 19: 6 freedoms</li>
+            <li>Art 21: Life and Liberty</li>
+            <li>Art 32: Right to Constitutional Remedies (Ambedkar called "heart and soul")</li>
+            <li>Art 44: Uniform Civil Code (DPSP)</li>
+            <li>Art 51A: Fundamental Duties</li>
+            <li>Art 72: President's pardoning power</li>
+            <li>Art 74: Council of Ministers to aid PM</li>
+            <li>Art 79: Parliament</li>
+            <li>Art 110: Money Bill definition</li>
+            <li>Art 112: Annual Financial Statement (Budget)</li>
+            <li>Art 123: President's Ordinance</li>
+            <li>Art 124: Supreme Court</li>
+            <li>Art 148: CAG</li>
+            <li>Art 226: HC Writs</li>
+            <li>Art 280: Finance Commission</li>
+            <li>Art 312: All-India Services</li>
+            <li>Art 324: Election Commission</li>
+            <li>Art 352: National Emergency</li>
+            <li>Art 356: President's Rule</li>
+            <li>Art 360: Financial Emergency</li>
+            <li>Art 368: Amendment procedure</li>
+            <li>Art 370: J&K (abrogated 2019)</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 470+ articles, 22+ parts, 12 schedules — सब को एक-एक करके नहीं — सिर्फ़ "high-frequency" ones। Schedule 7 (lists), Schedule 8 (languages), Schedule 10 (defection) सबसे ज़्यादा पूछे जाते हैं। Articles: 14, 19, 21, 32, 44, 51A, 72, 112, 280, 324, 352, 368, 370 must-know।</li>
+      </ul>
     `,
     mcq: [
       { q: "Currently, the Indian Constitution has how many parts?", opts: ["22", "25", "27", "29"], a: 1, ex: "Originally 22; now 25 parts (added IV-A, IX-A, IX-B; some renumbered)." },
@@ -1186,6 +1444,61 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>DPSP and Fundamental Duties</b> — the non-justiciable but essential complement to Fundamental Rights.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Part II, Articles 5-11</b> — only basic provisions in Constitution; details in <b>Citizenship Act 1955</b>।</li>
+        <li><b>Citizenship Act 1955 — 5 ways to acquire</b>:
+          <ul>
+            <li><b>B</b>y Birth</li>
+            <li><b>D</b>escent</li>
+            <li><b>R</b>egistration</li>
+            <li><b>N</b>aturalisation</li>
+            <li><b>I</b>ncorporation of Territory</li>
+          </ul>
+          Trick: "<b>BDRNI</b>" or "Born-Descent-Registered-Naturalised-Incorporated"।
+        </li>
+        <li><b>3 ways to lose</b>:
+          <ul>
+            <li><b>R</b>enunciation (voluntary)</li>
+            <li><b>T</b>ermination (acquiring another)</li>
+            <li><b>D</b>eprivation (by govt — fraud, disloyalty)</li>
+          </ul>
+        </li>
+        <li><b>Single Citizenship</b> — India follows UK model (USA has dual = national + state)। Indians = citizens of India only, NOT of state।</li>
+        <li><b>OCI (Overseas Citizen of India)</b>:
+          <ul>
+            <li>Introduced 2005</li>
+            <li>NOT dual citizenship technically</li>
+            <li>Not for Pakistan, Bangladesh citizens or descendants</li>
+            <li>Lifelong visa, can buy property (not agri), no voting/political rights</li>
+          </ul>
+        </li>
+        <li><b>PIO scheme merged with OCI in 2015</b>।</li>
+        <li><b>Citizenship Amendment Act (CAA) 2019</b>:
+          <ul>
+            <li>Fast-tracks citizenship for non-Muslim refugees from Pakistan, Bangladesh, Afghanistan (Hindu, Sikh, Buddhist, Jain, Parsi, Christian)</li>
+            <li>Came before 31 Dec 2014</li>
+            <li>Reduces naturalisation period from 11 to 5 years</li>
+            <li>Controversial — excludes Muslims</li>
+          </ul>
+        </li>
+        <li><b>NRC</b> — National Register of Citizens; pilot in Assam (2019 final list)।</li>
+        <li><b>Article 5-11 quick</b>:
+          <ul>
+            <li>Art 5 — citizens at commencement (26 Jan 1950)</li>
+            <li>Art 6 — migrated from Pak before 19 July 1948</li>
+            <li>Art 7 — migrated to Pak then returned</li>
+            <li>Art 8 — Indians abroad</li>
+            <li>Art 9 — voluntary acquisition of foreign citizenship = loss of Indian</li>
+            <li>Art 10 — continuance</li>
+            <li>Art 11 — Parliament's power to legislate (= Citizenship Act 1955)</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: "<b>Indian citizenship = ONE only</b>" (single, no dual)। OCI ≠ dual। CAA 2019 = 6 religions, 3 countries।</li>
+        <li><b>Story</b>: 1947 partition के बाद citizenship एक mess था — कौन Pak से आया, कौन वहाँ रहा। Constitution ने Art 5-11 में basic rules दिए। फिर 1955 Act ने details दिए। आज भी partition-related issues चलते हैं (CAA-NRC debate)।</li>
+      </ul>
     `,
     mcq: [
       { q: "Citizenship in India is governed by?", opts: ["Articles 5–11", "Articles 12–35", "Articles 36–51", "Articles 52–151"], a: 0, ex: "Part II of the Constitution; also Citizenship Act 1955." },
@@ -1337,6 +1650,110 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>President & Vice-President</b> — the constitutional heads.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Fundamental Rights (Part III, Art 12-35) — 6 Rights</b>:
+          <ul>
+            <li><b>Right to Equality (Art 14-18)</b>
+              <ul>
+                <li>Art 14 — Equality before law (UK) + Equal protection of laws (USA)</li>
+                <li>Art 15 — No discrimination (religion, race, caste, sex, place of birth)</li>
+                <li>Art 16 — Equality of opportunity in public employment</li>
+                <li>Art 17 — Abolition of untouchability</li>
+                <li>Art 18 — Abolition of titles</li>
+              </ul>
+            </li>
+            <li><b>Right to Freedom (Art 19-22)</b>
+              <ul>
+                <li>Art 19 — <b>6 freedoms</b>: Speech/expression, Assembly, Association, Movement, Residence, Profession (originally 7, "property" removed by 44th Amend 1978)</li>
+                <li>Art 20 — Protection re. conviction (no ex-post facto law, no double jeopardy, no self-incrimination)</li>
+                <li>Art 21 — <b>Right to Life & Personal Liberty</b> (most expanded by courts — RTE, RTI, privacy etc.)</li>
+                <li>Art 21A — Right to Education (added 86th Amend 2002) — 6-14 yrs</li>
+                <li>Art 22 — Protection re. arrest and detention</li>
+              </ul>
+            </li>
+            <li><b>Right against Exploitation (Art 23-24)</b>
+              <ul>
+                <li>Art 23 — No human trafficking, forced labour</li>
+                <li>Art 24 — No child labour below 14 in hazardous industries</li>
+              </ul>
+            </li>
+            <li><b>Right to Freedom of Religion (Art 25-28)</b>
+              <ul>
+                <li>Art 25 — Freedom of conscience and practice</li>
+                <li>Art 26 — Manage religious affairs</li>
+                <li>Art 27 — No tax for religion</li>
+                <li>Art 28 — Religious instruction not in state schools</li>
+              </ul>
+            </li>
+            <li><b>Cultural & Educational Rights (Art 29-30)</b>
+              <ul>
+                <li>Art 29 — Protect minority culture/script</li>
+                <li>Art 30 — Minorities can establish educational institutions</li>
+              </ul>
+            </li>
+            <li><b>Right to Constitutional Remedies (Art 32)</b> — Ambedkar's "<b>Heart and Soul</b>" of Constitution
+              <ul>
+                <li>5 Writs: <b>HCM-PQ</b> = <b>H</b>abeas Corpus, <b>C</b>ertiorari, <b>M</b>andamus, <b>P</b>rohibition, <b>Q</b>uo Warranto</li>
+                <li>Art 226 — same writs by HC</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><b>Right to Property removed</b> — was FR (Art 19f + 31), removed by <b>44th Amendment 1978</b>, now only <b>legal right under Art 300A</b>।</li>
+        <li><b>Trick — 5 Writs "HCM-PQ"</b>:
+          <ul>
+            <li><b>H</b>abeas Corpus — "produce the body" — against illegal detention</li>
+            <li><b>C</b>ertiorari — "to be certified" — higher court reviews lower court order</li>
+            <li><b>M</b>andamus — "we command" — compels public official to do duty</li>
+            <li><b>P</b>rohibition — stops lower court from exceeding jurisdiction</li>
+            <li><b>Q</b>uo Warranto — "by what authority" — challenges public office holder</li>
+          </ul>
+        </li>
+        <li><b>DPSPs (Part IV, Art 36-51) — 3 categories</b>:
+          <ul>
+            <li><b>Socialist principles</b> — equal pay (39d), living wage (43), social security, anti-concentration (39c)</li>
+            <li><b>Gandhian principles</b> — Panchayats (40), cottage industries (43), prohibition (47), cow protection (48), tribes</li>
+            <li><b>Liberal-Intellectual</b> — Uniform Civil Code (44), separation judiciary-executive (50), international peace (51)</li>
+          </ul>
+        </li>
+        <li><b>Important DPSPs to remember</b>:
+          <ul>
+            <li>Art 40 — Panchayats</li>
+            <li>Art 41 — Right to work, education, public assistance</li>
+            <li>Art 43 — Living wage</li>
+            <li>Art 43A — Workers' participation in management (42nd Amend)</li>
+            <li><b>Art 44 — Uniform Civil Code</b> (most discussed)</li>
+            <li>Art 45 — Free education (originally up to 14, modified by 86th Amend → now early childhood for 0-6)</li>
+            <li>Art 46 — SC/ST welfare</li>
+            <li>Art 47 — Prohibition, public health</li>
+            <li>Art 48A — Environment (42nd Amend)</li>
+            <li>Art 50 — Separation of judiciary from executive</li>
+            <li>Art 51 — International peace</li>
+          </ul>
+        </li>
+        <li><b>FR vs DPSP</b>:
+          <ul>
+            <li>FRs justiciable; DPSPs not</li>
+            <li>FRs from USA (Bill of Rights); DPSPs from Ireland</li>
+            <li>FRs political; DPSPs socio-economic</li>
+            <li>Conflict: <b>Minerva Mills case 1980</b> — balance both</li>
+          </ul>
+        </li>
+        <li><b>Fundamental Duties (Part IVA, Art 51A)</b>:
+          <ul>
+            <li>Added by <b>42nd Amendment 1976</b> (Swaran Singh Committee)</li>
+            <li>Originally 10; <b>11th added by 86th Amend 2002</b> (parents to provide education to children 6-14)</li>
+            <li>Inspired by <b>USSR Constitution</b></li>
+            <li>Not justiciable</li>
+          </ul>
+        </li>
+        <li><b>11 Fundamental Duties — quick list</b>: Abide by Constitution; cherish freedom ideals; protect sovereignty; defend country; promote brotherhood; preserve heritage; protect environment; develop scientific temper; safeguard public property; strive for excellence; provide education to child (11th)।</li>
+        <li><b>Trick — "Rights from USA, Duties from USSR, DPSPs from Ireland"</b>।</li>
+        <li><b>Story</b>: Constitution में 3 pillars — Fundamental Rights (हमें मिलते हैं), DPSPs (state को follow करने चाहिए), Fundamental Duties (हमारे कर्तव्य)। Rights court में enforce होते हैं; DPSPs और Duties नहीं। पर court ने धीरे-धीरे DPSPs को rights में पढ़ने लगी (e.g., Art 21 में environment, education, livelihood सब आ गए)।</li>
+      </ul>
     `,
     mcq: [
       { q: "DPSP is borrowed from?", opts: ["UK", "USA", "Ireland", "USSR"], a: 2, ex: "Ireland (Irish Constitution 1937)." },
@@ -1620,6 +2037,94 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Prime Minister and Council of Ministers</b> — the real executive.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>President of India — Article 52-78</b>। Constitutional head, real power CoM के पास।</li>
+        <li><b>Election (Art 54-55)</b>:
+          <ul>
+            <li><b>Electoral College</b>: Elected MPs (both Houses) + Elected MLAs (all states + UTs Delhi & Puducherry)</li>
+            <li>NOT included: Nominated MPs, Nominated MLAs, MLCs</li>
+            <li><b>Single Transferable Vote</b> with proportional representation</li>
+            <li>Value of MLA vote = (state population / no. of MLAs) ÷ 1000</li>
+            <li>Value of MP vote = total value of MLA votes ÷ total elected MPs</li>
+            <li>Secret ballot</li>
+          </ul>
+        </li>
+        <li><b>Qualifications (Art 58)</b>:
+          <ul>
+            <li>Indian citizen</li>
+            <li>35+ years</li>
+            <li>Eligible to be Lok Sabha member</li>
+            <li>Not holding office of profit (President, VP, Governor, Minister exempt)</li>
+          </ul>
+        </li>
+        <li><b>Term: 5 years</b> (Art 56); no limit on re-election (only Dr. Rajendra Prasad served 2 terms)।</li>
+        <li><b>Oath</b> — administered by <b>Chief Justice of India</b> (Art 60)। In CJI's absence — senior-most SC judge।</li>
+        <li><b>Salary (Art 59)</b>: ₹5 lakh/month currently; Schedule 2 में मिलती है।</li>
+        <li><b>Impeachment (Art 61)</b>:
+          <ul>
+            <li>Ground: <b>"Violation of Constitution"</b></li>
+            <li>14-day notice; signed by 1/4 members of initiating House</li>
+            <li><b>2/3 majority of total membership</b> of each House</li>
+            <li>Only quasi-judicial; both elected + nominated MPs participate (unlike election)</li>
+            <li><b>No President ever impeached in India</b></li>
+          </ul>
+        </li>
+        <li><b>Powers — 6 categories ("EFLDJD")</b>:
+          <ul>
+            <li><b>E</b>xecutive — appoint PM, CoM, Governors, judges, CAG, AG, Election Commissioners, Ambassadors</li>
+            <li><b>F</b>inancial — Money Bills only on his recommendation (Art 117); causes Annual Financial Statement (Budget) to be laid; Contingency Fund</li>
+            <li><b>L</b>egislative — summons & prorogues Parliament; dissolves LS; addresses joint session opening + 1st session each year; nominates 12 members to RS (literature, science, art, social service) + 2 Anglo-Indians to LS (removed 95th Amend 2019); promulgates Ordinances (Art 123) — duration max 6 weeks after Parliament sits</li>
+            <li><b>D</b>iplomatic — treaties, ambassadors</li>
+            <li><b>J</b>udicial — appoints CJI, SC/HC judges; pardoning power (Art 72): Pardon, Commutation, Remission, Respite, Reprieve = "<b>PCRRR</b>"</li>
+            <li><b>E</b>mergency — Art 352 (National), 356 (President's Rule), 360 (Financial)</li>
+          </ul>
+        </li>
+        <li><b>Veto Powers — "APSP"</b>:
+          <ul>
+            <li><b>A</b>bsolute Veto — withhold assent (used rarely; e.g., PEPSU Appropriation Bill 1954)</li>
+            <li><b>P</b>ocket Veto — keeps bill indefinitely (Zail Singh used on Postal Bill 1986)</li>
+            <li><b>S</b>uspensive Veto — returns bill once for reconsideration (overridden if passed again)</li>
+            <li>NO Qualified Veto (USA has)</li>
+            <li>NO veto on Money Bills (just assent or withhold)</li>
+            <li>NO veto on Constitutional Amendment Bills (since 24th Amend 1971)</li>
+          </ul>
+        </li>
+        <li><b>Pardoning power Art 72 — "PCRRR"</b>: Pardon, Commutation, Remission, Respite, Reprieve। Includes death sentence, court-martial, Union law cases।</li>
+        <li><b>List of Presidents — pehle 10 sabse important</b>:
+          <ol>
+            <li><b>Dr. Rajendra Prasad</b> (1950-62) — only 2-termer</li>
+            <li>Dr. S. Radhakrishnan (1962-67) — academician</li>
+            <li>Dr. Zakir Hussain (1967-69) — first Muslim; died in office</li>
+            <li>V.V. Giri (1969-74)</li>
+            <li>Fakhruddin Ali Ahmed (1974-77) — Emergency 1975; died in office</li>
+            <li>N. Sanjiva Reddy (1977-82) — only unopposed</li>
+            <li>Zail Singh (1982-87) — first Sikh; pocket veto</li>
+            <li>R. Venkataraman (1987-92)</li>
+            <li>Shankar Dayal Sharma (1992-97)</li>
+            <li>K.R. Narayanan (1997-2002) — first Dalit</li>
+            <li>A.P.J. Abdul Kalam (2002-07) — "Missile Man"</li>
+            <li>Pratibha Patil (2007-12) — <b>first woman</b></li>
+            <li>Pranab Mukherjee (2012-17)</li>
+            <li>Ram Nath Kovind (2017-22)</li>
+            <li>Droupadi Murmu (2022-) — <b>first tribal woman</b></li>
+          </ol>
+        </li>
+        <li><b>Famous Firsts</b>:
+          <ul>
+            <li>1st: Rajendra Prasad</li>
+            <li>1st Muslim: Zakir Hussain</li>
+            <li>1st Sikh: Zail Singh</li>
+            <li>1st Dalit: K.R. Narayanan</li>
+            <li>1st woman: Pratibha Patil</li>
+            <li>1st tribal: Droupadi Murmu</li>
+            <li>Youngest: Neelam Sanjiva Reddy (64)</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: President "Rubber stamp" कहा जाता है — पर actually उसका role bigger है (Ordinance, emergency, judge appointments, veto)। यदि PM की मौत हो जाए तो President को नया PM चुनना है। 1969 में Indira ने V.V. Giri को "conscience vote" से elect करवाया — Congress split। आज तक कोई impeachment नहीं — process इतना tough है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Minimum age to become President of India?", opts: ["25", "30", "35", "40"], a: 2, ex: "35 years; same as for VP." },
@@ -1821,6 +2326,91 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Parliament — Lok Sabha and Rajya Sabha</b> in detail.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Articles</b>: <b>74 + 75</b> (Council of Ministers); <b>78</b> (PM's duties)।</li>
+        <li><b>Article 74</b>: Council of Ministers (CoM) headed by PM <b>aid and advise President</b>। (42nd Amend made advice <b>binding</b>; 44th Amend allowed President to send back once)।</li>
+        <li><b>Article 75</b>:
+          <ul>
+            <li>PM appointed by President; other Ministers appointed by President on PM's advice</li>
+            <li>CoM collectively responsible to Lok Sabha</li>
+            <li>Ministers individually serve at President's pleasure (effectively PM's)</li>
+            <li><b>91st Amend 2003</b>: Total CoM size <b>≤ 15% of LS strength</b> (Centre); same for states</li>
+            <li>Disqualified MP cannot be Minister</li>
+          </ul>
+        </li>
+        <li><b>Article 78</b>: PM's duty to communicate Cabinet decisions to President। "PM = link between President and Cabinet"।</li>
+        <li><b>3 Tiers of CoM — "CMOM"</b>:
+          <ul>
+            <li><b>Cabinet Ministers</b> — top tier; head important ministries</li>
+            <li><b>Ministers of State (MoS)</b> — Independent Charge OR assisting Cabinet</li>
+            <li><b>Deputy Ministers</b> — assist higher ministers; no separate department</li>
+            <li>Sometimes "Parliamentary Secretary" — lowest rank</li>
+          </ul>
+        </li>
+        <li><b>Cabinet vs CoM</b>:
+          <ul>
+            <li>Cabinet = smaller subset (Cabinet Ministers only); takes real decisions</li>
+            <li>CoM = whole council (all ranks)</li>
+            <li>Cabinet word added in Constitution only by 44th Amend (Art 352)</li>
+          </ul>
+        </li>
+        <li><b>Cabinet Committees (not in Constitution)</b>:
+          <ul>
+            <li><b>CCS</b> — Cabinet Committee on Security (most powerful)</li>
+            <li><b>CCEA</b> — Economic Affairs</li>
+            <li><b>CCPA</b> — Political Affairs</li>
+            <li>CCAppt — Appointments</li>
+            <li>CCI — Investments</li>
+          </ul>
+        </li>
+        <li><b>PM's Roles</b>:
+          <ul>
+            <li>Head of Government (executive)</li>
+            <li>Leader of Cabinet — chairs Cabinet meetings</li>
+            <li>Chief advisor to President</li>
+            <li>Leader of LS (usually)</li>
+            <li>Leader of his party</li>
+            <li>Chairperson of NITI Aayog, NDC, Planning Commission earlier</li>
+            <li>Foreign affairs face</li>
+            <li>Crisis manager</li>
+          </ul>
+        </li>
+        <li><b>List of PMs — Quick chronology</b>:
+          <ol>
+            <li><b>Jawaharlal Nehru</b> (1947-64) — longest 16y 9m; died in office</li>
+            <li><b>Gulzarilal Nanda</b> (acting twice — after Nehru 1964, after Shastri 1966)</li>
+            <li><b>Lal Bahadur Shastri</b> (1964-66) — "Jai Jawan Jai Kisan"; Tashkent death</li>
+            <li><b>Indira Gandhi</b> (1966-77, 1980-84) — first woman PM; Emergency 1975; assassinated</li>
+            <li><b>Morarji Desai</b> (1977-79) — first non-Congress; oldest PM at 81</li>
+            <li>Charan Singh (1979-80) — never faced Parliament</li>
+            <li><b>Rajiv Gandhi</b> (1984-89) — youngest at 40</li>
+            <li>V.P. Singh (1989-90) — Mandal Commission</li>
+            <li>Chandra Shekhar (1990-91)</li>
+            <li><b>P.V. Narasimha Rao</b> (1991-96) — LPG reforms</li>
+            <li>Atal Bihari Vajpayee (1996, 13 days)</li>
+            <li>Deve Gowda (1996-97)</li>
+            <li>I.K. Gujral (1997-98)</li>
+            <li><b>Atal Bihari Vajpayee</b> (1998-2004) — Pokhran II, Kargil</li>
+            <li><b>Manmohan Singh</b> (2004-14) — first Sikh PM, only PM not to be LS member during PMship (was RS)</li>
+            <li><b>Narendra Modi</b> (2014-) — Demonetisation 2016, GST 2017</li>
+          </ol>
+        </li>
+        <li><b>Important "Firsts"</b>:
+          <ul>
+            <li>1st PM: Nehru</li>
+            <li>1st woman PM: Indira Gandhi</li>
+            <li>1st non-Congress PM: Morarji Desai</li>
+            <li>1st Sikh PM: Manmohan Singh</li>
+            <li>Youngest PM: Rajiv Gandhi (40)</li>
+            <li>Only PM to never face Parliament: Charan Singh</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Article 74-75 = Power"</b>: 74 (advise President), 75 (form government)। Add 78 (PM's role)।</li>
+        <li><b>Story</b>: PM = real executive head; President = constitutional head। Nehru ने 17 साल continuous राज किया, Indira ने Emergency में autocratic रूप दिखाया। Manmohan ने 1991 में LPG से economy खोली, Modi ने GST + Demonetisation किए। हर PM Cabinet चलाता है, और जब तक LS में majority है — सरकार चलती है।</li>
+      </ul>
     `,
     mcq: [
       { q: "PM is appointed by?", opts: ["Lok Sabha", "President", "Election", "CJI"], a: 1, ex: "Article 75 — President appoints PM (convention: leader of majority in LS)." },
@@ -2133,6 +2723,104 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Supreme Court & Indian Judiciary</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Parliament = President + Lok Sabha + Rajya Sabha</b> (Art 79)। India = bicameral।</li>
+        <li><b>Rajya Sabha (Council of States)</b>:
+          <ul>
+            <li><b>Max strength 250</b>: 238 elected + 12 nominated by President</li>
+            <li>Currently 245 members</li>
+            <li><b>Indirectly elected</b> by State legislatures (single transferable vote, proportional representation)</li>
+            <li>Chairman: <b>Vice-President of India</b> (ex-officio)</li>
+            <li>Deputy Chairman: elected from among members</li>
+            <li><b>Permanent body</b> — never dissolved; 1/3 retire every 2 yrs</li>
+            <li>Term: 6 years</li>
+            <li>Qualification: 30+ years</li>
+            <li>4th Schedule = seat allocation</li>
+          </ul>
+        </li>
+        <li><b>Lok Sabha (House of People)</b>:
+          <ul>
+            <li><b>Max strength 552</b>: 530 from states + 20 from UTs + 2 Anglo-Indians (Anglo-Indian nomination ABOLISHED by 104th Amend 2019)</li>
+            <li>Currently 543 elected seats</li>
+            <li><b>Directly elected</b> by people (universal adult franchise, 18+ years)</li>
+            <li>Speaker: elected from among members</li>
+            <li><b>5-year term</b>; can be dissolved early</li>
+            <li>During Emergency — extended 1 year at a time</li>
+            <li>Qualification: 25+ years</li>
+            <li>Money bills originate here only</li>
+          </ul>
+        </li>
+        <li><b>Powers — RS vs LS</b>:
+          <ul>
+            <li><b>Equal</b>: Constitutional Amendment, election of President/VP, removal of judges</li>
+            <li><b>Only LS</b>: Money Bill, Confidence/No-confidence, Budget passing</li>
+            <li><b>Only RS</b>: Art 249 (declare state subject of national importance), Art 312 (create new All-India Service)</li>
+            <li><b>Joint sitting</b> (Art 108) — for ordinary bills; called by President; chaired by LS Speaker — only 3 times: 1961, 1978, 2002</li>
+          </ul>
+        </li>
+        <li><b>Types of Bills</b>:
+          <ul>
+            <li><b>Ordinary</b> — by either House; joint sitting possible</li>
+            <li><b>Money Bill (Art 110)</b> — LS only; RS gives recommendations within 14 days; Speaker decides what's Money Bill; President's prior recommendation needed</li>
+            <li><b>Financial Bill</b> — broader; Type-I (President recommendation), Type-II</li>
+            <li><b>Constitutional Amendment Bill (Art 368)</b> — 3 types; <b>2/3 majority</b> needed; some need ratification by half states</li>
+          </ul>
+        </li>
+        <li><b>Parliamentary Committees</b>:
+          <ul>
+            <li><b>Standing</b> — permanent</li>
+            <li><b>Financial</b>: PAC, Estimates, Public Undertakings</li>
+            <li><b>Departmental Standing Committees</b> — 24 currently</li>
+            <li><b>Public Accounts Committee (PAC)</b> — 22 members (15 LS + 7 RS); Chair = Opposition; CAG report reviewed</li>
+            <li>Estimates Committee — 30 LS only; PAC opposition rare counter</li>
+            <li>Public Undertakings — PSU oversight</li>
+            <li>Business Advisory, Privileges, Rules</li>
+            <li>Adhoc committees — Select, Joint Parliamentary Committees</li>
+          </ul>
+        </li>
+        <li><b>Sessions of Parliament — 3 per year</b>:
+          <ul>
+            <li><b>Budget Session</b> (Feb-May)</li>
+            <li><b>Monsoon Session</b> (Jul-Aug)</li>
+            <li><b>Winter Session</b> (Nov-Dec)</li>
+            <li>Gap between 2 sessions ≤ 6 months (Art 85)</li>
+          </ul>
+        </li>
+        <li><b>Important Terms</b>:
+          <ul>
+            <li><b>Quorum</b> — minimum members needed = 1/10 of total</li>
+            <li><b>Question Hour</b> — 11am-12pm; Star (oral), Unstar (written), Short Notice</li>
+            <li><b>Zero Hour</b> — 12pm-1pm; not in rules, Indian innovation</li>
+            <li><b>Adjournment Motion</b> — urgent matter of public importance</li>
+            <li><b>Calling Attention Motion</b> — Indian innovation</li>
+            <li><b>Censure Motion</b> — against govt/minister</li>
+            <li><b>No-confidence Motion</b> — leads to govt fall if passed</li>
+          </ul>
+        </li>
+        <li><b>Speaker — Lok Sabha</b>:
+          <ul>
+            <li>Elected from LS members (1st sitting after election)</li>
+            <li>Decides Money Bill status; Anti-defection cases</li>
+            <li>Conducts joint sittings</li>
+            <li>Casting vote in tie</li>
+            <li>First Speaker: G.V. Mavalankar; First woman: Meira Kumar (2009-14)</li>
+            <li>Pro tem speaker — appointed by President; senior-most for swearing-in</li>
+          </ul>
+        </li>
+        <li><b>Anti-defection Law (10th Schedule, 52nd Amend 1985)</b>:
+          <ul>
+            <li>Member defects = disqualified</li>
+            <li>2/3 of party can merge — no disqualification</li>
+            <li>Speaker decides; cases reviewable by court</li>
+            <li>91st Amend 2003 — removed exception for 1/3 split</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: "<b>RS = 250 max, LS = 552 max</b>"। "<b>Money bill = LS only, Joint sitting only 3 times</b>"।</li>
+        <li><b>Story</b>: Parliament = सर्वोच्च law-making body। LS में जनता elect करती है, RS में राज्य। Speaker LS में सबसे important officer। Anti-defection law 1985 में आया क्योंकि "Aaya Ram Gaya Ram" politics से सरकार unstable होती थी। Joint sittings (Art 108) सिर्फ़ 3 बार ही हुए हैं — दुर्लभ event।</li>
+      </ul>
     `,
     mcq: [
       { q: "Article 79 says Parliament consists of?", opts: ["LS only", "LS + RS", "President + LS + RS", "President + Cabinet"], a: 2, ex: "President + Lok Sabha + Rajya Sabha." },
@@ -2390,6 +3078,94 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>State Government — Governor, CM & Legislature</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Supreme Court (Art 124-147)</b>:
+          <ul>
+            <li>Established <b>28 January 1950</b> (replaced Federal Court 1937 + Privy Council)</li>
+            <li>Original strength: 1 CJI + 7 judges. Current: <b>1 CJI + 33 judges = 34 total</b> (since 2019)</li>
+            <li>Seat: <b>Delhi</b>; CJI can call sittings elsewhere with President's approval</li>
+            <li>Qualifications: Indian citizen + High Court judge for 5 yrs OR HC advocate for 10 yrs OR distinguished jurist (in President's opinion)</li>
+            <li>Tenure: <b>retire at 65 years</b>; can resign or be removed</li>
+          </ul>
+        </li>
+        <li><b>Appointment & Collegium</b>:
+          <ul>
+            <li>CJI appointed by President</li>
+            <li>Other SC judges = President in consultation with CJI</li>
+            <li><b>Collegium</b> = CJI + 4 senior-most judges (recommend appointments)</li>
+            <li>NJAC (99th Amend 2014) struck down 2015 — collegium retained</li>
+          </ul>
+        </li>
+        <li><b>Removal (Art 124(4))</b>:
+          <ul>
+            <li>Grounds: "Proved misbehaviour" OR "Incapacity"</li>
+            <li>Notice signed by 100 LS or 50 RS members</li>
+            <li><b>2/3 majority of present + voting AND majority of total membership</b> in each House</li>
+            <li>President removes after both Houses address</li>
+            <li>Process called "<b>impeachment</b>"</li>
+            <li>No SC judge ever removed (Justice V. Ramaswami case 1993 came closest)</li>
+          </ul>
+        </li>
+        <li><b>SC Jurisdictions — "OAA-WAR-CCJ"</b>:
+          <ul>
+            <li><b>O</b>riginal (Art 131) — Centre-State or inter-State disputes</li>
+            <li><b>A</b>ppellate — Civil, Criminal, Constitutional appeals</li>
+            <li><b>A</b>dvisory (Art 143) — President consults SC (not binding)</li>
+            <li><b>W</b>rit (Art 32) — for Fundamental Rights only</li>
+            <li><b>A</b>ppointing power for HC judges (Collegium)</li>
+            <li><b>R</b>eview & Curative — own judgments</li>
+            <li><b>C</b>ontempt of court</li>
+            <li><b>C</b>ourt of Record</li>
+            <li><b>J</b>udicial Review</li>
+          </ul>
+        </li>
+        <li><b>High Courts (Art 214-231)</b>:
+          <ul>
+            <li>1 HC per state, but can be common (e.g., Punjab + Haryana + Chandigarh)</li>
+            <li>Currently <b>25 HCs in India</b></li>
+            <li>Oldest: Calcutta HC (1862), then Bombay & Madras same year</li>
+            <li>Latest: Andhra Pradesh (Jan 2019), Telangana (Jan 2019)</li>
+            <li>Retire at <b>62 years</b> (compared to 65 in SC)</li>
+            <li>Qualification: Indian citizen + judicial office for 10 yrs OR HC advocate for 10 yrs</li>
+            <li><b>Art 226 writs</b> — broader than Art 32 (any rights, not just FRs)</li>
+          </ul>
+        </li>
+        <li><b>Judicial Review</b>:
+          <ul>
+            <li>Courts can declare laws/executive action unconstitutional</li>
+            <li>Basis: Art 13 — laws inconsistent with FRs are void</li>
+            <li>SC can review constitutional validity of laws + amendments (Kesavananda Bharati 1973 — Basic Structure doctrine)</li>
+          </ul>
+        </li>
+        <li><b>Basic Structure Doctrine</b>:
+          <ul>
+            <li>Established in <b>Kesavananda Bharati case 1973</b> (7:6 majority)</li>
+            <li>Parliament can amend Constitution BUT cannot alter "basic structure"</li>
+            <li>Examples of basic structure: Supremacy of Constitution, Republican form, Secular character, Separation of powers, Federal character, Unity of nation, Welfare state, Judicial review, Free elections, Rule of law, Fundamental Rights</li>
+          </ul>
+        </li>
+        <li><b>Landmark Cases</b>:
+          <ul>
+            <li><b>Golaknath 1967</b> — Parliament cannot amend FRs (overruled)</li>
+            <li><b>Kesavananda Bharati 1973</b> — Basic Structure doctrine</li>
+            <li><b>Indira Nehru Gandhi 1975</b> — Election case; struck down 39th Amend</li>
+            <li><b>Minerva Mills 1980</b> — Limited Parliament's amending power; FR + DPSP balance</li>
+            <li><b>Maneka Gandhi 1978</b> — Art 21 expanded (procedure must be "just, fair, reasonable")</li>
+            <li><b>SR Bommai 1994</b> — limits on Art 356 (President's Rule)</li>
+            <li><b>Vishaka 1997</b> — sexual harassment guidelines</li>
+            <li><b>Puttaswamy 2017</b> — Right to Privacy = FR under Art 21</li>
+            <li><b>Sabarimala 2018</b> — women's entry</li>
+            <li><b>Navtej Singh Johar 2018</b> — decriminalised Sec 377 (LGBTQ)</li>
+          </ul>
+        </li>
+        <li><b>Public Interest Litigation (PIL)</b> — pioneer Justice P.N. Bhagwati and V.R. Krishna Iyer (1980s)। Loose locus standi — anyone can file।</li>
+        <li><b>Trick — Court Hierarchy</b>: Supreme Court → High Courts → District Courts (Sessions, Civil) → Lower Courts (Magistrates, Munsifs)। 4 tiers।</li>
+        <li><b>Famous CJIs</b>: H.J. Kania (1st), M. Patanjali Sastri (2nd), Y.V. Chandrachud (longest term 1978-85), Leila Seth (first woman HC CJ), Fathima Beevi (first woman SC judge 1989)। (No woman CJI yet as of 2024)।</li>
+        <li><b>Story</b>: SC India का guardian of Constitution। 1973 के Kesavananda case ने Parliament को रोका कि वो Constitution का basic structure नहीं बदल सकती। 1976-77 Emergency में judiciary की बहुत criticism हुई (ADM Jabalpur case)। पर बाद में PIL, Right to Privacy, decriminalization of Section 377 — सब judiciary की activism से। आज SC में 34 judges, 1 CJI, retire at 65।</li>
+      </ul>
     `,
     mcq: [
       { q: "Supreme Court was inaugurated on?", opts: ["15 August 1947", "26 November 1949", "26 January 1950 (Republic Day)", "28 January 1950"], a: 2, ex: "26 January 1950 — same day as Constitution came into force; replaced Federal Court (1937)." },
@@ -2672,6 +3448,94 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Local self-government — Panchayati Raj and Municipalities</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Governor (Art 153-162)</b>:
+          <ul>
+            <li>Constitutional head of state (like President at Centre)</li>
+            <li>Appointed by President (Art 155); 5-year term but at President's pleasure</li>
+            <li>Qualifications: Indian citizen, 35+ years</li>
+            <li>Salary: ₹3.5 lakh/month</li>
+            <li>One Governor can serve multiple states (e.g., NE)</li>
+            <li>Powers similar to President — executive, legislative, financial, judicial (limited), pardoning (Art 161 — NOT death sentence, NOT court-martial)</li>
+            <li><b>Discretionary powers</b>: Art 356 (recommend President's Rule); reservation of bills for President; appointment of CM in hung assembly</li>
+          </ul>
+        </li>
+        <li><b>Trick — Governor vs President</b>:
+          <ul>
+            <li>Both constitutional heads</li>
+            <li>President's pardoning power broader (death sentence, court-martial, Union law)</li>
+            <li>Governor's pardoning power limited (state law, not death sentence)</li>
+            <li>Governor has more discretionary powers</li>
+          </ul>
+        </li>
+        <li><b>Chief Minister (Art 163-164)</b>:
+          <ul>
+            <li>Real head of state government</li>
+            <li>Appointed by Governor; usually leader of majority party</li>
+            <li>Term: as long as has majority in Legislative Assembly</li>
+            <li>Council of Ministers size ≤ 15% of LA strength (91st Amend); minimum 12</li>
+            <li>Collectively responsible to LA</li>
+          </ul>
+        </li>
+        <li><b>State Legislature</b>:
+          <ul>
+            <li><b>Legislative Assembly (Vidhan Sabha)</b>: directly elected; 5-year term; max 500, min 60 members; Speaker presides; money bills here only</li>
+            <li><b>Legislative Council (Vidhan Parishad)</b> — only 6 states: <b>UP, Bihar, Maharashtra, Karnataka, AP, Telangana</b>। Trick: "<b>UBM-KAT</b>" (UP, Bihar, Maha, Karna, AP, Tel)</li>
+            <li>VC indirectly elected (1/3 by local bodies, 1/3 by MLAs, 1/12 by graduates, 1/12 by teachers, 1/6 nominated by Governor)</li>
+            <li>VC creation/abolition: state legislature special majority + Parliament law</li>
+            <li>Max VC size = 1/3 of LA; min 40</li>
+          </ul>
+        </li>
+        <li><b>State High Court (Art 214-231)</b>:
+          <ul>
+            <li>Judges retire at 62</li>
+            <li>Appointment: President + CJI + Governor + Chief Justice of HC consultation</li>
+            <li>Writ jurisdiction Art 226 — broader than SC's Art 32</li>
+          </ul>
+        </li>
+        <li><b>Centre-State Relations — 3 lists (Schedule 7)</b>:
+          <ul>
+            <li><b>Union List</b> — 97 subjects (defence, foreign affairs, currency, atomic, railways, posts)</li>
+            <li><b>State List</b> — 66 subjects (police, public order, public health, agriculture, local govt)</li>
+            <li><b>Concurrent List</b> — 47 subjects (criminal law, marriage, education — was state till 42nd Amend, forests, weights)</li>
+            <li>Residuary powers — Centre (Art 248)</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: "Union = 97, State = 66, Concurrent = 47" = "97-66-47"। Total ~210 items।</li>
+        <li><b>Centre's control over states</b>:
+          <ul>
+            <li>Article 256-263 — administrative relations</li>
+            <li>Article 268-281 — financial relations</li>
+            <li>Article 352 — National Emergency</li>
+            <li>Article 356 — President's Rule (state emergency)</li>
+            <li>Article 360 — Financial Emergency</li>
+            <li>All India Services (IAS, IPS, IFS) — Centre creates, state employs</li>
+          </ul>
+        </li>
+        <li><b>President's Rule (Art 356)</b>:
+          <ul>
+            <li>When state govt unable to function as per Constitution</li>
+            <li>Initial 6 months; extendable up to 3 years (with Parliament's approval each 6 months)</li>
+            <li>State Legislative Assembly dissolved or suspended</li>
+            <li>Governor administers on behalf of President</li>
+            <li><b>SR Bommai case 1994</b> — strict scrutiny; misused 100+ times</li>
+            <li>Most abused: Article 356 by Centre against opposition states</li>
+          </ul>
+        </li>
+        <li><b>Article 370 — J&K Special Status</b>:
+          <ul>
+            <li>Originally gave J&K autonomy</li>
+            <li><b>Abrogated 5 August 2019</b> by Modi government</li>
+            <li>J&K bifurcated into 2 UTs: <b>Jammu & Kashmir + Ladakh</b> (31 Oct 2019)</li>
+            <li>Reorganization Act 2019</li>
+          </ul>
+        </li>
+        <li><b>Special Category States</b>: NE states + 3 others (originally Jammu-Kashmir-Himachal-Uttarakhand + Sikkim etc.)। Now no special category — replaced by 14th FC recommendations।</li>
+        <li><b>Story</b>: India = federal भले हो पर strong-centre (unitary bias)। राज्यों के पास apna CM, Cabinet, Vidhan Sabha। पर Centre हमेशा control में — President's Rule (Art 356), Governor (Centre's representative), 3 lists में Union की powers ज़्यादा। 2019 में Article 370 हटाकर J&K की autonomy छिनी। आजकल federal cooperation vs Centre-state tensions बढ़ रहे हैं।</li>
+      </ul>
     `,
     mcq: [
       { q: "Governor is appointed by?", opts: ["State Legislature", "President of India", "Cabinet", "PM"], a: 1, ex: "Article 155 — appointed by President; can be removed at his pleasure." },
@@ -2849,6 +3713,73 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Emergency Provisions</b> — Articles 352–360.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>2 Big Amendments</b>:
+          <ul>
+            <li><b>73rd Amendment 1992</b> — <b>Panchayats</b> (Part IX, Articles 243-243O, 11th Schedule)</li>
+            <li><b>74th Amendment 1992</b> — <b>Municipalities</b> (Part IXA, Articles 243P-243ZG, 12th Schedule)</li>
+            <li>Both effective <b>24 April 1993</b> (National Panchayati Raj Day) and 1 June 1993 (Municipalities Day)</li>
+          </ul>
+        </li>
+        <li><b>Panchayati Raj — 3 tiers</b>:
+          <ul>
+            <li><b>Gram Panchayat</b> — village level (head: Sarpanch / Pradhan)</li>
+            <li><b>Panchayat Samiti / Block Panchayat</b> — intermediate (head: Pramukh)</li>
+            <li><b>Zila Parishad</b> — district level (head: Adhyaksha)</li>
+          </ul>
+        </li>
+        <li><b>Below 20 lakh population states</b> — can skip middle tier (2-tier)।</li>
+        <li><b>Committees on Local Govt — "B-A-S-T"</b>:
+          <ul>
+            <li><b>Balwantrai Mehta Committee 1957</b> — recommended 3-tier Panchayati Raj। Implemented first in <b>Rajasthan (Nagaur, 2 Oct 1959)</b>।</li>
+            <li><b>Ashok Mehta Committee 1977</b> — 2-tier; lowered minimum population, included political parties</li>
+            <li><b>G.V.K. Rao 1985</b> — strengthen Zila Parishad</li>
+            <li><b>L.M. Singhvi 1986</b> — constitutional status (led to 73rd Amend)</li>
+            <li><b>Thungon Committee</b> — district planning</li>
+          </ul>
+        </li>
+        <li><b>Mandatory provisions (73rd Amend)</b>:
+          <ul>
+            <li><b>3-tier system</b> for states &gt; 20 lakh population</li>
+            <li><b>Reservations</b>: SC/ST proportional; <b>women 1/3</b> (now 50% in many states by amendment)</li>
+            <li>5-year term</li>
+            <li><b>Gram Sabha</b> — body of all voters in a village</li>
+            <li><b>State Election Commission</b> for panchayat elections</li>
+            <li><b>State Finance Commission</b> every 5 years</li>
+            <li>Direct election to all 3 tiers</li>
+            <li>Indirect elections for chairpersons of intermediate + district level</li>
+            <li>Direct election of chairperson only at village level (state's choice)</li>
+          </ul>
+        </li>
+        <li><b>11th Schedule — 29 subjects</b> (Panchayat functions): Agriculture, Land reforms, Animal husbandry, Fisheries, Forestry, Khadi, Roads, Drinking water, Health, Family welfare, Women & Child, Welfare of SC/ST, Public distribution, Social welfare, etc.</li>
+        <li><b>74th Amendment — Municipalities</b>:
+          <ul>
+            <li><b>3 types of Urban Local Bodies</b>:
+              <ul>
+                <li><b>Nagar Panchayat</b> — transitional area (rural→urban)</li>
+                <li><b>Municipal Council</b> — small urban area</li>
+                <li><b>Municipal Corporation</b> — large urban area (Mumbai, Delhi, Kolkata, Chennai, etc.)</li>
+              </ul>
+            </li>
+            <li>Same reservations as panchayats</li>
+            <li>5-year term</li>
+            <li><b>Mayor</b> = head of Corporation; <b>Chairperson</b> for Councils</li>
+            <li><b>Ward Committee</b> for areas with 3 lakh+ population</li>
+          </ul>
+        </li>
+        <li><b>12th Schedule — 18 subjects</b> (Municipal functions): Urban planning, Land use, Roads, Water supply, Public health, Fire services, Slums, Poverty alleviation, etc.</li>
+        <li><b>Trick — Schedules link</b>:
+          <ul>
+            <li>11th Schedule = Panchayat = <b>29 subjects</b>; added by 73rd Amend</li>
+            <li>12th Schedule = Municipality = <b>18 subjects</b>; added by 74th Amend</li>
+          </ul>
+        </li>
+        <li><b>Trick — Article range</b>: "243 series" = local govt। Art 243 = definitions; A-O = Panchayats; P-ZG = Municipalities।</li>
+        <li><b>Story</b>: Gandhi का सपना था "<b>Gram Swaraj</b>" — village self-government। पर लंबे समय तक Panchayats सिर्फ़ DPSP (Art 40) में थे। Balwantrai Mehta committee 1957 ने 3-tier system suggest किया (Rajasthan में first 1959)। 35 साल बाद 73rd-74th Amendments (1992) ने इन्हें constitutional status दिया — अब हर 5 साल panchayat-municipal elections होते हैं, women को 33%+ reservation है, और रोज़ की governance लोगों के पास है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Father of Local Self-Government in India?", opts: ["Lord Curzon", "Lord Ripon (1882)", "Lord Mayo", "Lord Dalhousie"], a: 1, ex: "Lord Ripon's Resolution of 1882 popularized local self-government." },
@@ -3034,6 +3965,70 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Important Constitutional Amendments</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Types of Emergency — "NPF" (Art 352, 356, 360)</b>:
+          <ul>
+            <li><b>N</b>ational Emergency (Art 352) — war, external aggression, armed rebellion</li>
+            <li><b>P</b>resident's Rule / State Emergency (Art 356)</li>
+            <li><b>F</b>inancial Emergency (Art 360)</li>
+          </ul>
+        </li>
+        <li><b>Article 352 — National Emergency</b>:
+          <ul>
+            <li>Grounds: <b>war, external aggression, armed rebellion</b> (originally "internal disturbance" — changed to armed rebellion by 44th Amend 1978)</li>
+            <li>Proclamation by President <b>only on written advice of Cabinet</b> (44th Amend)</li>
+            <li>Must be approved by both Houses with <b>special majority</b> (2/3 of present + voting + majority of total) within <b>1 month</b></li>
+            <li>Initial period: 6 months; can be extended by 6 months at a time</li>
+            <li>FRs under Art 19 automatically suspended (during war/external aggression only — 44th Amend)</li>
+            <li>Other FRs can be suspended via Art 359 (except Art 20 + 21 — non-suspendable per 44th Amend)</li>
+            <li>Centre acquires legislative power over State List</li>
+            <li>LS term extended 1 year at a time</li>
+          </ul>
+        </li>
+        <li><b>Emergency Imposed in India — 3 times</b>:
+          <ul>
+            <li><b>1962-68</b> — China war (external aggression)</li>
+            <li><b>1971-77</b> — Pakistan war + continued (war + internal disturbance)</li>
+            <li><b>1975-77</b> — <b>"The Emergency"</b> by <b>Indira Gandhi</b> (internal disturbance); 21-month dark period; Press censorship; Sanjay Gandhi's forced sterilizations; Article 19, 22 suspended; opposition jailed; ADM Jabalpur case (right to life suspended); Janata won 1977 election</li>
+          </ul>
+        </li>
+        <li><b>44th Amendment 1978 (post-Emergency reforms)</b>:
+          <ul>
+            <li>Changed "internal disturbance" → "armed rebellion"</li>
+            <li>Cabinet's written advice mandatory</li>
+            <li>1 month parliamentary approval (was 2 months)</li>
+            <li>Approval by special majority (was simple)</li>
+            <li>Art 20-21 cannot be suspended</li>
+            <li>Right to Property removed from FR → Art 300A</li>
+            <li>LS term back to 5 years (was extended to 6 by 42nd)</li>
+          </ul>
+        </li>
+        <li><b>Article 356 — President's Rule</b>:
+          <ul>
+            <li>Grounds: state govt cannot function as per Constitution</li>
+            <li>Recommended by Governor or President's own assessment</li>
+            <li>Approved by Parliament with simple majority within 2 months</li>
+            <li>Initial 6 months; extendable up to 3 years (only with extreme conditions after 1 year)</li>
+            <li>Used 100+ times (most abused article)</li>
+            <li><b>SR Bommai case 1994</b> — strict scrutiny, judicial review allowed</li>
+          </ul>
+        </li>
+        <li><b>Article 360 — Financial Emergency</b>:
+          <ul>
+            <li>Grounds: financial stability/credit threatened</li>
+            <li>Never invoked in India</li>
+            <li>Government salaries can be reduced (including SC/HC judges)</li>
+            <li>State money bills reserved for President</li>
+          </ul>
+        </li>
+        <li><b>Most Abused Article in India</b> = Article 356। Used ~125+ times in independent India।</li>
+        <li><b>Trick — "352 = National, 356 = State, 360 = Financial"</b>। "52-56-60 sequence"।</li>
+        <li><b>Why 44th Amend important?</b>: Post-Emergency safeguards — कोई PM दोबारा 1975 जैसी emergency न कर पाए। "Internal disturbance" → "armed rebellion" बहुत narrow ground।</li>
+        <li><b>Story</b>: 25 June 1975 की रात Indira Gandhi ने Emergency declare की (Raj Narain case में Allahabad HC ने उनकी election void की थी)। 21 महीने भारत में autocracy — press censorship, jail सब। Janata Party ने 1977 election में Indira को हराया। फिर 1978 में 44th Amend से Emergency को बहुत मुश्किल बना दिया — आज वैसी Emergency दोबारा करना almost impossible।</li>
+      </ul>
     `,
     mcq: [
       { q: "Emergency provisions are borrowed from?", opts: ["UK", "USA", "Weimar Germany", "Ireland"], a: 2, ex: "Weimar Constitution of Germany." },
@@ -3164,6 +4159,70 @@
 
       <h3>Looking Ahead</h3>
       <p>Final Polity topic: <b>Constitutional and Statutory Bodies</b> — UPSC, EC, CAG, Finance Commission, NCSC, NCST, etc.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Amendment Procedure — Article 368</b> — <b>3 types</b>:
+          <ul>
+            <li><b>Type 1 (Simple Majority)</b> — Parts of Constitution can be changed by simple majority (e.g., creation of new states, citizenship changes)</li>
+            <li><b>Type 2 (Special Majority of Parliament)</b> — most amendments; needs 2/3 of present + voting AND majority of total membership in each House</li>
+            <li><b>Type 3 (Special Majority + State Ratification)</b> — federal provisions; needs Type 2 + ratification by 1/2 of state legislatures (e.g., President election, SC/HC matters, GST, distribution of powers)</li>
+          </ul>
+        </li>
+        <li><b>Total Amendments till 2024 — 106+</b>।</li>
+        <li><b>Most Important Amendments — "Must Memorize"</b>:
+          <ul>
+            <li><b>1st (1951)</b> — Added 9th Schedule; Art 31A, 31B; protected land reforms</li>
+            <li><b>7th (1956)</b> — States Reorganization; abolished Part B States</li>
+            <li><b>9th (1960)</b> — India-Pakistan ceding territory</li>
+            <li><b>10th (1961)</b> — Dadra & Nagar Haveli</li>
+            <li><b>14th (1962)</b> — Pondicherry</li>
+            <li><b>15th (1963)</b> — HC judges retire at 62 (was 60)</li>
+            <li><b>21st (1967)</b> — Sindhi added to 8th Schedule (1st language added)</li>
+            <li><b>24th (1971)</b> — Parliament can amend any part of Constitution (after Golaknath)</li>
+            <li><b>26th (1971)</b> — Abolished privy purses</li>
+            <li><b>31st (1973)</b> — Lok Sabha 525 → 545</li>
+            <li><b>36th (1975)</b> — Sikkim became state</li>
+            <li><b>39th (1975)</b> — Emergency-era; PM election outside courts (struck down 1975)</li>
+            <li><b>42nd (1976)</b> — <b>"Mini-Constitution"</b>; added Fundamental Duties; Preamble: SOCIALIST, SECULAR, INTEGRITY; DPSP additions; transferred Education + Forests to Concurrent; restricted judicial review</li>
+            <li><b>44th (1978)</b> — Post-Emergency safeguards; "armed rebellion"; Art 20-21 non-suspendable; removed Right to Property from FR; LS back to 5 yrs</li>
+            <li><b>52nd (1985)</b> — Anti-Defection Law (10th Schedule)</li>
+            <li><b>61st (1989)</b> — Voting age 21 → 18</li>
+            <li><b>69th (1991)</b> — Delhi = NCT; Delhi Legislative Assembly</li>
+            <li><b>71st (1992)</b> — Konkani, Manipuri, Nepali added to 8th Schedule</li>
+            <li><b>73rd (1992)</b> — Panchayats (Part IX, 11th Schedule)</li>
+            <li><b>74th (1992)</b> — Municipalities (Part IXA, 12th Schedule)</li>
+            <li><b>86th (2002)</b> — Right to Education (Art 21A); modified Art 45; added 11th Fundamental Duty</li>
+            <li><b>91st (2003)</b> — CoM ≤ 15% of LS/LA; tightened anti-defection</li>
+            <li><b>92nd (2003)</b> — 4 languages added: Bodo, Dogri, Maithili, Santhali</li>
+            <li><b>97th (2011)</b> — Cooperative Societies (Part IXB)</li>
+            <li><b>99th (2014)</b> — NJAC (struck down 2015)</li>
+            <li><b>100th (2015)</b> — India-Bangladesh land boundary</li>
+            <li><b>101st (2016)</b> — <b>GST</b> (Art 246A, 269A, 279A)</li>
+            <li><b>102nd (2018)</b> — NCBC constitutional status (Art 338B)</li>
+            <li><b>103rd (2019)</b> — 10% EWS reservation</li>
+            <li><b>104th (2019)</b> — Anglo-Indian nomination removed; SC/ST reservation in legislature extended</li>
+            <li><b>105th (2021)</b> — State power to identify OBCs restored</li>
+            <li><b>106th (2023)</b> — <b>33% women's reservation</b> in LS + State Assemblies (Nari Shakti Vandan Adhiniyam)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "1st = 9th Schedule, 42nd = Mini-Constitution, 44th = Post-Emergency, 52nd = Anti-defection, 61st = 18 yrs, 73-74 = Local govt, 86th = RTE, 101st = GST, 103rd = EWS, 106th = Women"</b>।</li>
+        <li><b>42nd Amend additions (key)</b>:
+          <ul>
+            <li>"Socialist, Secular, Integrity" in Preamble</li>
+            <li>Fundamental Duties (Part IVA)</li>
+            <li>Tribunal Part (XIVA)</li>
+            <li>Education, Forests → Concurrent List</li>
+            <li>3 new DPSPs (39A, 43A, 48A)</li>
+            <li>LS term 5 → 6 yrs (reversed by 44th)</li>
+            <li>Curtailed judicial review</li>
+          </ul>
+        </li>
+        <li><b>Trick — "42 भारी, 44 भारी सुधार"</b>: 42nd worst amendments, 44th reformed those।</li>
+        <li><b>Basic Structure Doctrine</b>: Parliament can amend BUT cannot change "basic structure" (Kesavananda 1973)। 42nd में जो clauses basic structure violate करते थे — Minerva Mills 1980 में struck down।</li>
+        <li><b>Story</b>: हर 1-2 साल में amendment होती है — सबसे bad 1976 का 42nd (Emergency में), सबसे important 73rd-74th (local govt 1992), recent 101st (GST 2016), 103rd (EWS 2019), 106th (Women's reservation 2023)। Original 1949 का Constitution आज bahut बदल चुका है — पर "basic structure" same है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Constitutional amendments are governed by?", opts: ["Article 124", "Article 356", "Article 368", "Article 370"], a: 2, ex: "Article 368." },
@@ -3415,6 +4474,75 @@
 
       <h3>Looking Ahead</h3>
       <p>This concludes the Indian Polity section. Next subjects ahead — Geography, Economy, Science, Static GK — whenever you choose.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Constitutional Bodies — directly in Constitution — "EFAUCS"</b>:
+          <ul>
+            <li><b>Election Commission of India (ECI)</b> — Art 324; CEC + 2 ECs; appointed by President; tenure 6 yrs or 65; first CEC Sukumar Sen 1950; CEC removed like SC judge</li>
+            <li><b>Finance Commission</b> — Art 280; every 5 yrs; Centre-State tax distribution; 16th FC = Arvind Panagariya for 2026-31</li>
+            <li><b>Attorney General (AG)</b> — Art 76; highest law officer; appointed by President; serves at President's pleasure; current K.K. Venugopal/R. Venkataramani</li>
+            <li><b>UPSC + State PSCs</b> — Art 315-323; recruit civil services</li>
+            <li><b>CAG (Comptroller and Auditor General)</b> — Art 148; "Guardian of public purse"; 6 yrs or 65; current Girish Chandra Murmu</li>
+            <li><b>SC/ST Commissions</b> — Art 338, 338A; 5 yrs; "Constitutional Watchdogs"</li>
+            <li><b>NCBC (National Commission for Backward Classes)</b> — Art 338B (added 102nd Amend 2018); SC list</li>
+            <li><b>Commission for Linguistic Minorities</b> — Art 350B</li>
+            <li><b>Advocate General of State</b> — Art 165</li>
+            <li><b>State Finance Commission</b> — Art 243I, 243Y (per 73-74 Amend)</li>
+            <li><b>State Election Commission</b> — Art 243K, 243ZA</li>
+            <li><b>GST Council</b> — Art 279A (101st Amend 2016)</li>
+          </ul>
+        </li>
+        <li><b>Statutory Bodies — by law, not Constitution</b>:
+          <ul>
+            <li><b>Central Vigilance Commission (CVC)</b> — 1964, CVC Act 2003; head: Pratyush Sinha (recent: Praveen Kumar Srivastava)</li>
+            <li><b>Central Information Commission (CIC)</b> — RTI Act 2005</li>
+            <li><b>National Human Rights Commission (NHRC)</b> — Protection of Human Rights Act 1993; HQ Delhi; current chair Justice Arun Mishra</li>
+            <li><b>National Commission for Women (NCW)</b> — 1992 Act</li>
+            <li><b>National Commission for Minorities (NCM)</b> — 1992 Act (was constitutional earlier under 1992 status)</li>
+            <li><b>NCPCR</b> — 2007</li>
+            <li><b>Lokpal & Lokayuktas</b> — Act 2013; first chair Pinaki Chandra Ghose (2019)</li>
+            <li><b>NITI Aayog</b> — 2015 (executive resolution, not even statutory!)</li>
+            <li><b>NIA, NHRC, NCW, NCST, NCM</b></li>
+          </ul>
+        </li>
+        <li><b>Quasi-Judicial Bodies</b>: NHRC, NCW, CAT, NGT, Competition Commission etc.</li>
+        <li><b>"CAG" detailed</b>:
+          <ul>
+            <li>Art 148; Father: Ambedkar called "<b>most important officer under Constitution</b>"</li>
+            <li>Appointed by President; oath before President</li>
+            <li>Tenure: 6 yrs OR 65 (whichever earlier)</li>
+            <li>Removed like SC judge — special majority</li>
+            <li>Reports to President; President places before Parliament</li>
+            <li>PAC (LS opposition-headed) scrutinises CAG reports</li>
+          </ul>
+        </li>
+        <li><b>"ECI" detailed</b>:
+          <ul>
+            <li>Art 324; established 25 January 1950 (National Voters Day)</li>
+            <li>Currently multi-member (CEC + 2 ECs since 1989)</li>
+            <li>CEC removed like SC judge; other ECs on CEC's recommendation</li>
+            <li>Tenure: 6 yrs OR 65</li>
+            <li>Model Code of Conduct</li>
+            <li>Sukumar Sen 1st CEC; T.N. Seshan reformer; first woman CEC: none yet (Sushma Swaraj first woman in Indian politics-related role)</li>
+          </ul>
+        </li>
+        <li><b>Trick — Position Sources</b>:
+          <ul>
+            <li>Art 76 = AG (Centre); Art 165 = AG (State)</li>
+            <li>Art 148 = CAG</li>
+            <li>Art 280 = Finance Commission</li>
+            <li>Art 312 = All India Services</li>
+            <li>Art 315 = UPSC</li>
+            <li>Art 324 = ECI</li>
+            <li>Art 338-338B = SC/ST/Backward Classes Commissions</li>
+          </ul>
+        </li>
+        <li><b>All India Services (Art 312)</b>: <b>IAS, IPS, IFS (Forest)</b> — created by Constitution; RS can create new (2/3 majority); recruited by UPSC; serve Centre + states।</li>
+        <li><b>Trick — "Constitutional = ज़मीनी, Statutory = बनी हुई"</b>: Constitutional bodies = in original or amended Constitution। Statutory = बाद में Acts से बनी।</li>
+        <li><b>Story</b>: Indian governance में बहुत सी "watchdog" bodies हैं। Election से CAG तक — Constitution बहुत bodies को independence देता है (judge-removal procedure)। ECI ने T.N. Seshan के time से really powerful बनी। CAG को Ambedkar ने "most important" बताया। NITI Aayog तो executive order से बना है (किसी act से नहीं) — कमज़ोर status।</li>
+      </ul>
     `,
     mcq: [
       { q: "Election Commission was established on?", opts: ["15 August 1947", "26 January 1950", "25 January 1950", "26 November 1949"], a: 2, ex: "25 January 1950 — National Voters Day." },

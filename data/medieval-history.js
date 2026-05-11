@@ -104,6 +104,23 @@
 
       <h3>Looking Ahead</h3>
       <p>Medieval India begins around 750 AD with the disintegration of Harsha's empire and the rise of regional powers — Pratiharas, Palas, Rashtrakutas. Their three-way rivalry over Kannauj, the rise of Rajput kingdoms, and the first wave of Arab and Turkish invasions form the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>4 Big Persian Chroniclers — "BAML"</b>:
+          <ul>
+            <li><b>B</b>arani (Ziauddin) → <i>Tarikh-i-Firoz Shahi</i> (Sultanate period)</li>
+            <li><b>A</b>bul Fazl → <i>Akbarnama + Ain-i-Akbari</i> (Akbar — most detailed)</li>
+            <li><b>M</b>inhaj-us-Siraj → <i>Tabaqat-i-Nasiri</i> (Slave dynasty)</li>
+            <li><b>L</b>ahori (Abdul Hamid) → <i>Padshahnama</i> (Shah Jahan)</li>
+          </ul>
+        </li>
+        <li><b>"Tuzuk" trick</b>: <i>Tuzuk-i-Baburi</i> by Babur (Turkish, autobiography), <i>Tuzuk-i-Jahangiri</i> by Jahangir. "Tuzuk = आत्मकथा"।</li>
+        <li><b>Amir Khusrau</b> — "Parrot of India" (तूती-ए-हिंद); Khilji + Tughlaq courts; <i>Tughlaq Nama, Khazain-ul-Futuh</i>।</li>
+        <li><b>Foreign travelers in medieval</b>: <b>Ibn Battuta</b> (Morocco) — Mohd bin Tughlaq; <b>Marco Polo</b> — Pandyas; <b>Nicolo Conti</b> — Vijayanagara; <b>Abdur Razzak</b> — Vijayanagara (Devaraya II); <b>Bernier, Tavernier, Manucci</b> — Mughal period।</li>
+        <li><b>Story</b>: हर Mughal emperor ने अपना official chronicler रखा — जैसे आज newspapers हैं। Akbar के पास Abul Fazl (his best friend), Shah Jahan के पास Lahori। इन्हीं के texts से हम Mughal events जानते हैं।</li>
+      </ul>
     `,
     mcq: [
       { q: "Tabaqat-i-Nasiri was authored by?", opts: ["Amir Khusrau", "Minhaj-us-Siraj", "Ziauddin Barani", "Hasan Nizami"], a: 1, ex: "Minhaj-us-Siraj — covers Slave Dynasty up to Balban; dedicated to Nasiruddin Mahmud." },
@@ -304,6 +321,18 @@
 
       <h3>Looking Ahead</h3>
       <p>Ghori's death in 1206 left his slave Aibak as ruler of his Indian conquests — beginning the <b>Delhi Sultanate</b>. For the next 320 years, five Turko-Afghan dynasties would rule from Delhi, until Babur arrived from Kabul in 1526. The next topic surveys the Delhi Sultanate.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Tripartite Struggle (Kannauj) — "PPR"</b>: <b>P</b>alas (Bengal) vs <b>P</b>ratiharas (Rajasthan) vs <b>R</b>ashtrakutas (Deccan)। तीनों Kannauj के control के लिए लड़े।</li>
+        <li><b>Palas</b> — Gopala founder (elected ruler, 8th c.); famous: Dharmapala (Vikramashila University), Devapala। Buddhist patrons।</li>
+        <li><b>Pratiharas</b> — Mihir Bhoja सबसे ताकतवर; Arab Muslim invasion रोकी।</li>
+        <li><b>Rashtrakutas</b> — Dantidurga (founder); Krishna I ने <b>Ellora Kailasa Temple</b> बनवाया; Govinda III, Amoghavarsha (Kavirajamarga लिखी)।</li>
+        <li><b>4 Agnikula Rajputs ("अग्नि से 4 कुल") — "P-C-S-P"</b>: <b>P</b>ratihara, <b>C</b>hauhan, <b>S</b>olanki (Chalukya), <b>P</b>aramara। Story: Mount Abu पर यज्ञ से 4 क्षत्रिय कुल निकले।</li>
+        <li><b>South simultaneously</b>: Cholas (Rajaraja I, Rajendra I) — सबसे ताकतवर। यह period वही जब Cholas SE Asia तक राज कर रहे थे।</li>
+        <li><b>Story</b>: 750-1206 = "5 शक्तियाँ India में" — North में PPR (Kannauj fight), West में Rajputs, South में Cholas, और slowly Turks आने लगे (Mahmud Ghazni 1000+ AD)।</li>
+      </ul>
     `,
     mcq: [
       { q: "Tripartite struggle was over the control of?", opts: ["Pataliputra", "Kannauj", "Tanjore", "Ujjain"], a: 1, ex: "Kannauj — fought between Palas, Pratiharas, Rashtrakutas (8th–10th c.)." },
@@ -656,6 +685,19 @@
 
       <h3>Looking Ahead</h3>
       <p>While the Sultanate weakened (Tughlaq decline post-1351), two great regional powers emerged in the south: the Hindu <b>Vijayanagara empire (1336)</b> and the Muslim <b>Bahmani Sultanate (1347)</b>. The next topic explores their long rivalry and rich culture.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>5 Dynasties — "SKTSL"</b>: <b>S</b>lave (Mamluk) → <b>K</b>hilji → <b>T</b>ughlaq → <b>S</b>ayyid → <b>L</b>odi। याद रखें "<i>श्रीकृष्ण की त्रिपुरारी सेना लड़ी</i>"।</li>
+        <li><b>Date span</b>: <b>1206 शुरू, 1526 खत्म</b> (Babur ने Lodis को हराकर) = 320 साल।</li>
+        <li><b>Slave (1206-90)</b>: Qutb-ud-din <b>A</b>ibak → <b>I</b>ltutmish (real consolidator, transferred capital to Delhi) → <b>R</b>azia (only female Sultan) → <b>B</b>alban (theory of kingship = "Zil-i-Ilahi" — shadow of god)। <b>"AIRB"</b>।</li>
+        <li><b>Khilji (1290-1320)</b>: Jalaluddin → <b>Alauddin Khilji</b> (greatest — market reforms, defeated Mongols, captured Devagiri/Warangal/Madurai)। "Ala" = "ऊँचा" = top tier reforms।</li>
+        <li><b>Tughlaq (1320-1414)</b>: Ghiyasuddin → <b>Muhammad bin Tughlaq</b> (mad genius — Daulatabad capital shift 1327, token currency 1329) → Feroze Shah (moderate, built Firoz Shah Kotla)। <b>"GMF"</b>।</li>
+        <li><b>Sayyid (1414-51)</b>: Khizr Khan founder; weakest dynasty।</li>
+        <li><b>Lodi (1451-1526)</b>: Bahlul → Sikandar → <b>Ibrahim Lodi</b> (हारा 1st Panipat 1526 vs Babur)।</li>
+        <li><b>Story</b>: 1206 में Aibak ने Qutb Minar शुरू किया → फिर Khilji ने empire बड़ी की → Tughlaq के मूर्खतापूर्ण निर्णयों से कमज़ोरी → Sayyid-Lodi weak → 1526 में Babur आया। यह 320 साल = "5 dynasties, 33 sultans"।</li>
+      </ul>
     `,
     mcq: [
       { q: "Founder of the Slave Dynasty was?", opts: ["Iltutmish", "Aibak", "Balban", "Razia"], a: 1, ex: "Qutb-ud-din Aibak (1206–10) — title 'Lakh Baksh' (giver of lakhs)." },
@@ -924,6 +966,19 @@
 
       <h3>Looking Ahead</h3>
       <p>While the Deccan was dominated by Vijayanagara and Bahmanis, north India saw Sufi mystics and Bhakti saints challenging orthodoxy in both Hinduism and Islam. The next topic surveys the <b>Bhakti and Sufi movements</b>, which deeply shaped medieval Indian society.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Founded 1336</b> by 2 brothers — <b>Harihara I और Bukka I</b> (originally सेवादार थे Kakatiya/Hoysala के)। Capital: <b>Hampi/Vijayanagara</b> on Tungabhadra।</li>
+        <li><b>4 Dynasties — "SSTA"</b>: <b>S</b>angama (founders) → <b>S</b>aluva → <b>T</b>uluva → <b>A</b>ravidu। "<i>सबसे ताकतवर अधीन</i>"।</li>
+        <li><b>Greatest king</b>: <b>Krishnadeva Raya</b> (Tuluva, 1509-29) — wrote "Amuktamalyada" in Telugu; defeated Bahmani Sultans; peak of Vijayanagara।</li>
+        <li><b>Bahmani Kingdom</b> (rival) — founded <b>1347</b> by Alauddin Bahman Shah; capital Gulbarga → Bidar। <b>Mahmud Gawan</b> (PM) सबसे ताकतवर। Eventually split into 5 sultanates।</li>
+        <li><b>5 Deccan Sultanates (after Bahmani split)</b>: <b>Bijapur, Ahmadnagar, Golkonda, Bidar, Berar</b>। <b>"BAGBB"</b> या "बिजली अजीब गोली बंद बजी"।</li>
+        <li><b>Battle of Talikota 1565</b> — <b>"1565 = एक पंद्रह छह पांच"</b>। 4 sultanates (Bijapur, Ahmadnagar, Golkonda, Bidar) मिलकर Vijayanagara को हराया। Rama Raya killed। Hampi लूटी गई।</li>
+        <li><b>Foreign visitors to Vijayanagara</b>: Nicolo Conti (Italian), Abdur Razzak (Persian — Devaraya II के समय), Domingo Paes + Fernao Nuniz (Portuguese — Krishnadeva Raya के समय)।</li>
+        <li><b>Story</b>: 14वीं सदी में Delhi से दूर south में 2 भाइयों ने एक हिंदू empire बनाई जो 230 साल तक Muslim invaders को रोकती रही। 1565 की एक हार से सब खत्म — आज Hampi खंडहर हैं।</li>
+      </ul>
     `,
     mcq: [
       { q: "Vijayanagar Empire was founded by?", opts: ["Krishna Deva Raya", "Harihara & Bukka", "Vidyaranya", "Rama Raya"], a: 1, ex: "Harihara I and Bukka I (Sangama brothers) in 1336, with guidance of sage Vidyaranya." },
@@ -1292,6 +1347,36 @@
 
       <h3>Looking Ahead</h3>
       <p>While Bhakti and Sufism transformed religious life, the political stage in north India was being prepared for a new dynasty. In 1526, Babur arrived from Kabul and defeated Ibrahim Lodi at Panipat — beginning the <b>Mughal Empire</b>, the longest and most powerful Islamic dynasty in India. The next topic covers Babur, Humayun, Sher Shah, and Akbar.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Bhakti शुरू कहाँ से?</b> — South India में पहले (7-10th c.): <b>Alvars</b> (Vishnu-bhakts) + <b>Nayanars</b> (Shiva-bhakts)। Trick: "<b>A-V N-S</b>" — Alvar-Vishnu, Nayanar-Shiva।</li>
+        <li><b>4 Vedanta Acharyas</b>:
+          <ul>
+            <li><b>Shankaracharya</b> — Advaita (केवल एक ब्रह्म) — 8th c., Kerala</li>
+            <li><b>Ramanujacharya</b> — Vishishtadvaita (qualified non-dualism)</li>
+            <li><b>Madhvacharya</b> — Dvaita (दो — ईश्वर और जीव अलग)</li>
+            <li><b>Vallabhacharya</b> — Shuddhadvaita (pure non-dualism); Pushtimarg</li>
+          </ul>
+        </li>
+        <li><b>North Bhakti — 2 streams</b>:
+          <ul>
+            <li><b>Saguna</b> (form वाला God): <b>Tulsidas</b> (Ram — Ramcharitmanas), <b>Surdas</b> (Krishna — Sursagar), <b>Mirabai</b> (Krishna), <b>Chaitanya</b> (Krishna — Bengal)</li>
+            <li><b>Nirguna</b> (formless): <b>Kabir</b> (Banaras, weaver), <b>Guru Nanak</b> (Sikhism), <b>Ravidas</b> (cobbler), <b>Dadu Dayal</b></li>
+          </ul>
+        </li>
+        <li><b>Sufism — 4 Silsilas "CSQN"</b>:
+          <ul>
+            <li><b>C</b>hishti — <b>Moinuddin Chishti</b> (Ajmer); सबसे famous in India। Nizamuddin Auliya, Salim Chishti।</li>
+            <li><b>S</b>uhrawardi — Bahauddin Zakariya (Multan)</li>
+            <li><b>Q</b>adiri — Mughal preferred</li>
+            <li><b>N</b>aqshbandi — Sirhindi (orthodox)</li>
+          </ul>
+        </li>
+        <li><b>Date trick</b>: Bhakti-Sufi movement peak = <b>12वीं-17वीं सदी</b> = Sultanate और Mughal era में।</li>
+        <li><b>Story</b>: जब Brahmins ने rituals/caste rigid कर दिए और Muslim rulers अपना धर्म लाए — आम लोगों ने एक नया रास्ता ढूँढा। God से सीधा प्यार (Bhakti) और divine love through music (Sufi)। Kabir जैसे संत Hindu-Muslim दोनों के बीच bridge बने।</li>
+      </ul>
     `,
     mcq: [
       { q: "Founder of Advaita philosophy was?", opts: ["Ramanuja", "Madhva", "Shankaracharya", "Vallabha"], a: 2, ex: "Adi Shankaracharya (788–820 AD); doctrine: 'Brahma satyam jagat mithya'." },
@@ -1571,6 +1656,35 @@
 
       <h3>Looking Ahead</h3>
       <p>Akbar's successors continued the empire — Jahangir consolidated; Shah Jahan added architectural glory; Aurangzeb's reversal of liberal policies and 27-year Deccan war exhausted the empire. The next topic covers the Later Mughals.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>6 Great Mughals — "BHAJSA"</b>: <b>B</b>abur → <b>H</b>umayun → <b>A</b>kbar → <b>J</b>ahangir → <b>S</b>hah Jahan → <b>A</b>urangzeb। "<i>बाबर हुमायूँ अकबर जहांगीर शाहजहाँ औरंगज़ेब</i>"।</li>
+        <li><b>Babur (1526-30)</b> — 4 big battles "PKCG":
+          <ul>
+            <li><b>Panipat I (1526)</b> — defeated Ibrahim Lodi → founded Mughal empire</li>
+            <li><b>Khanwa (1527)</b> — defeated Rana Sanga of Mewar</li>
+            <li><b>Chanderi (1528)</b> — defeated Medini Rai</li>
+            <li><b>Ghaghra (1529)</b> — defeated Afghans + Bengal</li>
+          </ul>
+          Wrote autobiography <b>Tuzuk-i-Baburi</b> (Babarnama) in Turkish।
+        </li>
+        <li><b>Humayun (1530-40, 1555-56)</b>: हारा Sher Shah Suri से <b>Chausa 1539, Kannauj 1540</b>। 15 साल exile। Sher Shah ने 1540-45 राज किया (Grand Trunk Road, Rupiya currency, Sher Shahi tomb at Sasaram)। 1555 में Humayun ने Sirhind battle से throne वापस लिया। 1556 में Sher Mandal library की सीढ़ियों से गिरकर मौत। Trick: "<i>Humayun = हम-गिरा-यून</i>" (gravity से died)।</li>
+        <li><b>Akbar (1556-1605)</b>:
+          <ul>
+            <li><b>2nd Panipat 1556</b> — Bairam Khan (regent) ने Hemu को हराया</li>
+            <li><b>1562</b> — abolished pilgrimage tax; <b>1564</b> abolished Jaziya</li>
+            <li><b>1571</b> — Fatehpur Sikri बनाया (Salim Chishti के आशीर्वाद से बेटा हुआ)</li>
+            <li><b>1576</b> — Battle of <b>Haldighati</b> — Rana Pratap vs Akbar (Man Singh); अनिर्णायक</li>
+            <li><b>1582</b> — <b>Din-i-Ilahi</b> (Tauhid-i-Ilahi) — universal religion</li>
+            <li><b>Mansabdari system</b> शुरू किया</li>
+          </ul>
+        </li>
+        <li><b>Akbar's 9 Jewels (Navratnas)</b> — "<b>TBT-AF-MHAM</b>": <b>T</b>ansen (music), <b>B</b>irbal (wit), <b>T</b>odar Mal (revenue), <b>A</b>bul Fazl (chronicler), <b>F</b>aizi (poet), <b>M</b>ansingh (general), <b>H</b>akim Hammam (physician), <b>A</b>bdur Rahim Khan-i-Khana (poet), <b>M</b>ulla Do-Pyaza।</li>
+        <li><b>Date pattern</b>: 1526 (Babur), 1530 (Humayun starts), 1556 (Akbar), 1605 (Jahangir), 1628 (Shah Jahan), 1658 (Aurangzeb), 1707 (Aurangzeb dies)। याद रखें: "<b>26-30-56-05-28-58-07</b>"।</li>
+        <li><b>Story</b>: Babur = Central Asia का warrior, Panipat जीतकर throne बनाई। बेटा Humayun अधूरा reign — Sher Shah ने भगाया, फिर वापस आया, सीढ़ी से गिरा। पोता Akbar = सबसे महान — religious tolerance, big empire, Hindu-Muslim alliance through Rajput marriages।</li>
+      </ul>
     `,
     mcq: [
       { q: "Babur was a descendant of?", opts: ["Genghis Khan only", "Timur only", "Both Timur (paternal) & Genghis Khan (maternal)", "Mongols of Persia"], a: 2, ex: "Father descended from Timur (Tamerlane); mother descended from Genghis Khan." },
@@ -1856,6 +1970,44 @@
 
       <h3>Looking Ahead</h3>
       <p>The Mughal political collapse left India fragmented — Marathas in west and centre, Sikh misls in Punjab, Nawabs of Bengal/Awadh/Hyderabad in their regions, and the rising East India Company along the coasts. The next topic surveys Mughal administration, society, and architecture as a unified system before we turn to the Marathas and Sikhs.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Jahangir (1605-27)</b>:
+          <ul>
+            <li>Real name <b>Salim</b>; revolted against father Akbar</li>
+            <li><b>Nur Jahan</b> (Mehrunissa) से शादी 1611 — actual power उसके पास; "Junta" (Nur Jahan + Jahangir + Asaf Khan + Itimad-ud-Daulah)</li>
+            <li><b>Captain Hawkins</b> 1608 (English East India Co. ने भेजा), <b>Sir Thomas Roe</b> 1615 — King James I का राजदूत</li>
+            <li><b>Tuzuk-i-Jahangiri</b> autobiography</li>
+            <li>Mughal painting चरम पर — court painters: Ustad Mansur, Abul Hasan</li>
+          </ul>
+        </li>
+        <li><b>Shah Jahan (1628-58)</b> — Golden age of Mughal architecture:
+          <ul>
+            <li><b>Taj Mahal</b> (1632-53) — Mumtaz Mahal के लिए (Burhanpur में मरी 1631)। Architect: Ustad Ahmad Lahori</li>
+            <li><b>Red Fort (Lal Qila)</b> Delhi — capital Agra से Delhi shift</li>
+            <li><b>Jama Masjid</b> Delhi (largest mosque in India)</li>
+            <li><b>Peacock Throne</b> (Takht-i-Taus) — Nadir Shah ने 1739 में लूटी</li>
+            <li><b>Moti Masjid</b> Agra, <b>Diwan-i-Khas</b> ("अगर फिरदौस बर रू-ए ज़मीन अस्त, हमीं अस्त, हमीं अस्त")</li>
+            <li>4 बेटे: <b>Dara Shikoh</b> (eldest, liberal — translated Upanishads), <b>Shah Shuja</b>, <b>Aurangzeb</b>, <b>Murad</b>। Aurangzeb ने सब हराकर throne लिया।</li>
+          </ul>
+        </li>
+        <li><b>Aurangzeb (1658-1707) — 49 साल राज</b>:
+          <ul>
+            <li>Real name <b>Mohi-ud-din Muhammad</b>; coronation 1659</li>
+            <li>Father Shah Jahan को Agra Fort में कैद (8 साल)</li>
+            <li><b>1679</b> — Jaziya वापस लगाया; orthodox Sunni policies</li>
+            <li><b>Sambhaji</b> (Maratha king, Shivaji का बेटा) को 1689 में मारा</li>
+            <li><b>Guru Tegh Bahadur</b> (9th Sikh Guru) को 1675 में मारा</li>
+            <li>Largest Mughal empire (3.2 million sq km) — But financial drain से कमज़ोरी</li>
+            <li>Died at <b>Ahmadnagar</b>; buried at Khuldabad (no marble tomb — Sunni austerity)</li>
+          </ul>
+        </li>
+        <li><b>Later/weak Mughals (1707-1857)</b> — "Bahadur Shah I → Jahandar → Farrukhsiyar → Muhammad Shah Rangeela (Nadir Shah 1739 attack) → Shah Alam II (Plassey time) → Akbar II → Bahadur Shah II Zafar (last, 1857 deposed by British)"। 18+ कमज़ोर emperors।</li>
+        <li><b>Death dates pattern</b>: J=1627, SJ=1666 (death; deposed 1658), Aurangzeb=1707। Difference ~30 साल each।</li>
+        <li><b>Story</b>: Akbar के बाद Jahangir ने relaxed empire चलाया (Nur Jahan ने सब काम किया)। Shah Jahan ने सबसे शानदार buildings बनाईं (Taj!) पर अपनी सेना के पैसे खर्च कर दिए। Aurangzeb ने धार्मिक कट्टरता और लम्बे Deccan युद्ध से empire खोखला कर दिया — उसकी मौत के बाद Mughal empire तेज़ी से बिखर गई।</li>
+      </ul>
     `,
     mcq: [
       { q: "Jahangir's real name was?", opts: ["Khurram", "Salim", "Khusrau", "Murad"], a: 1, ex: "Salim — named after Sufi Salim Chishti." },
@@ -2233,6 +2385,45 @@
 
       <h3>Looking Ahead</h3>
       <p>While the Mughal system at its zenith was magnificent, its rigidity (limited European-style military innovation, jagirdari crisis, religious antagonism under Aurangzeb) sowed decline. The opportunity was seized by two new powers — the <b>Marathas</b> in the west, and the <b>Sikhs</b> in the north-west — both rising as anti-Mughal but later anti-British forces. The next two topics explore them.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Mansabdari System — Akbar द्वारा शुरू</b> — हर अधिकारी की 2 ranks:
+          <ul>
+            <li><b>Zat</b> — personal status / salary (5000 zat = top noble)</li>
+            <li><b>Sawar</b> — कितने घोड़े (cavalry) maintain करना है</li>
+          </ul>
+          Trick: "Zat = Zeb (शोभा), Sawar = Sawari (घोड़े)"।
+        </li>
+        <li><b>4 Main Ministers — "DMKS"</b>:
+          <ul>
+            <li><b>D</b>iwan / Wazir — finance, revenue</li>
+            <li><b>M</b>ir Bakshi — military pay & recruitment</li>
+            <li><b>K</b>han-i-Saman — royal household</li>
+            <li><b>S</b>adr-us-Sudur — religion, charity, education</li>
+          </ul>
+        </li>
+        <li><b>Land Revenue System — Todar Mal's "Zabt/Bandobast"</b>:
+          <ul>
+            <li><b>Dahsala</b> — 10 साल का average crop production का 1/3 = state share</li>
+            <li>Measurement of land (Jarib), classification (Polaj, Parati, Chachar, Banjar)</li>
+            <li>Cash payment of revenue (शुरू Akbar से)</li>
+          </ul>
+        </li>
+        <li><b>Types of Land — "K-J-I-M"</b>:
+          <ul>
+            <li><b>K</b>halisa — directly under emperor (treasury को जाता है)</li>
+            <li><b>J</b>agir — assigned to nobles (Mansabdars) for salary</li>
+            <li><b>I</b>nam / Madad-i-Mash — charity grants to scholars/holy men</li>
+            <li><b>M</b>ilkiyat / Zamindar — hereditary land</li>
+          </ul>
+        </li>
+        <li><b>Provincial Structure</b>: Empire → <b>Subas</b> (provinces, 15 under Akbar later 22) → <b>Sarkars</b> (districts) → <b>Parganas</b> → <b>Mauzas/villages</b>।</li>
+        <li><b>Provincial officials</b>: <b>Subedar</b> (governor), <b>Diwan</b> (revenue), <b>Bakshi</b> (army), <b>Qazi</b> (justice), <b>Kotwal</b> (police in cities)।</li>
+        <li><b>Taxes</b>: <b>Jaziya</b> (non-Muslim poll tax — Akbar ने हटाया, Aurangzeb ने फिर लगाया); <b>Zakat</b> (Muslim charity 2.5%); <b>Khams</b> (war booty's 1/5)।</li>
+        <li><b>Story</b>: Akbar ने centralized system बनाया जहाँ हर noble की salary तय थी (mansab) और हर ज़मीन का तय revenue (zabt)। यह इतना smooth था कि British ने भी कई features अपनाए।</li>
+      </ul>
     `,
     mcq: [
       { q: "Title 'Padshah' was first taken by?", opts: ["Babur", "Akbar", "Shah Jahan", "Aurangzeb"], a: 0, ex: "Babur in 1507; rejected Caliph's authority over him." },
@@ -2556,6 +2747,54 @@
 
       <h3>Looking Ahead</h3>
       <p>While the Marathas dominated central and western India, in the north-west another distinctive community was crystallizing into a militant religious-political order — the <b>Sikhs</b>. From Guru Nanak (1469) through ten Gurus to the Khalsa (1699) and Maharaja Ranjit Singh's empire (1799–1839), the Sikh story is the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Shivaji (1627-80)</b> — Quick timeline:
+          <ul>
+            <li>जन्म <b>1627</b> at <b>Shivneri Fort</b>; पिता Shahji, माँ Jijabai, गुरु Samarth Ramdas</li>
+            <li><b>1659</b> — Afzal Khan (Bijapur) को killed at Pratapgarh — "Wagh Nakh" से</li>
+            <li><b>1666</b> — Aurangzeb के Agra court में कैद; बच निकले मिठाई की टोकरी में</li>
+            <li><b>1674 Coronation</b> at <b>Raigad</b> — "<i>Chhatrapati</i>" title</li>
+            <li><b>1680 मृत्यु</b> at Raigad</li>
+          </ul>
+        </li>
+        <li><b>Shivaji के 2 taxes</b>: <b>Chauth</b> (1/4 of revenue) + <b>Sardeshmukhi</b> (1/10 extra)। "C-S taxes"।</li>
+        <li><b>Ashtapradhan (8 ministers) — "PAMSSP-PN"</b>:
+          <ul>
+            <li><b>P</b>eshwa (PM)</li>
+            <li><b>A</b>matya (finance)</li>
+            <li><b>M</b>antri (chronicler)</li>
+            <li><b>S</b>achiv (correspondence)</li>
+            <li><b>S</b>umant (foreign affairs)</li>
+            <li><b>P</b>anditrao (religious)</li>
+            <li><b>S</b>enapati (army chief)</li>
+            <li><b>N</b>yayadhish (chief justice)</li>
+          </ul>
+        </li>
+        <li><b>After Shivaji</b>: <b>Sambhaji</b> (executed by Aurangzeb 1689) → <b>Rajaram</b> → <b>Tarabai</b> (regent) → <b>Shahu</b> (Aurangzeb के बेटे ने release किया) → Peshwa-rule शुरू।</li>
+        <li><b>4 Great Peshwas — "BVB-BB-BJ-M"</b>:
+          <ul>
+            <li><b>Balaji Vishwanath</b> (1713-20) — first Peshwa</li>
+            <li><b>Bajirao I</b> (1720-40) — greatest; "<i>never lost a battle</i>"; expanded to Delhi</li>
+            <li><b>Balaji Bajirao</b> (Nana Saheb, 1740-61) — Panipat-III में हार</li>
+            <li><b>Madhavrao I</b> (1761-72) — Maratha revival post-Panipat</li>
+          </ul>
+        </li>
+        <li><b>Third Battle of Panipat — 14 January 1761</b>: Marathas vs <b>Ahmad Shah Abdali</b>। Maratha commander <b>Sadashivrao Bhau</b> मारा गया। Maratha hegemony को धक्का।</li>
+        <li><b>Maratha Confederacy (5 chiefs after Peshwa fall) — "PSHGB"</b>:
+          <ul>
+            <li><b>P</b>eshwa — Pune</li>
+            <li><b>S</b>cindia — Gwalior</li>
+            <li><b>H</b>olkar — Indore</li>
+            <li><b>G</b>aekwad — Baroda</li>
+            <li><b>B</b>honsle — Nagpur</li>
+          </ul>
+        </li>
+        <li><b>3 Anglo-Maratha Wars</b>: 1st (1775-82) — Treaty of Salbai; 2nd (1803-05) — Marathas lost; 3rd (1817-19) — Peshwa Baji Rao II surrendered, Maratha empire ended।</li>
+        <li><b>Story</b>: एक छोटे Maratha जागीरदार के बेटे Shivaji ने Mughal-Bijapur के बीच guerrilla warfare से एक हिंदू स्वराज्य बनाया। Aurangzeb ने 27 साल Deccan में खर्च किए पर Marathas को नहीं हरा सका। Peshwas के समय Marathas ने Delhi तक राज किया, पर 1761 में Abdali से हार पर decline शुरू हुआ। आख़िर में British से हार।</li>
+      </ul>
     `,
     mcq: [
       { q: "Shivaji was born at?", opts: ["Raigad", "Shivneri (near Pune)", "Pratapgad", "Sinhagad"], a: 1, ex: "Shivneri Fort, near Pune; year debated 1627 or 1630." },
@@ -2887,6 +3126,49 @@
 
       <h3>Looking Ahead</h3>
       <p>With this, we close Medieval History. The Sikh annexation in 1849 marked the last major Indian power to fall to the British. From here, Indian history enters its <b>Modern phase</b> — the 1857 Revolt, the rise of Indian nationalism, the Indian National Congress, Gandhian mass movements, and ultimately Independence (1947). All this is covered in the Modern History section.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>10 Sikh Gurus — Mnemonic "NA AR HA TG"</b>:
+          <ol>
+            <li><b>N</b>anak (1469-1539) — founder; born Talwandi (Nankana Sahib, Pakistan)</li>
+            <li>Angad (1539-52) — Gurmukhi script developed</li>
+            <li><b>A</b>mar Das (1552-74) — abolished sati, purdah</li>
+            <li>Ram Das (1574-81) — founded Amritsar</li>
+            <li><b>R</b>am Das</li>
+            <li><b>A</b>rjan (1581-1606) — <b>compiled Adi Granth</b>; built Harmandir Sahib; first martyr — executed by Jahangir</li>
+            <li><b>H</b>argobind (1606-44) — militarized Sikhism; 2 swords (Miri-Piri); Akal Takht</li>
+            <li>Har Rai (1644-61) — peaceful</li>
+            <li>Har Krishan (1661-64) — child guru, died of smallpox</li>
+            <li><b>T</b>egh Bahadur (1664-75) — 9th; <b>executed by Aurangzeb 1675</b> (refused to convert)</li>
+            <li><b>G</b>obind Singh (1675-1708) — 10th; <b>founded Khalsa 13 April 1699</b> at Anandpur Sahib (Baisakhi day)</li>
+          </ol>
+        </li>
+        <li><b>5 Ks of Khalsa — "K-K-K-K-K"</b>:
+          <ul>
+            <li><b>Kesh</b> — uncut hair</li>
+            <li><b>Kangha</b> — wooden comb</li>
+            <li><b>Kara</b> — steel bracelet</li>
+            <li><b>Kachera</b> — short breeches</li>
+            <li><b>Kirpan</b> — sword</li>
+          </ul>
+        </li>
+        <li><b>Panj Pyare (Five Beloved)</b> — Guru Gobind Singh ने 5 stunned Sikhs को chose at Baisakhi 1699; पहली बार "<b>Singh</b>" (men) और "<b>Kaur</b>" (women) titles।</li>
+        <li><b>Guru Arjan's Adi Granth</b> — 1604 में compile; later Guru Gobind Singh ने Guru Tegh Bahadur के bani add करके finalize किया — <b>Guru Granth Sahib</b>। Gobind Singh ने कहा "अब से Granth ही Guru" — 11वें "Eternal Guru"।</li>
+        <li><b>Banda Singh Bahadur</b> (1670-1716) — Gobind Singh's commander; led Sikh military post-1708; defeated and executed by Mughals 1716।</li>
+        <li><b>Maharaja Ranjit Singh (1780-1839)</b> — <b>"Sher-e-Punjab"</b>:
+          <ul>
+            <li>1799 में Lahore जीता; 1801 में Maharaja बना</li>
+            <li>United 12 Sikh Misls (confederacies)</li>
+            <li><b>Kohinoor diamond</b> Shah Shuja से लिया</li>
+            <li>European-trained army (French generals Allard, Ventura)</li>
+            <li>1839 मृत्यु — empire collapse</li>
+          </ul>
+        </li>
+        <li><b>2 Anglo-Sikh Wars</b>: 1st (1845-46) — Treaty of Lahore; 2nd (1848-49) — Punjab annexed; <b>Dalip Singh</b> (Ranjit Singh का बेटा) ने Kohinoor British को दिया।</li>
+        <li><b>Story</b>: Guru Nanak ने 1469 में एक new path शुरू किया — "Ek Onkar" (एक भगवान), जाति-भेद नहीं। 10 Gurus के through religion evolve हुआ — initial peaceful, then with Arjan-Hargobind militant (because of Mughal persecution)। Gobind Singh ने Khalsa बनाकर military brotherhood दिया। Ranjit Singh ने एक Sikh empire बनाया। 1849 में अंग्रेज़ों ने Punjab लिया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Guru Nanak was born at?", opts: ["Amritsar", "Talwandi (Nankana Sahib)", "Anandpur", "Kartarpur"], a: 1, ex: "Talwandi (now Nankana Sahib, Pakistan), 15 April 1469." },
@@ -3100,6 +3382,29 @@
 
       <h3>Looking Ahead</h3>
       <p>Aibak's establishment of the Sultanate at Delhi in 1206 began the era of Muslim rule. The next topic explores the Delhi Sultanate's five dynasties (1206–1526) — Slaves, Khiljis, Tughlaqs, Sayyids, Lodis.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Waves of Muslim invasion</b>:
+          <ul>
+            <li><b>Wave 1 (Arabs)</b>: <b>712 AD</b> — <b>Mohammad bin Qasim</b> ने Sindh के Raja Dahir को हराया। पहली Muslim victory। पर सिर्फ़ Sindh तक — आगे नहीं बढ़े।</li>
+            <li><b>Wave 2 (Turks - Ghaznavid)</b>: <b>1000-1027 AD</b> — <b>Mahmud Ghazni</b> ने 17 invasions कीं। मुख्य लक्ष्य = धन-संपत्ति (Somnath Temple loot 1025)। साथ में Al-Beruni आया जिसने "Kitab-ul-Hind" लिखी।</li>
+            <li><b>Wave 3 (Turks - Ghurid)</b>: <b>1175-1192 AD</b> — <b>Muhammad Ghori</b> permanent rule के लिए आया।
+              <ul>
+                <li><b>1st Tarain 1191</b>: <b>Prithviraj Chauhan</b> जीता</li>
+                <li><b>2nd Tarain 1192</b>: <b>Ghori जीता, Prithviraj मारा गया</b></li>
+                <li><b>Chandawar 1194</b>: Jaichand of Kannauj हारा</li>
+              </ul>
+              यहीं से <b>Delhi Sultanate की नींव</b> पड़ी।
+            </li>
+          </ul>
+        </li>
+        <li><b>Date trick</b>: "<b>712 अरब, 1000 ग़ज़नी, 1192 घोरी</b>" — तीन प्रमुख dates।</li>
+        <li><b>Mahmud Ghazni के 17 attacks</b>: Most famous - <b>17th attack (1025-26)</b> on <b>Somnath Temple</b> (Gujarat)। हीरे-ज्वाहरात लूटे, मूर्ति तोड़ी। हर साल/2 साल में आता था।</li>
+        <li><b>Ghori के बाद</b> — उसका slave <b>Qutb-ud-din Aibak</b> ने 1206 में <b>Slave/Mamluk dynasty</b> शुरू की = Delhi Sultanate का पहला dynasty।</li>
+        <li><b>Story</b>: 8वीं सदी में Arabs ने सिर्फ़ Sindh लिया (Mohammad bin Qasim, 712 AD)। फिर 300 साल कुछ नहीं। 1000 AD में Mahmud Ghazni "raider" आया — लूटा और गया। पर 1192 में Muhammad Ghori "ruler" बनकर आया — Prithviraj को हराया, और उसके slave Aibak ने 1206 में Delhi Sultanate शुरू किया जो 320 साल चली।</li>
+      </ul>
     `,
     mcq: [
       { q: "Arab invasion of Sindh (712 AD) was led by?", opts: ["Mahmud Ghazni", "Muhammad bin Qasim", "Muhammad Ghori", "Hajjaj bin Yusuf"], a: 1, ex: "17-year-old Muhammad bin Qasim, sent by his uncle Hajjaj bin Yusuf, governor of Iraq." },
@@ -3321,6 +3626,47 @@
 
       <h3>Looking Ahead</h3>
       <p>While Delhi Sultanate weakened (especially after Tughlaq decline), powerful regional kingdoms emerged across the subcontinent — at <b>Jaunpur, Bengal, Gujarat, Malwa, Kashmir, Mewar</b>. These provincial kingdoms preserved political continuity and developed regional cultures. The next topic explores them.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Iqta System</b> — military officers (Iqtadars) को ज़मीन के टुकड़े assign किए, उनसे tax collect करने का अधिकार + सेना देने का काम। शुरू Iltutmish ने किया, organize Balban-Alauddin Khilji ने। Non-hereditary। (बाद में Mughal Jagirdari में evolve हुआ।)</li>
+        <li><b>Sultanate Society — 4 categories</b>:
+          <ul>
+            <li><b>Nobility (Umara)</b> — Turkish, Afghan, Mongol, Indian Muslim</li>
+            <li><b>Ulema</b> — religious scholars</li>
+            <li><b>Hindus (Zimmis)</b> — paid <b>Jaziya</b> (poll tax)</li>
+            <li><b>Slaves</b> — military, household, eunuchs</li>
+          </ul>
+        </li>
+        <li><b>Taxes</b>:
+          <ul>
+            <li><b>Kharaj</b> — land revenue (1/3 to 1/2 of produce)</li>
+            <li><b>Jaziya</b> — poll tax on non-Muslims</li>
+            <li><b>Zakat</b> — 2.5% on Muslims (charity)</li>
+            <li><b>Khams</b> — 1/5 war booty (1/5 state, 4/5 soldiers — Alauddin Khilji ने reversed)</li>
+          </ul>
+        </li>
+        <li><b>Alauddin Khilji's Market Reforms (Indo-Islamic economics)</b>:
+          <ul>
+            <li>3 markets in Delhi — Mandi (grain), Sarai-Adl (cloth), Cattle market</li>
+            <li>Fixed prices, no profit margin</li>
+            <li>Hoarders punished severely</li>
+            <li>Trick: "<b>3 mandi, fixed bhav, no chori</b>"</li>
+          </ul>
+        </li>
+        <li><b>Sultanate Architecture — dynasty wise</b>:
+          <ul>
+            <li><b>Slave</b>: Quwwat-ul-Islam Mosque (1st in India, Aibak), Qutb Minar (Aibak start, Iltutmish complete)</li>
+            <li><b>Khilji</b>: Alai Darwaza (1311), Hauz-i-Alai, Siri Fort</li>
+            <li><b>Tughlaq</b>: Tughlaqabad fort (Ghiyasuddin), Daulatabad (Mohd bin Tughlaq), Firoz Shah Kotla</li>
+            <li><b>Sayyid-Lodi</b>: Octagonal tombs (Lodi Gardens)</li>
+          </ul>
+        </li>
+        <li><b>Style features</b>: Arches और domes (true arch, not corbelled); मेहराब-कलश; pietra dura nahi (वो Mughal में); calligraphy + geometric patterns; minarets।</li>
+        <li><b>New things Turks brought</b>: Persian language, Paper, Spinning wheel (charkha), Gunpowder (later), True arch architecture, Sufi orders।</li>
+        <li><b>Story</b>: Sultanate के 320 साल में Hindustani culture का जन्म हुआ — Turkish rulers + Indian masses ने मिलकर Urdu language, Sufi-Bhakti synthesis, Indo-Islamic architecture create किया। यह "fusion era" था।</li>
+      </ul>
     `,
     mcq: [
       { q: "Diwan-i-Arz (military department) was created by?", opts: ["Iltutmish", "Balban", "Alauddin Khilji", "Muhammad bin Tughlaq"], a: 1, ex: "Balban created Diwan-i-Arz." },
@@ -3529,6 +3875,34 @@
 
       <h3>Looking Ahead</h3>
       <p>These provincial kingdoms — both Hindu and Muslim — kept Indian political and cultural life vibrant during Sultanate weakness. The Mughals (1526) absorbed most of them. Some (Mewar, Marwar, Amber) survived as Rajput vassals. The cultural mix they created (regional architecture, literature, music) became part of the unified Mughal cultural synthesis.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Why provincial kingdoms?</b> — Mohammad bin Tughlaq के मूर्खतापूर्ण निर्णय और Timur invasion (1398) से Delhi कमज़ोर हो गई। दूर-दूर के governors independent हो गए।</li>
+        <li><b>Major Provincial Kingdoms — "BJ-MGK-MB"</b>:
+          <ul>
+            <li><b>Bengal</b> — Ilyas Shahi dynasty; capital Pandua/Gaur। Husain Shah ने Chaitanya को संरक्षण दिया।</li>
+            <li><b>Jaunpur (UP)</b> — <b>Sharqi dynasty</b> ("Sharqi" = eastern)। "<b>Shiraz-i-Hind</b>" कहा जाता था (Persian culture)। Atala Masjid, Jami Masjid।</li>
+            <li><b>Malwa</b> — Hoshang Shah (Mandu)। Jahaz Mahal, Hindola Mahal at Mandu।</li>
+            <li><b>Gujarat</b> — Ahmad Shah ने Ahmedabad बसाई 1411। <b>Mahmud Begarha</b> (1458-1511) सबसे महान — Champaner जीता।</li>
+            <li><b>Kashmir</b> — <b>Zain-ul-Abidin (Bud Shah, 1420-70)</b> = "<b>Akbar of Kashmir</b>" — Hindu-Muslim harmony, abolished Jaziya।</li>
+            <li><b>Mewar (Rajput)</b> — <b>Rana Kumbha</b> (Vijay Stambh at Chittor — Mahmud Khilji को हराने पर), <b>Rana Sanga</b> (Babur से Khanwa में हारा 1527)। <b>Rana Pratap</b> (Haldighati 1576)।</li>
+            <li><b>Bahmani (Deccan)</b> — 1347-1518; Mahmud Gawan PM।</li>
+            <li><b>Vijayanagara</b> — already covered।</li>
+          </ul>
+        </li>
+        <li><b>Trick for direction</b>:
+          <ul>
+            <li>East: Bengal, Jaunpur</li>
+            <li>West: Gujarat, Mewar</li>
+            <li>Central: Malwa</li>
+            <li>South: Bahmani, Vijayanagara</li>
+            <li>North: Kashmir</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 14वीं सदी में Tughlaq's mistakes + Timur 1398 invasion से Delhi कमज़ोर। तो UP, Bengal, Gujarat, Malwa, Deccan सब independent हो गए — और हर एक की अपनी संस्कृति, architecture फले। बाद में Akbar ने इन सबको जीतकर Mughal empire में मिलाया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Bengal Sultanate became independent of Tughlaqs in?", opts: ["1206", "1338", "1392", "1407"], a: 1, ex: "1338 — founded by Fakhruddin Mubarak Shah during Muhammad bin Tughlaq's reign." },

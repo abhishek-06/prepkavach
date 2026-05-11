@@ -137,6 +137,20 @@
 
       <h3>Looking Ahead</h3>
       <p>By 1763, the English had eliminated their main European rival in India. The next stage of expansion was no longer against Europeans — it was against Indian rulers. The richest of these was the Nawab of Bengal. The English company, having tasted military success, was ready to test its strength on Indian soil. That contest began at <b>Plassey (1757)</b> — covered in the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Order of European arrival — "PDDF"</b>: <b>P</b>ortuguese (1498) → <b>D</b>utch (1602) → <b>D</b>anes (1616) → <b>English East India Co.</b> (1600/1608) — actually English came before Danes; then <b>F</b>rench (1664)।</li>
+        <li><b>Memory trick</b>: "<i>पुर्तगाली देखकर डच डेन्स फ्रांसीसी अंग्रेज़ आए</i>" = PDDFE।</li>
+        <li><b>Portuguese (1498)</b>: <b>Vasco da Gama</b> at <b>Calicut</b> (Zamorin's kingdom)। <b>Albuquerque</b> (1509-15) = real founder of Portuguese power; captured Goa 1510। Capital: <b>Goa</b>। Cartaz system (sea passes)। Decline by 1612 (Surat naval defeat to English)।</li>
+        <li><b>Dutch (1602)</b>: VOC (Dutch East India Co.) — पहली joint stock company। Indian centers: Pulicat (1605), Surat, Chinsura। ज़्यादा focus Indonesia पर — India में कमज़ोर।</li>
+        <li><b>English (1600)</b>: Royal Charter from Queen Elizabeth I — 31 December 1600। <b>Captain Hawkins</b> 1608 to Jahangir (Surat); <b>Thomas Roe</b> 1615 (Mughal court permission)। Centers: Surat (1612), Madras (1639 — Francis Day, Fort St. George), Bombay (1668 — Charles II's dowry), Calcutta (1690 — Job Charnock)।</li>
+        <li><b>French (1664)</b>: <b>Compagnie des Indes Orientales</b> by Colbert under Louis XIV। Centers: Surat, Pondicherry (1673 — capital), Chandranagore, Mahe। <b>Dupleix</b> (1742-54) ने subsidiary alliance की नींव डाली। 3 Carnatic Wars में English से हारे।</li>
+        <li><b>3 Carnatic Wars</b>: 1st (1746-48), 2nd (1749-54), 3rd (1758-63) — आख़िर में <b>Battle of Wandiwash 1760</b> में English ने French को हराया। French to Pondicherry सीमित हुए।</li>
+        <li><b>Date trick</b>: "<b>1498-1600-1664 = पुर्तगाली, अंग्रेज़, फ्रेंच</b>" (round numbers)।</li>
+        <li><b>Story</b>: 1498 में Vasco da Gama Calicut आया (मसाले पाने के लिए)। पीछे-पीछे Dutch, English, French आए। हर कोई India का textile + spices चाहता था। 250 साल trade competition के बाद English ने Plassey 1757 से political ruler बन गए।</li>
+      </ul>
     `,
     mcq: [
       { q: "Who was the first European to discover the sea route to India?", opts: ["Christopher Columbus", "Vasco da Gama", "Bartholomew Diaz", "Magellan"], a: 1, ex: "Vasco da Gama reached Calicut on 20 May 1498. Diaz had only rounded the Cape of Good Hope (1487); Columbus reached America (1492)." },
@@ -283,6 +297,37 @@
 
       <h3>Looking Ahead</h3>
       <p>From 1765, the Company was the de facto sovereign of Bengal — but its raw extraction had already provoked criticism in England (Burke's speeches; Pitt's India Act 1784) and disaster on the ground. To civilize the new "empire", London would impose new constitutional checks (Regulating Act 1773; Pitt's India Act 1784) and send a series of Governor Generals — beginning with Warren Hastings, whose reforms in revenue, justice, and military reorganization shaped Company India for decades.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Battle of Plassey — 23 June 1757</b>:
+          <ul>
+            <li><b>British</b>: <b>Robert Clive</b></li>
+            <li><b>Nawab of Bengal</b>: <b>Siraj-ud-Daulah</b> (last independent Nawab)</li>
+            <li>Mir Jafar (Siraj का सेनापति) ने धोखा दिया → British जीते</li>
+            <li>Result: Mir Jafar नया Nawab; British को Bengal control मिला</li>
+            <li><b>Black Hole tragedy</b> (1756) — Siraj ने 146 British prisoners को छोटे कमरे में बंद किया (claimed by Holwell — disputed)</li>
+          </ul>
+        </li>
+        <li><b>Battle of Buxar — 22 October 1764</b>:
+          <ul>
+            <li><b>British</b>: <b>Hector Munro</b></li>
+            <li>Opponents: <b>Mir Qasim</b> (Nawab Bengal, replaced Mir Jafar) + <b>Shuja-ud-Daulah</b> (Nawab Awadh) + <b>Shah Alam II</b> (Mughal emperor) — triple alliance!</li>
+            <li>British जीते — much more decisive than Plassey</li>
+          </ul>
+        </li>
+        <li><b>Treaty of Allahabad 1765</b> (Clive ↔ Shah Alam II): British को <b>Bengal, Bihar, Orissa का Diwani (revenue rights)</b> मिले। "<b>Dual Government</b>" (Diwani British के पास, Nizamat Nawab के पास) — Clive ने शुरू किया।</li>
+        <li><b>Trick — Plassey vs Buxar</b>:
+          <ul>
+            <li><b>Plassey 1757 = "विश्वासघात"</b> (treachery, Mir Jafar)। British weak victory।</li>
+            <li><b>Buxar 1764 = "असली जीत"</b> (real battle). 7 साल बाद। British became masters।</li>
+          </ul>
+        </li>
+        <li><b>Date trick</b>: "<b>57 - 64 - 65</b>" — Plassey, Buxar, Diwani treaty।</li>
+        <li><b>Bengal Nawabs sequence</b>: Murshid Quli Khan (founder) → Alivardi Khan → <b>Siraj-ud-Daulah</b> (Plassey में मारा) → Mir Jafar → <b>Mir Qasim</b> (Buxar में हारा) → Mir Jafar again।</li>
+        <li><b>Story</b>: 1757 में British ने Bengal एक धोखे से जीता (Mir Jafar bribe)। पर असली power तब आई 1764 के Buxar में जब Mughal emperor + Awadh + Bengal सब को एक साथ हरा दिया। 1765 का Allahabad treaty से British ने Bengal-Bihar-Orissa का revenue right ले लिया = colonial rule की शुरुआत।</li>
+      </ul>
     `,
     mcq: [
       { q: "Capital of Bengal under Murshid Quli Khan was shifted to?", opts: ["Calcutta", "Patna", "Murshidabad", "Munger"], a: 2, ex: "From Dhaka to Murshidabad — named after him." },
@@ -427,6 +472,32 @@
 
       <h3>Looking Ahead</h3>
       <p>With Mysore reduced, only one major Indian military power remained — the <b>Maratha Confederacy</b>. Wellesley turned his attention there next, fighting the Second Anglo-Maratha War (1803–05). The Anglo-Maratha contest is the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>4 Anglo-Mysore Wars (1767-1799)</b>:
+          <ul>
+            <li><b>1st AMW (1767-69)</b> — Hyder Ali vs British; <b>Treaty of Madras 1769</b>; Hyder won</li>
+            <li><b>2nd AMW (1780-84)</b> — Hyder Ali + Marathas + Nizam vs British; Hyder died 1782; Tipu Sultan continued; <b>Treaty of Mangalore 1784</b></li>
+            <li><b>3rd AMW (1790-92)</b> — Cornwallis vs Tipu; <b>Treaty of Seringapatam 1792</b>; Tipu lost half kingdom + paid indemnity + sent 2 sons as hostages</li>
+            <li><b>4th AMW (1799)</b> — Wellesley vs Tipu; <b>Tipu died defending Seringapatam, 4 May 1799</b>; Mysore divided</li>
+          </ul>
+        </li>
+        <li><b>Tipu Sultan facts</b>:
+          <ul>
+            <li>Son of Hyder Ali; "<b>Tiger of Mysore</b>"</li>
+            <li>Capital: Seringapatam (Srirangapatna)</li>
+            <li>First Indian ruler to use rockets (Mysorean rockets)</li>
+            <li>Planted "Tree of Liberty" — French Revolution sympathiser</li>
+            <li>Sent embassies to France, Turkey, Afghanistan</li>
+            <li>Refused Subsidiary Alliance</li>
+          </ul>
+        </li>
+        <li><b>Trick — "HHTT" War Sequence</b>: <b>H</b>yder (1+2), <b>T</b>ipu (3+4)। War 2 में Hyder मरा during war।</li>
+        <li><b>Treaties trick</b>: "<b>MMSS</b>" = Madras, Mangalore, Seringapatam, (then Mysore split)।</li>
+        <li><b>Story</b>: Hyder Ali ने Wodeyar (Mysore raja) से power ली। British से 30+ साल लड़ा। उसका बेटा Tipu French का दोस्त, English का दुश्मन — Subsidiary Alliance refuse की। 1799 में Wellesley ने Seringapatam घेरा — Tipu लड़ते मारा गया, गोली खाकर। Mysore wodeyar को वापस दिया गया (puppet)।</li>
+      </ul>
     `,
     mcq: [
       { q: "Who is known as the 'Tiger of Mysore'?", opts: ["Haider Ali", "Tipu Sultan", "Krishnaraja Wadiyar", "Chikka Devaraja"], a: 1, ex: "Tipu Sultan adopted the tiger as personal emblem; the British called him 'Tiger of Mysore'." },
@@ -578,6 +649,45 @@
 
       <h3>Looking Ahead</h3>
       <p>By 1818 the British had no rivals south of the Sutlej. North-west of the Sutlej, however, lay the Sikh kingdom of <b>Maharaja Ranjit Singh</b> — modern, powerful, and hostile. The Anglo-Sikh wars (1845–49) form the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Anglo-Maratha Wars</b>:
+          <ul>
+            <li><b>1st AMW (1775-82)</b> — over Peshwa succession (Raghunath Rao vs Madhavrao II); battles: Wadgaon (Marathas won), Gwalior; <b>Treaty of Salbai 1782</b> — restored status quo; 20 years peace</li>
+            <li><b>2nd AMW (1803-05)</b> — under <b>Wellesley</b>; Marathas split (Treaty of Bassein Dec 1802 — Peshwa Baji Rao II signed Subsidiary Alliance); <b>Battles of Assaye, Argaon, Laswari, Delhi</b> — British won; Daulat Rao Scindia + Bhonsle defeated; Holkar (Yashwantrao) escaped</li>
+            <li><b>3rd AMW (1817-19)</b> — under <b>Lord Hastings</b>; trigger = Pindaris; Peshwa Baji Rao II made last stand; Marathas crushed; Peshwa pensioned at Bithur (Kanpur); <b>Maratha Empire ended</b></li>
+          </ul>
+        </li>
+        <li><b>Treaty of Bassein, Dec 1802</b> — <b>turning point</b>:
+          <ul>
+            <li>Peshwa Baji Rao II signed Subsidiary Alliance with British</li>
+            <li>Stationed British troops, paid for them</li>
+            <li>British became internal arbiters of Maratha confederacy</li>
+            <li>Other Maratha chiefs (Scindia, Bhonsle, Holkar) opposed</li>
+          </ul>
+        </li>
+        <li><b>Subsidiary Alliance</b> (<b>Wellesley's 1798 system</b>):
+          <ul>
+            <li>Indian state hosts British troops</li>
+            <li>State pays for the troops</li>
+            <li>British resident at court</li>
+            <li>State can't make foreign alliances without British permission</li>
+            <li><b>First adopter</b>: Hyderabad (1798), then Mysore (1799), Tanjore, Awadh (1801), Peshwa Baji Rao II (1802), Bhonsle, Scindia...</li>
+            <li>Trick: "<b>Subsidiary = pay rent to British in your own house</b>"</li>
+          </ul>
+        </li>
+        <li><b>Pindaris</b> — irregular Maratha cavalry; freelance plunderers; 3rd AMW pretext for British to crush Marathas।</li>
+        <li><b>Trick — 3 wars, 3 GGs</b>:
+          <ul>
+            <li>1st AMW = Warren Hastings</li>
+            <li>2nd AMW = Wellesley</li>
+            <li>3rd AMW = Lord Hastings (Moira)</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 1761 के Panipat-3 हार के बाद Marathas confederacy में बँट गए — Peshwa Pune, Scindia Gwalior, Holkar Indore, Gaekwad Baroda, Bhonsle Nagpur। British ने इस divide का फ़ायदा उठाया। Wellesley ने Subsidiary Alliance से divide-and-conquer किया। 1817-19 में Pindaris के बहाने सबको हराकर Maratha Empire खत्म कर दिया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Five great houses of the Maratha Confederacy after Panipat 1761 were Peshwa, Gaekwad, Holkar, Bhonsle and?", opts: ["Patil", "Scindia", "Pawar", "Deshmukh"], a: 1, ex: "Scindia of Gwalior; the others were at Pune (Peshwa), Baroda (Gaekwad), Indore (Holkar), Nagpur (Bhonsle)." },
@@ -737,6 +847,30 @@
 
       <h3>Looking Ahead</h3>
       <p>The annexation of Punjab in 1849 completed the British conquest of the Indian subcontinent. The empire now had to be governed — and it was the choices of the men who had governed it from 1773 onwards (the Governor Generals) that had created the system Britain would inherit. The next two topics — Governor Generals and Viceroys — survey the men who shaped the era.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Background</b>: Maharaja Ranjit Singh (1780-1839) ने Sikh Empire बनाया; Lahore capital; Treaty of Amritsar 1809 with British। 1839 में मरने के बाद anarchy।</li>
+        <li><b>2 Anglo-Sikh Wars</b>:
+          <ul>
+            <li><b>1st ASW (1845-46)</b> — under <b>Lord Hardinge I</b>; battles: Mudki, Ferozeshah, Aliwal, <b>Sobraon</b>; Sikhs defeated; <b>Treaty of Lahore 1846</b> — Sikhs paid indemnity, lost territory, Kashmir sold to Gulab Singh (Treaty of Amritsar 1846 = Dogra Kashmir created); <b>Henry Lawrence Resident</b></li>
+            <li><b>2nd ASW (1848-49)</b> — under <b>Lord Dalhousie</b>; battles: Ramnagar, Chillianwala, <b>Gujrat</b> (decisive); Sikhs surrendered; <b>Punjab annexed March 1849</b>; <b>Dalip Singh</b> (Ranjit Singh's son, ~10 yrs old) pensioned & exiled to UK with Kohinoor</li>
+          </ul>
+        </li>
+        <li><b>Punjab annexation 1849</b> — Doctrine of Lapse से नहीं, war-conquest से। Punjab Board of Administration: <b>Lawrence brothers</b> (John Lawrence, Henry Lawrence, Robert Montgomery)।</li>
+        <li><b>Trick</b>: "<b>SLF = Sobraon, Lahore, Final</b>" 1st war; "<b>CRG = Chillianwala, Ramnagar, Gujrat</b>" 2nd war।</li>
+        <li><b>Why did Sikhs lose despite strong army?</b>
+          <ul>
+            <li>Internal treachery — Tej Singh, Lal Singh betrayed</li>
+            <li>No unified leadership after Ranjit Singh's death</li>
+            <li>Maharani Jindan (Dalip's mother) imprisoned</li>
+            <li>British superior artillery + Indian sepoys</li>
+          </ul>
+        </li>
+        <li><b>Kohinoor</b>: Ranjit Singh had it from Shah Shuja (Afghan); after 1849, taken to UK by British; in Queen's crown today। Topic of return-debate।</li>
+        <li><b>Story</b>: Ranjit Singh ने 40 साल Punjab में strong Sikh empire बनाया। उसकी मौत के 5 साल बाद anarchy + traitorous commanders। 1st war में Sikhs बहादुरी से लड़े पर हार गए। 4 साल बाद 2nd war में Punjab British के हाथ चला गया। 10-year-old Dalip Singh को Queen Victoria के पास भेज दिया गया, Kohinoor London पहुँच गया।</li>
+      </ul>
     `,
     mcq: [
       { q: "The Treaty of Amritsar (1809) was signed between?", opts: ["Ranjit Singh & British", "Ranjit Singh & Afghans", "British & Gulab Singh", "Dalip Singh & British"], a: 0, ex: "Signed by Charles Metcalfe (under Lord Minto I) with Ranjit Singh — made the Sutlej the eastern boundary of the Sikh kingdom." },
@@ -954,6 +1088,41 @@
 
       <h3>Looking Ahead</h3>
       <p>The Revolt of 1857 ended Company rule. From 1858 onwards, the same office became the Viceroy under the Crown. Although the title changed, continuity of policy was assured by Canning straddling both regimes. The next topic — Viceroys (1858–1947) — surveys the era from the Crown's takeover to independence.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Governors of Bengal (1757-1773)</b>:
+          <ul>
+            <li><b>Robert Clive</b> (1757-60, 1765-67) — Plassey winner, dual government</li>
+            <li>Vansittart (1760-65) — Mir Qasim issue</li>
+          </ul>
+        </li>
+        <li><b>Governors-General of Bengal (1773-1833)</b> — Regulating Act 1773 से शुरू:
+          <ul>
+            <li><b>Warren Hastings</b> (1773-85) — first GG of Bengal; Rohilla War; Asiatic Society of Bengal (William Jones, 1784); impeached</li>
+            <li>Cornwallis (1786-93) — <b>Permanent Settlement 1793</b> (Bengal); Civil Services; "Father of Civil Service in India"</li>
+            <li>Wellesley (1798-1805) — <b>Subsidiary Alliance</b>; Hyderabad 1st (1798)</li>
+            <li>Lord Minto I (1807-13) — Treaty of Amritsar with Ranjit Singh</li>
+            <li>Hastings (1813-23) — Anglo-Maratha III, Anglo-Nepalese, Pindari wars; <b>Ryotwari</b> in south</li>
+            <li>Amherst (1823-28) — 1st Anglo-Burmese War; Treaty of Yandabo 1826</li>
+          </ul>
+        </li>
+        <li><b>Governors-General of India (1833-58)</b> — Charter Act 1833 से:
+          <ul>
+            <li><b>William Bentinck</b> (1828-35) — <b>Sati abolition 1829</b> (with Raja Ram Mohan Roy); thugee suppression; <b>English education (1835, Macaulay's Minute)</b>; "Liberator of the Press" (along with Metcalfe)</li>
+            <li>Metcalfe (1835-36) — "Liberator of Press"</li>
+            <li>Auckland (1836-42) — 1st Afghan War (disaster)</li>
+            <li>Ellenborough (1842-44) — Sindh annexed (Charles Napier)</li>
+            <li>Hardinge I (1844-48) — 1st Anglo-Sikh War</li>
+            <li><b>Dalhousie</b> (1848-56) — <b>Doctrine of Lapse</b> (Satara, Jhansi, Nagpur annexed); 2nd Anglo-Sikh War; Awadh annexed 1856; <b>1st Railway 1853</b> (Bombay-Thane); Telegraph 1853; Postal reforms 1854; PWD; first Indian university (1857)</li>
+            <li>Canning (1856-58) — last GG of EIC; <b>1857 Revolt</b></li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: Bentinck = "Modern India का पिता" (social reforms); Dalhousie = "Modernizer" (railways, telegraph, post)।</li>
+        <li><b>Mnemonic for GGs of Bengal</b>: "<b>W-C-W-M-H-A</b>" = Warren, Cornwallis, Wellesley, Minto, Hastings, Amherst।</li>
+        <li><b>Story</b>: Plassey के बाद Clive ने Bengal control लिया। फिर हर GG ने territory बढ़ाई: Cornwallis ने administration set की, Wellesley ने subsidiary alliance से 1/3 India ली, Dalhousie ने Doctrine of Lapse से बाक़ी हड़पी। 1857 revolt के बाद Crown ने EIC से control ले लिया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Who was the first Governor General of Bengal?", opts: ["Robert Clive", "Warren Hastings", "Cornwallis", "Wellesley"], a: 1, ex: "Warren Hastings under the Regulating Act 1773." },
@@ -1203,6 +1372,34 @@
 
       <h3>Looking Ahead</h3>
       <p>Each Viceroy's policies reshaped India. Curzon's Bengal partition birthed mass nationalism; Chelmsford's Rowlatt Act provoked Gandhi; Linlithgow's WWII decision energized Quit India; Wavell's Cabinet Mission failed and led to partition. Underlying these political shocks, however, was the day-to-day economic reality of British rule — land revenue, trade, drain of wealth — which the next topic surveys.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Viceroys = post-1858</b> (Crown rule)। पहले "Governor-General" थे (EIC), 1858 से दोनों titles। 1858-1947 = ~90 साल।</li>
+        <li><b>Key Viceroys to remember (Hinglish acronym + key event)</b>:
+          <ul>
+            <li><b>Canning</b> (1858-62) — first Viceroy; <b>Queen's Proclamation 1858</b>; Indian Councils Act 1861; "<b>Clemency Canning</b>"</li>
+            <li><b>Mayo</b> (1869-72) — only Viceroy <b>murdered in office</b> (Andaman); Census started 1872; Statistical Survey</li>
+            <li><b>Lytton</b> (1876-80) — "<b>Reactionary Viceroy</b>"; Vernacular Press Act 1878; Arms Act 1878; Royal Titles Act 1876 (<b>Victoria = Empress of India</b>); Delhi Durbar 1877</li>
+            <li><b>Ripon</b> (1880-84) — "<b>Good Viceroy</b>"; repealed Vernacular Press; First Factory Act 1881; <b>Local Self-Govt 1882</b> (Father of Local Self-Govt in India); <b>Ilbert Bill 1883</b> (controversy)</li>
+            <li><b>Curzon</b> (1899-1905) — <b>Most controversial</b>; <b>Bengal Partition 1905</b>; Indian Universities Act 1904; Police reforms; Archaeological Survey strengthened</li>
+            <li>Minto II (1905-10) — <b>Morley-Minto Reforms 1909</b> (separate electorates for Muslims)</li>
+            <li>Hardinge II (1910-16) — Capital <b>Delhi shift 1911</b> (Delhi Durbar); Bengal Partition annulled 1911</li>
+            <li><b>Chelmsford</b> (1916-21) — <b>Montagu-Chelmsford Reforms 1919</b>; Rowlatt Act + <b>Jallianwala Bagh 13 April 1919</b>; Non-Cooperation 1920</li>
+            <li><b>Reading</b> (1921-26) — Chauri Chaura 1922; Kakori 1925</li>
+            <li><b>Irwin</b> (1926-31) — <b>Simon Commission 1928</b>; <b>Dandi March 1930</b>; <b>Gandhi-Irwin Pact 1931</b></li>
+            <li>Willingdon (1931-36) — RTC II & III; Communal Award 1932 (Poona Pact)</li>
+            <li><b>Linlithgow</b> (1936-43) — <b>GOI Act 1935 implemented 1937</b>; WWII; <b>Quit India 1942</b>; August Offer 1940; Cripps 1942</li>
+            <li><b>Wavell</b> (1943-47) — Wavell Plan 1945; Cabinet Mission 1946; Direct Action Day 1946</li>
+            <li><b>Mountbatten</b> (Mar-Aug 1947) — <b>Partition; Independence 15 Aug 1947</b>; Mountbatten Plan = 3 June Plan</li>
+            <li><b>C. Rajagopalachari</b> (1948-50) — <b>last and only Indian GG</b>; office abolished 26 Jan 1950</li>
+          </ul>
+        </li>
+        <li><b>Major mnemonic</b>: "<b>CMLR-CMHC-RIW-LWM-R</b>" = Canning Mayo Lytton Ripon — Curzon Minto Hardinge Chelmsford — Reading Irwin Willingdon — Linlithgow Wavell Mountbatten — Rajagopalachari।</li>
+        <li><b>Trick — Reactive Lytton vs Liberal Ripon</b>: "<b>Lytton ने Press Act लाया, Ripon ने हटाया</b>"। दोनों consecutive।</li>
+        <li><b>Story</b>: 1858 के बाद हर 5 साल नया Viceroy। Lord Curzon ने सबसे बड़ी ग़लती की — Bengal partition 1905 — जिसने nationalism का तूफ़ान खड़ा किया। हर बड़े Indian movement के time एक Viceroy: Dandi-Irwin, Quit India-Linlithgow, Independence-Mountbatten।</li>
+      </ul>
     `,
     mcq: [
       { q: "Who was the first Viceroy of India?", opts: ["Canning", "Dalhousie", "Mayo", "Curzon"], a: 0, ex: "Lord Canning, after the GoI Act 1858 transferred power from Company to Crown." },
@@ -1433,6 +1630,58 @@
 
       <h3>Looking Ahead</h3>
       <p>British economic policy created widespread distress — peasants, artisans, and a new educated middle class seeking jobs. From this distress arose two responses: socio-religious reform (Brahmo Samaj, Arya Samaj — covered next), and political organization (which culminated in the INC). Both depended on the new English-educated class that 19th-century British policy had inadvertently created.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Land Revenue Systems — "PRZ"</b>:
+          <ul>
+            <li><b>P</b>ermanent Settlement / Zamindari (1793, <b>Cornwallis</b>) — Bengal, Bihar, Orissa, parts UP — Zamindars permanent owners, fixed revenue, peasants exploited</li>
+            <li><b>R</b>yotwari (1820, <b>Thomas Munro</b>) — Madras, Bombay, Assam — direct settlement with cultivators (ryots); no zamindar middleman; revenue revised periodically</li>
+            <li><b>M</b>ahalwari (1822, <b>Holt Mackenzie</b>; modified by William Bentinck) — UP, CP, Punjab — village/mahal as unit; collective responsibility</li>
+          </ul>
+        </li>
+        <li><b>Drain of Wealth Theory</b> — <b>Dadabhai Naoroji</b>; book <b>"Poverty and Un-British Rule in India" (1901)</b>; first estimate India's per capita income ₹20 (1867-68)। Other proponents: <b>R.C. Dutt</b> ("Economic History of India"), M.G. Ranade, G.V. Joshi।</li>
+        <li><b>Modes of Drain</b>:
+          <ul>
+            <li>Home Charges (UK से paid)</li>
+            <li>Salaries of British officials</li>
+            <li>Military expenditure</li>
+            <li>Profits of British companies repatriated</li>
+            <li>Interest on debt</li>
+          </ul>
+        </li>
+        <li><b>De-industrialization</b>:
+          <ul>
+            <li>Indian handicrafts (cotton, silk) destroyed</li>
+            <li>British machine-made cloth flooded market</li>
+            <li>1813 Charter Act ended EIC trade monopoly → opened to all British</li>
+            <li>Heavy import duties on Indian goods to UK; low duties on British imports to India</li>
+            <li>"Drain of skilled artisans" → forced back to agriculture → over-pressure on land</li>
+          </ul>
+        </li>
+        <li><b>Famines under British (~25 major famines)</b>:
+          <ul>
+            <li><b>Bengal Famine 1770</b> — under EIC; 10 million died</li>
+            <li><b>Great Famine 1876-78</b> — South India; 5+ million died</li>
+            <li><b>Bengal Famine 1943</b> — 3+ million died; Churchill's wartime policies blamed</li>
+            <li>Famine Commission 1880 (Strachey Commission)</li>
+          </ul>
+        </li>
+        <li><b>Commercialization of Agriculture</b>: forced cash crops — Indigo (Bengal/Bihar — Champaran satyagraha), Cotton, Jute, Opium (for China trade), Tea, Coffee। Caused food shortages → famines।</li>
+        <li><b>British Industries set up</b>: Cotton mills Bombay (1850s, Cowasji Davar), Jute mills Bengal (1855, Rishra), Steel (TISCO 1907, Jamshedpur), Railways (1853, Bombay-Thane)। Mostly British-controlled except few like Tata।</li>
+        <li><b>Railways - dual impact</b>:
+          <ul>
+            <li>+ Connected markets, unified country</li>
+            <li>− Built for British military + commercial needs</li>
+            <li>− Capital came from British investors at "guaranteed return"</li>
+            <li>− Routes designed to bring raw materials to ports + manufactured goods inland</li>
+          </ul>
+        </li>
+        <li><b>Decline of cottage industries timeline</b>: 1750s peak → 1813 Act → 1850s collapse। Bengal weavers' famous "<b>thumb-cutting</b>" story (likely exaggerated but symbolic)।</li>
+        <li><b>Trick — "DDF"</b>: <b>D</b>rain of Wealth, <b>D</b>e-industrialization, <b>F</b>amines = three pillars of British economic exploitation।</li>
+        <li><b>Story</b>: 1757 के Plassey से British ने Bengal lutha। 1793 में Cornwallis ने Zamindari थोपी — peasants पर tax 10x बढ़ गया। Industrial Revolution के बाद Indian textiles destroyed; cotton-cloth का famous "Free Trade" ने India को राज्य से raw material supplier बना दिया। Famines बार-बार आईं। 1947 तक India पूरी तरह से agrarian, gareeb, dependent बन चुका था।</li>
+      </ul>
     `,
     mcq: [
       { q: "The Permanent Settlement was introduced in 1793 by?", opts: ["Warren Hastings", "Cornwallis", "Wellesley", "Bentinck"], a: 1, ex: "Lord Cornwallis; drafted by John Shore — revenue fixed forever with zamindars." },
@@ -1663,6 +1912,60 @@
 
       <h3>Looking Ahead</h3>
       <p>By 1857, social reform had begun, missionary education had spread, and a Western-educated Indian middle class was emerging — but resentment against the British had also been mounting steadily. That tension finally exploded in the great revolt of 1857, the subject of the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Major Reformers — Founder/Society/Year</b>:
+          <ul>
+            <li><b>Raja Ram Mohan Roy</b> — <b>Brahmo Samaj 1828</b> (Calcutta); fought Sati (abolished 1829 with Bentinck); "<b>Father of Modern India / Indian Renaissance</b>"; "<b>Sambad Kaumudi</b>" (Bengali), "Mirat-ul-Akbar" (Persian)</li>
+            <li><b>Debendranath Tagore</b> — joined Brahmo Samaj 1843; Maharshi</li>
+            <li><b>Keshab Chandra Sen</b> — Brahmo Samaj of India (1866 split); later Sadharan Brahmo Samaj</li>
+            <li><b>Henry Vivian Derozio</b> — Young Bengal Movement (1828-31); Hindu College</li>
+            <li><b>Ishwar Chandra Vidyasagar</b> — Widow Remarriage Act 1856 (Dalhousie); women's education</li>
+            <li><b>Swami Dayanand Saraswati</b> — <b>Arya Samaj 1875</b> (Bombay); "<b>Back to Vedas</b>"; Satyarth Prakash; Shuddhi movement (reconvert)</li>
+            <li><b>Ramakrishna Paramhansa</b> + <b>Swami Vivekananda</b> — <b>Ramakrishna Mission 1897</b> (Belur Math); Chicago Parliament of Religions 11 Sept 1893</li>
+            <li><b>Madame H.P. Blavatsky + Col. Olcott</b> — <b>Theosophical Society 1875</b> (New York); India HQ Adyar, Madras 1882</li>
+            <li><b>Annie Besant</b> — joined Theosophy 1889; Central Hindu College Banaras 1898 (→ BHU); Home Rule</li>
+            <li><b>Sir Syed Ahmed Khan</b> — <b>Aligarh Movement</b>; <b>Mohammedan Anglo-Oriental College 1875</b> (→ AMU 1920); reform Muslim education</li>
+            <li><b>M.G. Ranade</b> — Prarthana Samaj 1867 (Bombay); Indian Social Conference 1887</li>
+            <li><b>Jyotiba Phule</b> — <b>Satyashodhak Samaj 1873</b> (Pune); against caste; "Gulamgiri"; first school for girls 1848</li>
+            <li><b>B.R. Ambedkar</b> — Bahishkrit Hitkarini Sabha 1924; Mahad Satyagraha 1927; Kalaram Temple 1930; Independent Labour Party 1936</li>
+            <li><b>Periyar (E.V. Ramaswamy)</b> — <b>Self-Respect Movement 1925</b>; Dravida Kazhagam 1944; Tamil Nadu</li>
+            <li><b>Narayana Guru</b> — Kerala; Sree Narayana Dharma Paripalana Yogam 1903; Ezhava community</li>
+            <li><b>Veerasalingam Pantulu</b> — Telugu reformer; widow remarriage</li>
+          </ul>
+        </li>
+        <li><b>Muslim Reformers</b>:
+          <ul>
+            <li>Syed Ahmed Khan — Aligarh; M.A.O. College</li>
+            <li>Wahabi Movement — Syed Ahmad Barelvi (1820s)</li>
+            <li>Deoband Movement — Muhammad Qasim Nanautavi 1867 (Darul Uloom Deoband); orthodox</li>
+            <li>Faraizi Movement — Haji Shariatullah; Bengal</li>
+            <li>Ahmadiya — Mirza Ghulam Ahmad 1889; Qadian</li>
+          </ul>
+        </li>
+        <li><b>Trick — Religion-Wise Reform groupings</b>:
+          <ul>
+            <li><b>Hindu reform</b>: Brahmo Samaj, Arya Samaj, Ramakrishna Mission, Prarthana Samaj</li>
+            <li><b>Caste reform</b>: Satyashodhak (Phule), Self-Respect (Periyar), Ambedkar</li>
+            <li><b>Muslim reform</b>: Aligarh, Wahabi, Deoband</li>
+            <li><b>Sikh reform</b>: Singh Sabha 1873; Akali Movement 1920s</li>
+            <li><b>Parsi reform</b>: Rahnumai Mazdayasnan Sabha 1851 (Naoroji)</li>
+          </ul>
+        </li>
+        <li><b>Key abolitions</b>:
+          <ul>
+            <li><b>Sati</b> — abolished 1829 (Bentinck + RRM Roy)</li>
+            <li><b>Slavery</b> — abolished 1843</li>
+            <li><b>Female Infanticide</b> — 1795 (formally 1870 Act)</li>
+            <li><b>Widow Remarriage</b> — legalized 1856 (Vidyasagar)</li>
+            <li><b>Child Marriage</b> — Age of Consent Act 1891 (Behramji Malabari); Sarda Act 1929 (14/18 years)</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: "<b>Roy-Dayanand-Vivek-Phule-Sayyid</b>" — 5 main reformers, 5 directions।</li>
+        <li><b>Story</b>: 19वीं सदी में Indians ने अपनी समाज की कमज़ोरियाँ देखीं — सती, child marriage, caste, female illiteracy, Hindu-Muslim divide। एक के बाद एक reformer उठा — Roy ने Brahmo Samaj से शुरुआत की, Dayanand ने Vedic रास्ता, Vivekananda ने आधुनिक Hindu pride, Phule ने caste को challenge किया, Sayyid Khan ने Muslims को आधुनिक शिक्षा दी। यह 100 साल का renaissance Independence से पहले की foundation थी।</li>
+      </ul>
     `,
     mcq: [
       { q: "Brahmo Samaj was founded by?", opts: ["Dayananda", "Ram Mohan Roy", "Vivekananda", "Keshab Chandra Sen"], a: 1, ex: "Raja Ram Mohan Roy founded Brahmo Sabha in 1828; renamed Brahmo Samaj in 1830." },
@@ -1871,6 +2174,55 @@
 
       <h3>Looking Ahead</h3>
       <p>The post-1857 generation looked at the revolt's failure and concluded that future struggle had to be political, organized, modern, and pan-Indian. By the 1870s, regional political associations had emerged; by 1885, they coalesced into the Indian National Congress. The next topic traces that birth of organized Indian nationalism.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Date trick</b>: <b>10 May 1857</b> — Meerut से शुरू (sepoys ने ब्रिटिश officers को मारा)। <b>1858</b> — दब गया।</li>
+        <li><b>Spark — Greased Cartridges</b>: Enfield rifle की cartridges में cow + pig fat — दोनों धर्मों को नाराज़ किया। <b>Mangal Pandey</b> (29 March 1857, Barrackpore) ने पहले फायर किया।</li>
+        <li><b>Causes — "PMER"</b>:
+          <ul>
+            <li><b>P</b>olitical — Doctrine of Lapse (Dalhousie), annexation of Awadh 1856</li>
+            <li><b>M</b>ilitary — low pay, far postings, religious offence</li>
+            <li><b>E</b>conomic — destruction of cotton industry, peasant exploitation</li>
+            <li><b>R</b>eligious — fear of Christianization, Sati ban, widow remarriage</li>
+          </ul>
+        </li>
+        <li><b>Centres & Leaders — Match these!</b>
+          <ul>
+            <li><b>Delhi</b> — <b>Bahadur Shah II Zafar</b> (last Mughal, declared "Emperor"); General Bakht Khan (real military leader)</li>
+            <li><b>Kanpur</b> — <b>Nana Saheb</b> (Peshwa Baji Rao II का adopted son); <b>Tatya Tope</b> (lieutenant)</li>
+            <li><b>Lucknow</b> — <b>Begum Hazrat Mahal</b> (Awadh)</li>
+            <li><b>Jhansi</b> — <b>Rani Lakshmi Bai</b> (lapse से throne हटा); died Gwalior 1858</li>
+            <li><b>Bareilly</b> — Khan Bahadur Khan</li>
+            <li><b>Faizabad</b> — Maulvi Ahmadullah</li>
+            <li><b>Bihar (Arrah)</b> — <b>Kunwar Singh</b> (80 yrs old!)</li>
+          </ul>
+          <b>"DKLJ-BFB"</b> = Delhi-Kanpur-Lucknow-Jhansi-Bareilly-Faizabad-Bihar।
+        </li>
+        <li><b>British Suppressors</b>: Sir Hugh Rose (Jhansi), Sir Colin Campbell (Lucknow), John Nicholson (Delhi)।</li>
+        <li><b>Why it failed</b>:
+          <ul>
+            <li>No unified leadership / common goal</li>
+            <li>South India, Punjab, Bengal didn't join</li>
+            <li>Educated middle class didn't support</li>
+            <li>Modern weapons of British</li>
+            <li>Princely states helped British</li>
+          </ul>
+        </li>
+        <li><b>Consequences (1858 onwards)</b>:
+          <ul>
+            <li><b>Queen's Proclamation 1 Nov 1858</b> — EIC ended; Crown rule शुरू</li>
+            <li><b>Government of India Act 1858</b></li>
+            <li>Viceroy title started (Canning first)</li>
+            <li>Mughal dynasty officially over (Bahadur Shah II exiled to Rangoon)</li>
+            <li>Doctrine of Lapse abandoned</li>
+            <li>Indian Councils Act 1861</li>
+          </ul>
+        </li>
+        <li><b>Names debate</b>: V.D. Savarkar = "<b>First War of Independence</b>"; British = "Sepoy Mutiny"; modern historians = "Revolt of 1857"।</li>
+        <li><b>Story</b>: Cartridge एक चिंगारी थी — असली आग 100 साल की British नीतियों ने जमा की थी। Mangal Pandey के बाद Meerut से Delhi → सब उत्तर भारत में फैला। Bahadur Shah II को सब ने leader माना पर real leadership छितरी थी। 1858 तक British ने सब दबा दिया, पर Indian nationalism की नींव यहीं पड़ी।</li>
+      </ul>
     `,
     mcq: [
       { q: "Mangal Pandey was a sepoy of which regiment?", opts: ["3rd Light Cavalry", "34th Bengal Native Infantry", "1st Madras Infantry", "Bombay Grenadiers"], a: 1, ex: "34th Bengal Native Infantry, stationed at Barrackpore — attacked Baugh and Hewson on 29 March 1857." },
@@ -2000,6 +2352,31 @@
 
       <h3>Looking Ahead</h3>
       <p>For the first 20 years (1885–1905), Congress remained moderate — petitioning, prizing constitutional means, hopeful of British justice. From 1905 onwards, a younger, more militant generation — led by Tilak, Lal Lajpat Rai, Bipin Chandra Pal, and Aurobindo Ghosh — challenged this approach. The next topic explores this Moderate vs Extremist divide.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Date</b>: <b>28 December 1885</b> at <b>Gokuldas Tejpal Sanskrit College, Bombay</b>।</li>
+        <li><b>Founder</b>: <b>A.O. Hume</b> (retired British civil servant) — सोचा "safety valve" theory (R.C. Majumdar के अनुसार) — discontent को channel करने के लिए।</li>
+        <li><b>1st President</b>: <b>W.C. Bonnerjee</b> (Womesh Chandra)। 72 delegates।</li>
+        <li><b>Viceroy at the time</b>: <b>Lord Dufferin</b>।</li>
+        <li><b>Trick</b>: "<b>1-8-8-5 = Hume + Bonnerjee</b>"। "Hume ka Home congress" — H-B।</li>
+        <li><b>Early Presidents (Moderates era 1885-1905) — mnemonic</b>:
+          <ul>
+            <li>1885 — W.C. Bonnerjee (Bombay)</li>
+            <li>1886 — Dadabhai Naoroji (Calcutta) — 3 times total president (1886, 1893, 1906 — declared "Swaraj" in 1906)</li>
+            <li>1887 — Badruddin Tyabji — first Muslim president</li>
+            <li>1888 — George Yule — first English president</li>
+            <li>1890 — Pherozeshah Mehta</li>
+            <li>1905 — G.K. Gokhale</li>
+          </ul>
+        </li>
+        <li><b>"Big 3" of Moderates — "DGN"</b>: <b>D</b>adabhai Naoroji, <b>G</b>okhale, <b>N</b>aoroji again (or Pherozeshah Mehta)। Also Surendranath Banerjee, R.C. Dutt।</li>
+        <li><b>Methods of Moderates</b>: <b>"3 P's"</b> = Petition, Prayer, Protest — peaceful constitutional methods। No mass movement।</li>
+        <li><b>Key demands</b>: Reduction of taxes, Indian representation in services, Simultaneous ICS exam in India + England, more Indians in legislative councils, reduction of military expenditure।</li>
+        <li><b>Dadabhai Naoroji's "Drain Theory"</b> — book <b>"Poverty and Un-British Rule in India" (1901)</b>। पैसा India से England में जा रहा है।</li>
+        <li><b>Story</b>: 1885 में 72 educated Indians एक meeting में मिले — पहली बार all-India political platform। पहले 20 साल बहुत polite थे — petitions भेजे, speeches दिए। पर कोई concrete बदलाव नहीं हुआ। फिर 1905 के Bengal Partition ने सब बदल दिया — Extremists आ गए।</li>
+      </ul>
     `,
     mcq: [
       { q: "INC was founded in?", opts: ["1857", "1875", "1885", "1905"], a: 2, ex: "28–31 December 1885 in Bombay; 72 delegates." },
@@ -2194,6 +2571,45 @@
 
       <h3>Looking Ahead</h3>
       <p>Both moderate and extremist Congress had remained urban and elitist. The next stage of agitation — the Swadeshi movement (1905–11) — already drew in students and women in Bengal. But it was the British divide-and-rule strategy in the form of the Partition of Bengal (1905) that triggered the explosion. The next topic explores the Partition and the great Swadeshi response.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Two Phases of Early Congress</b>:
+          <ul>
+            <li><b>Moderates (1885-1905)</b> — "3 P's: Prayer, Petition, Protest"</li>
+            <li><b>Extremists (1905-1920)</b> — "4 S's: Swadeshi, Swaraj, Self-help, Boycott"</li>
+          </ul>
+        </li>
+        <li><b>Moderate Leaders — "DGS-PRM"</b>:
+          <ul>
+            <li><b>D</b>adabhai Naoroji — "Grand Old Man of India"; Drain Theory</li>
+            <li><b>G</b>okhale — Gandhi's political guru; "Servants of India Society" (1905)</li>
+            <li><b>S</b>urendranath Banerjee — "Indian Burke"; founded Indian Association (1876)</li>
+            <li><b>P</b>herozeshah Mehta — "Lion of Bombay"</li>
+            <li><b>R</b>.C. Dutt — economic historian</li>
+            <li><b>M</b>.G. Ranade — "Father of Indian Economics"</li>
+          </ul>
+        </li>
+        <li><b>Extremist Leaders — "Lal-Bal-Pal" + Aurobindo</b>:
+          <ul>
+            <li><b>Lal</b>a Lajpat Rai (Punjab) — "Lion of Punjab"; later killed by Saunders lathi charge 1928</li>
+            <li><b>Bal</b> Gangadhar Tilak (Maharashtra) — "Father of Indian Unrest" (Valentine Chirol); <b>"Swaraj is my birthright"</b>; "Kesari" + "Maratha" newspapers; Ganesh + Shivaji festivals</li>
+            <li><b>Bipin Chandra Pal</b> (Bengal)</li>
+            <li><b>Aurobindo Ghose</b> — "Bande Mataram" newspaper</li>
+          </ul>
+        </li>
+        <li><b>Surat Split 1907</b>: Congress टूटी Moderates और Extremists में। President: Rash Behari Ghosh (moderate)। Tilak Mandalay (Burma) में 6 साल कैद।</li>
+        <li><b>Reunion at Lucknow 1916</b>: <b>Lucknow Pact</b> — Congress + Muslim League (Jinnah ने negotiate किया); Tilak + Annie Besant ने Home Rule के लिए नए party बनाए।</li>
+        <li><b>Memory difference</b>:
+          <ul>
+            <li>Moderates = "<i>British से please हमें दो</i>"</li>
+            <li>Extremists = "<i>British छोड़ो, swaraj हम लेंगे</i>"</li>
+          </ul>
+        </li>
+        <li><b>Date trick</b>: "<b>1885 शुरू, 1905 बँटवारा-कारण, 1907 Split, 1916 Reunion</b>"।</li>
+        <li><b>Story</b>: पहले 20 साल Congress polite थी — British से लिखकर माँगती थी। पर 1905 Bengal Partition ने सब को गुस्सा दिलाया। Lal-Bal-Pal ने कहा "बस अब petition नहीं — boycott + Swadeshi"। 1907 Surat में लड़ाई हो गई। फिर 1916 में Lucknow में फिर एक हुए।</li>
+      </ul>
     `,
     mcq: [
       { q: "Methods of the Moderates can be summarized as?", opts: ["Petitions, Prayers, Protests", "Boycott, Swadeshi, Passive Resistance", "Mass agitation, hartal, dharna", "Armed revolt"], a: 0, ex: "Constitutional 3 P's — petitions, prayers, protests." },
@@ -2364,6 +2780,28 @@
 
       <h3>Looking Ahead</h3>
       <p>While the Swadeshi mass movement waned by 1908, a section of frustrated youth turned to <b>revolutionary armed action</b> — bomb attacks, assassinations, conspiracy. The next topic surveys India's revolutionary movements from the Anushilan Samiti and Alipore Bomb Conspiracy down to Bhagat Singh and Surya Sen.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Date</b>: <b>16 October 1905</b> — Curzon ने Bengal को 2 हिस्सों में बाँटा। Annulled <b>1911</b> (King George V Delhi Durbar में)।</li>
+        <li><b>Curzon's logic (पर sham)</b>: "Bengal too big to administer"। असली कारण = <b>divide Hindus and Muslims</b>। West Bengal = Hindu majority; East Bengal + Assam = Muslim majority (capital Dhaka)।</li>
+        <li><b>Indian Response — Swadeshi & Boycott Movement</b>:
+          <ul>
+            <li><b>Surendranath Banerjee, Rabindranath Tagore</b> ने lead किया</li>
+            <li><b>"Amar Sonar Bangla"</b> — Tagore ने लिखा (बाद में Bangladesh's national anthem)</li>
+            <li>Rakhi Bandhan — Bengalis ने एक-दूसरे की कलाई बांधी (15 Aug 1905)</li>
+            <li>British goods का boycott; foreign cloth जलाए</li>
+            <li>Swadeshi promote — Indian goods, Bengal Chemicals (P.C. Ray)</li>
+            <li><b>National Education</b> — Bengal National College (Aurobindo)</li>
+          </ul>
+        </li>
+        <li><b>"4 S's of Swadeshi Movement"</b> — <b>S</b>wadeshi, <b>S</b>waraj, <b>S</b>elf-help, <b>S</b>chool (national education)। Some add Boycott।</li>
+        <li><b>Anti-Partition consequence — Muslim League formed 1906</b> at Dhaka (Nawab Salimullah)। British divide-and-rule successful।</li>
+        <li><b>Reversal 1911</b>: Hardinge II ने Delhi Durbar में announce किया — Bengal unified; <b>capital shifted Calcutta → Delhi</b>।</li>
+        <li><b>Trick</b>: "<b>05 बँटा, 11 जुड़ा, 06 League</b>" — 1905 partition, 1911 reunion, 1906 Muslim League।</li>
+        <li><b>Story</b>: Curzon ने सोचा Bengal को बाँटकर nationalism कम होगा। पर ulta हो गया — Swadeshi Movement, anti-British रोष ज़बरदस्त। Tagore ने songs लिखे, students ने schools छोड़े, सब ने foreign goods जलाए। 6 साल बाद British ने हार मानी और बँटवारा रद्द किया। पर एक side effect — Muslim League बन गई।</li>
+      </ul>
     `,
     mcq: [
       { q: "Partition of Bengal was carried out by?", opts: ["Lord Minto", "Lord Curzon", "Lord Hardinge", "Lord Dufferin"], a: 1, ex: "Lord Curzon — announced 19 July 1905; effective 16 October 1905." },
@@ -2580,6 +3018,63 @@
 
       <h3>Looking Ahead</h3>
       <p>Even as revolutionaries were being hanged, the broader nationalist movement under Gandhi was experimenting with another method — non-violent mass mobilization. Gandhi's first phase (Champaran, Kheda, Ahmedabad — 1917–18) and the Home Rule Movement of Tilak and Annie Besant (1916) form the next two topics.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 phases of Revolutionary Movement</b>:
+          <ul>
+            <li><b>Phase 1 (1907-17)</b>: Bengal, Maharashtra (Chapekar brothers killed Rand 1897; Khudiram Bose 1908 Muzaffarpur bombing; Anushilan Samiti)</li>
+            <li><b>Phase 2 (1920s)</b>: Hindustan Republican Association (HRA, 1924) → <b>Hindustan Socialist Republican Association (HSRA, 1928)</b></li>
+            <li><b>Phase 3 (1930s)</b>: Surya Sen Chittagong; Indian Republican Army</li>
+          </ul>
+        </li>
+        <li><b>Major Revolutionaries — must-know</b>:
+          <ul>
+            <li><b>Bhagat Singh</b> (1907-31) — HSRA; <b>Lala Lajpat Rai's death revenge → killed Saunders 17 Dec 1928</b>; <b>Assembly Bombing 8 April 1929</b> (with Batukeshwar Dutt); <b>Hanged 23 March 1931</b> Lahore (with Sukhdev, Rajguru)</li>
+            <li><b>Chandrashekhar Azad</b> — HSRA chief; <b>Shot self in Alfred Park Allahabad 27 Feb 1931</b> (so as not to be captured alive)</li>
+            <li><b>Sukhdev Thapar</b> — Hanged with Bhagat Singh</li>
+            <li><b>Rajguru</b> — Hanged with Bhagat Singh</li>
+            <li><b>Bhagwati Charan Vohra</b> — HSRA bomb expert; died in 1930 accident</li>
+            <li><b>Batukeshwar Dutt</b> — Assembly bombing with Bhagat Singh; deported Andaman</li>
+          </ul>
+        </li>
+        <li><b>Kakori Train Robbery — 9 August 1925</b>:
+          <ul>
+            <li>HRA members robbed train near Kakori (UP)</li>
+            <li><b>Ram Prasad Bismil, Ashfaqullah Khan, Roshan Singh, Rajendra Lahiri</b> — hanged</li>
+            <li>Chandrashekhar Azad escaped</li>
+            <li>"<b>Sarfaroshi ki tamanna</b>" — Bismil's famous poem</li>
+          </ul>
+        </li>
+        <li><b>Bengal revolutionaries</b>:
+          <ul>
+            <li><b>Khudiram Bose</b> (1908) — bombed Muzaffarpur (mistaken target); youngest martyr (18 yrs)</li>
+            <li><b>Anushilan Samiti</b> (1902, Calcutta) + <b>Jugantar</b> (split 1906)</li>
+            <li><b>Bagha Jatin</b> (Jatindranath Mukherjee) — Buribalam battle 1915</li>
+            <li><b>Surya Sen</b> — <b>Chittagong Armoury Raid 18 April 1930</b>; "Master da"; hanged 1934</li>
+            <li><b>Pritilata Waddedar</b> — first woman to die in revolutionary action 1932</li>
+          </ul>
+        </li>
+        <li><b>Abroad activities</b>:
+          <ul>
+            <li><b>India House London</b> (1905) — Shyamji Krishna Varma; Savarkar</li>
+            <li><b>Madame Bhikaji Cama</b> — hoisted Indian flag at Stuttgart 1907; "Vande Mataram" paper</li>
+            <li><b>Ghadar Party</b> (1913, San Francisco) — Lala Hardayal, Sohan Singh Bhakna; Komagata Maru 1914</li>
+            <li><b>Hindu-German Conspiracy / Ghadar Mutiny 1915</b> — failed</li>
+          </ul>
+        </li>
+        <li><b>Important Trials</b>:
+          <ul>
+            <li><b>Lahore Conspiracy Case</b> (1929-31) — Bhagat Singh & co.</li>
+            <li><b>Kanpur/Kakori Conspiracy Case</b> 1925</li>
+            <li><b>Meerut Conspiracy Case</b> 1929 (communists)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Bhagat-Azad-Sukh-Raj-Bismil-Ashfaq-Surya"</b> — 7 most-asked revolutionaries।</li>
+        <li><b>Date trick</b>: "<b>17 Dec 1928 Saunders, 8 April 1929 Assembly, 23 March 1931 Hanging</b>"।</li>
+        <li><b>Story</b>: Gandhi's non-violence सबको पसंद नहीं था। Young revolutionaries ने सोचा — अंग्रेज़ों को सिर्फ़ डर से ही निकाला जा सकता है। Bengal में Anushilan, Punjab/UP में HRA-HSRA, Foreign में Ghadar Party। Bhagat Singh ने सबसे बड़ा impact बनाया — Assembly में bomb फेंकने के बाद surrender, court में articulate, 23 साल की उम्र में फांसी। पूरे देश ने "Inquilab Zindabad" को आत्मसात किया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Khudiram Bose was hanged in 1908 for the?", opts: ["Alipore Bomb Case", "Muzaffarpur Bomb Case", "Kakori Conspiracy", "Lahore Conspiracy"], a: 1, ex: "Muzaffarpur (1908) — bomb meant for Magistrate Kingsford accidentally killed Mrs. and Miss Kennedy." },
@@ -2709,6 +3204,38 @@
 
       <h3>Looking Ahead</h3>
       <p>While the leagues were running, an obscure Gujarati lawyer who had spent two decades in South Africa was just settling into Indian politics. <b>Mohandas Karamchand Gandhi</b> returned to India on 9 January 1915. He would absorb the energy of the Home Rule Movement and, beginning with Champaran in 1917, establish a new method — Satyagraha. The next topic surveys his early experiments.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Home Rule Movement (1916-18)</b> — inspired by Irish Home Rule। "<b>Swaraj के लिए Home Rule</b>" — within British Empire।</li>
+        <li><b>Two parallel Home Rule Leagues</b>:
+          <ul>
+            <li><b>Tilak's League</b> — <b>April 1916</b> at <b>Pune</b>; centres in Maharashtra, Karnataka, CP, Berar</li>
+            <li><b>Annie Besant's League</b> — <b>September 1916</b> at <b>Madras</b>; rest of India</li>
+          </ul>
+        </li>
+        <li><b>Why during WWI?</b>: Britain busy in war (1914-18); felt right time to demand self-government।</li>
+        <li><b>Tilak's slogan</b>: "<b>Swaraj is my birthright and I shall have it</b>" (already from 1908)।</li>
+        <li><b>Annie Besant</b>:
+          <ul>
+            <li>Irish-British woman; Theosophical Society (Adyar, Madras)</li>
+            <li>Newspaper: <b>"New India"</b> + "Commonweal"</li>
+            <li>Interned by British 1917</li>
+            <li><b>First woman President of INC — 1917 Calcutta session</b></li>
+          </ul>
+        </li>
+        <li><b>Result</b>:
+          <ul>
+            <li><b>Montagu Declaration August 1917</b> — British promised "<i>responsible government</i>" gradually</li>
+            <li>Led to <b>Montagu-Chelmsford Reforms 1919</b> (Diarchy in provinces)</li>
+            <li>Activated educated middle class — became base for Gandhi's later movements</li>
+          </ul>
+        </li>
+        <li><b>Decline</b>: 1918 के बाद Tilak South Africa case में, Besant gradually distanced; Gandhi era शुरू।</li>
+        <li><b>Trick</b>: "<b>1916 — April Pune Tilak, September Madras Besant</b>"। "<b>T-B Leagues</b>"।</li>
+        <li><b>Story</b>: WWI में British busy थे। Tilak Mandalay से 1914 में रिहा हुए। उन्होंने और Annie Besant ने सोचा — अभी मौक़ा है। दोनों ने अलग-अलग leagues बनाईं पर goal एक: "Self-government within Empire" — Ireland की तरह। यह movement ने middle class को politicize किया — Gandhi era की base।</li>
+      </ul>
     `,
     mcq: [
       { q: "Home Rule Movement was inspired by movements in?", opts: ["America", "Ireland", "France", "Russia"], a: 1, ex: "Inspired by the Irish Home Rule movement seeking autonomy within the British Empire." },
@@ -2877,6 +3404,47 @@
 
       <h3>Looking Ahead</h3>
       <p>While Gandhi was conducting these local Satyagrahas, the war ended (Nov 1918) and the British government, instead of rewarding India with self-rule, passed the harsh <b>Rowlatt Act (March 1919)</b>. Gandhi launched his first all-India Satyagraha against the Rowlatt Act — soon followed by the <b>Jallianwala Bagh massacre</b> and the <b>Khilafat-Non-Cooperation alliance</b>. The next topic explores this turning point.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Gandhi's South Africa years (1893-1915)</b> — 22 साल वहाँ। Satyagraha technique develop की।</li>
+        <li><b>Return to India</b>: <b>9 January 1915</b> (Pravasi Bharatiya Divas)। Bombay। पहले 1 साल चुप रहे (Gokhale's advice)।</li>
+        <li><b>3 Early Satyagrahas (1917-18)</b>:
+          <ul>
+            <li><b>Champaran 1917</b> — Bihar; Tinkathia system (forced indigo cultivation); first civil disobedience in India; Brij Kishore + Rajendra Prasad helped</li>
+            <li><b>Ahmedabad Mill Strike 1918</b> — March 1918; mill workers vs owners; Gandhi went on first hunger strike; got 35% wage rise; Anasuya Sarabhai helped</li>
+            <li><b>Kheda 1918</b> — Gujarat; famine + plague + tax burden; Vallabhbhai Patel emerged here</li>
+          </ul>
+          Trick: "<b>CAK 1917-18</b>"।
+        </li>
+        <li><b>Gandhi's Ashrams</b>:
+          <ul>
+            <li>South Africa: <b>Phoenix</b> (1904), <b>Tolstoy Farm</b> (1910)</li>
+            <li>India: <b>Sabarmati / Satyagraha Ashram</b> Ahmedabad (1915-17, then 1917); <b>Sevagram</b> Wardha (1936)</li>
+          </ul>
+        </li>
+        <li><b>Gandhi's key concepts</b>:
+          <ul>
+            <li><b>Satya + Agraha = Satyagraha</b> ("insistence on truth")</li>
+            <li><b>Ahimsa</b> (non-violence)</li>
+            <li><b>Swaraj</b> (self-rule)</li>
+            <li><b>Sarvodaya</b> (welfare of all) — inspired by Ruskin's "Unto This Last"</li>
+            <li><b>Trusteeship</b> — rich as trustees of wealth</li>
+            <li><b>Khadi, Charkha, Self-reliance</b></li>
+          </ul>
+        </li>
+        <li><b>Books/Writings</b>:
+          <ul>
+            <li><b>Hind Swaraj (1909)</b> — written on ship Kildonan Castle</li>
+            <li>Autobiography: <b>"My Experiments with Truth"</b> (1927-29)</li>
+            <li>Newspapers: <b>Young India</b> (English), <b>Harijan</b> (1933)</li>
+          </ul>
+        </li>
+        <li><b>Influences on Gandhi</b>: Bhagavad Gita, Tolstoy ("Kingdom of God is Within You"), Ruskin ("Unto This Last"), Thoreau ("Civil Disobedience"), Christ's Sermon on the Mount।</li>
+        <li><b>Date trick</b>: "<b>1869-1948 = Gandhi's life</b>"। "<b>1893-1915</b>" South Africa। "<b>1917-1918</b>" first three satyagrahas।</li>
+        <li><b>Story</b>: Gandhi 1893 में South Africa गए (24 yrs old, lawyer)। वहाँ Pietermaritzburg railway में racially throw out हुए — turning point। 22 साल वहाँ struggle की, Satyagraha invent किया। 1915 में India आए, Gokhale के कहने पर 1 साल देश घूमे। फिर Champaran-Ahmedabad-Kheda से shoulder strong हुए। 1919 में Rowlatt-Jallianwala ने उनको national leader बना दिया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Gandhi was born at?", opts: ["Bombay", "Porbandar", "Rajkot", "Ahmedabad"], a: 1, ex: "2 October 1869, Porbandar (Gujarat); father was Diwan of Porbandar." },
@@ -3063,6 +3631,47 @@
 
       <h3>Looking Ahead</h3>
       <p>By August 1920, Gandhi was ready to launch the most ambitious mass movement Indian politics had ever seen — the <b>Non-Cooperation Movement</b>, jointly with the Khilafat Committee. The next topic explores its rise, its programme, and its dramatic collapse at Chauri Chaura.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Rowlatt Act — 18 March 1919</b>:
+          <ul>
+            <li>Official name: "Anarchical and Revolutionary Crimes Act"</li>
+            <li>"<b>No appeal, No vakil, No daleel</b>" (No appeal, no lawyer, no argument) — Indians ने कहा</li>
+            <li>Sidney Rowlatt Committee की recommendation पर</li>
+            <li>British detain कर सकती थी anyone for up to 2 साल बिना trial</li>
+            <li>All Indian members of Imperial Council ने against vote दिया (Jinnah included) but पास हो गया</li>
+          </ul>
+        </li>
+        <li><b>Gandhi's response — "Rowlatt Satyagraha"</b>:
+          <ul>
+            <li><b>6 April 1919</b> — All India Hartal call</li>
+            <li>पहला All-India movement under Gandhi</li>
+          </ul>
+        </li>
+        <li><b>Jallianwala Bagh Massacre — 13 April 1919, Amritsar</b> (Baisakhi day):
+          <ul>
+            <li><b>General Reginald Dyer</b> — "Butcher of Amritsar"</li>
+            <li>Punjab Lt. Governor: <b>Michael O'Dwyer</b> (बाद में 1940 में Udham Singh ने London में मारा)</li>
+            <li>Pretext: People gathered against arrest of Dr. Saifuddin Kitchlew + Satya Pal</li>
+            <li>10 min फायरिंग; 1650 rounds; <b>379 dead (official), 1500+ likely</b></li>
+            <li>Single exit blocked; many jumped in well</li>
+            <li><b>Rabindranath Tagore ने Knighthood (1915) renounce की</b> (May 1919)</li>
+            <li><b>Hunter Commission</b> set up — Dyer को dismiss किया (lightly)</li>
+            <li>Indian Inquiry Committee head: <b>Motilal Nehru</b></li>
+          </ul>
+        </li>
+        <li><b>Trick to remember dates</b>:
+          <ul>
+            <li><b>"R-J-19"</b> — Rowlatt March, Jallianwala 13 April, both 1919</li>
+            <li><b>"1-3-4-1-9"</b> = 13 April 1919</li>
+          </ul>
+        </li>
+        <li><b>Direct consequence</b>: Outraged India → <b>Non-Cooperation Movement 1920</b>। Gandhi ने Khilafat + Non-Cooperation merge किया।</li>
+        <li><b>Udham Singh — revenge</b>: 13 March <b>1940</b> at Caxton Hall, London — Michael O'Dwyer को मारा (21 साल बाद)। Singh was hanged 31 July 1940।</li>
+        <li><b>Story</b>: WWI ख़त्म, Indians को आज़ादी की उम्मीद थी। पर British ने Rowlatt Act लाया — repression बढ़ाया। Gandhi ने hartal called। Punjab में जलियांवाला Baisakhi day पर लोग collect हुए — Dyer ने fire खोल दी। 379+ मरे। पूरे India का दिल टूट गया। Tagore ने Knighthood लौटाई। Gandhi का mass leader के तौर पर rise इसी से हुआ।</li>
+      </ul>
     `,
     mcq: [
       { q: "The Rowlatt Committee's chair was?", opts: ["Lord Hunter", "Sir Sidney Rowlatt", "Lord Chelmsford", "Edwin Montagu"], a: 1, ex: "Sir Sidney Rowlatt headed the Sedition Committee 1917–18; Act passed March 1919." },
@@ -3259,6 +3868,42 @@
 
       <h3>Looking Ahead</h3>
       <p>Through the late 1920s — the era of the Simon Commission boycott, the death of Lala Lajpat Rai, the Saunders murder, and the Bhagat Singh era — frustration mounted. By 1929 Congress was ready for another mass movement. At the Lahore Session, Nehru hoisted the tricolor on the banks of the Ravi and declared <b>Purna Swaraj</b>. The next topic — Civil Disobedience and the Dandi March — describes that second great Gandhian wave.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Date</b>: <b>1 August 1920</b> launch — Tilak's death day (coincidence)। <b>12 February 1922</b> withdrawn (after Chauri Chaura)।</li>
+        <li><b>3 causes — "JKR"</b>:
+          <ul>
+            <li><b>J</b>allianwala Bagh (1919) — anger</li>
+            <li><b>K</b>hilafat issue (1919-20) — Muslims angry over Turkey/Caliph; Ali Brothers (Shaukat + Mohammad)</li>
+            <li><b>R</b>owlatt Act</li>
+          </ul>
+        </li>
+        <li><b>Gandhi's Programme — "4 R's of Boycott"</b>:
+          <ul>
+            <li><b>R</b>esign titles & honours (Gandhi himself returned Kaiser-i-Hind medal)</li>
+            <li><b>R</b>esign govt jobs</li>
+            <li>Boycott <b>R</b>ipped (educational) institutions, courts, councils, foreign goods</li>
+            <li><b>R</b>eject elections of Montagu-Chelmsford 1919 reforms</li>
+          </ul>
+        </li>
+        <li><b>"Constructive Programme"</b>: Khadi promotion, Hindu-Muslim unity, removal of untouchability, prohibition of liquor, national schools (Jamia Millia Islamia, Kashi Vidyapith, Gujarat Vidyapith, Bihar Vidyapith)।</li>
+        <li><b>Key Congress session</b>: <b>Nagpur Session, Dec 1920</b> — Non-Cooperation officially adopted by Congress (Special session at Calcutta Sep 1920 first)। Tilak just died July 1920।</li>
+        <li><b>Chauri Chaura — 5 February 1922</b>:
+          <ul>
+            <li>UP (Gorakhpur district)</li>
+            <li>Mob ने 22 policemen को जलाकर मारा</li>
+            <li>Gandhi shocked; withdrew movement <b>12 Feb 1922</b></li>
+            <li>Many leaders criticized (Subhash Bose, Nehru disappointed)</li>
+          </ul>
+        </li>
+        <li><b>Gandhi arrested March 1922</b> — 6 years (released 1924 due to appendicitis)। Trial at Ahmedabad — Judge Broomfield।</li>
+        <li><b>Khilafat Movement collapse 1924</b> — Turkey के Mustafa Kemal Atatürk ने Caliphate abolished कर दी।</li>
+        <li><b>Results</b>: Mass participation pehli बार; Khadi popularized; women joined; Hindu-Muslim unity peak; National education spread; but Swaraj not achieved।</li>
+        <li><b>Trick — Why withdrawn?</b>: "<b>Chauri Chaura ने Non-Cooperation बंद कराई</b>"। "5 Feb violence → 12 Feb withdrawal"।</li>
+        <li><b>Story</b>: 1920 तक Gandhi ne three issues को merge किया — Khilafat, Punjab (Jallianwala), Swaraj। पहली बार mass movement जिसमें lakhs Indians ने hisaa लिया। पर 22 policemen को mob ने जलाकर मारा (Chauri Chaura) — Gandhi shock में withdraw कर दिया। Younger leaders (Bose, Nehru) नाराज़ हुए — पर Gandhi का discipline पर ज़ोर था।</li>
+      </ul>
     `,
     mcq: [
       { q: "Non-Cooperation Movement was launched on?", opts: ["1 August 1920", "9 September 1920", "30 December 1920", "1 January 1921"], a: 0, ex: "1 August 1920 — same day Tilak died." },
@@ -3472,6 +4117,51 @@
 
       <h3>Looking Ahead</h3>
       <p>The Round Table Conferences and the Communal Award led, eventually, to the comprehensive <b>Government of India Act 1935</b> — a vast, complex statute that introduced provincial autonomy and (notionally) an All-India Federation. The next topic explores the RTCs, the Communal Award, the Poona Pact, and the GoI Act 1935.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Lahore Session Dec 1929</b>: Nehru president; <b>"Purna Swaraj" resolution</b>; <b>26 January 1930 = First Independence Day</b> celebrated। (इसी date को 1950 में Constitution लागू)।</li>
+        <li><b>Salt / Dandi March — 12 March 1930 to 6 April 1930</b>:
+          <ul>
+            <li><b>Start</b>: Sabarmati Ashram (Ahmedabad)</li>
+            <li><b>End</b>: <b>Dandi</b> (Gujarat coast, on Arabian Sea)</li>
+            <li><b>Distance</b>: 240 miles / 384 km in 24 days</li>
+            <li>78 marchers</li>
+            <li><b>6 April 1930</b>: Gandhi picked salt (broke salt law)</li>
+            <li>Why salt? — common to all; British monopoly tax; struck rich-poor universally</li>
+          </ul>
+        </li>
+        <li><b>Spread of CDM</b>:
+          <ul>
+            <li><b>Khan Abdul Ghaffar Khan</b> ("Frontier Gandhi") — NWFP; "Khudai Khidmatgars"</li>
+            <li><b>C. Rajagopalachari</b> — Vedaranyam (TN) salt march</li>
+            <li><b>Sarojini Naidu</b> — Dharasana Salt Works raid (May 1930)</li>
+            <li><b>Vallabhbhai Patel</b> — Bardoli, Gujarat</li>
+            <li>Manipur, Nagaland — Rani Gaidinliu (Naga "Joan of Arc")</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Dandi-G is Gandhi's"</b> — Dandi route से Gandhi famous हुए worldwide।</li>
+        <li><b>Gandhi arrested 5 May 1930</b>। Released after Gandhi-Irwin Pact।</li>
+        <li><b>Round Table Conferences</b>:
+          <ul>
+            <li><b>RTC-1 (Nov 1930 – Jan 1931)</b> — Congress did NOT attend। Ambedkar attended for Depressed Classes।</li>
+            <li><b>RTC-2 (Sep–Dec 1931)</b> — Gandhi attended (only Congress rep)। No agreement।</li>
+            <li><b>RTC-3 (Nov–Dec 1932)</b> — Congress + Gandhi absent</li>
+          </ul>
+        </li>
+        <li><b>Gandhi-Irwin Pact / Delhi Pact — 5 March 1931</b>:
+          <ul>
+            <li>Gandhi suspended CDM</li>
+            <li>British released prisoners (not Bhagat Singh etc.)</li>
+            <li>Congress to attend RTC-2</li>
+          </ul>
+        </li>
+        <li><b>Communal Award 1932</b> (Ramsay MacDonald) — separate electorates for Depressed Classes। Gandhi opposed → fast-unto-death at Yerwada Jail (Pune)। <b>Poona Pact 24 September 1932</b> — Ambedkar agreed to joint electorates with reserved seats।</li>
+        <li><b>Karachi Session March 1931</b>: First time <b>Fundamental Rights</b> resolution; economic programme; Bhagat Singh's hanging just happened (23 March 1931)।</li>
+        <li><b>Withdrawn April 1934</b> after multiple suspensions।</li>
+        <li><b>Story</b>: Lahore 1929 में Congress ने Purna Swaraj declared। Gandhi ने Dandi March से इतिहास बदला — 78 लोगों के साथ 24 दिन चलकर salt उठाया। पूरा देश jail भर गया। Gandhi-Irwin Pact से थोड़ा शांति। RTC-2 में Gandhi London गए पर असफल। 1932 के Communal Award के बाद Gandhi-Ambedkar Poona Pact — एक landmark moment Dalit politics में।</li>
+      </ul>
     `,
     mcq: [
       { q: "Simon Commission was appointed in?", opts: ["1919", "1927", "1935", "1942"], a: 1, ex: "November 1927; arrived India 3 February 1928. All seven members were British." },
@@ -3673,6 +4363,66 @@
 
       <h3>Looking Ahead</h3>
       <p>WWII shifted the political stage. As Indian leaders were consulted neither on the war nor on India's future, frustration grew. The Cripps Mission (1942) failed; Gandhi launched the most radical mass movement of all — the <b>Quit India Movement</b> in August 1942. The next topic explores it.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Round Table Conferences (London)</b>:
+          <ul>
+            <li><b>RTC-1 (Nov 1930 – Jan 1931)</b> — Congress absent (jail); Ambedkar attended; Princes attended</li>
+            <li><b>RTC-2 (Sep–Dec 1931)</b> — Gandhi attended (only Congress rep, post Gandhi-Irwin Pact); failed due to Communal Award stalemate</li>
+            <li><b>RTC-3 (Nov–Dec 1932)</b> — Congress absent; smaller</li>
+          </ul>
+        </li>
+        <li><b>British PM at all 3 RTCs</b>: <b>Ramsay MacDonald</b>।</li>
+        <li><b>Simon Commission (1927-30)</b>:
+          <ul>
+            <li>Statutory Commission (per 1919 Act, every 10 years review)</li>
+            <li><b>All-White</b> — no Indian member → boycott</li>
+            <li>Chairman: John Simon</li>
+            <li>"<b>Simon Go Back</b>" — slogan</li>
+            <li>Lala Lajpat Rai injured Lathi charge Lahore Oct 1928 → died Nov 1928 → Bhagat Singh's revenge (Saunders killed)</li>
+            <li>Report 1930 → led to RTCs + GOI 1935</li>
+          </ul>
+        </li>
+        <li><b>Nehru Report 1928</b> (Motilal Nehru):
+          <ul>
+            <li>Indian alternative to British proposals</li>
+            <li>Dominion status, joint electorates with reserved seats</li>
+            <li>Fundamental Rights (14)</li>
+            <li>Jinnah rejected → his "14 Points" 1929</li>
+          </ul>
+        </li>
+        <li><b>Government of India Act 1935 — Features</b>:
+          <ul>
+            <li>Longest Act ever passed by British Parliament (321 sections, 10 schedules)</li>
+            <li><b>All-India Federation</b> proposed (British India + Princely States) — never came into force</li>
+            <li><b>Provincial Autonomy</b> — Diarchy abolished in provinces; <b>Diarchy at Centre</b> introduced</li>
+            <li><b>3 lists</b>: Federal, Provincial, Concurrent (Indian Constitution में adopted)</li>
+            <li>Bicameral legislature</li>
+            <li><b>Burma separated 1937</b></li>
+            <li><b>RBI established 1935</b> (this Act में provision)</li>
+            <li>Federal Court established 1937 (Supreme Court predecessor)</li>
+            <li>Public Service Commissions</li>
+            <li>1937 elections — Congress won majority in 8 of 11 provinces</li>
+          </ul>
+        </li>
+        <li><b>1937 Provincial Ministries</b>: Congress formed ministries in 8 provinces; resigned 1939 over WWII without consent।</li>
+        <li><b>Communal Award 1932 + Poona Pact</b>:
+          <ul>
+            <li>Ramsay MacDonald's Communal Award (16 Aug 1932) — separate electorates for SCs (Depressed Classes)</li>
+            <li>Gandhi fast-unto-death at Yerwada (Pune)</li>
+            <li><b>Poona Pact 24 Sept 1932</b> — Ambedkar agreed to joint electorates + reserved seats (148 for SC)</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>:
+          <ul>
+            <li>"<b>S-N-RTC-CA-P-GOI</b>" timeline: Simon 1927-30 → Nehru Report 1928 → RTCs 1930-32 → Communal Award 1932 → Poona Pact 1932 → GOI 1935</li>
+            <li>"GOI Act 1935 = Indian Constitution का base" — 250+ provisions copied from this</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: Simon Commission (all-white) ने Indians को नाराज़ किया। Lajpat Rai मरे, Bhagat Singh ने revenge ली। फिर London में 3 RTCs हुए (Gandhi 2nd में गए, असफल)। Communal Award से Gandhi-Ambedkar standoff, Poona Pact से solve। आख़िर GOI Act 1935 आया — provincial autonomy दी, federation propose की। 1937 में Congress ministries बनीं। यह सारा setup Indian Constitution के लिए ground बना।</li>
+      </ul>
     `,
     mcq: [
       { q: "First RTC was held in?", opts: ["Sep–Dec 1931", "Nov 1930 – Jan 1931", "Nov–Dec 1932", "Aug–Sep 1932"], a: 1, ex: "12 November 1930 – 19 January 1931, London — boycotted by Congress." },
@@ -3872,6 +4622,45 @@
 
       <h3>Looking Ahead</h3>
       <p>While Congress fought the British within India, another stream of nationalist resistance had been building outside India — the <b>Indian National Army</b> under <b>Subhash Chandra Bose</b>. From his dramatic escape from house arrest in 1941 to his death (or disappearance) in 1945, Bose's story is the next topic.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Date</b>: <b>8 August 1942</b> — Congress AICC Bombay session; Resolution passed। <b>9 August 1942</b> — All major leaders arrested।</li>
+        <li><b>Location</b>: <b>Gowalia Tank Maidan</b> (now August Kranti Maidan), Bombay।</li>
+        <li><b>Gandhi's slogan</b>: <b>"Do or Die" (करो या मरो)</b>। Also "Quit India" (Yusuf Meherally suggested name)।</li>
+        <li><b>Context — Why Aug 1942?</b>:
+          <ul>
+            <li>WWII में India को बिना पूछे शामिल किया गया (1939)</li>
+            <li>August Offer 1940 (Linlithgow) — rejected</li>
+            <li><b>Cripps Mission March 1942</b> — Sir Stafford Cripps; Gandhi ने इसे "<b>post-dated cheque on a crashing bank</b>" कहा; rejected</li>
+            <li>Japanese advancing — fall of Singapore Feb 1942</li>
+          </ul>
+        </li>
+        <li><b>Viceroy</b>: <b>Linlithgow</b>; British government PM <b>Winston Churchill</b>।</li>
+        <li><b>Major underground leaders (after arrests)</b>:
+          <ul>
+            <li><b>Jayaprakash Narayan</b> (escaped Hazaribagh jail)</li>
+            <li><b>Ram Manohar Lohia</b></li>
+            <li><b>Aruna Asaf Ali</b> — "Heroine of 1942"; hoisted flag at Gowalia Tank</li>
+            <li><b>Usha Mehta</b> — ran <b>Secret Congress Radio</b> from Bombay (caught Nov 1942)</li>
+            <li><b>Sucheta Kripalani</b>, <b>Yusuf Meherally</b></li>
+          </ul>
+        </li>
+        <li><b>Parallel Governments set up</b>:
+          <ul>
+            <li><b>Ballia (UP)</b> — Chittu Pandey ("Lion of Ballia")</li>
+            <li><b>Tamluk (Bengal)</b> — Jatiya Sarkar; Matangini Hazra (73 yr-old martyr)</li>
+            <li><b>Satara (Maharashtra)</b> — "Prati Sarkar"; longest, till 1945; Y.B. Chavan, Nana Patil</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Bhāgō Britishrs"</b>: Quit India = "<i>भागो अंग्रेज़ों</i>"। 1942 = "<b>एक नौ चार दो</b>"।</li>
+        <li><b>22 leaders detained — "Detenu list"</b>: Gandhi (Aga Khan Palace Pune; Kasturba died there Feb 1944, Mahadev Desai Aug 1942), Nehru (Ahmednagar Fort), Patel, Azad, सब।</li>
+        <li><b>Critics</b>: <b>Muslim League, Communists, Princes</b> ने support नहीं किया। CPI ने "People's War" call किया (USSR Britain के side पर था)।</li>
+        <li><b>Death toll</b>: 940+ killed (British count); ~10,000 Indians (later estimates); 60,000+ arrests।</li>
+        <li><b>Significance</b>: Last major mass movement before Independence; British realized India ungovernable; WWII ended British exhausted economically।</li>
+        <li><b>Story</b>: WWII में Cripps Mission fail होने के बाद Gandhi ने decision लिया — अब या तो आज़ादी या मौत। 8 August को resolution पास, 9 को सब leaders arrested। पर इसके बावजूद 3 साल तक underground resistance चली। Aruna Asaf Ali ने Bombay में झंडा फहराया, Usha Mehta ने radio चलाई, Satara में अलग सरकार। 1945 में WWII खत्म होते-होते British थक चुके थे — Independence inevitable हो गई।</li>
+      </ul>
     `,
     mcq: [
       { q: "Lahore Resolution (March 1940) demanded?", opts: ["Dominion Status", "Independent states for Muslims (Pakistan demand)", "Quit India", "Constituent Assembly"], a: 1, ex: "23 March 1940 — first formal demand for separate Muslim states; later called 'Pakistan'." },
@@ -4081,6 +4870,54 @@
 
       <h3>Looking Ahead</h3>
       <p>By early 1946 — INA trials, RIN Mutiny, post-war exhaustion of Britain, election of Attlee's Labour government in July 1945 — independence was inevitable. The only question was the form. The next topic — Cabinet Mission, Mountbatten Plan, and Independence — describes the rapid endgame from 1946 to 1947.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Subhash Chandra Bose timeline</b>:
+          <ul>
+            <li><b>1897 जन्म</b> — Cuttack, Odisha; ICS qualified 1920 but resigned</li>
+            <li>Congress president — <b>Haripura 1938</b> (54th session) और <b>Tripuri 1939</b> (defeated Gandhi's candidate Pattabhi Sitaramayya)</li>
+            <li>Resigned Congress 1939; formed <b>Forward Bloc</b> 3 May 1939</li>
+            <li><b>17 January 1941</b> — escaped from Calcutta house arrest (in disguise as Pathan); via Kabul-Moscow to <b>Berlin</b></li>
+            <li>1943 — Submarine journey Germany → Japan via Madagascar</li>
+            <li><b>4 July 1943</b> — Took over INA from Rash Behari Bose at Singapore</li>
+            <li><b>21 October 1943</b> — <b>Azad Hind Government / Arzi Hukumat</b> in Singapore; Bose = "Netaji"</li>
+            <li><b>18 August 1945</b> — Reported died in plane crash, Taipei (Taiwan) — still mystery</li>
+          </ul>
+        </li>
+        <li><b>INA (Indian National Army / Azad Hind Fauj)</b>:
+          <ul>
+            <li><b>Formed</b>: <b>1942 by Rash Behari Bose + Captain Mohan Singh</b> in Tokyo/Singapore (after Singapore fall)</li>
+            <li><b>1943-45</b>: Subhash Chandra Bose leadership</li>
+            <li>~40,000 strong; Indian POWs + civilians</li>
+            <li>3 brigades — <b>Gandhi, Nehru, Azad Brigades</b>; <b>Rani of Jhansi Regiment</b> (women, led by <b>Capt. Lakshmi Sahgal</b>)</li>
+            <li>Slogans: <b>"Jai Hind"</b>, "Dilli Chalo"</li>
+            <li>Battle of Imphal/Kohima 1944 — INA + Japanese vs British; first hoisted Indian flag at <b>Moirang, Manipur (14 April 1944)</b></li>
+            <li>Surrendered after Japanese defeat 1945</li>
+          </ul>
+        </li>
+        <li><b>INA Trials — Red Fort 1945-46</b>:
+          <ul>
+            <li><b>"3 INA officers"</b>: <b>Shah Nawaz Khan</b> (Muslim), <b>Prem Sahgal</b> (Hindu), <b>Gurbaksh Singh Dhillon</b> (Sikh) — religious unity!</li>
+            <li>Defence: <b>Bhulabhai Desai, Tej Bahadur Sapru, K.N. Katju, Nehru</b> (in lawyer's robes!)</li>
+            <li>Public outrage; <b>Royal Indian Navy Mutiny Feb 1946</b> in Bombay (Ratings led by M.S. Khan)</li>
+            <li>British realized — Indian army no longer reliable</li>
+          </ul>
+        </li>
+        <li><b>Other Bose facts</b>:
+          <ul>
+            <li>Title <b>"Netaji"</b> given by Hitler/Germans</li>
+            <li>"<b>Tum mujhe khoon do, main tumhe azaadi doonga</b>" (Give me blood, I'll give you freedom) — Burma speech 4 July 1944</li>
+            <li>"Azad Hind Radio" — Berlin</li>
+            <li>Wife: Emilie Schenkl (Austrian); daughter Anita</li>
+            <li>Indian Independence League (Tokyo) — Rash Behari Bose's earlier effort</li>
+          </ul>
+        </li>
+        <li><b>Trick — "RB-SB-MS-LS"</b>: <b>R</b>ash Behari Bose (founded IIL), <b>S</b>ubhash Bose (Netaji), <b>M</b>ohan Singh (first INA leader), <b>L</b>akshmi Sahgal (Rani Jhansi Regiment)।</li>
+        <li><b>Date trick</b>: "<b>43 INA, 44 Imphal, 45 Bose dies?, 45-46 trials, 46 RIN mutiny</b>"।</li>
+        <li><b>Story</b>: Bose disagree करते थे Gandhi से (non-violence से freedom नहीं आएगी)। 1941 में दुश्मन के दुश्मन के पास गए — Berlin, फिर Japan। Singapore में INA ली, woman regiment बनाई। 1944 में Imphal में Moirang पर तिरंगा फहराया (पहली बार Indian soil पर Indian flag)। Plane crash mystery में मौत 1945। पर उनकी INA trials ने British को decide कराया कि India छोड़ देना है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Subhash Chandra Bose was born on?", opts: ["23 January 1897 (Cuttack)", "26 January 1897 (Calcutta)", "23 January 1900 (Cuttack)", "15 August 1898 (Calcutta)"], a: 0, ex: "Born 23 January 1897 at Cuttack, Odisha; father Janakinath Bose." },
@@ -4373,6 +5210,80 @@
 
       <h3>Closing Note</h3>
       <p>The freedom struggle was the work of millions over almost a century — moderates and extremists, revolutionaries and Gandhians, soldiers of the INA, peasants, workers, women, students. Its final chapter — partition — was tragic, but the achievement of independence on 15 August 1947 was the culmination of all that came before. With this topic the Modern History syllabus is complete; from here, the next stage is Constitutional and Independent India — which forms the Indian Polity section.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Post-WWII timeline (1945-47)</b>:
+          <ul>
+            <li><b>July 1945</b> — Labour party wins UK election; <b>Clement Attlee PM</b> (Churchill defeated)</li>
+            <li><b>Sept 1945</b> — Wavell announces elections + new framework</li>
+            <li><b>Nov 1945</b> — <b>INA Trials</b> start Red Fort</li>
+            <li><b>Feb 1946</b> — <b>Royal Indian Navy Mutiny</b> Bombay (M.S. Khan; ratings led)</li>
+            <li><b>March 1946</b> — <b>Cabinet Mission</b> arrives (Pethick-Lawrence, Stafford Cripps, A.V. Alexander)</li>
+            <li><b>16 May 1946</b> — Cabinet Mission Plan (3-tier; rejected partition)</li>
+            <li><b>Sept 1946</b> — Interim Government (Nehru PM, Patel, Liaquat Ali, etc.)</li>
+            <li><b>16 Aug 1946</b> — <b>"Direct Action Day"</b> by Muslim League → Calcutta riots</li>
+            <li><b>20 Feb 1947</b> — Attlee announces British withdrawal by June 1948</li>
+            <li><b>24 March 1947</b> — <b>Mountbatten</b> last Viceroy</li>
+            <li><b>3 June 1947</b> — <b>Mountbatten Plan / 3 June Plan</b> — partition announced</li>
+            <li><b>4 July 1947</b> — Indian Independence Bill introduced UK Parliament</li>
+            <li><b>18 July 1947</b> — <b>Indian Independence Act</b> received Royal Assent</li>
+            <li><b>14-15 August 1947 midnight</b> — Independence + Pakistan</li>
+            <li>Radcliffe Line — Sir Cyril Radcliffe (boundary; never visited India before)</li>
+          </ul>
+        </li>
+        <li><b>3 missions to remember</b>:
+          <ul>
+            <li><b>August Offer 1940</b> — Linlithgow; rejected</li>
+            <li><b>Cripps Mission March 1942</b> — Sir Stafford Cripps; "post-dated cheque"</li>
+            <li><b>Cabinet Mission 1946</b> — Pethick-Lawrence, Cripps, Alexander; rejected partition; Constituent Assembly framework</li>
+            <li><b>Wavell Plan 1945</b> (Simla Conference) — failed due to Jinnah</li>
+          </ul>
+        </li>
+        <li><b>Mountbatten Plan (3 June 1947)</b>:
+          <ul>
+            <li>Partition based on religion</li>
+            <li>Princely states to choose</li>
+            <li>Boundary commission</li>
+            <li>2 dominions: India + Pakistan</li>
+            <li>Punjab + Bengal partitioned</li>
+            <li>Sindh, Baluchistan to Pakistan</li>
+            <li>NWFP — referendum (went to Pakistan despite Khan Abdul Ghaffar Khan)</li>
+          </ul>
+        </li>
+        <li><b>Indian Independence Act 1947 features</b>:
+          <ul>
+            <li>2 dominions created — India and Pakistan</li>
+            <li>Governor-General for each (Mountbatten India, Jinnah Pakistan)</li>
+            <li>Sovereign legislatures</li>
+            <li>British paramountcy over princely states ended</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>:
+          <ul>
+            <li><b>"3 leaders, 3 dates"</b>: Attlee announces Feb 47, Mountbatten arrives March 47, Plan June 47, Independence Aug 47।</li>
+            <li><b>Mountbatten = "मौत-बत्ती"</b> — partition में लाखों मरे।</li>
+          </ul>
+        </li>
+        <li><b>15 August 1947 events</b>:
+          <ul>
+            <li>Nehru's "<b>Tryst with Destiny</b>" speech, midnight Aug 14-15</li>
+            <li>Lord Mountbatten = first GG of free India</li>
+            <li><b>C. Rajagopalachari</b> = last (and only Indian) GG (June 1948-Jan 1950)</li>
+            <li>Constituent Assembly = Indian Parliament</li>
+          </ul>
+        </li>
+        <li><b>Partition Aftermath</b>:
+          <ul>
+            <li>~15 million displaced</li>
+            <li>~1-2 million killed in communal violence</li>
+            <li>30 Jan 1948 — <b>Gandhi assassinated</b> by Nathuram Godse, Birla House Delhi</li>
+            <li><b>26 January 1950</b> — Constitution effective; Republic India</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: WWII के बाद UK exhausted थी, Labour PM Attlee ने Indian Independence का फैसला किया। Mountbatten ने 5 महीने में partition execute कर दिया (बिना proper planning) — millions displaced/killed। Nehru ने "Tryst with Destiny" speech दी midnight। Gandhi नहीं celebrate कर रहे थे — Calcutta में Hindu-Muslim एकता के लिए fast on। 5 महीने बाद Godse ने उनको मारा। पर भारत आज़ाद हो गया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Wavell Plan / Simla Conference (1945) failed primarily because?", opts: ["Congress demanded Pakistan", "Jinnah insisted only ML could nominate Muslim members", "British refused", "Sikh demands"], a: 1, ex: "Jinnah insisted that all Muslim members in the proposed Executive Council be ML nominees; Congress had Muslim members like Maulana Azad and refused." },
@@ -4522,6 +5433,89 @@
 
       <h3>Looking Ahead</h3>
       <p>The press built nationalist consciousness across regions. Together with formal politics, it sustained the long freedom movement. The next topic — Important Battles — chronologically lists the major military engagements that shaped Indian history.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Pioneer newspapers</b>:
+          <ul>
+            <li><b>Bengal Gazette / Hicky's Gazette 1780</b> — by <b>James Augustus Hicky</b>; first newspaper in India (English)</li>
+            <li>Calcutta Gazette 1784, India Gazette 1787</li>
+          </ul>
+        </li>
+        <li><b>Reform-era newspapers</b>:
+          <ul>
+            <li><b>Sambad Kaumudi (Bengali, 1821)</b> — Raja Ram Mohan Roy</li>
+            <li><b>Mirat-ul-Akbar (Persian, 1822)</b> — Raja Ram Mohan Roy</li>
+            <li><b>Bombay Samachar 1822</b> — Fardunji Marzban (Gujarati; still printed!)</li>
+          </ul>
+        </li>
+        <li><b>Late 19th century nationalist newspapers</b>:
+          <ul>
+            <li><b>Hindu Patriot</b> — Harish Chandra Mukherjee (Bengal indigo cause)</li>
+            <li><b>Amrita Bazar Patrika</b> 1868 — Sisir Kumar Ghosh</li>
+            <li><b>Bengalee</b> — Surendranath Banerjee 1879</li>
+            <li><b>The Hindu</b> 1878 — G. Subramania Iyer (still publishing)</li>
+            <li><b>Indian Mirror</b> — Devendranath Tagore, Manmohan Ghose</li>
+            <li><b>Sudharak</b> — G.K. Gokhale</li>
+            <li><b>The Tribune</b> 1881 — Dyal Singh Majithia (Lahore)</li>
+            <li><b>Kesari (Marathi) + Maratha (English) 1881</b> — Bal Gangadhar Tilak</li>
+            <li><b>Sandhya</b> — Brahma Bandhab Upadhyay</li>
+            <li><b>Yugantar</b> — Bhupendranath Datta</li>
+            <li><b>Bande Mataram</b> — Aurobindo Ghose (1906)</li>
+            <li><b>New India + Commonweal</b> — Annie Besant</li>
+            <li><b>Independent</b> — Motilal Nehru (1919)</li>
+            <li><b>The Hindustan Times</b> 1924 — K.M. Pannikar (founded by Mahatma Gandhi's son Devdas Gandhi 1924 too)</li>
+            <li><b>National Herald</b> 1938 — Jawaharlal Nehru</li>
+            <li><b>Free Press Journal</b> — S. Sadanand (Bombay)</li>
+            <li><b>The Pioneer</b> — Allahabad; Kipling worked here</li>
+            <li><b>Times of India</b> 1838 (as Bombay Times)</li>
+            <li><b>Statesman</b> 1875 — Calcutta</li>
+          </ul>
+        </li>
+        <li><b>Gandhi's papers</b>:
+          <ul>
+            <li><b>Indian Opinion</b> 1903 (South Africa)</li>
+            <li><b>Young India</b> 1919 (English) — Gandhi took over 1919; Mohammad Ali Jauhar earlier</li>
+            <li><b>Navjivan</b> 1919 (Gujarati)</li>
+            <li><b>Harijan</b> 1933 (English, Hindi, Gujarati)</li>
+          </ul>
+        </li>
+        <li><b>Revolutionary papers</b>:
+          <ul>
+            <li><b>Ghadar</b> 1913 (San Francisco) — Lala Hardayal</li>
+            <li><b>Bande Mataram</b> (Paris) — Madame Bhikaji Cama</li>
+            <li><b>Talwar</b> (Berlin) — Virendranath Chattopadhyay</li>
+          </ul>
+        </li>
+        <li><b>Urdu / Persian / Muslim</b>:
+          <ul>
+            <li><b>Al-Hilal + Al-Balagh</b> — Maulana Abul Kalam Azad</li>
+            <li><b>Comrade + Hamdard</b> — Mohammad Ali Jauhar</li>
+            <li><b>Zamindar</b> — Zafar Ali Khan</li>
+          </ul>
+        </li>
+        <li><b>Press Acts (British censorship)</b>:
+          <ul>
+            <li><b>Press Act 1799</b> — Wellesley; censorship</li>
+            <li><b>Licensing Act 1823</b> — John Adams</li>
+            <li><b>Press Act 1835</b> — Metcalfe ("Liberator of Indian Press") repealed earlier restrictions</li>
+            <li><b>Licensing Act 1857</b></li>
+            <li><b>Registration Act 1867</b></li>
+            <li><b>Vernacular Press Act 1878</b> — Lord Lytton; against Indian-language papers; repealed by Ripon 1882</li>
+            <li><b>Newspapers (Incitement to Offences) Act 1908</b></li>
+            <li><b>Indian Press Act 1910</b></li>
+          </ul>
+        </li>
+        <li><b>Trick — "Roy-Tilak-Gandhi" wave</b>: Roy era (1820s-30s reformist) → Tilak era (1880s-1910s nationalist) → Gandhi era (1919 onwards mass)।</li>
+        <li><b>Memory shortcut for famous quotes</b>:
+          <ul>
+            <li>"Swaraj is my birthright" — Tilak in Kesari</li>
+            <li>"Lokmanya" title given by Kesari readers to Tilak</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 1780 में Hicky ने पहला Indian newspaper निकाला (और EIC की criticism पर बंद हुआ)। Raja Ram Mohan Roy ने press freedom की पहली लड़ाई लड़ी। Tilak ने Kesari में "Swaraj" लिखा — 6 साल Mandalay जेल भोगी। Gandhi ने Young India + Harijan से mass communication किया। हर Indian movement के पीछे एक newspaper था — Press = "Fourth Pillar" of independence struggle।</li>
+      </ul>
     `,
     mcq: [
       { q: "First newspaper in India was?", opts: ["Calcutta Gazette", "Bengal Gazette / Hicky's Gazette (1780)", "Sambad Kaumudi", "The Hindu"], a: 1, ex: "Bengal Gazette / Hicky's Gazette by James Augustus Hicky in 1780, Calcutta." },
@@ -4681,6 +5675,63 @@
 
       <h3>Looking Ahead</h3>
       <p>This concludes Modern History. Indian history continues with post-independence era — the Constitution (1950), wars with Pakistan (1947–48, 1965, 1971, 1999) and China (1962), economic reforms (1991), etc. — but those are typically covered under Indian Polity / Current Affairs rather than History in SSC CGL.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Major Battles Cheat-Sheet — Year, Place, Winner, Loser</b>:
+          <ul>
+            <li><b>1191 1st Tarain</b> — Prithviraj III vs Muhammad Ghori; <b>Prithviraj won</b></li>
+            <li><b>1192 2nd Tarain</b> — Ghori vs Prithviraj; <b>Ghori won, Prithviraj killed</b></li>
+            <li><b>1194 Chandawar</b> — Ghori vs Jaichand of Kannauj; Ghori won</li>
+            <li><b>1526 1st Panipat</b> — Babur vs Ibrahim Lodi; <b>Babur won = Mughal Empire founded</b></li>
+            <li><b>1527 Khanwa</b> — Babur vs Rana Sanga (Mewar); Babur won</li>
+            <li><b>1528 Chanderi</b> — Babur vs Medini Rai</li>
+            <li><b>1529 Ghaghra</b> — Babur vs Afghans + Bengal</li>
+            <li><b>1539 Chausa</b> — Sher Shah vs Humayun; Sher Shah won</li>
+            <li><b>1540 Kannauj/Bilgram</b> — Sher Shah vs Humayun; Sher Shah won → Humayun fled</li>
+            <li><b>1556 2nd Panipat</b> — Akbar (Bairam Khan) vs Hemu; Akbar won = Mughal Empire re-established</li>
+            <li><b>1565 Talikota / Rakshasa-Tangadi</b> — 4 sultanates vs Vijayanagara (Rama Raya); Vijayanagara crushed</li>
+            <li><b>1576 Haldighati</b> — Mughals (Man Singh) vs Rana Pratap; indecisive but Pratap lost ground</li>
+            <li><b>1659 Pratapgarh</b> — Shivaji killed Afzal Khan (Bijapur)</li>
+            <li><b>1739 Karnal</b> — Nadir Shah (Persia) vs Mughal Muhammad Shah; Nadir Shah won → looted Delhi, took Peacock Throne, Kohinoor</li>
+            <li><b>1757 Plassey</b> — Clive vs Siraj-ud-Daulah; British won; Mir Jafar betrayed</li>
+            <li><b>1760 Wandiwash</b> — British (Eyre Coote) vs French (Lally); British won → French finished</li>
+            <li><b>1761 3rd Panipat</b> — Ahmad Shah Abdali vs Marathas (Sadashivrao Bhau); Abdali won</li>
+            <li><b>1764 Buxar</b> — British (Munro) vs Mir Qasim + Awadh Nawab + Shah Alam II; British won decisively</li>
+            <li><b>1799 Seringapatam</b> — British (Wellesley) vs Tipu Sultan; Tipu killed</li>
+            <li><b>1846 Sobraon</b> — British vs Sikhs; British won (1st Sikh War)</li>
+            <li><b>1849 Gujrat (Punjab)</b> — British vs Sikhs; British won → Punjab annexed</li>
+            <li><b>1857 Multiple</b> — Meerut, Delhi, Cawnpore, Lucknow, Jhansi</li>
+          </ul>
+        </li>
+        <li><b>Panipat trick — "3 Panipats"</b>:
+          <ul>
+            <li><b>1526 1st</b> — Babur founded Mughal Empire</li>
+            <li><b>1556 2nd</b> — Akbar re-established Mughal Empire</li>
+            <li><b>1761 3rd</b> — Marathas lost to Abdali (no Mughal involvement; signaled British rise)</li>
+          </ul>
+          Trick: "<b>26-56-61</b>" Panipats।
+        </li>
+        <li><b>"Won the battle, lost the empire" pattern</b>: Plassey 1757 (small treachery battle) decided 200 years of British rule। Buxar 1764 sealed it। Always remember <b>Plassey-Buxar pair</b>।</li>
+        <li><b>Famous personal duels</b>:
+          <ul>
+            <li>Prithviraj-Ghori (1192 Tarain)</li>
+            <li>Babur-Ibrahim Lodi (1526 Panipat)</li>
+            <li>Akbar-Hemu (1556 Panipat-2)</li>
+            <li>Rana Pratap-Man Singh (1576 Haldighati)</li>
+            <li>Shivaji-Afzal Khan (1659 Pratapgarh — wagh-nakh)</li>
+          </ul>
+        </li>
+        <li><b>Trick — 2nd of everything</b>:
+          <ul>
+            <li>2nd Tarain 1192 — Muslims won India</li>
+            <li>2nd Panipat 1556 — Akbar consolidated</li>
+            <li>2nd Anglo-Sikh War 1849 — Punjab annexed</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: हर इन battles ने India का history बदला: Tarain 1192 = Muslim rule शुरू; Panipat 1526 = Mughal era; Panipat 1761 = Maratha hopes का अंत, British rise; Plassey 1757 = colonial era शुरू; Buxar 1764 = British supremacy; 1857 = Crown rule शुरू; 1849 Gujrat = Punjab last to fall।</li>
+      </ul>
     `,
     mcq: [
       { q: "Battle of Hydaspes (326 BC) was fought between Alexander and?", opts: ["Ambhi", "Porus", "Chandragupta", "Dahir"], a: 1, ex: "Porus on river Jhelum (Hydaspes)." },

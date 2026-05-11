@@ -153,6 +153,49 @@
 
       <h3>Looking Ahead</h3>
       <p>The fall of the Western Roman Empire (476 AD) is conventionally taken as the end of the Ancient World and the beginning of the Medieval World. The next topic covers the Medieval World — Byzantine empire, Islamic Caliphates, Crusades, Mongols, Renaissance, and the Black Death.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>4 Major Ancient Civilizations — "MEIC"</b>:
+          <ul>
+            <li><b>M</b>esopotamia (Tigris-Euphrates, Iraq) — 3500 BC; Sumerians, Babylonians, Assyrians; Hammurabi's Code; Cuneiform script; ziggurats</li>
+            <li><b>E</b>gypt (Nile) — 3100 BC unified by Menes; Pyramids (Giza, Khufu); Hieroglyphics; Mummies; Pharaohs; Cleopatra last</li>
+            <li><b>I</b>ndus (Harappa-Mohenjodaro) — 2500 BC</li>
+            <li><b>C</b>hina (Yellow / Huang He) — Shang, Zhou, Qin (1st emperor Shi Huangdi, Great Wall), Han</li>
+          </ul>
+        </li>
+        <li><b>Greek Civilization</b>:
+          <ul>
+            <li>Minoan (Crete) → Mycenaean → Classical Greek (Athens, Sparta)</li>
+            <li>City-states (polis); democracy in Athens (Cleisthenes)</li>
+            <li>Philosophers: <b>Socrates → Plato → Aristotle</b> (3 जोड़ीदार gurus)</li>
+            <li>Alexander the Great (Macedonia, 356-323 BC) — invaded India up to Beas (Hydaspes); Porus battle 326 BC</li>
+            <li>Trick: "S-P-A" — Socrates Plato Aristotle</li>
+          </ul>
+        </li>
+        <li><b>Roman Civilization</b>:
+          <ul>
+            <li>Founded 753 BC (legend); Republic 509 BC; Empire 27 BC (Augustus first emperor)</li>
+            <li>Julius Caesar — Ides of March (15 March 44 BC) assassination</li>
+            <li>Pax Romana (27 BC - 180 AD) — peace era</li>
+            <li>Latin language → Romance languages</li>
+            <li>Spread of Christianity (Constantine 313 AD Edict of Milan)</li>
+            <li>Fall of Western Rome 476 AD</li>
+          </ul>
+        </li>
+        <li><b>Religions emerging</b>:
+          <ul>
+            <li><b>Judaism</b> — Abraham, Moses</li>
+            <li><b>Buddhism</b> — Buddha (~563 BC, India)</li>
+            <li><b>Jainism</b> — Mahavira</li>
+            <li><b>Christianity</b> — Jesus (~4 BC – 30 AD); Roman Empire's official religion 380 AD</li>
+            <li><b>Confucianism</b> — Confucius (China, ~500 BC)</li>
+          </ul>
+        </li>
+        <li><b>Trick — Date pattern</b>: "<b>3500 Mesopotamia, 3100 Egypt, 2500 Indus, 2000 China</b>" — roughly chronological civilization births।</li>
+        <li><b>Story</b>: सभी ancient civilizations नदी के किनारे बसीं (Mesopotamia-Tigris/Euphrates, Egypt-Nile, Indus-Sindhu, China-Huang He)। मिट्टी उपजाऊ + पानी = agriculture = surplus food = cities + writing + governance + religion। Greeks ने Europe में philosophy + democracy दी, Romans ने law + Christianity फैलाई।</li>
+      </ul>
     `,
     mcq: [
       { q: "Code of Hammurabi (~1750 BC) was from?", opts: ["Egypt", "Babylon (Mesopotamia)", "Greece", "China"], a: 1, ex: "Babylonian king Hammurabi; on stele; 'eye for an eye' principle." },
@@ -317,6 +360,68 @@
 
       <h3>Looking Ahead</h3>
       <p>The Renaissance and Reformation, combined with voyages of discovery, transformed Europe and laid the foundation for the modern world. The next topic — Modern World — covers the Scientific Revolution, the American and French Revolutions, the Industrial Revolution, the World Wars, and decolonization.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Big Medieval Empires — "BMI"</b>:
+          <ul>
+            <li><b>B</b>yzantine Empire (Eastern Roman) — 330 AD founded by Constantine (Constantinople); fell 1453 to Ottoman Turks (Mehmet II)</li>
+            <li><b>M</b>uslim Caliphates — Rashidun (632-661), <b>Umayyad</b> (661-750, Damascus), <b>Abbasid</b> (750-1258, Baghdad — Golden Age of Islam, House of Wisdom)</li>
+            <li><b>I</b>slamic spread — Spain (Cordoba 711-1492), Sicily, North Africa, Central Asia</li>
+          </ul>
+        </li>
+        <li><b>European Middle Ages — 3 periods</b>:
+          <ul>
+            <li>Early (5th-10th c.) — "<b>Dark Ages</b>"; Germanic kingdoms; Vikings</li>
+            <li>High (11th-13th c.) — Feudalism, Crusades, Magna Carta 1215</li>
+            <li>Late (14th-15th c.) — Black Death 1348, Hundred Years War (England-France 1337-1453)</li>
+          </ul>
+        </li>
+        <li><b>Feudalism</b>:
+          <ul>
+            <li>King → Lords (Vassals) → Knights → Serfs</li>
+            <li>Land in exchange for military service</li>
+            <li>Manor as economic unit</li>
+            <li>Trick: "<b>K-L-K-S</b>" pyramid</li>
+          </ul>
+        </li>
+        <li><b>Crusades (1095-1291) — 9 crusades</b>:
+          <ul>
+            <li>Pope Urban II called 1st Crusade 1095 to recover Holy Land</li>
+            <li>1st Crusade — Jerusalem captured 1099</li>
+            <li>3rd Crusade — Richard Lionheart vs Saladin</li>
+            <li>Importance: cultural exchange, trade boom (Italian cities — Venice, Genoa)</li>
+          </ul>
+        </li>
+        <li><b>Mongol Empire</b>:
+          <ul>
+            <li>Founded by <b>Genghis Khan (Chingiz Khan) 1206</b> — same year as Delhi Sultanate!</li>
+            <li>World's largest contiguous empire</li>
+            <li>Kublai Khan (grandson) — Yuan Dynasty China; Marco Polo visited (1271-95)</li>
+            <li>Timur (Tamerlane) 1336-1405 — invaded Delhi 1398 (Tughlaq period); ancestor of Babur</li>
+          </ul>
+        </li>
+        <li><b>Renaissance (14th-17th c., Italy first)</b>:
+          <ul>
+            <li>"Rebirth" of classical learning</li>
+            <li>Italy: Leonardo da Vinci, Michelangelo, Raphael (3 Ninja Turtles!), Dante (Divine Comedy)</li>
+            <li>Petrarch — "Father of Humanism"</li>
+            <li>Northern Renaissance: Erasmus, Shakespeare (1564-1616)</li>
+          </ul>
+        </li>
+        <li><b>Reformation 1517</b> — <b>Martin Luther</b> nailed 95 Theses to Wittenberg Church (Germany); split Catholicism → Protestant। John Calvin (Geneva), Henry VIII (England → Anglican 1534)।</li>
+        <li><b>Age of Exploration (15-17th c.)</b>:
+          <ul>
+            <li>Columbus 1492 — Americas (sailed for India, found Bahamas)</li>
+            <li>Vasco da Gama 1498 — India</li>
+            <li>Magellan 1519-22 — circumnavigation</li>
+            <li>Cabral 1500 — Brazil</li>
+          </ul>
+        </li>
+        <li><b>Trick — Big dates</b>: "<b>1095 (Crusade), 1206 (Mongols), 1215 (Magna Carta), 1453 (Constantinople fell), 1492 (Columbus), 1498 (da Gama), 1517 (Reformation)</b>"।</li>
+        <li><b>Story</b>: Roman Empire के बाद 1000 साल "Dark Ages" यूरोप में — feudal system, plagues। पर Islamic world में Baghdad में Golden Age — algebra, astronomy। Crusades से East-West contact बढ़ा। 1453 में Ottoman ने Constantinople लिया → Europeans ने sea route ढूँढी India के लिए → Columbus + da Gama → modern world era शुरू।</li>
+      </ul>
     `,
     mcq: [
       { q: "Capital of Byzantine Empire was?", opts: ["Rome", "Constantinople", "Athens", "Alexandria"], a: 1, ex: "Constantinople — founded by Constantine in 330 AD; renamed Istanbul after Ottoman conquest 1453." },
@@ -574,6 +679,96 @@
 
       <h3>Looking Ahead</h3>
       <p>This concludes Modern World History at SSC CGL level. The next major shifts in world history continue to unfold — climate change, AI, geopolitical shifts to Asia. With this we close the History section of General Awareness.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>5 Big Modern Revolutions (16-20th c.)</b>:
+          <ul>
+            <li><b>Scientific Revolution</b> (16-17th) — Copernicus, Galileo, Newton (Principia 1687)</li>
+            <li><b>Glorious Revolution England 1688</b> — Constitutional monarchy; Bill of Rights 1689</li>
+            <li><b>American Revolution 1776</b> — Declaration of Independence (Thomas Jefferson 4 July); Treaty of Paris 1783; Washington 1st President</li>
+            <li><b>French Revolution 1789</b> — Bastille Day 14 July; "Liberty, Equality, Fraternity"; Napoleon emerged; Code Napoleon</li>
+            <li><b>Industrial Revolution</b> (18-19th, started Britain) — Steam engine (Watt), spinning jenny (Hargreaves), railway (Stephenson 1825), telegraph (Morse)</li>
+          </ul>
+        </li>
+        <li><b>French Revolution — Key Dates</b>:
+          <ul>
+            <li><b>14 July 1789 Bastille Day</b> = National Day</li>
+            <li>Declaration of Rights of Man (Aug 1789)</li>
+            <li>Louis XVI executed Jan 1793 (guillotine)</li>
+            <li>Reign of Terror (Robespierre) 1793-94</li>
+            <li>Napoleon coup 1799 → Emperor 1804 → Waterloo 1815 (defeated by Wellington)</li>
+            <li>Mnemonic: "Liberty-Equality-Fraternity = L-E-F" — became Indian Preamble's inspiration</li>
+          </ul>
+        </li>
+        <li><b>American Revolution</b>:
+          <ul>
+            <li>1773 Boston Tea Party</li>
+            <li><b>4 July 1776</b> — Declaration of Independence</li>
+            <li>1783 Treaty of Paris (Britain recognized USA)</li>
+            <li>1787 Constitution; <b>George Washington 1st President 1789</b></li>
+            <li>"No taxation without representation"</li>
+          </ul>
+        </li>
+        <li><b>Industrial Revolution Inventions — "SCS-RT-TT"</b>:
+          <ul>
+            <li><b>S</b>team engine — James Watt 1769</li>
+            <li><b>C</b>otton gin — Eli Whitney 1793</li>
+            <li><b>S</b>pinning Jenny — James Hargreaves 1764</li>
+            <li><b>R</b>ailway / Locomotive — George Stephenson 1825 (Rocket)</li>
+            <li><b>T</b>elegraph — Samuel Morse 1837</li>
+            <li><b>T</b>elephone — Alexander Graham Bell 1876</li>
+          </ul>
+        </li>
+        <li><b>Unification movements</b>:
+          <ul>
+            <li><b>Italy</b> — Mazzini (Young Italy, 1831) + Cavour (PM Sardinia) + <b>Garibaldi</b> (Red Shirts); unified <b>1861</b>; Rome added 1870; Victor Emmanuel II first King</li>
+            <li><b>Germany</b> — <b>Otto von Bismarck</b> "Blood and Iron" speech; 3 wars (Danish 1864, Austro-Prussian 1866, Franco-Prussian 1870-71); unified <b>1871</b>; Kaiser Wilhelm I; capital Berlin</li>
+          </ul>
+        </li>
+        <li><b>WWI (1914-18)</b>:
+          <ul>
+            <li><b>Trigger</b>: Assassination of Archduke Franz Ferdinand (Austria) at Sarajevo by Gavrilo Princip — 28 June 1914</li>
+            <li><b>Allies</b>: Britain, France, Russia, Italy (1915), USA (1917), Japan</li>
+            <li><b>Central Powers</b>: Germany, Austria-Hungary, Ottoman, Bulgaria</li>
+            <li>Trench warfare, machine guns, poison gas</li>
+            <li><b>Treaty of Versailles 28 June 1919</b> — harsh on Germany; Germany lost colonies, paid reparations</li>
+            <li><b>League of Nations 1920</b> — first global organisation (USA didn't join)</li>
+            <li>Russian Revolution Oct 1917 — Lenin; USSR formed 1922</li>
+          </ul>
+        </li>
+        <li><b>WWII (1939-45)</b>:
+          <ul>
+            <li><b>Trigger</b>: Germany invaded Poland 1 Sept 1939</li>
+            <li><b>Allies</b>: Britain, France, USSR (after 1941), USA (after Pearl Harbor 7 Dec 1941), China</li>
+            <li><b>Axis</b>: Germany (Hitler), Italy (Mussolini), Japan (Hirohito/Tojo)</li>
+            <li><b>Holocaust</b> — 6 million Jews killed</li>
+            <li>Battle of Britain 1940, Stalingrad 1942-43 (turning point East), D-Day 6 June 1944 (Normandy)</li>
+            <li>Hitler suicide 30 April 1945; Germany surrendered 8 May (VE Day)</li>
+            <li><b>Atomic bombs</b>: Hiroshima 6 August + Nagasaki 9 August 1945; Japan surrendered 15 August (V-J Day)</li>
+            <li><b>UN founded 24 October 1945</b> (51 founding members, India included)</li>
+          </ul>
+        </li>
+        <li><b>Cold War (1947-91)</b>:
+          <ul>
+            <li>USA (capitalism) vs USSR (communism)</li>
+            <li>NATO 1949 vs Warsaw Pact 1955</li>
+            <li>Korean War (1950-53), Vietnam War (1955-75), Cuban Missile Crisis 1962</li>
+            <li>Berlin Wall: built 1961, fell 9 Nov 1989</li>
+            <li>USSR dissolved <b>25 Dec 1991</b> — 15 republics</li>
+          </ul>
+        </li>
+        <li><b>Decolonization 1947-65</b>:
+          <ul>
+            <li>India 1947, Burma 1948, Indonesia 1949, Africa 1960 ("Year of Africa" — 17 countries), Algeria 1962</li>
+            <li>Apartheid South Africa ended 1994 (Mandela President)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "1789-1914-1945-1991"</b>: French Rev, WWI starts, WWII ends, USSR ends। 4 anchors।</li>
+        <li><b>Trick — "Hitler ke ulta"</b>: Hitler born 1889 — Mauryan Empire ki backwards date। Helps remember।</li>
+        <li><b>Story</b>: Modern era 4 revolutions से शुरू (Scientific, Glorious, American, French) → Industrial Revolution से Europe rich हो गया → Colonization दुनिया भर में → 2 World Wars (1914-18, 1939-45) में 80 million died → Cold War (US-USSR) 45 साल → 1991 में USSR गिरा = unipolar world। आज multipolar आ रहा है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Heliocentric theory was proposed by?", opts: ["Galileo", "Copernicus (1543)", "Kepler", "Newton"], a: 1, ex: "Nicolaus Copernicus — 'On the Revolutions of the Celestial Spheres' (1543)." },

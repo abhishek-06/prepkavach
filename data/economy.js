@@ -62,6 +62,61 @@
         <li><b>Standard of living</b> — measured by HDI (UNDP).</li>
         <li><b>Engel's Law</b> — as income rises, share of food in expenditure falls.</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Economics Founders — "AMR-KS"</b>:
+          <ul>
+            <li><b>A</b>dam Smith — "Wealth of Nations" 1776; <b>Father of Economics</b></li>
+            <li><b>M</b>arshall — "Principles of Economics" 1890; Welfare definition</li>
+            <li><b>R</b>obbins — Scarcity definition 1932</li>
+            <li><b>K</b>eynes — "General Theory" 1936; Father of <b>Macro</b>economics</li>
+            <li><b>S</b>amuelson — Growth definition</li>
+          </ul>
+        </li>
+        <li><b>Micro vs Macro</b>:
+          <ul>
+            <li><b>Micro</b> — small units (consumer, firm). Term: <b>Ragnar Frisch 1933</b>. Tools: demand-supply-price</li>
+            <li><b>Macro</b> — whole economy (national income, BoP, inflation). <b>Keynes</b></li>
+            <li>Trick: "Micro = MI (individual), Macro = MA (mass)"</li>
+          </ul>
+        </li>
+        <li><b>3 Economic Systems — "CSM"</b>:
+          <ul>
+            <li><b>C</b>apitalist — USA; private ownership; market decides</li>
+            <li><b>S</b>ocialist — former USSR, N. Korea; state ownership; planning</li>
+            <li><b>M</b>ixed — India; both public + private</li>
+          </ul>
+        </li>
+        <li><b>4 Sectors of Economy</b>:
+          <ul>
+            <li><b>Primary</b> (17%) — agriculture, mining, forestry, fishing</li>
+            <li><b>Secondary</b> (26%) — manufacturing, construction</li>
+            <li><b>Tertiary</b> (57%) — services (IT, banking, transport, trade)</li>
+            <li><b>Quaternary</b> — knowledge/R&D</li>
+            <li><b>Quinary</b> — top decision-makers</li>
+          </ul>
+        </li>
+        <li><b>India's Pre-Independence Economics</b>:
+          <ul>
+            <li><b>Dadabhai Naoroji</b> — Drain Theory; "Poverty and Un-British Rule" 1901; first per capita income estimate ₹20 (1867-68); "Grand Old Man of India"</li>
+            <li><b>R.C. Dutt</b> — "Economic History of India"</li>
+            <li><b>V.K.R.V. Rao</b> — first scientific national income estimate 1931-32</li>
+            <li><b>CSO</b> (1949) — official national income estimates</li>
+          </ul>
+        </li>
+        <li><b>Key Laws / Concepts</b>:
+          <ul>
+            <li><b>Law of Demand (Marshall)</b> — inverse relation of price & quantity demanded</li>
+            <li><b>Engel's Law</b> — income up → food share down</li>
+            <li><b>Giffen goods</b> — inferior; demand rises with price</li>
+            <li><b>Veblen goods</b> — luxury; demand rises with price (status)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Father of..." pattern</b>: Father of Economics = Smith; Father of Macro = Keynes; Father of Indian Economics = M.G. Ranade; "Drain Theory" = Naoroji; "Welfare definition" = Marshall।</li>
+        <li><b>Story</b>: 1776 में Adam Smith ने "Wealth of Nations" लिखी — capitalism का foundation। 1930s Depression ने Keynesian economics को जन्म दिया (govt spending से recession से निकलो)। India में 1947 से socialist planning (Nehru), 1991 में LPG से mixed economy moved towards market। आज India 5th largest economy nominal, 3rd PPP।</li>
+      </ul>
     `,
     mcq: [
       { q: "'Father of Economics' is?", opts: ["Marshall", "Adam Smith", "Keynes", "Robbins"], a: 1, ex: "Adam Smith — 'Wealth of Nations' (1776)." },
@@ -156,6 +211,80 @@
 
       <h3>Finance Commission</h3>
       <p>Article 280 — set up every 5 years. Recommends devolution of taxes between Centre and states. <b>15th FC</b> (2020-26) chaired by N.K. Singh — recommended 41% devolution to states. <b>16th FC</b> (Arvind Panagariya, chair) for 2026-31.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Planning Commission Timeline</b>:
+          <ul>
+            <li><b>1934</b> — M. Visvesvaraya: "Planned Economy for India" (first blueprint)</li>
+            <li><b>1938</b> — National Planning Committee (Nehru)</li>
+            <li><b>1944</b> — Bombay Plan (8 industrialists incl. JRD Tata, GD Birla), Gandhian Plan (S.N. Agarwal), People's Plan (M.N. Roy)</li>
+            <li><b>15 March 1950</b> — Planning Commission set up (PM = ex-officio chairman; Nehru first; Deputy Chairman <b>Gulzarilal Nanda</b> first)</li>
+            <li><b>1952</b> — NDC (National Development Council)</li>
+            <li><b>1 January 2015</b> — NITI Aayog replaces Planning Commission</li>
+          </ul>
+        </li>
+        <li><b>5-Year Plans Quick Recall</b>:
+          <ul>
+            <li><b>1st (1951-56)</b> — Harrod-Domar; Agriculture; Bhakra-Hirakud-DVC; <b>Target 2.1%, achieved 3.6%</b> — successful</li>
+            <li><b>2nd (1956-61)</b> — <b>Mahalanobis</b>; Heavy industry (Bhilai, Rourkela, Durgapur). Target 4.5%, ach 4.27%</li>
+            <li><b>3rd (1961-66)</b> — Gadgil; self-reliance. <b>Failed</b> (China war 1962, Pak war 1965, drought)</li>
+            <li><b>Plan Holiday (1966-69)</b> — 3 annual plans; <b>Green Revolution starts 1966</b>; devaluation 1966</li>
+            <li><b>4th (1969-74)</b> — Ashok Rudra/Alagh; <b>"Garibi Hatao"</b>; Bank nationalisation 1969</li>
+            <li><b>5th (1974-79)</b> — D.P. Dhar; Garibi Hatao; ended early by Janata</li>
+            <li><b>Rolling Plan (1978-80)</b> — Janata; <b>Gunnar Myrdal</b> model</li>
+            <li><b>6th (1980-85)</b> — Indira; NABARD est. 1982</li>
+            <li><b>7th (1985-90)</b> — Rajiv; JRY</li>
+            <li><b>Annual Plans (1990-92)</b> — 1991 BoP crisis</li>
+            <li><b>8th (1992-97)</b> — LPG era; <b>highest growth ~6.8%</b></li>
+            <li><b>9th (1997-2002)</b></li>
+            <li><b>10th (2002-07)</b> — 8% target; achieved 7.6%</li>
+            <li><b>11th (2007-12)</b> — "Faster, more inclusive growth"; <b>~8% achieved</b></li>
+            <li><b>12th (2012-17)</b> — LAST FYP; ~6.7%</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Models behind plans"</b>: 1st = Harrod-Domar; 2nd = Mahalanobis; Rolling = Gunnar Myrdal; "Indicative" = 8th onwards (post-1991)।</li>
+        <li><b>1991 LPG Reforms</b>:
+          <ul>
+            <li>Trigger: BoP crisis — forex reserves 2 weeks; gold pledged</li>
+            <li>PM: <b>P.V. Narasimha Rao</b>; FM: <b>Manmohan Singh</b></li>
+            <li>3 components: <b>Liberalisation, Privatisation, Globalisation</b></li>
+            <li>Industrial licensing abolished (except 5-6 sectors)</li>
+            <li>FERA → FEMA 1999</li>
+            <li>Rupee devalued ~20%; currency convertible (current account 1994)</li>
+            <li>Joined WTO 1995</li>
+          </ul>
+        </li>
+        <li><b>NITI Aayog (1 Jan 2015)</b>:
+          <ul>
+            <li>"<b>National Institution for Transforming India</b>"</li>
+            <li>Think tank; advisory only, NO fund allocation</li>
+            <li>Chairperson: PM; Vice-Chairperson: appointed by PM</li>
+            <li>First VC: <b>Arvind Panagariya</b>; CEO: Sindhushree Khullar</li>
+            <li>Bottom-up; cooperative federalism</li>
+            <li>Programs: Atal Innovation Mission, SDG India Index, Aspirational Districts</li>
+          </ul>
+        </li>
+        <li><b>Trick — Planning Commission vs NITI Aayog</b>:
+          <ul>
+            <li>PC = allocative; NITI = advisory</li>
+            <li>PC = top-down; NITI = bottom-up</li>
+            <li>PC = Deputy Chairman; NITI = Vice-Chairperson</li>
+            <li>PC = "control"; NITI = "cooperate"</li>
+          </ul>
+        </li>
+        <li><b>Finance Commission</b>:
+          <ul>
+            <li><b>Article 280</b>; every 5 years</li>
+            <li>Centre-State tax distribution</li>
+            <li><b>15th FC (2020-26)</b> — chair <b>N.K. Singh</b>; recommended <b>41% to states</b></li>
+            <li><b>16th FC (2026-31)</b> — chair Arvind Panagariya</li>
+          </ul>
+        </li>
+        <li><b>Trick — "5-Year Plans were 12, ended 2017; NITI = since 2015"</b>।</li>
+        <li><b>Story</b>: India 1950 में Soviet-style central planning अपनाई — Mahalanobis 2nd Plan ने heavy industry पर ज़ोर। पर growth slow रहा ("Hindu rate of growth"). 1991 में BoP crisis ने LPG reforms forced किए — India market economy की तरफ़ बढ़ी। 2015 में Modi ने Planning Commission बंद कर NITI Aayog बनाया — symbol of mindset change।</li>
+      </ul>
     `,
     mcq: [
       { q: "First Indian to give planning blueprint (1934)?", opts: ["Nehru", "M. Visvesvaraya", "Tagore", "Tata"], a: 1, ex: "M. Visvesvaraya — 'Planned Economy for India', 1934." },
@@ -254,6 +383,77 @@
         <li><b>Lorenz Curve</b> — graphical inequality.</li>
         <li><b>HDI</b> — UNDP, since 1990, by Mahbub-ul-Haq & Amartya Sen. India ranked ~134/193 (2024).</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>5 Key Aggregates — "GD-GN-ND-NN-PCI"</b>:
+          <ul>
+            <li><b>GDP</b> = value of final goods/services within domestic territory</li>
+            <li><b>GNP</b> = GDP + Net Factor Income from Abroad (NFIA)</li>
+            <li><b>NDP</b> = GDP − Depreciation</li>
+            <li><b>NNP</b> = GNP − Depreciation. <b>NNP at Factor Cost = National Income</b></li>
+            <li><b>Per Capita Income</b> = National Income / Population</li>
+          </ul>
+        </li>
+        <li><b>Formula Trick</b>: "GNP - Depreciation = NNP, NDP + NFIA = NNP"। Add (NFIA) for abroad income, subtract (D) for wear-tear।</li>
+        <li><b>Market Price vs Factor Cost</b>:
+          <ul>
+            <li>FC = MP − Indirect Taxes + Subsidies</li>
+            <li>Since 2015, India uses GVA at basic price + GDP at market price</li>
+          </ul>
+        </li>
+        <li><b>Real vs Nominal GDP</b>:
+          <ul>
+            <li><b>Nominal</b> = current prices</li>
+            <li><b>Real</b> = constant prices (base year)</li>
+            <li><b>GDP Deflator</b> = Nominal/Real × 100 (most comprehensive inflation measure)</li>
+          </ul>
+        </li>
+        <li><b>3 Methods of NI Calculation</b>:
+          <ul>
+            <li><b>Production / Value-Added</b> — sum of value added by each sector; used in primary sector</li>
+            <li><b>Income</b> — sum of factor incomes (rent+wages+interest+profit); secondary sector</li>
+            <li><b>Expenditure</b> — C + I + G + (X−M); tertiary sector</li>
+          </ul>
+        </li>
+        <li><b>Current Base Year</b>: <b>2011-12</b>। India considering 2022-23।</li>
+        <li><b>Important Bodies</b>:
+          <ul>
+            <li><b>CSO</b> (1949) + <b>NSSO</b> = merged 2019 → <b>NSO</b> under MoSPI</li>
+            <li>NSO releases: Advance, Provisional, Revised GDP estimates</li>
+            <li>Quarterly GDP since 1996</li>
+          </ul>
+        </li>
+        <li><b>India's Economic Status</b>:
+          <ul>
+            <li><b>5th largest by Nominal GDP</b> (after USA, China, Germany, Japan)</li>
+            <li><b>3rd largest by PPP</b> (after China, USA)</li>
+            <li>Per capita: ~$2,400 nominal; ~$9,000 PPP</li>
+            <li>$5 trillion target by ~2027</li>
+          </ul>
+        </li>
+        <li><b>Trick — "5th-3rd-2.4k"</b>: 5th nominal, 3rd PPP, $2.4k per capita।</li>
+        <li><b>GDP Limitations</b>:
+          <ul>
+            <li>Excludes housework, barter</li>
+            <li>Ignores income distribution</li>
+            <li>Ignores environment</li>
+            <li>Green GDP = attempt to include environment</li>
+          </ul>
+        </li>
+        <li><b>Alternative Measures</b>:
+          <ul>
+            <li><b>HDI</b> — UNDP since 1990; by Mahbub-ul-Haq + Amartya Sen; India ~134/193 (2024)</li>
+            <li><b>GNH</b> — Bhutan</li>
+            <li><b>Gini Coefficient</b> — inequality (0-1)</li>
+            <li><b>Lorenz Curve</b> — graphical inequality</li>
+            <li>GPI — Genuine Progress Indicator</li>
+          </ul>
+        </li>
+        <li><b>HDI 3 dimensions</b>: Health (life expectancy) + Education (mean+expected schooling) + Income (GNI per capita)। Trick: "HEI"।</li>
+        <li><b>Story</b>: GDP measure करता है कि देश कितना produce कर रहा है, पर सब कुछ नहीं बताता (housework, environment, inequality)। India 5th nominal economy है — पर per capita में बहुत पीछे (134th HDI)। 1991 LPG से growth accelerated, पर inequality भी बढ़ी। Real challenge = inclusive growth।</li>
+      </ul>
     `,
     mcq: [
       { q: "GDP measures?", opts: ["Final goods within country", "All goods including intermediate", "Goods abroad too", "Only services"], a: 0, ex: "Final goods/services within domestic territory." },
@@ -346,6 +546,79 @@
       <ul>
         <li>India became world's <b>most populous country</b> in April 2023 (overtook China; UN data) — ~142 crore.</li>
         <li>India has ~17.5% of world population on 2.4% of land area.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Census Basics</b>:
+          <ul>
+            <li>First non-synchronous: <b>1872</b> (Lord Mayo)</li>
+            <li>First synchronous: <b>1881</b> (Lord Ripon)</li>
+            <li>Last completed: <b>2011</b> (15th since 1872, 7th post-Independence)</li>
+            <li>2021 Census delayed</li>
+            <li>Under <b>Census Act 1948</b>; Office of Registrar General (Home Ministry)</li>
+          </ul>
+        </li>
+        <li><b>2011 Census Highlights — "Must remember"</b>:
+          <ul>
+            <li><b>Population: 121.08 crore</b></li>
+            <li>Decadal growth: <b>17.7%</b></li>
+            <li>Density: <b>382 per sq km</b></li>
+            <li>Sex ratio: <b>943</b> (F per 1000 M)</li>
+            <li>Child sex ratio (0-6): <b>919</b> (lowest since Independence)</li>
+            <li>Literacy: <b>74.04%</b> (M 82, F 65)</li>
+            <li>Urban: 31.16%</li>
+          </ul>
+        </li>
+        <li><b>State-wise Records (2011) — Must memorize</b>:
+          <ul>
+            <li><b>Most populous</b>: UP (19.96 cr) → Maharashtra → Bihar → WB → MP</li>
+            <li><b>Least populous (state)</b>: Sikkim; (UT) Lakshadweep</li>
+            <li><b>Highest density (state)</b>: <b>Bihar (1106)</b>; (UT) Delhi (11,320)</li>
+            <li><b>Lowest density (state)</b>: <b>Arunachal Pradesh (17)</b></li>
+            <li><b>Highest sex ratio</b>: <b>Kerala (1084)</b></li>
+            <li><b>Lowest sex ratio (state)</b>: <b>Haryana (879)</b>; (UT) Daman-Diu (618)</li>
+            <li><b>Highest literacy</b>: <b>Kerala (94%)</b>; (UT) Lakshadweep (91.85%)</li>
+            <li><b>Lowest literacy</b>: <b>Bihar (61.8%)</b></li>
+            <li><b>Highest growth (2001-11)</b>: Meghalaya 27.9%</li>
+            <li><b>Lowest growth</b>: Nagaland (-0.6%)</li>
+          </ul>
+        </li>
+        <li><b>Trick — State records</b>:
+          <ul>
+            <li>"Kerala = High sex ratio + High literacy"</li>
+            <li>"Bihar = Highest density + Lowest literacy"</li>
+            <li>"Haryana = Lowest sex ratio"</li>
+            <li>"UP = Most populous"</li>
+            <li>"Arunachal = Lowest density"</li>
+            <li>"Meghalaya = Highest growth"</li>
+          </ul>
+        </li>
+        <li><b>Key Demographic Concepts</b>:
+          <ul>
+            <li><b>CBR (Crude Birth Rate)</b> — births per 1000</li>
+            <li><b>CDR (Crude Death Rate)</b> — deaths per 1000</li>
+            <li><b>TFR (Total Fertility Rate)</b> — children per woman; India ~2.0 (NFHS-5); replacement = 2.1</li>
+            <li><b>IMR (Infant Mortality)</b> — deaths under 1 yr per 1000 live births; India ~28</li>
+            <li><b>MMR (Maternal Mortality)</b> — per 1,00,000 live births; India ~97 (2018-20)</li>
+            <li><b>Life expectancy</b>: India ~70 yrs</li>
+            <li><b>Demographic dividend</b> — large working-age population; India till ~2055</li>
+          </ul>
+        </li>
+        <li><b>Malthusian Theory (1798)</b>: Population grows geometrically (1, 2, 4, 8...) but food grows arithmetically (1, 2, 3, 4...) → eventual famine। T.R. Malthus।</li>
+        <li><b>Demographic Transition — 4 stages</b>: High Stationary → Early Expanding → Late Expanding → Low Stationary। India in <b>Late Expanding</b>।</li>
+        <li><b>India became world's most populous country in April 2023</b> — overtook China per UN data; ~142 cr।</li>
+        <li><b>Family Planning Programs</b>:
+          <ul>
+            <li>India = <b>first country</b> to launch (1952)</li>
+            <li>National Population Policy 2000 — TFR 2.1 target</li>
+            <li>NFHS-5 (2019-21) — latest survey</li>
+            <li>SRS — annual sample registration system</li>
+          </ul>
+        </li>
+        <li><b>Trick — "India 17.5% of world population on 2.4% land"</b>।</li>
+        <li><b>Story</b>: India में हर 10 साल में Census होती है। 2011 की Census ने दिखाया Bihar सबसे dense, Kerala सबसे literate, Haryana में female-male imbalance worst। 2023 में India world में सबसे ज़्यादा population वाला देश बन गया (China को overtake)। Demographic dividend (large youth) हमारी ताकत — पर अगर jobs नहीं मिलें तो demographic burden बन सकती है।</li>
       </ul>
     `,
     mcq: [
@@ -450,6 +723,86 @@
         <li><b>Skill India Mission</b> (2015), <b>PMKVY</b> (Pradhan Mantri Kaushal Vikas Yojana, 2015).</li>
         <li><b>Start-up India, Stand-up India, Mudra Yojana</b>.</li>
         <li><b>NCS</b> (National Career Service portal, 2015).</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Calorie Norms (Y.K. Alagh Committee 1979)</b>:
+          <ul>
+            <li><b>Rural</b>: 2400 kcal/person/day</li>
+            <li><b>Urban</b>: 2100 kcal/person/day</li>
+            <li>Trick: "<b>2400-2100, Alagh '79</b>"</li>
+          </ul>
+        </li>
+        <li><b>Poverty Estimation Committees — "WALT R"</b>:
+          <ul>
+            <li><b>W</b>orking Group 1962 — first (₹20 rural, ₹25 urban per month)</li>
+            <li><b>A</b>lagh 1979 — calorie-based</li>
+            <li><b>L</b>akdawala 1993 — state-specific poverty lines</li>
+            <li><b>T</b>endulkar 2009 — MPCE-based; <b>21.9% poverty (2011-12)</b></li>
+            <li><b>R</b>angarajan 2014 — ₹972 rural, ₹1407 urban; <b>29.5% poverty (2011-12)</b></li>
+          </ul>
+        </li>
+        <li><b>Multidimensional Poverty Index (MPI)</b>:
+          <ul>
+            <li>By <b>OPHI Oxford + UNDP 2010</b></li>
+            <li>3 dimensions: Health + Education + Living Standards</li>
+            <li>10 indicators (nutrition, child mortality, schooling, attendance, cooking fuel, sanitation, water, electricity, housing, assets)</li>
+            <li>NITI Aayog National MPI 2021: <b>25% multidimensionally poor (NFHS-4) → 14.96% (NFHS-5)</b></li>
+          </ul>
+        </li>
+        <li><b>BIMARU States</b> — coined by <b>Ashish Bose 1980s</b>: <b>Bi</b>har, <b>M</b>P, <b>R</b>ajasthan, <b>U</b>P — historically poorest। Now expanded BIMARU includes Odisha, Jharkhand, Chhattisgarh।</li>
+        <li><b>Types of Unemployment — "OS-DF-CS-UE"</b>:
+          <ul>
+            <li><b>O</b>pen — willing but no job</li>
+            <li><b>S</b>tructural — skill mismatch with jobs</li>
+            <li><b>D</b>isguised — apparent employment but zero marginal productivity (common in agriculture)</li>
+            <li><b>F</b>rictional — temporary, between jobs</li>
+            <li><b>C</b>yclical — due to business cycle / recession</li>
+            <li><b>S</b>easonal — agriculture, ice-cream industry</li>
+            <li><b>U</b>nderemployment — working below capacity</li>
+            <li><b>E</b>ducated unemployment — joblessness among educated</li>
+          </ul>
+        </li>
+        <li><b>Disguised Unemployment</b> — common in <b>agriculture</b>; if you remove a worker, output won't fall। Trick: "<b>Khet me ज़्यादा लोग, काम वही</b>"।</li>
+        <li><b>Measurement (PLFS / NSSO)</b>:
+          <ul>
+            <li><b>Usual Status (US/PS+SS)</b> — 365 day reference</li>
+            <li><b>Current Weekly Status (CWS)</b> — 7 days</li>
+            <li><b>Current Daily Status (CDS)</b> — most realistic; each day</li>
+            <li><b>PLFS 2017</b> (Periodic Labour Force Survey) — replaced NSSO Employment Survey</li>
+          </ul>
+        </li>
+        <li><b>Key Rates</b>:
+          <ul>
+            <li><b>LFPR</b> — Labour Force Participation Rate (% in labour force)</li>
+            <li><b>WPR</b> — Worker Population Ratio</li>
+            <li><b>Unemployment Rate</b> — unemployed / labour force × 100</li>
+            <li>India's UR: ~3.2% (PLFS 2023-24, US)</li>
+          </ul>
+        </li>
+        <li><b>Major Employment Schemes — "MPDS-PSU-NM"</b>:
+          <ul>
+            <li><b>MGNREGA 2005</b> — 100 days rural; first legal guarantee</li>
+            <li><b>PMEGP 2008</b> — credit-linked self-employment</li>
+            <li><b>DDU-GKY 2014</b> — placement-linked skill training (rural)</li>
+            <li>Skill India + <b>PMKVY 2015</b></li>
+            <li>Startup India, Stand-up India, Mudra</li>
+            <li><b>NCS 2015</b> — National Career Service portal</li>
+          </ul>
+        </li>
+        <li><b>MGNREGA Quick Facts</b>:
+          <ul>
+            <li>Act 2005, implemented <b>2 February 2006</b></li>
+            <li><b>100 days</b> guaranteed wage employment</li>
+            <li>Rural; adult member of HH</li>
+            <li>Manual unskilled work</li>
+            <li>First in world such legal guarantee</li>
+          </ul>
+        </li>
+        <li><b>Trick — Tendulkar vs Rangarajan</b>: "21.9% vs 29.5%" — Rangarajan higher; both for 2011-12। Tendulkar based on consumption + health/edu; Rangarajan separate poverty lines।</li>
+        <li><b>Story</b>: 1947 में 55% poor थे। 2011 में Tendulkar के अनुसार 21.9%। MPI से अभी 15% multidimensionally poor। MGNREGA ने rural employment guarantee दी। पर unemployment crisis बना हुआ है — खासकर educated youth। Demographic dividend तब काम आएगा जब jobs मिलें।</li>
       </ul>
     `,
     mcq: [
@@ -571,6 +924,95 @@
         <li>Rubber — Kerala (~75%).</li>
         <li>Spices — India largest producer & exporter; Kerala for cardamom, pepper.</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Cropping Seasons — "K-R-Z"</b>:
+          <ul>
+            <li><b>Kharif</b> (Jun-Oct, monsoon) — Rice, Maize, Jowar, Bajra, Cotton, Soybean, Sugarcane, Groundnut</li>
+            <li><b>Rabi</b> (Oct-Mar, winter) — Wheat, Barley, Mustard, Gram, Peas</li>
+            <li><b>Zaid</b> (Mar-Jun, summer) — Watermelon, Cucumber, Fodder</li>
+          </ul>
+        </li>
+        <li><b>Green Revolution Facts</b>:
+          <ul>
+            <li>Started <b>1966-67</b></li>
+            <li><b>M.S. Swaminathan</b> — Father in India; <b>Norman Borlaug</b> — globally (Nobel 1970)</li>
+            <li>HYV seeds (Mexican wheat: Sonora 64, Lerma Rojo)</li>
+            <li>First in <b>Punjab, Haryana, Western UP</b></li>
+            <li>Wheat output exploded; later rice (1980s)</li>
+            <li>Limitations: regional concentration, water depletion, soil degradation</li>
+          </ul>
+        </li>
+        <li><b>Revolutions — "GW-YB-PSB-EGR"</b>:
+          <ul>
+            <li><b>G</b>reen — Food grains (Swaminathan/Borlaug, 1966)</li>
+            <li><b>W</b>hite — Milk/Dairy (<b>Verghese Kurien</b>, Operation Flood, 1970, Anand)</li>
+            <li><b>Y</b>ellow — Oilseeds (Sam Pitroda, 1990s)</li>
+            <li><b>B</b>lue — Fish/Aquaculture (Hiralal Chaudhuri)</li>
+            <li><b>P</b>ink — Onion/Prawn</li>
+            <li><b>S</b>ilver — Eggs/Poultry</li>
+            <li><b>B</b>rown — Cocoa/Leather</li>
+            <li><b>E</b>vergreen — Sustainable agriculture (Swaminathan)</li>
+            <li><b>G</b>olden — Fruits/Honey</li>
+            <li><b>R</b>ed — Meat/Tomato</li>
+          </ul>
+        </li>
+        <li><b>Major Producers — Crop-State</b>:
+          <ul>
+            <li><b>Rice</b> — WB (largest), Punjab (yield per ha), UP</li>
+            <li><b>Wheat</b> — UP (largest), Punjab, Haryana, MP</li>
+            <li><b>Sugarcane</b> — UP (largest), Maharashtra (highest recovery)</li>
+            <li><b>Cotton</b> — Gujarat, Maharashtra, Telangana</li>
+            <li><b>Pulses</b> — MP, Rajasthan</li>
+            <li><b>Tea</b> — Assam (50%), WB (largest)</li>
+            <li><b>Coffee</b> — Karnataka (~70%)</li>
+            <li><b>Rubber</b> — Kerala (~75%)</li>
+            <li><b>Spices</b> — Kerala, India largest producer + exporter</li>
+            <li><b>Oilseeds</b> — MP largest</li>
+            <li><b>Milk</b> — UP largest, Rajasthan 2nd</li>
+          </ul>
+        </li>
+        <li><b>MSP & CACP</b>:
+          <ul>
+            <li><b>CACP</b> (Commission for Agricultural Costs & Prices) — set up <b>1965</b> as APC; renamed CACP 1985</li>
+            <li>Announces MSP for <b>23 crops</b> (7 cereals + 5 pulses + 7 oilseeds + 4 commercial)</li>
+            <li>Procurement by <b>FCI (1965)</b> for buffer stock + PDS</li>
+            <li>Cost concepts:
+              <ul>
+                <li>A2 — paid-out costs</li>
+                <li>A2+FL — A2 + family labour</li>
+                <li>C2 — A2+FL + rent on land + interest on capital</li>
+              </ul>
+            </li>
+            <li><b>Current formula: MSP = 1.5 × A2+FL</b> (Govt); Swaminathan recommended 1.5 × C2</li>
+          </ul>
+        </li>
+        <li><b>NFSA 2013 (National Food Security Act)</b>:
+          <ul>
+            <li>Legal right to subsidised food</li>
+            <li>Covers <b>~67% population</b> (75% rural + 50% urban)</li>
+            <li>Categories: <b>AAY (Antyodaya Anna Yojana)</b> — poorest of poor; <b>PHH (Priority Households)</b></li>
+            <li>Rates: Rice ₹3, Wheat ₹2, Coarse grain ₹1 (free now under PMGKAY merged)</li>
+          </ul>
+        </li>
+        <li><b>Major Schemes — "PM-KISAN-PMFBY-PMKSY-e-NAM-KCC"</b>:
+          <ul>
+            <li><b>PM-KISAN 2019</b> — ₹6000/year DBT to all farmers (3 instalments)</li>
+            <li><b>PMFBY 2016</b> — Crop insurance (Pradhan Mantri Fasal Bima Yojana)</li>
+            <li><b>PMKSY 2015</b> — Irrigation; "Har Khet Ko Pani"</li>
+            <li><b>e-NAM 2016</b> — National Agriculture Market online</li>
+            <li><b>Soil Health Card 2015</b></li>
+            <li><b>Neem-coated urea</b></li>
+            <li><b>KCC 1998</b> — Kisan Credit Card; concessional credit</li>
+            <li><b>RKVY 2007</b> — Rashtriya Krishi Vikas Yojana</li>
+            <li><b>FPOs scheme 2020</b> — 10,000 Farmer Producer Organisations</li>
+          </ul>
+        </li>
+        <li><b>India in World</b>: 1st in milk, pulses, jute, spices, mango, banana, tea, cashew। 2nd in rice, wheat, sugarcane, cotton, fruits, vegetables, groundnut, fish।</li>
+        <li><b>Story</b>: 1947 में India food deficit। 1966 में Green Revolution (Swaminathan) ने Punjab-Haryana से wheat revolution लाई। 1970 में White Revolution (Kurien) ने Amul model। आज India largest milk + pulses + spices producer। पर 70% farmers छोटे/marginal — MSP-PDS-FPO-FBY बहुत support। Climate change biggest future challenge।</li>
+      </ul>
     `,
     mcq: [
       { q: "Agriculture's share in India's GDP?", opts: ["~5%", "~17%", "~30%", "~45%"], a: 1, ex: "~17% of GDP, ~45% workforce." },
@@ -667,6 +1109,102 @@
       <ul>
         <li><b>BOT</b> (Build-Operate-Transfer), <b>BOOT</b>, <b>HAM</b> (Hybrid Annuity Model) — for highway projects.</li>
         <li><b>VGF</b> (Viability Gap Funding) for unviable but socially essential projects.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Major Infra Programs — "BSU-PSA-AGN-NIM-PM"</b>:
+          <ul>
+            <li><b>B</b>haratmala Pariyojana 2017 — highway dev; 83,677 km</li>
+            <li><b>S</b>agarmala 2015 — port-led development</li>
+            <li><b>U</b>DAN 2016 — regional air connectivity ("Ude Desh ka Aam Nagrik")</li>
+            <li><b>P</b>MGSY 2000 — rural roads</li>
+            <li><b>S</b>mart Cities Mission 2015 — 100 cities</li>
+            <li><b>A</b>MRUT 2015 — urban infra 500 cities</li>
+            <li><b>G</b>ati Shakti 2021 — multi-modal master plan</li>
+            <li><b>N</b>IP — National Infrastructure Pipeline ₹111 lakh cr (2020-25)</li>
+            <li><b>N</b>MP — National Monetisation Pipeline ₹6 lakh cr (2021)</li>
+            <li><b>P</b>MAY 2015 — Housing for All</li>
+          </ul>
+        </li>
+        <li><b>Energy — Coal & Petroleum</b>:
+          <ul>
+            <li>Coal supplies ~55% of commercial energy</li>
+            <li><b>CIL</b> — world's largest coal producer</li>
+            <li>Mumbai High — largest offshore oilfield</li>
+            <li><b>Digboi</b> — oldest refinery (1901); oldest oil well (1889)</li>
+            <li><b>Jamnagar</b> — world's largest refinery (Reliance)</li>
+            <li>GAIL — natural gas</li>
+          </ul>
+        </li>
+        <li><b>Hydroelectric Dams</b>:
+          <ul>
+            <li><b>Bhakra-Nangal</b> (Sutlej) — highest gravity</li>
+            <li><b>Hirakud</b> (Mahanadi) — longest in world</li>
+            <li><b>Tehri</b> (Bhagirathi) — tallest (260m)</li>
+            <li><b>Sardar Sarovar</b> (Narmada)</li>
+            <li><b>DVC 1948</b> — first multipurpose (modelled on TVA-USA)</li>
+            <li>First hydel: <b>Sidrapong 1897</b></li>
+          </ul>
+        </li>
+        <li><b>NTPC & Thermal</b>:
+          <ul>
+            <li><b>NTPC 1975</b> — thermal power giant</li>
+            <li>Vindhyachal — largest NTPC plant</li>
+            <li>Thermal supplies ~70% of electricity</li>
+          </ul>
+        </li>
+        <li><b>Nuclear Plants — "TaRa-Kalpa-Naro-Kakra-Kaiga-Kudan"</b>:
+          <ul>
+            <li>Tarapur 1969 — first; BWR</li>
+            <li>Kudankulam — largest (Russian VVER)</li>
+            <li>Kalpakkam — first indigenous</li>
+            <li>BARC Apsara 1956 — first reactor in Asia</li>
+          </ul>
+        </li>
+        <li><b>Solar & Wind</b>:
+          <ul>
+            <li><b>Bhadla Solar Park</b> (Rajasthan) — ~2245 MW</li>
+            <li>ISA HQ Gurugram (2015, India+France)</li>
+            <li>Wind: TN largest (Muppandal Kanyakumari)</li>
+            <li><b>Target: 500 GW non-fossil by 2030</b></li>
+          </ul>
+        </li>
+        <li><b>Roads</b>:
+          <ul>
+            <li>NHAI 1988 — manages NHs</li>
+            <li>NH 44 — longest (Srinagar-Kanyakumari, 3745 km)</li>
+            <li><b>Golden Quadrilateral</b> — Delhi-Mumbai-Chennai-Kolkata</li>
+            <li>NSEW Corridor</li>
+            <li>BRO — strategic border roads</li>
+          </ul>
+        </li>
+        <li><b>Telecom & Digital</b>:
+          <ul>
+            <li>TRAI 1997</li>
+            <li>5G launched <b>1 October 2022</b></li>
+            <li>BharatNet (earlier NOFN 2011) — broadband to gram panchayats</li>
+            <li>Digital India 2015</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Sagarmala = sea, Bharatmala = land (roads)"</b>।</li>
+        <li><b>PPP Models</b>:
+          <ul>
+            <li>BOT — Build-Operate-Transfer</li>
+            <li>BOOT — Build-Own-Operate-Transfer</li>
+            <li><b>HAM</b> — Hybrid Annuity Model (40% govt + 60% private)</li>
+            <li>VGF — Viability Gap Funding</li>
+          </ul>
+        </li>
+        <li><b>Housing & Sanitation</b>:
+          <ul>
+            <li><b>Swachh Bharat 2 Oct 2014</b> — ODF; 10+ cr toilets built</li>
+            <li>PMAY Urban + Gramin (2015)</li>
+            <li>JNNURM (2005-14) — earlier urban renewal</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India का infra deficit बहुत बड़ा है। 2014 के बाद massive push — Bharatmala (roads), Sagarmala (ports), Smart Cities, Swachh Bharat (toilets), Jal Jeevan (water), 5G (telecom)। NIP target ₹111 लाख cr। पर execution slow। Gati Shakti master plan से integration की कोशिश।</li>
       </ul>
     `,
     mcq: [
@@ -769,6 +1307,91 @@
         <li>India's rank rose from 142 (2014) to 63 (2020) before WB discontinued the index.</li>
         <li>New: <b>B-READY</b> by World Bank (replacing EoDB).</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Industrial Policy — Key dates</b>:
+          <ul>
+            <li>1948 — first IPR; mixed economy</li>
+            <li><b>1956 — bedrock IPR</b>; 3 schedules (A: state, B: mixed, C: private); Mahalanobis era</li>
+            <li>1977 Janata — small/cottage focus</li>
+            <li>1980 Indira — "economic federation"</li>
+            <li><b>1991 NIP</b> — <b>LPG reforms</b>; license raj ended</li>
+          </ul>
+        </li>
+        <li><b>1991 NIP Highlights</b>:
+          <ul>
+            <li>License abolished for most industries (kept for 5-6 strategic)</li>
+            <li>Public sector reserved list cut to 8 (now 2 — atomic + railway operations)</li>
+            <li>MRTP relaxed</li>
+            <li>FERA → FEMA 1999</li>
+            <li>FDI auto route opened</li>
+          </ul>
+        </li>
+        <li><b>CPSE Categories</b>:
+          <ul>
+            <li><b>Maharatna (13)</b> — global scale; up to ₹5000 cr autonomy</li>
+            <li><b>Navratna (~24)</b> — up to ₹1000 cr autonomy</li>
+            <li><b>Miniratna I (~62)</b> — profit ≥ ₹30 cr</li>
+            <li>Miniratna II (~12)</li>
+          </ul>
+        </li>
+        <li><b>13 Maharatnas — must remember</b>:
+          <ul>
+            <li>ONGC, IOCL, NTPC, SAIL, BHEL, GAIL, CIL, BPCL, HPCL, PowerGrid, REC, PFC, ONGC Videsh</li>
+            <li>Trick: "<b>O-I-N-S-B-G-C-B-H-P-R-P-O</b>" — main oil + steel + power + finance giants</li>
+          </ul>
+        </li>
+        <li><b>MSME Revised Definition (June 2020)</b>:
+          <ul>
+            <li><b>Micro</b> — Investment ≤₹1 cr & Turnover ≤₹5 cr</li>
+            <li><b>Small</b> — Investment ≤₹10 cr & Turnover ≤₹50 cr</li>
+            <li><b>Medium</b> — Investment ≤₹50 cr & Turnover ≤₹250 cr</li>
+            <li>Trick: "<b>1-5, 10-50, 50-250</b>" investment-turnover pairs</li>
+            <li>Same for manufacturing + services since 2020</li>
+            <li>MSME contributes ~30% of GDP, ~48% of exports</li>
+          </ul>
+        </li>
+        <li><b>Major Schemes — "MAA-PLM-SS"</b>:
+          <ul>
+            <li><b>Make in India</b> (25 Sept 2014) — manufacturing share to 25% of GDP</li>
+            <li><b>Atmanirbhar Bharat</b> (May 2020) — self-reliance</li>
+            <li><b>PLI Schemes 2020-</b> — Production Linked Incentive; <b>14 sectors</b> (mobile, electronics, pharma, auto, textiles, steel, batteries, drones, telecom, solar, food, white goods)</li>
+            <li><b>Mudra Yojana 2015 (PMMY)</b> — Shishu (≤₹50k), Kishore (₹50k-5L), Tarun (₹5L-10L)</li>
+            <li><b>Stand-Up India 2016</b> — ₹10L-1Cr to SC/ST/women</li>
+            <li><b>Start-Up India 2016</b> — DPIIT-recognized startups; tax benefits</li>
+            <li><b>SAMPADA</b> — food processing</li>
+            <li>CHAMPIONS portal 2020 — MSME grievance</li>
+            <li><b>TReDS 2017</b> — invoice discounting platform</li>
+          </ul>
+        </li>
+        <li><b>Industrial Indices</b>:
+          <ul>
+            <li><b>IIP (Index of Industrial Production)</b> — NSO; base <b>2011-12</b>; 8 core industries weight 40.27%</li>
+            <li><b>8 Core Industries</b>: Coal, Crude oil, Natural gas, Refinery products, Fertilizers, Steel, Cement, Electricity = "<b>CCNRFSCE</b>"</li>
+            <li><b>PMI (Purchasing Managers' Index)</b> — by S&P Global; &gt;50 = expansion</li>
+          </ul>
+        </li>
+        <li><b>Industrial Corridors</b>:
+          <ul>
+            <li><b>DMIC</b> — Delhi-Mumbai (1st, with Japan)</li>
+            <li>CBIC — Chennai-Bengaluru</li>
+            <li>BMIC — Bengaluru-Mumbai</li>
+            <li>AKIC — Amritsar-Kolkata</li>
+            <li>VCIC — Vizag-Chennai</li>
+          </ul>
+        </li>
+        <li><b>SEZ (Special Economic Zones)</b>:
+          <ul>
+            <li>SEZ Act 2005, effective 2006</li>
+            <li>First EPZ/SEZ in Asia: <b>Kandla 1965</b></li>
+            <li>Tax holidays, duty-free imports</li>
+          </ul>
+        </li>
+        <li><b>Trick — Maharatna criteria</b>: "Turnover ≥ ₹25,000 cr; Profit ≥ ₹5,000 cr; Net worth ≥ ₹15,000 cr"।</li>
+        <li><b>Story</b>: 1948-1991 तक Licence Raj — हर business को permission। 1991 LPG ने सब बदला। 2014 के Make in India + 2020 Atmanirbhar + PLI से manufacturing push। MSMEs job creator — 30% GDP, 48% exports। DMIC जैसे corridors से regional dev। India 2nd largest steel + 2nd largest cement producer।</li>
+      </ul>
     `,
     mcq: [
       { q: "First Industrial Policy Resolution year?", opts: ["1947", "1948", "1951", "1956"], a: 1, ex: "1948 — first IPR after Independence." },
@@ -865,6 +1488,82 @@
       <ul>
         <li>Strategic sectors (4): Atomic energy & space; Transport & telecom; Power & petroleum; Banking & insurance.</li>
         <li>Bare minimum CPSEs in strategic; rest privatised/closed.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>PSE Evolution</b>:
+          <ul>
+            <li>1951 — 5 PSUs</li>
+            <li>1991 — 246 PSUs</li>
+            <li>Today — ~389 CPSEs</li>
+            <li>1991 reforms started disinvestment</li>
+          </ul>
+        </li>
+        <li><b>4 PSE Categories — "MNMM"</b>:
+          <ul>
+            <li><b>Maharatna (13)</b> — global; net worth ≥ ₹15,000 cr; turnover ≥ ₹25,000 cr; profit ≥ ₹5,000 cr; <b>up to ₹5,000 cr autonomy</b></li>
+            <li><b>Navratna (~24)</b> — up to ₹1,000 cr autonomy</li>
+            <li><b>Miniratna I (~62)</b> — profit ≥ ₹30 cr; up to ₹500 cr autonomy</li>
+            <li><b>Miniratna II (~12)</b> — up to ₹300 cr</li>
+          </ul>
+        </li>
+        <li><b>Disinvestment Methods</b>:
+          <ul>
+            <li><b>Minority</b> (&lt;50%) — govt retains control</li>
+            <li><b>Majority/Strategic</b> (&gt;50%) — control transferred</li>
+            <li><b>Complete Privatisation</b> — 100% sold</li>
+            <li><b>CPSE-ETF</b> — basket of CPSE shares (e.g., Bharat 22 ETF)</li>
+            <li><b>OFS</b> — Offer for Sale</li>
+            <li><b>IPO/FPO</b></li>
+            <li><b>Strategic sale</b> — direct to private company</li>
+            <li><b>Buy-back</b> by company</li>
+          </ul>
+        </li>
+        <li><b>Disinvestment Bodies</b>:
+          <ul>
+            <li>1996 — Disinvestment Commission (G.V. Ramakrishna)</li>
+            <li>1999 — Dept of Disinvestment</li>
+            <li><b>2016 — renamed DIPAM</b> (Dept of Investment & Public Asset Management) under Finance Ministry</li>
+          </ul>
+        </li>
+        <li><b>Major Strategic Sales</b>:
+          <ul>
+            <li><b>2000 — Modern Foods</b> (to HUL) — first strategic sale</li>
+            <li>Vajpayee era — BALCO, VSNL, Hindustan Zinc</li>
+            <li><b>2022 — Air India</b> (to Tata for ~₹18,000 cr)</li>
+            <li>2022 — Neelachal Ispat (to Tata Steel)</li>
+            <li><b>May 2022 — LIC IPO</b> (10% sold; biggest Indian IPO)</li>
+            <li>Pending: BPCL, Concor, Shipping Corp, Pawan Hans, IDBI Bank</li>
+          </ul>
+        </li>
+        <li><b>NMP (National Monetisation Pipeline) 2021</b>:
+          <ul>
+            <li>Target: ~₹6 lakh cr in 4 years</li>
+            <li>Brownfield assets — Lease/concession (NOT outright sale)</li>
+            <li>Sectors: roads, railways, power, telecom, ports, airports</li>
+          </ul>
+        </li>
+        <li><b>New PSE Policy 2021 — 4 Strategic Sectors</b>:
+          <ul>
+            <li>Atomic Energy + Space</li>
+            <li>Transport + Telecom</li>
+            <li>Power + Petroleum</li>
+            <li>Banking + Insurance</li>
+            <li>Bare minimum CPSEs in these; rest privatised/closed</li>
+          </ul>
+        </li>
+        <li><b>Trick — Disinvestment history</b>:
+          <ul>
+            <li>"1991 = शुरू"</li>
+            <li>"2000 = Modern Foods first strategic"</li>
+            <li>"2016 = DIPAM rename"</li>
+            <li>"2022 = Air India + LIC IPO"</li>
+          </ul>
+        </li>
+        <li><b>Maharatna list trick</b>: Oil & gas (ONGC, IOCL, BPCL, HPCL, GAIL) + Power (NTPC, PowerGrid) + Steel (SAIL, BHEL) + Coal (CIL) + Finance (REC, PFC) + ONGC Videsh = 13।</li>
+        <li><b>Story</b>: Nehru era में public sector ही growth engine था (Mahalanobis 2nd Plan)। 1991 के बाद धीरे-धीरे disinvestment शुरू — Vajpayee ने bold privatisation (BALCO, VSNL)। Modi era में Air India (2022) Tata को वापस मिला — historic। 2021 की policy ने सिर्फ़ 4 sectors में PSEs रखने का फ़ैसला किया। Long-term trend = "less govt, more governance"।</li>
       </ul>
     `,
     mcq: [
@@ -983,6 +1682,122 @@
         <li><b>Aspirational Blocks Programme</b> (2023).</li>
         <li><b>Vishwakarma Yojana</b> (2023) — traditional artisans.</li>
         <li><b>UDAY</b> (2015) — DISCOM revival.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>JAM Trinity — basis of all DBT</b>:
+          <ul>
+            <li><b>J</b>an Dhan (PMJDY 28 Aug 2014) — ~50 cr accounts</li>
+            <li><b>A</b>adhaar (UIDAI 2009)</li>
+            <li><b>M</b>obile</li>
+            <li>DBT (Direct Benefit Transfer 2013)</li>
+          </ul>
+        </li>
+        <li><b>Financial Inclusion Schemes</b>:
+          <ul>
+            <li><b>PMJDY 2014</b> — Jan Dhan; zero balance bank accounts</li>
+            <li><b>Mudra Yojana 2015 (PMMY)</b> — collateral-free loans up to ₹10L</li>
+            <li><b>Stand-Up India 2016</b> — SC/ST/women</li>
+            <li><b>Atal Pension Yojana (APY) 2015</b> — ₹1000-5000 pension @ 60</li>
+            <li><b>PM-SYM 2019</b> — Shram Yogi Maandhan; ₹3000/month pension</li>
+            <li><b>PMJJBY 2015</b> — ₹2 lakh life cover, ~₹436/yr</li>
+            <li><b>PMSBY 2015</b> — ₹2 lakh accident cover, ₹20/yr</li>
+          </ul>
+        </li>
+        <li><b>Housing & Sanitation</b>:
+          <ul>
+            <li><b>PMAY 2015</b> — Housing for All (Urban + Gramin)</li>
+            <li><b>Swachh Bharat 2 Oct 2014</b> — ODF; 10+ cr toilets</li>
+            <li><b>SBM 2.0 2021</b></li>
+            <li>AMRUT 2015 — 500 cities</li>
+            <li>Smart Cities 2015 — 100 cities</li>
+          </ul>
+        </li>
+        <li><b>Health</b>:
+          <ul>
+            <li><b>Ayushman Bharat — PM-JAY 23 Sep 2018</b> — <b>₹5 lakh</b>/family/year health cover; world's largest</li>
+            <li>HWCs (Health & Wellness Centres) 2018</li>
+            <li><b>POSHAN Abhiyaan 2018</b> — nutrition</li>
+            <li>Mission Indradhanush 2014 — universal immunisation</li>
+            <li>JSY 2005 — institutional delivery</li>
+            <li><b>Jal Jeevan Mission 2019</b> — Har Ghar Jal by 2024</li>
+          </ul>
+        </li>
+        <li><b>Education & Skill</b>:
+          <ul>
+            <li>SSA 2001 → <b>Samagra Shiksha 2018</b></li>
+            <li>RTE Act 2009</li>
+            <li>Mid-Day Meal 1995 → <b>PM POSHAN 2021</b></li>
+            <li><b>Beti Bachao Beti Padhao Jan 2015</b> (Panipat)</li>
+            <li>Sukanya Samriddhi 2015 — girl child savings</li>
+            <li>NEP 2020</li>
+            <li>Skill India + <b>PMKVY 2015</b></li>
+          </ul>
+        </li>
+        <li><b>Agriculture & Rural</b>:
+          <ul>
+            <li>MGNREGA 2005 — 100 days work</li>
+            <li>PMFBY 2016 — crop insurance</li>
+            <li>PMKSY 2015 — irrigation</li>
+            <li>e-NAM 2016</li>
+            <li><b>PM-KISAN 2019 — ₹6000/year</b></li>
+            <li>KCC 1998; Soil Health Card 2015</li>
+            <li>DAY-NRLM 2011 — Aajeevika; women SHGs</li>
+            <li><b>Saubhagya 2017</b> — household electrification</li>
+            <li><b>PMUY (Ujjwala) 2016</b> — free LPG to BPL women</li>
+          </ul>
+        </li>
+        <li><b>Industry</b>:
+          <ul>
+            <li>Make in India 2014</li>
+            <li>Atmanirbhar Bharat 2020</li>
+            <li>PLI Schemes 2020 — 14 sectors</li>
+          </ul>
+        </li>
+        <li><b>Digital / Governance</b>:
+          <ul>
+            <li>Digital India 2015</li>
+            <li>Aadhaar Act 2016</li>
+            <li>e-Shram 2021 — unorganised workers</li>
+            <li><b>ONDC 2022</b> — Open Network Digital Commerce</li>
+            <li>UPI 2016, BHIM 30 Dec 2016, DigiLocker 2015, UMANG 2017</li>
+          </ul>
+        </li>
+        <li><b>Other Important</b>:
+          <ul>
+            <li>One Nation One Ration Card 2019</li>
+            <li>PMGKAY 2020 — free foodgrains COVID; merged with NFSA Jan 2023</li>
+            <li><b>Aspirational Districts 2018</b> (NITI) — 112 districts</li>
+            <li><b>PM Vishwakarma Yojana 2023</b> — traditional artisans</li>
+            <li>UDAY 2015 — DISCOM revival</li>
+            <li>Vande Bharat trains 2019</li>
+            <li>NIPUN Bharat 2021 — foundational literacy</li>
+          </ul>
+        </li>
+        <li><b>Trick — Scheme amount cheat-sheet</b>:
+          <ul>
+            <li><b>PM-KISAN = ₹6000/year</b></li>
+            <li><b>APY = ₹1000-5000/month</b></li>
+            <li><b>Ayushman Bharat = ₹5 lakh cover</b></li>
+            <li><b>PMJJBY = ₹2 lakh life</b></li>
+            <li><b>PMSBY = ₹2 lakh accident</b></li>
+            <li><b>Mudra Tarun = ₹5L-10L</b></li>
+          </ul>
+        </li>
+        <li><b>Trick — Year-launch grouping</b>:
+          <ul>
+            <li><b>2014</b> — Swachh Bharat, Make in India, Jan Dhan, Mission Indradhanush</li>
+            <li><b>2015</b> — Skill India, PMKVY, Digital India, Mudra, PMJJBY, PMSBY, APY, Smart Cities, AMRUT, PMAY, PMKSY, Soil Health, Saubhagya later, Beti Bachao</li>
+            <li><b>2016</b> — UPI, BHIM, Start-up, Stand-up, Ujjwala, PMFBY, e-NAM</li>
+            <li><b>2018</b> — Ayushman Bharat, POSHAN, Aspirational Districts</li>
+            <li><b>2019</b> — PM-KISAN, PM-SYM, Jal Jeevan, ONORC</li>
+            <li><b>2020-21</b> — PMGKAY, Atmanirbhar, PLI, e-Shram</li>
+            <li><b>2022-23</b> — ONDC, Vishwakarma</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 2014 के बाद डिजिटल + DBT revolution। JAM Trinity ने leakage खत्म की। हर class के लिए scheme — किसान (PM-KISAN), poor women (Ujjwala), elderly (APY), kids (Beti Bachao), workers (e-Shram), hawkers (PM SVANidhi)। 50+ major schemes अब active। Result: poverty significantly fell।</li>
       </ul>
     `,
     mcq: [
@@ -1117,6 +1932,84 @@
         <li><b>Banking Codes & Standards Board of India</b>.</li>
         <li><b>BBB</b> (Banks Board Bureau, 2016) → <b>FSIB</b> (2022).</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Banking History — Dates</b>:
+          <ul>
+            <li><b>1770</b> — Bank of Hindustan (first)</li>
+            <li><b>1806</b> — Bank of Bengal; Bombay 1840, Madras 1843</li>
+            <li><b>1921</b> — Imperial Bank (merger of 3 Presidency Banks)</li>
+            <li><b>1 April 1935</b> — <b>RBI</b> established</li>
+            <li><b>1 January 1949</b> — RBI nationalised</li>
+            <li><b>1955</b> — Imperial Bank → <b>SBI</b></li>
+            <li><b>19 July 1969</b> — <b>14 banks nationalised</b> (Indira Gandhi)</li>
+            <li><b>1980</b> — 6 more nationalised (total 20)</li>
+            <li><b>2017</b> — SBI merged 5 associates + Bharatiya Mahila Bank</li>
+            <li><b>2019-20</b> — 10 PSBs merged into 4; total <b>12 PSBs</b></li>
+          </ul>
+        </li>
+        <li><b>12 PSBs (after 2020 mergers)</b>:
+          <ol>
+            <li>SBI</li>
+            <li><b>PNB</b> (merged Oriental BoC + United)</li>
+            <li><b>BoB</b> (merged Vijaya + Dena)</li>
+            <li><b>Canara</b> (merged Syndicate)</li>
+            <li><b>Union Bank</b> (merged Andhra + Corporation)</li>
+            <li><b>Indian Bank</b> (merged Allahabad)</li>
+            <li>BoI, BoM, Central Bank, IOB, Punjab & Sind, UCO</li>
+          </ol>
+        </li>
+        <li><b>Differentiated Banks</b>:
+          <ul>
+            <li><b>RRBs (1975, Narasimham Committee)</b> — Centre 50% + Sponsor bank 35% + State 15%</li>
+            <li><b>NABARD 1982</b> — apex for rural credit</li>
+            <li><b>SFBs (Small Finance Banks 2015)</b> — must lend 75% to PSL; max ₹25L loan</li>
+            <li><b>Payments Banks (2014, Nachiket Mor)</b> — accept deposits up to ₹2 lakh; cannot lend; cannot issue credit cards</li>
+          </ul>
+        </li>
+        <li><b>Trick — Nationalisation</b>: "<b>19 July 1969 = 14 banks</b>"। Indira ने एक झटके में किया।</li>
+        <li><b>NPA (Non-Performing Asset)</b>:
+          <ul>
+            <li>Loan overdue &gt; 90 days</li>
+            <li>3 categories: Sub-standard (≤12 m), Doubtful, Loss</li>
+            <li><b>SARFAESI Act 2002</b> — banks recover NPAs without court</li>
+            <li><b>IBC 2016</b> — Insolvency & Bankruptcy Code; 270-day resolution</li>
+            <li><b>NCLT</b> — adjudicates IBC cases</li>
+            <li>4R Strategy 2015 — Recognition, Resolution, Recapitalisation, Reform</li>
+            <li><b>NARCL 2021</b> — "Bad Bank"</li>
+          </ul>
+        </li>
+        <li><b>Priority Sector Lending (PSL)</b>:
+          <ul>
+            <li><b>40% of ANBC</b> for priority sector</li>
+            <li>Agriculture 18% (within PSL)</li>
+            <li>Sub-targets: small farmers 10%, weaker sections 10%</li>
+          </ul>
+        </li>
+        <li><b>Payment Systems — "NEFT-RTGS-IMPS-UPI"</b>:
+          <ul>
+            <li><b>NEFT</b> — National Electronic Funds Transfer; 24×7 since 2019</li>
+            <li><b>RTGS</b> — Real Time Gross Settlement; high-value (≥₹2 lakh); 24×7 since 2020</li>
+            <li><b>IMPS</b> — Immediate Payment Service (NPCI 2010)</li>
+            <li><b>UPI</b> — Unified Payments Interface (NPCI 2016)</li>
+            <li><b>CASA</b> — Current Account + Savings Account (low-cost deposits)</li>
+          </ul>
+        </li>
+        <li><b>Deposit Insurance</b>: <b>DICGC 1978</b>; <b>₹5 lakh</b> per depositor per bank (raised from ₹1L in 2020)।</li>
+        <li><b>Financial Inclusion Tools</b>:
+          <ul>
+            <li><b>PMJDY 2014</b></li>
+            <li>Business Correspondent (BC) model</li>
+            <li>India Post Payments Bank (IPPB 2018)</li>
+            <li>Financial Inclusion Index (RBI 2021)</li>
+          </ul>
+        </li>
+        <li><b>"Bad Bank" trick</b>: <b>NARCL 2021</b> — collects bad loans from PSBs; helps balance sheet cleanup।</li>
+        <li><b>Trick — RTGS vs NEFT</b>: "RTGS = Real Time, high value ≥₹2L"; "NEFT = Batch, any amount, faster now too"।</li>
+        <li><b>Story</b>: India में banking 1770 (Bank of Hindustan) से शुरू। 1935 में RBI, 1955 में SBI। 1969 की nationalisation ने rural reach बढ़ाई। 1991 के बाद private banks आए (HDFC, ICICI, Axis)। 2014 के Jan Dhan ने 50 cr accounts खोले। NPA problem 2010s में बड़ी हुई — SARFAESI + IBC + NARCL से tackle। UPI ने digital payments को मोबाइल-first बना दिया।</li>
+      </ul>
     `,
     mcq: [
       { q: "First bank in India?", opts: ["Bank of Bengal", "Bank of Hindustan (1770)", "SBI", "RBI"], a: 1, ex: "Bank of Hindustan, Calcutta — 1770." },
@@ -1231,6 +2124,98 @@
       <ul>
         <li>Coins minted at: Mumbai, Kolkata, Hyderabad, Noida.</li>
         <li>Notes printed at: Nashik (Maharashtra), Dewas (MP) — SPMCIL; Mysore (Karnataka), Salboni (WB) — BRBNMPL (RBI subsidiary).</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>RBI Key Facts</b>:
+          <ul>
+            <li>Established <b>1 April 1935</b> on <b>Hilton Young Commission (1926)</b> recommendation</li>
+            <li><b>Nationalised 1 January 1949</b></li>
+            <li>HQ: <b>Mumbai</b> (originally Calcutta)</li>
+            <li><b>First Governor: Osborne Smith</b> (British)</li>
+            <li><b>First Indian Governor: C.D. Deshmukh</b></li>
+            <li>Currency issue: <b>Minimum Reserve System (1957)</b> — ₹200 cr (₹115 cr gold + foreign securities)</li>
+          </ul>
+        </li>
+        <li><b>RBI Functions — "MICBDR"</b>:
+          <ul>
+            <li><b>M</b>onetary Authority (formulates policy)</li>
+            <li><b>I</b>ssuer of Currency (except ₹1 note + coins by GoI)</li>
+            <li><b>C</b>ontroller of Credit</li>
+            <li><b>B</b>anker to Government + Banker's Bank + Lender of Last Resort</li>
+            <li><b>D</b>eveloper / Financial Inclusion</li>
+            <li><b>R</b>egulator of Banks (Banking Reg Act 1949)</li>
+            <li>Custodian of Forex Reserves</li>
+          </ul>
+        </li>
+        <li><b>MPC (Monetary Policy Committee)</b>:
+          <ul>
+            <li>Constituted under amended RBI Act <b>2016</b></li>
+            <li><b>6 members</b>: 3 RBI (Governor as Chair + Dy Governor + 1 Officer) + 3 external (4 yr term)</li>
+            <li>Meets ≥ 4 times/year</li>
+            <li>Governor has <b>casting vote</b></li>
+            <li><b>Inflation target: 4% ± 2% (i.e., 2-6%)</b> on CPI</li>
+            <li>Framework based on <b>Urjit Patel Committee 2014</b></li>
+          </ul>
+        </li>
+        <li><b>Quantitative Tools — "Repo-Reverse-MSF-Bank-CRR-SLR-OMO-LAF"</b>:
+          <ul>
+            <li><b>Repo Rate</b> — RBI lends to banks (short-term, against G-sec)</li>
+            <li><b>Reverse Repo</b> — RBI absorbs liquidity (now mostly replaced by SDF)</li>
+            <li><b>SDF (2022)</b> — Standing Deposit Facility; absorbs liquidity without collateral</li>
+            <li><b>MSF</b> — Marginal Standing Facility; banks borrow against SLR (overnight)</li>
+            <li><b>Bank Rate</b> — long-term rate; aligned with MSF</li>
+            <li><b>CRR</b> — Cash Reserve Ratio (cash with RBI as % of NDTL)</li>
+            <li><b>SLR</b> — Statutory Liquidity Ratio (liquid assets — cash/gold/G-sec)</li>
+            <li><b>OMO</b> — Open Market Operations (buy/sell G-sec)</li>
+            <li><b>LAF</b> — Liquidity Adjustment Facility (Repo + Reverse Repo together)</li>
+          </ul>
+        </li>
+        <li><b>LAF Corridor</b>: SDF (floor) → Repo (centre) → MSF (ceiling)। Width 50 bps।</li>
+        <li><b>Qualitative Tools</b>:
+          <ul>
+            <li>Margin requirements</li>
+            <li>Credit rationing</li>
+            <li>Moral suasion</li>
+            <li>Direct action</li>
+            <li>Selective credit control</li>
+          </ul>
+        </li>
+        <li><b>Money Supply — "M0-M1-M2-M3-M4"</b>:
+          <ul>
+            <li><b>M0 (Reserve Money)</b> — currency + bankers' deposits with RBI</li>
+            <li><b>M1 (Narrow Money)</b> — M0 with public + demand deposits</li>
+            <li><b>M2</b> — M1 + Post Office savings</li>
+            <li><b>M3 (Broad Money)</b> — M1 + time deposits with banks (most quoted)</li>
+            <li><b>M4</b> — M3 + total Post Office deposits</li>
+          </ul>
+        </li>
+        <li><b>Inflation Control Logic</b>:
+          <ul>
+            <li>To <b>fight inflation</b>: ↑ Repo, ↑ CRR, OMO sell (absorb money)</li>
+            <li>To <b>boost growth</b>: ↓ Repo, ↓ CRR, OMO buy (inject money)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Repo up = control inflation; Repo down = boost growth"</b>।</li>
+        <li><b>Currency Notes</b>:
+          <ul>
+            <li>₹1 note + coins by <b>GoI</b> (signed by Finance Secretary)</li>
+            <li>Other notes by RBI (signed by Governor)</li>
+            <li><b>Demonetisation: 1946, 1978, 8 November 2016</b> (₹500, ₹1000 banned; new ₹500, ₹2000 introduced)</li>
+            <li><b>₹2000 withdrawn 19 May 2023</b></li>
+            <li>Mahatma Gandhi (New) Series since 2016</li>
+          </ul>
+        </li>
+        <li><b>Mints + Note Presses</b>:
+          <ul>
+            <li>Coins minted at: <b>Mumbai, Kolkata, Hyderabad, Noida</b></li>
+            <li>Notes printed at: <b>Nashik + Dewas (SPMCIL)</b>; <b>Mysore + Salboni (BRBNMPL)</b></li>
+          </ul>
+        </li>
+        <li><b>Trick — RBI history dates</b>: "<b>26-35-49</b>" = Hilton Young 1926, RBI 1935, Nationalised 1949।</li>
+        <li><b>Story</b>: RBI India's central bank — currency + monetary policy + bank regulation। 1935 में founded, 1949 में nationalise। 2016 में MPC structure आया — Governor + 3 external members। 4% inflation target। Repo rate hike से inflation control, cut से growth boost। 2022 में SDF replace किया Reverse Repo को।</li>
       </ul>
     `,
     mcq: [
@@ -1360,6 +2345,117 @@
         <li>India's first International Financial Services Centre — Gandhinagar, Gujarat.</li>
         <li>Regulator: <b>IFSCA</b> (2020) — single unified regulator (banking, insurance, securities, MFs in IFSC).</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Money Market vs Capital Market</b>:
+          <ul>
+            <li><b>Money Market</b>: short-term (≤1 yr); regulated by <b>RBI</b>; instruments — T-bills, CP, CD, Call money</li>
+            <li><b>Capital Market</b>: long-term (&gt;1 yr); regulated by <b>SEBI</b>; instruments — Shares, debentures, bonds</li>
+          </ul>
+        </li>
+        <li><b>Money Market Instruments — "TCC-CP-CD-CMB"</b>:
+          <ul>
+            <li><b>Call Money</b> — 1 day, between banks</li>
+            <li><b>Notice Money</b> — 2-14 days</li>
+            <li><b>Term Money</b> — 15 days to 1 year</li>
+            <li><b>T-Bills</b>: 91, 182, 364 days; discount instruments</li>
+            <li><b>CMB</b> (Cash Management Bills) — &lt;91 days (since 2010)</li>
+            <li><b>CP (Commercial Paper)</b> — unsecured corporate; min ₹5 lakh; 7-365 days</li>
+            <li><b>CD (Certificate of Deposit)</b> — by banks/FIs; min ₹1 lakh; 7 days-1 yr</li>
+          </ul>
+        </li>
+        <li><b>Capital Market Structure</b>:
+          <ul>
+            <li><b>Primary Market</b> — new issues (IPO, FPO, Rights, QIP)</li>
+            <li><b>Secondary Market</b> — existing securities traded (stock exchanges)</li>
+          </ul>
+        </li>
+        <li><b>Stock Exchanges</b>:
+          <ul>
+            <li><b>BSE (1875)</b> — Oldest in Asia</li>
+            <li><b>NSE (1992)</b> — Founded based on <b>Pherwani Committee</b></li>
+            <li>MCX (commodities), NCDEX, MSEI</li>
+          </ul>
+        </li>
+        <li><b>Indices</b>:
+          <ul>
+            <li><b>Sensex</b> — BSE, 30 stocks, base <b>1978-79 = 100</b></li>
+            <li><b>Nifty 50</b> — NSE, base <b>1995 = 1000</b></li>
+          </ul>
+        </li>
+        <li><b>SEBI</b>:
+          <ul>
+            <li>Established 1988; <b>statutory body 1992 (SEBI Act 1992)</b></li>
+            <li>HQ: <b>Mumbai</b></li>
+            <li>Regulates capital markets, mutual funds, brokers, depositories</li>
+            <li>Current Chair: <b>Madhabi Puri Buch</b> (first woman, 2022-)</li>
+          </ul>
+        </li>
+        <li><b>Regulators Cheat-sheet — "RSIPNSE"</b>:
+          <ul>
+            <li><b>RBI 1935</b> — Banks, money market</li>
+            <li><b>SEBI 1992</b> — Securities (Mumbai)</li>
+            <li><b>IRDAI 1999</b> — Insurance (<b>Hyderabad</b>)</li>
+            <li><b>PFRDA 2003/2013</b> — Pensions</li>
+            <li><b>NABARD 1982</b> — Agriculture/rural finance</li>
+            <li><b>SIDBI 1990</b> — MSME finance</li>
+            <li><b>FSDC 2010</b> — Apex coordination (FM chairs)</li>
+            <li><b>IFSCA 2020</b> — GIFT City IFSC</li>
+          </ul>
+        </li>
+        <li><b>Depositories</b>:
+          <ul>
+            <li><b>NSDL 1996</b> — first; by IDBI + NSE + UTI</li>
+            <li><b>CDSL 1999</b> — by BSE</li>
+            <li>Hold securities in dematerialised (electronic) form</li>
+          </ul>
+        </li>
+        <li><b>NBFCs (Non-Banking Financial Companies)</b>:
+          <ul>
+            <li>Registered under Companies Act, regulated by RBI</li>
+            <li>Cannot accept demand deposits</li>
+            <li>Cannot issue cheques</li>
+            <li>No deposit insurance</li>
+            <li>Types: Asset Finance, Loan, Investment, Infrastructure, Microfinance</li>
+          </ul>
+        </li>
+        <li><b>Mutual Funds</b>:
+          <ul>
+            <li>First MF: <b>UTI 1963</b></li>
+            <li>SEBI MF Regulations 1996</li>
+            <li><b>AMFI 1995</b> — Association of Mutual Funds</li>
+            <li>Types: Equity, Debt, Hybrid, ELSS (tax-saving)</li>
+          </ul>
+        </li>
+        <li><b>FDI vs FPI</b>:
+          <ul>
+            <li><b>FDI</b> — long-term; ≥10% equity in company; control intent</li>
+            <li><b>FPI</b> — short-term; &lt;10% equity; stocks/bonds</li>
+            <li><b>P-Notes (Participatory Notes)</b> — by FIIs to foreign investors not registered with SEBI</li>
+            <li>ADR (USA) / GDR (Global) — foreign listings</li>
+          </ul>
+        </li>
+        <li><b>GIFT City</b>:
+          <ul>
+            <li>India's first IFSC — Gandhinagar, Gujarat</li>
+            <li><b>IFSCA 2020</b> — single unified regulator for IFSC</li>
+          </ul>
+        </li>
+        <li><b>Trick — Quick Q&A</b>:
+          <ul>
+            <li>Capital market regulator? <b>SEBI</b></li>
+            <li>Money market regulator? <b>RBI</b></li>
+            <li>Insurance regulator HQ? <b>Hyderabad</b></li>
+            <li>Pension regulator? <b>PFRDA</b></li>
+            <li>Oldest stock exchange? <b>BSE 1875</b></li>
+            <li>First depository? <b>NSDL 1996</b></li>
+            <li>First MF in India? <b>UTI 1963</b></li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India का financial system 3 main parts — Money market (short-term, RBI), Capital market (long-term, SEBI), Banking (RBI)। हर sector का अपना regulator है। 1991 के बाद reforms ने markets को modernize किया (NSE 1992, demat 1996, online trading 2000)। आज UPI से लेकर equity tax तक — सब digital।</li>
+      </ul>
     `,
     mcq: [
       { q: "Money market is regulated by?", opts: ["SEBI", "RBI", "IRDAI", "PFRDA"], a: 1, ex: "RBI regulates money market." },
@@ -1460,6 +2556,88 @@
         <li><b>Monetary measures</b> (RBI): raise repo, raise CRR/SLR, OMO sale.</li>
         <li><b>Fiscal measures</b> (Govt): reduce spending, raise taxes, cut subsidies.</li>
         <li><b>Supply-side</b>: imports, releasing buffer stock, reduce import duty, MSP changes.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Inflation Types — "DC-WS"</b>:
+          <ul>
+            <li><b>Demand-pull</b> — too much money chasing few goods (Keynes)</li>
+            <li><b>Cost-push</b> — rising input costs (oil, wages)</li>
+            <li><b>Built-in / Wage-price spiral</b></li>
+            <li><b>Stagflation</b> — inflation + stagnation</li>
+            <li><b>Disinflation</b> — slowing inflation (still positive)</li>
+            <li><b>Deflation</b> — falling prices</li>
+            <li><b>Reflation</b> — deliberate inflation to recover from deflation</li>
+            <li><b>Skewflation</b> — selective inflation (e.g., onion only)</li>
+          </ul>
+        </li>
+        <li><b>Inflation Severity Levels</b>:
+          <ul>
+            <li>Creeping (&lt;3%) — mild, normal</li>
+            <li>Walking (3-7%) — moderate</li>
+            <li>Running (10-20%) — concern</li>
+            <li>Galloping (20-1000%) — crisis</li>
+            <li>Hyperinflation (&gt;1000%) — collapse (Zimbabwe, Venezuela)</li>
+          </ul>
+        </li>
+        <li><b>Headline vs Core Inflation</b>:
+          <ul>
+            <li><b>Headline</b> — overall CPI (all items)</li>
+            <li><b>Core</b> — excludes food + fuel (volatile)</li>
+          </ul>
+        </li>
+        <li><b>Inflation Indices in India</b>:
+          <ul>
+            <li><b>WPI (Wholesale Price Index)</b> — Office of Economic Adviser, DPIIT; base <b>2011-12</b>; 697 items in 3 groups (Primary 22.6%, Fuel 13.2%, Manufactured 64.2%); <b>only goods, no services</b></li>
+            <li><b>CPI (Combined)</b> — NSO under MoSPI; base <b>2012</b>; 299 items; food 46% weight</li>
+            <li><b>CPI-IW (Industrial Workers)</b> — Labour Bureau; base 2016</li>
+            <li><b>CPI-AL/RL (Agri/Rural Labour)</b> — Labour Bureau</li>
+            <li><b>GDP Deflator</b> — most comprehensive (covers all goods + services)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "WPI = goods only DPIIT, CPI = goods + services NSO"</b>।</li>
+        <li><b>Inflation Targeting in India</b>:
+          <ul>
+            <li>Adopted on <b>Urjit Patel Committee 2014</b> recommendation</li>
+            <li>RBI Act amended 2016; MPC formed</li>
+            <li><b>Target: 4% CPI ± 2% (i.e., 2-6%)</b></li>
+            <li>If RBI misses for 3 consecutive quarters → must explain to govt</li>
+          </ul>
+        </li>
+        <li><b>Effects of Inflation</b>:
+          <ul>
+            <li><b>Hurts</b>: fixed-income earners, pensioners, lenders, savers</li>
+            <li><b>Benefits</b>: debtors (real value of debt falls), real-asset holders</li>
+            <li>Reduces purchasing power, real wages</li>
+            <li>Currency depreciation; BoP impact</li>
+          </ul>
+        </li>
+        <li><b>Phillips Curve</b>: Inverse relation between inflation & unemployment (short-run)। Long-run vertical (no trade-off)।</li>
+        <li><b>Misc Concepts</b>:
+          <ul>
+            <li><b>Imported inflation</b> — due to imported input cost rise (oil)</li>
+            <li><b>Fiscal drag</b> — inflation pushes incomes into higher tax brackets</li>
+            <li><b>Money illusion</b> — people see nominal, not real income</li>
+            <li><b>Lipstick Effect</b> — small luxury sales rise during recession</li>
+          </ul>
+        </li>
+        <li><b>How to Control Inflation</b>:
+          <ul>
+            <li><b>Monetary</b> (RBI): ↑ Repo, ↑ CRR, OMO sell</li>
+            <li><b>Fiscal</b> (Govt): ↓ spending, ↑ taxes, ↓ subsidies</li>
+            <li><b>Supply-side</b>: increase imports, release buffer stock, reduce import duties</li>
+          </ul>
+        </li>
+        <li><b>Trick — Index summary</b>:
+          <ul>
+            <li>"WPI base 2011-12; CPI base 2012; both DPIIT/NSO"</li>
+            <li>"RBI tracks CPI Combined since April 2014"</li>
+            <li>"Inflation target 4% ±2%"</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: हर साल चीज़ें महंगी क्यों होती हैं? Inflation। Demand-pull (Keynes) — पैसा ज़्यादा। Cost-push — input cost बढ़ा। India में RBI 4% target रखती है। 2022-23 में oil + food से 7%+ inflation गया। RBI ने repo rate 4%→6.5% बढ़ाया। 2024 में control में आया।</li>
       </ul>
     `,
     mcq: [
@@ -1580,6 +2758,96 @@
         <li>Most budgets presented: <b>Morarji Desai</b> (10).</li>
         <li>Longest speech: Nirmala Sitharaman (2 hr 42 min, 2020).</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Constitutional Provisions — Articles</b>:
+          <ul>
+            <li><b>Art 112</b> — Annual Financial Statement (Budget)</li>
+            <li><b>Art 110</b> — Money Bill</li>
+            <li><b>Art 114</b> — Appropriation Bill</li>
+            <li><b>Art 266</b> — Consolidated Fund + Public Account</li>
+            <li><b>Art 267</b> — Contingency Fund</li>
+            <li><b>Art 280</b> — Finance Commission</li>
+          </ul>
+        </li>
+        <li><b>3 Funds</b>:
+          <ul>
+            <li><b>Consolidated Fund of India (Art 266)</b> — all revenues + loans; withdrawal needs Parliament approval</li>
+            <li><b>Public Account (Art 266(2))</b> — PF, small savings, deposits; no Parliament approval</li>
+            <li><b>Contingency Fund (Art 267)</b> — ₹30,000 crore; at President's disposal</li>
+          </ul>
+        </li>
+        <li><b>Budget Structure</b>:
+          <ul>
+            <li><b>Revenue Budget</b> = Revenue Receipts + Revenue Expenditure
+              <ul>
+                <li>Revenue Receipts: tax + non-tax (no repayment)</li>
+                <li>Revenue Expenditure: salaries, subsidies, interest (no asset)</li>
+              </ul>
+            </li>
+            <li><b>Capital Budget</b> = Capital Receipts + Capital Expenditure
+              <ul>
+                <li>Capital Receipts: borrowings, disinvestment, recoveries</li>
+                <li>Capital Expenditure: roads, buildings (assets)</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><b>Types of Deficits — "RBP-FP-M"</b>:
+          <ul>
+            <li><b>Revenue Deficit</b> = Revenue Exp − Revenue Receipts</li>
+            <li><b>Effective Revenue Deficit</b> = RD − Grants for capital creation (since 2011)</li>
+            <li><b>Budget Deficit</b> = Total Exp − Total Receipts (obsolete)</li>
+            <li><b>Fiscal Deficit</b> = Total Exp − Total Receipts (excl. borrowings) ≈ borrowings needed</li>
+            <li><b>Primary Deficit</b> = Fiscal Deficit − Interest payments</li>
+            <li><b>Monetised Deficit</b> = Net RBI credit to govt (abolished post-1997 with FRBM)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Fiscal Deficit = What Govt Borrows"</b>। "Primary Deficit = FD − Interest"।</li>
+        <li><b>FRBM Act 2003</b>:
+          <ul>
+            <li>Fiscal Responsibility & Budget Management</li>
+            <li>Original target: <b>FD 3% of GDP; eliminate RD by 2008</b></li>
+            <li><b>N.K. Singh Committee 2017</b> — recommended new path</li>
+            <li>Current target: FD 4.5% of GDP by 2025-26 (post-COVID)</li>
+            <li>Debt-to-GDP target: 60% (Centre 40% + States 20%)</li>
+          </ul>
+        </li>
+        <li><b>Budget Process</b>:
+          <ul>
+            <li><b>Presented 1st February</b> (since 2017; earlier last day of Feb)</li>
+            <li><b>Railway Budget merged 2017</b></li>
+            <li><b>Plan/Non-plan distinction abolished 2017-18</b></li>
+            <li>Stages: Presentation → General discussion → Standing Committees → Voting → Appropriation Bill → Finance Bill</li>
+          </ul>
+        </li>
+        <li><b>Special Concepts</b>:
+          <ul>
+            <li><b>Vote on Account</b> — interim provision (~2 months) when budget delayed</li>
+            <li><b>Interim Budget</b> — full budget in election year by outgoing govt</li>
+            <li><b>Token Cut Motion</b> — ₹100 reduction (token protest)</li>
+            <li><b>Policy Cut Motion</b> — reduce demand to ₹1</li>
+            <li><b>Economy Cut</b> — specific reduction</li>
+            <li><b>Guillotine</b> — last day; all remaining demands voted en bloc without discussion</li>
+            <li><b>Zero-Based Budgeting</b> — Peter Phyrr</li>
+            <li><b>Gender Budgeting</b> — since 2005-06</li>
+            <li><b>Outcome Budget</b> — since 2005-06</li>
+          </ul>
+        </li>
+        <li><b>Budget History</b>:
+          <ul>
+            <li>First Indian Budget: <b>James Wilson, April 1860</b></li>
+            <li>First Indian-presented: <b>R.K. Shanmukham Chetty, 26 Nov 1947</b></li>
+            <li>First Republic Budget: John Mathai (1950)</li>
+            <li>Most budgets: <b>Morarji Desai (10)</b></li>
+            <li>Longest speech: Nirmala Sitharaman 2020 (2 hr 42 min)</li>
+          </ul>
+        </li>
+        <li><b>Trick — Constitutional Articles "112-110-114-266-267-280"</b>।</li>
+        <li><b>Story</b>: Budget = सरकार की वार्षिक financial planning। Revenue + Capital दो parts। Fiscal Deficit = borrowing needs। FRBM Act 2003 ने पहली बार discipline लाई। 2017 के बाद 1 Feb को present होता है। Railways merge हो गया। Plan/Non-Plan distinction खत्म। India ने 2025-26 तक FD 4.5% का target रखा है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Annual Financial Statement is in which Article?", opts: ["112", "110", "114", "280"], a: 0, ex: "Article 112 — Annual Financial Statement." },
@@ -1693,6 +2961,94 @@
         <li><b>Debt-to-GDP</b> — total govt debt / GDP.</li>
         <li><b>External Debt</b> — India's external debt ~$650 billion; sustainable level.</li>
         <li><b>Sovereign Rating</b> — Moody's, S&P, Fitch; India: BBB-/Baa3 (lowest investment grade).</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Subsidies — Major 3</b>:
+          <ul>
+            <li><b>Food</b> (PDS, NFSA)</li>
+            <li><b>Fertiliser</b> (urea)</li>
+            <li><b>Petroleum/LPG</b> (Ujjwala)</li>
+          </ul>
+          DBT (2013) reduces leakage।
+        </li>
+        <li><b>Public Debt</b>:
+          <ul>
+            <li><b>Internal</b> — G-sec, T-bills, NSC (within country)</li>
+            <li><b>External</b> — IMF, WB, bilateral (from abroad)</li>
+            <li><b>WMA (Ways and Means Advances)</b> — RBI's short-term loan to govt for cash mismatch</li>
+          </ul>
+        </li>
+        <li><b>Cesses & Surcharges</b>:
+          <ul>
+            <li>Cess = on specific tax for specific purpose (Health & Education Cess 4%)</li>
+            <li>Surcharge = on tax of high-income</li>
+            <li><b>Centre keeps 100% — not shared with states</b></li>
+            <li>This is a major Centre-State issue (states say their share has been eroded)</li>
+          </ul>
+        </li>
+        <li><b>Fiscal Federalism</b>:
+          <ul>
+            <li>Article 280 — Finance Commission every 5 yrs</li>
+            <li><b>15th FC: 41% to states</b></li>
+            <li>14th FC was 42%</li>
+            <li>16th FC: Arvind Panagariya, for 2026-31</li>
+          </ul>
+        </li>
+        <li><b>Important Concepts — "CCFLP TS"</b>:
+          <ul>
+            <li><b>Crowding Out</b> — Govt borrowing pushes up rates, reduces private investment</li>
+            <li><b>Crowding In</b> — Govt spending boosts private investment (capex)</li>
+            <li><b>Fiscal Drag</b> — Inflation pushes income into higher tax brackets</li>
+            <li><b>Laffer Curve (Arthur Laffer)</b> — too high tax rate reduces revenue</li>
+            <li><b>Pigovian Tax (Arthur Pigou)</b> — tax on negative externality (pollution)</li>
+            <li><b>Tobin Tax (James Tobin)</b> — tax on currency transactions</li>
+            <li><b>Sin Tax</b> — on harmful goods (alcohol, tobacco, junk food)</li>
+          </ul>
+        </li>
+        <li><b>Borrowing Modes</b>:
+          <ul>
+            <li><b>G-Secs</b> — Government Securities (bonds)</li>
+            <li><b>SDL</b> — State Development Loans</li>
+            <li><b>Sovereign Gold Bonds (SGBs)</b> — since 2015 (reduce gold imports)</li>
+            <li><b>Floating Rate Bonds, IIBs (Inflation-Indexed Bonds)</b></li>
+            <li><b>Masala Bonds</b> — rupee-denominated bonds issued abroad (HDFC first 2016)</li>
+          </ul>
+        </li>
+        <li><b>Banking Indicators (for revision)</b>:
+          <ul>
+            <li><b>NPA</b> — overdue &gt;90 days</li>
+            <li><b>CRAR / CAR</b> — Capital to Risk-weighted Assets Ratio (Basel III: 11.5% + buffer)</li>
+            <li><b>NIM</b> — Net Interest Margin</li>
+            <li><b>CASA</b> — Current Account + Savings Account (low-cost deposits)</li>
+            <li><b>RoA, RoE</b> — Return on Assets/Equity</li>
+          </ul>
+        </li>
+        <li><b>Bodies — Acronym cheat</b>:
+          <ul>
+            <li><b>NIPFP</b> — Nat'l Institute of Public Finance and Policy</li>
+            <li><b>FSDC</b> — Financial Stability and Development Council</li>
+            <li><b>FATF</b> — Financial Action Task Force (anti-money laundering, Paris)</li>
+            <li><b>DEA</b> — Department of Economic Affairs</li>
+            <li><b>CGA</b> — Controller General of Accounts</li>
+            <li><b>CAG</b> — Comptroller and Auditor General (Art 148)</li>
+            <li><b>CBDT</b> — Central Board of Direct Taxes</li>
+            <li><b>CBIC</b> — Central Board of Indirect Taxes & Customs</li>
+          </ul>
+        </li>
+        <li><b>Bond Yield vs Price</b>: <b>Inverse</b> relationship। Yield up → price down (and vice versa)।</li>
+        <li><b>Sovereign Credit Ratings</b>:
+          <ul>
+            <li>3 main agencies: Moody's, S&P, Fitch</li>
+            <li>India: <b>BBB-/Baa3</b> (lowest investment grade)</li>
+            <li>India aspires to get upgraded</li>
+          </ul>
+        </li>
+        <li><b>External Debt</b>: India's external debt ~$650 bn (FY24); sustainable level (under 25% of GDP)।</li>
+        <li><b>Trick — "Laffer-Pigou-Tobin-Sin = 4 named taxes"</b>।</li>
+        <li><b>Story</b>: Govt के पास multiple tools — borrow करना (debt), tax raise करना, या deficit financing। FRBM ने discipline लगाया। Cesses से Centre 100% रखती है — state-Centre tension। Sovereign rating BBB- = "barely investment grade" — upgrade करने का लगातार प्रयास।</li>
       </ul>
     `,
     mcq: [
@@ -1819,6 +3175,119 @@
         <li><b>Pillar 1 & 2</b> — OECD Global Minimum Corporate Tax (15%) — India agreed 2021.</li>
         <li><b>Equalisation Levy</b> (2016) — 6% on online ads to non-residents (Google tax); 2% on e-commerce non-residents (2020).</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Tax Classification — "DIPP"</b>:
+          <ul>
+            <li><b>D</b>irect — incidence + impact same person (Income Tax, Corporate Tax, Capital Gains)</li>
+            <li><b>I</b>ndirect — incidence + impact on different (GST, Customs, Excise)</li>
+            <li><b>P</b>rogressive — rate rises with income (IT) — reduces inequality</li>
+            <li><b>P</b>roportional — flat rate</li>
+            <li>Regressive — rate falls with income; hurts poor (GST somewhat)</li>
+          </ul>
+        </li>
+        <li><b>Direct Taxes (CBDT)</b>:
+          <ul>
+            <li><b>Income Tax</b> — Income Tax Act 1961</li>
+            <li><b>Corporate Tax</b> — 22% basic (since 2019); 15% for new manufacturing; <b>MAT 15%</b></li>
+            <li><b>STT</b> — Securities Transaction Tax (since 2004)</li>
+            <li><b>LTCG</b> — Long-Term Capital Gains 12.5% on equity above ₹1.25L (Budget 2024)</li>
+            <li><b>STCG</b> — Short-Term Capital Gains 20%</li>
+            <li><b>Wealth Tax</b> — abolished 2015</li>
+            <li><b>Gift Tax</b> — abolished 1998 (revived in some form)</li>
+            <li><b>Estate Duty</b> — abolished 1985</li>
+          </ul>
+        </li>
+        <li><b>New Tax Regime (FY 2025-26 default)</b>:
+          <ul>
+            <li>≤₹4L: 0%</li>
+            <li>₹4-8L: 5%</li>
+            <li>₹8-12L: 10%</li>
+            <li>₹12-16L: 15%</li>
+            <li>₹16-20L: 20%</li>
+            <li>₹20-24L: 25%</li>
+            <li>&gt;₹24L: 30%</li>
+            <li>Rebate u/s 87A: ≤₹12L = nil tax</li>
+            <li>Health & Education Cess: 4%</li>
+          </ul>
+        </li>
+        <li><b>GST — Goods and Services Tax</b>:
+          <ul>
+            <li><b>101st Constitutional Amendment 2016</b> (Article 246A)</li>
+            <li><b>Launched: 1 July 2017</b> (midnight Parliament session)</li>
+            <li>Subsumed 17 taxes + 13 cesses (Excise, Service Tax, VAT, Entry, Luxury, Entertainment etc.)</li>
+            <li><b>Excluded</b>: Petroleum products, Alcohol, Stamp duty, Electricity</li>
+            <li>Models studied: Brazil, Canada (dual GST adopted)</li>
+          </ul>
+        </li>
+        <li><b>GST Articles</b>:
+          <ul>
+            <li><b>246A</b> — concurrent power to tax</li>
+            <li><b>269A</b> — IGST</li>
+            <li><b>279A</b> — GST Council</li>
+          </ul>
+        </li>
+        <li><b>GST Structure — "CSI-G"</b>:
+          <ul>
+            <li><b>CGST</b> — Centre on intra-state</li>
+            <li><b>SGST</b> — State on intra-state</li>
+            <li><b>UTGST</b> — UT on intra-state</li>
+            <li><b>IGST</b> — Centre on inter-state (shared with destination state)</li>
+            <li><b>GST Compensation Cess</b> — luxury/sin goods; to compensate states</li>
+          </ul>
+        </li>
+        <li><b>GST Slabs (main 5)</b>:
+          <ul>
+            <li><b>0%</b> — milk, fresh veg, books, healthcare, education</li>
+            <li><b>5%</b> — sugar, tea, edible oil, drugs</li>
+            <li><b>12%</b> — processed food, computers</li>
+            <li><b>18%</b> — most goods/services (largest bucket)</li>
+            <li><b>28%</b> — luxury, sin goods (cars, ACs, tobacco)</li>
+            <li>Special: 0.25% (rough diamonds), 3% (gold)</li>
+          </ul>
+        </li>
+        <li><b>GST Council (Art 279A)</b>:
+          <ul>
+            <li>Constitutional body</li>
+            <li><b>Chair: Union Finance Minister</b></li>
+            <li>Members: Union MoS Finance + State FMs</li>
+            <li><b>3/4 majority</b> needed for decisions</li>
+            <li>Centre 1/3 weight, states 2/3 collectively</li>
+          </ul>
+        </li>
+        <li><b>GSTN (GST Network)</b>:
+          <ul>
+            <li>Non-profit Section 8 company</li>
+            <li>Now 100% govt-owned (Centre 50% + States 50%)</li>
+            <li>Provides IT backbone of GST</li>
+          </ul>
+        </li>
+        <li><b>Tax Committees</b>:
+          <ul>
+            <li>Wanchoo 1971 — direct tax reforms</li>
+            <li>Raja Chelliah 1991 — major tax reforms</li>
+            <li><b>Vijay Kelkar 2002</b> — DTC, GST recommendations</li>
+            <li>Asim Dasgupta — Empowered Committee designed GST</li>
+            <li>Parthasarathi Shome — GAAR</li>
+          </ul>
+        </li>
+        <li><b>Tax Concepts — "PTPGEB"</b>:
+          <ul>
+            <li><b>PAN</b> — Permanent Account Number (10 char)</li>
+            <li><b>TAN</b> — Tax Deduction Account</li>
+            <li><b>TDS</b> — Tax Deducted at Source</li>
+            <li><b>GAAR</b> — General Anti-Avoidance Rule (since 2017)</li>
+            <li><b>BEPS</b> — Base Erosion and Profit Shifting (OECD)</li>
+            <li><b>Equalisation Levy 2016</b> — 6% on online ads to non-residents (Google tax)</li>
+            <li><b>Pillar 2 OECD</b> — Global Minimum Corporate Tax 15%</li>
+          </ul>
+        </li>
+        <li><b>Trick — "GST 5 slabs + 2 special = 0-5-12-18-28-0.25-3"</b>।</li>
+        <li><b>Trick — "GST Day 1 July 2017"</b>। 101st Constitutional Amendment 2016।</li>
+        <li><b>Story</b>: 17 different taxes थे — हर state-Centre अलग। 2017 में GST ने "One Nation, One Tax" लाया। 5 main slabs। Petroleum, alcohol अभी बाहर। GST Council में 33 members (1 Union FM + 31 state FMs + 1 UT)। 3/4 majority needed। Compliance increased significantly।</li>
+      </ul>
     `,
     mcq: [
       { q: "Direct tax example?", opts: ["GST", "Customs", "Income Tax", "Excise"], a: 2, ex: "Income tax — direct; incidence & impact same person." },
@@ -1924,6 +3393,81 @@
         <li><b>Bonus</b> — share of profits given to policyholders (with-profit).</li>
         <li><b>Underwriting</b> — risk assessment.</li>
         <li><b>Claim Settlement Ratio</b> — claims paid / claims received.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Insurance History</b>:
+          <ul>
+            <li><b>1818</b> — Oriental Life Insurance, Calcutta (first in India)</li>
+            <li><b>1956</b> — <b>LIC formed</b> (Life Insurance Corporation Act 1 Sep 1956); nationalised 245 private insurers</li>
+            <li><b>1972</b> — GIC (General Insurance Corp); 4 subsidiaries: <b>New India Assurance, Oriental, National, United India</b></li>
+            <li>1993 Malhotra Committee → privatisation</li>
+            <li><b>1999</b> — IRDAI Act</li>
+            <li><b>2000</b> — IRDAI operational; HQ Hyderabad</li>
+            <li><b>May 2022</b> — LIC IPO (10% sold; biggest Indian IPO)</li>
+          </ul>
+        </li>
+        <li><b>FDI in Insurance</b>:
+          <ul>
+            <li>2000: 26%</li>
+            <li>2015: 49%</li>
+            <li><b>2021: 74%</b></li>
+            <li><b>2024 Budget proposal: 100%</b></li>
+          </ul>
+        </li>
+        <li><b>IRDAI</b>:
+          <ul>
+            <li>Insurance Regulatory and Development Authority of India</li>
+            <li>HQ: <b>Hyderabad</b></li>
+            <li>Regulates life, general, health, reinsurance</li>
+          </ul>
+        </li>
+        <li><b>Insurance Schemes — "JS-AP-PJ"</b>:
+          <ul>
+            <li><b>PMJJBY 2015</b> — Life cover ₹2 lakh; premium ~₹436/yr; age 18-50</li>
+            <li><b>PMSBY 2015</b> — Accident cover ₹2 lakh; premium ₹20/yr; age 18-70</li>
+            <li><b>APY 2015 (Atal Pension Yojana)</b> — ₹1000-5000/month at 60; under PFRDA</li>
+            <li><b>PM-SYM 2019</b> — Unorganised workers (income ≤₹15k); ₹3000/month after 60</li>
+            <li><b>PM Kisan Maandhan</b> — small/marginal farmers</li>
+            <li><b>PMFBY 2016</b> — crop insurance</li>
+            <li><b>Ayushman Bharat — PM-JAY 2018</b> — <b>₹5 lakh</b> health for 50 cr poor</li>
+            <li>RSBY 2008 → subsumed in PM-JAY</li>
+            <li><b>ESIC 1948</b> — for organised workers earning &lt;₹21,000/month</li>
+          </ul>
+        </li>
+        <li><b>Trick — "JJBY-SBY-APY same year 2015"</b>। "JJBY = ₹2L life, SBY = ₹2L accident"।</li>
+        <li><b>Pension System</b>:
+          <ul>
+            <li><b>EPFO 1952</b> — Employees' Provident Fund Org; under Labour Ministry; mandatory for orgs &gt;20 employees</li>
+            <li><b>EPS 1995</b> — Employees' Pension Scheme</li>
+            <li><b>NPS 2004</b> — National Pension System; for govt; 2009 to all; defined contribution</li>
+            <li><b>OPS</b> — Old Pension Scheme (defined benefit); phased out for govt after 2004</li>
+            <li><b>UPS 2024</b> — Unified Pension Scheme; hybrid; assured 50% of last 12-month pay; from 1 April 2025</li>
+            <li><b>PFRDA</b> — regulator (statutory 2013)</li>
+          </ul>
+        </li>
+        <li><b>4 Labour Codes 2019-20 (consolidating 29 laws)</b>:
+          <ul>
+            <li>Code on Wages 2019</li>
+            <li>Industrial Relations Code 2020</li>
+            <li>Code on Social Security 2020</li>
+            <li>OSH Code 2020 (Occupational Safety, Health)</li>
+            <li>Trick: "<b>W-IR-SS-OSH</b>"</li>
+          </ul>
+        </li>
+        <li><b>e-Shram Portal 2021</b> — unorganised workers' database; Ministry of Labour।</li>
+        <li><b>Trick — "LIC=1956, GIC=1972, IRDAI=2000, LIC IPO=2022"</b>।</li>
+        <li><b>Types of Insurance</b>:
+          <ul>
+            <li><b>Life</b> — term, endowment, ULIP, whole-life</li>
+            <li><b>General/Non-Life</b> — health, motor, fire, marine, property, travel</li>
+            <li><b>Health</b> — hospitalisation cover</li>
+            <li><b>Reinsurance</b> — insurance for insurance cos (GIC Re)</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India में insurance Calcutta में 1818 से शुरू, पर 1956 में LIC ने हर private insurer को nationalise कर लिया। 1999 में फिर open किया — private players आए (ICICI Pru, HDFC Life, SBI Life)। 2022 में LIC public हुई। आज 74% FDI allowed, 100% proposed। Ayushman Bharat दुनिया का सबसे बड़ा health scheme।</li>
       </ul>
     `,
     mcq: [
@@ -2064,6 +3608,133 @@
         <li>8 members: India, Pak, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, Afghanistan.</li>
         <li><b>SAFTA</b> (2006) — South Asian Free Trade Area.</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Bretton Woods Twins 1944</b> — IMF + IBRD (World Bank); India founding member।</li>
+        <li><b>IMF (International Monetary Fund)</b>:
+          <ul>
+            <li>Established 27 Dec 1945; operations from 1947</li>
+            <li>HQ: <b>Washington DC</b></li>
+            <li>190 members</li>
+            <li>Currency unit: <b>SDR</b> (since 1969); basket = USD + EUR + CNY + JPY + GBP</li>
+            <li>Yuan added 2016</li>
+            <li>Publications: <b>World Economic Outlook (WEO)</b>, GFSR, Fiscal Monitor</li>
+            <li>Current MD: <b>Kristalina Georgieva</b> (Bulgaria, 2019-)</li>
+          </ul>
+        </li>
+        <li><b>World Bank Group — 5 Institutions</b>:
+          <ul>
+            <li><b>IBRD 1944</b> — middle-income; market loans</li>
+            <li><b>IDA 1960</b> — soft loans to poor</li>
+            <li><b>IFC 1956</b> — private sector</li>
+            <li><b>MIGA 1988</b> — political risk insurance</li>
+            <li><b>ICSID 1966</b> — investment disputes (India NOT a member)</li>
+          </ul>
+        </li>
+        <li><b>WB</b>: HQ Washington DC; 189 members। Current President: <b>Ajay Banga</b> (Indian-American, 2023-)। Publications: World Development Report, Global Economic Prospects, Doing Business (now <b>B-READY</b>)।</li>
+        <li><b>WTO (World Trade Organization)</b>:
+          <ul>
+            <li>Established <b>1 January 1995</b> (replaced GATT 1947)</li>
+            <li>HQ: <b>Geneva, Switzerland</b></li>
+            <li>164 members</li>
+            <li>India = founding member</li>
+            <li>DG: <b>Ngozi Okonjo-Iweala</b> (Nigeria, first woman, first African, 2021-)</li>
+            <li>MCs (Ministerial Conferences) every 2 years; <b>MC13 Abu Dhabi Feb 2024</b></li>
+            <li>Doha Round 2001 — development round</li>
+          </ul>
+        </li>
+        <li><b>WTO Agreements — "GATT-GATS-TRIPS-TRIMS-SPS-TBT-AoA"</b>:
+          <ul>
+            <li><b>GATT</b> — Goods (tariffs, quotas)</li>
+            <li><b>GATS</b> — Services</li>
+            <li><b>TRIPS</b> — Intellectual Property</li>
+            <li><b>TRIMS</b> — Investment Measures</li>
+            <li><b>SPS</b> — Sanitary & Phytosanitary</li>
+            <li><b>TBT</b> — Technical Barriers</li>
+            <li><b>AoA</b> — Agreement on Agriculture (Amber/Blue/Green Box subsidies)</li>
+            <li>DSB — Dispute Settlement Body</li>
+          </ul>
+        </li>
+        <li><b>ADB (Asian Development Bank)</b>:
+          <ul>
+            <li>Established 1966</li>
+            <li>HQ: <b>Manila, Philippines</b></li>
+            <li>68 members</li>
+            <li>Largest shareholders: Japan + USA (~15.6% each)</li>
+            <li>President traditionally Japanese</li>
+          </ul>
+        </li>
+        <li><b>AIIB (Asian Infrastructure Investment Bank)</b>:
+          <ul>
+            <li>Established 2016</li>
+            <li>HQ: <b>Beijing</b></li>
+            <li>100+ members</li>
+            <li>Initiated by China; <b>India = 2nd largest shareholder</b></li>
+          </ul>
+        </li>
+        <li><b>NDB (New Development Bank / BRICS Bank)</b>:
+          <ul>
+            <li>Established 2014</li>
+            <li>HQ: <b>Shanghai</b></li>
+            <li>5 founding BRICS + UAE + Bangladesh + Egypt</li>
+            <li>First President: <b>K.V. Kamath</b> (India)</li>
+            <li>Authorised capital: $100 bn</li>
+          </ul>
+        </li>
+        <li><b>Other Bodies</b>:
+          <ul>
+            <li><b>BIS 1930</b> — Bank for International Settlements (Basel); central bank of central banks; Basel norms</li>
+            <li><b>FATF 1989</b> — Financial Action Task Force (Paris); anti-money laundering</li>
+            <li><b>OECD 1961</b> — Paris; 38 members; rich-country club</li>
+            <li><b>UNCTAD 1964</b> — UN Conf on Trade & Development; Geneva</li>
+            <li><b>ILO 1919</b> — oldest UN agency; Geneva; DG Gilbert Houngbo</li>
+            <li><b>FAO 1945</b> — Rome</li>
+          </ul>
+        </li>
+        <li><b>G20</b>:
+          <ul>
+            <li>Formed 1999; leader-level 2008</li>
+            <li>19 countries + EU + <b>AU (joined 2023)</b></li>
+            <li><b>India hosted Summit 9-10 September 2023</b></li>
+            <li>Theme: "<b>Vasudhaiva Kutumbakam — One Earth, One Family, One Future</b>"</li>
+          </ul>
+        </li>
+        <li><b>BRICS</b>:
+          <ul>
+            <li><b>B</b>razil, <b>R</b>ussia, <b>I</b>ndia, <b>C</b>hina, <b>S</b>outh Africa</li>
+            <li>Term: <b>Jim O'Neill (Goldman Sachs) 2001</b> (BRIC); SA added 2010</li>
+            <li>Expansion 2024: Egypt, Ethiopia, Iran, UAE joined</li>
+            <li>Bank: NDB</li>
+          </ul>
+        </li>
+        <li><b>SAARC</b>:
+          <ul>
+            <li>Established 1985, Dhaka; HQ <b>Kathmandu</b></li>
+            <li>8 members: India, Pak, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, Afghanistan</li>
+            <li><b>SAFTA 2006</b> — South Asian Free Trade Area</li>
+          </ul>
+        </li>
+        <li><b>HQ Cheat-sheet</b>:
+          <ul>
+            <li>IMF, WB → Washington DC</li>
+            <li>WTO, ILO, UNCTAD, WHO → Geneva</li>
+            <li>FAO → Rome</li>
+            <li>OECD, FATF → Paris</li>
+            <li>ADB → Manila</li>
+            <li>AIIB → Beijing</li>
+            <li>NDB → Shanghai</li>
+            <li>BIS → Basel</li>
+            <li>SAARC → Kathmandu</li>
+            <li>UN → New York</li>
+            <li>IRDAI → Hyderabad</li>
+            <li>ISA → Gurugram</li>
+          </ul>
+        </li>
+        <li><b>Trick — "IMF, WB = 1944 Bretton Woods; WTO = 1995"</b>।</li>
+        <li><b>Story</b>: WWII के बाद 1944 में Bretton Woods Conference में 44 countries ने IMF + World Bank बनाए — global financial stability के लिए। GATT 1947 (trade) was upgraded to WTO 1995। India सब का founding member। 2023 में India ने G20 summit hosted — major diplomatic achievement।</li>
+      </ul>
     `,
     mcq: [
       { q: "IMF and World Bank were created at?", opts: ["Geneva 1944", "Bretton Woods 1944", "Paris 1947", "Marrakesh 1995"], a: 1, ex: "Bretton Woods Conference, July 1944, USA." },
@@ -2195,6 +3866,89 @@
         <li><b>Vostro</b> — "your" account; foreign bank's account in domestic bank in domestic currency.</li>
         <li><b>Special Vostro Accounts (SVA)</b> — for rupee trade settlement (2022).</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Balance of Payments (BoP) — 2 Accounts</b>:
+          <ul>
+            <li><b>Current Account</b> — Visible (trade) + Invisibles (services, transfers, income); India runs <b>CAD</b> (Current Account Deficit)</li>
+            <li><b>Capital Account</b> — FDI, FPI, ECB, NRI deposits, banking capital</li>
+            <li><b>BoP Identity</b>: Current + Capital + Errors = Change in Reserves</li>
+            <li><b>BoT (Balance of Trade)</b> = Goods Exports − Goods Imports</li>
+          </ul>
+        </li>
+        <li><b>India's Trade</b>:
+          <ul>
+            <li>India = <b>net importer</b>; runs trade deficit</li>
+            <li><b>Exports</b>: petroleum products, gems & jewellery, organic chemicals, machinery, pharma, textiles, rice, IT services</li>
+            <li><b>Imports</b>: <b>crude petroleum (largest)</b>, gold, electronic goods, machinery, fertiliser, edible oil</li>
+            <li>Largest trade partner: <b>USA</b> (overtook China 2022)</li>
+          </ul>
+        </li>
+        <li><b>Foreign Trade Policy (FTP) 2023</b>:
+          <ul>
+            <li>Effective 1 April 2023; dynamic (no end date)</li>
+            <li>Target: <b>$2 trillion exports by 2030</b></li>
+            <li>Pillars: incentive to remission; export promotion; ease of business; emerging areas (e-com, districts as export hubs)</li>
+          </ul>
+        </li>
+        <li><b>Export Promotion Schemes — "RoDTEP-RoSCTL-EPCG-EOU"</b>:
+          <ul>
+            <li><b>RoDTEP 2021</b> — Remission of Duties and Taxes; replaced MEIS</li>
+            <li><b>RoSCTL</b> — for apparel/made-ups</li>
+            <li><b>EPCG</b> — Export Promotion Capital Goods</li>
+            <li><b>SEZ</b> (2005), <b>EOU</b> (Export Oriented Units)</li>
+            <li>Advance Authorisation Scheme</li>
+            <li><b>EXIM Bank 1982</b></li>
+            <li><b>ECGC</b> — Export Credit Guarantee Corp</li>
+          </ul>
+        </li>
+        <li><b>Foreign Investment</b>:
+          <ul>
+            <li><b>FDI</b> — long-term, ≥10% equity, with control</li>
+            <li><b>FPI</b> — short-term, &lt;10%, via stocks/bonds</li>
+            <li>Routes: <b>Automatic</b> (no approval) + <b>Government</b> (approval needed)</li>
+            <li><b>FDI Caps (key)</b>: Defence 74% auto/100% govt; Insurance 74% (100% proposed); Telecom 100% auto; Banking (pvt) 74%; Print media 26%; Multi-brand retail 51% (govt)</li>
+            <li>Largest FDI source (cumulative): <b>Mauritius</b> historically, <b>Singapore</b> recent</li>
+            <li>Restricted in: lottery, gambling, atomic energy, tobacco manufacturing</li>
+          </ul>
+        </li>
+        <li><b>Forex Reserves</b>:
+          <ul>
+            <li>Components: <b>FCAs + Gold + SDRs + Reserve Tranche with IMF</b></li>
+            <li>Managed by RBI</li>
+            <li>~$640+ bn (2024); among top 5 globally</li>
+            <li>~10-11 months of imports</li>
+          </ul>
+        </li>
+        <li><b>Exchange Rate Systems</b>:
+          <ul>
+            <li><b>Fixed</b> — pegged</li>
+            <li><b>Floating</b> — market-determined</li>
+            <li><b>Managed Float</b> — India's system; RBI intervenes</li>
+            <li>India: full convertibility on <b>Current Account (1994)</b>; partial on Capital Account</li>
+            <li><b>Tarapore Committee</b> — full capital account convertibility (phased)</li>
+          </ul>
+        </li>
+        <li><b>Devaluation</b>: India devalued in 1949, 1966, <b>1991</b> (~20% by Manmohan Singh)।</li>
+        <li><b>Trade Agreements (key)</b>:
+          <ul>
+            <li>India in: <b>SAFTA, ASEAN, Singapore CECA 2005, S. Korea, Japan CEPA 2011, UAE CEPA 2022, Australia ECTA 2022</b></li>
+            <li>India NOT in: <b>RCEP</b> (opted out 2019)</li>
+          </ul>
+        </li>
+        <li><b>SWIFT, Nostro, Vostro</b>:
+          <ul>
+            <li><b>SWIFT</b> — interbank financial messaging</li>
+            <li><b>Nostro</b> — "our" account in foreign bank in foreign currency</li>
+            <li><b>Vostro</b> — foreign bank's account in our country in our currency</li>
+            <li><b>SVA (Special Vostro Accounts) July 2022</b> — for rupee trade settlement</li>
+          </ul>
+        </li>
+        <li><b>Trick — "CAD = imports &gt; exports + invisibles"</b>। India का goods trade deficit, services + remittances surplus।</li>
+        <li><b>Story</b>: India गोल्ड + crude oil बहुत import करता है → trade deficit। पर services (IT) + remittances (NRI) से balance somewhat सुधर जाता है। 1991 BoP crisis से लेकर आज forex $640bn — बहुत stable। RCEP से बाहर रहना controversial decision था (China concern)। UAE-Australia CEPAs से boost मिला।</li>
+      </ul>
     `,
     mcq: [
       { q: "Current Account does NOT include?", opts: ["Goods trade", "Services", "FDI", "Remittances"], a: 2, ex: "FDI is in Capital Account." },
@@ -2321,6 +4075,130 @@
         <li><b>IMF/WB Spring & Annual Meetings</b> — April/October.</li>
         <li><b>India Budget</b> — 1 February.</li>
         <li><b>Economic Survey</b> — 31 January.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>UN/UNDP Indices</b>:
+          <ul>
+            <li><b>HDI (Human Development Index)</b> — UNDP since 1990; <b>Mahbub-ul-Haq + Amartya Sen</b>; India <b>134/193</b> (2024)</li>
+            <li><b>GDI</b> — Gender Development Index</li>
+            <li><b>GII (Gender Inequality)</b> — India ~108/166</li>
+            <li><b>MPI</b> — Multidimensional Poverty Index (OPHI + UNDP, 2010)</li>
+            <li><b>IHDI</b> — Inequality-adjusted HDI</li>
+          </ul>
+        </li>
+        <li><b>Trick — HDI components "HEI"</b>: Health (life expectancy) + Education (years schooling) + Income (GNI per capita)।</li>
+        <li><b>World Bank Reports</b>:
+          <ul>
+            <li><b>Doing Business Index</b> — discontinued 2021; replaced by <b>B-READY</b></li>
+            <li><b>LPI (Logistics Performance Index)</b> — India 38/139 (2023)</li>
+            <li><b>Human Capital Index</b></li>
+            <li>World Development Report (annual)</li>
+          </ul>
+        </li>
+        <li><b>WEF (Davos)</b>:
+          <ul>
+            <li><b>Global Gender Gap Report</b> — India <b>129/146 (2024)</b></li>
+            <li>Travel & Tourism Competitiveness</li>
+            <li>Global Risks Report</li>
+          </ul>
+        </li>
+        <li><b>Climate/Environment</b>:
+          <ul>
+            <li><b>EPI (Environmental Performance Index)</b> — Yale-Columbia; India ranked low (176/180 in 2024)</li>
+            <li><b>CCPI (Climate Change Performance Index)</b> — Germanwatch; India 7th (2024)</li>
+            <li>Climate Risk Index — Germanwatch</li>
+          </ul>
+        </li>
+        <li><b>Hunger</b>:
+          <ul>
+            <li><b>GHI (Global Hunger Index)</b> — Welthungerhilfe + Concern Worldwide; India <b>105/127 (2024)</b> — "serious"</li>
+            <li><b>Global Food Security Index</b> — EIU</li>
+          </ul>
+        </li>
+        <li><b>Press/Democracy/Corruption</b>:
+          <ul>
+            <li><b>Press Freedom Index</b> — RSF (Reporters Sans Frontières); India 159/180 (2024)</li>
+            <li><b>Democracy Index</b> — EIU; India "flawed democracy"</li>
+            <li><b>CPI (Corruption Perceptions Index)</b> — Transparency International; India 96/180 (2023)</li>
+            <li><b>World Happiness Report</b> — UN SDSN; India 126/143 (2024)</li>
+          </ul>
+        </li>
+        <li><b>Innovation/Trade</b>:
+          <ul>
+            <li><b>Global Innovation Index (GII)</b> — <b>WIPO</b>; India 39/132 (2024)</li>
+            <li>Network Readiness Index</li>
+            <li>World Competitiveness Index — IMD</li>
+          </ul>
+        </li>
+        <li><b>IMF Reports</b>:
+          <ul>
+            <li><b>WEO (World Economic Outlook)</b></li>
+            <li><b>GFSR (Global Financial Stability Report)</b></li>
+            <li>Fiscal Monitor</li>
+          </ul>
+        </li>
+        <li><b>Other Famous</b>:
+          <ul>
+            <li><b>World Investment Report</b> — UNCTAD</li>
+            <li><b>Big Mac Index</b> — The Economist; informal PPP</li>
+            <li>World Health Statistics — WHO</li>
+            <li>State of World Population — UNFPA</li>
+            <li>Global Wage Report — ILO</li>
+          </ul>
+        </li>
+        <li><b>India-Specific</b>:
+          <ul>
+            <li><b>Economic Survey</b> — by CEA, Ministry of Finance; day before Budget</li>
+            <li>RBI Annual Report</li>
+            <li><b>SDG India Index</b> — NITI Aayog</li>
+            <li><b>India Innovation Index</b> — NITI Aayog</li>
+            <li>India State of Forest Report — FSI (every 2 yrs)</li>
+            <li><b>NFHS (National Family Health Survey)</b> — NFHS-5 (2019-21)</li>
+            <li>NSO releases: GDP, CPI, IIP, PLFS</li>
+          </ul>
+        </li>
+        <li><b>Indian Indices Published</b>:
+          <ul>
+            <li>Sensex (BSE 30, 1978-79)</li>
+            <li>Nifty 50 (NSE, 1995)</li>
+            <li>IIP (NSO, 2011-12)</li>
+            <li>WPI (DPIIT, 2011-12)</li>
+            <li>CPI (NSO, 2012)</li>
+            <li>Financial Inclusion Index (RBI, 2021)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "By Publisher"</b>:
+          <ul>
+            <li><b>UNDP</b> = HDI, GII, MPI</li>
+            <li><b>WB</b> = LPI, B-READY, WDR</li>
+            <li><b>WEF</b> = Gender Gap, Risks</li>
+            <li><b>Yale</b> = EPI</li>
+            <li><b>WIPO</b> = GII (Innovation)</li>
+            <li><b>RSF</b> = Press Freedom</li>
+            <li><b>TI</b> = Corruption</li>
+            <li><b>UN SDSN</b> = Happiness</li>
+            <li><b>Germanwatch</b> = CCPI</li>
+            <li><b>NITI Aayog</b> = SDG, Innovation India</li>
+          </ul>
+        </li>
+        <li><b>India Recent Rankings (2024) — Cheat-sheet</b>:
+          <ul>
+            <li>HDI 134 (UNDP)</li>
+            <li>GHI 105 (Hunger)</li>
+            <li>Innovation Index 39 (WIPO)</li>
+            <li>Press Freedom 159 (RSF)</li>
+            <li>CPI 96 (Transparency)</li>
+            <li>Happiness 126 (UN)</li>
+            <li>Gender Gap 129 (WEF)</li>
+            <li>EPI 176/180 (Yale)</li>
+            <li>LPI 38 (WB)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "India still behind in HDI-GHI-Press-Happiness; ahead in Innovation"</b>।</li>
+        <li><b>Story</b>: हर international body अपना index publishes — हर साल India का rank trending topic। HDI 134 (sub-Saharan देशों के बराबर), GHI 105 (worse than Pakistan!), GII 39 (improving), Happiness 126 (poor)। SSC में पूछा जाता है: कौन publishes कौनसा index।</li>
       </ul>
     `,
     mcq: [
@@ -2463,6 +4341,133 @@
         <li>Cheapest data globally (~₹15/GB).</li>
         <li>India is the world's 3rd largest startup ecosystem (after USA, China).</li>
         <li>100+ unicorns.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Digital India — 1 July 2015</b>; <b>9 Pillars</b>:
+          <ol>
+            <li>Broadband Highways</li>
+            <li>Universal Mobile Connectivity</li>
+            <li>Public Internet Access</li>
+            <li>e-Governance</li>
+            <li>e-Kranti (electronic delivery)</li>
+            <li>Information for All</li>
+            <li>Electronics Manufacturing</li>
+            <li>IT for Jobs</li>
+            <li>Early Harvest Programmes</li>
+          </ol>
+        </li>
+        <li><b>Aadhaar / UIDAI</b>:
+          <ul>
+            <li><b>UIDAI 28 January 2009</b></li>
+            <li>First Aadhaar: 29 Sep 2010 to <b>Ranjana Sonawane</b> (Maharashtra)</li>
+            <li><b>Aadhaar Act 2016</b> — passed as Money Bill</li>
+            <li>~135+ crore Aadhaar generated</li>
+            <li>Used for: DBT, KYC, e-Sign, eKYC</li>
+          </ul>
+        </li>
+        <li><b>UPI (Unified Payments Interface)</b>:
+          <ul>
+            <li>Launched <b>April 2016 by NPCI</b>; pilot Aug 2016</li>
+            <li>Real-time mobile payment based on IMPS</li>
+            <li>VPA (Virtual Payment Address)</li>
+            <li><b>BHIM app: 30 December 2016</b></li>
+            <li>Largest apps: PhonePe, Google Pay, Paytm</li>
+            <li>International: Singapore, UAE, France, Sri Lanka, Mauritius, Bhutan, Nepal</li>
+            <li>100+ billion transactions/year</li>
+          </ul>
+        </li>
+        <li><b>NPCI</b>:
+          <ul>
+            <li>Set up <b>2008</b>; Section 8 company (not-for-profit)</li>
+            <li>Products: UPI, IMPS, RuPay, NACH, NETC (FASTag), AePS, BHIM, *99# (USSD), BBPS</li>
+          </ul>
+        </li>
+        <li><b>RuPay 2012</b> — domestic card scheme by NPCI; competes with Visa, Mastercard; popular for PMJDY।</li>
+        <li><b>Crypto & CBDC</b>:
+          <ul>
+            <li>India does NOT recognise crypto as legal tender</li>
+            <li><b>Crypto VDA tax (since 1 April 2022)</b>: 30% on gains + 1% TDS; no offset of losses</li>
+            <li><b>Digital Rupee (e₹)</b>:
+              <ul>
+                <li>Pilot wholesale (e₹-W) — <b>1 Nov 2022</b></li>
+                <li>Pilot retail (e₹-R) — <b>1 Dec 2022</b></li>
+                <li>Issued by RBI</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><b>e-Governance — "DULC-MD-eS-API"</b>:
+          <ul>
+            <li><b>DigiLocker 2015</b> — cloud document storage</li>
+            <li><b>UMANG 2017</b> — Unified Mobile App for Governance</li>
+            <li>e-Hospital, e-Office, MyGov</li>
+            <li><b>e-Sign</b> — Aadhaar-based</li>
+            <li>API Setu</li>
+          </ul>
+        </li>
+        <li><b>CSCs (Common Service Centres)</b>:
+          <ul>
+            <li>Last-mile e-governance access points (2006)</li>
+            <li>~5 lakh CSCs</li>
+          </ul>
+        </li>
+        <li><b>BharatNet / Telecom</b>:
+          <ul>
+            <li><b>NOFN 2011</b> → renamed <b>BharatNet 2015</b></li>
+            <li>Connect all 2.5 lakh gram panchayats with broadband</li>
+            <li><b>5G launched 1 October 2022</b></li>
+            <li>Spectrum auctions by DoT</li>
+            <li>TRAI regulator (1997)</li>
+          </ul>
+        </li>
+        <li><b>ONDC (Open Network for Digital Commerce)</b>:
+          <ul>
+            <li>Launched 2022 by DPIIT; pilot 31 Dec 2022</li>
+            <li>Open protocol — buyers/sellers interoperate across apps</li>
+            <li>Democratize e-commerce vs Amazon/Flipkart duopoly</li>
+          </ul>
+        </li>
+        <li><b>India Stack — Layers</b>:
+          <ul>
+            <li><b>Aadhaar</b> — identity</li>
+            <li><b>UPI</b> — payment</li>
+            <li><b>DigiLocker + e-Sign</b> — paperless</li>
+            <li><b>DEPA / Account Aggregator</b> — consent-based data sharing (2021)</li>
+            <li><b>OCEN</b> — Open Credit Enablement Network</li>
+            <li><b>CoWIN</b> — vaccination platform</li>
+          </ul>
+        </li>
+        <li><b>DPDP Act 2023</b> — Digital Personal Data Protection Act; first comprehensive data protection law; establishes Data Protection Board।</li>
+        <li><b>Digital Economy Stats</b>:
+          <ul>
+            <li>~10% of GDP; target 20% by 2026</li>
+            <li><b>90+ crore internet users</b> (2nd after China)</li>
+            <li>75+ crore smartphone users</li>
+            <li>Cheapest data globally (~₹15/GB)</li>
+            <li>India = <b>3rd largest startup ecosystem</b> (after USA, China)</li>
+            <li>100+ unicorns</li>
+          </ul>
+        </li>
+        <li><b>Date Trick — "Digital Big Days"</b>:
+          <ul>
+            <li>UIDAI: 28 Jan 2009</li>
+            <li>NPCI: 2008</li>
+            <li>UPI: April 2016</li>
+            <li>BHIM: 30 Dec 2016</li>
+            <li>5G: 1 Oct 2022</li>
+            <li>e₹-W: 1 Nov 2022</li>
+            <li>e₹-R: 1 Dec 2022</li>
+            <li>ONDC pilot: 31 Dec 2022</li>
+            <li>Digital India: 1 July 2015</li>
+            <li>DigiLocker: 2015</li>
+            <li>Aadhaar Act: 2016</li>
+            <li>DPDP: 2023</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 2009 में UIDAI से digital identity शुरू। 2016 में UPI ने payment revolution लाया — आज world में most-used। 2022 में 5G + Digital Rupee। ONDC से e-commerce democratize। 100+ unicorns — 3rd largest startup ecosystem। India digital में world leader बन रहा है।</li>
       </ul>
     `,
     mcq: [
@@ -2624,6 +4629,138 @@
         <li>FDI, FPI, ECB, BoP, CAD, BoT.</li>
         <li>UPI, NPCI, BHIM, IMPS, NEFT, RTGS, AePS, BBPS, NACH, FASTag, NETC, RuPay.</li>
         <li>GST, CGST, SGST, IGST, UTGST, GSTN; PAN, TAN, TDS, TCS, GAAR, BEPS.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Top 10 Macro Aggregates Cheat-Sheet</b>:
+          <ul>
+            <li><b>GDP</b> = within country, final goods</li>
+            <li><b>GNP</b> = GDP + NFIA</li>
+            <li><b>NDP</b> = GDP − Depreciation</li>
+            <li><b>NNP</b> = GNP − Depreciation; NNP@FC = National Income</li>
+            <li><b>PCI</b> = National Income / Population</li>
+            <li><b>GDP Deflator</b> = Nominal / Real × 100</li>
+            <li><b>PPP</b> = Purchasing Power Parity</li>
+            <li><b>BoP</b> = Current + Capital + Errors = ΔReserves</li>
+            <li><b>BoT</b> = Exports − Imports of goods</li>
+            <li><b>CAD</b> = Current Account Deficit</li>
+          </ul>
+        </li>
+        <li><b>Top Inflation Concepts</b>:
+          <ul>
+            <li>Demand-pull (Keynes)</li>
+            <li>Cost-push (supply-side)</li>
+            <li>Stagflation = inflation + stagnation</li>
+            <li>Skewflation = selective</li>
+            <li>Disinflation = slowing inflation</li>
+            <li>Deflation = falling prices</li>
+            <li>Reflation = revive after deflation</li>
+            <li>Hyperinflation = &gt;1000%</li>
+          </ul>
+        </li>
+        <li><b>Money Terms</b>:
+          <ul>
+            <li><b>Hard currency</b> = globally trusted (USD)</li>
+            <li><b>Soft currency</b> = domestic only</li>
+            <li><b>Hot money</b> = short-term speculative capital</li>
+            <li><b>Helicopter money</b> = direct cash to public (Friedman)</li>
+            <li><b>Quantitative Easing (QE)</b> = central bank asset purchases</li>
+            <li><b>Demonetisation</b> = currency cancellation</li>
+            <li><b>Black money</b> = undisclosed</li>
+            <li><b>Money laundering</b> = disguising illicit origin</li>
+            <li><b>Round tripping</b> = money sent abroad and brought back as FDI</li>
+            <li><b>Hawala</b> = informal cross-border transfer</li>
+          </ul>
+        </li>
+        <li><b>Banking Acronyms</b>:
+          <ul>
+            <li>NPA, SARFAESI, IBC, NCLT, NARCL</li>
+            <li>CRR, SLR, Repo, Reverse Repo, MSF, SDF, Bank Rate</li>
+            <li>CASA, NIM, CRAR, RoA, RoE</li>
+            <li>NEFT, RTGS, IMPS, UPI</li>
+          </ul>
+        </li>
+        <li><b>Capital Market Slang</b>:
+          <ul>
+            <li>IPO, FPO, OFS, QIP, Rights, Bonus issue</li>
+            <li>Bull (up) / Bear (down) market</li>
+            <li>Blue chip = high-quality stocks</li>
+            <li>Penny stock = very low-priced volatile</li>
+            <li>Circuit breaker = price band trigger</li>
+            <li>Insider trading = illegal</li>
+            <li>Short selling = bet on fall</li>
+            <li>Derivatives — futures, options, swaps</li>
+            <li>ADR (USA) / GDR (Global) / Masala Bond (rupee abroad)</li>
+          </ul>
+        </li>
+        <li><b>Trade Acronyms</b>:
+          <ul>
+            <li>Tariff (tax on imports) / Quota / Embargo</li>
+            <li>Anti-dumping duty (against cheap imports)</li>
+            <li>Countervailing duty</li>
+            <li>FTA / PTA / CEPA / CECA</li>
+            <li>Devaluation (fixed) vs Depreciation (floating)</li>
+            <li>Convertibility — current vs capital account</li>
+          </ul>
+        </li>
+        <li><b>Public Finance</b>:
+          <ul>
+            <li>Revenue Deficit, Fiscal Deficit, Primary Deficit, Effective RD</li>
+            <li>FRBM Act 2003</li>
+            <li>Cess (specific purpose, not shared with states), Surcharge (high-income tax extra)</li>
+            <li>Subsidy — DBT route</li>
+            <li>Crowding out (govt borrowing → rates up → less private invest)</li>
+            <li>Crowding in (public capex → private invest up)</li>
+          </ul>
+        </li>
+        <li><b>Named Taxes</b>:
+          <ul>
+            <li><b>Laffer Curve</b> — Arthur Laffer; tax rate vs revenue (inverted U)</li>
+            <li><b>Pigovian Tax</b> — Arthur Pigou; on negative externality</li>
+            <li><b>Tobin Tax</b> — James Tobin; on currency transactions</li>
+            <li><b>Sin Tax</b> — on tobacco/alcohol/junk food</li>
+          </ul>
+        </li>
+        <li><b>Industry & Corporate</b>:
+          <ul>
+            <li>Maharatna (13) / Navratna (24) / Miniratna</li>
+            <li>SEZ / EOU</li>
+            <li>Disinvestment / Privatisation / Monetisation</li>
+            <li>NIP / NMP</li>
+            <li>PLI (14 sectors)</li>
+            <li>MSME (Micro: ≤₹1cr inv & ≤₹5cr turnover)</li>
+            <li>FDI route — automatic / govt</li>
+            <li>Greenfield (new) vs Brownfield (existing) investment</li>
+          </ul>
+        </li>
+        <li><b>Effects & Curves</b>:
+          <ul>
+            <li>Engel's Law — income up → food share down</li>
+            <li>Giffen good (inferior, demand rises with price)</li>
+            <li>Veblen good (luxury, demand rises with price for status)</li>
+            <li>Phillips Curve — inflation vs unemployment (inverse short-run)</li>
+            <li>Laffer Curve — tax rate vs revenue</li>
+            <li>Lorenz Curve / Gini Coefficient — inequality</li>
+            <li>Kuznets Curve — inequality U-shape</li>
+            <li>Lipstick Effect — small luxury in recession</li>
+          </ul>
+        </li>
+        <li><b>Misc Buzzwords</b>:
+          <ul>
+            <li>NIMBY — Not In My Back Yard</li>
+            <li>NEET — Not in Education, Employment, Training (youth metric)</li>
+            <li>BIMARU — Bihar, MP, Rajasthan, UP (Ashish Bose, 1980s)</li>
+            <li>Ponzi scheme — fraud paying old with new investors</li>
+            <li>Shell company — for tax evasion</li>
+            <li>White Knight — friendly acquirer in hostile takeover</li>
+            <li>Poison Pill — anti-takeover defence</li>
+            <li>Greenwashing — false eco-friendly claims</li>
+          </ul>
+        </li>
+        <li><b>Final Trick — Top 20 acronyms must-know</b>: "<b>GDP-CPI-IIP-CAD-NPA-MSP-PSL-CRR-SLR-LAF-MPC-WPI-FRBM-GST-FDI-FPI-RBI-SEBI-IRDAI-NITI</b>"।</li>
+        <li><b>Story</b>: Economics में acronyms का जंगल है। पर actually 50-60 terms ही frequently पूछे जाते हैं। हर category से top 10 pick करो — Money, Trade, Banking, Capital market, Taxation। Daily revision से सब memorize हो जाएगा। SSC में direct terminology questions बहुत आते हैं।</li>
       </ul>
     `,
     mcq: [

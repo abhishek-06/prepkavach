@@ -159,6 +159,66 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Earth — its structure, movements, and zones</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>8 Planets — "My Very Educated Mother Just Served Us Noodles"</b>: <b>M</b>ercury, <b>V</b>enus, <b>E</b>arth, <b>M</b>ars, <b>J</b>upiter, <b>S</b>aturn, <b>U</b>ranus, <b>N</b>eptune। Pluto = 2006 से dwarf planet।</li>
+        <li><b>Inner (rocky) vs Outer (gas giants)</b>:
+          <ul>
+            <li>Inner 4 — Mercury, Venus, Earth, Mars — terrestrial; small, rocky</li>
+            <li>Outer 4 — Jupiter, Saturn, Uranus, Neptune — gas giants; large, gaseous; have rings</li>
+          </ul>
+        </li>
+        <li><b>Planet quick facts</b>:
+          <ul>
+            <li><b>Mercury</b>: closest to Sun; smallest; no moon</li>
+            <li><b>Venus</b>: <b>"Earth's Twin"</b>, hottest planet (greenhouse), rotates clockwise (only one!), brightest in sky ("Morning/Evening Star"), retrograde rotation</li>
+            <li><b>Earth</b>: only with life; 1 moon</li>
+            <li><b>Mars</b>: "Red Planet"; 2 moons (Phobos, Deimos); Olympus Mons (largest volcano in solar system)</li>
+            <li><b>Jupiter</b>: <b>largest</b>; 95+ moons (Ganymede largest moon in solar system); Great Red Spot</li>
+            <li><b>Saturn</b>: famous rings; least dense (would float on water); ~146 moons; Titan = largest moon</li>
+            <li><b>Uranus</b>: rotates on its side (98°); cyan colour; discovered 1781</li>
+            <li><b>Neptune</b>: farthest; bluest; strongest winds; 1 day = 16 hrs</li>
+          </ul>
+        </li>
+        <li><b>Sun facts — "Sun is a star"</b>:
+          <ul>
+            <li>74% Hydrogen, 24% Helium</li>
+            <li>Diameter 1.39 million km (109× Earth)</li>
+            <li>Distance from Earth: 14.96 crore km (1 AU)</li>
+            <li>Surface temperature: 5778 K; core: 15 million K</li>
+            <li>Energy by nuclear fusion (H → He)</li>
+            <li>Light reaches Earth in 8 min 20 sec</li>
+            <li>Layers (inside out): Core → Radiative → Convective → Photosphere → Chromosphere → Corona</li>
+          </ul>
+        </li>
+        <li><b>Moon facts</b>:
+          <ul>
+            <li>Earth's only natural satellite</li>
+            <li>Distance: 3.84 lakh km (light: 1.3 sec)</li>
+            <li>Diameter: 3,474 km (1/4 of Earth)</li>
+            <li>No atmosphere → footprints stay forever</li>
+            <li>Rotates synchronously — we see only one side</li>
+            <li>Phases: New → Waxing → Full → Waning → New</li>
+            <li>First human on moon: <b>Neil Armstrong, 20 July 1969 (Apollo 11)</b></li>
+            <li>Chandrayaan-3 (India) — Aug 23, 2023 — soft landing south pole</li>
+          </ul>
+        </li>
+        <li><b>Asteroid Belt</b> — between Mars and Jupiter; small rocky bodies; Ceres (largest, dwarf planet)।</li>
+        <li><b>Kuiper Belt</b> — beyond Neptune; Pluto here।</li>
+        <li><b>Comets</b>: Halley's Comet (76-yr cycle; last 1986; next 2061)। "Dirty snowballs"; tail away from Sun।</li>
+        <li><b>Galaxy</b>: <b>Milky Way</b> (Akashganga); spiral galaxy; ~100,000 light-years across; ~100-400 billion stars; Sun is in Orion arm।</li>
+        <li><b>Big Bang Theory</b>:
+          <ul>
+            <li>Universe began ~13.8 billion years ago</li>
+            <li>Proposed by <b>Georges Lemaître 1927</b></li>
+            <li>Evidence: Hubble's expansion (1929), CMB (Penzias-Wilson 1964)</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: "<b>MVE-MJSUN</b>" planets। "<b>Brightest = Venus, Hottest = Venus, Largest = Jupiter, Coldest = Neptune, Red = Mars, Twin of Earth = Venus</b>"।</li>
+        <li><b>Story</b>: सौरमंडल का जन्म ~4.6 billion साल पहले एक gas cloud (nebula) से हुआ। Sun बीच में, planets उसके चारों ओर elliptical orbits में। पहले 4 छोटे rocky, बाक़ी 4 बड़े gaseous। Pluto 2006 तक 9th planet था, फिर dwarf। Universe खुद ~13.8 billion साल पुराना।</li>
+      </ul>
     `,
     mcq: [
       { q: "Big Bang theory was proposed by?", opts: ["Stephen Hawking", "Edwin Hubble", "Georges Lemaître (1927)", "Albert Einstein"], a: 2, ex: "Belgian priest Georges Lemaître proposed it in 1927; Hubble's observations supported it." },
@@ -350,6 +410,89 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Rocks and Minerals</b> — building blocks of Earth's crust.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Earth's Basic Facts</b>:
+          <ul>
+            <li>Age: ~4.54 billion years</li>
+            <li>3rd planet from Sun; 5th largest planet</li>
+            <li>Equatorial radius: 6,378 km (slightly oblate)</li>
+            <li>Surface: 71% water, 29% land</li>
+            <li>"Blue Planet" / "Goldilocks Planet" (just right)</li>
+            <li>Atmosphere: 78% N₂, 21% O₂, 1% other</li>
+            <li>Axial tilt: <b>23.5°</b> — causes seasons</li>
+            <li>Rotation: 24 hours (1 day); Revolution: 365.25 days (1 year)</li>
+          </ul>
+        </li>
+        <li><b>Earth's 4 Motions</b>:
+          <ul>
+            <li><b>Rotation</b> — on axis (24 hrs) → day/night</li>
+            <li><b>Revolution</b> — around Sun (365.25 days) → seasons</li>
+            <li>Precession (wobble of axis — 26,000 years)</li>
+            <li>Movement of solar system through galaxy</li>
+          </ul>
+        </li>
+        <li><b>Important Days (due to axial tilt)</b>:
+          <ul>
+            <li><b>21 March — Spring/Vernal Equinox</b> (equal day/night globally)</li>
+            <li><b>21 June — Summer Solstice</b> (longest day NH, shortest SH); Sun overhead Tropic of Cancer</li>
+            <li><b>23 September — Autumn Equinox</b></li>
+            <li><b>22 December — Winter Solstice</b> (shortest day NH); Sun overhead Tropic of Capricorn</li>
+          </ul>
+        </li>
+        <li><b>Trick — "21-21-23-22"</b> for Equinoxes/Solstices। "Equ-Sol-Equ-Sol = E-S-E-S"।</li>
+        <li><b>Latitude & Longitude</b>:
+          <ul>
+            <li>Lines parallel to Equator = <b>Latitudes</b> (0° at Equator, 90° at poles)</li>
+            <li>Lines from pole to pole = <b>Longitudes / Meridians</b> (0° at Greenwich)</li>
+            <li>Key latitudes:
+              <ul>
+                <li><b>Equator</b> — 0°</li>
+                <li><b>Tropic of Cancer</b> — 23.5° N</li>
+                <li><b>Tropic of Capricorn</b> — 23.5° S</li>
+                <li><b>Arctic Circle</b> — 66.5° N</li>
+                <li><b>Antarctic Circle</b> — 66.5° S</li>
+              </ul>
+            </li>
+            <li>Trick: "23-66 बाँट" — 23.5 tropics, 66.5 polar circles। Sum = 90।</li>
+          </ul>
+        </li>
+        <li><b>Time Zones</b>:
+          <ul>
+            <li>360° / 24 hrs = <b>15° per hour</b> (1° = 4 min)</li>
+            <li><b>IST = GMT + 5:30</b> (based on 82.5° E meridian; passes through Mirzapur UP)</li>
+            <li><b>International Date Line</b> — ~180° meridian (Pacific); zig-zags around islands</li>
+            <li>East of IDL = previous day; West = next day</li>
+          </ul>
+        </li>
+        <li><b>Earth's Interior — "CCMo"</b>:
+          <ul>
+            <li><b>Crust</b> — outermost; 5-70 km thick; silicates (SiAl: continental, SiMa: oceanic)</li>
+            <li><b>Mantle</b> — 2900 km thick; silicate rock; semi-fluid; convection currents</li>
+            <li><b>Outer Core</b> — molten iron-nickel; 2,200 km; magnetic field</li>
+            <li><b>Inner Core</b> — solid iron; 1,250 km radius; very hot (~5,500°C)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Continental crust = SiAl (Si+Al), Oceanic crust = SiMa (Si+Mg)"</b>। Si-Al lighter, Si-Ma denser।</li>
+        <li><b>Earth's Spheres — "LAHB"</b>:
+          <ul>
+            <li><b>L</b>ithosphere — solid earth (rocks, soil)</li>
+            <li><b>A</b>tmosphere — gases</li>
+            <li><b>H</b>ydrosphere — water (oceans, rivers, ice)</li>
+            <li><b>B</b>iosphere — life</li>
+          </ul>
+        </li>
+        <li><b>Magnetic Field</b> — generated by molten outer core; protects from solar wind; reverses every ~300,000 years।</li>
+        <li><b>Earth's Movements consequence</b>:
+          <ul>
+            <li>Rotation → day/night, deflection of winds (Coriolis), tides</li>
+            <li>Revolution + tilt → seasons, varying day length</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: Earth 4.5 billion साल पहले gas-dust cloud से बनी। 23.5° tilt से seasons होते हैं — अगर tilt नहीं होता तो हमेशा एक जैसा weather रहता। Rotation से day-night, Revolution से year। IST Mirzapur के 82.5°E से तय होता है। Inside में iron-nickel molten core से magnetic field बनता है जो हमें solar radiation से बचाता है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Earth's age is approximately?", opts: ["1 billion years", "4.54 billion years", "10 billion years", "13.8 billion years"], a: 1, ex: "~4.54 billion years; universe is ~13.8 billion years old." },
@@ -531,6 +674,68 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Landforms</b> — including earthquakes, volcanoes, mountains.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Types of Rocks — "ISM"</b>:
+          <ul>
+            <li><b>I</b>gneous — from molten magma/lava cooling</li>
+            <li><b>S</b>edimentary — from sediment compression</li>
+            <li><b>M</b>etamorphic — from existing rocks changed by heat/pressure</li>
+          </ul>
+        </li>
+        <li><b>Igneous Rocks (primary)</b>:
+          <ul>
+            <li><b>Intrusive/Plutonic</b> — cool below surface slowly; <b>Granite</b>, gabbro, peridotite</li>
+            <li><b>Extrusive/Volcanic</b> — cool on surface quickly; <b>Basalt</b> (most common; Deccan Traps!), pumice, obsidian</li>
+            <li>Trick: "Intrusive = Inside, Extrusive = Exit"</li>
+          </ul>
+        </li>
+        <li><b>Sedimentary Rocks</b>:
+          <ul>
+            <li>Layered (strata)</li>
+            <li>Contains fossils</li>
+            <li>Examples: <b>Sandstone, Limestone, Shale, Conglomerate, Coal</b></li>
+            <li>Forms in oceans, lakes, deserts</li>
+            <li>Trick: "Sedimentary = layered like sandwich" 🥪</li>
+          </ul>
+        </li>
+        <li><b>Metamorphic Rocks (transformed)</b>:
+          <ul>
+            <li>Heat + pressure transforms existing rocks</li>
+            <li><b>"Parent → Daughter" pairs</b>:
+              <ul>
+                <li><b>Limestone → Marble</b></li>
+                <li><b>Sandstone → Quartzite</b></li>
+                <li><b>Shale → Slate → Schist → Gneiss</b></li>
+                <li><b>Granite → Gneiss</b></li>
+                <li><b>Coal → Graphite → Diamond</b></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><b>Rock Cycle</b>: Igneous → weathering → Sediments → Sedimentary → heat/pressure → Metamorphic → melting → Magma → back to Igneous। Continuous cycle।</li>
+        <li><b>Trick — Famous Rock Examples</b>:
+          <ul>
+            <li>Taj Mahal — Marble (metamorphic)</li>
+            <li>Red Fort — Red Sandstone (sedimentary)</li>
+            <li>Statue of Unity base — Granite</li>
+            <li>Deccan Plateau — Basalt (igneous)</li>
+            <li>Vindhyan range — Sandstone</li>
+          </ul>
+        </li>
+        <li><b>Minerals</b>:
+          <ul>
+            <li>Rock = aggregate of minerals</li>
+            <li>Minerals = chemical compounds with definite structure</li>
+            <li>Classified: Metallic (iron, copper, bauxite) and Non-metallic (mica, gypsum)</li>
+            <li>Hardest: Diamond (Mohs 10); Softest: Talc (Mohs 1)</li>
+          </ul>
+        </li>
+        <li><b>Mohs Scale of Hardness (1-10)</b>: Talc → Gypsum → Calcite → Fluorite → Apatite → Orthoclase → Quartz → Topaz → Corundum → Diamond। Trick: "<b>The Girls Can Flirt And Other Queer Things Can Do</b>"।</li>
+        <li><b>Story</b>: पृथ्वी की पपड़ी (crust) में 3 तरह की rocks बनती हैं। पहले molten magma से Igneous (granite, basalt) — primary rocks। फिर weathering से sediments बनते हैं जो compress होकर sedimentary (sandstone, limestone) बनते हैं। आख़िर heat-pressure से कोई भी rock metamorphic बन सकती है (marble, quartzite, slate)। यह cycle चलती रहती है — Rock Cycle।</li>
+      </ul>
     `,
     mcq: [
       { q: "Three main types of rocks are?", opts: ["Igneous, Sedimentary, Metamorphic", "Hard, Soft, Medium", "Volcanic, River, Mountain", "Old, New, Ancient"], a: 0, ex: "Igneous (from magma/lava), Sedimentary (deposition), Metamorphic (transformed)." },
@@ -763,6 +968,61 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Atmosphere, Climate & Winds</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Plate Tectonics</b>:
+          <ul>
+            <li>Theory by <b>Alfred Wegener 1912</b> (Continental Drift); refined 1960s as Plate Tectonics</li>
+            <li>~7 major plates: Pacific, North American, South American, Eurasian, African, Antarctic, Australian (Indo-Australian)</li>
+            <li>Several minor plates</li>
+            <li><b>3 types of plate boundaries — "CDT"</b>:
+              <ul>
+                <li><b>C</b>onvergent — plates collide → mountains, volcanoes (Himalayas, Andes)</li>
+                <li><b>D</b>ivergent — plates move apart → mid-ocean ridges, rift valleys</li>
+                <li><b>T</b>ransform — plates slide past → earthquakes (San Andreas Fault)</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><b>Mountains — 4 Types</b>:
+          <ul>
+            <li><b>Fold mountains</b> — compression; <b>Himalayas (young, growing), Alps, Andes, Rockies, Atlas</b></li>
+            <li><b>Block mountains</b> — faulting; uplifted blocks; <b>Vindhyas, Satpura, Sierra Nevada, Black Forest</b></li>
+            <li><b>Volcanic mountains</b> — from volcanic activity; <b>Mt. Fuji, Mauna Loa, Kilimanjaro</b></li>
+            <li><b>Residual mountains</b> — from erosion of old mountains; <b>Aravallis (oldest in India), Nilgiris</b></li>
+          </ul>
+        </li>
+        <li><b>Earthquakes</b>:
+          <ul>
+            <li><b>Focus / Hypocentre</b> — origin point inside earth</li>
+            <li><b>Epicentre</b> — point on surface above focus</li>
+            <li><b>Richter Scale</b> — magnitude (logarithmic; each unit = 10× shaking)</li>
+            <li><b>Mercalli Scale</b> — intensity (I-XII)</li>
+            <li><b>Seismograph</b> — instrument to record</li>
+            <li><b>3 types of seismic waves — "PSL"</b>: <b>P</b>rimary (fastest, longitudinal, through solid+liquid), <b>S</b>econdary (transverse, only solid), <b>L</b>ove/Surface (slowest, most destructive)</li>
+            <li>Major recent: Bhuj 2001 (Gujarat), Indian Ocean Tsunami 2004, Nepal 2015 (Mt Everest), Japan 2011 (Fukushima)</li>
+          </ul>
+        </li>
+        <li><b>Volcanoes</b>:
+          <ul>
+            <li><b>Active</b> — currently erupting (Stromboli — "Lighthouse of Mediterranean")</li>
+            <li><b>Dormant</b> — not currently but can</li>
+            <li><b>Extinct</b> — won't erupt again</li>
+            <li><b>Pacific Ring of Fire</b> — 75% of world's volcanoes around Pacific</li>
+            <li>Famous: Mt. Vesuvius (destroyed Pompeii 79 AD), Krakatoa 1883, Mt. St. Helens 1980, Mt. Etna (Sicily)</li>
+            <li>India: Barren Island (Andamans, only active in India)</li>
+          </ul>
+        </li>
+        <li><b>Tsunami</b> — long-wavelength ocean wave from earthquake/landslide; speed up to 800 km/h in deep ocean; <b>26 Dec 2004</b> Indian Ocean tsunami killed 230,000+।</li>
+        <li><b>Fluvial Landforms (River)</b>: Waterfalls, V-shaped valleys (upper), Meanders + ox-bow lakes (middle), Floodplains + Deltas (lower)। World's largest delta: <b>Sundarbans</b> (Ganga-Brahmaputra)।</li>
+        <li><b>Glacial Landforms</b>: U-shaped valleys, Cirques, Moraines, Fjords (Norway), Drumlins।</li>
+        <li><b>Aeolian (Wind) Landforms</b>: Sand dunes (Barchans), Loess plains (China), Mushroom rocks, Yardangs।</li>
+        <li><b>Karst Landforms (Limestone)</b>: Caves, Sinkholes, Stalactites (hanging from roof), Stalagmites (rising from floor)। Trick: "<b>Tite hangs Tight, Mite mounts up</b>"।</li>
+        <li><b>Trick — Mountain types acronym "FBVR"</b>: Fold-Block-Volcanic-Residual।</li>
+        <li><b>Story</b>: Earth की tectonic plates 1-10 cm/year move करती हैं। जब टकराती हैं तो mountains बनते हैं (Himalayas — India+Eurasia)। जब अलग होती हैं तो new ocean (Atlantic)। जब slide करती हैं तो earthquakes (California, Japan)। यह process अरबों साल से चल रहा है। Volcanoes magma surface पर लाते हैं — Pacific Ring of Fire में सबसे ज़्यादा।</li>
+      </ul>
     `,
     mcq: [
       { q: "Continental Drift theory was proposed by?", opts: ["Wegener (1912)", "Hess", "Wilson", "Pangaea"], a: 0, ex: "Alfred Wegener, 1912; proposed Pangaea." },
@@ -978,6 +1238,82 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Hydrosphere — Oceans, Currents and Tides</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Atmosphere Composition</b>: <b>N₂ 78%, O₂ 21%, Argon 0.93%, CO₂ 0.04%</b>, traces of others।</li>
+        <li><b>5 Atmospheric Layers — "TSMTE" (Trick: "Toh-S-MeT-Exo")</b>:
+          <ul>
+            <li><b>T</b>roposphere (0-12 km) — weather happens here; temperature decreases with height</li>
+            <li><b>S</b>tratosphere (12-50 km) — <b>OZONE LAYER</b> (15-35 km); temp increases (UV absorption); aircraft fly here</li>
+            <li><b>M</b>esosphere (50-85 km) — meteors burn here ("shooting stars"); coldest</li>
+            <li><b>T</b>hermosphere (85-600 km) — ionosphere within; reflects radio waves; auroras; satellites; ISS at ~400 km</li>
+            <li><b>E</b>xosphere (600-10,000 km) — fades into space; satellite orbits</li>
+          </ul>
+        </li>
+        <li><b>Ozone Layer</b>:
+          <ul>
+            <li>15-35 km altitude (stratosphere)</li>
+            <li>O₃ — absorbs UV-B, UV-C radiation</li>
+            <li>Depleted by <b>CFCs</b> (refrigerants), halons</li>
+            <li>Ozone hole over Antarctica — discovered 1985</li>
+            <li>Montreal Protocol 1987 — phased out CFCs</li>
+            <li>Dobson Unit — measures ozone column</li>
+          </ul>
+        </li>
+        <li><b>Weather vs Climate</b>:
+          <ul>
+            <li>Weather = day-to-day atmospheric conditions</li>
+            <li>Climate = long-term (30+ years) average</li>
+          </ul>
+        </li>
+        <li><b>Atmospheric Pressure</b>:
+          <ul>
+            <li>Average: <b>1013 hPa / 760 mm Hg</b> at sea level</li>
+            <li>Decreases with altitude</li>
+            <li>Measured by <b>Barometer</b></li>
+            <li>Isobars on map = equal-pressure lines</li>
+          </ul>
+        </li>
+        <li><b>Winds — 3 categories</b>:
+          <ul>
+            <li><b>Planetary (Permanent)</b>: Trade winds (NE in N, SE in S), Westerlies, Polar Easterlies</li>
+            <li><b>Periodic / Seasonal</b>: Monsoon (India), Land breeze (night), Sea breeze (day)</li>
+            <li><b>Local</b>: Loo (hot North India summer), Mistral (France), Fohn (Alps), Chinook (Rockies), Harmattan (W Africa), Sirocco (Sahara to Europe)</li>
+          </ul>
+        </li>
+        <li><b>Coriolis Force</b>: Earth's rotation deflects winds — right in NH, left in SH। Causes wind circulation patterns।</li>
+        <li><b>ITCZ (Inter-Tropical Convergence Zone)</b> — near Equator; trade winds meet; calm "Doldrums"; heavy rain।</li>
+        <li><b>Pressure Belts (7 globally)</b>:
+          <ul>
+            <li>Equatorial Low (Doldrums) — 0°</li>
+            <li>Sub-tropical High (Horse Latitudes) — 30° N & S</li>
+            <li>Sub-polar Low — 60° N & S</li>
+            <li>Polar High — 90° N & S</li>
+          </ul>
+        </li>
+        <li><b>Cyclones</b>:
+          <ul>
+            <li><b>Tropical</b> (warm core, over oceans): Hurricane (Atlantic/E.Pacific), Typhoon (W.Pacific), Cyclone (Indian Ocean), Willy-Willy (Australia)</li>
+            <li><b>Temperate</b> (cold front): Mid-latitudes</li>
+            <li><b>Tornadoes</b>: small, intense; "Tornado Alley" USA</li>
+            <li>Cyclone names: India + 12 nations contribute; e.g., Amphan, Fani, Tauktae, Yaas</li>
+          </ul>
+        </li>
+        <li><b>Humidity & Precipitation</b>:
+          <ul>
+            <li>Absolute humidity = actual water vapour</li>
+            <li>Relative humidity = % of saturation</li>
+            <li>Dew point = temp at which condensation starts</li>
+            <li>Types of rainfall: <b>Convectional</b> (heating, equatorial), <b>Orographic</b> (mountain slopes, Western Ghats), <b>Cyclonic</b> (low pressure)</li>
+          </ul>
+        </li>
+        <li><b>Clouds</b>: <b>Cirrus</b> (high, wispy), <b>Cumulus</b> (puffy, fair weather), <b>Stratus</b> (low, layered), <b>Nimbus</b> (rain). Combinations: cumulonimbus (thunderstorm), nimbostratus।</li>
+        <li><b>Heat Transfer in atmosphere</b>: <b>Radiation, Conduction, Convection</b> — "RCC"। Greenhouse gases trap outgoing IR radiation → global warming।</li>
+        <li><b>Trick — Layers Order</b>: "<b>Trees Stop My Tall Exit</b>" = Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere।</li>
+        <li><b>Story</b>: हम Troposphere में रहते हैं (बस 12 km thick — पतली skin) जहाँ सारा weather होता है। ऊपर Stratosphere में ozone layer हमें UV से बचाती है। Meteors Mesosphere में जलते हैं। Auroras Thermosphere में। 600 km के बाद Exosphere — सब satellites वहाँ। Atmosphere नहीं होती तो Earth Mars जैसी desert होती।</li>
+      </ul>
     `,
     mcq: [
       { q: "% of nitrogen in atmosphere?", opts: ["50%", "60%", "78%", "90%"], a: 2, ex: "78.09% nitrogen; 20.95% oxygen; 0.93% argon; 0.04% CO₂." },
@@ -1149,6 +1485,82 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>World Continents and Major Features</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Hydrosphere</b> — all water on Earth। 97% saline (oceans), 3% fresh (mostly ice caps, glaciers)। Only 0.3% accessible freshwater।</li>
+        <li><b>5 Oceans — "PAISA"</b>:
+          <ul>
+            <li><b>P</b>acific — largest, deepest; ~30% of Earth's surface</li>
+            <li><b>A</b>tlantic — 2nd largest; S-shaped</li>
+            <li><b>I</b>ndian — 3rd; only ocean named after a country!</li>
+            <li><b>S</b>outhern / Antarctic — 4th; around Antarctica</li>
+            <li><b>A</b>rctic — smallest; around North Pole</li>
+          </ul>
+        </li>
+        <li><b>Ocean Depths — "MJPK"</b>:
+          <ul>
+            <li><b>Mariana Trench</b> (Pacific) — <b>deepest at Challenger Deep ~11 km</b></li>
+            <li><b>Java Trench</b> (Indian Ocean) — deepest in Indian Ocean</li>
+            <li><b>Puerto Rico Trench</b> — deepest in Atlantic</li>
+            <li><b>Kuril Trench</b> — Pacific NW</li>
+          </ul>
+        </li>
+        <li><b>Ocean Salinity</b>: avg 35 ppt (parts per thousand)। Highest: Lake Van + Dead Sea (~330 ppt — actually a lake)। Lowest open ocean: Baltic Sea।</li>
+        <li><b>Ocean Currents</b>:
+          <ul>
+            <li><b>Warm currents</b>: flow from equator to poles
+              <ul>
+                <li>Gulf Stream (N Atlantic) — keeps Western Europe warm</li>
+                <li>Kuroshio (N Pacific) — Japan</li>
+                <li>North Equatorial</li>
+                <li>Brazil Current</li>
+              </ul>
+            </li>
+            <li><b>Cold currents</b>: flow from poles to equator
+              <ul>
+                <li>Labrador (NW Atlantic)</li>
+                <li>Humboldt/Peru (W S. America) — Atacama Desert</li>
+                <li>Benguela (W Africa) — Namib Desert</li>
+                <li>California, Canary, Oyashio</li>
+              </ul>
+            </li>
+            <li><b>Famous meeting points (fishing zones)</b>: Grand Banks (Gulf Stream + Labrador), North Sea, Sea of Japan</li>
+          </ul>
+        </li>
+        <li><b>Tides</b>:
+          <ul>
+            <li>Caused by Moon's + Sun's gravity</li>
+            <li><b>Spring Tide</b> — Sun-Earth-Moon in line (new moon + full moon); HIGH tides</li>
+            <li><b>Neap Tide</b> — Sun-Earth-Moon at right angle (1st/3rd quarter); LOW tides</li>
+            <li>2 high + 2 low tides daily (12-hr cycle)</li>
+            <li>Bay of Fundy (Canada) — highest tides in world (16m)</li>
+            <li>Indian highest: Gulf of Kambhat / Gulf of Kutch</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Spring = Straight (in line), Neap = Right Angle (kone)"</b>।</li>
+        <li><b>Other Water Bodies</b>:
+          <ul>
+            <li><b>Largest lake</b>: Caspian Sea (saline; 5 countries)</li>
+            <li><b>Largest freshwater lake (area)</b>: Lake Superior (USA-Canada)</li>
+            <li><b>Largest freshwater (volume)</b>: Lake Baikal (Russia) — also deepest (1,642 m)</li>
+            <li><b>Highest lake</b>: Titicaca (Peru-Bolivia)</li>
+            <li><b>Lowest lake</b>: Dead Sea (-430 m below sea level)</li>
+            <li><b>Largest mangrove</b>: Sundarbans (Ganga delta)</li>
+          </ul>
+        </li>
+        <li><b>El Niño & La Niña</b>:
+          <ul>
+            <li><b>El Niño</b> ("The Boy") — warming of Pacific waters near Peru; weakens Indian monsoon; droughts</li>
+            <li><b>La Niña</b> ("The Girl") — cooling; strengthens monsoon; floods</li>
+            <li>2-7 year cycle</li>
+          </ul>
+        </li>
+        <li><b>Coral Reefs</b>: tropical, shallow seas; Great Barrier Reef (Australia) — largest। India: Lakshadweep, Andamans, Gulf of Mannar, Gulf of Kutch।</li>
+        <li><b>Trick</b>: "<b>97 साली, 3 ताज़ी</b>" — 97% saltwater, 3% freshwater।</li>
+        <li><b>Story</b>: Earth का 71% water है। 5 oceans सबसे बड़ा Pacific (Mariana Trench, deepest)। Tides Moon की gravity से, Currents wind + density + Coriolis से। El Niño का असर India पर — drought। Coral reefs अब climate change से die कर रहे हैं ("bleaching")।</li>
+      </ul>
     `,
     mcq: [
       { q: "Earth's water distribution: oceans hold approximately?", opts: ["50%", "75%", "97.5%", "100%"], a: 2, ex: "97.5% in oceans (saline); only 2.5% freshwater." },
@@ -1326,6 +1738,107 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>World Rivers, Mountains, Deserts</b> in detail.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>7 Continents by size — "AANSAEA"</b>:
+          <ol>
+            <li><b>Asia</b> — 30% of land; largest; most populous</li>
+            <li><b>Africa</b> — 20%</li>
+            <li><b>North America</b> — 16%</li>
+            <li><b>South America</b> — 12%</li>
+            <li><b>Antarctica</b> — 9%; coldest; uninhabited (permanent)</li>
+            <li><b>Europe</b> — 7%</li>
+            <li><b>Australia/Oceania</b> — 6%; smallest</li>
+          </ol>
+        </li>
+        <li><b>"Asia Superlatives"</b>:
+          <ul>
+            <li>Largest country (area): Russia (mostly Asia)</li>
+            <li>Most populous: India (overtook China 2023)</li>
+            <li>Highest peak: <b>Mt. Everest (8,849 m)</b> Nepal-Tibet (Himalayas)</li>
+            <li>Lowest point: Dead Sea (Jordan-Israel, -430m)</li>
+            <li>Largest lake: Caspian Sea</li>
+            <li>Longest river in Asia: Yangtze (China, 6,300 km)</li>
+            <li>Largest desert: Gobi (Mongolia-China)</li>
+          </ul>
+        </li>
+        <li><b>"Africa Superlatives"</b>:
+          <ul>
+            <li>54 countries (most in any continent)</li>
+            <li>Largest country: <b>Algeria</b> (after South Sudan split)</li>
+            <li>Most populous: Nigeria</li>
+            <li>Highest peak: <b>Kilimanjaro</b> (Tanzania, 5,895 m)</li>
+            <li><b>Nile</b> = longest river in world (6,650 km)</li>
+            <li>Largest desert: <b>Sahara</b> (also largest hot desert in world)</li>
+            <li>Equator passes through middle</li>
+            <li>"Cradle of Humanity" — earliest humans</li>
+          </ul>
+        </li>
+        <li><b>North America</b>:
+          <ul>
+            <li>Largest country: Canada</li>
+            <li>Most populous: USA</li>
+            <li>Highest peak: <b>Denali / Mt. McKinley</b> (Alaska, 6,194 m)</li>
+            <li>Longest river: <b>Mississippi-Missouri</b></li>
+            <li>Largest lake: Lake Superior</li>
+            <li>Death Valley (hottest US place)</li>
+          </ul>
+        </li>
+        <li><b>South America</b>:
+          <ul>
+            <li>Largest country: <b>Brazil</b></li>
+            <li>Highest peak: <b>Aconcagua</b> (Argentina, 6,961 m, highest outside Asia)</li>
+            <li>Longest river: <b>Amazon</b> (largest by volume in world)</li>
+            <li>Largest country in S America: Brazil</li>
+            <li>Driest desert: <b>Atacama</b> (Chile)</li>
+            <li>Highest waterfall: <b>Angel Falls</b> (Venezuela, 979 m)</li>
+            <li>Highest navigable lake: Titicaca</li>
+            <li>Andes — longest mountain range</li>
+          </ul>
+        </li>
+        <li><b>Antarctica</b>:
+          <ul>
+            <li>5th largest, coldest, driest, windiest, highest avg elevation</li>
+            <li>No permanent residents (only researchers)</li>
+            <li>90% of world's ice</li>
+            <li>India's stations: Maitri (1989), Bharati (2012), Dakshin Gangotri (1983 — first; submerged)</li>
+            <li>Antarctic Treaty 1959</li>
+          </ul>
+        </li>
+        <li><b>Europe</b>:
+          <ul>
+            <li>Most countries (~50)</li>
+            <li>Largest: Russia (most in Europe)</li>
+            <li>Smallest country in world: <b>Vatican City</b></li>
+            <li>Highest peak: <b>Mt. Elbrus</b> (Russia, 5,642 m) or Mont Blanc (Alps, 4,808 m if just Alps)</li>
+            <li>Longest river: <b>Volga</b> (Russia)</li>
+            <li>Densest population</li>
+          </ul>
+        </li>
+        <li><b>Australia / Oceania</b>:
+          <ul>
+            <li>Smallest continent</li>
+            <li>Only continent that is a single country (Australia)</li>
+            <li>Highest peak: Mt. Kosciuszko (2,228 m)</li>
+            <li>Longest river: Murray-Darling</li>
+            <li>Great Barrier Reef</li>
+            <li>Includes New Zealand, Papua New Guinea, Pacific islands (Polynesia, Melanesia, Micronesia)</li>
+            <li>Mt. Kosciuszko low; Carstensz Pyramid (PNG/Indonesia, 4,884 m) higher</li>
+          </ul>
+        </li>
+        <li><b>Continental Boundaries Trick</b>:
+          <ul>
+            <li>Asia-Europe: Ural Mountains + Ural River + Caspian Sea + Caucasus</li>
+            <li>Asia-Africa: Suez Canal</li>
+            <li>North-South America: Panama Canal</li>
+          </ul>
+        </li>
+        <li><b>Important Canals</b>: <b>Suez Canal</b> (Egypt, 1869) connects Mediterranean & Red Sea; <b>Panama Canal</b> (1914) connects Atlantic & Pacific; <b>Kiel Canal</b> (Germany)।</li>
+        <li><b>Trick — "AANSAEA"</b> for continent sizes। "Antarctica is in middle = 5th"।</li>
+        <li><b>Story</b>: 7 continents — Pangaea (super-continent) से 200 million साल पहले से अलग होने लगे। Asia largest + most populous, Australia smallest। Africa में सबसे लम्बी नदी (Nile), Amazon में सबसे ज़्यादा पानी, Antarctica में सबसे ज़्यादा ice। India का Subcontinent Africa से separate होकर Asia से टकराया — Himalayas बनी।</li>
+      </ul>
     `,
     mcq: [
       { q: "Number of continents?", opts: ["5", "6", "7", "8"], a: 2, ex: "Seven: Asia, Africa, N. America, S. America, Antarctica, Europe, Australia/Oceania." },
@@ -1486,6 +1999,98 @@
 
       <h3>Looking Ahead</h3>
       <p>That completes World Geography. Next: <b>Indian Geography — Physical Features</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>10 Longest Rivers in World</b>:
+          <ol>
+            <li><b>Nile</b> (Africa) — 6,650 km — longest</li>
+            <li><b>Amazon</b> (S America) — 6,400 km — largest by volume</li>
+            <li><b>Yangtze</b> (China) — 6,300 km</li>
+            <li><b>Mississippi-Missouri</b> (USA) — 6,275 km</li>
+            <li><b>Yenisei</b> (Russia)</li>
+            <li><b>Yellow River / Huang He</b> (China) — "China's Sorrow"</li>
+            <li>Ob-Irtysh (Russia)</li>
+            <li>Parana (S America)</li>
+            <li>Congo (Africa) — deepest river</li>
+            <li>Amur (Russia-China)</li>
+          </ol>
+        </li>
+        <li><b>Trick — "NA-YA-MI"</b>: Nile, Amazon, Yangtze, Mississippi, Yenisei — top 5।</li>
+        <li><b>Major Mountain Ranges</b>:
+          <ul>
+            <li><b>Himalayas</b> (Asia) — youngest, highest; Mt. Everest</li>
+            <li><b>Andes</b> (S America) — longest (7,000 km)</li>
+            <li><b>Rockies</b> (N America)</li>
+            <li><b>Alps</b> (Europe) — Mt. Blanc</li>
+            <li><b>Atlas</b> (Africa)</li>
+            <li><b>Urals</b> (Russia) — boundary Europe-Asia</li>
+            <li><b>Caucasus</b> (Russia-Georgia) — Mt. Elbrus</li>
+            <li>Great Dividing Range (Australia)</li>
+            <li>Drakensberg (S Africa)</li>
+          </ul>
+        </li>
+        <li><b>10 Highest Mountains</b> (all in Asia, Himalayas-Karakoram):
+          <ol>
+            <li><b>Mt. Everest</b> — 8,849 m (Nepal/Tibet)</li>
+            <li><b>K2</b> — 8,611 m (Pakistan-China)</li>
+            <li>Kanchenjunga — 8,586 m (India-Nepal)</li>
+            <li>Lhotse, Makalu, Cho Oyu, Dhaulagiri, Manaslu, Nanga Parbat, Annapurna</li>
+          </ol>
+        </li>
+        <li><b>Hot Deserts (around 30° latitude)</b>:
+          <ul>
+            <li><b>Sahara</b> (Africa) — largest hot desert</li>
+            <li><b>Arabian</b> (Saudi Arabia, etc.)</li>
+            <li><b>Kalahari</b> (S Africa)</li>
+            <li><b>Namib</b> (Namibia) — oldest desert; coastal</li>
+            <li><b>Atacama</b> (Chile) — driest place on Earth</li>
+            <li><b>Sonoran, Mojave</b> (N America)</li>
+            <li><b>Thar / Great Indian Desert</b> (India-Pakistan)</li>
+            <li>Great Victoria, Great Sandy (Australia)</li>
+          </ul>
+        </li>
+        <li><b>Cold Deserts</b>: <b>Gobi</b> (Mongolia-China), <b>Patagonian</b> (Argentina), Antarctica (largest desert overall), Arctic, Tibetan, Ladakh।</li>
+        <li><b>Famous Waterfalls</b>:
+          <ul>
+            <li><b>Angel Falls</b> (Venezuela) — 979 m, world's tallest</li>
+            <li><b>Tugela Falls</b> (S Africa) — 2nd tallest</li>
+            <li><b>Niagara Falls</b> (USA-Canada) — most visited</li>
+            <li><b>Iguazu Falls</b> (Brazil-Argentina) — widest</li>
+            <li><b>Victoria Falls</b> (Zambia-Zimbabwe, Zambezi river)</li>
+            <li>India's tallest: <b>Kunchikal Falls</b> (Karnataka, 455 m); also Jog Falls (Karnataka), Dudhsagar (Goa)</li>
+          </ul>
+        </li>
+        <li><b>Largest Lakes</b>:
+          <ul>
+            <li><b>Caspian Sea</b> — largest (saline)</li>
+            <li><b>Lake Superior</b> — largest freshwater by area (USA-Canada)</li>
+            <li><b>Lake Baikal</b> — largest by volume + deepest (Russia)</li>
+            <li><b>Lake Victoria</b> — largest in Africa</li>
+            <li><b>Lake Tanganyika</b> — 2nd deepest</li>
+            <li><b>Great Lakes</b> (N America) — 5 connected: Superior, Michigan, Huron, Erie, Ontario ("SMHEO")</li>
+          </ul>
+        </li>
+        <li><b>Important Geographical Lines</b>:
+          <ul>
+            <li><b>Equator</b> (0°) — passes through 13 countries; longest in Indonesia, Kenya, Brazil; Ecuador, Colombia</li>
+            <li><b>Tropic of Cancer</b> (23.5° N) — passes through India (8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram)</li>
+            <li><b>Tropic of Capricorn</b> (23.5° S) — Australia, S America, S Africa</li>
+            <li>Prime Meridian (0° longitude) — Greenwich, England</li>
+            <li>International Date Line — ~180° (Pacific)</li>
+            <li>McMahon Line — India-China (Arunachal)</li>
+            <li>Radcliffe Line — India-Pakistan</li>
+            <li>Durand Line — Pakistan-Afghanistan</li>
+            <li>38th Parallel — N-S Korea</li>
+            <li>49th Parallel — USA-Canada (most of border)</li>
+            <li>Mason-Dixon — N-S USA culturally</li>
+          </ul>
+        </li>
+        <li><b>Trick</b>: "<b>Nile = longest, Amazon = largest, Congo = deepest, Yangtze = Asia's longest</b>"।</li>
+        <li><b>Trick — Tropic of Cancer states in India</b>: "<b>Gujraj-MaCha-JhaWa-TriMi</b>" — Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram (8 states)। Sometimes 9 with Bangladesh in middle of MP-Chhattisgarh transit but no — 8 Indian states।</li>
+        <li><b>Story</b>: World की biggest rivers civilizations को जन्म दीं — Nile-Egypt, Yangtze-China, Mississippi-USA। Andes 7,000 km longest mountain range है। Himalayas youngest पर सबसे ऊँचे (still growing 5 mm/year)। Atacama desert में कुछ जगहों पर 400+ साल बारिश नहीं हुई। India में Tropic of Cancer 8 states से होकर गुज़रती है — यह SSC में पूछा जाता है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Longest river in the world?", opts: ["Amazon", "Nile (6,650 km)", "Yangtze", "Mississippi"], a: 1, ex: "Nile in Africa." },
@@ -1768,6 +2373,118 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Indian Rivers and Drainage Systems</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>India Quick Facts</b>:
+          <ul>
+            <li>Area: 32.87 lakh km² (7th largest country)</li>
+            <li>Population: 142 cr+ (1st as of 2023)</li>
+            <li>Coastline: 7,516 km (incl. islands)</li>
+            <li>Coastline states (9): Gujarat (longest), Maharashtra, Goa, Karnataka, Kerala, TN, AP, Odisha, WB</li>
+            <li>States: 28 + UTs: 8</li>
+            <li>Land frontier: 15,200 km</li>
+            <li>Latitudinal extent: 8°4' N to 37°6' N (Indira Point to Indira Col)</li>
+            <li>Longitudinal extent: 68°7' E to 97°25' E</li>
+            <li>N-S: 3,214 km; E-W: 2,933 km</li>
+          </ul>
+        </li>
+        <li><b>India's Neighbours — "PA-BBC-MNS"</b> (7 land + 2 sea):
+          <ul>
+            <li><b>P</b>akistan — west</li>
+            <li><b>A</b>fghanistan — NW (via PoK)</li>
+            <li><b>B</b>angladesh — east</li>
+            <li><b>B</b>hutan — N</li>
+            <li><b>C</b>hina — N (longest border ~3,488 km)</li>
+            <li><b>M</b>yanmar — east</li>
+            <li><b>N</b>epal — N</li>
+            <li><b>S</b>ri Lanka (sea)</li>
+            <li>Maldives (sea)</li>
+          </ul>
+        </li>
+        <li><b>Borders trick — "PaCha-NeBhu-MyBa"</b>: Pakistan-China-Nepal-Bhutan-Myanmar-Bangladesh।</li>
+        <li><b>Tropic of Cancer (23.5° N)</b> passes through 8 Indian states — <b>"GR-MP-CG-JH-WB-TR-MI"</b>: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram।</li>
+        <li><b>India's 6 Physical Divisions</b>:
+          <ul>
+            <li><b>Himalayas</b> — N</li>
+            <li><b>Northern Plains</b> (Indo-Gangetic)</li>
+            <li><b>Peninsular Plateau</b></li>
+            <li><b>Thar Desert</b> (NW)</li>
+            <li><b>Coastal Plains</b></li>
+            <li><b>Islands</b></li>
+          </ul>
+        </li>
+        <li><b>Himalayas — 3 Ranges (N to S)</b>:
+          <ul>
+            <li><b>Greater Himalayas / Himadri</b> — highest, snow-clad, Mt. Everest, Kanchenjunga</li>
+            <li><b>Middle Himalayas / Himachal</b> — Pir Panjal, Dhauladhar, Mahabharat; hill stations (Shimla, Mussoorie, Nainital, Darjeeling)</li>
+            <li><b>Outer Himalayas / Shivaliks</b> — lowest, foothills; Duns valleys (Dehradun)</li>
+          </ul>
+        </li>
+        <li><b>Himalayan Divisions (E-W)</b>:
+          <ul>
+            <li><b>Punjab Himalayas</b> — Indus to Sutlej</li>
+            <li><b>Kumaon Himalayas</b> — Sutlej to Kali (Uttarakhand)</li>
+            <li><b>Nepal Himalayas</b> — Kali to Tista (Mt. Everest!)</li>
+            <li><b>Assam Himalayas</b> — Tista to Brahmaputra</li>
+            <li>Purvanchal — east, includes Patkai, Naga, Manipur, Mizo hills</li>
+          </ul>
+        </li>
+        <li><b>Highest Peaks in India</b>:
+          <ul>
+            <li><b>Kanchenjunga</b> (8,586 m) — Sikkim — highest in India (Everest fully in Nepal-Tibet)</li>
+            <li>Nanda Devi (7,816 m) — Uttarakhand</li>
+            <li>Kamet — Uttarakhand</li>
+            <li>K2 (8,611 m) — in PoK, not Indian territory technically</li>
+          </ul>
+        </li>
+        <li><b>Northern Plains — 3 divisions (W to E)</b>:
+          <ul>
+            <li>Punjab Plain (Sutlej, Beas, Ravi)</li>
+            <li>Ganga Plain (largest)</li>
+            <li>Brahmaputra Plain (Assam)</li>
+          </ul>
+        </li>
+        <li><b>Plain features</b>: <b>Bhabar</b> (porous foothill belt), <b>Tarai</b> (wet swampy below Bhabar), <b>Khadar</b> (new alluvium), <b>Bhangar</b> (older alluvium)। Trick: "<b>BT-KB</b>"।</li>
+        <li><b>Peninsular Plateau — 2 parts</b>:
+          <ul>
+            <li><b>Central Highlands</b> — N of Narmada; Aravallis (NW), Vindhyas, Bundelkhand, Malwa Plateau, Chota Nagpur Plateau (mineral-rich)</li>
+            <li><b>Deccan Plateau</b> — S of Narmada; bordered by Western Ghats (high, 1500m, Mahabaleshwar) and Eastern Ghats (lower); Anaimudi peak Western Ghats</li>
+          </ul>
+        </li>
+        <li><b>Western Ghats vs Eastern Ghats</b>:
+          <ul>
+            <li>Western Ghats — continuous, higher (avg 1500 m); rainier; Anaimudi (2,695 m, highest peak in Peninsular India)</li>
+            <li>Eastern Ghats — broken (by rivers), lower (avg 600 m); Mahendragiri</li>
+            <li>Meet at Nilgiris (Tamil Nadu)</li>
+          </ul>
+        </li>
+        <li><b>Aravalli Range</b>: oldest fold mountains in world; NE-SW direction; Guru Shikhar (1,722 m) on Mt. Abu = highest।</li>
+        <li><b>Thar Desert</b>: Rajasthan (mainly), Gujarat, Haryana, Punjab। Dry, barchans, Indira Gandhi Canal।</li>
+        <li><b>Coastal Plains</b>:
+          <ul>
+            <li><b>Western</b>: narrow; Konkan (Maharashtra) + Kanara (Karnataka) + Malabar (Kerala). Rocky coast, backwaters in Kerala</li>
+            <li><b>Eastern</b>: wider; Northern Circars + Coromandel; deltaic; cyclone-prone</li>
+          </ul>
+        </li>
+        <li><b>Islands</b>:
+          <ul>
+            <li><b>Andaman & Nicobar</b> — Bay of Bengal; volcanic; 572 islands; <b>Indira Point (Great Nicobar) = southernmost</b>; Barren Island = only active volcano</li>
+            <li><b>Lakshadweep</b> — Arabian Sea; 36 islands; coral atolls</li>
+          </ul>
+        </li>
+        <li><b>India's Extreme Points</b>:
+          <ul>
+            <li>North: Indira Col (Ladakh)</li>
+            <li>South (mainland): Kanyakumari (TN)</li>
+            <li>South: <b>Indira Point</b> (Great Nicobar)</li>
+            <li>East: Kibithu (Arunachal)</li>
+            <li>West: Guhar Moti (Gujarat)</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India एक triangular landmass है — North में Himalayas (newest mountains), middle में fertile Gangetic plains, south में oldest plateaus। Coast 7,516 km, 9 states। Geological diversity unmatched।</li>
+      </ul>
     `,
     mcq: [
       { q: "India is the ____ largest country by area?", opts: ["5th", "6th", "7th", "10th"], a: 2, ex: "7th largest after Russia, Canada, USA, China, Brazil, Australia." },
@@ -1951,6 +2668,105 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Indian Climate and Monsoon</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>2 River Systems</b>:
+          <ul>
+            <li><b>Himalayan rivers</b> — perennial (snow-fed); Indus, Ganga, Brahmaputra systems</li>
+            <li><b>Peninsular rivers</b> — seasonal (rain-fed); flow E to Bay of Bengal mostly; older + smaller</li>
+          </ul>
+        </li>
+        <li><b>Indus System (Sindhu)</b>:
+          <ul>
+            <li>Source: <b>Manasarovar</b> (Tibet, near Mt. Kailash)</li>
+            <li>Total length 3,180 km</li>
+            <li>5 tributaries — <b>"JC-RBS"</b>: <b>J</b>helum, <b>C</b>henab, <b>R</b>avi, <b>B</b>eas, <b>S</b>utlej</li>
+            <li>"Punjab" = "Panch + Aab" = 5 rivers</li>
+            <li><b>Indus Water Treaty 1960</b>: India gets Ravi-Beas-Sutlej; Pakistan gets Indus-Jhelum-Chenab (R-B-S to India, I-J-C to Pak)</li>
+          </ul>
+        </li>
+        <li><b>Ganga System</b>:
+          <ul>
+            <li>Source: <b>Gangotri Glacier</b> (Uttarakhand) — actually <b>Bhagirathi</b>; meets Alaknanda at <b>Devprayag</b> → "Ganga"</li>
+            <li>Total length: 2,525 km</li>
+            <li><b>Tributaries</b>:
+              <ul>
+                <li>Left: Yamuna (longest tributary), Ramganga, Gomti, Ghaghara, Gandak, Kosi (also called "Sorrow of Bihar")</li>
+                <li>Right: Son, Damodar ("Sorrow of Bengal")</li>
+              </ul>
+            </li>
+            <li><b>Yamuna</b> source: Yamunotri (Uttarakhand); meets Ganga at <b>Sangam, Allahabad/Prayagraj</b></li>
+            <li>Drains into Bay of Bengal via <b>Sundarbans Delta</b> (world's largest delta)</li>
+            <li>Cities: Haridwar, Allahabad, Varanasi, Patna, Kolkata, Dhaka</li>
+          </ul>
+        </li>
+        <li><b>Brahmaputra System</b>:
+          <ul>
+            <li>Source: <b>Chemayungdung Glacier</b>, Tibet (called <b>Tsangpo</b> there)</li>
+            <li>Enters India in Arunachal — called <b>Siang/Dihang</b></li>
+            <li>In Assam — <b>Brahmaputra</b></li>
+            <li>In Bangladesh — <b>Jamuna</b>, joins Padma (Ganga), reaches Bay of Bengal as Meghna</li>
+            <li>Tributaries: Subansiri, Dibang, Lohit, Manas, Kameng</li>
+            <li>Causes floods in Assam every year</li>
+            <li>Total length 2,900 km</li>
+          </ul>
+        </li>
+        <li><b>Peninsular Rivers — E-flowing (most)</b>:
+          <ul>
+            <li><b>Mahanadi</b> — Chhattisgarh-Odisha; Hirakud dam</li>
+            <li><b>Godavari</b> ("Dakshin Ganga") — longest peninsular (1,465 km); Trimbak, Maharashtra source; drains AP-Telangana</li>
+            <li><b>Krishna</b> — Mahabaleshwar; Nagarjuna Sagar; 2nd longest peninsular</li>
+            <li><b>Kaveri</b> — Karnataka-Tamil Nadu; sacred south river; Talakaveri source; KRS dam</li>
+          </ul>
+        </li>
+        <li><b>Peninsular Rivers — W-flowing</b>:
+          <ul>
+            <li><b>Narmada</b> — Amarkantak (MP); flows W via rift valley; ends Arabian Sea (Bharuch); Sardar Sarovar dam</li>
+            <li><b>Tapti / Tapi</b> — also W; Satpura range source</li>
+            <li><b>Sabarmati, Mahi, Luni</b> (Rajasthan, ends in Rann of Kutch)</li>
+          </ul>
+        </li>
+        <li><b>Tricks — Easy mnemonics</b>:
+          <ul>
+            <li>Top 5 Indus tributaries: "<b>JC-RBS</b>" — Jhelum-Chenab-Ravi-Beas-Sutlej (N to S as they meet Indus)</li>
+            <li>Ganga left tributaries (largest): "<b>YRG-GK</b>" — Yamuna-Ramganga-Ghaghara-Gandak-Kosi</li>
+            <li>West-flowing peninsular rivers: "<b>NT-SM</b>" — Narmada, Tapti, Sabarmati, Mahi (4 main)</li>
+            <li>E-flowing peninsular rivers (S to N): "<b>KK-GM</b>" — Kaveri, Krishna, Godavari, Mahanadi</li>
+          </ul>
+        </li>
+        <li><b>Famous Confluences (Sangam)</b>:
+          <ul>
+            <li><b>Devprayag</b> — Bhagirathi + Alaknanda → Ganga</li>
+            <li><b>Allahabad/Prayagraj</b> — Ganga + Yamuna + Saraswati (mythical) → Triveni Sangam</li>
+            <li>Karnaprayag — Pindar + Alaknanda</li>
+            <li>Rudraprayag — Mandakini + Alaknanda</li>
+            <li>Vishnuprayag — Dhauliganga + Alaknanda</li>
+            <li>5 prayags of Uttarakhand: <b>Vishnu-Nanda-Karna-Rudra-Dev</b> "VNKRD"</li>
+          </ul>
+        </li>
+        <li><b>Important Dams</b>:
+          <ul>
+            <li><b>Bhakra-Nangal</b> — Sutlej (Punjab-HP) — highest gravity dam in India</li>
+            <li><b>Hirakud</b> — Mahanadi — longest dam in world</li>
+            <li><b>Sardar Sarovar</b> — Narmada — Gujarat</li>
+            <li><b>Tehri</b> — Bhagirathi (Uttarakhand) — tallest in India (260m)</li>
+            <li><b>Nagarjuna Sagar</b> — Krishna</li>
+            <li><b>KRS</b> — Kaveri (Karnataka)</li>
+            <li><b>Rihand</b> — Son river (UP)</li>
+            <li><b>Indira Sagar</b> — Narmada</li>
+          </ul>
+        </li>
+        <li><b>"Sorrows of India"</b>:
+          <ul>
+            <li>Kosi — Sorrow of Bihar (changes course; flooding)</li>
+            <li>Damodar — Sorrow of Bengal (now controlled by DVC)</li>
+            <li>Yellow River (Huang He) — Sorrow of China (foreign reference)</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India की rivers से civilization चली — Indus (Harappa), Ganga (Vedic), Brahmaputra (Assam). Himalayan rivers perennial (snow-fed, बारह महीने पानी), Peninsular rivers monsoon पर निर्भर। Tehri सबसे ऊँचा dam, Hirakud सबसे लम्बा, Bhakra highest gravity। हर river पर एक "treaty" है — Indus (Pakistan), Ganga (Bangladesh), Kaveri (Karnataka-TN dispute)।</li>
+      </ul>
     `,
     mcq: [
       { q: "Source of Ganga is?", opts: ["Mansarovar", "Gangotri Glacier (Gaumukh)", "Yamunotri", "Devprayag"], a: 1, ex: "Gangotri Glacier (Gaumukh) — Bhagirathi flows down; merges with Alaknanda at Devprayag to form Ganga." },
@@ -2078,6 +2894,73 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Indian Soils and Natural Vegetation</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>India's Climate Type</b>: <b>Tropical Monsoon</b>। Word "Monsoon" from Arabic <i>"Mausim"</i> = season।</li>
+        <li><b>4 Seasons of India</b>:
+          <ul>
+            <li><b>Winter</b> (Dec-Feb) — cold north; "Mavat" rainfall (Western Disturbances)</li>
+            <li><b>Summer / Pre-monsoon</b> (Mar-May) — hot, dry; "Loo" wind; "Nor'westers"/"Kalbaisakhi" in Bengal/Assam; "Mango showers" Kerala-Karnataka</li>
+            <li><b>SW Monsoon</b> (Jun-Sep) — main rainy season; 75-90% of India's rain</li>
+            <li><b>NE Monsoon / Retreating Monsoon</b> (Oct-Nov) — rain in TN, AP, Kerala; cyclone season Bay of Bengal</li>
+          </ul>
+        </li>
+        <li><b>Monsoon Mechanism</b>:
+          <ul>
+            <li>Summer: land heats up → low pressure over Thar/Tibetan Plateau → moist winds from Indian Ocean pulled in</li>
+            <li>SW winds split at <b>peninsular tip</b> into 2 branches:
+              <ul>
+                <li><b>Arabian Sea branch</b> — hits Western Ghats; reaches Mumbai, MP, Delhi</li>
+                <li><b>Bay of Bengal branch</b> — hits NE first (Meghalaya — Mawsynram + Cherrapunji), then UP, Punjab</li>
+              </ul>
+            </li>
+            <li>Onset: <b>1 June Kerala</b>; reaches Delhi ~29 June; Punjab ~1 July; covers all India by 15 July</li>
+            <li>Withdrawal starts from NW (Rajasthan) Sept-end → fully by mid-Oct</li>
+          </ul>
+        </li>
+        <li><b>Trick — Monsoon onset dates</b>:
+          <ul>
+            <li>"<b>1-15-29 June</b>": Kerala (1), Mumbai-Kolkata (~10), Delhi (~29)</li>
+            <li>Withdrawal pattern reverse</li>
+          </ul>
+        </li>
+        <li><b>Mawsynram + Cherrapunji</b> (Meghalaya) — <b>wettest places in world</b>; 11,000+ mm/year। Why? — Khasi Hills act as funnel for Bay of Bengal monsoon।</li>
+        <li><b>Driest places</b>: Western Rajasthan (Jaisalmer ~150 mm); Leh-Ladakh (cold desert, ~100 mm)।</li>
+        <li><b>Western Disturbances</b>: extra-tropical storms from Mediterranean → winter rain in NW India (Punjab, J&K) + snow in Himalayas। Important for Rabi wheat crop।</li>
+        <li><b>Local Storms</b>:
+          <ul>
+            <li><b>Loo</b> — hot dry wind, N India summer; sun-stroke risk</li>
+            <li><b>Nor'westers / Kalbaisakhi</b> ("calamity of Baisakh") — Bengal/Assam pre-monsoon; bring "<b>tea showers</b>"</li>
+            <li><b>Mango showers</b> — Kerala-Karnataka pre-monsoon; help mango crop</li>
+            <li><b>Cherry blossom showers</b> — Karnataka; help coffee</li>
+            <li><b>October heat</b> — sultry, humid (post-monsoon)</li>
+          </ul>
+        </li>
+        <li><b>El Niño effect</b>: weakens Indian monsoon → drought। 2009, 2014-15, 2019 drought years।</li>
+        <li><b>La Niña</b>: strengthens monsoon → good rains। 2020-21 strong La Niña।</li>
+        <li><b>Indian Ocean Dipole (IOD)</b>: + IOD strengthens monsoon; − IOD weakens।</li>
+        <li><b>Climate Regions of India (Koppen)</b>:
+          <ul>
+            <li><b>Tropical Monsoon (Am)</b> — Kerala, Konkan, A&N</li>
+            <li><b>Tropical Wet & Dry (Aw)</b> — most of peninsular India</li>
+            <li><b>Semi-arid (BSh)</b> — Rayalaseema, parts MH-Karnataka</li>
+            <li><b>Hot Desert (BWh)</b> — Thar</li>
+            <li><b>Humid Subtropical (Cwa)</b> — N India Indo-Gangetic Plain</li>
+            <li><b>Mountain (E)</b> — Himalayas</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Coromandel coast (TN-AP)"</b> — gets NE monsoon rain (Oct-Nov), opposite of rest of India।</li>
+        <li><b>Famous rainfall facts</b>:
+          <ul>
+            <li>Heaviest 1-day record in world: Mawsynram/Cherrapunji</li>
+            <li>India's avg annual rainfall: ~125 cm</li>
+            <li>South-most state Kerala: 300 cm; Rajasthan west: 25 cm</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India का climate fully monsoon पर depend है। Summer में Tibetan Plateau heat se North-S pressure gradient बनती है, Indian Ocean से wet winds आते हैं। पहले Western Ghats hit, फिर NE। Mawsynram में world record rain — Khasi Hills funnel effect। El Niño से कमज़ोर, La Niña से तेज़। Western Disturbances winter में Punjab wheat को बचाते हैं। पूरी अर्थव्यवस्था monsoon पर निर्भर है।</li>
+      </ul>
     `,
     mcq: [
       { q: "India's climate is described as?", opts: ["Equatorial", "Tropical Monsoon", "Mediterranean", "Continental"], a: 1, ex: "Tropical Monsoon — defined by seasonal wind reversal." },
@@ -2172,6 +3055,97 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Indian Agriculture and Crops</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>8 Major Soil Types of India — "ARBLDFP M-S"</b>:
+          <ul>
+            <li><b>A</b>lluvial — most extensive (~40%)</li>
+            <li><b>B</b>lack / Regur — Deccan trap</li>
+            <li><b>R</b>ed and Yellow</li>
+            <li><b>L</b>aterite</li>
+            <li><b>D</b>esert / Arid</li>
+            <li><b>F</b>orest / Mountain</li>
+            <li><b>P</b>eaty / Marshy</li>
+            <li><b>S</b>aline / Alkaline / Usara</li>
+          </ul>
+        </li>
+        <li><b>Alluvial Soil — "King of Indian soils"</b>:
+          <ul>
+            <li>Found: Indo-Gangetic plain, Brahmaputra valley, coastal plains, river deltas</li>
+            <li>States: UP, Bihar, WB, Punjab, Haryana, Gujarat, AP, Odisha</li>
+            <li>2 types: <b>Khadar</b> (new, more fertile) and <b>Bhangar</b> (older, less fertile, kankary)</li>
+            <li>Crops: <b>Rice, Wheat, Sugarcane, Pulses, Jute</b></li>
+            <li>Rich in: Potash; Poor in: Nitrogen, Phosphorus, Organic matter</li>
+          </ul>
+        </li>
+        <li><b>Black / Regur Soil</b>:
+          <ul>
+            <li>Found: Deccan trap (Maharashtra, MP, Gujarat, AP, Karnataka)</li>
+            <li>From basalt weathering (Deccan lava)</li>
+            <li>Black colour from iron compounds</li>
+            <li>Famous for <b>cotton</b> — "Black Cotton Soil"</li>
+            <li>Self-ploughing (cracks in summer)</li>
+            <li>Retains moisture (good for dry conditions)</li>
+            <li>Crops: Cotton, Sugarcane, Wheat, Linseed, Pulses, Tobacco</li>
+            <li>Rich in: Iron, Lime, Magnesium; Poor in: Nitrogen, Phosphorus</li>
+          </ul>
+        </li>
+        <li><b>Red & Yellow Soil</b>:
+          <ul>
+            <li>Found: Peninsular India (Eastern + Southern), Chota Nagpur, parts of Odisha-WB-NE</li>
+            <li>Red colour due to <b>iron oxide</b></li>
+            <li>Yellow due to hydration of iron oxide</li>
+            <li>Crops: <b>Wheat, Rice, Millets, Pulses, Groundnut, Cotton, Tobacco</b></li>
+            <li>Less fertile but improves with manure/irrigation</li>
+            <li>Poor in: N, P, K, lime, humus</li>
+          </ul>
+        </li>
+        <li><b>Laterite Soil</b>:
+          <ul>
+            <li>From intense leaching in high rainfall + tropical heat</li>
+            <li>Found: Western Ghats (Maharashtra, Karnataka, Kerala), Eastern Ghats (Odisha), Assam, Meghalaya</li>
+            <li>Red colour; rich in iron + aluminium oxides</li>
+            <li>Acidic, poor in nutrients</li>
+            <li>Crops: <b>Cashew, Tea, Coffee, Rubber, Coconut</b> (plantation crops)</li>
+            <li>Used as <b>building bricks</b> (laterite means "brick" in Latin)</li>
+          </ul>
+        </li>
+        <li><b>Desert / Arid Soil</b>:
+          <ul>
+            <li>Found: Rajasthan (Thar), parts of Gujarat, Haryana, Punjab</li>
+            <li>Sandy texture, low humus</li>
+            <li>High salinity</li>
+            <li>Can grow crops with irrigation (Indira Gandhi Canal)</li>
+            <li>Crops: Bajra, Pulses, Guar (oilseeds with irrigation)</li>
+          </ul>
+        </li>
+        <li><b>Forest / Mountain Soil</b>: Himalayas, Western/Eastern Ghats slopes; thin, undeveloped; suitable for tea, coffee, spices, fruits।</li>
+        <li><b>Peaty / Marshy</b>: high organic matter; Kerala backwaters, Odisha, Sundarbans, parts of TN; black, fertile but saline।</li>
+        <li><b>Saline / Alkaline (Usara, Reh, Kallar)</b>: poor productivity; Punjab, Haryana, Rajasthan, Bihar; due to over-irrigation, poor drainage।</li>
+        <li><b>Crop-Soil Trick</b>:
+          <ul>
+            <li><b>Wheat + Rice → Alluvial</b></li>
+            <li><b>Cotton → Black</b></li>
+            <li><b>Coffee + Tea + Rubber → Laterite</b></li>
+            <li><b>Millets + Pulses → Red</b></li>
+            <li><b>Bajra → Desert</b></li>
+          </ul>
+        </li>
+        <li><b>Indian Council of Agricultural Research (ICAR)</b> classification: 8 soil types (above)। National Bureau of Soil Survey & Land Use Planning (NBSS&LUP) — research।</li>
+        <li><b>Soil Conservation Methods</b>: Contour ploughing, Terrace farming, Strip cropping, Crop rotation, Afforestation, Check dams, Mulching।</li>
+        <li><b>Vegetation Zones of India (based on climate)</b>:
+          <ul>
+            <li>Tropical Evergreen — Western Ghats, NE, A&N (rainfall &gt; 200 cm)</li>
+            <li>Tropical Deciduous (Monsoon forest) — most of India (75-200 cm); teak, sal, sandalwood; "moist" + "dry"</li>
+            <li>Tropical Thorn — Rajasthan, Gujarat, MP (&lt; 75 cm); acacia, babool, cactus</li>
+            <li>Montane / Mountain — Himalayan slopes; pine, oak, deodar, chir</li>
+            <li>Mangrove — Sundarbans, Mahanadi, Godavari deltas; tidal forests</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India में सबसे ज़्यादा Alluvial soil (Ganga plain में 40%) — इसी से wheat-rice belt बनी। Deccan में Black soil — cotton belt। Laterite Western Ghats में — tea-coffee-rubber। Soil determine करता है क्या उगेगा। आज over-irrigation से salinity बढ़ रही है — major problem।</li>
+      </ul>
     `,
     mcq: [
       { q: "Most widespread soil in India?", opts: ["Black", "Red", "Alluvial (~40%)", "Laterite"], a: 2, ex: "Alluvial soil — Indo-Gangetic plain, deltas, coasts; ~40% of India." },
@@ -2292,6 +3266,111 @@
 
       <h3>Looking Ahead</h3>
       <p>Next: <b>Minerals and Mining in India</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Cropping Seasons — "K-R-Z"</b>:
+          <ul>
+            <li><b>Kharif</b> (June-Oct, monsoon) — Rice, Maize, Jowar, Bajra, Cotton, Soybean, Sugarcane, Groundnut, Tur</li>
+            <li><b>Rabi</b> (Oct-March, winter) — Wheat, Barley, Mustard, Gram, Peas, Linseed</li>
+            <li><b>Zaid</b> (Mar-June, summer) — Watermelon, Cucumber, Fodder crops</li>
+          </ul>
+        </li>
+        <li><b>Major Crops & Largest Producer States</b>:
+          <ul>
+            <li><b>Rice</b> — WB (largest), Punjab (most per hectare), UP, Andhra. Total: India is 2nd in world (after China)</li>
+            <li><b>Wheat</b> — UP, Punjab, Haryana, MP. 2nd in world</li>
+            <li><b>Sugarcane</b> — UP (largest), Maharashtra, Karnataka. 2nd in world</li>
+            <li><b>Cotton</b> — Gujarat (largest), Maharashtra, Telangana</li>
+            <li><b>Pulses</b> — MP (largest), Rajasthan, Maharashtra</li>
+            <li><b>Tea</b> — Assam (50%), WB, TN. Largest producer in world!</li>
+            <li><b>Coffee</b> — Karnataka (70%), Kerala, TN</li>
+            <li><b>Jute</b> — WB (largest), Bihar. Largest in world!</li>
+            <li><b>Rubber</b> — Kerala (75%), TN, Karnataka</li>
+            <li><b>Oilseeds</b> — MP, Rajasthan</li>
+            <li><b>Spices</b> — India largest producer + exporter; Kerala for cardamom, pepper</li>
+            <li><b>Millets</b> — Karnataka, Rajasthan, MH (Bajra, Jowar, Ragi)</li>
+          </ul>
+        </li>
+        <li><b>India in World Rankings</b>:
+          <ul>
+            <li>1st: Milk, Pulses, Jute, Spices, Mango, Banana, Tea, Cashew nuts</li>
+            <li>2nd: Rice, Wheat, Sugarcane, Cotton, Fruits, Vegetables, Groundnut, Fish</li>
+          </ul>
+        </li>
+        <li><b>Revolutions in Agriculture — "Colour-Crop pair"</b>:
+          <ul>
+            <li><b>Green</b> — Food grains (Norman Borlaug globally, M.S. Swaminathan India, 1966)</li>
+            <li><b>White</b> — Milk (Operation Flood, Verghese Kurien, 1970)</li>
+            <li><b>Yellow</b> — Oilseeds (Sam Pitroda, 1990s)</li>
+            <li><b>Blue</b> — Fish (Hiralal Chaudhuri)</li>
+            <li><b>Pink</b> — Onion / Prawn</li>
+            <li><b>Silver</b> — Eggs/Poultry</li>
+            <li><b>Brown</b> — Cocoa / Leather</li>
+            <li><b>Golden</b> — Fruits / Honey</li>
+            <li><b>Black</b> — Petroleum</li>
+            <li><b>Red</b> — Meat / Tomato</li>
+            <li><b>Round</b> — Potato</li>
+            <li><b>Grey</b> — Fertilizer / Wool</li>
+            <li><b>Rainbow</b> — overall agri development</li>
+            <li><b>Evergreen Revolution</b> — sustainable (M.S. Swaminathan)</li>
+          </ul>
+        </li>
+        <li><b>Mnemonic — "GW-YB-PSB"</b>: Green-White-Yellow-Blue-Pink-Silver-Brown (top 7)।</li>
+        <li><b>Green Revolution Key Facts</b>:
+          <ul>
+            <li>Started <b>1966-67</b> with HYV (High Yielding Variety) seeds</li>
+            <li>Wheat first (Mexican varieties — Sonora 64, Lerma Rojo)</li>
+            <li>Major beneficiaries: <b>Punjab, Haryana, Western UP</b></li>
+            <li>Father in India: <b>M.S. Swaminathan</b></li>
+            <li>Globally: Norman Borlaug (Nobel 1970)</li>
+            <li>Limitations: regional concentration, water depletion, soil degradation</li>
+          </ul>
+        </li>
+        <li><b>White Revolution / Operation Flood</b>:
+          <ul>
+            <li>Launched 1970</li>
+            <li><b>Verghese Kurien</b> — "Milkman of India"</li>
+            <li>Headquarters: Anand, Gujarat (Amul)</li>
+            <li>India became world's largest milk producer (~22% of world)</li>
+            <li>3 phases (1970-96)</li>
+          </ul>
+        </li>
+        <li><b>MSP (Minimum Support Price)</b>:
+          <ul>
+            <li>Announced by Govt on CACP recommendation</li>
+            <li>23 crops covered (7 cereals + 5 pulses + 7 oilseeds + 4 commercial)</li>
+            <li>Procurement by FCI (1965)</li>
+            <li>Current formula: 1.5 × A2+FL (Govt); Swaminathan recommended 1.5 × C2</li>
+          </ul>
+        </li>
+        <li><b>Important Schemes</b>:
+          <ul>
+            <li><b>PM-KISAN</b> (2019) — ₹6000/year DBT to all farmers</li>
+            <li><b>PMFBY</b> (2016) — crop insurance</li>
+            <li><b>PMKSY</b> (2015) — irrigation ("Har Khet Ko Pani")</li>
+            <li><b>Soil Health Card</b> (2015)</li>
+            <li><b>e-NAM</b> (2016) — National Agri Market online</li>
+            <li><b>Kisan Credit Card (KCC)</b> — 1998</li>
+            <li><b>NABARD</b> — apex agri development bank (1982)</li>
+          </ul>
+        </li>
+        <li><b>Trick — Major crop and state</b>:
+          <ul>
+            <li>"Rice = WB"</li>
+            <li>"Wheat = UP"</li>
+            <li>"Cotton = Gujarat"</li>
+            <li>"Tea = Assam"</li>
+            <li>"Coffee = Karnataka"</li>
+            <li>"Rubber = Kerala"</li>
+            <li>"Pulses = MP"</li>
+            <li>"Jute = WB"</li>
+            <li>"Sugarcane = UP"</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 1947 में India food deficit था — wheat import करना पड़ता था। 1966 में Green Revolution ने सब बदला — HYV seeds Punjab-Haryana से शुरू हुई और India self-sufficient हो गया। 1970 में White Revolution ने Amul model से milk superpower बनाया। आज India largest milk + pulses + spices producer है। पर 70% farmers अभी भी छोटी जोत वाले हैं — challenge बना हुआ है।</li>
+      </ul>
     `,
     mcq: [
       { q: "India's main agricultural seasons?", opts: ["Kharif and Rabi (and Zaid)", "Summer & Winter only", "Tropical & Temperate", "Spring & Autumn"], a: 0, ex: "Kharif (sown monsoon), Rabi (sown winter), Zaid (short summer)." },
@@ -2400,6 +3479,98 @@
         <li>Uranium — Jaduguda (Jharkhand — main mine), Khasi Hills (Meghalaya), Tummalapalle (Andhra).</li>
         <li>Thorium — monazite sands of Kerala — world's largest reserves.</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>"Ruhr of India" — Chota Nagpur Plateau</b> (Jharkhand-Odisha-Chhattisgarh-WB): Coal + Iron ore + Manganese + Mica + Bauxite + Copper सब यहाँ।</li>
+        <li><b>Iron Ore — 4 grades</b>:
+          <ul>
+            <li><b>Magnetite</b> — highest Fe ~70%; best</li>
+            <li><b>Haematite</b> — 60-70% Fe; India's largest reserves</li>
+            <li>Limonite, Siderite — lower grade</li>
+          </ul>
+        </li>
+        <li><b>Iron Ore — States (largest producer first)</b>:
+          <ul>
+            <li><b>Odisha</b> (50%) — Sundargarh, Keonjhar, Mayurbhanj</li>
+            <li><b>Chhattisgarh</b> — <b>Bailadila</b> (best magnetite; exported to Japan via Vizag)</li>
+            <li><b>Karnataka</b> — Bellary-Hospet, Kudremukh</li>
+            <li><b>Jharkhand</b> — Singhbhum (Noamundi)</li>
+            <li>Goa, AP</li>
+          </ul>
+        </li>
+        <li><b>Coal</b>:
+          <ul>
+            <li>India 4th largest reserves; ~98% <b>Gondwana coal</b></li>
+            <li><b>Jharkhand</b> — <b>Jharia (largest coalfield)</b>, Bokaro, Karanpura</li>
+            <li><b>Odisha</b> — Talcher (2nd largest reserves)</li>
+            <li><b>Chhattisgarh</b> — Korba</li>
+            <li><b>WB</b> — Raniganj (oldest, 1774)</li>
+            <li><b>Tamil Nadu</b> — Neyveli (largest lignite)</li>
+            <li>Quality: <b>Anthracite</b> (best, only J&K) > <b>Bituminous</b> > <b>Lignite</b> > <b>Peat</b></li>
+          </ul>
+        </li>
+        <li><b>Petroleum & Natural Gas</b>:
+          <ul>
+            <li><b>Mumbai High</b> — largest oilfield (offshore, 1974)</li>
+            <li><b>Gujarat</b> — Ankleshwar, Kalol, Lunej</li>
+            <li><b>Assam</b> — <b>Digboi (oldest, 1889)</b>, Naharkatiya</li>
+            <li><b>Krishna-Godavari Basin</b> — major gas (KG-D6)</li>
+            <li>Refineries: <b>Digboi (oldest, 1901)</b>, <b>Jamnagar (Reliance — world's largest)</b></li>
+          </ul>
+        </li>
+        <li><b>Bauxite (Aluminium ore)</b>:
+          <ul>
+            <li><b>Odisha</b> (largest) — Panchpatmali (Koraput)</li>
+            <li>Gujarat (Jamnagar), Jharkhand (Lohardaga)</li>
+            <li>Plants: BALCO (Korba), HINDALCO (Renukoot), NALCO (Angul)</li>
+          </ul>
+        </li>
+        <li><b>Mica</b>:
+          <ul>
+            <li>India world's largest producer of high-grade mica</li>
+            <li><b>Jharkhand — Koderma (world's largest mica belt)</b></li>
+            <li>Andhra (Nellore), Rajasthan (Ajmer)</li>
+          </ul>
+        </li>
+        <li><b>Manganese</b>:
+          <ul>
+            <li><b>MP</b> (largest) — Balaghat</li>
+            <li>Maharashtra (Nagpur), Odisha</li>
+          </ul>
+        </li>
+        <li><b>Copper</b>:
+          <ul>
+            <li><b>MP</b> (largest) — Malanjkhand (Balaghat)</li>
+            <li>Rajasthan (Khetri), Jharkhand (Mosabani)</li>
+          </ul>
+        </li>
+        <li><b>Gold</b>:
+          <ul>
+            <li><b>Hutti</b> (Karnataka) — only working gold mine</li>
+            <li>Kolar (Karnataka) closed 2001</li>
+            <li>Ramgiri (Andhra)</li>
+          </ul>
+        </li>
+        <li><b>Diamond</b>: only mine = <b>Panna, MP</b> (Majhgawan)।</li>
+        <li><b>Uranium</b>: <b>Jaduguda</b> (Jharkhand — main mine, 1967)। Tummalapalle (AP), Khasi (Meghalaya)।</li>
+        <li><b>Thorium</b>: <b>Monazite sands of Kerala</b> — world's largest reserves।</li>
+        <li><b>Silver</b>: Zawar (Rajasthan)।</li>
+        <li><b>Limestone</b>: Andhra, Rajasthan, MP, Gujarat — for cement।</li>
+        <li><b>Trick — Largest producer state</b>:
+          <ul>
+            <li>"Iron-Bauxite-Manganese-Copper क्षेत्रवार: <b>Odisha-Odisha-MP-MP</b>"</li>
+            <li>"Coal-Mica = <b>Jharkhand-Jharkhand</b>"</li>
+            <li>"Diamond = <b>Panna MP only</b>"</li>
+            <li>"Uranium = <b>Jaduguda Jharkhand</b>"</li>
+            <li>"Petroleum offshore = <b>Mumbai High</b>"</li>
+            <li>"Petroleum oldest land = <b>Digboi Assam</b>"</li>
+          </ul>
+        </li>
+        <li><b>Bailadila / Kudremukh / Hutti / Koderma / Jaduguda / Panna</b> — famous specific mines, must remember।</li>
+        <li><b>Story</b>: Chota Nagpur Plateau ("Ruhr of India") में सब important minerals concentrate — Jharkhand-Odisha-Chhattisgarh region। Coal-Iron-Mica-Bauxite एक ही जगह से = perfect for steel industry। इसीलिए TISCO (Tata Steel) Jamshedpur में 1907, फिर SAIL Bhilai-Rourkela-Durgapur। आज India 2nd largest steel producer in world।</li>
+      </ul>
     `,
     mcq: [
       { q: "'Ruhr of India' is?", opts: ["Mumbai region", "Chota Nagpur Plateau", "Deccan", "Konkan"], a: 1, ex: "Chota Nagpur — coal, iron, manganese concentration." },
@@ -2477,6 +3648,114 @@
       <ul>
         <li>Bengaluru — "Silicon Valley of India".</li>
         <li>Hyderabad — "Cyberabad". Other hubs: Pune, Chennai, Gurugram, Noida, Kochi, Trivandrum (Technopark).</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Iron & Steel — "Backbone of Industry"</b>:
+          <ul>
+            <li><b>TISCO Jamshedpur (1907)</b> — first integrated; by <b>J.N. Tata</b>; uses Jharia coal + Singhbhum iron + Subarnarekha water</li>
+            <li><b>SAIL Plants (public sector)</b>:
+              <ul>
+                <li><b>Bhilai</b> (Chhattisgarh) — USSR aid; largest</li>
+                <li><b>Rourkela</b> (Odisha) — West Germany aid</li>
+                <li><b>Durgapur</b> (WB) — British aid</li>
+                <li><b>Bokaro</b> (Jharkhand) — USSR aid</li>
+                <li>Burnpur (IISCO), Salem, Vijaynagar</li>
+                <li><b>Vizag</b> — only port-based steel plant</li>
+              </ul>
+            </li>
+            <li>Visvesvaraya Iron & Steel — Bhadravati (Karnataka)</li>
+          </ul>
+        </li>
+        <li><b>Trick — Steel plant aid</b>: "<b>Bhilai-USSR, Rourkela-Germany, Durgapur-UK, Bokaro-USSR</b>" = "BRDB-URGU"।</li>
+        <li><b>Cotton Textile (oldest organized industry)</b>:
+          <ul>
+            <li>First mill: Fort Gloster, Howrah (1818)</li>
+            <li>First successful: <b>Bombay Spinning & Weaving Mill 1854 (Cowasji Davar)</b></li>
+            <li><b>Maharashtra (largest)</b> — Mumbai = "<b>Cottonopolis of India</b>"</li>
+            <li><b>Gujarat</b> — Ahmedabad = "<b>Manchester of India / Boston of East</b>"</li>
+            <li><b>Tamil Nadu</b> — Coimbatore = "<b>Manchester of South India</b>"</li>
+            <li>UP — Kanpur = "<b>Manchester of North India</b>"</li>
+          </ul>
+        </li>
+        <li><b>Jute Industry</b>:
+          <ul>
+            <li>India largest producer; Bangladesh largest exporter</li>
+            <li>First mill: <b>Rishra (1855)</b> near Kolkata</li>
+            <li>Mostly along <b>Hooghly river WB</b> — Titagarh, Howrah, Budge-Budge</li>
+          </ul>
+        </li>
+        <li><b>Sugar Industry</b>:
+          <ul>
+            <li>2nd largest agro-industry</li>
+            <li><b>UP</b> (largest production) — Meerut belt</li>
+            <li><b>Maharashtra</b> (highest recovery) — cooperative model</li>
+            <li>Shifting from N to S</li>
+          </ul>
+        </li>
+        <li><b>Paper Industry</b>:
+          <ul>
+            <li>First mill: Serampore (1812)</li>
+            <li><b>Nepanagar</b> (MP) — newsprint</li>
+            <li><b>Hoshangabad</b> (MP) — currency notes</li>
+            <li><b>Dehradun</b> — security paper</li>
+            <li>Ballarpur, Titagarh — general paper</li>
+          </ul>
+        </li>
+        <li><b>Cement Industry</b>:
+          <ul>
+            <li>First plant: <b>Chennai (1904)</b></li>
+            <li>India 2nd largest producer in world</li>
+            <li>Major: Rajasthan, Andhra, TN, MP, Gujarat</li>
+          </ul>
+        </li>
+        <li><b>Fertilizer Industry</b>:
+          <ul>
+            <li>First plant: <b>Ranipet (TN, 1906)</b></li>
+            <li>First large-scale: <b>Sindri (Jharkhand, 1951)</b></li>
+            <li>Trombay, Nangal, Namrup</li>
+          </ul>
+        </li>
+        <li><b>Aircraft + Shipbuilding + Locomotives</b>:
+          <ul>
+            <li><b>HAL (Hindustan Aeronautics)</b> — HQ Bengaluru, plants at Kanpur, Koraput, Nasik, Hyderabad</li>
+            <li><b>Cochin Shipyard</b> — largest in India</li>
+            <li><b>Mazagon Dock</b> Mumbai — warships</li>
+            <li><b>Garden Reach</b> Kolkata, <b>Hindustan Shipyard</b> Vizag</li>
+            <li>Locomotives: <b>Chittaranjan</b> (electric, WB), <b>Varanasi DLW</b> (diesel), <b>Kapurthala</b> (coaches), <b>Perambur ICF</b> (coaches, Chennai)</li>
+          </ul>
+        </li>
+        <li><b>IT / Electronics Hubs</b>:
+          <ul>
+            <li><b>Bengaluru</b> — "<b>Silicon Valley of India</b>"</li>
+            <li><b>Hyderabad</b> — "<b>Cyberabad</b>"</li>
+            <li><b>Chennai, Pune, Gurugram, Noida, Kochi, Trivandrum (Technopark)</b></li>
+          </ul>
+        </li>
+        <li><b>Industrial Corridors (Make in India)</b>:
+          <ul>
+            <li>DMIC — Delhi-Mumbai (1st, with Japan)</li>
+            <li>CBIC — Chennai-Bengaluru</li>
+            <li>BMIC — Bengaluru-Mumbai</li>
+            <li>AKIC — Amritsar-Kolkata</li>
+            <li>VCIC — Vizag-Chennai</li>
+          </ul>
+        </li>
+        <li><b>Trick — Famous nickname</b>:
+          <ul>
+            <li>Ruhr of India = Chota Nagpur</li>
+            <li>Manchester of India = Ahmedabad</li>
+            <li>Manchester of South = Coimbatore</li>
+            <li>Manchester of North = Kanpur</li>
+            <li>Silicon Valley = Bengaluru</li>
+            <li>Cyberabad = Hyderabad</li>
+            <li>Detroit of India = Pune (auto)</li>
+            <li>Pittsburgh of India = Jamshedpur (steel)</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 1907 में TISCO Jamshedpur ने India का industrial era शुरू किया। 1950s में Nehru ने Mahalanobis model से heavy industry push किया (Bhilai-Rourkela-Durgapur)। 1991 के LPG reforms ने private sector खोला। आज IT-services Bengaluru-Hyderabad में world-leading। Make in India + PLI से manufacturing share बढ़ाना है।</li>
       </ul>
     `,
     mcq: [
@@ -2559,6 +3838,105 @@
       <ul>
         <li>MNRE (since 2006). SECI, IREDA. NTPC, NHPC, NPCIL, ONGC, GAIL, CIL.</li>
       </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Energy Mix in India</b>:
+          <ul>
+            <li>Thermal (coal-based): ~55-60% of installed capacity</li>
+            <li>Hydro: ~12%</li>
+            <li>Renewable (solar + wind + biomass): ~25%+</li>
+            <li>Nuclear: ~2%</li>
+            <li>Target: <b>500 GW non-fossil by 2030</b> (Glasgow commitment)</li>
+          </ul>
+        </li>
+        <li><b>Hydroelectric Power — Famous Dams</b>:
+          <ul>
+            <li><b>Sidrapong (Darjeeling, 1897)</b> — first hydel plant</li>
+            <li><b>Bhakra-Nangal</b> — Sutlej river; Punjab-HP-Haryana-Rajasthan project; highest gravity dam in India</li>
+            <li><b>Hirakud</b> — Mahanadi (Odisha); longest dam in world</li>
+            <li><b>Tehri</b> — Bhagirathi (Uttarakhand); tallest in India (260m)</li>
+            <li><b>Sardar Sarovar</b> — Narmada; Gujarat</li>
+            <li><b>Nagarjuna Sagar</b> — Krishna; masonry dam; AP-Telangana</li>
+            <li><b>DVC (Damodar Valley Corp, 1948)</b> — first multipurpose project; modelled on TVA-USA</li>
+            <li>Indira Sagar (Narmada), Koyna (MH), Idukki (Kerala), Sharavathi (Karnataka)</li>
+          </ul>
+        </li>
+        <li><b>Trick — Dam superlatives</b>:
+          <ul>
+            <li>Longest in <b>world</b> = Hirakud</li>
+            <li>Tallest in <b>India</b> = Tehri</li>
+            <li>Highest gravity = Bhakra</li>
+            <li>First multipurpose = DVC</li>
+            <li>First hydel = Sidrapong</li>
+          </ul>
+        </li>
+        <li><b>Thermal Power</b>:
+          <ul>
+            <li>Largest source of electricity (~70%)</li>
+            <li><b>NTPC (1975)</b> — National Thermal Power Corp</li>
+            <li>NTPC plants: Singrauli, Korba, Ramagundam, Farakka, Kahalgaon</li>
+            <li><b>Vindhyachal (MP)</b> — largest NTPC plant</li>
+          </ul>
+        </li>
+        <li><b>Nuclear Power — Plants</b>:
+          <ul>
+            <li><b>Tarapur</b> (Maharashtra, 1969) — first; BWR</li>
+            <li><b>Rawatbhata</b> (Rajasthan) — Canadian aid</li>
+            <li><b>Kalpakkam</b> (TN, MAPS) — first indigenous</li>
+            <li><b>Narora</b> (UP)</li>
+            <li><b>Kakrapar</b> (Gujarat)</li>
+            <li><b>Kaiga</b> (Karnataka)</li>
+            <li><b>Kudankulam</b> (TN) — Russian VVER; largest</li>
+            <li><b>BARC Trombay</b> — Apsara (1956, first in Asia), Cirus, Dhruva research reactors</li>
+          </ul>
+        </li>
+        <li><b>Trick — 7 Nuclear plants</b>: "<b>TaRa Kalpa Naro Kakra Kaiga Kudan</b>" = Tarapur-Rawatbhata-Kalpakkam-Narora-Kakrapar-Kaiga-Kudankulam।</li>
+        <li><b>Solar Energy</b>:
+          <ul>
+            <li><b>Bhadla Solar Park</b> (Rajasthan) — once world's largest, ~2245 MW</li>
+            <li><b>Pavagada</b> (Karnataka)</li>
+            <li><b>Kurnool</b> (AP)</li>
+            <li><b>Kamuthi</b> (TN)</li>
+            <li><b>Charanka</b> (Gujarat)</li>
+            <li>International Solar Alliance — HQ <b>Gurugram</b> (founded 2015 by India + France)</li>
+          </ul>
+        </li>
+        <li><b>Wind Energy — India 4th largest globally</b>:
+          <ul>
+            <li><b>Tamil Nadu (largest)</b> — Muppandal (Kanyakumari)</li>
+            <li>Gujarat (Kutch), Maharashtra, Rajasthan, Karnataka, Andhra</li>
+          </ul>
+        </li>
+        <li><b>Other Non-Conventional</b>:
+          <ul>
+            <li><b>Tidal</b>: Gulf of Kutch, Gulf of Khambhat — highest potential</li>
+            <li><b>Geothermal</b>: <b>Puga Valley</b> (Ladakh), Manikaran (HP), Tattapani (Chhattisgarh)</li>
+            <li><b>Biomass / Biogas</b>: Gobar gas plants</li>
+            <li><b>Wave</b>: Vizhinjam (Kerala) experimental</li>
+          </ul>
+        </li>
+        <li><b>Coal-based supplies ~55% of commercial energy</b>। CIL (Coal India Ltd) — world's largest coal producer।</li>
+        <li><b>Refineries</b>:
+          <ul>
+            <li><b>Digboi</b> (Assam, 1901) — oldest</li>
+            <li><b>Jamnagar</b> (Gujarat, Reliance) — world's largest</li>
+            <li>Mumbai, Koyali, Mathura, Vizag, Barauni</li>
+          </ul>
+        </li>
+        <li><b>Important Institutions</b>:
+          <ul>
+            <li>MNRE — Ministry of New & Renewable Energy (2006)</li>
+            <li>SECI — Solar Energy Corp</li>
+            <li>IREDA — Indian Renewable Energy Dev Agency</li>
+            <li>NTPC, NHPC, NPCIL, ONGC, GAIL, CIL</li>
+            <li>BARC — Bhabha Atomic Research Centre</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Hot Tip"</b>: <b>National Hydrogen Mission 2021</b> — Green Hydrogen production target।</li>
+        <li><b>Story</b>: India का 55% energy coal से आता है — polluting। Govt 2030 तक 500 GW non-fossil target रखी है। Solar में Bhadla world-class। Wind में TN leader। Nuclear सिर्फ़ 2% but expanding (Kudankulam Russian)। Hydrogen mission future fuel की दिशा। Energy transition India's biggest challenge है।</li>
+      </ul>
     `,
     mcq: [
       { q: "First hydel station?", opts: ["Sivasamudram", "Sidrapong (1897)", "Khopoli", "Pykara"], a: 1, ex: "Sidrapong, Darjeeling — 1897." },
@@ -2638,6 +4016,90 @@
       <ul>
         <li>HVJ (Hazira-Vijaipur-Jagdishpur) — longest gas pipeline.</li>
         <li>Kandla–Bhatinda crude oil; Salaya–Mathura.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Railways — "Asia's largest network"</b>:
+          <ul>
+            <li><b>First train: 16 April 1853</b>, Mumbai (Bori Bunder) to Thane, 34 km, by Lord Dalhousie</li>
+            <li>Nationalised 1951</li>
+            <li>4th largest in world; ~70,000 km</li>
+            <li><b>18 zones</b> (including Metro Railway Kolkata)</li>
+            <li>Gauges: <b>Broad (1.676 m)</b>, Metre (1.000 m), Narrow (0.762/0.610 m) — Project Unigauge</li>
+            <li>HQ: Rail Bhawan, New Delhi</li>
+            <li>Railway Museum: Chanakyapuri</li>
+            <li>Railway Staff College: Vadodara; RDSO: Lucknow</li>
+            <li><b>Konkan Railway</b> — Roha (Maharashtra) to Mangalore (along Western Ghats)</li>
+            <li>Metro: <b>Kolkata first (1984)</b>; Delhi 2002</li>
+          </ul>
+        </li>
+        <li><b>Roadways</b>:
+          <ul>
+            <li>2nd largest road network in world (~63 lakh km)</li>
+            <li><b>NHAI (1988)</b> manages National Highways (~1,30,000 km)</li>
+            <li><b>Longest NH: NH 44</b> (Srinagar to Kanyakumari, ~3,745 km) — earlier NH 7</li>
+            <li><b>Golden Quadrilateral</b>: Delhi-Mumbai-Chennai-Kolkata</li>
+            <li>NSEW Corridor: Srinagar-Kanyakumari + Silchar-Porbandar</li>
+            <li><b>BRO (Border Roads Org)</b> — strategic border roads; built highest motorable passes (<b>Khardung La, Umling La</b>)</li>
+            <li><b>Grand Trunk Road</b> — Sher Shah Suri's road; today NH-1 + NH-2</li>
+            <li>Bharatmala Pariyojana (2017)</li>
+          </ul>
+        </li>
+        <li><b>Waterways — Inland Waterways Authority (IWAI, 1986)</b>:
+          <ul>
+            <li><b>NW-1</b> — <b>Ganga</b> (Allahabad-Haldia, 1,620 km)</li>
+            <li><b>NW-2</b> — <b>Brahmaputra</b> (Sadiya-Dhubri)</li>
+            <li><b>NW-3</b> — West Coast Canal (Kollam-Kottapuram, Kerala)</li>
+            <li><b>NW-4</b> — Krishna-Godavari</li>
+            <li><b>NW-5</b> — Brahmani-Mahanadi delta</li>
+          </ul>
+        </li>
+        <li><b>Major Ports — 13 Major Ports</b>:
+          <ul>
+            <li><b>West coast (6)</b>: <b>Kandla (Deendayal)</b> Gujarat — tidal; <b>Mumbai</b> — largest natural harbour; <b>JNPT/Nhava Sheva</b> Mumbai — largest container port; <b>Marmagao</b> Goa — iron ore export; New Mangalore; <b>Cochin</b> Kerala</li>
+            <li><b>East coast (6 + Port Blair)</b>: <b>Kolkata-Haldia</b> WB — riverine (Hooghly); <b>Paradip</b> Odisha — iron; <b>Vishakhapatnam</b> — deepest natural; <b>Chennai</b> — oldest artificial; <b>Ennore/Kamarajar</b>; <b>Tuticorin</b>; <b>Port Blair</b> (A&N)</li>
+          </ul>
+        </li>
+        <li><b>Trick — Port superlatives</b>:
+          <ul>
+            <li>Largest container = JNPT</li>
+            <li>Deepest natural harbour = Vizag</li>
+            <li>Oldest artificial = Chennai</li>
+            <li>Largest natural = Mumbai</li>
+            <li>Only tidal = Kandla</li>
+            <li>Only riverine = Kolkata</li>
+            <li>Iron ore export = Marmagao</li>
+          </ul>
+        </li>
+        <li><b>Airways</b>:
+          <ul>
+            <li>First flight: 1911, Allahabad-Naini (mail)</li>
+            <li>First passenger: J.R.D. Tata (1932, Karachi-Mumbai)</li>
+            <li><b>Air India founded 1932</b> (Tata Air Services)</li>
+            <li>AAI (Airports Authority of India, 1995)</li>
+            <li>International airports: <b>Delhi (IGI, busiest)</b>, Mumbai (CSI), Kolkata (Subhash Chandra Bose), Chennai, Bengaluru (Kempegowda), Hyderabad (Rajiv Gandhi), Kochi, Trivandrum, Goa, Ahmedabad (Sardar Patel)</li>
+            <li>Pawan Hans — helicopter services</li>
+          </ul>
+        </li>
+        <li><b>Pipelines</b>:
+          <ul>
+            <li><b>HVJ (Hazira-Vijaipur-Jagdishpur)</b> — longest gas pipeline</li>
+            <li>Kandla-Bhatinda — crude oil</li>
+            <li>Salaya-Mathura</li>
+          </ul>
+        </li>
+        <li><b>Tricks — Key Mnemonics</b>:
+          <ul>
+            <li>"<b>NH 44 longest (3745 km Sri-K)</b>"</li>
+            <li>"<b>Golden Quadrilateral = 4 metros</b>"</li>
+            <li>"<b>NW-1 Ganga, NW-2 Brahmaputra</b>" — main 2</li>
+            <li>"<b>Konkan Railway = Roha to Mangalore</b>"</li>
+            <li>"<b>5G launched 1 Oct 2022</b>" — connectivity tech</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: 1853 में पहली train Mumbai-Thane चली। Asia's largest रेलवे आज भी। Roads में NH-44 longest। Sea में 13 major ports। Air में Delhi airport busiest। 1990s से Konkan Railway, 2000s में Delhi Metro, 2017 में Bharatmala — infrastructure boom। 5G 2022 में। India का transport future = electric vehicles + bullet train (Mumbai-Ahmedabad)।</li>
       </ul>
     `,
     mcq: [
@@ -2729,6 +4191,104 @@
 
       <h3>Ecotone & Niche</h3>
       <p>Ecotone — transition zone between ecosystems (mangrove between land and sea); edge species are abundant — <b>edge effect</b>. <b>Niche</b> — functional role + habitat. Two species cannot share the exact same niche (Gause's exclusion principle).</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Key Terms — Founders</b>:
+          <ul>
+            <li><b>Ecology</b> — term coined by <b>Ernst Haeckel 1869</b> (German)</li>
+            <li><b>Ecosystem</b> — term coined by <b>A.G. Tansley 1935</b></li>
+            <li><b>Biosphere</b> — Eduard Suess (1875)</li>
+            <li><b>10% Law</b> — Lindeman 1942</li>
+          </ul>
+        </li>
+        <li><b>Levels of Organisation</b>: Organism → Population → Community → Ecosystem → Biome → Biosphere।</li>
+        <li><b>Ecosystem Components</b>:
+          <ul>
+            <li><b>Abiotic</b> — sunlight, temperature, water, soil, air, minerals</li>
+            <li><b>Biotic</b>:
+              <ul>
+                <li><b>Producers (Autotrophs)</b> — green plants, algae; photosynthesis</li>
+                <li><b>Consumers (Heterotrophs)</b>:
+                  <ul>
+                    <li>Primary — herbivores (cow, deer)</li>
+                    <li>Secondary — carnivores eating herbivores (fox, snake)</li>
+                    <li>Tertiary — top carnivores (tiger, eagle)</li>
+                    <li>Omnivores (humans, bears)</li>
+                  </ul>
+                </li>
+                <li><b>Decomposers (Saprotrophs)</b> — bacteria, fungi</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><b>Trick — Trophic Levels (Greek)</b>:
+          <ul>
+            <li>T1 — Producers (plants)</li>
+            <li>T2 — Herbivores</li>
+            <li>T3 — Carnivores (primary)</li>
+            <li>T4 — Top carnivores</li>
+          </ul>
+        </li>
+        <li><b>10% Law (Lindeman)</b>: Only 10% energy passes to next trophic level; 90% lost as heat। So food chains rarely have &gt;4-5 levels।</li>
+        <li><b>Food Chain vs Food Web</b>:
+          <ul>
+            <li><b>Grazing food chain</b> — starts with green plant</li>
+            <li><b>Detritus food chain</b> — starts with dead organic matter</li>
+            <li><b>Food web</b> — interlinked food chains</li>
+          </ul>
+        </li>
+        <li><b>Ecological Pyramids — "NBE"</b>:
+          <ul>
+            <li><b>N</b>umbers — can be inverted (one tree, many insects)</li>
+            <li><b>B</b>iomass — usually upright; inverted in oceans</li>
+            <li><b>E</b>nergy — ALWAYS upright (10% law)</li>
+          </ul>
+        </li>
+        <li><b>Biogeochemical Cycles</b>:
+          <ul>
+            <li><b>Water cycle</b> — evaporation, condensation, precipitation</li>
+            <li><b>Carbon cycle</b> — photosynthesis ↔ respiration; combustion</li>
+            <li><b>Nitrogen cycle</b> — N₂ fixation (<b>Rhizobium in legumes, Azotobacter, lightning</b>), nitrification, ammonification, denitrification</li>
+            <li><b>Phosphorus cycle</b> — sedimentary; NO gaseous phase!</li>
+            <li><b>Oxygen cycle</b> — photosynthesis ↔ respiration</li>
+          </ul>
+        </li>
+        <li><b>Ecological Succession</b>:
+          <ul>
+            <li>Gradual change in species composition over time → <b>Climax community</b> (stable end stage)</li>
+            <li><b>Primary succession</b> — on bare rock/lava (slow, takes 1000+ yrs)</li>
+            <li><b>Secondary succession</b> — disturbed area, soil exists (faster)</li>
+            <li>Types by start medium: <b>Hydrosere</b> (water), <b>Xerosere</b> (dry), <b>Lithosere</b> (rock), <b>Psammosere</b> (sand)</li>
+          </ul>
+        </li>
+        <li><b>Biomes — "TS-D-TG-M-T-T"</b>:
+          <ul>
+            <li><b>T</b>ropical Rainforest — Amazon, Congo, SE Asia, W. Ghats</li>
+            <li><b>S</b>avanna — Africa (Serengeti), Llanos, Australia</li>
+            <li><b>D</b>esert — Sahara, Thar, Gobi, Atacama</li>
+            <li><b>T</b>emperate Grassland — Pampas, Steppes, Prairies, Veld, Downs</li>
+            <li>Mediterranean — citrus, olives</li>
+            <li><b>T</b>aiga (Boreal) — coniferous; Siberia, Canada</li>
+            <li><b>T</b>undra — Arctic; mosses, lichens; permafrost</li>
+          </ul>
+        </li>
+        <li><b>Grassland Mnemonic</b>:
+          <ul>
+            <li><b>Pampas</b> — Argentina (S. America)</li>
+            <li><b>Steppes</b> — Eurasia (Russia)</li>
+            <li><b>Prairies</b> — N. America</li>
+            <li><b>Veld</b> — S. Africa</li>
+            <li><b>Downs</b> — Australia</li>
+            <li>Trick: "<b>PSPVD</b>" — पंप-स्टेप-प्रेरी-वेल्ड-डाउन</li>
+          </ul>
+        </li>
+        <li><b>Ecotone</b>: transition zone between two ecosystems (mangrove between land-sea, grassland-forest)। <b>Edge effect</b> — more species at the edge।</li>
+        <li><b>Niche</b>: functional role + habitat of species। <b>Gause's Competitive Exclusion Principle</b>: two species cannot share exact same niche।</li>
+        <li><b>Trick — "Ecology = Haeckel 1869, Ecosystem = Tansley 1935, 10% = Lindeman 1942"</b>।</li>
+        <li><b>Story</b>: Ecology study करता है organisms और environment के बीच का रिश्ता। हर ecosystem में producers (plants) → consumers → decomposers का cycle। Energy सिर्फ़ 10% अगले level को मिलती है। Nitrogen-cycle में bacteria वो काम करते हैं जो plants नहीं कर सकते। Biomes पूरी planet को cover करते हैं — हम सब आख़िर interconnected हैं।</li>
+      </ul>
     `,
     mcq: [
       { q: "Term 'Ecology' coined by?", opts: ["Tansley", "Ernst Haeckel (1869)", "Odum", "Lindeman"], a: 1, ex: "Ernst Haeckel, German, 1869." },
@@ -2829,6 +4389,97 @@
         <li>Wildlife Protection Act 1972; Water Act 1974 (CPCB); Forest Conservation 1980.</li>
         <li>Air Act 1981; Environment Protection Act 1986 (post Bhopal 1984).</li>
         <li>Biological Diversity Act 2002; NGT Act 2010.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Air Pollutants Quick</b>:
+          <ul>
+            <li><b>CO</b> — vehicles; binds Hb → suffocation</li>
+            <li><b>SO₂</b> — coal burning; acid rain, bronchitis</li>
+            <li><b>NOₓ</b> — combustion; acid rain, photochemical smog</li>
+            <li><b>PM 2.5 / PM 10</b> — particulates; lung cancer</li>
+            <li><b>CFCs</b> — refrigerants; deplete stratospheric ozone</li>
+            <li><b>O₃ at ground</b> — smog; harmful (vs ozone in stratosphere = good)</li>
+          </ul>
+        </li>
+        <li><b>2 Types of Smog</b>:
+          <ul>
+            <li><b>London / Classical smog (1952)</b> — SO₂ + smoke + fog; cold humid; killed ~12,000</li>
+            <li><b>Los Angeles / Photochemical smog</b> — NOx + VOCs + sunlight → ozone, PAN; warm sunny</li>
+          </ul>
+        </li>
+        <li><b>Acid Rain</b>: SO₂ + NOx → H₂SO₄ + HNO₃ → pH &lt; 5.6। Damages Taj Mahal (<b>"Marble Cancer"</b> — Mathura refinery SO₂), Black Forest Germany, aquatic life।</li>
+        <li><b>Greenhouse Effect (causes Global Warming)</b>:
+          <ul>
+            <li>GHGs trap infrared radiation</li>
+            <li>Without them Earth = ~−18°C</li>
+            <li>Main GHGs: <b>CO₂ (~60%), CH₄ (~20%, more potent ×25), N₂O, CFCs, Water vapour</b></li>
+            <li>CO₂ — fossil fuels, deforestation</li>
+            <li>CH₄ — paddy fields, livestock (cattle), landfills</li>
+            <li>N₂O — fertilizers</li>
+          </ul>
+        </li>
+        <li><b>Trick — "Top GHGs by Contribution = CO₂ → CH₄ → N₂O → CFCs"</b>। Memory: "<b>Cars-Methane-Nitro-Coolant</b>"।</li>
+        <li><b>Ozone Hole / Depletion</b>:
+          <ul>
+            <li>Stratospheric O₃ (15-35 km) absorbs UV-B/UV-C</li>
+            <li>Depleted by <b>CFCs</b>, halons, methyl bromide, HCFCs</li>
+            <li><b>Ozone hole over Antarctica</b> — discovered 1985</li>
+            <li><b>Dobson Unit</b> — measures ozone column</li>
+            <li>Effects: skin cancer, cataracts, immune suppression, crop damage</li>
+            <li><b>Montreal Protocol 1987</b> — phased out CFCs (most successful environmental treaty)</li>
+            <li><b>Kigali Amendment 2016</b> — phases out HFCs</li>
+          </ul>
+        </li>
+        <li><b>Water Pollution Concepts</b>:
+          <ul>
+            <li><b>BOD (Biochemical O₂ Demand)</b> — high BOD = polluted water</li>
+            <li><b>Eutrophication</b> — excess N/P from fertilizers → algal bloom → O₂ depletion → fish die. Dal Lake suffers</li>
+            <li><b>Biomagnification</b> — accumulation of toxins (DDT, mercury) up the food chain</li>
+          </ul>
+        </li>
+        <li><b>Diseases from Water Pollution</b>:
+          <ul>
+            <li><b>Minamata disease</b> — Mercury poisoning (Japan 1956)</li>
+            <li><b>Itai-Itai disease</b> — Cadmium (Japan)</li>
+            <li><b>Blue Baby Syndrome</b> — Nitrates (methaemoglobinaemia in infants)</li>
+            <li><b>Fluorosis</b> — high Fluoride</li>
+            <li><b>Arsenic poisoning</b> — Ganga delta (WB, Bangladesh)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "MIC: Mercury-Itai-Cadmium" + "Blue-Nitrate"</b>।</li>
+        <li><b>Noise Pollution</b>: &gt; 85 dB harmful। WHO: 55 dB day / 45 night residential।</li>
+        <li><b>International Climate Treaties — Timeline</b>:
+          <ul>
+            <li><b>Stockholm 1972</b> — first UN environment conf; UNEP formed; <b>World Environment Day 5 June</b></li>
+            <li><b>Vienna 1985</b> — ozone protection framework</li>
+            <li><b>Montreal Protocol 1987</b> — phased out CFCs</li>
+            <li><b>Earth Summit / Rio 1992</b> — Agenda 21, UNFCCC, CBD adopted</li>
+            <li><b>Kyoto Protocol 1997</b> — first binding GHG cuts; India ratified, not bound</li>
+            <li><b>Bali Action Plan 2007</b></li>
+            <li><b>Copenhagen 2009</b></li>
+            <li><b>Paris Agreement (COP-21, 2015)</b> — limit warming to well below 2°C, ideally 1.5°C; NDCs</li>
+            <li><b>Glasgow COP-26 2021</b> — India's <b>"Panchamrit"</b>; net zero by 2070</li>
+            <li><b>IPCC (1988)</b> — by WMO + UNEP</li>
+          </ul>
+        </li>
+        <li><b>Trick — Treaty mnemonic</b>: "<b>SVR-MK-PB-CG-Pan</b>" = Stockholm-Vienna-Rio-Montreal-Kyoto-Paris-Bali-Copenhagen-Glasgow-Panchamrit।</li>
+        <li><b>India's Environmental Laws</b>:
+          <ul>
+            <li>Wildlife Protection Act 1972</li>
+            <li>Water Act 1974 (CPCB)</li>
+            <li>Forest Conservation Act 1980</li>
+            <li>Air Act 1981</li>
+            <li><b>Environment Protection Act 1986</b> (umbrella, post Bhopal 1984)</li>
+            <li>Biological Diversity Act 2002</li>
+            <li><b>NGT Act 2010</b> (National Green Tribunal)</li>
+          </ul>
+        </li>
+        <li><b>Trick — "1972-74-80-81-86 = WPA-Water-FCA-Air-EPA"</b>।</li>
+        <li><b>Bhopal Gas Tragedy 1984</b> — MIC (Methyl Isocyanate) leak from Union Carbide; 3000+ killed instantly; "World's worst industrial disaster"। Led to EPA 1986।</li>
+        <li><b>Story</b>: Pollution 4 categories — Air, Water, Soil, Noise। Greenhouse gases से global warming। Ozone depletion से UV reach। Montreal Protocol के बाद ozone heal हो रहा है। पर CO₂ बढ़ रहा है — climate change inevitable। 2070 तक India ko net zero पहुँचना है। हर हर person की responsibility है।</li>
       </ul>
     `,
     mcq: [
@@ -2939,6 +4590,117 @@
         <li>Cartagena 2000 — biosafety/GMOs.</li>
         <li>Nagoya 2010 — access & benefit sharing.</li>
         <li>Bonn (CMS) — migratory species.</li>
+      </ul>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Levels of Biodiversity</b>: <b>G</b>enetic, <b>S</b>pecies, <b>E</b>cosystem। Term by E.O. Wilson।</li>
+        <li><b>India = 17 Megadiverse countries</b> (one of)। ~7-8% of world species on 2.4% land।</li>
+        <li><b>4 Biodiversity Hotspots in India</b> (out of 36 globally):
+          <ul>
+            <li><b>Western Ghats + Sri Lanka</b> — Nilgiri tahr, lion-tailed macaque</li>
+            <li><b>Eastern Himalaya</b> — red panda, snow leopard</li>
+            <li><b>Indo-Burma</b> — Hoolock gibbon (only ape in India)</li>
+            <li><b>Sundaland</b> — Nicobar Islands</li>
+          </ul>
+        </li>
+        <li><b>Hotspot Concept</b> — by <b>Norman Myers 1988</b>: &gt;1500 endemic species + &gt;70% original habitat lost।</li>
+        <li><b>IUCN Red List Categories</b>: <b>EX → EW → CR → EN → VU → NT → LC → DD → NE</b>।</li>
+        <li><b>CR (Critically Endangered) in India</b>: Great Indian Bustard, Jerdon's courser, Pygmy hog, Hangul (Kashmir stag), Kondana rat, Namdapha flying squirrel, <b>Gharial</b>, Gangetic shark।</li>
+        <li><b>EN (Endangered)</b>: Asian elephant, Asiatic lion, Snow leopard, One-horned rhino, Nilgiri tahr, Lion-tailed macaque, Red panda, Wild ass, Dhole।</li>
+        <li><b>Project Tiger (1973)</b>:
+          <ul>
+            <li>Launched at <b>Jim Corbett</b></li>
+            <li>Tiger = national animal (since 1972, replacing lion)</li>
+            <li><b>NTCA</b> (National Tiger Conservation Authority) — 2006</li>
+            <li>54 Tiger Reserves currently</li>
+            <li>India hosts ~75% of world's wild tigers</li>
+          </ul>
+        </li>
+        <li><b>Major National Parks (must-know)</b>:
+          <ul>
+            <li><b>Jim Corbett</b> (Uttarakhand, 1936) — <b>first NP in India</b>; Project Tiger launched here</li>
+            <li><b>Kaziranga</b> (Assam) — UNESCO; <b>one-horned rhino</b></li>
+            <li><b>Manas</b> (Assam) — UNESCO; tiger, golden langur</li>
+            <li><b>Sundarbans</b> (WB) — UNESCO; <b>Royal Bengal tiger</b>; mangroves</li>
+            <li><b>Gir</b> (Gujarat) — <b>Asiatic lion</b> (only home in world)</li>
+            <li><b>Ranthambore</b> (Rajasthan) — tiger</li>
+            <li><b>Kanha</b> (MP) — barasingha; tiger reserve</li>
+            <li><b>Bandhavgarh, Pench, Satpura</b> (MP) — tigers</li>
+            <li><b>Periyar</b> (Kerala) — elephants</li>
+            <li><b>Bandipur, Nagarhole</b> (Karnataka)</li>
+            <li><b>Mudumalai</b> (TN)</li>
+            <li><b>Hemis</b> (Ladakh) — <b>largest NP in India</b>; snow leopard</li>
+            <li><b>Dachigam</b> (J&K) — <b>Hangul</b> (Kashmir stag)</li>
+            <li><b>Keoladeo / Bharatpur</b> (Rajasthan) — UNESCO; bird sanctuary; Siberian crane</li>
+            <li><b>Nanda Devi + Valley of Flowers</b> (Uttarakhand) — UNESCO</li>
+            <li><b>Khangchendzonga</b> (Sikkim) — UNESCO mixed site</li>
+            <li><b>Namdapha</b> (Arunachal) — <b>only park with all 4 big cats</b> (tiger, leopard, snow leopard, clouded leopard)</li>
+            <li><b>Silent Valley</b> (Kerala) — lion-tailed macaque</li>
+            <li><b>Keibul Lamjao</b> (Manipur) — only floating NP; Sangai deer; Loktak Lake</li>
+          </ul>
+        </li>
+        <li><b>Trick — Famous "Only/Largest" facts</b>:
+          <ul>
+            <li>Asiatic lion = Gir</li>
+            <li>One-horned rhino = Kaziranga</li>
+            <li>Royal Bengal tiger = Sundarbans</li>
+            <li>Hangul = Dachigam</li>
+            <li>Sangai = Keibul Lamjao (floating)</li>
+            <li>Largest NP = Hemis (Ladakh)</li>
+            <li>First NP = Corbett (1936)</li>
+            <li>Only park with all 4 big cats = Namdapha</li>
+            <li>Lion-tailed macaque = Silent Valley</li>
+          </ul>
+        </li>
+        <li><b>Biosphere Reserves (18 in India; 12 in UNESCO MAB)</b>:
+          <ul>
+            <li><b>Nilgiri</b> (TN-Kerala-Karnataka) — <b>first BR</b> (1986)</li>
+            <li>Nanda Devi, Nokrek, Manas, Sundarbans, Gulf of Mannar, Great Nicobar, Similipal, Khangchendzonga, Pachmarhi, Achanakmar-Amarkantak, Agasthyamalai, Cold Desert, Seshachalam, Panna</li>
+          </ul>
+        </li>
+        <li><b>Ramsar Sites (Wetlands of International Importance)</b>:
+          <ul>
+            <li>India has 75+ Ramsar sites</li>
+            <li><b>First two (1981)</b>: <b>Chilika</b> (Odisha) + <b>Keoladeo</b> (Rajasthan)</li>
+            <li>Largest: Sundarbans</li>
+            <li>Others: Wular, <b>Loktak</b> (only floating NP — Keibul Lamjao), Sambhar (salt), Bhitarkanika, Pong, Harike, Vembanad-Kol</li>
+          </ul>
+        </li>
+        <li><b>Other Conservation Projects</b>:
+          <ul>
+            <li>Project Elephant (1992) — Indian Elephant = "Heritage Animal of India" (2010)</li>
+            <li>Project Crocodile (1975)</li>
+            <li>Project Snow Leopard (2009)</li>
+            <li>Project Hangul</li>
+            <li>Project Rhino</li>
+            <li>Sea Turtle conservation — Olive Ridley</li>
+            <li>Dolphin (Ganges Dolphin) — National Aquatic Animal (2010)</li>
+          </ul>
+        </li>
+        <li><b>International Conventions</b>:
+          <ul>
+            <li><b>CITES (1973)</b> — Convention on International Trade in Endangered Species</li>
+            <li><b>Ramsar (1971)</b> — wetlands</li>
+            <li><b>CBD (1992 Rio)</b> — Biological Diversity; India: Biological Diversity Act 2002</li>
+            <li><b>Cartagena Protocol 2000</b> — biosafety / GMOs</li>
+            <li><b>Nagoya Protocol 2010</b> — access & benefit sharing</li>
+            <li><b>Bonn Convention</b> — migratory species</li>
+          </ul>
+        </li>
+        <li><b>Trick — National Animals/Birds</b>:
+          <ul>
+            <li>National Animal: <b>Tiger</b> (1972)</li>
+            <li>National Bird: <b>Peacock</b></li>
+            <li>National Aquatic Animal: <b>Ganges Dolphin</b> (2010)</li>
+            <li>National Heritage Animal: <b>Indian Elephant</b> (2010)</li>
+            <li>National Tree: Banyan</li>
+            <li>National Flower: Lotus</li>
+            <li>National Fruit: Mango</li>
+          </ul>
+        </li>
+        <li><b>Story</b>: India biodiversity में world top 17 में। 4 hotspots — Western Ghats सबसे rich। 106 National Parks + 570 Wildlife Sanctuaries + 54 Tiger Reserves + 18 Biosphere Reserves + 75+ Ramsar sites — protection network। Project Tiger 1973 ने tiger population को बचाया। पर species loss तेज़ — habitat destruction, climate change, poaching बड़े challenge हैं।</li>
       </ul>
     `,
     mcq: [
