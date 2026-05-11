@@ -193,7 +193,7 @@
     body: `
       ${figRow([
         ["The_Earth_seen_from_Apollo_17.jpg", "Earth from Apollo 17 (the 'Blue Marble')"],
-        ["Earth_axial_tilt_23.4.svg", "Earth's axial tilt (23.5°) — cause of seasons"]
+        ["AxialTiltObliquity.png", "Earth's axial tilt (23.5°) — cause of seasons"]
       ])}
       <h3>Earth — Quick Facts</h3>
       <ul>
@@ -381,7 +381,7 @@
 
   T["geo-rocks"] = {
     body: `
-      ${fig("Rockcycle.jpg", "The Rock Cycle — igneous, sedimentary, and metamorphic transitions")}
+      ${fig("Rock cycle nps.PNG", "The Rock Cycle — igneous, sedimentary, and metamorphic transitions")}
       <h3>Rocks — Building Blocks of Earth's Crust</h3>
       <p><b>Rock</b>: aggregate of one or more minerals. <b>Mineral</b>: naturally occurring inorganic substance with definite chemical composition.</p>
 
@@ -1026,6 +1026,7 @@
       <hr>
 
       <h3>Oceans of the World — 5 Major</h3>
+      ${fig("Map of the world oceans, January 2015. LOC 2015588704.jpg", "The 5 oceans of the world — Pacific, Atlantic, Indian, Arctic, Southern", 800)}
       <table>
         <tr><th>Ocean</th><th>Approx. Area</th><th>Notes</th></tr>
         <tr><td><b>Pacific Ocean</b></td><td>165 million km²</td><td>Largest; covers 1/3 of Earth's surface; <b>Mariana Trench (10,994 m / Challenger Deep)</b> — deepest point.</td></tr>
@@ -1100,6 +1101,7 @@
       <hr>
 
       <h3>TIDES</h3>
+      ${fig("Tide_overview.svg", "Spring tide vs Neap tide — alignment of Sun, Moon, and Earth")}
       <ul>
         <li>Periodic rise and fall of sea level due to <b>gravitational pull of Moon and Sun</b>, plus Earth's rotation.</li>
         <li><b>Moon's effect</b> ~2.2× that of Sun (despite Sun's much greater mass) because Moon is much closer.</li>
@@ -1176,7 +1178,8 @@
 
   T["geo-world-continents"] = {
     body: `
-      ${fig("Continents_colour_coded.png", "The seven continents of the world", 700)}
+      ${fig("BlankMap-World.svg", "World political map — countries (use this to locate anything mentioned below)", 900)}
+      ${fig("Continents.svg", "The seven continents — colour-coded", 700)}
       <h3>The Seven Continents</h3>
       <table>
         <tr><th>#</th><th>Continent</th><th>Area (km²)</th><th>% of land</th><th>Population</th></tr>
@@ -1192,6 +1195,7 @@
       <hr>
 
       <h3>1. ASIA — The Largest Continent</h3>
+      ${fig("Asia_(orthographic_projection).svg", "Asia — location on the globe", 500)}
       <ul>
         <li>30% of world's land; 60% of world's population.</li>
         <li>Bordered by Arctic Ocean (N), Pacific (E), Indian Ocean (S), Europe (W; separated by Ural Mountains).</li>
@@ -1207,6 +1211,7 @@
       <hr>
 
       <h3>2. AFRICA — "The Dark Continent"</h3>
+      ${fig("Africa_(orthographic_projection).svg", "Africa — location on the globe", 500)}
       <ul>
         <li>2nd largest continent.</li>
         <li>Equator passes through middle.</li>
@@ -1224,6 +1229,7 @@
       <hr>
 
       <h3>3. NORTH AMERICA</h3>
+      ${fig("North_America_(orthographic_projection).svg", "North America — location on the globe", 500)}
       <ul>
         <li>3rd largest continent.</li>
         <li>23 countries; 3 main: USA, Canada, Mexico.</li>
@@ -1239,6 +1245,7 @@
       <hr>
 
       <h3>4. SOUTH AMERICA</h3>
+      ${fig("South_America_(orthographic_projection).svg", "South America — location on the globe", 500)}
       <ul>
         <li>4th largest continent; 12 countries; <b>Brazil largest</b>.</li>
         <li>Highest peak: <b>Aconcagua (Argentina, 6,961 m)</b>; highest outside Asia.</li>
@@ -1252,6 +1259,7 @@
       <hr>
 
       <h3>5. ANTARCTICA</h3>
+      ${fig("Antarctica_(orthographic_projection).svg", "Antarctica — location on the globe", 500)}
       <ul>
         <li>5th largest; covers South Pole; surrounded by Southern Ocean.</li>
         <li>~98% covered by ice; thickest ice ~4 km.</li>
@@ -1268,6 +1276,7 @@
       <hr>
 
       <h3>6. EUROPE</h3>
+      ${fig("Europe_orthographic_Caucasus_Urals_boundary.svg", "Europe — location on the globe", 500)}
       <ul>
         <li>6th largest continent (smallest if we exclude Australia for area); ~50 countries.</li>
         <li>Bordered by Atlantic (W), Arctic (N), Mediterranean (S); Urals separate from Asia.</li>
@@ -1284,6 +1293,7 @@
       <hr>
 
       <h3>7. AUSTRALIA / OCEANIA</h3>
+      ${fig("Australia_(orthographic_projection).svg", "Australia / Oceania — location on the globe", 500)}
       <ul>
         <li>Smallest continent; 14 countries.</li>
         <li><b>Australia</b> — smallest continent and largest country in Oceania; only nation that is also a continent.</li>
@@ -1347,10 +1357,7 @@
 
   T["geo-world-rivers"] = {
     body: `
-      ${figRow([
-        ["Mountain_Ranges_Map.png", "Major mountain ranges of the world"],
-        ["Map_of_major_deserts.png", "Major deserts of the world"]
-      ])}
+      ${fig("Deserts-ar.png", "Major deserts of the world (red shading shows desert belts)", 700)}
       <h3>Major Rivers of the World</h3>
 
       <h4>Top 10 Longest Rivers</h4>
@@ -1793,7 +1800,7 @@
 
   T["geo-india-rivers"] = {
     body: `
-      ${fig("Major_rivers_of_India.svg", "Major rivers of India — Himalayan and Peninsular systems", 700)}
+      ${fig("Major Rivers in India.jpg", "Major rivers of India — Himalayan and Peninsular systems", 700)}
       <h3>Indian Drainage System</h3>
       <p>Two main systems based on origin:</p>
       <ul>
@@ -2098,7 +2105,6 @@
 
   T["geo-india-soils"] = {
     body: `
-      ${fig("India-Soils.png", "Soil types across India (alluvial, black, red, laterite, desert, mountain)", 600)}
       <h3>Soils of India</h3>
       <p>Indian Council of Agricultural Research (ICAR) classifies Indian soils into <b>8 major types</b>.</p>
 
@@ -2580,7 +2586,7 @@
 
   T["geo-india-transport"] = {
     body: `
-      ${fig("Indian_Railway_zones_map.svg", "Indian Railway zones (18 zones)", 600)}
+      ${fig("Railway network map of India - Schematic.svg", "Indian Railway zones (18 zones)", 600)}
       <h2>Transportation in India</h2>
 
       <h3>Railways</h3>

@@ -11,7 +11,7 @@
 
   T["mdh-sources"] = {
     body: `
-      ${fig("Akbarnama1.jpg", "Akbarnama miniature — a key Mughal court chronicle (Abul Fazl)")}
+      ${fig("Basawan. Akbar Taming Mad Elephant Hawai. Composition by Basawan, coloring by Chitra. (left part) Akbarnama, ca. 1590, Victoria and Albert Museum, London.jpg", "Akbarnama miniature — a key Mughal court chronicle (Abul Fazl)")}
       <h3>What is "Medieval India"?</h3>
       <p>"Medieval India" usually means the period from <b>~750 AD (post-Harsha)</b> through <b>~1761 AD (Third Battle of Panipat)</b>, before the British rise. It is divided into:</p>
       <ul>
@@ -121,7 +121,7 @@
 
   T["mdh-early-medieval"] = {
     body: `
-      ${fig("Khajuraho-Lakshmana-Temple.jpg", "Lakshmana Temple, Khajuraho — Chandela dynasty (Nagara style)")}
+      ${fig("Khajuraho India, Kandariya Mahadev Temple Sculpture.JPG", "Lakshmana Temple, Khajuraho — Chandela dynasty (Nagara style)")}
       <h3>The Setting (~750 – 1206 AD)</h3>
       <p>After Harsha's death (647 AD), no single power controlled north India for over five centuries. Instead, three regional powers fought for the prestige city of <b>Kannauj</b> — the <b>Tripartite Struggle</b>. Meanwhile, in the second half of the period, two waves of Islamic invasion changed Indian history: first the <b>Arabs in Sindh (712 AD)</b>, then the <b>Turks of Central Asia (1000 AD onwards)</b>, leading finally to the establishment of the Delhi Sultanate (1206 AD).</p>
 
@@ -332,8 +332,8 @@
   T["mdh-delhi-sultanate"] = {
     body: `
       ${figRow([
-        ["Delhi_Qutb_Minar_2011.jpg", "Qutb Minar, Delhi — begun by Qutb-ud-din Aibak"],
-        ["Alai_Darwaza_-_Qutb_complex.jpg", "Alai Darwaza — Khilji architecture, Qutb complex"]
+        ["Qutb Minar with Neem Tree.jpg", "Qutb Minar, Delhi — begun by Qutb-ud-din Aibak"],
+        ["Alai darwaza.jpg", "Alai Darwaza — Khilji architecture, Qutb complex"]
       ])}
       <h3>Delhi Sultanate (1206–1526) — 320 Years, 5 Dynasties</h3>
       <table>
@@ -956,7 +956,7 @@
     body: `
       ${figRow([
         ["Kabir004.jpg", "Sant Kabir — leading nirguna Bhakti poet"],
-        ["Guru_Nanak_Dev_Ji.jpg", "Guru Nanak — founder of Sikhism"]
+        ["Janamsakhi painting of Guru Nanak with Siddhas.jpg", "Guru Nanak — founder of Sikhism"]
       ])}
       <h3>Why Bhakti and Sufism Matter</h3>
       <p>Between ~700 and 1700 AD, India saw two parallel religious-spiritual movements that transformed daily life:</p>
@@ -1322,8 +1322,8 @@
   T["mdh-mughals-early"] = {
     body: `
       ${figRow([
-        ["Mughal-Empire-extent.png", "Mughal Empire — territorial growth and peak under Aurangzeb"],
-        ["Akbar_riding_an_elephant.jpg", "Akbar — greatest Mughal emperor"],
+        ["Mughal Empire map at its peak extent.jpg", "Mughal Empire — territorial growth and peak under Aurangzeb"],
+        ["Portrait of Emperor Akbar Praying.jpg", "Akbar — greatest Mughal emperor"],
         ["Humayun's_Tomb,_New_Delhi.jpg", "Humayun's Tomb, Delhi — first Mughal garden tomb"]
       ])}
       <h3>Mughal Empire (1526–1857)</h3>
@@ -2263,7 +2263,7 @@
     body: `
       ${figRow([
         ["Shivaji_British_Museum.jpg", "Chhatrapati Shivaji Maharaj — founder of Maratha Empire"],
-        ["Raigad_fort.JPG", "Raigad Fort — capital of Shivaji"]
+        ["Shivaji Maharaj Raigad.jpg", "Raigad Fort — capital of Shivaji"]
       ])}
       <h3>Background — The Maratha Country</h3>
       <p>The Marathas were a Marathi-speaking people of the Western Ghats (modern Maharashtra). Their rise from local zamindars to a pan-Indian empire — the strongest Indian power of the 18th century — was the most important political development between the decline of the Mughals and the rise of the British.</p>
@@ -2590,8 +2590,8 @@
   T["mdh-sikhs"] = {
     body: `
       ${figRow([
-        ["Guru_Gobind_Singh_Ji.jpg", "Guru Gobind Singh — 10th Sikh Guru, founder of Khalsa (1699)"],
-        ["The_Golden_Temple_-_Amritsar.jpg", "Harmandir Sahib (Golden Temple), Amritsar"]
+        ["Guru Gobind Singh painting by Nainsukh of Guler.jpg", "Guru Gobind Singh — 10th Sikh Guru, founder of Khalsa (1699)"],
+        ["Hamandir Sahib (Golden Temple).jpg", "Harmandir Sahib (Golden Temple), Amritsar"]
       ])}
       <h3>Sikhism — A Religion Forged in Punjab (1469 – present)</h3>
       <p>Sikhism began as a peaceful Bhakti-Sufi-influenced religion under <b>Guru Nanak (1469–1539)</b> and evolved over <b>10 Gurus and 240 years</b> into a militant religious-political community — the <b>Khalsa (1699)</b>. After the Gurus, Sikhs built misls and finally an empire under Maharaja Ranjit Singh (1799–1839). British annexed Punjab in 1849.</p>
@@ -2925,7 +2925,7 @@
 
   T["mdh-arab-turk"] = {
     body: `
-      ${fig("Mahmud_of_Ghazni.jpg", "Mahmud of Ghazni — Turkish invader who raided India 17 times")}
+      ${fig("Mahmud of Ghazni on an elephant.jpg", "Mahmud of Ghazni — Turkish invader who raided India 17 times")}
       <h3>The Two Waves of Islamic Invasion (8th–13th c.)</h3>
       <p>India was invaded by Muslim conquerors in two distinct waves separated by ~300 years:</p>
       <ol>
