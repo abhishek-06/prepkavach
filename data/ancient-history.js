@@ -9,6 +9,132 @@
   };
   const figRow = (items) => '<div class="img-row">' + items.map(([f, c]) => fig(f, c, 400)).join("") + '</div>';
 
+  T["ah-dates-basics"] = {
+    body: `
+      <h2>How to Read History Dates — BC, AD, CE, BCE</h2>
+      <p><i>(पहले यह पढ़ लो — फिर हर topic आसान लगेगी)</i></p>
+
+      <h3>क्यों ज़रूरी है? (Why this matters)</h3>
+      <p>हर history topic में dates आते हैं — "563 BC में Buddha का जन्म", "1526 AD में Babur ने Panipat जीता"। अगर आप BC और AD समझ नहीं पाए तो पूरी timeline उल्टी-पुल्टी हो जाएगी।</p>
+
+      <h3>The Big Picture — एक Number Line</h3>
+      <p>एक लम्बी रेखा सोचिए। बीच में है <b>Year 1 AD</b> (Christ का birth year, approximately)।</p>
+      <ul>
+        <li>रेखा के <b>left</b> side सब <b>BC</b> है — older / पुराना समय</li>
+        <li>रेखा के <b>right</b> side सब <b>AD</b> है — newer / नया समय</li>
+      </ul>
+      <pre style="background:#f1f5f9;padding:0.6rem;border-radius:6px;overflow-x:auto;font-size:0.85rem;">
+पुराना (Older) ←————————————————————————————————→ नया (Newer)
+   3000 BC      1000 BC     1 BC | 1 AD     1000 AD     2026 AD
+                              ↑
+                       Christ का birth (year 1)
+      </pre>
+
+      <h3>BC — Before Christ (ईसा-पूर्व)</h3>
+      <ul>
+        <li>"Christ के पहले का time"</li>
+        <li><b>Bigger BC number = OLDER</b> (ज़्यादा पुराना)</li>
+        <li>उदाहरण: <b>3000 BC, 500 BC से पुराना है</b> (because 3000 &gt; 500, और दोनों BC हैं)</li>
+        <li>Trick: BC = "Back-Counting" — पीछे की तरफ़ गिनती</li>
+      </ul>
+
+      <h3>AD — Anno Domini (Latin: "in the year of the Lord")</h3>
+      <ul>
+        <li>"Christ के बाद का time"</li>
+        <li><b>Bigger AD number = MORE RECENT</b> (ज़्यादा नया)</li>
+        <li>उदाहरण: <b>2026 AD, 1947 AD से नया है</b></li>
+        <li>Trick: AD = "After Date" — सीधी गिनती</li>
+      </ul>
+
+      <h3>Quick Examples (Indian History)</h3>
+      <table>
+        <tr><th>Event</th><th>Date</th><th>आज से कितने साल पहले?</th></tr>
+        <tr><td>Indus Valley peak</td><td>~2500 BC</td><td>~4,500 साल पहले</td></tr>
+        <tr><td>Buddha का जन्म</td><td>563 BC</td><td>~2,589 साल पहले</td></tr>
+        <tr><td>Chandragupta Maurya का राज्य</td><td>322 BC</td><td>~2,348 साल पहले</td></tr>
+        <tr><td>Ashoka का Kalinga War</td><td>261 BC</td><td>~2,287 साल पहले</td></tr>
+        <tr><td>Gupta dynasty शुरू</td><td>320 AD</td><td>~1,706 साल पहले</td></tr>
+        <tr><td>Akbar का जन्म</td><td>1542 AD</td><td>~484 साल पहले</td></tr>
+        <tr><td>1857 Revolt</td><td>1857 AD</td><td>~169 साल पहले</td></tr>
+        <tr><td>India Independence</td><td>1947 AD</td><td>79 साल पहले</td></tr>
+      </table>
+      <p><b>Calculation trick</b>:</p>
+      <ul>
+        <li><b>BC date</b> → Years ago = 2026 + BC year. (e.g., 500 BC → 500 + 2026 = 2526 साल पहले)</li>
+        <li><b>AD date</b> → Years ago = 2026 − AD year. (e.g., 1947 AD → 2026 − 1947 = 79 साल पहले)</li>
+      </ul>
+
+      <h3>CE और BCE क्या है?</h3>
+      <p>Modern textbooks (NCERT included) में अब CE/BCE भी देखते हैं — meaning वही है, बस naming secular है।</p>
+      <table>
+        <tr><th>Old (religious)</th><th>New (secular)</th><th>Meaning</th></tr>
+        <tr><td>BC (Before Christ)</td><td>BCE (Before Common Era)</td><td>Same — older time</td></tr>
+        <tr><td>AD (Anno Domini)</td><td>CE (Common Era)</td><td>Same — newer time</td></tr>
+      </table>
+      <p>👉 <b>Numbers बिल्कुल नहीं बदलते</b>। 322 BC = 322 BCE। 1947 AD = 1947 CE।</p>
+
+      <h3>Centuries समझना</h3>
+      <p>"Century" matlab 100 साल का block.</p>
+      <ul>
+        <li><b>1st century AD</b> = years 1 to 100 AD</li>
+        <li><b>21st century AD</b> = years 2001 to 2100 AD (हम यहाँ हैं)</li>
+        <li><b>6th century BC</b> = years 600 BC to 501 BC (Buddha-Mahavira का time)</li>
+      </ul>
+      <p><b>Formula</b>: Century = Math.ceil(Year ÷ 100)</p>
+      <ul>
+        <li>563 BC → 6th century BC ✓</li>
+        <li>1857 AD → 19th century AD ✓</li>
+        <li>2026 AD → 21st century AD ✓</li>
+      </ul>
+
+      <h3>Bird's-eye view: Indian History Timeline</h3>
+      <p>यह table याद कर लो — पूरी history एक नज़र में आ जाएगी।</p>
+      <table>
+        <tr><th>Period</th><th>When</th><th>Key event</th></tr>
+        <tr><td>Stone Age / Prehistoric</td><td>~2.5 million BC – 3500 BC</td><td>Tools, Bhimbetka paintings</td></tr>
+        <tr><td>Indus Valley Civilization</td><td>~2500 BC – 1900 BC</td><td>Harappa, Mohenjo-daro</td></tr>
+        <tr><td>Vedic Age</td><td>~1500 BC – 600 BC</td><td>Rigveda, Aryans</td></tr>
+        <tr><td>Buddhism / Mahajanapadas</td><td>~600 BC – 322 BC</td><td>Buddha, Mahavira, 16 kingdoms</td></tr>
+        <tr><td>Mauryan Empire</td><td>322 BC – 185 BC</td><td>Chandragupta, Ashoka</td></tr>
+        <tr><td>Post-Maurya</td><td>185 BC – 320 AD</td><td>Shungas, Satavahanas, Kushanas</td></tr>
+        <tr><td>Gupta (Golden Age)</td><td>320 AD – 550 AD</td><td>Samudragupta, Kalidasa</td></tr>
+        <tr><td>Early Medieval</td><td>750 AD – 1206 AD</td><td>Rashtrakutas, Cholas</td></tr>
+        <tr><td>Delhi Sultanate</td><td>1206 – 1526</td><td>5 dynasties (Slave, Khilji, Tughlaq, Sayyid, Lodi)</td></tr>
+        <tr><td>Mughal Empire</td><td>1526 – 1857</td><td>Babur, Akbar, Aurangzeb</td></tr>
+        <tr><td>British Period</td><td>1757 – 1947</td><td>East India Co., British Raj</td></tr>
+        <tr><td>Independent India</td><td>1947 onwards</td><td>Republic since 1950</td></tr>
+      </table>
+
+      <hr>
+
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>"BC उल्टा गिनो, AD सीधा गिनो"</b> — BC = bigger number means older; AD = bigger number means newer.</li>
+        <li><b>1 BC के तुरंत बाद 1 AD आता है</b> — कोई year 0 नहीं है। यानि 1 BC → 1 AD direct jump।</li>
+        <li><b>BCE = BC, CE = AD</b> — सिर्फ़ naming change, dates same।</li>
+        <li>Centuries के लिए: 19th century AD = 1801 to 1900। यानी "जो century चल रही है उसका number = (current year ÷ 100) round-up"।</li>
+        <li><b>Story to remember timeline</b>: सोचो एक movie — पहले Stone Age caveman → फिर Indus Valley (planned cities) → Vedic Aryans (cattle, mantras) → Buddha (peace) → Mauryas (empire) → Guptas (golden age) → Sultanate (Muslims came) → Mughals (Akbar etc.) → British → Independence. यह sequence याद रहेगा।</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "BC stands for?", opts: ["Before Christ", "Before Calendar", "Backward Counting", "Before Crisis"], a: 0, ex: "BC = Before Christ — ईसा-पूर्व।" },
+      { q: "AD stands for?", opts: ["After Death", "Anno Domini (Latin)", "After Date", "Average Decade"], a: 1, ex: "Anno Domini = 'in the year of the Lord'." },
+      { q: "Which is older?", opts: ["500 BC", "100 BC", "100 AD", "500 AD"], a: 0, ex: "BC में bigger number = older. 500 BC सबसे पुराना।" },
+      { q: "Which is most recent?", opts: ["500 BC", "100 BC", "100 AD", "500 AD"], a: 3, ex: "AD में bigger number = more recent." },
+      { q: "CE means?", opts: ["Christian Era", "Common Era (= AD)", "Century End", "Calendar Era"], a: 1, ex: "CE = Common Era; same dates as AD." },
+      { q: "BCE means?", opts: ["Before Christian Era", "Before Common Era (= BC)", "Before Calendar Event", "Backward Common Era"], a: 1, ex: "BCE = Before Common Era; same as BC." },
+      { q: "How many years between 500 BC and 500 AD?", opts: ["0 (same)", "500", "1000", "999"], a: 2, ex: "500 + 500 = 1000 years (no year 0)." },
+      { q: "Buddha (563 BC) lived in which century BC?", opts: ["4th", "5th", "6th", "7th"], a: 2, ex: "563 BC = 6th century BC (years 600 to 501 BC)." },
+      { q: "1947 AD belongs to which century?", opts: ["18th", "19th", "20th", "21st"], a: 2, ex: "20th century AD = years 1901 to 2000." },
+      { q: "Year between 1 BC and 1 AD?", opts: ["0 AD", "0 BC", "No year exists (direct jump)", "Both 0 AD and 0 BC"], a: 2, ex: "1 BC के तुरंत बाद 1 AD आता है — year 0 नहीं है।" },
+      { q: "Mauryan Empire (322 BC – 185 BC) lasted how many years?", opts: ["100", "137", "185", "322"], a: 1, ex: "322 − 185 = 137 years." },
+      { q: "Indus Valley peak (~2500 BC) is approximately how many years ago (in 2026 AD)?", opts: ["~1000", "~2500", "~4500", "~5000"], a: 2, ex: "2500 + 2026 ≈ 4500 years ago." },
+      { q: "Akbar's reign (1556–1605 AD) is approximately how many years ago?", opts: ["~100", "~250", "~470", "~700"], a: 2, ex: "2026 − 1556 ≈ 470 years ago." },
+      { q: "Which order is chronologically correct (oldest first)?", opts: ["Mauryas → Indus Valley → Mughals", "Indus Valley → Mauryas → Mughals", "Mughals → Mauryas → Indus Valley", "Indus Valley → Mughals → Mauryas"], a: 1, ex: "Indus Valley (2500 BC) → Mauryas (322 BC) → Mughals (1526 AD)." },
+      { q: "Gupta dynasty (320 AD) and Mauryan dynasty (322 BC) are how many years apart (start dates)?", opts: ["~322 years", "~642 years", "~1000 years", "~2026 years"], a: 1, ex: "322 + 320 ≈ 642 years (one BC, one AD, no year 0)." }
+    ]
+  };
+
   T["ah-sources"] = {
     body: `
       ${figRow([
@@ -153,6 +279,15 @@
 
       <h3>Looking Ahead</h3>
       <p>Now that we know <b>how</b> ancient India is reconstructed, let us begin at the beginning — the prehistoric Stone Age, when human beings were hunter-gatherers using stone tools. The next topic covers the Stone Age, the dawn of agriculture, and the rise of settled village life.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 sources = "LAF" का formula</b> — <b>L</b>iterary (किताबें), <b>A</b>rchaeological (खुदाई), <b>F</b>oreign accounts (विदेशी यात्री)।</li>
+        <li><b>4 Vedas याद रखने का trick</b>: <b>"Rig Sa Ya Atha"</b> — <b>Rig</b>veda (hymns/भजन), <b>Sama</b>veda (songs/संगीत), <b>Yaju</b>rveda (rituals/यज्ञ), <b>Atharva</b>veda (magic/जादू-टोना)। Order of composition भी यही है।</li>
+        <li><b>Foreign travelers (बाहर से आए)</b>: Megasthenes (Maurya court) → Fa-Hien (Gupta, Chandragupta II) → Hiuen Tsang (Harsha) → Al-Beruni (Mahmud Ghazni के साथ)। <i>"मेगा फा हिउ अल"</i> — chronological order।</li>
+        <li><b>Story</b>: Imagine आप archaeologist हैं — ज़मीन खोदी (archaeology), पुरानी पोथी मिली (literature), और एक विदेशी traveler की diary मिली (foreign account)। ये तीनों मिलकर ancient history बनती है।</li>
+      </ul>
     `,
     mcq: [
       { q: "Vedas are part of which type of source?", opts: ["Archaeological", "Literary (religious)", "Foreign accounts", "Numismatic"], a: 1, ex: "Vedas are religious literary sources — Rig, Sama, Yajur, Atharva." },
@@ -307,6 +442,16 @@
 
       <h3>Looking Ahead</h3>
       <p>Out of the Chalcolithic cultures and especially the agricultural villages of <b>Mehrgarh in Balochistan</b>, there gradually emerged urban civilization in the Indus Valley around 2500 BC — India's first cities, with planned drainage, brick architecture, and a script we still cannot read. The next topic explores the <b>Indus Valley / Harappan Civilization</b>.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Stone Ages — "P-M-N" sequence</b>: <b>P</b>aleolithic (पुराना, ~2.5M–10k BC) → <b>M</b>esolithic (मध्य, 10k–8k BC) → <b>N</b>eolithic (नया, 8k–3500 BC)।</li>
+        <li><b>Hindi से याद</b>: "पुराना-मध्य-नया" = "P-M-N"।</li>
+        <li><b>Story</b>: एक caveman पहले बड़े rough पत्थर तोड़ता था (Paleo) → फिर छोटे sharp tools बनाने लगा (Meso) → फिर खेती करने लगा, घर बनाए, बर्तन बनाए (Neo)। यानि जैसे-जैसे time बढ़ा, tools fine होते गए।</li>
+        <li><b>Bhimbetka</b> (Madhya Pradesh) = "Bhi-म-bet" — <b>Mesolithic</b> rock paintings। याद रखें "Bhi-म" में म = Meso।</li>
+        <li><b>Neolithic gift</b>: पहली बार खेती (wheat, barley) + पालतू जानवर (dog, cow) + पहिया (wheel) + मिट्टी के बर्तन (pottery)। पूरी civilisation यहाँ से शुरू।</li>
+      </ul>
     `,
     mcq: [
       { q: "First Indian prehistoric tool was found in 1863 by?", opts: ["Robert Bruce Foote", "John Marshall", "Mortimer Wheeler", "Alexander Cunningham"], a: 0, ex: "Robert Bruce Foote (British geologist) found a Paleolithic hand-axe at Pallavaram near Madras." },
@@ -511,6 +656,26 @@
 
       <h3>Looking Ahead</h3>
       <p>As the Harappan cities declined (~1900 BC), pastoral nomads speaking Indo-European languages began arriving in north-west India. From these "Aryans" — and their interaction with the existing population — emerged the Vedic Age, India's earliest period documented by literature. The next topic is the Vedic Age.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Dates trick</b>: Indus Valley का peak <b>2500 BC – 1900 BC</b>। यानि लगभग <i>"25-19"</i> सोचो।</li>
+        <li><b>Discovery dates</b>: 1921 = Dayaram Sahni → <b>Harappa</b>। 1922 = R.D. Banerjee → <b>Mohenjo-daro</b>। <i>"21-22 का जोड़ा"</i>।</li>
+        <li><b>Main sites + River + State</b> (बहुत पूछा जाता है):
+          <ul>
+            <li><b>Harappa</b> — Ravi नदी — Punjab (Pakistan)</li>
+            <li><b>Mohenjo-daro</b> — Indus नदी — Sindh (Pakistan) — meaning "Mound of the Dead"</li>
+            <li><b>Lothal</b> — Sabarmati — Gujarat — पहला <b>port/dockyard</b> ("लोथल" में "lota" = water vessel = port)</li>
+            <li><b>Dholavira</b> — Kutch — Gujarat — water harvesting system</li>
+            <li><b>Kalibangan</b> — Ghaggar — Rajasthan — "Kali Bangan" = काली चूड़ियाँ; पहला plowed field</li>
+            <li><b>Rakhigarhi</b> — Haryana — सबसे बड़ी site (1990s में discovered)</li>
+          </ul>
+        </li>
+        <li><b>Famous artifacts</b>: <i>Dancing Girl</i> (bronze, Mohenjo-daro), <i>Priest-King</i> (stone, Mohenjo-daro), <i>Pashupati seal</i> (3-faced god — proto-Shiva)।</li>
+        <li><b>Trick to remember "Mohenjo-daro" features</b>: <b>"GREAT B-G-S"</b> — <b>Great B</b>ath, <b>Great G</b>ranary, <b>S</b>eals।</li>
+        <li><b>Decline story</b>: Climate change + Aryan invasion + Ghaggar (Saraswati) नदी सूख गई + floods — कोई एक final reason नहीं।</li>
+      </ul>
     `,
     mcq: [
       { q: "Harappa was discovered in 1921 by?", opts: ["John Marshall", "Daya Ram Sahni", "R.D. Banerjee", "Mortimer Wheeler"], a: 1, ex: "Daya Ram Sahni in 1921, under Marshall (DG, ASI)." },
@@ -782,6 +947,24 @@
 
       <h3>Looking Ahead</h3>
       <p>By the end of the Vedic Age (~600 BC), excessive Brahmanical ritualism, the rigidity of caste, and the costly Vedic sacrifices created social discontent. Out of this churning emerged two new religions — <b>Buddhism</b> and <b>Jainism</b> — both originating in the <b>Magadha-Vaishali region</b> in the 6th century BC. The next topic covers these revolutionary movements.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>4 Vedas trick</b>: <b>"Rig-Sa-Ya-Atha"</b> in order of composition:
+          <ul>
+            <li><b>Rig</b>veda — <b>hymns/भजन</b> (oldest, 1028 hymns) — "Rig = सबसे पहली रिंग"</li>
+            <li><b>Sama</b>veda — <b>songs/संगीत</b> — "Sa = Sa-Re-Ga-Ma"</li>
+            <li><b>Yaju</b>rveda — <b>rituals/यज्ञ</b> — "Yaju = यज्ञ"</li>
+            <li><b>Atharva</b>veda — <b>magic, medicine, daily life</b> — "Atharva = अद्भुत"</li>
+          </ul>
+        </li>
+        <li><b>Vedic periods</b>: Early Vedic (1500–1000 BC, में सिर्फ़ Rigveda) → Later Vedic (1000–600 BC, बाक़ी 3 Vedas, बड़े kingdoms)।</li>
+        <li><b>4 Varnas mnemonic</b>: <b>"Brahmin-Kshatriya-Vaishya-Shudra"</b> = "<b>BKVS</b>" — origin from Purusha Sukta in Rigveda (सिर - mouth, arms, thighs, feet)।</li>
+        <li><b>4 Ashramas</b>: Brahmacharya (छात्र) → Grihastha (गृहस्थ) → Vanaprastha (वन) → Sannyasa (sanyasi)। Life का natural flow।</li>
+        <li><b>Most important river of Rigveda</b>: <b>Saraswati</b> (mentioned 71 times); next Sindhu (Indus)। Ganga सिर्फ़ 1 बार mention।</li>
+        <li><b>Story</b>: Vedic Aryans pastoral थे — cattle = wealth ("Gomat" = cow-owner = rich)। Battles cow को लेकर होती थीं ("Gavishti" = battle = literally "search for cows")।</li>
+      </ul>
     `,
     mcq: [
       { q: "Aryans came to India around?", opts: ["3000 BC", "2000 BC", "1500 BC", "1000 BC"], a: 2, ex: "Around 1500 BC; from Central Asia / Pontic Steppe via Hindu Kush." },
@@ -1064,6 +1247,31 @@
 
       <h3>Looking Ahead</h3>
       <p>Buddhism and Jainism arose in a politically transforming northern India — the era of <b>16 Mahajanapadas</b> (great kingdoms). Of these, Magadha would absorb the others to become the first imperial power. The next topic surveys the 16 Mahajanapadas and the rise of Magadha.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Buddha quick facts</b> — "5-6-3 / 4-8-3":
+          <ul>
+            <li><b>563 BC जन्म</b> Lumbini (Nepal) में</li>
+            <li><b>483 BC मृत्यु</b> Kushinagar में (UP)</li>
+            <li><b>"Lumbini → Bodh Gaya → Sarnath → Kushinagar"</b> = जन्म → ज्ञान → first sermon → death = "LBSK"</li>
+          </ul>
+        </li>
+        <li><b>4 Noble Truths trick — "DSDM"</b>: <b>D</b>ukkha (दुःख है), <b>S</b>amudaya (cause = इच्छा), <b>D</b>ukkha-Nirodh (मुक्ति संभव), <b>M</b>arg (path = 8-fold)।</li>
+        <li><b>4 Buddhist Councils</b>:
+          <ul>
+            <li>1st — Rajgriha (483 BC) — under Ajatashatru</li>
+            <li>2nd — Vaishali (383 BC) — Kalashoka</li>
+            <li>3rd — Pataliputra (250 BC) — <b>Ashoka</b></li>
+            <li>4th — Kashmir (72 AD) — <b>Kanishka</b>; Buddhism split into Hinayana और Mahayana</li>
+          </ul>
+        </li>
+        <li><b>Mahavira</b>: 540 BC जन्म Vaishali → 468 BC मृत्यु Pavapuri। <b>24वें</b> Tirthankara (Rishabhanatha 1st, Parshvanatha 23rd)।</li>
+        <li><b>3 Jain Jewels (Triratna)</b> — <i>"दर्शन-ज्ञान-चरित्र"</i> — Right belief, Right knowledge, Right conduct।</li>
+        <li><b>5 Mahavratas of Jainism</b>: Ahimsa, Satya, Asteya (no stealing), Brahmacharya, Aparigraha (no possessions)।</li>
+        <li><b>Trick — why 6th century BC?</b>: सोचो — Vedic rituals बहुत महंगे (animal sacrifice), Brahmins का दबाव बढ़ रहा था, trade बढ़ने से Vaishyas को नया धर्म चाहिए था जो birth-based caste न रखे — दोनों Buddhism और Jainism इसी need से निकले।</li>
+      </ul>
     `,
     mcq: [
       { q: "Buddha was born at?", opts: ["Bodh Gaya", "Lumbini", "Sarnath", "Kushinagar"], a: 1, ex: "Lumbini (in present-day Nepal); 563 BC; Vaishakha Purnima." },
@@ -1228,6 +1436,22 @@
 
       <h3>Looking Ahead</h3>
       <p>Alexander's withdrawal left a power vacuum in north-western India. Chandragupta Maurya, with Chanakya's guidance, exploited it — first defeating Greek satraps in the NW, then overthrowing the Nandas at Magadha. The result was the <b>Mauryan Empire</b> — India's first great empire. The next topic covers the Mauryas.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>16 Mahajanapadas</b> — पूरा list याद रखना मुश्किल। Focus on Magadha (most important — ultimately सबको हराकर empire बना)।</li>
+        <li><b>4 most powerful</b>: <b>Magadha, Kosala, Vatsa, Avanti</b> — "Ma-Ko-Va-A"।</li>
+        <li><b>Magadha की 4 dynasties (Mauryas से पहले)</b>: <b>"HSN"</b> = <b>H</b>aryanka → <b>S</b>hishunaga → <b>N</b>anda → फिर Maurya।
+          <ul>
+            <li><b>Haryanka</b>: Bimbisara → Ajatashatru (his son who killed him) → 1st Buddhist council under Ajatashatru</li>
+            <li><b>Shishunaga</b>: Kalashoka → 2nd Buddhist council</li>
+            <li><b>Nanda</b>: Mahapadma Nanda — first non-Kshatriya king; immense wealth; आख़िरी Nanda — Dhana Nanda — defeated by Chandragupta Maurya</li>
+          </ul>
+        </li>
+        <li><b>Capital of Magadha</b>: पहले Rajgriha (Haryanka) → फिर Pataliputra (Shishunaga onwards)।</li>
+        <li><b>Story</b>: Bimbisara कूटनीतिक राजा था — Kosala, Vaishali, Madra की राजकुमारियों से शादी करके alliances बनाए। उसका बेटा Ajatashatru ने उसे जेल में डालकर मार डाला (Buddha के time पर)। यानि Magadha का rise = strategic marriages + military force।</li>
+      </ul>
     `,
     mcq: [
       { q: "16 Mahajanapadas are mentioned in?", opts: ["Mahabharata", "Anguttara Nikaya", "Arthashastra", "Manusmriti"], a: 1, ex: "Buddhist text Anguttara Nikaya in Pali; Bhagavati Sutra (Jain) gives a similar list." },
@@ -1565,6 +1789,24 @@
 
       <h3>Looking Ahead</h3>
       <p>After 185 BC, North India fragmented into smaller dynasties — Shungas, Kanvas, Indo-Greeks, Sakas, Kushans, Satavahanas. This <b>Post-Mauryan period</b> (185 BC – 320 AD) saw extensive interactions with Central Asia, the rise of Buddhism's Mahayana school, the Gandhara and Mathura schools of art, and Roman trade. The next topic surveys this fertile period.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Maurya dynasty timeline — "322 to 185 BC"</b>। 3 main kings:
+          <ul>
+            <li><b>Chandragupta</b> (322–298 BC) — Chanakya की मदद से Dhana Nanda को हराकर शुरू। Last में Jainism अपनाई, Shravanabelagola (Karnataka) में देहत्याग।</li>
+            <li><b>Bindusara</b> (298–273 BC) — "Slayer of foes" (Amitraghata); Greeks ने Deimachus भेजा।</li>
+            <li><b>Ashoka</b> (268–232 BC) — सबसे महान; <b>261 BC में Kalinga War</b> जीता पर खून बहाकर पश्चाताप → Buddhism अपनाई।</li>
+          </ul>
+        </li>
+        <li><b>Date trick</b>: 322 BC = Chandragupta starts। 261 BC = Kalinga। 232 BC = Ashoka dies। 185 BC = Brihadratha killed by Pushyamitra Shunga (last Maurya)।</li>
+        <li><b>Chanakya = Kautilya = Vishnugupta</b> — 3 नाम, एक व्यक्ति। उन्होंने <b>"Arthashastra"</b> लिखी — politics/economics का बाइबल।</li>
+        <li><b>Megasthenes</b> = Greek ambassador (Seleucus से भेजा गया) — "Indica" लिखी; society को 7 classes में बाँटा।</li>
+        <li><b>Ashoka's Pillars (Sarnath Lion Capital)</b> — India का national emblem। 4 lions = 4 directions of Dharma; bottom wheel = Ashoka Chakra (national flag में)।</li>
+        <li><b>Ashoka's edicts language</b>: Most में <b>Prakrit (Brahmi script)</b>। NW में Kharosthi + Greek + Aramaic।</li>
+        <li><b>Story</b>: Imagine — Chandragupta एक young warrior, Chanakya एक brilliant teacher। दोनों मिले, Nandas को हराया। पोता Ashoka — पहले बहुत violent (Kalinga War 1 लाख से ज़्यादा deaths), फिर Buddha के teachings पढ़कर बदल गया, Buddhism फैलाई SE Asia तक।</li>
+      </ul>
     `,
     mcq: [
       { q: "Author of Arthashastra was?", opts: ["Megasthenes", "Kautilya", "Patanjali", "Panini"], a: 1, ex: "Kautilya (also called Chanakya / Vishnugupta) — minister of Chandragupta Maurya." },
@@ -1839,6 +2081,24 @@
 
       <h3>Looking Ahead</h3>
       <p>By 320 AD, the Kushan empire had fragmented; Western Satraps controlled Saurashtra-Malwa; Satavahanas had collapsed; Magadha was again a small kingdom. Out of this quasi-anarchy emerged a new dynasty in 320 AD — the <b>Guptas</b> — who would unify north India and produce the cultural florescence later called India's "Golden Age". The next topic explores the Gupta empire and the Vardhana dynasty that followed.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Post-Maurya dynasties order — "SK SK I"</b>:
+          <ul>
+            <li><b>S</b>hungas (185–73 BC) — Pushyamitra Shunga, killed last Maurya Brihadratha। Capital Pataliputra।</li>
+            <li><b>K</b>anvas (73–28 BC) — short, weak dynasty।</li>
+            <li><b>S</b>atavahanas (Deccan) — Gautamiputra Satakarni सबसे महान। Capital Pratishthana।</li>
+            <li><b>K</b>ushanas (north + Central Asia) — <b>Kanishka</b> सबसे famous; 78 AD में Saka era शुरू (Indian national calendar)।</li>
+            <li><b>I</b>ndo-Greeks — Menander (Milinda) = Buddhism अपनाई; "Milindapanho" किताब।</li>
+          </ul>
+        </li>
+        <li><b>Kanishka facts</b>: 4th Buddhist Council (Kashmir) → Buddhism में Hinayana और Mahayana का split। Gandhara art को promote किया (Greek-Indian fusion)।</li>
+        <li><b>Saka era 78 AD</b> = India का official national calendar (Saka Samvat)। याद रखें: "<b>78 = सब काम शुरू</b>"।</li>
+        <li><b>2 schools of art</b>: <b>Gandhara</b> (Greek influence, Buddha statues with curly hair) vs <b>Mathura</b> (purely Indian)।</li>
+        <li><b>Story</b>: Mauryas के बाद North में chaos, छोटे-छोटे dynasties। But Deccan में Satavahanas ने 400+ साल राज किया। Central Asia से Kushanas आए — Buddhism को Silk Route पर China तक ले गए।</li>
+      </ul>
     `,
     mcq: [
       { q: "Founder of Shunga dynasty was?", opts: ["Vasudeva", "Pushyamitra Shunga", "Simuka", "Kanishka"], a: 1, ex: "Pushyamitra Shunga (185 BC) — killed last Mauryan, Brihadratha, during military review." },
@@ -2179,6 +2439,24 @@
 
       <h3>Looking Ahead</h3>
       <p>While the north fragmented after Harsha (647 AD), south India saw the rise of three great dynasties — <b>Pallavas, Chalukyas, and Cholas</b> — that built temples, expanded overseas trade, and developed the Dravidian style of architecture. The next topic surveys these South Indian kingdoms.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>Gupta dates — "320 AD se 550 AD"</b>। ध्यान दें — यह AD है, BC नहीं। यानि Mauryas के <b>~500 साल बाद</b>।</li>
+        <li><b>Gupta dynasty kings — "CSC Ch SK"</b>:
+          <ul>
+            <li><b>Chandragupta I</b> (320 AD) — founder; Lichchhavi princess Kumaradevi से शादी।</li>
+            <li><b>Samudragupta</b> (335–375) — "<b>Napoleon of India</b>" (V.A. Smith ने कहा); Allahabad Pillar Inscription (Prashasti by Harisena) में conquests लिखे।</li>
+            <li><b>Chandragupta II Vikramaditya</b> (375–415) — golden peak; <b>9 Gems / Navaratnas</b> court में। Fa-Hien (Chinese) आया।</li>
+            <li><b>Kumaragupta I</b> — Nalanda University की स्थापना।</li>
+            <li><b>Skandagupta</b> — Hunas को हराया लेकिन कमज़ोर पड़ी dynasty।</li>
+          </ul>
+        </li>
+        <li><b>Navaratnas (9 Gems) trick — "KADVA KSV"</b>: <b>K</b>alidasa (poet — "Shakuntala"), <b>A</b>ryabhata (mathematician — zero, π), <b>D</b>hanvantari (Ayurveda), <b>V</b>arahamihira (astronomer — "Brihat Samhita"), <b>A</b>marasimha (Sanskrit lexicographer), <b>K</b>shapanaka, <b>S</b>hanku, <b>V</b>araruchi, <b>Vetalabhatta</b>।</li>
+        <li><b>"Golden Age" क्यों?</b>: Aryabhata ने <b>zero</b> और decimal दिए, Kalidasa ने Shakuntala/Meghaduta लिखा, Iron Pillar (rust-free metallurgy), Nalanda University, gold coins सबसे beautiful। Science + Art दोनों चरम पर।</li>
+        <li><b>Story</b>: सोचो — Mauryas के बाद ~500 साल बिखराव → फिर Guptas ने North India को एक किया। यह वो time था जब India ने world को zero दिया, decimal system दिया, Kama Sutra लिखी गई, Ajanta caves बने। इसीलिए "Golden Age"।</li>
+      </ul>
     `,
     mcq: [
       { q: "Gupta Era was started in?", opts: ["319–320 AD", "335 AD", "375 AD", "606 AD"], a: 0, ex: "Started by Chandragupta I on 26 February 320 AD; founder of Gupta empire." },
@@ -2470,6 +2748,19 @@
 
       <h3>Looking Ahead — End of Ancient History</h3>
       <p>The Chola empire weakened by 1279 AD; Khilji and Tughlaq invasions destroyed Yadavas, Kakatiyas, Hoysalas, Pandyas (1310–1323); the Vijayanagar empire (1336) and Bahmani Sultanate (1347) emerged from the ruins, beginning a new era. Combined with the rise of the Delhi Sultanate in the north (1206), this transition marks the end of "Ancient" India and the beginning of "Medieval" India — covered in the Medieval History section.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Sangam dynasties — "CCP"</b>: <b>C</b>hera (Kerala, west coast), <b>C</b>hola (Tamil Nadu east coast), <b>P</b>andya (south, Madurai)।</li>
+        <li><b>Sangam Age</b>: ~300 BC – 300 AD; Tamil literature का golden age। Sangam = "गोष्ठी/assembly" of poets।</li>
+        <li><b>3 Sangams held at</b>: Madurai (capital of Pandyas)।</li>
+        <li><b>Cholas — 2 phases</b>: Sangam Cholas (early) → <b>Imperial Cholas</b> (9th–13th century AD)। Imperial में <b>Rajaraja I</b> + <b>Rajendra I</b> सबसे महान।</li>
+        <li><b>Rajaraja I (985–1014)</b>: Brihadeeshvara Temple (Thanjavur) बनवाया — UNESCO site, Dravida architecture का जौहर।</li>
+        <li><b>Rajendra I (1014–1044)</b>: <b>"Gangaikondacholapuram"</b> नाम बदला (Ganga तक पहुँचने के बाद); पहला Indian ruler जिसने <b>Bay of Bengal "Chola Lake"</b> बनाया — SE Asia (Srivijaya) तक navy भेजी।</li>
+        <li><b>Pallavas (6th–9th c.)</b>: Capital Kanchipuram। <b>Mahabalipuram</b> rock-cut temples (Shore Temple, Five Rathas)। Narasimhavarman I सबसे famous।</li>
+        <li><b>Story</b>: South India का history independent है — Aryan invasion का असर कम पड़ा। Tamils ने अपनी language, sangam poetry, और world's longest classical Sanskrit/Tamil drama tradition develop की। Cholas ने इतना naval power बनाया कि SE Asia तक राज किया।</li>
+      </ul>
     `,
     mcq: [
       { q: "Sangam literature was composed in?", opts: ["Sanskrit", "Tamil", "Telugu", "Pali"], a: 1, ex: "Tamil — earliest extant Tamil literature; assemblies (Sangams) at Madurai under Pandyas." },
@@ -2674,6 +2965,28 @@
 
       <h3>Looking Ahead</h3>
       <p>Indian temple architecture forms one continuous heritage from rock-cut Mauryan caves (3rd c. BC) to Nayaka gopurams (17th c. AD). Each region developed its own grammar — Nagara north, Dravidian south, Vesara Deccan. With this we close Ancient History; medieval India introduced Islamic architecture which would coexist with surviving Hindu styles.</p>
+
+      <hr>
+      <h3>🧠 याद कैसे रखें? (Memory Tricks)</h3>
+      <ul>
+        <li><b>3 Temple Styles — "N-D-V"</b>:
+          <ul>
+            <li><b>N</b>agara — <b>North</b> India। <b>Curved shikhara</b> (beehive shape)। No big boundary wall। Examples: Khajuraho, Konark, Lingaraja।</li>
+            <li><b>D</b>ravida — <b>South</b> India। <b>Pyramidal vimana</b> (stepped tower)। बड़ा gopuram (entrance gate)। Walled compound। Examples: Brihadeeshvara (Thanjavur), Meenakshi (Madurai)।</li>
+            <li><b>V</b>esara — <b>Deccan</b> (mix of both)। Half-curved, half-pyramidal। Examples: Hoysala temples (Belur, Halebidu), Pattadakal।</li>
+          </ul>
+        </li>
+        <li><b>Trick to remember "Vimana vs Shikhara"</b>: South में "V" = Vimana = Dravida (V-V matching); North में Shikhara = Nagara (S-N memory)।</li>
+        <li><b>Famous temples by style</b>:
+          <ul>
+            <li>Nagara: <b>Khajuraho</b> (Chandelas, MP), <b>Konark Sun Temple</b> (Odisha, Ganga dynasty), <b>Jagannath Puri</b>, <b>Lingaraja Bhubaneshwar</b>।</li>
+            <li>Dravida: <b>Brihadeeshvara Thanjavur</b> (Chola — Rajaraja I), <b>Meenakshi Madurai</b>, <b>Shore Temple Mahabalipuram</b> (Pallava), <b>Virupaksha Hampi</b> (Vijayanagara)।</li>
+            <li>Vesara: <b>Chennakeshava Belur</b>, <b>Hoysaleswara Halebidu</b> (Hoysalas)।</li>
+          </ul>
+        </li>
+        <li><b>Cave architecture (rock-cut)</b>: <b>Ajanta</b> (Buddhist, MP) — paintings। <b>Ellora</b> (Buddhist + Hindu + Jain) — <b>Kailasa Temple</b> entire mountain से carved। <b>Mahabalipuram</b> (Pallava, TN) — Five Rathas, Shore Temple।</li>
+        <li><b>Story</b>: South में patrons बड़े-बड़े kings थे जिनके पास stone और लम्बा time था — वहाँ huge stone temples बने। North में लकड़ी ज़्यादा use होती थी, इसलिए shikhara उठा हुआ; और invaders के डर से बड़े-बड़े walled temples कम बने।</li>
+      </ul>
     `,
     mcq: [
       { q: "Three major styles of Indian temple architecture are?", opts: ["Nagara, Dravidian, Vesara", "Maru, Gurjara, Vesara", "Pallava, Chola, Hoysala", "Buddhist, Hindu, Jain"], a: 0, ex: "Nagara (North), Dravidian (South), Vesara (Deccan/hybrid)." },

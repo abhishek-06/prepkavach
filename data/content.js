@@ -9,6 +9,7 @@ window.SUBJECTS = [
         name: "History",
         topics: [
           // Ancient History
+          { id: "ah-dates-basics", name: "How to Read Dates (BC/AD/CE) — Start Here", group: "Ancient History" },
           { id: "ah-sources", name: "Sources of Ancient Indian History", group: "Ancient History" },
           { id: "ah-stone-age", name: "Prehistoric & Stone Age", group: "Ancient History" },
           { id: "ah-indus", name: "Indus Valley Civilization", group: "Ancient History" },
