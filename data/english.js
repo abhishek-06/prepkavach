@@ -2911,4 +2911,948 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 15. NARRATION (Direct / Indirect Speech)
+  // ───────────────────────────────────────────────────────────────
+  T["eng-narration"] = {
+    body: `
+      <h2>Narration (Direct / Indirect Speech)</h2>
+      <p>SSC asks 1-2 questions. Conversion between direct and indirect (reported) speech.</p>
+
+      <h3>1. Direct vs Indirect</h3>
+      <ul>
+        <li><b>Direct</b>: exact words in quotes. <i>He said, "I am happy."</i></li>
+        <li><b>Indirect</b>: reported meaning, no quotes. <i>He said that he was happy.</i></li>
+      </ul>
+
+      <h3>2. Key Changes (Direct → Indirect)</h3>
+
+      <h4>(a) Tense Changes (if reporting verb is past)</h4>
+      <table>
+        <tr><th>Direct</th><th>Indirect</th></tr>
+        <tr><td>Simple Present (write)</td><td>Simple Past (wrote)</td></tr>
+        <tr><td>Present Cont. (am writing)</td><td>Past Cont. (was writing)</td></tr>
+        <tr><td>Pres. Perfect (have written)</td><td>Past Perfect (had written)</td></tr>
+        <tr><td>Past Simple (wrote)</td><td>Past Perfect (had written)</td></tr>
+        <tr><td>Past Cont. (was writing)</td><td>Past Perfect Cont. (had been writing)</td></tr>
+        <tr><td>Will / Shall</td><td>Would / Should</td></tr>
+        <tr><td>Can</td><td>Could</td></tr>
+        <tr><td>May</td><td>Might</td></tr>
+        <tr><td>Must (no past)</td><td>Stays "must" or "had to"</td></tr>
+      </table>
+      <p><b>Exceptions</b>: Universal truths, habitual actions, historical facts — stay in original tense.</p>
+
+      <h4>(b) Pronoun Changes</h4>
+      <p>1st person (I, we, my) → subject of reporting verb (he, she, they).<br>
+      2nd person (you, your) → object of reporting verb (me, him, her).<br>
+      3rd person (he, she, it, they) → no change.</p>
+
+      <h4>(c) Time / Place / Adverb Changes</h4>
+      <table>
+        <tr><th>Direct</th><th>Indirect</th></tr>
+        <tr><td>now</td><td>then</td></tr>
+        <tr><td>today</td><td>that day</td></tr>
+        <tr><td>tonight</td><td>that night</td></tr>
+        <tr><td>yesterday</td><td>the previous day / the day before</td></tr>
+        <tr><td>tomorrow</td><td>the next day / the following day</td></tr>
+        <tr><td>last night/week</td><td>the previous night / the week before</td></tr>
+        <tr><td>next week</td><td>the following week</td></tr>
+        <tr><td>ago</td><td>before</td></tr>
+        <tr><td>this</td><td>that</td></tr>
+        <tr><td>these</td><td>those</td></tr>
+        <tr><td>here</td><td>there</td></tr>
+        <tr><td>come</td><td>go</td></tr>
+        <tr><td>hence</td><td>thence</td></tr>
+      </table>
+
+      <h3>3. Conversion Rules by Sentence Type</h3>
+
+      <h4>(a) Assertive (Statements)</h4>
+      <p>Use "that" + tense change + pronoun change.</p>
+      <ul>
+        <li>Direct: He said, "I am tired."</li>
+        <li>Indirect: He said <b>that</b> he <b>was</b> tired.</li>
+      </ul>
+
+      <h4>(b) Interrogative (Questions)</h4>
+      <p>Change reporting verb to "asked" / "enquired".</p>
+      <ul>
+        <li><b>Yes/No question</b>: use "if" or "whether". No question mark, change to statement word order.<br>
+          Direct: He said, "Are you ready?"<br>
+          Indirect: He asked <b>if/whether</b> I <b>was</b> ready.</li>
+        <li><b>Wh-question</b>: keep wh-word. Change order to statement.<br>
+          Direct: She said, "Where do you live?"<br>
+          Indirect: She asked where I <b>lived</b>.</li>
+      </ul>
+
+      <h4>(c) Imperative (Commands / Requests / Advice)</h4>
+      <p>Change reporting verb to: ordered / commanded / told / requested / advised / urged / warned / forbade.<br>
+      Drop comma & quotes. Use "to + V1" (infinitive). For negatives, use "not to + V1".</p>
+      <ul>
+        <li>Direct: He said, "Open the door."<br>
+          Indirect: He <b>ordered</b> me <b>to open</b> the door.</li>
+        <li>Direct: She said, "Please help me."<br>
+          Indirect: She <b>requested</b> me <b>to help</b> her.</li>
+        <li>Direct: Father said, "Don't tell lies."<br>
+          Indirect: Father <b>advised</b> me <b>not to tell</b> lies.</li>
+      </ul>
+
+      <h4>(d) Exclamatory (Emotions: joy, sorrow, surprise)</h4>
+      <p>Change reporting verb to: exclaimed with joy / sorrow / surprise / exclaimed that / cried out.<br>
+      Drop "What", "Alas", "Hurrah", "Oh", "Bravo". Convert to statement.</p>
+      <ul>
+        <li>Direct: He said, "Hurrah! We won!"<br>
+          Indirect: He <b>exclaimed with joy that</b> they had won.</li>
+        <li>Direct: She said, "Alas! He is no more."<br>
+          Indirect: She <b>exclaimed with sorrow that</b> he was no more.</li>
+        <li>Direct: He said, "What a beautiful sight!"<br>
+          Indirect: He <b>exclaimed</b> that it <b>was</b> a very beautiful sight.</li>
+      </ul>
+
+      <h4>(e) Optative (Wish / Blessing / Curse)</h4>
+      <p>Use "wished / prayed / blessed / cursed".</p>
+      <ul>
+        <li>Direct: He said, "May you live long!"<br>
+          Indirect: He <b>wished</b> that I <b>might live</b> long. / He <b>blessed</b> me with long life.</li>
+      </ul>
+
+      <h3>4. Important Exceptions</h3>
+
+      <h4>(a) Universal Truth / Habitual Action / Historical Fact</h4>
+      <ul>
+        <li>Direct: The teacher said, "The sun rises in the east."<br>
+          Indirect: The teacher said that the sun <b>rises</b> (NOT rose) in the east.</li>
+      </ul>
+
+      <h4>(b) Reporting verb in Present / Future Tense — No tense change in reported speech</h4>
+      <ul>
+        <li>Direct: He <b>says</b>, "I am tired."<br>
+          Indirect: He says that he <b>is</b> tired. (no change)</li>
+      </ul>
+
+      <h4>(c) "Let" — special conversion</h4>
+      <ul>
+        <li>Suggestion: "Let us go." → He suggested that they should go. / He proposed going.</li>
+        <li>Permission: "Let me go." → He requested to be allowed to go.</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Reporting verb past → tense in reported clause goes back one step.</li>
+        <li>Reporting verb present/future → NO tense change.</li>
+        <li>Universal truths stay in present.</li>
+        <li>Imperative → "to + V1" (or "not to + V1").</li>
+        <li>Wh-question → keep wh-word; change to statement order.</li>
+        <li>Yes/No question → use "if/whether".</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1 — Assertive</h4>
+      <p><b>Direct</b>: She said, "I love music."</p>
+      <p><b>Solution:</b><br>Tense: present → past. Pronoun: I → she.<br>Indirect: "She said <b>that she loved</b> music."</p>
+
+      <h4>Example 2 — Yes/No Question</h4>
+      <p><b>Direct</b>: He said, "Are you coming?"</p>
+      <p><b>Solution:</b><br>Indirect: "He asked <b>if/whether I was coming</b>."</p>
+
+      <h4>Example 3 — Wh-Question</h4>
+      <p><b>Direct</b>: She asked, "Where do you live?"</p>
+      <p><b>Solution:</b><br>Indirect: "She asked <b>where I lived</b>."</p>
+
+      <h4>Example 4 — Imperative (Command)</h4>
+      <p><b>Direct</b>: The teacher said, "Sit down."</p>
+      <p><b>Solution:</b><br>Indirect: "The teacher <b>ordered us to sit down</b>."</p>
+
+      <h4>Example 5 — Imperative (Request)</h4>
+      <p><b>Direct</b>: She said to him, "Please help me."</p>
+      <p><b>Solution:</b><br>Indirect: "She <b>requested him to help her</b>."</p>
+
+      <h4>Example 6 — Negative Imperative</h4>
+      <p><b>Direct</b>: He said, "Don't waste time."</p>
+      <p><b>Solution:</b><br>Indirect: "He <b>advised me not to waste time</b>."</p>
+
+      <h4>Example 7 — Exclamatory</h4>
+      <p><b>Direct</b>: He said, "Hurrah! I have won."</p>
+      <p><b>Solution:</b><br>Indirect: "He <b>exclaimed with joy that</b> he had won."</p>
+
+      <h4>Example 8 — Universal Truth</h4>
+      <p><b>Direct</b>: She said, "The earth revolves around the sun."</p>
+      <p><b>Solution:</b><br>Indirect: "She said that the earth <b>revolves</b> around the sun." (no tense change)</p>
+
+      <h4>Example 9 — Time change</h4>
+      <p><b>Direct</b>: He said, "I will come tomorrow."</p>
+      <p><b>Solution:</b><br>Indirect: "He said that he <b>would come the next day</b>."</p>
+
+      <h4>Example 10 — Present Reporting</h4>
+      <p><b>Direct</b>: He says, "I am tired."</p>
+      <p><b>Solution:</b><br>No tense change.<br>Indirect: "He says that he <b>is</b> tired."</p>
+
+      <h4>Example 11 — Optative</h4>
+      <p><b>Direct</b>: He said, "May God bless you!"</p>
+      <p><b>Solution:</b><br>Indirect: "He <b>prayed that God might bless me</b>." / "He <b>wished that God might bless me</b>."</p>
+
+      <h4>Example 12 — Wh-Question with did</h4>
+      <p><b>Direct</b>: She asked, "When did you arrive?"</p>
+      <p><b>Solution:</b><br>Past simple "did arrive" → past perfect.<br>Indirect: "She asked when I <b>had arrived</b>."</p>
+
+      <h4>Example 13 — "Let us"</h4>
+      <p><b>Direct</b>: He said, "Let's go to the cinema."</p>
+      <p><b>Solution:</b><br>Suggestion → "suggested" / "proposed".<br>Indirect: "He <b>suggested going</b> to the cinema." / "He <b>proposed that they should go</b>..."</p>
+
+      <h4>Example 14 — Mixed (statement + question)</h4>
+      <p><b>Direct</b>: He said, "I am happy. Are you?"</p>
+      <p><b>Solution:</b><br>Indirect: "He said that he was happy and asked if I was (happy too)."</p>
+
+      <h4>Example 15 — "This" / "Here"</h4>
+      <p><b>Direct</b>: He said, "I will buy this book here."</p>
+      <p><b>Solution:</b><br>Indirect: "He said that he would buy <b>that</b> book <b>there</b>."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Reporting verb past → reported clause shifts to past (unless universal truth).</li>
+        <li>Imperative → "to + V1" / "not to + V1" with verb like ordered/requested/advised.</li>
+        <li>Y/N question → "if" or "whether"; Wh-question → keep wh-word.</li>
+        <li>Change "today/now/here/this/come" → "that day/then/there/that/go".</li>
+        <li>Drop quotation marks and use "that" for assertive (often optional in modern English).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Indirect of: He said, 'I am happy.'", opts: ["He said that he is happy", "He said that he was happy", "He says he was happy", "He had said he is happy"], a: 1, ex: "Past tense reporting → past in reported." },
+      { q: "Indirect of: He said, 'I have done my work.'", opts: ["He said that he has done", "He said that he had done", "He said he was doing", "He said he is doing"], a: 1, ex: "Has → had." },
+      { q: "Indirect of: She said, 'Where are you going?'", opts: ["She asked where I am going", "She asked where I was going", "She asked where I go", "She said where am I going"], a: 1, ex: "Wh + past." },
+      { q: "Indirect of: He said, 'Open the door.'", opts: ["He said to open", "He ordered to open the door", "He ordered me to open the door", "He said me to open"], a: 2, ex: "Imperative → ordered/told + obj + to + V1." },
+      { q: "Indirect of: 'May you live long!'", opts: ["He said you may live long", "He wished I might live long", "He prayed I may live", "He said may you live long"], a: 1, ex: "Optative → wished/prayed + might." },
+      { q: "Indirect of: He said, 'I will come tomorrow.'", opts: ["He said he will come tomorrow", "He said he would come the next day", "He said I would come tomorrow", "He said come the next day"], a: 1, ex: "Will → would; tomorrow → next day." },
+      { q: "Indirect of: He said, 'Are you ready?'", opts: ["He asked are you ready", "He asked if I was ready", "He asked I was ready", "He said if I am ready"], a: 1, ex: "Y/N → if + statement order." },
+      { q: "Indirect of: 'The sun rises in the east,' he said.", opts: ["He said sun rose", "He said the sun rises", "He said sun has risen", "He said the sun was rising"], a: 1, ex: "Universal truth — no change." },
+      { q: "Indirect of: 'Don't lie,' she said.", opts: ["She told me don't lie", "She said not to lie", "She advised me not to lie", "She forbade me lie"], a: 2, ex: "Negative imperative → not to + V1." },
+      { q: "Indirect of: He said, 'Alas! I am undone.'", opts: ["He said alas he is undone", "He exclaimed with sorrow that he was undone", "He cried alas I was undone", "He said sadly undone"], a: 1, ex: "Exclamatory → exclaimed with sorrow that..." },
+      { q: "Indirect of: She said, 'I bought a pen yesterday.'", opts: ["She said she bought a pen yesterday", "She said she had bought a pen the previous day", "She said she had bought a pen yesterday", "She bought a pen the day before"], a: 1, ex: "Past → past perfect; yesterday → previous day." },
+      { q: "Indirect of: He said, 'I can swim.'", opts: ["He said he can swim", "He said he could swim", "He said he swam", "He said he might swim"], a: 1, ex: "Can → could." },
+      { q: "Indirect of: 'Please give me a glass of water,' he said.", opts: ["He told me to give water", "He requested me to give him a glass of water", "He pleased to give water", "He said please give water"], a: 1, ex: "Please → requested + to + V1." },
+      { q: "Indirect of: 'What a beautiful day it is!'", opts: ["He said what a day", "He exclaimed that it was a very beautiful day", "He said it is beautiful", "He cried beautiful day"], a: 1, ex: "Exclamatory → exclaimed that + statement." },
+      { q: "Indirect of: 'Let's play cricket,' he said.", opts: ["He said let's play cricket", "He proposed that we should play cricket", "He suggested playing cricket", "Both B and C"], a: 3, ex: "Let's → suggested/proposed." },
+      { q: "Indirect of: She asked, 'Did you see the movie?'", opts: ["She asked if I saw the movie", "She asked if I had seen the movie", "She asked I saw the movie", "She asked have I seen the movie"], a: 1, ex: "Y/N + past → if + had + V3." },
+      { q: "Indirect of: He said, 'I shall do it.'", opts: ["He said he shall do it", "He said he would do it", "He said he should do it", "He said he had done it"], a: 1, ex: "Shall → would." },
+      { q: "Indirect of: 'Bring me a book,' she said.", opts: ["She brought a book", "She ordered me to bring a book", "She said to bring a book", "She brought to me a book"], a: 1, ex: "Imperative → ordered + obj + to + V1." },
+      { q: "Indirect of: He said, 'I went there yesterday.'", opts: ["He said he went there yesterday", "He said he had gone there the previous day", "He said he goes there yesterday", "He said he had gone yesterday"], a: 1, ex: "Past + yesterday → past perf + previous day." },
+      { q: "Indirect of: 'Where do you come from?' the man asked.", opts: ["He asked where I come from", "He asked where I came from", "He asked where I am coming", "He asked where did I come"], a: 1, ex: "Present → past in reported." },
+      { q: "Indirect of: 'Hurrah! India has won the match.'", opts: ["He said hurrah India won", "He exclaimed with joy that India had won", "He cried India won", "He shouted India has won"], a: 1, ex: "Exclamatory of joy." },
+      { q: "Indirect of: 'Don't smoke,' the doctor said.", opts: ["Doctor said don't smoke", "Doctor told not to smoke", "Doctor advised me not to smoke", "Doctor forbade me to smoke"], a: 2, ex: "Doctor → advised." },
+      { q: "Indirect of: He said, 'It is raining now.'", opts: ["He said it is raining now", "He said it was raining then", "He said it has been raining", "He said it had been raining"], a: 1, ex: "Now → then." },
+      { q: "Indirect of: She said, 'I have been waiting for hours.'", opts: ["She said I have been waiting", "She said she had been waiting for hours", "She said I was waiting", "She said she has waited"], a: 1, ex: "Has been → had been." },
+      { q: "Indirect of: 'May God forgive you,' he said.", opts: ["He said may God forgive", "He prayed that God might forgive me", "He blessed me with forgiveness", "Both B and C"], a: 3, ex: "Optative — multiple equivalents." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 16. CONDITIONAL SENTENCES
+  // ───────────────────────────────────────────────────────────────
+  T["eng-conditional"] = {
+    body: `
+      <h2>Conditional Sentences (If-clauses)</h2>
+      <p>Conditional sentences express situations and their consequences. SSC asks 1-2 questions on if-clauses.</p>
+
+      <h3>1. The Four Types</h3>
+
+      <h4>Type 0: Zero Conditional (universal truth / always true)</h4>
+      <p>If + Present Simple, Present Simple.</p>
+      <ul>
+        <li>If you <b>heat</b> water to 100°C, it <b>boils</b>.</li>
+        <li>If it <b>rains</b>, the ground <b>gets</b> wet.</li>
+      </ul>
+
+      <h4>Type 1: First Conditional (real possibility in future)</h4>
+      <p>If + Present Simple, Future Simple (will + V1).</p>
+      <ul>
+        <li>If it <b>rains</b>, I <b>will stay</b> home.</li>
+        <li>If you <b>study</b> hard, you <b>will pass</b>.</li>
+        <li>If he <b>comes</b>, I <b>will go</b>.</li>
+      </ul>
+
+      <h4>Type 2: Second Conditional (unreal/hypothetical present)</h4>
+      <p>If + Past Simple, would + V1.</p>
+      <ul>
+        <li>If I <b>had</b> a car, I <b>would drive</b> to office.</li>
+        <li>If I <b>were</b> you, I <b>would accept</b> the offer. (use "were" for all subjects)</li>
+        <li>If she <b>knew</b> his number, she <b>would call</b> him.</li>
+      </ul>
+
+      <h4>Type 3: Third Conditional (unreal past — opposite of what happened)</h4>
+      <p>If + Past Perfect, would have + V3.</p>
+      <ul>
+        <li>If I <b>had studied</b> hard, I <b>would have passed</b>. (but I didn't)</li>
+        <li>If he <b>had come</b> earlier, he <b>would have met</b> her. (but he came late)</li>
+        <li>If you <b>had told</b> me, I <b>would have helped</b>. (but you didn't)</li>
+      </ul>
+
+      <h4>Mixed Conditional (Type 2 + Type 3)</h4>
+      <p>Past condition affecting present, OR present condition imagining different past.</p>
+      <ul>
+        <li>If I <b>had studied</b> (past), I <b>would be</b> a doctor now. (past condition, present result)</li>
+        <li>If I <b>were</b> a doctor (present), I <b>would have saved</b> her. (present condition, past result)</li>
+      </ul>
+
+      <h3>2. Important Notes</h3>
+
+      <h4>(a) "If I were" (NOT "if I was") — subjunctive mood</h4>
+      <ul>
+        <li>✓ If I <b>were</b> rich, I <b>would</b> travel.</li>
+        <li>✓ I wish I <b>were</b> taller.</li>
+        <li><i>"If I was" is sometimes accepted in modern informal English, but SSC prefers "were".</i></li>
+      </ul>
+
+      <h4>(b) "Unless" = "if not"</h4>
+      <ul>
+        <li>✓ Unless you <b>study</b>, you will fail. = If you don't study, you will fail.</li>
+        <li>❌ Unless you don't study, you will fail. (double negative)</li>
+      </ul>
+
+      <h4>(c) "Were to" (very formal, more hypothetical)</h4>
+      <ul>
+        <li>If I <b>were to</b> win the lottery, I <b>would</b> buy a house.</li>
+      </ul>
+
+      <h4>(d) "Should" in conditional (less likely future)</h4>
+      <ul>
+        <li>If you <b>should</b> see him, please tell him. (= in case you see him)</li>
+      </ul>
+
+      <h4>(e) Inverted forms (formal, replacing "if")</h4>
+      <ul>
+        <li>"Were I you, I would accept." (= If I were you...)</li>
+        <li>"Had I known, I would have helped." (= If I had known...)</li>
+        <li>"Should he come, please inform me." (= If he should come...)</li>
+      </ul>
+
+      <h3>3. Common SSC Patterns</h3>
+
+      <h4>Pattern A: Sentence completion</h4>
+      <p>If you ___ harder, you would have succeeded.</p>
+      <p>Answer: had worked (Type 3).</p>
+
+      <h4>Pattern B: Error spotting</h4>
+      <p>"If he will come, I will tell him." — error in "if-clause".</p>
+      <p>Fix: "If he <b>comes</b>, I will tell him." (Type 1)</p>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Type 1: Present + will (future real).</li>
+        <li>Type 2: Past + would (present unreal).</li>
+        <li>Type 3: Past Perfect + would have (past unreal).</li>
+        <li>"If I were" — NEVER "if I was" in SSC.</li>
+        <li>"Unless" is already negative — don't double-negate.</li>
+        <li>NO "will" in if-clause for Type 1.</li>
+        <li>NO "would" in if-clause for Type 2.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "If he will come, I will be happy."</p>
+      <p><b>Solution:</b><br>Type 1: if-clause has present, not future.<br>Correct: "If he <b>comes</b>, I will be happy."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "If I was rich, I would buy a car."</p>
+      <p><b>Solution:</b><br>"If I were" — subjunctive.<br>Correct: "If I <b>were</b> rich..."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "Unless you don't hurry, you'll miss the bus."</p>
+      <p><b>Solution:</b><br>"Unless" already negative.<br>Correct: "Unless you <b>hurry</b>, you'll miss the bus."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Spot the error</b>: "If I would have known, I would have helped."</p>
+      <p><b>Solution:</b><br>Type 3: if-clause has past perfect (not "would have").<br>Correct: "If I <b>had known</b>, I would have helped."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Choose</b>: "If she ___ here, she would have called us."</p>
+      <p><b>Solution:</b><br>Type 3 — past perfect.<br>"If she <b>had been</b> here..."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Choose</b>: "If you ___ harder, you would succeed."</p>
+      <p><b>Solution:</b><br>Type 2 — past simple.<br>"If you <b>worked</b> harder..."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Choose</b>: "I will help you if you ___ me."</p>
+      <p><b>Solution:</b><br>Type 1 — present.<br>"...if you <b>ask</b> me."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Spot the error</b>: "If you would have told me, I would have come."</p>
+      <p><b>Solution:</b><br>Type 3: if-clause uses past perfect.<br>Correct: "If you <b>had told</b> me, I would have come."</p>
+
+      <h4>Example 9</h4>
+      <p><b>Choose</b>: "If I ___ a bird, I would fly."</p>
+      <p><b>Solution:</b><br>Type 2 subjunctive.<br>"If I <b>were</b> a bird..."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "If it rains tomorrow, we will postpone the picnic."</p>
+      <p><b>Solution:</b><br>Correct — Type 1.</p>
+
+      <h4>Example 11 — Inverted</h4>
+      <p><b>Choose</b>: "___ I you, I would not do that."</p>
+      <p><b>Solution:</b><br>"Were I you" (inverted).<br>"<b>Were</b> I you..."</p>
+
+      <h4>Example 12 — Mixed</h4>
+      <p><b>Choose</b>: "If I had studied medicine, I ___ a doctor now."</p>
+      <p><b>Solution:</b><br>Mixed: past condition, present result.<br>"...I <b>would be</b> a doctor now."</p>
+
+      <h4>Example 13</h4>
+      <p><b>Spot the error</b>: "Unless he doesn't pay the fee, he can't attend."</p>
+      <p><b>Solution:</b><br>"Unless" + positive.<br>Correct: "Unless he <b>pays</b> the fee, he can't attend."</p>
+
+      <h4>Example 14</h4>
+      <p><b>Spot the error</b>: "If I will see him, I will tell him."</p>
+      <p><b>Solution:</b><br>Type 1 — present in if-clause.<br>Correct: "If I <b>see</b> him..."</p>
+
+      <h4>Example 15</h4>
+      <p><b>Choose</b>: "Had he ___ earlier, he would have caught the train."</p>
+      <p><b>Solution:</b><br>Inverted Type 3.<br>"Had he <b>started</b> / <b>come</b> earlier..."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Type 1: <b>NO "will" in if-clause</b>. Use present.</li>
+        <li>Type 2: <b>NO "would" in if-clause</b>. Use past.</li>
+        <li>Type 3: <b>"had + V3" in if-clause</b>, "would have + V3" in main.</li>
+        <li>"If I were" — always subjunctive, never "was".</li>
+        <li>"Unless" + positive verb (no double negative).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'If he will come, I will tell him.'", opts: ["If he will come", "I will tell him", "No error", "(none)"], a: 0, ex: "Type 1: 'If he comes'." },
+      { q: "Choose: 'If I ___ rich, I would buy a yacht.'", opts: ["am", "were", "had been", "would be"], a: 1, ex: "Type 2 subjunctive." },
+      { q: "Spot the error: 'If he would have come, we would have left.'", opts: ["If he would have come", "we would have left", "No error", "(none)"], a: 0, ex: "Type 3: 'If he had come'." },
+      { q: "Choose: 'If she ___ hard, she will succeed.'", opts: ["works", "would work", "had worked", "will work"], a: 0, ex: "Type 1 — present." },
+      { q: "Spot the error: 'Unless you don't apologise, I won't talk.'", opts: ["Unless you", "don't apologise", "I won't talk", "No error"], a: 1, ex: "Unless = if not — no double negative." },
+      { q: "Choose: 'If it ___ tomorrow, I'll stay in.'", opts: ["rain", "rains", "will rain", "would rain"], a: 1, ex: "Type 1." },
+      { q: "Spot the error: 'If I was you, I would refuse.'", opts: ["If I was", "you", "I would refuse", "No error"], a: 0, ex: "Subjunctive: 'were'." },
+      { q: "Choose: 'I would have come if I ___ time.'", opts: ["had", "would have had", "had had", "have had"], a: 2, ex: "Type 3 — past perfect 'had had'." },
+      { q: "Spot the error: 'If he had studied, he will pass.'", opts: ["If he had studied", "he will pass", "No error", "(none)"], a: 1, ex: "Type 3 → would have passed." },
+      { q: "Choose: 'If you heat ice, it ___.'", opts: ["will melt", "melts", "would melt", "had melted"], a: 1, ex: "Universal truth (Type 0)." },
+      { q: "Spot the error: 'If I were a king, I will rule fairly.'", opts: ["If I were", "a king", "I will rule", "No error"], a: 2, ex: "Type 2 — would rule." },
+      { q: "Choose: '___ I known, I would have called.'", opts: ["If", "Had", "Was", "Were"], a: 1, ex: "Inverted Type 3: 'Had I known'." },
+      { q: "Spot the error: 'If they will agree, we'll proceed.'", opts: ["If they will agree", "we'll proceed", "No error", "(none)"], a: 0, ex: "Type 1 — 'If they agree'." },
+      { q: "Choose: 'Unless he ___ the rules, he can't play.'", opts: ["doesn't follow", "follows", "would follow", "will follow"], a: 1, ex: "Unless + positive." },
+      { q: "Spot the error: 'If she had been here, she will help.'", opts: ["If she had been here", "she will help", "No error", "(none)"], a: 1, ex: "Type 3 → 'would have helped'." },
+      { q: "Choose: 'If I ___ a doctor, I would treat for free.'", opts: ["am", "were", "had been", "will be"], a: 1, ex: "Subjunctive present." },
+      { q: "Spot the error: 'If you go, I will go too.'", opts: ["If you go", "I will go too", "No error", "(none)"], a: 2, ex: "Correct — Type 1." },
+      { q: "Choose: 'Were I you, I ___ that.'", opts: ["will not do", "would not do", "have not done", "do not"], a: 1, ex: "Inverted Type 2 — would." },
+      { q: "Spot the error: 'If she had asked me, I had told her.'", opts: ["If she had asked", "I had told her", "No error", "(none)"], a: 1, ex: "Main clause: 'would have told'." },
+      { q: "Choose: 'If you should ___ him, please call me.'", opts: ["meet", "meets", "have met", "will meet"], a: 0, ex: "If you should meet — V1." },
+      { q: "Spot the error: 'Unless he comes, I will not leave.'", opts: ["Unless he comes", "I will not leave", "No error", "(none)"], a: 2, ex: "Correct — Type 1 negative." },
+      { q: "Choose: 'If I had a car, I ___ go by train.'", opts: ["will not", "wouldn't", "haven't", "didn't"], a: 1, ex: "Type 2." },
+      { q: "Spot the error: 'Had he came earlier, he would have caught the train.'", opts: ["Had he came", "earlier", "would have caught", "No error"], a: 0, ex: "'Had he come' (V3)." },
+      { q: "Choose: 'If you don't hurry, you ___ the bus.'", opts: ["miss", "will miss", "would miss", "missed"], a: 1, ex: "Type 1 — will + V1." },
+      { q: "Spot the error: 'I wish I am rich.'", opts: ["I wish", "I am rich", "No error", "(none)"], a: 1, ex: "Wish + past: 'I were rich'." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 17. QUESTION TAG
+  // ───────────────────────────────────────────────────────────────
+  T["eng-question-tag"] = {
+    body: `
+      <h2>Question Tag</h2>
+      <p>A short question added to the end of a statement, used to confirm/seek agreement. SSC asks 1 question on tags.</p>
+
+      <h3>1. Basic Rule: Statement Polarity → Opposite Tag</h3>
+      <ul>
+        <li>Positive statement → Negative tag</li>
+        <li>Negative statement → Positive tag</li>
+      </ul>
+      <ul>
+        <li>✓ You are coming, <b>aren't you?</b></li>
+        <li>✓ You aren't coming, <b>are you?</b></li>
+        <li>✓ He has done it, <b>hasn't he?</b></li>
+        <li>✓ He hasn't done it, <b>has he?</b></li>
+      </ul>
+
+      <h3>2. Auxiliary Choice</h3>
+      <ul>
+        <li>Use the <b>same auxiliary verb</b> from the main clause.</li>
+        <li>If no auxiliary, use a form of "do" (do/does/did).</li>
+        <li>✓ He plays well, <b>doesn't he?</b> (do-support)</li>
+        <li>✓ They went home, <b>didn't they?</b></li>
+      </ul>
+
+      <h3>3. Subject in Tag</h3>
+      <p>Always a pronoun (it / he / she / they / there / I / you / we), matching the main subject.</p>
+
+      <h3>4. Special Cases</h3>
+
+      <h4>(a) "I am" → Tag = "aren't I?"</h4>
+      <ul>
+        <li>✓ I am late, <b>aren't I?</b> (not "amn't I" — not used)</li>
+      </ul>
+
+      <h4>(b) "Let's" → Tag = "shall we?"</h4>
+      <ul>
+        <li>✓ Let's go, <b>shall we?</b></li>
+      </ul>
+
+      <h4>(c) Imperative → Tag = "will you / won't you / can you?"</h4>
+      <ul>
+        <li>✓ Open the door, <b>will you?</b></li>
+        <li>✓ Don't smoke, <b>will you?</b></li>
+        <li>✓ Help me, <b>won't you?</b></li>
+      </ul>
+
+      <h4>(d) "There" as subject — keep "there" in tag</h4>
+      <ul>
+        <li>✓ There is a book, <b>isn't there?</b></li>
+        <li>✓ There are many, <b>aren't there?</b></li>
+      </ul>
+
+      <h4>(e) Words with Negative Meaning Treated as Negative</h4>
+      <p>"Hardly, scarcely, barely, rarely, seldom, never, nothing, no one, nobody, none, few, little (without 'a')" — these make the sentence NEGATIVE, so use POSITIVE tag.</p>
+      <ul>
+        <li>✓ He hardly comes here, <b>does he?</b></li>
+        <li>✓ Nobody knows, <b>do they?</b></li>
+        <li>✓ Few people came, <b>did they?</b></li>
+      </ul>
+
+      <h4>(f) "Everyone, Everybody, Someone, Anyone, No one" → Tag uses "they"</h4>
+      <ul>
+        <li>✓ Everyone is happy, <b>aren't they?</b></li>
+        <li>✓ Nobody came, <b>did they?</b></li>
+      </ul>
+
+      <h4>(g) "Nothing / Everything" → Tag uses "it"</h4>
+      <ul>
+        <li>✓ Nothing happened, <b>did it?</b></li>
+        <li>✓ Everything is fine, <b>isn't it?</b></li>
+      </ul>
+
+      <h4>(h) Statement with "used to" → Tag = "didn't ... ?" or "did...?"</h4>
+      <ul>
+        <li>✓ He used to smoke, <b>didn't he?</b></li>
+      </ul>
+
+      <h4>(i) "Must" → context dependent</h4>
+      <ul>
+        <li>For obligation: "You must come, <b>mustn't you?</b>"</li>
+        <li>For deduction: "He must be tired, <b>isn't he?</b>"</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Positive → negative tag; Negative → positive tag.</li>
+        <li>Same auxiliary, no auxiliary → do/does/did.</li>
+        <li>"I am" → "aren't I?"</li>
+        <li>"Let's" → "shall we?"</li>
+        <li>Imperative → "will you / won't you?"</li>
+        <li>"Hardly/Nobody/Nothing/Few" → treat as negative (use positive tag).</li>
+        <li>"Everyone/Nobody/Anyone" → use "they" in tag.</li>
+        <li>"Nothing/Everything" → use "it".</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p>"You are tired, ___?"</p>
+      <p><b>Solution:</b><br>Positive → negative tag.<br>"...<b>aren't you?</b>"</p>
+
+      <h4>Example 2</h4>
+      <p>"He hasn't come yet, ___?"</p>
+      <p><b>Solution:</b><br>Negative → positive tag.<br>"...<b>has he?</b>"</p>
+
+      <h4>Example 3</h4>
+      <p>"They play cricket, ___?"</p>
+      <p><b>Solution:</b><br>No auxiliary → do-support.<br>"...<b>don't they?</b>"</p>
+
+      <h4>Example 4</h4>
+      <p>"I am right, ___?"</p>
+      <p><b>Solution:</b><br>Special case.<br>"...<b>aren't I?</b>"</p>
+
+      <h4>Example 5</h4>
+      <p>"Let's go to the park, ___?"</p>
+      <p><b>Solution:</b><br>Let's → shall we.<br>"...<b>shall we?</b>"</p>
+
+      <h4>Example 6</h4>
+      <p>"Open the door, ___?"</p>
+      <p><b>Solution:</b><br>Imperative.<br>"...<b>will you?</b>" / "<b>won't you?</b>"</p>
+
+      <h4>Example 7</h4>
+      <p>"Nobody saw him, ___?"</p>
+      <p><b>Solution:</b><br>Negative meaning ('nobody') + "they".<br>"...<b>did they?</b>"</p>
+
+      <h4>Example 8</h4>
+      <p>"There are many books here, ___?"</p>
+      <p><b>Solution:</b><br>Keep "there".<br>"...<b>aren't there?</b>"</p>
+
+      <h4>Example 9</h4>
+      <p>"Hardly anyone came, ___?"</p>
+      <p><b>Solution:</b><br>Negative meaning + "they".<br>"...<b>did they?</b>"</p>
+
+      <h4>Example 10</h4>
+      <p>"He used to live here, ___?"</p>
+      <p><b>Solution:</b><br>Used to → didn't.<br>"...<b>didn't he?</b>"</p>
+
+      <h4>Example 11</h4>
+      <p>"Everything is alright, ___?"</p>
+      <p><b>Solution:</b><br>Everything → it.<br>"...<b>isn't it?</b>"</p>
+
+      <h4>Example 12</h4>
+      <p>"He must be tired, ___?"</p>
+      <p><b>Solution:</b><br>Deduction (must = probably) → use "is".<br>"...<b>isn't he?</b>"</p>
+
+      <h4>Example 13</h4>
+      <p>"You will help me, ___?"</p>
+      <p><b>Solution:</b><br>Positive future → negative tag.<br>"...<b>won't you?</b>"</p>
+
+      <h4>Example 14</h4>
+      <p>"Don't go there, ___?"</p>
+      <p><b>Solution:</b><br>Negative imperative.<br>"...<b>will you?</b>"</p>
+
+      <h4>Example 15</h4>
+      <p>"Nothing is impossible, ___?"</p>
+      <p><b>Solution:</b><br>Negative meaning + it.<br>"...<b>is it?</b>"</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>"I am" → "aren't I?" (never "amn't I").</li>
+        <li>"Let's" → "shall we?" (NOT "won't we").</li>
+        <li>Imperative (positive or negative) → "will you?".</li>
+        <li>Hardly/Scarcely/Never/Nobody = negative — use positive tag.</li>
+        <li>Everyone/Nobody → "they"; Nothing/Everything → "it".</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Tag: 'You are coming, ___?'", opts: ["are you", "aren't you", "do you", "don't you"], a: 1, ex: "Positive → negative." },
+      { q: "Tag: 'I am right, ___?'", opts: ["aren't I", "am I not", "amn't I", "isn't it"], a: 0, ex: "Special: 'aren't I'." },
+      { q: "Tag: 'Let's go, ___?'", opts: ["shall we", "will we", "shall you", "won't we"], a: 0, ex: "Let's → shall we." },
+      { q: "Tag: 'He hasn't done, ___?'", opts: ["has he", "hasn't he", "did he", "doesn't he"], a: 0, ex: "Negative → positive (with same auxiliary)." },
+      { q: "Tag: 'Don't shout, ___?'", opts: ["do you", "will you", "don't you", "won't you"], a: 1, ex: "Imperative → will you." },
+      { q: "Tag: 'Nobody came, ___?'", opts: ["did he", "did they", "didn't they", "did anyone"], a: 1, ex: "Nobody (negative) + they." },
+      { q: "Tag: 'Everyone is ready, ___?'", opts: ["isn't he", "aren't they", "are they", "isn't it"], a: 1, ex: "Everyone → they; positive → negative." },
+      { q: "Tag: 'There is no time, ___?'", opts: ["is there", "isn't there", "is it", "isn't it"], a: 0, ex: "Negative ('no') → positive; there." },
+      { q: "Tag: 'He plays cricket, ___?'", opts: ["doesn't he", "does he", "isn't he", "is he"], a: 0, ex: "Positive present → doesn't he." },
+      { q: "Tag: 'You will come, ___?'", opts: ["will you", "won't you", "don't you", "do you"], a: 1, ex: "Positive → negative tag." },
+      { q: "Tag: 'Hardly anyone helps, ___?'", opts: ["does he", "do they", "doesn't anyone", "don't they"], a: 1, ex: "Hardly = negative; anyone → they; positive tag." },
+      { q: "Tag: 'Nothing happened, ___?'", opts: ["did it", "didn't it", "did anything", "didn't anything"], a: 0, ex: "Nothing (negative) + it; positive tag." },
+      { q: "Tag: 'He used to come, ___?'", opts: ["didn't he", "doesn't he", "wouldn't he", "isn't he"], a: 0, ex: "Used to → didn't he." },
+      { q: "Tag: 'Please help me, ___?'", opts: ["will you", "won't you", "do you", "Both A and B"], a: 3, ex: "Polite imperative — both work." },
+      { q: "Tag: 'Open the window, ___?'", opts: ["will you", "won't you", "do you", "Both A and B"], a: 3, ex: "Imperative." },
+      { q: "Tag: 'She doesn't like coffee, ___?'", opts: ["does she", "doesn't she", "is she", "isn't she"], a: 0, ex: "Negative → positive." },
+      { q: "Tag: 'They have left, ___?'", opts: ["haven't they", "have they", "didn't they", "did they"], a: 0, ex: "Same auxiliary 'have'." },
+      { q: "Tag: 'There is a problem, ___?'", opts: ["is there", "isn't there", "isn't it", "is it"], a: 1, ex: "Positive → negative; keep there." },
+      { q: "Tag: 'Few attended the meeting, ___?'", opts: ["did they", "didn't they", "do they", "don't they"], a: 0, ex: "Few = negative; positive tag with 'they'." },
+      { q: "Tag: 'You aren't tired, ___?'", opts: ["are you", "aren't you", "do you", "don't you"], a: 0, ex: "Negative → positive." },
+      { q: "Tag: 'Let us go for a walk, ___?'", opts: ["shall we", "will we", "won't we", "shall us"], a: 0, ex: "Let us / Let's → shall we." },
+      { q: "Tag: 'He must be the boss, ___?' (deduction)", opts: ["mustn't he", "isn't he", "is he", "wasn't he"], a: 1, ex: "Deduction → 'isn't he'." },
+      { q: "Tag: 'I am going to fail, ___?'", opts: ["am I not", "aren't I", "won't I", "do I"], a: 1, ex: "I am → aren't I." },
+      { q: "Tag: 'Everybody believes him, ___?'", opts: ["doesn't he", "don't they", "doesn't it", "doesn't everyone"], a: 1, ex: "Everybody → they." },
+      { q: "Tag: 'Don't tell him, ___?'", opts: ["will you", "won't you", "do you", "don't you"], a: 0, ex: "Negative imperative → will you." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 18. MOOD
+  // ───────────────────────────────────────────────────────────────
+  T["eng-mood"] = {
+    body: `
+      <h2>Mood</h2>
+      <p><b>Mood</b> indicates the manner in which the action is conceived. SSC occasionally asks 1 question; concept appears across other topics.</p>
+
+      <h3>1. Three Moods</h3>
+
+      <h4>(a) Indicative Mood — facts, statements, questions</h4>
+      <ul>
+        <li>He <b>writes</b> a letter. (fact)</li>
+        <li>Does he <b>write</b>? (question)</li>
+      </ul>
+
+      <h4>(b) Imperative Mood — command, request, advice</h4>
+      <ul>
+        <li><b>Open</b> the door. (command)</li>
+        <li>Please <b>help</b> me. (request)</li>
+        <li><b>Be</b> careful. (advice)</li>
+      </ul>
+
+      <h4>(c) Subjunctive Mood — wish, doubt, hypothetical, suggestion</h4>
+      <ul>
+        <li>I wish I <b>were</b> rich. (hypothetical present)</li>
+        <li>If I <b>were</b> you... (hypothetical)</li>
+        <li>God <b>bless</b> you! (wish/blessing)</li>
+        <li>He <b>should be</b> on time. (suggestion)</li>
+      </ul>
+
+      <h3>2. Subjunctive Mood — Detailed</h3>
+
+      <h4>(a) Present Subjunctive — base form of verb (no -s)</h4>
+      <p>Used in formal expressions of wish, command, suggestion:</p>
+      <ul>
+        <li>It is necessary that he <b>be</b> present. (NOT "is present")</li>
+        <li>I suggest that she <b>come</b> early. (NOT "comes")</li>
+        <li>The judge ordered that he <b>pay</b> the fine.</li>
+      </ul>
+
+      <h4>(b) Past Subjunctive — "were" for all subjects (when hypothetical)</h4>
+      <ul>
+        <li>I wish I <b>were</b> there. (not "was")</li>
+        <li>If she <b>were</b> here, she would help.</li>
+        <li>It is high time he <b>were</b> punished.</li>
+      </ul>
+
+      <h4>(c) After Verbs of "Mandative" Meaning (American style)</h4>
+      <p>suggest, recommend, demand, insist, propose, request, urge, advise, order:</p>
+      <ul>
+        <li>I suggest that he <b>study</b> harder. (subjunctive base form)</li>
+        <li>The committee proposed that the rule <b>be</b> changed.</li>
+      </ul>
+      <p>(British style often uses "should + V1": ...that he <b>should study</b> harder.)</p>
+
+      <h3>3. Key Subjunctive Triggers</h3>
+      <ul>
+        <li><b>"I wish" / "If only"</b> + past subjunctive (were).</li>
+        <li><b>"As if" / "As though"</b> + past subjunctive (were) for hypothetical.</li>
+        <li><b>"It is (high/about) time"</b> + past subjunctive.</li>
+        <li><b>"Suppose" / "Imagine"</b> + past for hypothetical.</li>
+        <li><b>"Lest"</b> + should + V1 (or just V1 in formal).</li>
+        <li><b>"May" / "Long live"</b> in wishes: "Long live the king!"</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>"If I were" / "I wish I were" / "As if he were" — always WERE, never WAS in formal English.</li>
+        <li>After "suggest, recommend, demand, insist, propose" + "that" → use bare verb (subjunctive).</li>
+        <li>"It is high time" + past tense (subjunctive).</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "I wish I was younger."</p>
+      <p><b>Solution:</b><br>Subjunctive — "were".<br>Correct: "I wish I <b>were</b> younger."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "It is necessary that he is present."</p>
+      <p><b>Solution:</b><br>Subjunctive after "necessary that".<br>Correct: "...that he <b>be</b> present."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "She talks as if she knows everything."</p>
+      <p><b>Solution:</b><br>As if + past subjunctive.<br>Correct: "...as if she <b>knew</b> everything."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Spot the error</b>: "I suggest that he goes home."</p>
+      <p><b>Solution:</b><br>Subjunctive after "suggest that".<br>Correct: "...that he <b>go</b> home." (American) / "should go" (British)</p>
+
+      <h4>Example 5</h4>
+      <p><b>Spot the error</b>: "It is high time we start working."</p>
+      <p><b>Solution:</b><br>High time + past subjunctive.<br>Correct: "...we <b>started</b> working."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Spot the error</b>: "The doctor recommended that she takes rest."</p>
+      <p><b>Solution:</b><br>Subjunctive after "recommend that".<br>Correct: "...that she <b>take</b> rest."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Spot the error</b>: "He looked as though he was tired."</p>
+      <p><b>Solution:</b><br>"As though" + subjunctive — "were" for hypothetical, but "was" is increasingly accepted. SSC strict: were.<br>Correct: "...as though he <b>were</b> tired."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Spot the error</b>: "If I was you, I would refuse."</p>
+      <p><b>Solution:</b><br>Hypothetical → were.<br>Correct: "If I <b>were</b> you..."</p>
+
+      <h4>Example 9</h4>
+      <p><b>Spot the error</b>: "I demand that he leaves immediately."</p>
+      <p><b>Solution:</b><br>Subjunctive after "demand that".<br>Correct: "...that he <b>leave</b> immediately."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "May God blesses you!"</p>
+      <p><b>Solution:</b><br>Subjunctive after "May" (wish).<br>Correct: "May God <b>bless</b> you!"</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>"If I were" / "I wish I were" — always WERE.</li>
+        <li>After "suggest, recommend, demand, insist, propose + that" → base form (he go, she be).</li>
+        <li>"It is high time" / "It is about time" → past tense.</li>
+        <li>"As if / as though" — hypothetical → past (were).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'I wish I was taller.'", opts: ["I wish", "I was taller", "No error", "wish"], a: 1, ex: "Subjunctive: 'were'." },
+      { q: "Choose: 'If I ___ a king, I would help the poor.'", opts: ["am", "were", "was", "be"], a: 1, ex: "Subjunctive — were." },
+      { q: "Spot the error: 'I suggest that she goes home.'", opts: ["I suggest", "she goes", "home", "No error"], a: 1, ex: "After suggest that → 'go' (subjunctive)." },
+      { q: "Choose: 'It is high time we ___ working.'", opts: ["start", "started", "have started", "will start"], a: 1, ex: "Past subjunctive." },
+      { q: "Spot the error: 'She acts as if she is the boss.'", opts: ["She acts", "as if she is", "the boss", "No error"], a: 1, ex: "Subjunctive — were." },
+      { q: "Choose: 'I demand that he ___ at once.'", opts: ["leaves", "leave", "will leave", "is leaving"], a: 1, ex: "Subjunctive after demand." },
+      { q: "Spot the error: 'It is necessary that he attends the meeting.'", opts: ["It is necessary", "he attends", "the meeting", "No error"], a: 1, ex: "...that he attend." },
+      { q: "Choose: 'I wish I ___ in your shoes.'", opts: ["am", "was", "were", "be"], a: 2, ex: "Wish → were." },
+      { q: "Spot the error: 'Long live the king!'", opts: ["Long live", "the king", "No error", "(none)"], a: 2, ex: "Correct — subjunctive wish." },
+      { q: "Choose: 'God ___ you!' (blessing)", opts: ["bless", "blesses", "will bless", "blessed"], a: 0, ex: "Subjunctive — bare form." },
+      { q: "Spot the error: 'The committee recommended that the rule is changed.'", opts: ["The committee", "recommended that", "the rule is", "No error"], a: 2, ex: "...the rule be changed." },
+      { q: "Choose: 'I'd rather you ___ me earlier.'", opts: ["tell", "told", "had told", "have told"], a: 2, ex: "Past perfect subjunctive for past wish." },
+      { q: "Spot the error: 'He talks as though he knew Russian.'", opts: ["He talks", "as though", "he knew Russian", "No error"], a: 3, ex: "Correct subjunctive." },
+      { q: "Choose: 'It is essential that he ___ punctual.'", opts: ["is", "be", "was", "to be"], a: 1, ex: "Essential → subjunctive 'be'." },
+      { q: "Spot the error: 'I wish I have more time.'", opts: ["I wish", "I have", "more time", "No error"], a: 1, ex: "Wish + past: 'I had more time'." },
+      { q: "Choose: 'Suppose he ___ here, what would we do?'", opts: ["is", "was", "were", "be"], a: 2, ex: "Hypothetical — were." },
+      { q: "Spot the error: 'Long lives the queen!'", opts: ["Long lives", "the queen", "No error", "Long"], a: 0, ex: "Subjunctive: 'Long live'." },
+      { q: "Choose: 'It is requested that he ___ silent.'", opts: ["remains", "remain", "will remain", "remained"], a: 1, ex: "Subjunctive." },
+      { q: "Spot the error: 'If she was younger, she would dance.'", opts: ["If she was", "younger", "she would dance", "No error"], a: 0, ex: "Subjunctive — were." },
+      { q: "Choose: 'I propose that the meeting ___ adjourned.'", opts: ["is", "be", "was", "would be"], a: 1, ex: "Subjunctive." },
+      { q: "Spot the error: 'He behaves as if he is a king.'", opts: ["He behaves", "as if he is", "a king", "No error"], a: 1, ex: "Were a king." },
+      { q: "Choose: 'God ___ peace upon the world.'", opts: ["bring", "brings", "may bring", "Both A and C"], a: 3, ex: "Subjunctive blessing — both work." },
+      { q: "Spot the error: 'I insist that he comes early.'", opts: ["I insist", "he comes", "early", "No error"], a: 1, ex: "...that he come early." },
+      { q: "Choose: 'I wish you ___ more time to spend with me.'", opts: ["have", "had", "have had", "had had"], a: 1, ex: "Wish + past." },
+      { q: "Spot the error: 'It is desirable that he is informed.'", opts: ["It is desirable", "he is informed", "informed", "No error"], a: 1, ex: "...that he be informed." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 19. INVERSION
+  // ───────────────────────────────────────────────────────────────
+  T["eng-inversion"] = {
+    body: `
+      <h2>Inversion</h2>
+      <p>Inversion = reversing the normal subject-verb order, used in questions and after certain negative/restrictive expressions. SSC asks 1 question on inversion.</p>
+
+      <h3>1. Standard Inversion (Questions)</h3>
+      <p>Auxiliary + Subject + Main verb.</p>
+      <ul>
+        <li>"<b>Are</b> you ready?"</li>
+        <li>"<b>Do</b> you know him?"</li>
+        <li>"Where <b>is</b> she?"</li>
+      </ul>
+
+      <h3>2. Inversion After Negative / Restrictive Adverbs</h3>
+      <p>When sentences begin with these <b>negative</b> or <b>restrictive</b> adverbs, the subject and auxiliary INVERT.</p>
+
+      <table>
+        <tr><th>Trigger Phrase</th><th>Example (Inverted)</th></tr>
+        <tr><td>Hardly ... when</td><td><b>Hardly had I sat</b> when the bell rang.</td></tr>
+        <tr><td>Scarcely ... when</td><td><b>Scarcely had he entered</b> when she left.</td></tr>
+        <tr><td>No sooner ... than</td><td><b>No sooner had he arrived</b> than I left.</td></tr>
+        <tr><td>Seldom / Rarely</td><td><b>Seldom does</b> he visit us.</td></tr>
+        <tr><td>Never (before/in my life)</td><td><b>Never have I seen</b> such a sight.</td></tr>
+        <tr><td>Not only ... but also</td><td><b>Not only is he smart</b>, but he is kind.</td></tr>
+        <tr><td>Not until</td><td><b>Not until then did I realise</b>.</td></tr>
+        <tr><td>Little</td><td><b>Little did I know</b> what was coming.</td></tr>
+        <tr><td>Nowhere</td><td><b>Nowhere can you find</b> such beauty.</td></tr>
+        <tr><td>Only after / when</td><td><b>Only after he left did</b> I notice the bag.</td></tr>
+        <tr><td>So + adj/adv</td><td><b>So beautiful was the sunset</b> that we stopped.</td></tr>
+        <tr><td>Such + noun</td><td><b>Such was his anger</b> that he broke the vase.</td></tr>
+        <tr><td>Under no circumstances</td><td><b>Under no circumstances should you reveal</b> this.</td></tr>
+      </table>
+
+      <h3>3. Inversion in Conditionals (Formal)</h3>
+
+      <h4>Type 2 inversion (drop "if")</h4>
+      <ul>
+        <li>If I were you → <b>Were I you</b>...</li>
+        <li>If she had time → <b>Had she time</b>...</li>
+      </ul>
+
+      <h4>Type 3 inversion</h4>
+      <ul>
+        <li>If I had known → <b>Had I known</b>...</li>
+        <li>If he had come → <b>Had he come</b>...</li>
+      </ul>
+
+      <h4>Future conditional</h4>
+      <ul>
+        <li>If you should see him → <b>Should you see him</b>...</li>
+      </ul>
+
+      <h3>4. Inversion After "So", "Neither", "Nor" (Agreement)</h3>
+      <ul>
+        <li>"I am tired." → "<b>So am I</b>." (agreement, positive)</li>
+        <li>"I don't like it." → "<b>Neither do I.</b>" / "<b>Nor do I.</b>"</li>
+      </ul>
+
+      <h3>5. Inversion with Adverbs of Place (Stylistic)</h3>
+      <ul>
+        <li>"<b>Here comes the bus</b>." (instead of "The bus comes here.")</li>
+        <li>"<b>In the corner stood an old man</b>."</li>
+        <li>"<b>Down went the curtain</b>."</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>When sentence starts with negative/restrictive adverb → INVERT auxiliary and subject.</li>
+        <li>Pattern: Hardly + <b>had + S + V3 + when</b> + simple past.</li>
+        <li>No sooner + <b>had + S + V3 + than</b> + simple past.</li>
+        <li>Inversion in conditionals: drop "if", invert subject and auxiliary.</li>
+        <li>"So/Such" at start → also inverts.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "Hardly I had reached when the train left."</p>
+      <p><b>Solution:</b><br>Inversion required.<br>Correct: "Hardly <b>had I</b> reached when the train left."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "Never I have seen such cruelty."</p>
+      <p><b>Solution:</b><br>Negative adverb at start → inversion.<br>Correct: "Never <b>have I seen</b> such cruelty."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "No sooner the bell rang than the students rushed out."</p>
+      <p><b>Solution:</b><br>Inversion missing.<br>Correct: "No sooner <b>did the bell ring</b> than the students rushed out." Or with "had": "No sooner <b>had the bell rung</b>..."</p>
+
+      <h4>Example 4 — Conditional inversion</h4>
+      <p>"Had I known your address, I would have written to you."<br>This is correct inversion of "If I had known your address..."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Spot the error</b>: "Seldom he goes out at night."</p>
+      <p><b>Solution:</b><br>Inversion: Seldom + auxiliary + S + V.<br>Correct: "Seldom <b>does he go</b> out at night."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Choose</b>: "___ I to fail this time, I would lose hope."</p>
+      <p><b>Solution:</b><br>Were I (formal conditional).<br>"<b>Were</b> I to fail..."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Spot the error</b>: "Only after the rain stopped, I went out."</p>
+      <p><b>Solution:</b><br>"Only after" + inversion in main clause.<br>Correct: "Only after the rain stopped <b>did I go</b> out."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Choose</b>: "So beautiful ___ the painting that everyone admired it."</p>
+      <p><b>Solution:</b><br>So + adj + S + V (inverted): "So beautiful <b>was the painting</b>..."</p>
+
+      <h4>Example 9</h4>
+      <p><b>Spot the error</b>: "I have never seen such talent. So I have."</p>
+      <p><b>Solution:</b><br>Agreement statement → "Neither/Nor have I" (negative). For affirmative: "So have I".<br>"I have never seen..." is negative → "Neither <b>have I</b>." / "Nor <b>have I</b>."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "Not only he is smart but also kind."</p>
+      <p><b>Solution:</b><br>"Not only" at start → invert.<br>Correct: "Not only <b>is he</b> smart, but he is also kind."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>"Hardly... when" / "No sooner... than" — inversion required.</li>
+        <li>"Never / Rarely / Seldom / Little" at start → invert.</li>
+        <li>"Not only ... but also" at start → invert in first clause.</li>
+        <li>"So + adj/adv" at start → invert.</li>
+        <li>Conditional inversion: "If I were you" → "Were I you"; "If I had known" → "Had I known".</li>
+        <li>"So am I" (positive agreement) / "Neither do I" (negative agreement).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'Hardly I had reached when it began to rain.'", opts: ["Hardly I had reached", "when", "rain", "No error"], a: 0, ex: "Inversion: 'Hardly had I reached'." },
+      { q: "Choose: 'No sooner ___ than he left.'", opts: ["I came", "had I come", "did I come", "I had come"], a: 1, ex: "No sooner + had + S + V3 + than." },
+      { q: "Spot the error: 'Never I have witnessed such bravery.'", opts: ["Never I have", "witnessed", "such bravery", "No error"], a: 0, ex: "'Never have I'." },
+      { q: "Choose: 'Seldom ___ he visits us.'", opts: ["he visits", "visits he", "does he visit", "have he visited"], a: 2, ex: "Negative adverb → inversion." },
+      { q: "Spot the error: 'No sooner the bell rang than students ran out.'", opts: ["No sooner the bell rang", "than", "ran out", "No error"], a: 0, ex: "Inversion required." },
+      { q: "Choose: 'Only when the rain stopped ___ we go out.'", opts: ["did", "could", "we", "do"], a: 0, ex: "Only when → inversion." },
+      { q: "Spot the error: 'Little did he knew about the truth.'", opts: ["Little", "did he knew", "the truth", "No error"], a: 1, ex: "After 'did' → V1: 'did he know'." },
+      { q: "Choose: 'So beautiful ___ the sunset.'", opts: ["was", "is", "had been", "be"], a: 0, ex: "So + adj + was + S." },
+      { q: "Spot the error: 'Had I knew, I would have come.'", opts: ["Had I knew", "I would have come", "No error", "(none)"], a: 0, ex: "Had I + V3: 'Had I known'." },
+      { q: "Choose: '___ I you, I would refuse the offer.'", opts: ["Were", "If", "Was", "Had"], a: 0, ex: "Inverted conditional Type 2." },
+      { q: "Spot the error: 'Not until he came I noticed his absence.'", opts: ["Not until he came", "I noticed", "his absence", "No error"], a: 1, ex: "Inversion in main: 'did I notice'." },
+      { q: "Choose: 'I love reading. ___'", opts: ["So do I", "Neither do I", "So I do", "Same do I"], a: 0, ex: "Positive agreement." },
+      { q: "Spot the error: 'I don't like coffee. So don't I.'", opts: ["I don't like", "So don't I", "coffee", "No error"], a: 1, ex: "Negative agreement: 'Neither do I'." },
+      { q: "Choose: 'Hardly ___ when the lights went out.'", opts: ["I had sat", "had I sat", "I sat", "did I sit"], a: 1, ex: "Inversion." },
+      { q: "Spot the error: 'Under no circumstances you should accept this.'", opts: ["Under no circumstances", "you should accept", "this", "No error"], a: 1, ex: "Inversion: 'should you accept'." },
+      { q: "Choose: 'Rarely ___ such talent.'", opts: ["you see", "do you see", "you do see", "are you seeing"], a: 1, ex: "Rarely → inversion." },
+      { q: "Spot the error: 'Such was his fame that he was invited everywhere.'", opts: ["Such was his fame", "that he was invited", "everywhere", "No error"], a: 3, ex: "Correct inversion." },
+      { q: "Choose: 'Nowhere ___ such a magnificent view.'", opts: ["you will find", "will you find", "you find", "will find you"], a: 1, ex: "Nowhere → inversion." },
+      { q: "Spot the error: 'No sooner had I arrived when the rain started.'", opts: ["No sooner had I arrived", "when", "the rain started", "No error"], a: 1, ex: "'than' (not 'when')." },
+      { q: "Choose: 'Hardly ___ when the train started.'", opts: ["I had sat", "had I sat", "I sat", "did I sit"], a: 1, ex: "Inverted." },
+      { q: "Spot the error: 'Not only he sings well, but also dances.'", opts: ["Not only he sings", "but also", "dances", "No error"], a: 0, ex: "Inversion: 'Not only does he sing'." },
+      { q: "Choose: 'So tired ___ that I went to bed immediately.'", opts: ["I was", "was I", "I had been", "had I been"], a: 1, ex: "Inversion after 'So + adj'." },
+      { q: "Spot the error: 'I'm hungry. So am I.'", opts: ["I'm hungry", "So am I", "No error", "(none)"], a: 2, ex: "Correct positive agreement." },
+      { q: "Choose: 'Should ___ him, please call me.'", opts: ["you see", "you saw", "you have seen", "have you seen"], a: 0, ex: "Inverted conditional with should." },
+      { q: "Spot the error: 'Scarcely had I sat than the phone rang.'", opts: ["Scarcely had I sat", "than", "the phone rang", "No error"], a: 1, ex: "Scarcely + when (not than)." }
+    ]
+  };
+
 })();
