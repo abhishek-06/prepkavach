@@ -135,11 +135,11 @@
       <h4>Trick 2: Trailing Zeros in n!</h4>
       <p>Number of trailing zeros in $n!$ is found by counting the power of 5:</p>
       <p>$$Z(n!) = \\left\\lfloor\\frac{n}{5}\\right\\rfloor + \\left\\lfloor\\frac{n}{25}\\right\\rfloor + \\left\\lfloor\\frac{n}{125}\\right\\rfloor + \\cdots$$</p>
-      <p>Example: zeros in $100! = \\lfloor 100/5 \\rfloor + \\lfloor 100/25 \\rfloor = 20 + 4 = 24$.</p>
+      <p>Example: zeros in $$\\begin{aligned} 100! &= \\lfloor 100/5 \\rfloor + \\lfloor 100/25 \\rfloor \\\\ &= 20 + 4 \\\\ &= 24 \\end{aligned}$$.</p>
 
       <h4>Trick 3: Power of a Prime in n! (Legendre)</h4>
       <p>$$E_p(n!) = \\left\\lfloor\\frac{n}{p}\\right\\rfloor + \\left\\lfloor\\frac{n}{p^2}\\right\\rfloor + \\left\\lfloor\\frac{n}{p^3}\\right\\rfloor + \\cdots$$</p>
-      <p>Example: power of 3 in $50! = \\lfloor 50/3 \\rfloor + \\lfloor 50/9 \\rfloor + \\lfloor 50/27 \\rfloor = 16 + 5 + 1 = 22$.</p>
+      <p>Example: power of 3 in $$\\begin{aligned} 50! &= \\lfloor 50/3 \\rfloor + \\lfloor 50/9 \\rfloor + \\lfloor 50/27 \\rfloor \\\\ &= 16 + 5 + 1 \\\\ &= 22 \\end{aligned}$$.</p>
 
       <h4>Trick 4: Number of Factors</h4>
       <p>If $N = p_1^{a_1} \\cdot p_2^{a_2} \\cdot p_3^{a_3} \\cdots$, then:</p>
@@ -181,31 +181,31 @@
 
       <h4>Example 3: Trailing Zeros</h4>
       <p><b>How many zeros are at the end of $200!$?</b></p>
-      <p><b>Solution</b>: $\\lfloor 200/5 \\rfloor + \\lfloor 200/25 \\rfloor + \\lfloor 200/125 \\rfloor = 40 + 8 + 1 = $ <b>49 zeros</b>.</p>
+      <p><b>Solution</b>: $$\\begin{aligned} \\lfloor 200/5 \\rfloor + \\lfloor 200/25 \\rfloor + \\lfloor 200/125 \\rfloor &= 40 + 8 + 1 \\\\ &=  \\end{aligned}$$ <b>49 zeros</b>.</p>
 
       <h4>Example 4: Number of Factors</h4>
       <p><b>How many factors does $360$ have?</b></p>
-      <p><b>Solution</b>: $360 = 2^3 \\cdot 3^2 \\cdot 5^1$. Total factors $= (3+1)(2+1)(1+1) = 4 \\cdot 3 \\cdot 2 = $ <b>24</b>.</p>
+      <p><b>Solution</b>: $360 = 2^3 \\cdot 3^2 \\cdot 5^1$. Total factors $$\\begin{aligned}  &= (3+1)(2+1)(1+1) \\\\ &= 4 \\cdot 3 \\cdot 2 \\\\ &=  \\end{aligned}$$ <b>24</b>.</p>
 
       <h4>Example 5: Number of Odd Factors</h4>
       <p><b>How many odd factors does $360$ have?</b></p>
-      <p><b>Solution</b>: Drop the factor of 2. So consider $3^2 \\cdot 5^1$. Odd factors $= (2+1)(1+1) = $ <b>6</b>.</p>
+      <p><b>Solution</b>: Drop the factor of 2. So consider $3^2 \\cdot 5^1$. Odd factors $$\\begin{aligned}  &= (2+1)(1+1) \\\\ &=  \\end{aligned}$$ <b>6</b>.</p>
 
       <h4>Example 6: Divisibility by 11</h4>
       <p><b>Is $945362$ divisible by 11?</b></p>
-      <p><b>Solution</b>: Alternating sum = $(9+5+6) - (4+3+2) = 20 - 9 = 11$. Divisible by 11. <b>Yes</b>.</p>
+      <p><b>Solution</b>: Alternating sum = $$\\begin{aligned} (9+5+6) - (4+3+2) &= 20 - 9 \\\\ &= 11 \\end{aligned}$$. Divisible by 11. <b>Yes</b>.</p>
 
       <h4>Example 7: Sum of First n Numbers</h4>
       <p><b>Find $1 + 2 + 3 + \\cdots + 50$.</b></p>
-      <p><b>Solution</b>: $\\frac{n(n+1)}{2} = \\frac{50 \\cdot 51}{2} = $ <b>1275</b>.</p>
+      <p><b>Solution</b>: $$\\begin{aligned} \\frac{n(n+1)}{2} &= \\frac{50 \\cdot 51}{2} \\\\ &=  \\end{aligned}$$ <b>1275</b>.</p>
 
       <h4>Example 8: Sum of Squares</h4>
       <p><b>Find $1^2 + 2^2 + \\cdots + 20^2$.</b></p>
-      <p><b>Solution</b>: $\\frac{n(n+1)(2n+1)}{6} = \\frac{20 \\cdot 21 \\cdot 41}{6} = $ <b>2870</b>.</p>
+      <p><b>Solution</b>: $$\\begin{aligned} \\frac{n(n+1)(2n+1)}{6} &= \\frac{20 \\cdot 21 \\cdot 41}{6} \\\\ &=  \\end{aligned}$$ <b>2870</b>.</p>
 
       <h4>Example 9: Sum of Odd Numbers</h4>
       <p><b>Sum of first 30 odd natural numbers?</b></p>
-      <p><b>Solution</b>: $n^2 = 30^2 = $ <b>900</b>.</p>
+      <p><b>Solution</b>: $$\\begin{aligned} n^2 &= 30^2 \\\\ &=  \\end{aligned}$$ <b>900</b>.</p>
 
       <h4>Example 10: Remainder Theorem (Mod 7)</h4>
       <p><b>Find the remainder when $7^{82}$ is divided by $5$.</b></p>
@@ -217,7 +217,7 @@
 
       <h4>Example 12: Power of a Prime in Factorial</h4>
       <p><b>Find the power of 3 in $100!$.</b></p>
-      <p><b>Solution</b>: $\\lfloor 100/3 \\rfloor + \\lfloor 100/9 \\rfloor + \\lfloor 100/27 \\rfloor + \\lfloor 100/81 \\rfloor = 33 + 11 + 3 + 1 = $ <b>48</b>.</p>
+      <p><b>Solution</b>: $$\\begin{aligned} \\lfloor 100/3 \\rfloor + \\lfloor 100/9 \\rfloor + \\lfloor 100/27 \\rfloor + \\lfloor 100/81 \\rfloor &= 33 + 11 + 3 + 1 \\\\ &=  \\end{aligned}$$ <b>48</b>.</p>
 
       <h4>Example 13: Number to Add for Divisibility</h4>
       <p><b>What is the least number to be added to $1057$ to make it divisible by $23$?</b></p>
@@ -233,11 +233,11 @@
 
       <h4>Example 16: Find Last Two Digits</h4>
       <p><b>Last two digits of $7^{2008}$?</b></p>
-      <p><b>Solution</b>: $7^4 = 2401$. So $7^{2008} = (7^4)^{502} = 2401^{502}$. Last two digits of $2401^{502}$ = last two digits of $01^{502} = $ <b>01</b>.</p>
+      <p><b>Solution</b>: $7^4 = 2401$. So $$\\begin{aligned} 7^{2008} &= (7^4)^{502} \\\\ &= 2401^{502} \\end{aligned}$$. Last two digits of $2401^{502}$ = last two digits of $01^{502} = $ <b>01</b>.</p>
 
       <h4>Example 17: Sum of Digit Trick</h4>
       <p><b>If $N = \\underbrace{777\\ldots7}_{50\\text{ digits}}$, find the remainder when $N$ is divided by 9.</b></p>
-      <p><b>Solution</b>: Sum of digits $= 50 \\times 7 = 350$. $350 \\div 9$ remainder $= 350 - 38 \\cdot 9 = 350 - 342 = $ <b>8</b>.</p>
+      <p><b>Solution</b>: Sum of digits $$\\begin{aligned}  &= 50 \\times 7 \\\\ &= 350 \\end{aligned}$$. $350 \\div 9$ remainder $$\\begin{aligned}  &= 350 - 38 \\cdot 9 \\\\ &= 350 - 342 \\\\ &=  \\end{aligned}$$ <b>8</b>.</p>
 
       <h4>Example 18: Counting Primes</h4>
       <p><b>How many prime numbers are there below 50?</b></p>
@@ -263,33 +263,33 @@
     `,
     mcq: [
       { q: "Find the unit digit of $3^{1234}$.", opts: ["1", "3", "7", "9"], a: 3, ex: "Cyclicity of 3 is 4, pattern (3, 9, 7, 1). $1234 \\bmod 4 = 2$. So unit digit = 2nd entry = 9." },
-      { q: "Number of trailing zeros in $150!$?", opts: ["30", "33", "37", "40"], a: 2, ex: "$\\lfloor 150/5 \\rfloor + \\lfloor 150/25 \\rfloor + \\lfloor 150/125 \\rfloor = 30 + 6 + 1 = 37$." },
-      { q: "How many factors does $84$ have?", opts: ["10", "12", "14", "8"], a: 1, ex: "$84 = 2^2 \\cdot 3 \\cdot 7$. Factors $= (2+1)(1+1)(1+1) = 3 \\cdot 2 \\cdot 2 = 12$." },
+      { q: "Number of trailing zeros in $150!$?", opts: ["30", "33", "37", "40"], a: 2, ex: "$$\\begin{aligned} \\lfloor 150/5 \\rfloor + \\lfloor 150/25 \\rfloor + \\lfloor 150/125 \\rfloor &= 30 + 6 + 1 \\\\ &= 37 \\end{aligned}$$." },
+      { q: "How many factors does $84$ have?", opts: ["10", "12", "14", "8"], a: 1, ex: "$84 = 2^2 \\cdot 3 \\cdot 7$. Factors $$\\begin{aligned}  &= (2+1)(1+1)(1+1) \\\\ &= 3 \\cdot 2 \\cdot 2 \\\\ &= 12 \\end{aligned}$$." },
       { q: "Remainder when $2^{2008}$ is divided by $7$?", opts: ["1", "2", "4", "6"], a: 1, ex: "$2^3 \\equiv 1 \\pmod 7$. Cyclicity 3, pattern (2, 4, 1). $2008 \\bmod 3 = 1$. So remainder = 1st entry = 2." },
-      { q: "Sum $1 + 2 + 3 + \\cdots + 100 = ?$", opts: ["4950", "5000", "5050", "5150"], a: 2, ex: "$\\frac{n(n+1)}{2} = \\frac{100 \\cdot 101}{2} = 5050$." },
-      { q: "Sum of first 25 odd natural numbers?", opts: ["525", "625", "725", "825"], a: 1, ex: "Sum of first $n$ odd numbers $= n^2 = 25^2 = 625$." },
-      { q: "If $N = 2^3 \\cdot 3^2 \\cdot 5$, sum of all factors of $N$?", opts: ["468", "1170", "360", "936"], a: 1, ex: "Sum = $\\frac{2^4-1}{1} \\cdot \\frac{3^3-1}{2} \\cdot \\frac{5^2-1}{4} = 15 \\cdot 13 \\cdot 6 = 1170$." },
+      { q: "Sum $1 + 2 + 3 + \\cdots + 100 = ?$", opts: ["4950", "5000", "5050", "5150"], a: 2, ex: "$$\\begin{aligned} \\frac{n(n+1)}{2} &= \\frac{100 \\cdot 101}{2} \\\\ &= 5050 \\end{aligned}$$." },
+      { q: "Sum of first 25 odd natural numbers?", opts: ["525", "625", "725", "825"], a: 1, ex: "Sum of first $n$ odd numbers $$\\begin{aligned}  &= n^2 \\\\ &= 25^2 \\\\ &= 625 \\end{aligned}$$." },
+      { q: "If $N = 2^3 \\cdot 3^2 \\cdot 5$, sum of all factors of $N$?", opts: ["468", "1170", "360", "936"], a: 1, ex: "Sum = $$\\begin{aligned} \\frac{2^4-1}{1} \\cdot \\frac{3^3-1}{2} \\cdot \\frac{5^2-1}{4} &= 15 \\cdot 13 \\cdot 6 \\\\ &= 1170 \\end{aligned}$$." },
       { q: "Is $9999$ divisible by $99$?", opts: ["Yes", "No", "Only by 9", "Only by 11"], a: 0, ex: "$9999 = 99 \\times 101$. Yes, divisible." },
       { q: "Least 4-digit number divisible by $25$ is?", opts: ["1000", "1025", "1050", "975"], a: 0, ex: "1000 ends in 00, divisible by 25. Smallest 4-digit." },
       { q: "Number of primes between 1 and 100?", opts: ["20", "23", "25", "30"], a: 2, ex: "Exactly 25 primes below 100." },
       { q: "If $a^n - b^n$ is divisible by $a + b$, then $n$ is:", opts: ["always odd", "always even", "any natural number", "always prime"], a: 1, ex: "$a^n - b^n$ is divisible by $a+b$ only when $n$ is even." },
       { q: "Last digit of $7^{100}$?", opts: ["1", "3", "7", "9"], a: 0, ex: "Cyclicity of 7 is 4, pattern (7,9,3,1). $100 \\bmod 4 = 0$, so use last entry = 1." },
-      { q: "Largest power of $5$ dividing $200!$?", opts: ["48", "49", "50", "51"], a: 1, ex: "$\\lfloor 200/5 \\rfloor + \\lfloor 200/25 \\rfloor + \\lfloor 200/125 \\rfloor = 40 + 8 + 1 = 49$." },
+      { q: "Largest power of $5$ dividing $200!$?", opts: ["48", "49", "50", "51"], a: 1, ex: "$$\\begin{aligned} \\lfloor 200/5 \\rfloor + \\lfloor 200/25 \\rfloor + \\lfloor 200/125 \\rfloor &= 40 + 8 + 1 \\\\ &= 49 \\end{aligned}$$." },
       { q: "Remainder when $43^{43}$ is divided by $7$?", opts: ["1", "3", "6", "4"], a: 0, ex: "$43 = 7 \\cdot 6 + 1 \\equiv 1 \\pmod 7$. So $43^{43} \\equiv 1 \\pmod 7$." },
-      { q: "How many odd factors does $72$ have?", opts: ["2", "3", "4", "6"], a: 1, ex: "$72 = 2^3 \\cdot 3^2$. Drop the factor of 2 for odd factors. Odd factors of $3^2 = (2+1) = 3$: namely 1, 3, 9." },
-      { q: "Number of zeros at end of $30!$?", opts: ["5", "6", "7", "8"], a: 2, ex: "$\\lfloor 30/5 \\rfloor + \\lfloor 30/25 \\rfloor = 6 + 1 = 7$." },
+      { q: "How many odd factors does $72$ have?", opts: ["2", "3", "4", "6"], a: 1, ex: "$72 = 2^3 \\cdot 3^2$. Drop the factor of 2 for odd factors. Odd factors of $$\\begin{aligned} 3^2 &= (2+1) \\\\ &= 3 \\end{aligned}$$: namely 1, 3, 9." },
+      { q: "Number of zeros at end of $30!$?", opts: ["5", "6", "7", "8"], a: 2, ex: "$$\\begin{aligned} \\lfloor 30/5 \\rfloor + \\lfloor 30/25 \\rfloor &= 6 + 1 \\\\ &= 7 \\end{aligned}$$." },
       { q: "Find the unit digit of $123^{456}$.", opts: ["1", "3", "5", "9"], a: 0, ex: "Last digit of base is 3. Cyclicity 4. $456 \\bmod 4 = 0$, so use last entry of (3,9,7,1) = 1." },
-      { q: "$N$ when divided by $13$ leaves remainder $9$. Remainder when $2N$ is divided by $13$?", opts: ["5", "9", "18", "6"], a: 0, ex: "$N = 13k + 9$. $2N = 26k + 18 = 13(2k+1) + 5$. Remainder = 5." },
+      { q: "$N$ when divided by $13$ leaves remainder $9$. Remainder when $2N$ is divided by $13$?", opts: ["5", "9", "18", "6"], a: 0, ex: "$N = 13k + 9$. $$\\begin{aligned} 2N &= 26k + 18 \\\\ &= 13(2k+1) + 5 \\end{aligned}$$. Remainder = 5." },
       { q: "Is $0$ a natural number (Indian convention)?", opts: ["Yes", "No", "Sometimes", "Cannot say"], a: 1, ex: "In Indian convention, naturals start at 1. Zero is a whole number." },
       { q: "Smallest 5-digit number divisible by $11$?", opts: ["10010", "10011", "10001", "10100"], a: 0, ex: "$10000 \\div 11 = 909$ rem 1. So smallest = $10000 + (11-1) = 10010$." },
-      { q: "Find unit digit of $1! + 2! + 3! + \\cdots + 100!$.", opts: ["1", "3", "5", "7"], a: 1, ex: "$1!+2!+3!+4! = 1+2+6+24 = 33$. For $n \\ge 5$, $n!$ ends in 0. So unit digit = 3." },
-      { q: "How many natural numbers from 1 to 100 are not divisible by 2, 3, or 5?", opts: ["20", "26", "30", "32"], a: 1, ex: "By inclusion-exclusion: $100 - (50+33+20) + (16+10+6) - 3 = 100 - 103 + 32 - 3 = 26$." },
-      { q: "Sum of all even numbers between 1 and 100 (inclusive of 100)?", opts: ["2450", "2500", "2550", "2600"], a: 2, ex: "Evens: 2, 4, ..., 100. Count = 50. Sum = $2(1+2+\\cdots+50) = 2 \\cdot \\frac{50 \\cdot 51}{2} = 2550$." },
+      { q: "Find unit digit of $1! + 2! + 3! + \\cdots + 100!$.", opts: ["1", "3", "5", "7"], a: 1, ex: "$$\\begin{aligned} 1!+2!+3!+4! &= 1+2+6+24 \\\\ &= 33 \\end{aligned}$$. For $n \\ge 5$, $n!$ ends in 0. So unit digit = 3." },
+      { q: "How many natural numbers from 1 to 100 are not divisible by 2, 3, or 5?", opts: ["20", "26", "30", "32"], a: 1, ex: "By inclusion-exclusion: $$\\begin{aligned} 100 - (50+33+20) + (16+10+6) - 3 &= 100 - 103 + 32 - 3 \\\\ &= 26 \\end{aligned}$$." },
+      { q: "Sum of all even numbers between 1 and 100 (inclusive of 100)?", opts: ["2450", "2500", "2550", "2600"], a: 2, ex: "Evens: 2, 4, ..., 100. Count = 50. Sum = $$\\begin{aligned} 2(1+2+\\cdots+50) &= 2 \\cdot \\frac{50 \\cdot 51}{2} \\\\ &= 2550 \\end{aligned}$$." },
       { q: "Largest 4-digit number divisible by 88?", opts: ["9944", "9988", "9856", "9999"], a: 0, ex: "$9999 \\div 88 = 113$ rem $55$. So largest = $9999 - 55 = 9944$." },
-      { q: "If $123x456$ (a 7-digit number) is divisible by 9, value of $x$?", opts: ["3", "6", "9", "0"], a: 1, ex: "Digit sum $= 1+2+3+x+4+5+6 = 21+x$. For divisibility by 9, $21+x$ must be multiple of 9. So $x = 6$ ($21+6=27$)." },
+      { q: "If $123x456$ (a 7-digit number) is divisible by 9, value of $x$?", opts: ["3", "6", "9", "0"], a: 1, ex: "Digit sum $$\\begin{aligned}  &= 1+2+3+x+4+5+6 \\\\ &= 21+x \\end{aligned}$$. For divisibility by 9, $21+x$ must be multiple of 9. So $x = 6$ ($21+6=27$)." },
       { q: "Largest prime factor of $42!$?", opts: ["41", "37", "43", "53"], a: 0, ex: "Largest prime $\\le 42$ is 41. It appears once in $42!$." },
       { q: "Sum of any 3 consecutive natural numbers is always divisible by:", opts: ["2", "3", "5", "6"], a: 1, ex: "If consecutive numbers are $n-1, n, n+1$, sum = $3n$, always divisible by 3." },
-      { q: "Number of even factors of $2520$?", opts: ["24", "36", "48", "16"], a: 1, ex: "$2520 = 2^3 \\cdot 3^2 \\cdot 5 \\cdot 7$. Total $= 4 \\cdot 3 \\cdot 2 \\cdot 2 = 48$. Odd factors $= 3 \\cdot 2 \\cdot 2 = 12$. Even = $48 - 12 = 36$." }
+      { q: "Number of even factors of $2520$?", opts: ["24", "36", "48", "16"], a: 1, ex: "$2520 = 2^3 \\cdot 3^2 \\cdot 5 \\cdot 7$. Total $$\\begin{aligned}  &= 4 \\cdot 3 \\cdot 2 \\cdot 2 \\\\ &= 48 \\end{aligned}$$. Odd factors $$\\begin{aligned}  &= 3 \\cdot 2 \\cdot 2 \\\\ &= 12 \\end{aligned}$$. Even = $48 - 12 = 36$." }
     ]
   };
 
@@ -334,11 +334,11 @@
 
       <h4>Example 3 (Identity)</h4>
       <p>If $a + b = 10$, $ab = 21$, find $a^2 + b^2$.</p>
-      <p><b>Solution:</b> $(a+b)^2 = a^2+b^2 + 2ab \\Rightarrow 100 = a^2+b^2 + 42 \\Rightarrow a^2+b^2 = $ <b>58</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (a+b)^2 &= a^2+b^2 + 2ab \\Rightarrow 100 \\\\ &= a^2+b^2 + 42 \\Rightarrow a^2+b^2 \\\\ &=  \\end{aligned}$$ <b>58</b>.</p>
 
       <h4>Example 4</h4>
       <p>Simplify $\\frac{(75)^2 - (25)^2}{50}$.</p>
-      <p><b>Solution:</b><br>$a^2-b^2 = (a+b)(a-b) = 100 \\times 50 = 5000$.<br>So $5000/50 = $ <b>100</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} a^2-b^2 &= (a+b)(a-b) \\\\ &= 100 \\times 50 \\\\ &= 5000 \\end{aligned}$$.<br>So $5000/50 = $ <b>100</b>.</p>
 
       <h4>Example 5</h4>
       <p>If $a+b+c = 0$, value of $\\frac{a^3+b^3+c^3}{abc}$?</p>
@@ -354,19 +354,19 @@
 
       <h4>Example 8</h4>
       <p>$\\sqrt{(0.04)^2 + (0.03)^2}$ approximately?</p>
-      <p><b>Solution:</b> $\\sqrt{0.0016 + 0.0009} = \\sqrt{0.0025} = $ <b>0.05</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sqrt{0.0016 + 0.0009} &= \\sqrt{0.0025} \\\\ &=  \\end{aligned}$$ <b>0.05</b>.</p>
 
       <h4>Example 9</h4>
       <p>If $x + \\frac{1}{x} = 5$, find $x^2 + \\frac{1}{x^2}$.</p>
-      <p><b>Solution:</b> Square both sides: $x^2 + 2 + \\frac{1}{x^2} = 25 \\Rightarrow x^2 + \\frac{1}{x^2} = $ <b>23</b>.</p>
+      <p><b>Solution:</b> Square both sides: $$\\begin{aligned} x^2 + 2 + \\frac{1}{x^2} &= 25 \\Rightarrow x^2 + \\frac{1}{x^2} \\\\ &=  \\end{aligned}$$ <b>23</b>.</p>
 
       <h4>Example 10</h4>
       <p>If $x - \\frac{1}{x} = 3$, find $x^3 - \\frac{1}{x^3}$.</p>
-      <p><b>Solution:</b> $x^3 - \\frac{1}{x^3} = \\left(x - \\frac{1}{x}\\right)^3 + 3\\left(x - \\frac{1}{x}\\right) = 27 + 9 = $ <b>36</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} x^3 - \\frac{1}{x^3} &= \\left(x - \\frac{1}{x}\\right)^3 + 3\\left(x - \\frac{1}{x}\\right) \\\\ &= 27 + 9 \\\\ &=  \\end{aligned}$$ <b>36</b>.</p>
 
       <h4>Example 11</h4>
       <p>Simplify $(102)^2 - (98)^2$.</p>
-      <p><b>Solution:</b> $(102+98)(102-98) = 200 \\times 4 = $ <b>800</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (102+98)(102-98) &= 200 \\times 4 \\\\ &=  \\end{aligned}$$ <b>800</b>.</p>
 
       <h4>Example 12</h4>
       <p>$\\frac{0.6 \\times 0.6 + 0.6 \\times 0.4 + 0.4 \\times 0.4}{(0.6)^3 - (0.4)^3} \\times \\frac{(0.6)^2 - (0.4)^2}{(0.6 + 0.4)} = ?$</p>
@@ -374,19 +374,19 @@
 
       <h4>Example 13</h4>
       <p>If $\\frac{x}{y} + \\frac{y}{x} = 2$, then $(x - y)^2 = ?$</p>
-      <p><b>Solution:</b><br>$\\frac{x^2+y^2}{xy} = 2 \\Rightarrow x^2+y^2 = 2xy \\Rightarrow (x-y)^2 = 0$.<br>So <b>0</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\frac{x^2+y^2}{xy} &= 2 \\Rightarrow x^2+y^2 \\\\ &= 2xy \\Rightarrow (x-y)^2 \\\\ &= 0 \\end{aligned}$$.<br>So <b>0</b>.</p>
 
       <h4>Example 14</h4>
       <p>$\\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\cdots + \\frac{1}{99 \\cdot 100}$.</p>
       <p><b>Solution:</b><br>Each term $= \\frac{1}{n} - \\frac{1}{n+1}$.<br>Telescopes to $1 - \\frac{1}{100} = $ <b>99/100</b>.</p>
 
       <h4>Example 15</h4>
-      <p>If $a = 11, b = 7$, find $\\frac{a^3 + b^3}{a^2 - ab + b^2}$.</p>
+      <p>If $$\\begin{aligned} a &= 11, b \\\\ &= 7 \\end{aligned}$$, find $\\frac{a^3 + b^3}{a^2 - ab + b^2}$.</p>
       <p><b>Solution:</b><br>$a^3+b^3 = (a+b)(a^2-ab+b^2)$.<br>So ratio = $a+b = $ <b>18</b>.</p>
 
       <h4>Example 16: Big Number Identity</h4>
       <p>$(99)^2 - (98)^2 + (97)^2 - (96)^2 + \cdots + (1)^2$ = ?</p>
-      <p><b>Solution:</b><br>Pair: $(99^2-98^2) + (97^2-96^2) + \cdots = 197+193+\cdots+3 = $ sum of AP with $a=3, d=4, n=50$.<br>$S = 50/2 (6 + 49 \cdot 4) = 25 \cdot 202 = $ <b>5050</b>.</p>
+      <p><b>Solution:</b><br>Pair: $$\\begin{aligned} (99^2-98^2) + (97^2-96^2) + \cdots &= 197+193+\cdots+3 \\\\ &=  \\end{aligned}$$ sum of AP with $$\\begin{aligned} a &= 3, d \\\\ &= 4, n \\\\ &= 50 \\end{aligned}$$.<br>$$\\begin{aligned} S &= 50/2 (6 + 49 \cdot 4) \\\\ &= 25 \cdot 202 \\\\ &=  \\end{aligned}$$ <b>5050</b>.</p>
 
       <h4>Example 17: Identity Application</h4>
       <p>If $\frac{x}{y}+\frac{y}{x}=3$, find $\frac{x^2}{y^2}+\frac{y^2}{x^2}$.</p>
@@ -398,7 +398,7 @@
 
       <h4>Example 19: Surd Simplification</h4>
       <p>$\sqrt{10+\sqrt{24}+\sqrt{60}+\sqrt{40}}$?</p>
-      <p><b>Solution:</b><br>Try $\sqrt{a}+\sqrt{b}+\sqrt{c}$.<br>Square: $a+b+c+2(\sqrt{ab}+\sqrt{bc}+\sqrt{ca}) = 10+\sqrt{24}+\sqrt{60}+\sqrt{40}$.<br>Match: $a+b+c=10$, $\sqrt{ab}=\sqrt{6}, \sqrt{bc}=\sqrt{15}, \sqrt{ca}=\sqrt{10}$.<br>So $ab=6, bc=15, ca=10 \Rightarrow a=2, b=3, c=5$.<br>Sum $\sqrt{2}+\sqrt{3}+\sqrt{5}$.</p>
+      <p><b>Solution:</b><br>Try $\sqrt{a}+\sqrt{b}+\sqrt{c}$.<br>Square: $a+b+c+2(\sqrt{ab}+\sqrt{bc}+\sqrt{ca}) = 10+\sqrt{24}+\sqrt{60}+\sqrt{40}$.<br>Match: $a+b+c=10$, $$\\begin{aligned} \sqrt{ab} &= \sqrt{6}, \sqrt{bc} \\\\ &= \sqrt{15}, \sqrt{ca} \\\\ &= \sqrt{10} \\end{aligned}$$.<br>So $$\\begin{aligned} ab &= 6, bc \\\\ &= 15, ca \\\\ &= 10 \Rightarrow a \\\\ &= 2, b \\\\ &= 3, c \\\\ &= 5 \\end{aligned}$$.<br>Sum $\sqrt{2}+\sqrt{3}+\sqrt{5}$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -408,29 +408,29 @@
       </ul>
     `,
     mcq: [
-      { q: "Value of $12 + 8 \\div 4 \\times 2$?", opts: ["12", "14", "16", "20"], a: 2, ex: "$8/4=2, 2\\times 2=4, 12+4=16$." },
-      { q: "$24 \\div 8 \\times (4 + 2) = ?$", opts: ["3", "12", "18", "24"], a: 2, ex: "$24/8=3, 4+2=6, 3 \\times 6 = 18$." },
-      { q: "$(101)^2 - (99)^2 = ?$", opts: ["200", "400", "800", "1000"], a: 1, ex: "$(101+99)(101-99) = 200 \\times 2 = 400$." },
-      { q: "If $x + \\frac{1}{x} = 4$, then $x^2 + \\frac{1}{x^2}$ is:", opts: ["12", "14", "16", "18"], a: 1, ex: "$x^2+1/x^2 = (x+1/x)^2 - 2 = 16-2=14$." },
-      { q: "If $a+b+c=0$ and $abc = 6$, $a^3+b^3+c^3 = ?$", opts: ["6", "12", "18", "24"], a: 2, ex: "$=3abc = 18$." },
-      { q: "$\\sqrt{0.04 \\times 0.04 + 2 \\times 0.04 \\times 0.06 + 0.06 \\times 0.06}$?", opts: ["0.05", "0.1", "0.2", "0.5"], a: 1, ex: "$= \\sqrt{(0.04+0.06)^2} = 0.1$." },
-      { q: "Simplify $\\frac{(35)^3+(15)^3}{(35)^2-35 \\times 15+(15)^2}$.", opts: ["20", "50", "70", "100"], a: 1, ex: "$=a+b = 35+15 = 50$ (since $a^3+b^3 = (a+b)(a^2-ab+b^2)$)." },
+      { q: "Value of $12 + 8 \\div 4 \\times 2$?", opts: ["12", "14", "16", "20"], a: 2, ex: "$$\\begin{aligned} 8/4 &= 2, 2\\times 2 \\\\ &= 4, 12+4 \\\\ &= 16 \\end{aligned}$$." },
+      { q: "$24 \\div 8 \\times (4 + 2) = ?$", opts: ["3", "12", "18", "24"], a: 2, ex: "$$\\begin{aligned} 24/8 &= 3, 4+2 \\\\ &= 6, 3 \\times 6 \\\\ &= 18 \\end{aligned}$$." },
+      { q: "$(101)^2 - (99)^2 = ?$", opts: ["200", "400", "800", "1000"], a: 1, ex: "$$\\begin{aligned} (101+99)(101-99) &= 200 \\times 2 \\\\ &= 400 \\end{aligned}$$." },
+      { q: "If $x + \\frac{1}{x} = 4$, then $x^2 + \\frac{1}{x^2}$ is:", opts: ["12", "14", "16", "18"], a: 1, ex: "$$\\begin{aligned} x^2+1/x^2 &= (x+1/x)^2 - 2 \\\\ &= 16-2 \\\\ &= 14 \\end{aligned}$$." },
+      { q: "If $a+b+c=0$ and $abc = 6$, $a^3+b^3+c^3 = ?$", opts: ["6", "12", "18", "24"], a: 2, ex: "$$\\begin{aligned}  &= 3abc \\\\ &= 18 \\end{aligned}$$." },
+      { q: "$\\sqrt{0.04 \\times 0.04 + 2 \\times 0.04 \\times 0.06 + 0.06 \\times 0.06}$?", opts: ["0.05", "0.1", "0.2", "0.5"], a: 1, ex: "$$\\begin{aligned}  &= \\sqrt{(0.04+0.06)^2} \\\\ &= 0.1 \\end{aligned}$$." },
+      { q: "Simplify $\\frac{(35)^3+(15)^3}{(35)^2-35 \\times 15+(15)^2}$.", opts: ["20", "50", "70", "100"], a: 1, ex: "$$\\begin{aligned}  &= a+b \\\\ &= 35+15 \\\\ &= 50 \\end{aligned}$$ (since $a^3+b^3 = (a+b)(a^2-ab+b^2)$)." },
       { q: "$25 + 5 \\times 5 \\div 5 - 5 = ?$", opts: ["20", "25", "26", "30"], a: 1, ex: "$5\\times 5 / 5 = 5$. $25 + 5 - 5 = 25$." },
       { q: "If $a-b = 4$, $ab = 12$, then $a^2+b^2 = ?$", opts: ["32", "36", "40", "48"], a: 2, ex: "$(a-b)^2 = a^2-2ab+b^2$, so $16 = a^2+b^2 - 24$. $a^2+b^2 = 40$." },
-      { q: "$[15 + (5 \\times 2) - \\{8 \\div 2\\}] = ?$", opts: ["19", "21", "23", "25"], a: 1, ex: "$5\\times 2=10, 8/2=4, 15+10-4=21$." },
-      { q: "If $x = \\sqrt{3} + \\sqrt{2}$ and $y = \\sqrt{3} - \\sqrt{2}$, $xy = ?$", opts: ["1", "2", "3", "5"], a: 0, ex: "$xy = 3-2 = 1$." },
+      { q: "$[15 + (5 \\times 2) - \\{8 \\div 2\\}] = ?$", opts: ["19", "21", "23", "25"], a: 1, ex: "$$\\begin{aligned} 5\\times 2 &= 10, 8/2 \\\\ &= 4, 15+10-4 \\\\ &= 21 \\end{aligned}$$." },
+      { q: "If $x = \\sqrt{3} + \\sqrt{2}$ and $y = \\sqrt{3} - \\sqrt{2}$, $xy = ?$", opts: ["1", "2", "3", "5"], a: 0, ex: "$$\\begin{aligned} xy &= 3-2 \\\\ &= 1 \\end{aligned}$$." },
       { q: "$\\frac{1}{1\\cdot2}+\\frac{1}{2\\cdot3}+\\frac{1}{3\\cdot4}+\\cdots+\\frac{1}{9\\cdot10}$?", opts: ["1", "9/10", "10/9", "1/10"], a: 1, ex: "Telescopes to $1 - 1/10 = 9/10$." },
-      { q: "$(125)^3 - (75)^3 \\div [(125)^2+125\\cdot75+(75)^2]$?", opts: ["50", "75", "100", "200"], a: 0, ex: "$\\frac{a^3-b^3}{a^2+ab+b^2} = a-b = 50$." },
-      { q: "If $x+y=12, xy=27$, find $x^3+y^3$.", opts: ["756", "972", "1134", "1512"], a: 1, ex: "$x^3+y^3 = (x+y)^3 - 3xy(x+y) = 1728 - 972 = 756$. Hmm: $1728 - 3 \\cdot 27 \\cdot 12 = 1728 - 972 = 756$. Answer 756 (option A). Correcting: 756." },
+      { q: "$(125)^3 - (75)^3 \\div [(125)^2+125\\cdot75+(75)^2]$?", opts: ["50", "75", "100", "200"], a: 0, ex: "$$\\begin{aligned} \\frac{a^3-b^3}{a^2+ab+b^2} &= a-b \\\\ &= 50 \\end{aligned}$$." },
+      { q: "If $$\\begin{aligned} x+y &= 12, xy \\\\ &= 27 \\end{aligned}$$, find $x^3+y^3$.", opts: ["756", "972", "1134", "1512"], a: 1, ex: "$$\\begin{aligned} x^3+y^3 &= (x+y)^3 - 3xy(x+y) \\\\ &= 1728 - 972 \\\\ &= 756 \\end{aligned}$$. Hmm: $$\\begin{aligned} 1728 - 3 \\cdot 27 \\cdot 12 &= 1728 - 972 \\\\ &= 756 \\end{aligned}$$. Answer 756 (option A). Correcting: 756." },
       { q: "$0.5 \\times 0.5 + 0.5 \\times 0.5 + 0.5 \\times 0.5 = ?$", opts: ["0.5", "0.75", "1", "1.5"], a: 1, ex: "$3 \\times 0.25 = 0.75$." },
-      { q: "$\\frac{(2.3)^3 - 0.027}{(2.3)^2 + 0.69 + 0.09}$?", opts: ["1", "2", "2.3", "2.6"], a: 1, ex: "$0.027=(0.3)^3$. $\\frac{(2.3)^3-(0.3)^3}{(2.3)^2+2.3\\cdot 0.3+(0.3)^2} = 2.3-0.3 = 2$." },
-      { q: "If $x = 3 + 2\\sqrt{2}$, find $x + \\frac{1}{x}$.", opts: ["6", "5", "$2\\sqrt{2}$", "$3\\sqrt{2}$"], a: 0, ex: "$\\frac{1}{x} = \\frac{1}{3+2\\sqrt{2}} \\cdot \\frac{3-2\\sqrt{2}}{3-2\\sqrt{2}} = 3-2\\sqrt{2}$. Sum = 6." },
+      { q: "$\\frac{(2.3)^3 - 0.027}{(2.3)^2 + 0.69 + 0.09}$?", opts: ["1", "2", "2.3", "2.6"], a: 1, ex: "$0.027=(0.3)^3$. $$\\begin{aligned} \\frac{(2.3)^3-(0.3)^3}{(2.3)^2+2.3\\cdot 0.3+(0.3)^2} &= 2.3-0.3 \\\\ &= 2 \\end{aligned}$$." },
+      { q: "If $x = 3 + 2\\sqrt{2}$, find $x + \\frac{1}{x}$.", opts: ["6", "5", "$2\\sqrt{2}$", "$3\\sqrt{2}$"], a: 0, ex: "$$\\begin{aligned} \\frac{1}{x} &= \\frac{1}{3+2\\sqrt{2}} \\cdot \\frac{3-2\\sqrt{2}}{3-2\\sqrt{2}} \\\\ &= 3-2\\sqrt{2} \\end{aligned}$$. Sum = 6." },
       { q: "$56 - [28 - \\{37 - (15 - \\overline{4.2})\\}] = ?$ (bar over 4.2 means treat 4-2=2)", opts: ["45", "52", "63", "62"], a: 1, ex: "Bar: $4-2=2$. So $15-2=13$. $37-13=24$. $28-24=4$. $56-4=52$." },
-      { q: "$\\sqrt{2+\\sqrt{2+\\sqrt{2+\\cdots}}}$?", opts: ["1", "$\\sqrt{2}$", "2", "$2\\sqrt{2}$"], a: 2, ex: "Let $x = \\sqrt{2+x}$. $x^2 = 2+x \\Rightarrow x^2-x-2=0 \\Rightarrow x=2$." },
+      { q: "$\\sqrt{2+\\sqrt{2+\\sqrt{2+\\cdots}}}$?", opts: ["1", "$\\sqrt{2}$", "2", "$2\\sqrt{2}$"], a: 2, ex: "Let $x = \\sqrt{2+x}$. $$\\begin{aligned} x^2 &= 2+x \\Rightarrow x^2-x-2 \\\\ &= 0 \\Rightarrow x \\\\ &= 2 \\end{aligned}$$." },
       { q: "If $\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{a+b}$, then $\\frac{a}{b}+\\frac{b}{a} = ?$", opts: ["-1", "0", "1", "2"], a: 0, ex: "From condition: $a^2+ab+b^2 = 0$ → $\\frac{a^2+b^2}{ab}=-1$, i.e., $\\frac{a}{b}+\\frac{b}{a}=-1$." },
-      { q: "$(7)^3 + (5)^3 + (-12)^3 = ?$", opts: ["$3 \\cdot 7 \\cdot 5 \\cdot (-12) = -1260$", "0", "$-360$", "$+360$"], a: 0, ex: "$7+5+(-12) = 0$, so sum of cubes = $3abc = 3 \\times 7 \\times 5 \\times (-12) = -1260$." },
-      { q: "$\\frac{(0.7)^3 + (0.3)^3}{(0.7)^2 - 0.21 + (0.3)^2}$?", opts: ["0.4", "1", "0.5", "1.5"], a: 1, ex: "$=0.7+0.3 = 1$." },
-      { q: "Value of $\\sqrt{6+\\sqrt{6+\\sqrt{6+\\cdots}}}$?", opts: ["2", "3", "$\\sqrt{6}$", "6"], a: 1, ex: "$x^2 = 6+x \\Rightarrow x^2-x-6=0 \\Rightarrow x=3$." },
+      { q: "$(7)^3 + (5)^3 + (-12)^3 = ?$", opts: ["$3 \\cdot 7 \\cdot 5 \\cdot (-12) = -1260$", "0", "$-360$", "$+360$"], a: 0, ex: "$7+5+(-12) = 0$, so sum of cubes = $$\\begin{aligned} 3abc &= 3 \\times 7 \\times 5 \\times (-12) \\\\ &= -1260 \\end{aligned}$$." },
+      { q: "$\\frac{(0.7)^3 + (0.3)^3}{(0.7)^2 - 0.21 + (0.3)^2}$?", opts: ["0.4", "1", "0.5", "1.5"], a: 1, ex: "$$\\begin{aligned}  &= 0.7+0.3 \\\\ &= 1 \\end{aligned}$$." },
+      { q: "Value of $\\sqrt{6+\\sqrt{6+\\sqrt{6+\\cdots}}}$?", opts: ["2", "3", "$\\sqrt{6}$", "6"], a: 1, ex: "$$\\begin{aligned} x^2 &= 6+x \\Rightarrow x^2-x-6 \\\\ &= 0 \\Rightarrow x \\\\ &= 3 \\end{aligned}$$." },
       { q: "$1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4}$ (approx)?", opts: ["0.58", "0.67", "0.75", "0.83"], a: 0, ex: "$1 - 0.5 + 0.333 - 0.25 = 0.583$." },
       { q: "$3 \\times 3 \\div 3 + 3 - 3 = ?$", opts: ["1", "3", "6", "9"], a: 1, ex: "$3\\times 3/3 = 3$; $3+3-3 = 3$." }
     ]
@@ -449,7 +449,7 @@
         <li><b>Proper</b>: numerator &lt; denominator (e.g., $\\frac{3}{5}$).</li>
         <li><b>Improper</b>: numerator ≥ denominator (e.g., $\\frac{7}{4}$).</li>
         <li><b>Mixed</b>: integer + proper fraction (e.g., $2\\frac{1}{3}$).</li>
-        <li><b>Equivalent</b>: same value in different forms ($\\frac{1}{2} = \\frac{2}{4} = \\frac{50}{100}$).</li>
+        <li><b>Equivalent</b>: same value in different forms ($$\\begin{aligned} \\frac{1}{2} &= \\frac{2}{4} \\\\ &= \\frac{50}{100} \\end{aligned}$$).</li>
       </ul>
 
       <h3>2. Fraction Operations</h3>
@@ -464,8 +464,8 @@
       </ul>
 
       <h3>4. Recurring to Fraction Conversion</h3>
-      <p><b>Pure recurring</b> ($0.\\overline{abc}$): write recurring digits over equal number of 9s. E.g., $0.\\overline{45} = \\frac{45}{99} = \\frac{5}{11}$.</p>
-      <p><b>Mixed recurring</b> ($0.ab\\overline{cd}$): (all digits − non-recurring) ÷ (9s for recurring, 0s for non-recurring). E.g., $0.1\\overline{6} = \\frac{16-1}{90} = \\frac{15}{90} = \\frac{1}{6}$.</p>
+      <p><b>Pure recurring</b> ($0.\\overline{abc}$): write recurring digits over equal number of 9s. E.g., $$\\begin{aligned} 0.\\overline{45} &= \\frac{45}{99} \\\\ &= \\frac{5}{11} \\end{aligned}$$.</p>
+      <p><b>Mixed recurring</b> ($0.ab\\overline{cd}$): (all digits − non-recurring) ÷ (9s for recurring, 0s for non-recurring). E.g., $$\\begin{aligned} 0.1\\overline{6} &= \\frac{16-1}{90} \\\\ &= \\frac{15}{90} \\\\ &= \\frac{1}{6} \\end{aligned}$$.</p>
 
       <h3>🔥 Tricks</h3>
       <ul>
@@ -478,11 +478,11 @@
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>$\\frac{2}{3} + \\frac{3}{4} = ?$</p>
-      <p><b>Solution:</b><br>LCM(3,4)=12.<br>$\\frac{8}{12}+\\frac{9}{12} = \\frac{17}{12} = 1\\frac{5}{12}$.</p>
+      <p><b>Solution:</b><br>LCM(3,4)=12.<br>$$\\begin{aligned} \\frac{8}{12}+\\frac{9}{12} &= \\frac{17}{12} \\\\ &= 1\\frac{5}{12} \\end{aligned}$$.</p>
 
       <h4>Example 2</h4>
       <p>$\\frac{3}{8} \\times \\frac{4}{9} \\div \\frac{2}{3} = ?$</p>
-      <p><b>Solution:</b> $\\frac{3}{8} \\cdot \\frac{4}{9} \\cdot \\frac{3}{2} = \\frac{36}{144} = \\frac{1}{4}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{3}{8} \\cdot \\frac{4}{9} \\cdot \\frac{3}{2} &= \\frac{36}{144} \\\\ &= \\frac{1}{4} \\end{aligned}$$.</p>
 
       <h4>Example 3</h4>
       <p>Convert $0.\\overline{6}$ to fraction.</p>
@@ -490,7 +490,7 @@
 
       <h4>Example 4</h4>
       <p>Convert $0.1\\overline{36}$ to fraction.</p>
-      <p><b>Solution:</b> $\\frac{136-1}{990} = \\frac{135}{990} = \\frac{3}{22}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{136-1}{990} &= \\frac{135}{990} \\\\ &= \\frac{3}{22} \\end{aligned}$$.</p>
 
       <h4>Example 5</h4>
       <p>$0.7 \\times 0.04 = ?$</p>
@@ -502,7 +502,7 @@
 
       <h4>Example 7</h4>
       <p>$2\\frac{1}{2} + 3\\frac{1}{3} = ?$</p>
-      <p><b>Solution:</b> $\\frac{5}{2}+\\frac{10}{3} = \\frac{15+20}{6} = \\frac{35}{6} = 5\\frac{5}{6}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{5}{2}+\\frac{10}{3} &= \\frac{15+20}{6} \\\\ &= \\frac{35}{6} \\\\ &= 5\\frac{5}{6} \\end{aligned}$$.</p>
 
       <h4>Example 8</h4>
       <p>Convert $\\frac{5}{7}$ to decimal (4 places).</p>
@@ -522,19 +522,19 @@
 
       <h4>Example 12</h4>
       <p>$\\frac{3}{4}$ of $\\frac{4}{5}$ of $\\frac{5}{6} = ?$</p>
-      <p><b>Solution:</b> Multiply: $\\frac{3 \\cdot 4 \\cdot 5}{4 \\cdot 5 \\cdot 6} = \\frac{3}{6} = \\frac{1}{2}$.</p>
+      <p><b>Solution:</b> Multiply: $$\\begin{aligned} \\frac{3 \\cdot 4 \\cdot 5}{4 \\cdot 5 \\cdot 6} &= \\frac{3}{6} \\\\ &= \\frac{1}{2} \\end{aligned}$$.</p>
 
       <h4>Example 13</h4>
       <p>If $0.\\overline{ab} = \\frac{34}{99}$, find $a, b$.</p>
-      <p><b>Solution:</b><br>$0.\\overline{34}$.<br>So $a=3, b=4$.</p>
+      <p><b>Solution:</b><br>$0.\\overline{34}$.<br>So $$\\begin{aligned} a &= 3, b \\\\ &= 4 \\end{aligned}$$.</p>
 
       <h4>Example 14</h4>
       <p>$\\frac{1}{3} + \\frac{1}{4} + \\frac{1}{6} + \\frac{1}{12} = ?$</p>
-      <p><b>Solution:</b><br>LCM = 12.<br>$\\frac{4+3+2+1}{12} = \\frac{10}{12} = \\frac{5}{6}$.</p>
+      <p><b>Solution:</b><br>LCM = 12.<br>$$\\begin{aligned} \\frac{4+3+2+1}{12} &= \\frac{10}{12} \\\\ &= \\frac{5}{6} \\end{aligned}$$.</p>
 
       <h4>Example 15</h4>
       <p>A jug is $\\frac{2}{3}$ full. After pouring out $\\frac{1}{4}$ of contents, what fraction of jug is filled?</p>
-      <p><b>Solution:</b> Remaining $= \\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{2}$.</p>
+      <p><b>Solution:</b> Remaining $$\\begin{aligned}  &= \\frac{2}{3} \\times \\frac{3}{4} \\\\ &= \\frac{1}{2} \\end{aligned}$$.</p>
 
       <h4>Example 16: Order of Fractions</h4>
       <p>Arrange in ascending: $\frac{2}{3}, \frac{3}{4}, \frac{5}{6}, \frac{7}{8}$.</p>
@@ -546,11 +546,11 @@
 
       <h4>Example 18: Repeating Decimal Multiplied</h4>
       <p>$0.\overline{3} \times 0.\overline{6} = ?$</p>
-      <p><b>Solution:</b> $(1/3)(2/3) = 2/9 = 0.\overline{2}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (1/3)(2/3) &= 2/9 \\\\ &= 0.\overline{2} \\end{aligned}$$.</p>
 
       <h4>Example 19: Mixed-Recurring to Fraction</h4>
       <p>$0.2\overline{45}$ as fraction?</p>
-      <p><b>Solution:</b> $\frac{245-2}{990} = \frac{243}{990} = \frac{27}{110}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \frac{245-2}{990} &= \frac{243}{990} \\\\ &= \frac{27}{110} \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -564,24 +564,24 @@
       { q: "Convert $0.\\overline{36}$ to fraction.", opts: ["$\\frac{36}{99}$", "$\\frac{4}{11}$", "Both A and B", "$\\frac{36}{100}$"], a: 2, ex: "$\\frac{36}{99} = \\frac{4}{11}$, same value." },
       { q: "$0.4 \\times 0.04 \\times 0.004 = ?$", opts: ["0.0064", "0.00064", "0.000064", "0.0000064"], a: 2, ex: "$4 \\cdot 4 \\cdot 4 = 64$. Total decimal places = 1+2+3 = 6. So 0.000064." },
       { q: "Which is largest? $\\frac{2}{3}, \\frac{3}{4}, \\frac{4}{5}, \\frac{5}{6}$.", opts: ["$\\frac{2}{3}$", "$\\frac{3}{4}$", "$\\frac{4}{5}$", "$\\frac{5}{6}$"], a: 3, ex: "Pattern $\\frac{n}{n+1}$ is increasing. So $\\frac{5}{6}$ is largest." },
-      { q: "Convert $0.1\\overline{3}$ to fraction.", opts: ["$\\frac{2}{15}$", "$\\frac{1}{8}$", "$\\frac{4}{30}$", "$\\frac{12}{90}$"], a: 0, ex: "$\\frac{13-1}{90} = \\frac{12}{90} = \\frac{2}{15}$." },
-      { q: "$\\frac{3}{5} \\div \\frac{6}{7} = ?$", opts: ["$\\frac{7}{10}$", "$\\frac{18}{35}$", "$\\frac{7}{15}$", "$\\frac{14}{15}$"], a: 0, ex: "$\\frac{3}{5} \\cdot \\frac{7}{6} = \\frac{21}{30} = \\frac{7}{10}$." },
-      { q: "If $\\frac{a}{b} = \\frac{2}{3}$ and $\\frac{b}{c} = \\frac{4}{5}$, find $\\frac{a}{c}$.", opts: ["$\\frac{8}{15}$", "$\\frac{2}{5}$", "$\\frac{6}{10}$", "$\\frac{5}{6}$"], a: 0, ex: "$\\frac{a}{c} = \\frac{a}{b} \\cdot \\frac{b}{c} = \\frac{2}{3} \\cdot \\frac{4}{5} = \\frac{8}{15}$." },
-      { q: "$2\\frac{1}{2} \\times 3\\frac{1}{3} = ?$", opts: ["6", "$\\frac{25}{3}$", "$\\frac{50}{6}$", "All same"], a: 3, ex: "$\\frac{5}{2} \\cdot \\frac{10}{3} = \\frac{50}{6} = \\frac{25}{3} = 8\\frac{1}{3}$. None is 6. Actually let me recompute: 8.33, so options need to reflect. Skip." },
+      { q: "Convert $0.1\\overline{3}$ to fraction.", opts: ["$\\frac{2}{15}$", "$\\frac{1}{8}$", "$\\frac{4}{30}$", "$\\frac{12}{90}$"], a: 0, ex: "$$\\begin{aligned} \\frac{13-1}{90} &= \\frac{12}{90} \\\\ &= \\frac{2}{15} \\end{aligned}$$." },
+      { q: "$\\frac{3}{5} \\div \\frac{6}{7} = ?$", opts: ["$\\frac{7}{10}$", "$\\frac{18}{35}$", "$\\frac{7}{15}$", "$\\frac{14}{15}$"], a: 0, ex: "$$\\begin{aligned} \\frac{3}{5} \\cdot \\frac{7}{6} &= \\frac{21}{30} \\\\ &= \\frac{7}{10} \\end{aligned}$$." },
+      { q: "If $\\frac{a}{b} = \\frac{2}{3}$ and $\\frac{b}{c} = \\frac{4}{5}$, find $\\frac{a}{c}$.", opts: ["$\\frac{8}{15}$", "$\\frac{2}{5}$", "$\\frac{6}{10}$", "$\\frac{5}{6}$"], a: 0, ex: "$$\\begin{aligned} \\frac{a}{c} &= \\frac{a}{b} \\cdot \\frac{b}{c} \\\\ &= \\frac{2}{3} \\cdot \\frac{4}{5} \\\\ &= \\frac{8}{15} \\end{aligned}$$." },
+      { q: "$2\\frac{1}{2} \\times 3\\frac{1}{3} = ?$", opts: ["6", "$\\frac{25}{3}$", "$\\frac{50}{6}$", "All same"], a: 3, ex: "$$\\begin{aligned} \\frac{5}{2} \\cdot \\frac{10}{3} &= \\frac{50}{6} \\\\ &= \\frac{25}{3} \\\\ &= 8\\frac{1}{3} \\end{aligned}$$. None is 6. Actually let me recompute: 8.33, so options need to reflect. Skip." },
       { q: "$\\frac{0.25 \\times 0.25 - 0.05 \\times 0.05}{0.20}$?", opts: ["0.30", "0.15", "0.45", "0.50"], a: 0, ex: "Num = $0.0625-0.0025 = 0.06$. $0.06/0.20 = 0.30$." },
-      { q: "Express $\\frac{7}{125}$ as a decimal.", opts: ["0.056", "0.056", "0.07", "0.0560"], a: 0, ex: "$\\frac{7}{125} = \\frac{56}{1000} = 0.056$." },
+      { q: "Express $\\frac{7}{125}$ as a decimal.", opts: ["0.056", "0.056", "0.07", "0.0560"], a: 0, ex: "$$\\begin{aligned} \\frac{7}{125} &= \\frac{56}{1000} \\\\ &= 0.056 \\end{aligned}$$." },
       { q: "$0.\\overline{6} + 0.\\overline{3} = ?$", opts: ["$0.\\overline{9}$ = 1", "$0.99$", "$0.9$", "Cannot say"], a: 0, ex: "$\\frac{2}{3} + \\frac{1}{3} = 1$. Also $0.\\overline{9} = 1$." },
-      { q: "$\\frac{1}{2} \\div \\frac{1}{4} \\times \\frac{1}{8} = ?$", opts: ["$\\frac{1}{4}$", "$\\frac{1}{16}$", "$\\frac{1}{64}$", "$\\frac{1}{8}$"], a: 0, ex: "$\\frac{1}{2} \\cdot 4 \\cdot \\frac{1}{8} = \\frac{4}{16} = \\frac{1}{4}$." },
+      { q: "$\\frac{1}{2} \\div \\frac{1}{4} \\times \\frac{1}{8} = ?$", opts: ["$\\frac{1}{4}$", "$\\frac{1}{16}$", "$\\frac{1}{64}$", "$\\frac{1}{8}$"], a: 0, ex: "$$\\begin{aligned} \\frac{1}{2} \\cdot 4 \\cdot \\frac{1}{8} &= \\frac{4}{16} \\\\ &= \\frac{1}{4} \\end{aligned}$$." },
       { q: "Smallest of $\\frac{3}{4}, \\frac{5}{7}, \\frac{7}{9}, \\frac{9}{11}$?", opts: ["$\\frac{3}{4}$", "$\\frac{5}{7}$", "$\\frac{7}{9}$", "$\\frac{9}{11}$"], a: 1, ex: "Decimals: 0.75, 0.714, 0.778, 0.818. Smallest = 5/7." },
-      { q: "$\\frac{3}{7}$ of $\\frac{14}{15}$ of 60?", opts: ["20", "24", "28", "30"], a: 1, ex: "$\\frac{3 \\cdot 14 \\cdot 60}{7 \\cdot 15} = \\frac{2520}{105} = 24$." },
+      { q: "$\\frac{3}{7}$ of $\\frac{14}{15}$ of 60?", opts: ["20", "24", "28", "30"], a: 1, ex: "$$\\begin{aligned} \\frac{3 \\cdot 14 \\cdot 60}{7 \\cdot 15} &= \\frac{2520}{105} \\\\ &= 24 \\end{aligned}$$." },
       { q: "If $0.\\overline{a} = \\frac{2}{9}$, find $a$.", opts: ["1", "2", "3", "5"], a: 1, ex: "$0.\\overline{2} = 2/9$, so $a=2$." },
       { q: "$\\frac{0.04}{0.0016} = ?$", opts: ["2.5", "25", "250", "0.25"], a: 1, ex: "$\\frac{400}{16} = 25$." },
-      { q: "$2.5 \\div 0.05 = ?$", opts: ["5", "50", "0.5", "500"], a: 1, ex: "$\\frac{2.5}{0.05} = \\frac{250}{5} = 50$." },
+      { q: "$2.5 \\div 0.05 = ?$", opts: ["5", "50", "0.5", "500"], a: 1, ex: "$$\\begin{aligned} \\frac{2.5}{0.05} &= \\frac{250}{5} \\\\ &= 50 \\end{aligned}$$." },
       { q: "Sum of $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\cdots$ (infinite)?", opts: ["1", "2", "$\\frac{3}{2}$", "Cannot say"], a: 0, ex: "Geometric sum = $\\frac{1/2}{1-1/2} = 1$." },
       { q: "Convert $0.7\\overline{8}$ to fraction.", opts: ["$\\frac{71}{90}$", "$\\frac{78}{99}$", "$\\frac{7}{9}$", "$\\frac{8}{11}$"], a: 0, ex: "$\\frac{78-7}{90} = \\frac{71}{90}$." },
       { q: "$\\frac{1}{0.04} = ?$", opts: ["2.5", "25", "0.25", "250"], a: 1, ex: "$\\frac{100}{4} = 25$." },
-      { q: "If $\\frac{x}{4} = \\frac{3}{5}$, $x = ?$", opts: ["12", "$\\frac{12}{5}$", "1.5", "$\\frac{5}{12}$"], a: 1, ex: "$x = 4 \\cdot 3/5 = 12/5 = 2.4$." },
-      { q: "$\\frac{1}{2}+\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{20} = ?$", opts: ["$\\frac{2}{3}$", "$\\frac{4}{5}$", "$\\frac{3}{4}$", "$\\frac{5}{6}$"], a: 1, ex: "Each $\\frac{1}{n(n+1)} = \\frac{1}{n}-\\frac{1}{n+1}$. Sum $= 1 - 1/5 = 4/5$." },
+      { q: "If $\\frac{x}{4} = \\frac{3}{5}$, $x = ?$", opts: ["12", "$\\frac{12}{5}$", "1.5", "$\\frac{5}{12}$"], a: 1, ex: "$$\\begin{aligned} x &= 4 \\cdot 3/5 \\\\ &= 12/5 \\\\ &= 2.4 \\end{aligned}$$." },
+      { q: "$\\frac{1}{2}+\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{20} = ?$", opts: ["$\\frac{2}{3}$", "$\\frac{4}{5}$", "$\\frac{3}{4}$", "$\\frac{5}{6}$"], a: 1, ex: "Each $\\frac{1}{n(n+1)} = \\frac{1}{n}-\\frac{1}{n+1}$. Sum $$\\begin{aligned}  &= 1 - 1/5 \\\\ &= 4/5 \\end{aligned}$$." },
       { q: "$0.\\overline{142857}$ as fraction?", opts: ["$\\frac{1}{7}$", "$\\frac{1}{8}$", "$\\frac{2}{15}$", "$\\frac{1}{9}$"], a: 0, ex: "Famous: $\\frac{1}{7} = 0.\\overline{142857}$." },
       { q: "If denominator has only 2 and 5 as prime factors, decimal is:", opts: ["recurring", "terminating", "non-terminating non-recurring", "irrational"], a: 1, ex: "Only 2 and 5 → terminating decimal." },
       { q: "$3.6 \\times 0.5 = ?$", opts: ["1.8", "18", "0.18", "0.18"], a: 0, ex: "$36 \\times 5 = 180$. 2 decimal places: 1.80 = 1.8." }
@@ -628,15 +628,15 @@
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>Simplify $\\frac{2^{10} \\cdot 2^7}{2^{12}}$.</p>
-      <p><b>Solution:</b> $2^{10+7-12} = 2^5 = $ <b>32</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 2^{10+7-12} &= 2^5 \\\\ &=  \\end{aligned}$$ <b>32</b>.</p>
 
       <h4>Example 2</h4>
       <p>If $3^x = 81$, find $x$.</p>
-      <p><b>Solution:</b> $3^x = 3^4 \\Rightarrow x = $ <b>4</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 3^x &= 3^4 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>4</b>.</p>
 
       <h4>Example 3</h4>
       <p>$\\sqrt[3]{8} \\cdot \\sqrt[3]{27} = ?$</p>
-      <p><b>Solution:</b> $= \\sqrt[3]{216} = 6$ (or $2 \\cdot 3 = 6$).</p>
+      <p><b>Solution:</b> $$\\begin{aligned}  &= \\sqrt[3]{216} \\\\ &= 6 \\end{aligned}$$ (or $2 \\cdot 3 = 6$).</p>
 
       <h4>Example 4</h4>
       <p>Rationalize $\\frac{1}{\\sqrt{5}-\\sqrt{3}}$.</p>
@@ -644,11 +644,11 @@
 
       <h4>Example 5</h4>
       <p>Find $x$ if $2^{x+2} = 32$.</p>
-      <p><b>Solution:</b> $2^{x+2} = 2^5 \\Rightarrow x = $ <b>3</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 2^{x+2} &= 2^5 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>3</b>.</p>
 
       <h4>Example 6</h4>
       <p>$\\sqrt{12+\\sqrt{12+\\sqrt{12+\\cdots}}}$?</p>
-      <p><b>Solution:</b> $x^2 = 12+x \\Rightarrow x^2-x-12=0 \\Rightarrow (x-4)(x+3)=0 \\Rightarrow x = $ <b>4</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} x^2 &= 12+x \\Rightarrow x^2-x-12 \\\\ &= 0 \\Rightarrow (x-4)(x+3) \\\\ &= 0 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>4</b>.</p>
 
       <h4>Example 7</h4>
       <p>Which is larger: $\\sqrt{3}$ or $\\sqrt[3]{5}$?</p>
@@ -656,7 +656,7 @@
 
       <h4>Example 8</h4>
       <p>$8^{2/3} = ?$</p>
-      <p><b>Solution:</b> $= (2^3)^{2/3} = 2^2 = $ <b>4</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned}  &= (2^3)^{2/3} \\\\ &= 2^2 \\\\ &=  \\end{aligned}$$ <b>4</b>.</p>
 
       <h4>Example 9</h4>
       <p>If $x = \\sqrt{3}+\\sqrt{2}$, $y = \\sqrt{3}-\\sqrt{2}$, find $x^2+y^2$.</p>
@@ -664,27 +664,27 @@
 
       <h4>Example 10</h4>
       <p>$\\sqrt{7+2\\sqrt{12}} = ?$</p>
-      <p><b>Solution:</b><br>$a+b = 7, ab = 12 \\Rightarrow a=4, b=3$.<br>So $\\sqrt{4}+\\sqrt{3} = 2+\\sqrt{3}$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} a+b &= 7, ab \\\\ &= 12 \\Rightarrow a \\\\ &= 4, b \\\\ &= 3 \\end{aligned}$$.<br>So $\\sqrt{4}+\\sqrt{3} = 2+\\sqrt{3}$.</p>
 
       <h4>Example 11</h4>
-      <p>If $2^a = 3^b = 6^c$, find relation.</p>
-      <p><b>Solution:</b><br>Take logs: $a \\log 2 = b \\log 3 = c \\log 6$.<br>Note $6 = 2 \\cdot 3$, so $c \\log 6 = c(\\log 2 + \\log 3)$.<br>Match: $a \\log 2 = c \\log 2 + c \\log 3$ and $b \\log 3 = c \\log 2 + c \\log 3$.<br>From $a \\log 2 = c \\log 6$: $\\frac{1}{c} = \\frac{1}{a} + \\frac{1}{b}$.</p>
+      <p>If $$\\begin{aligned} 2^a &= 3^b \\\\ &= 6^c \\end{aligned}$$, find relation.</p>
+      <p><b>Solution:</b><br>Take logs: $$\\begin{aligned} a \\log 2 &= b \\log 3 \\\\ &= c \\log 6 \\end{aligned}$$.<br>Note $6 = 2 \\cdot 3$, so $c \\log 6 = c(\\log 2 + \\log 3)$.<br>Match: $a \\log 2 = c \\log 2 + c \\log 3$ and $b \\log 3 = c \\log 2 + c \\log 3$.<br>From $a \\log 2 = c \\log 6$: $\\frac{1}{c} = \\frac{1}{a} + \\frac{1}{b}$.</p>
 
       <h4>Example 12</h4>
       <p>$\\sqrt{0.0625} = ?$</p>
-      <p><b>Solution:</b> $\\sqrt{\\frac{625}{10000}} = \\frac{25}{100} = $ <b>0.25</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sqrt{\\frac{625}{10000}} &= \\frac{25}{100} \\\\ &=  \\end{aligned}$$ <b>0.25</b>.</p>
 
       <h4>Example 13</h4>
       <p>$\\sqrt[4]{16 \\cdot 81} = ?$</p>
-      <p><b>Solution:</b> $\\sqrt[4]{16} \\cdot \\sqrt[4]{81} = 2 \\cdot 3 = $ <b>6</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sqrt[4]{16} \\cdot \\sqrt[4]{81} &= 2 \\cdot 3 \\\\ &=  \\end{aligned}$$ <b>6</b>.</p>
 
       <h4>Example 14</h4>
-      <p>If $a^x = b, b^y = c, c^z = a$, find $xyz$.</p>
-      <p><b>Solution:</b> $a^{xyz} = a \\Rightarrow xyz = $ <b>1</b>.</p>
+      <p>If $$\\begin{aligned} a^x &= b, b^y \\\\ &= c, c^z \\\\ &= a \\end{aligned}$$, find $xyz$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} a^{xyz} &= a \\Rightarrow xyz \\\\ &=  \\end{aligned}$$ <b>1</b>.</p>
 
       <h4>Example 15</h4>
       <p>Find $x$ if $5^{x-1} \\cdot 5^{x+1} = 625$.</p>
-      <p><b>Solution:</b> $5^{2x} = 5^4 \\Rightarrow x = $ <b>2</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 5^{2x} &= 5^4 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>2</b>.</p>
 
       <h4>Example 16: Combined Indices</h4>
       <p>$\sqrt{x} \cdot \sqrt[3]{x^2} = ?$</p>
@@ -692,7 +692,7 @@
 
       <h4>Example 17: Surd Equation</h4>
       <p>If $\sqrt{x-1}+\sqrt{x+1} = 2$, find $x$.</p>
-      <p><b>Solution:</b><br>Square: $2x + 2\sqrt{x^2-1} = 4 \Rightarrow \sqrt{x^2-1} = 2-x$.<br>Square again: $x^2-1 = 4-4x+x^2 \Rightarrow 4x = 5 \Rightarrow x = 5/4$.</p>
+      <p><b>Solution:</b><br>Square: $$\\begin{aligned} 2x + 2\sqrt{x^2-1} &= 4 \Rightarrow \sqrt{x^2-1} \\\\ &= 2-x \\end{aligned}$$.<br>Square again: $$\\begin{aligned} x^2-1 &= 4-4x+x^2 \Rightarrow 4x \\\\ &= 5 \Rightarrow x \\\\ &= 5/4 \\end{aligned}$$.</p>
 
       <h4>Example 18: Rationalize</h4>
       <p>$\frac{1}{2-\sqrt{3}}$ rationalized?</p>
@@ -707,30 +707,30 @@
       </ul>
     `,
     mcq: [
-      { q: "$2^8 \\cdot 2^{-3} = ?$", opts: ["32", "2", "$2^{11}$", "$2^5$"], a: 0, ex: "$2^{8-3}=2^5=32$." },
+      { q: "$2^8 \\cdot 2^{-3} = ?$", opts: ["32", "2", "$2^{11}$", "$2^5$"], a: 0, ex: "$$\\begin{aligned} 2^{8-3} &= 2^5 \\\\ &= 32 \\end{aligned}$$." },
       { q: "$\\sqrt[3]{64} = ?$", opts: ["3", "4", "8", "16"], a: 1, ex: "$4^3 = 64$." },
-      { q: "$16^{3/4} = ?$", opts: ["4", "6", "8", "12"], a: 2, ex: "$(2^4)^{3/4} = 2^3 = 8$." },
+      { q: "$16^{3/4} = ?$", opts: ["4", "6", "8", "12"], a: 2, ex: "$$\\begin{aligned} (2^4)^{3/4} &= 2^3 \\\\ &= 8 \\end{aligned}$$." },
       { q: "If $5^x = 125$, $x = ?$", opts: ["2", "3", "5", "25"], a: 1, ex: "$125 = 5^3$." },
       { q: "Rationalize $\\frac{1}{\\sqrt{3}+1}$.", opts: ["$\\frac{\\sqrt{3}-1}{2}$", "$\\frac{\\sqrt{3}+1}{2}$", "$\\sqrt{3}-1$", "$\\sqrt{3}+1$"], a: 0, ex: "Multiply by conjugate: $\\frac{\\sqrt{3}-1}{3-1} = \\frac{\\sqrt{3}-1}{2}$." },
-      { q: "$\\sqrt{8+\\sqrt{8+\\sqrt{8+\\cdots}}} = ?$", opts: ["2", "3", "$\\sqrt{8}$", "$\\frac{1+\\sqrt{33}}{2}$"], a: 3, ex: "$x^2=8+x \\Rightarrow x = \\frac{1+\\sqrt{33}}{2} \\approx 3.37$." },
+      { q: "$\\sqrt{8+\\sqrt{8+\\sqrt{8+\\cdots}}} = ?$", opts: ["2", "3", "$\\sqrt{8}$", "$\\frac{1+\\sqrt{33}}{2}$"], a: 3, ex: "$$\\begin{aligned} x^2 &= 8+x \\Rightarrow x \\\\ &= \\frac{1+\\sqrt{33}}{2} \\approx 3.37 \\end{aligned}$$." },
       { q: "$\\sqrt{12} + \\sqrt{27} = ?$", opts: ["$5\\sqrt{3}$", "$3\\sqrt{6}$", "$\\sqrt{39}$", "$6\\sqrt{2}$"], a: 0, ex: "$2\\sqrt{3}+3\\sqrt{3}=5\\sqrt{3}$." },
       { q: "If $4^x = 64$, find $x$.", opts: ["2", "3", "4", "6"], a: 1, ex: "$64 = 4^3$." },
       { q: "Which is larger? $\\sqrt[3]{4}$ or $\\sqrt{2}$?", opts: ["$\\sqrt[3]{4}$", "$\\sqrt{2}$", "Equal", "Cannot say"], a: 0, ex: "Raise to LCM=6. $(\\sqrt[3]{4})^6 = 16$, $(\\sqrt{2})^6 = 8$. So cube root of 4 is larger." },
-      { q: "$\\sqrt{6+2\\sqrt{5}} = ?$", opts: ["$\\sqrt{5}+1$", "$\\sqrt{5}-1$", "$\\sqrt{6}+\\sqrt{5}$", "$2\\sqrt{5}$"], a: 0, ex: "$a+b=6, ab=5 \\Rightarrow a=5, b=1$. So $\\sqrt{5}+1$." },
-      { q: "$\\sqrt{2} \\cdot \\sqrt[3]{2} = ?$", opts: ["$\\sqrt[6]{32}$", "$2^{5/6}$", "Both same", "$\\sqrt[5]{4}$"], a: 2, ex: "$2^{1/2+1/3} = 2^{5/6} = \\sqrt[6]{32}$." },
+      { q: "$\\sqrt{6+2\\sqrt{5}} = ?$", opts: ["$\\sqrt{5}+1$", "$\\sqrt{5}-1$", "$\\sqrt{6}+\\sqrt{5}$", "$2\\sqrt{5}$"], a: 0, ex: "$$\\begin{aligned} a+b &= 6, ab \\\\ &= 5 \\Rightarrow a \\\\ &= 5, b \\\\ &= 1 \\end{aligned}$$. So $\\sqrt{5}+1$." },
+      { q: "$\\sqrt{2} \\cdot \\sqrt[3]{2} = ?$", opts: ["$\\sqrt[6]{32}$", "$2^{5/6}$", "Both same", "$\\sqrt[5]{4}$"], a: 2, ex: "$$\\begin{aligned} 2^{1/2+1/3} &= 2^{5/6} \\\\ &= \\sqrt[6]{32} \\end{aligned}$$." },
       { q: "$(0.000125)^{1/3}$?", opts: ["0.05", "0.5", "0.005", "5"], a: 0, ex: "$0.000125 = (0.05)^3$. So cube root = 0.05." },
-      { q: "Solve $3^{x+2} = 27 \\cdot 3^x$.", opts: ["1", "2", "3", "All values of x"], a: 3, ex: "$27 \\cdot 3^x = 3^3 \\cdot 3^x = 3^{x+3}$. So $3^{x+2} = 3^{x+3}$ — never equal. Wait let me recheck: $3^{x+2} = 9 \\cdot 3^x$, so $3^{x+2} = 27 \\cdot 3^x = 3^{x+3}$ is never true. Actually it has NO solution. So none of the options. Skip." },
-      { q: "$\\sqrt{50} - \\sqrt{18} = ?$", opts: ["$2\\sqrt{2}$", "$\\sqrt{32}$", "Both same", "$4\\sqrt{2}$"], a: 2, ex: "$5\\sqrt{2}-3\\sqrt{2}=2\\sqrt{2}=\\sqrt{8} \\ne \\sqrt{32}$. Hmm, recompute: $\\sqrt{50}=5\\sqrt{2}$, $\\sqrt{18}=3\\sqrt{2}$, diff = $2\\sqrt{2}$. Answer A only." },
-      { q: "If $\\sqrt{x}=4$, find $x^{3/2}$.", opts: ["8", "16", "32", "64"], a: 3, ex: "$x = 16$. $x^{3/2} = (\\sqrt{x})^3 = 4^3 = 64$." },
+      { q: "Solve $3^{x+2} = 27 \\cdot 3^x$.", opts: ["1", "2", "3", "All values of x"], a: 3, ex: "$$\\begin{aligned} 27 \\cdot 3^x &= 3^3 \\cdot 3^x \\\\ &= 3^{x+3} \\end{aligned}$$. So $3^{x+2} = 3^{x+3}$ — never equal. Wait let me recheck: $3^{x+2} = 9 \\cdot 3^x$, so $$\\begin{aligned} 3^{x+2} &= 27 \\cdot 3^x \\\\ &= 3^{x+3} \\end{aligned}$$ is never true. Actually it has NO solution. So none of the options. Skip." },
+      { q: "$\\sqrt{50} - \\sqrt{18} = ?$", opts: ["$2\\sqrt{2}$", "$\\sqrt{32}$", "Both same", "$4\\sqrt{2}$"], a: 2, ex: "$$\\begin{aligned} 5\\sqrt{2}-3\\sqrt{2} &= 2\\sqrt{2} \\\\ &= \\sqrt{8} \\ne \\sqrt{32} \\end{aligned}$$. Hmm, recompute: $\\sqrt{50}=5\\sqrt{2}$, $\\sqrt{18}=3\\sqrt{2}$, diff = $2\\sqrt{2}$. Answer A only." },
+      { q: "If $\\sqrt{x}=4$, find $x^{3/2}$.", opts: ["8", "16", "32", "64"], a: 3, ex: "$x = 16$. $$\\begin{aligned} x^{3/2} &= (\\sqrt{x})^3 \\\\ &= 4^3 \\\\ &= 64 \\end{aligned}$$." },
       { q: "$\\sqrt{\\frac{4}{9}} = ?$", opts: ["$\\frac{2}{3}$", "$\\frac{4}{3}$", "$\\frac{2}{9}$", "$\\frac{2}{6}$"], a: 0, ex: "$\\frac{\\sqrt{4}}{\\sqrt{9}} = \\frac{2}{3}$." },
-      { q: "$5^{-2} = ?$", opts: ["$-25$", "$\\frac{1}{25}$", "$25$", "$-\\frac{1}{25}$"], a: 1, ex: "$5^{-2}=1/5^2 = 1/25$." },
-      { q: "$\\sqrt[5]{32^4} = ?$", opts: ["8", "16", "32", "64"], a: 1, ex: "$32 = 2^5$. So $\\sqrt[5]{(2^5)^4} = 2^4 = 16$." },
-      { q: "If $9^x = 81^{x-1}$, find $x$.", opts: ["1", "2", "3", "4"], a: 1, ex: "$(3^2)^x = (3^4)^{x-1} \\Rightarrow 2x = 4(x-1) \\Rightarrow x = 2$." },
+      { q: "$5^{-2} = ?$", opts: ["$-25$", "$\\frac{1}{25}$", "$25$", "$-\\frac{1}{25}$"], a: 1, ex: "$$\\begin{aligned} 5^{-2} &= 1/5^2 \\\\ &= 1/25 \\end{aligned}$$." },
+      { q: "$\\sqrt[5]{32^4} = ?$", opts: ["8", "16", "32", "64"], a: 1, ex: "$32 = 2^5$. So $$\\begin{aligned} \\sqrt[5]{(2^5)^4} &= 2^4 \\\\ &= 16 \\end{aligned}$$." },
+      { q: "If $9^x = 81^{x-1}$, find $x$.", opts: ["1", "2", "3", "4"], a: 1, ex: "$$\\begin{aligned} (3^2)^x &= (3^4)^{x-1} \\Rightarrow 2x \\\\ &= 4(x-1) \\Rightarrow x \\\\ &= 2 \\end{aligned}$$." },
       { q: "Compare $\\sqrt{3}$ and $\\sqrt[3]{4}$.", opts: ["$\\sqrt{3}>\\sqrt[3]{4}$", "$\\sqrt{3}<\\sqrt[3]{4}$", "Equal", "Cannot say"], a: 0, ex: "$(\\sqrt{3})^6 = 27$; $(\\sqrt[3]{4})^6 = 16$. So sqrt(3) larger." },
       { q: "$\\sqrt{0.16} = ?$", opts: ["0.04", "0.4", "0.16", "0.8"], a: 1, ex: "$0.16 = 0.4^2$." },
-      { q: "Solve $\\sqrt{x^2-3} = x-1$.", opts: ["1", "2", "3", "4"], a: 1, ex: "$x^2-3 = x^2-2x+1 \\Rightarrow 2x=4 \\Rightarrow x=2$." },
+      { q: "Solve $\\sqrt{x^2-3} = x-1$.", opts: ["1", "2", "3", "4"], a: 1, ex: "$$\\begin{aligned} x^2-3 &= x^2-2x+1 \\Rightarrow 2x \\\\ &= 4 \\Rightarrow x \\\\ &= 2 \\end{aligned}$$." },
       { q: "Rationalize $\\frac{1}{\\sqrt{2}+\\sqrt{3}+\\sqrt{5}}$ (hint: rationalize twice).", opts: ["$\\frac{\\sqrt{2}+\\sqrt{3}-\\sqrt{5}}{2\\sqrt{6}}$", "$\\frac{1}{2}$", "Cannot rationalize", "$\\sqrt{30}$"], a: 0, ex: "First mul by $(\\sqrt{2}+\\sqrt{3}-\\sqrt{5})$: gives $\\frac{\\sqrt{2}+\\sqrt{3}-\\sqrt{5}}{2\\sqrt{6}}$. Further rationalization possible." },
-      { q: "If $a^{1/3}+b^{1/3}=0$, then $a+b = ?$", opts: ["0", "$a^{1/3}-b^{1/3}$", "$3ab$", "$-a$"], a: 0, ex: "$a^{1/3} = -b^{1/3} \\Rightarrow a = -b \\Rightarrow a+b=0$." },
+      { q: "If $a^{1/3}+b^{1/3}=0$, then $a+b = ?$", opts: ["0", "$a^{1/3}-b^{1/3}$", "$3ab$", "$-a$"], a: 0, ex: "$$\\begin{aligned} a^{1/3} &= -b^{1/3} \\Rightarrow a \\\\ &= -b \\Rightarrow a+b \\\\ &= 0 \\end{aligned}$$." },
       { q: "$8^{1/3} \\cdot 4^{1/2} = ?$", opts: ["2", "4", "8", "16"], a: 1, ex: "$2 \\cdot 2 = 4$." }
     ]
   };
@@ -776,7 +776,7 @@
         </li>
         <li>Find which perfect squares the given number lies between to fix the tens digit.</li>
       </ol>
-      <p><b>Example</b>: $\\sqrt{6889}$? Last digit 9 → root ends in 3 or 7. $80^2=6400, 90^2=8100$. So root is 83 or 87. Try $83^2 = 6889$ ✓.</p>
+      <p><b>Example</b>: $\\sqrt{6889}$? Last digit 9 → root ends in 3 or 7. $$\\begin{aligned} 80^2 &= 6400, 90^2 \\\\ &= 8100 \\end{aligned}$$. So root is 83 or 87. Try $83^2 = 6889$ ✓.</p>
 
       <h4>Trick 2: Cube Root by Last Digit</h4>
       <p>Last digit of cube ↔ last digit of cube root: 0↔0, 1↔1, 2↔8, 3↔7, 4↔4, 5↔5, 6↔6, 7↔3, 8↔2, 9↔9.</p>
@@ -791,11 +791,11 @@
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>$\\sqrt{2025} = ?$</p>
-      <p><b>Solution:</b><br>Last digit 5 → root ends in 5.<br>$40^2=1600, 50^2=2500$.<br>Try 45: $45^2 = 2025$ ✓.</p>
+      <p><b>Solution:</b><br>Last digit 5 → root ends in 5.<br>$$\\begin{aligned} 40^2 &= 1600, 50^2 \\\\ &= 2500 \\end{aligned}$$.<br>Try 45: $45^2 = 2025$ ✓.</p>
 
       <h4>Example 2</h4>
       <p>$\\sqrt{15876} = ?$</p>
-      <p><b>Solution:</b><br>Last digit 6 → root ends in 4 or 6.<br>$120^2=14400, 130^2=16900$.<br>So root in 120s.<br>Try 126: $126^2 = 15876$ ✓.</p>
+      <p><b>Solution:</b><br>Last digit 6 → root ends in 4 or 6.<br>$$\\begin{aligned} 120^2 &= 14400, 130^2 \\\\ &= 16900 \\end{aligned}$$.<br>So root in 120s.<br>Try 126: $126^2 = 15876$ ✓.</p>
 
       <h4>Example 3</h4>
       <p>$\\sqrt[3]{2744} = ?$</p>
@@ -811,11 +811,11 @@
 
       <h4>Example 6</h4>
       <p>Find least positive integer to be added to 269 so it is a perfect square.</p>
-      <p><b>Solution:</b><br>$16^2=256, 17^2=289$.<br>So add $289-269=20$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 16^2 &= 256, 17^2 \\\\ &= 289 \\end{aligned}$$.<br>So add $289-269=20$.</p>
 
       <h4>Example 7</h4>
       <p>$\\sqrt{8 + \\sqrt{63}} = ?$</p>
-      <p><b>Solution:</b><br>Try $\\sqrt{a}+\\sqrt{b}$.<br>$a+b=8, 4ab=63 \\Rightarrow ab=63/4$.<br>Quadratic: $t^2-8t+63/4=0 \\Rightarrow t = 7/2, 9/2$.<br>So $\\sqrt{7/2}+\\sqrt{9/2} = \\frac{\\sqrt{14}+3\\sqrt{2}}{2}$ — messy.<br>Better: $\\sqrt{8+2\\sqrt{63/4 \\cdot 4}/2}$ — skip if too messy.</p>
+      <p><b>Solution:</b><br>Try $\\sqrt{a}+\\sqrt{b}$.<br>$$\\begin{aligned} a+b &= 8, 4ab \\\\ &= 63 \\Rightarrow ab \\\\ &= 63/4 \\end{aligned}$$.<br>Quadratic: $$\\begin{aligned} t^2-8t+63/4 &= 0 \\Rightarrow t \\\\ &= 7/2, 9/2 \\end{aligned}$$.<br>So $\\sqrt{7/2}+\\sqrt{9/2} = \\frac{\\sqrt{14}+3\\sqrt{2}}{2}$ — messy.<br>Better: $\\sqrt{8+2\\sqrt{63/4 \\cdot 4}/2}$ — skip if too messy.</p>
 
       <h4>Example 8</h4>
       <p>$\\sqrt{441} \\times \\sqrt{144} = ?$</p>
@@ -835,7 +835,7 @@
 
       <h4>Example 12</h4>
       <p>Smallest number by which 2916 must be divided to make a perfect square?</p>
-      <p><b>Solution:</b><br>$2916 = 2^2 \\cdot 3^6 \\cdot ...$.<br>Factor: $2916 = 4 \\cdot 729 = 2^2 \\cdot 3^6$.<br>Already perfect square.<br>So divide by 1.<br>Wait: $2916/4=729=27^2$.<br>Yes, $2916 = 54^2$.</p>
+      <p><b>Solution:</b><br>$2916 = 2^2 \\cdot 3^6 \\cdot ...$.<br>Factor: $$\\begin{aligned} 2916 &= 4 \\cdot 729 \\\\ &= 2^2 \\cdot 3^6 \\end{aligned}$$.<br>Already perfect square.<br>So divide by 1.<br>Wait: $$\\begin{aligned} 2916/4 &= 729 \\\\ &= 27^2 \\end{aligned}$$.<br>Yes, $2916 = 54^2$.</p>
 
       <h4>Example 13</h4>
       <p>$\\sqrt{1.0816}$?</p>
@@ -847,15 +847,15 @@
 
       <h4>Example 15</h4>
       <p>If $\\sqrt{x} + \\sqrt{1/x} = 3$, find $x + 1/x$.</p>
-      <p><b>Solution:</b> Square: $x + 2 + 1/x = 9 \\Rightarrow x+1/x = 7$.</p>
+      <p><b>Solution:</b> Square: $$\\begin{aligned} x + 2 + 1/x &= 9 \\Rightarrow x+1/x \\\\ &= 7 \\end{aligned}$$.</p>
 
       <h4>Example 16: Estimate $\sqrt{N}$</h4>
       <p>Estimate $\sqrt{4900}$.</p>
-      <p><b>Solution:</b> $4900 = 49 \cdot 100 \Rightarrow \sqrt{4900} = 70$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 4900 &= 49 \cdot 100 \Rightarrow \sqrt{4900} \\\\ &= 70 \\end{aligned}$$.</p>
 
       <h4>Example 17: Find $x$ in $\sqrt{x}=...$</h4>
       <p>If $\sqrt{x^2+9}=5$, $x$?</p>
-      <p><b>Solution:</b> $x^2+9=25 \Rightarrow x = \pm 4$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} x^2+9 &= 25 \Rightarrow x \\\\ &= \pm 4 \\end{aligned}$$.</p>
 
       <h4>Example 18: Cube Root Decimal</h4>
       <p>$\sqrt[3]{0.064}$?</p>
@@ -874,15 +874,15 @@
       { q: "$\\sqrt[3]{0.027} = ?$", opts: ["0.03", "0.3", "0.003", "3"], a: 1, ex: "$0.027 = 0.3^3$." },
       { q: "$\\sqrt{0.0625} = ?$", opts: ["0.025", "0.25", "0.5", "0.05"], a: 1, ex: "$0.25^2 = 0.0625$." },
       { q: "$\\sqrt[3]{17576} = ?$", opts: ["24", "26", "28", "32"], a: 1, ex: "Last digit 6 → root ends in 6. $17576/26^3 = 1$. Answer 26." },
-      { q: "Least number to add to 8400 to make it perfect square.", opts: ["20", "21", "25", "16"], a: 1, ex: "$91^2=8281, 92^2=8464$. Add $8464-8400=64$. Hmm none match. Let me recompute: $\\sqrt{8400}\\approx 91.7$. $92^2=8464$. Add 64. Likely option choice issue." },
-      { q: "$\\sqrt{0.16 \\times 0.16 \\times 0.16}$?", opts: ["0.16", "0.064", "$\\sqrt{0.064}\\approx 0.0064$", "0.4"], a: 2, ex: "$\\sqrt{(0.16)^3} = (0.16)^{3/2} = 0.16 \\sqrt{0.16} = 0.16 \\cdot 0.4 = 0.064$. Hmm wait that's $0.064$. So option B." },
+      { q: "Least number to add to 8400 to make it perfect square.", opts: ["20", "21", "25", "16"], a: 1, ex: "$$\\begin{aligned} 91^2 &= 8281, 92^2 \\\\ &= 8464 \\end{aligned}$$. Add $8464-8400=64$. Hmm none match. Let me recompute: $\\sqrt{8400}\\approx 91.7$. $92^2=8464$. Add 64. Likely option choice issue." },
+      { q: "$\\sqrt{0.16 \\times 0.16 \\times 0.16}$?", opts: ["0.16", "0.064", "$\\sqrt{0.064}\\approx 0.0064$", "0.4"], a: 2, ex: "$$\\begin{aligned} \\sqrt{(0.16)^3} &= (0.16)^{3/2} \\\\ &= 0.16 \\sqrt{0.16} \\\\ &= 0.16 \\cdot 0.4 \\\\ &= 0.064 \\end{aligned}$$. Hmm wait that's $0.064$. So option B." },
       { q: "Smallest number to multiply 252 to make perfect square.", opts: ["3", "5", "7", "9"], a: 2, ex: "$252 = 2^2 \\cdot 3^2 \\cdot 7$. Multiply by 7." },
       { q: "$\\sqrt{441} = ?$", opts: ["19", "20", "21", "22"], a: 2, ex: "$21^2=441$." },
       { q: "$\\sqrt[3]{216} = ?$", opts: ["4", "5", "6", "7"], a: 2, ex: "$6^3=216$." },
       { q: "Largest 4-digit perfect square?", opts: ["9801", "9000", "9216", "9999"], a: 0, ex: "$99^2 = 9801$. $100^2=10000$ is 5-digit." },
       { q: "Smallest number subtract from 8888 for perfect square?", opts: ["7", "8", "9", "10"], a: 0, ex: "$\\sqrt{8888} \\approx 94.27$. $94^2 = 8836$. Subtract $8888-8836=52$. None matches. Let me skip." },
-      { q: "$\\sqrt{3 + \\sqrt{8}} = ?$", opts: ["$\\sqrt{2}+1$", "$\\sqrt{2}-1$", "$\\sqrt{3}+1$", "$2\\sqrt{2}$"], a: 0, ex: "$3+2\\sqrt{2}$. $a+b=3, ab=2 \\Rightarrow a=2,b=1$. So $\\sqrt{2}+1$." },
-      { q: "If $x = \\sqrt{1+\\sqrt{1+\\sqrt{1+\\cdots}}}$, $x = ?$", opts: ["1", "$\\frac{1+\\sqrt{5}}{2}$", "$\\sqrt{2}$", "Golden ratio $\\phi$"], a: 3, ex: "$x^2=1+x \\Rightarrow x = \\frac{1+\\sqrt{5}}{2} = \\phi$." },
+      { q: "$\\sqrt{3 + \\sqrt{8}} = ?$", opts: ["$\\sqrt{2}+1$", "$\\sqrt{2}-1$", "$\\sqrt{3}+1$", "$2\\sqrt{2}$"], a: 0, ex: "$3+2\\sqrt{2}$. $$\\begin{aligned} a+b &= 3, ab \\\\ &= 2 \\Rightarrow a \\\\ &= 2,b \\\\ &= 1 \\end{aligned}$$. So $\\sqrt{2}+1$." },
+      { q: "If $x = \\sqrt{1+\\sqrt{1+\\sqrt{1+\\cdots}}}$, $x = ?$", opts: ["1", "$\\frac{1+\\sqrt{5}}{2}$", "$\\sqrt{2}$", "Golden ratio $\\phi$"], a: 3, ex: "$$\\begin{aligned} x^2 &= 1+x \\Rightarrow x \\\\ &= \\frac{1+\\sqrt{5}}{2} \\\\ &= \\phi \\end{aligned}$$." },
       { q: "$\\sqrt{6.25} = ?$", opts: ["2.5", "2.0", "3.0", "1.5"], a: 0, ex: "$2.5^2=6.25$." },
       { q: "$\\sqrt[3]{125 \\times 64}$?", opts: ["10", "15", "20", "25"], a: 2, ex: "$\\sqrt[3]{8000} = 20$. Or $5 \\cdot 4 = 20$." },
       { q: "If $\\sqrt{n} = 12$, find $n$.", opts: ["120", "144", "150", "169"], a: 1, ex: "$n=144$." },
@@ -891,8 +891,8 @@
       { q: "$\\sqrt{0.04} \\times \\sqrt{0.09} = ?$", opts: ["0.6", "0.06", "0.006", "0.0006"], a: 1, ex: "$0.2 \\times 0.3 = 0.06$." },
       { q: "Number of digits in $\\sqrt{169 \\cdot 144}$?", opts: ["1", "2", "3", "4"], a: 2, ex: "$13 \\cdot 12 = 156$ — 3 digits." },
       { q: "$\\sqrt{a^2 b^4 c^6}$?", opts: ["$abc^3$", "$ab^2c^3$", "$a^2bc^2$", "$abc^2$"], a: 1, ex: "$\\sqrt{a^2}\\sqrt{b^4}\\sqrt{c^6} = ab^2c^3$." },
-      { q: "$\\sqrt{\\frac{0.0081 \\times 0.484}{0.0064 \\times 6.25}}$?", opts: ["0.099", "0.99", "0.198", "0.198"], a: 0, ex: "$= \\frac{0.09 \\times 0.22}{0.08 \\times 2.5} = \\frac{0.0198}{0.2}=0.099$." },
-      { q: "If $\\sqrt{6 \\times \\sqrt{6 \\times \\sqrt{6 \\cdots}}}$ goes on forever, value?", opts: ["6", "$\\sqrt{6}$", "12", "36"], a: 0, ex: "$x = \\sqrt{6x} \\Rightarrow x^2 = 6x \\Rightarrow x = 6$." },
+      { q: "$\\sqrt{\\frac{0.0081 \\times 0.484}{0.0064 \\times 6.25}}$?", opts: ["0.099", "0.99", "0.198", "0.198"], a: 0, ex: "$$\\begin{aligned}  &= \\frac{0.09 \\times 0.22}{0.08 \\times 2.5} \\\\ &= \\frac{0.0198}{0.2} \\\\ &= 0.099 \\end{aligned}$$." },
+      { q: "If $\\sqrt{6 \\times \\sqrt{6 \\times \\sqrt{6 \\cdots}}}$ goes on forever, value?", opts: ["6", "$\\sqrt{6}$", "12", "36"], a: 0, ex: "$$\\begin{aligned} x &= \\sqrt{6x} \\Rightarrow x^2 \\\\ &= 6x \\Rightarrow x \\\\ &= 6 \\end{aligned}$$." },
       { q: "$\\sqrt[3]{0.000216}$?", opts: ["0.06", "0.6", "0.006", "0.16"], a: 0, ex: "$0.000216 = (0.06)^3$." }
     ]
   };
@@ -927,14 +927,14 @@
         <li><b>HCF of $(a, b, c) = $ HCF of differences</b>: HCF$(a,b,c)$ = HCF$(b-a, c-b, c-a)$ when same remainder.</li>
         <li><b>Greatest number that divides $a, b, c$ leaving same remainder</b>: HCF of $(b-a), (c-b), (c-a)$.</li>
         <li><b>Smallest number that when divided by $a, b, c$ leaves remainder $r$</b>: LCM$(a,b,c) + r$.</li>
-        <li><b>Smallest number that when divided by $a, b, c$ leaves remainders $r_1, r_2, r_3$ where $a-r_1 = b-r_2 = c-r_3 = d$</b>: LCM$(a,b,c) - d$.</li>
+        <li><b>Smallest number that when divided by $a, b, c$ leaves remainders $r_1, r_2, r_3$ where $$\\begin{aligned} a-r_1 &= b-r_2 \\\\ &= c-r_3 \\\\ &= d \\end{aligned}$$</b>: LCM$(a,b,c) - d$.</li>
         <li><b>Co-prime check</b>: HCF = 1.</li>
       </ul>
 
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>HCF and LCM of 12, 18, 24.</p>
-      <p><b>Solution:</b><br>$12=2^2 \\cdot 3, 18=2 \\cdot 3^2, 24 = 2^3 \\cdot 3$.<br>HCF = $2 \\cdot 3 = 6$.<br>LCM = $2^3 \\cdot 3^2 = 72$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 12 &= 2^2 \\cdot 3, 18 \\\\ &= 2 \\cdot 3^2, 24 \\\\ &= 2^3 \\cdot 3 \\end{aligned}$$.<br>HCF = $2 \\cdot 3 = 6$.<br>LCM = $2^3 \\cdot 3^2 = 72$.</p>
 
       <h4>Example 2</h4>
       <p>HCF of 48 and 72.</p>
@@ -942,7 +942,7 @@
 
       <h4>Example 3</h4>
       <p>If HCF $(a, b) = 6$ and LCM $(a, b) = 120$, and $a = 24$, find $b$.</p>
-      <p><b>Solution:</b><br>$a \\times b = $ HCF $\\times$ LCM.<br>$24b = 720 \\Rightarrow b = $ <b>30</b>.</p>
+      <p><b>Solution:</b><br>$a \\times b = $ HCF $\\times$ LCM.<br>$$\\begin{aligned} 24b &= 720 \\Rightarrow b \\\\ &=  \\end{aligned}$$ <b>30</b>.</p>
 
       <h4>Example 4</h4>
       <p>HCF of $\\frac{2}{3}, \\frac{4}{9}, \\frac{6}{15}$.</p>
@@ -970,11 +970,11 @@
 
       <h4>Example 10</h4>
       <p>Find HCF and LCM of $2^3 \\cdot 3^2 \\cdot 5$ and $2^2 \\cdot 3^3 \\cdot 7$.</p>
-      <p><b>Solution:</b><br>HCF $= 2^2 \\cdot 3^2 = 36$.<br>LCM $= 2^3 \\cdot 3^3 \\cdot 5 \\cdot 7 = 7560$.</p>
+      <p><b>Solution:</b><br>HCF $$\\begin{aligned}  &= 2^2 \\cdot 3^2 \\\\ &= 36 \\end{aligned}$$.<br>LCM $$\\begin{aligned}  &= 2^3 \\cdot 3^3 \\cdot 5 \\cdot 7 \\\\ &= 7560 \\end{aligned}$$.</p>
 
       <h4>Example 11</h4>
       <p>HCF$(x, y) = 9$ and $x + y = 90$. How many possible $(x, y)$ pairs (with $x &lt; y$)?</p>
-      <p><b>Solution:</b><br>$x = 9a, y = 9b$ with $\\gcd(a,b)=1$ and $a+b=10$.<br>Pairs $(a,b)$ co-prime, $a&lt;b$: $(1,9),(3,7)$.<br>So 2 pairs.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} x &= 9a, y \\\\ &= 9b \\end{aligned}$$ with $\\gcd(a,b)=1$ and $a+b=10$.<br>Pairs $(a,b)$ co-prime, $a&lt;b$: $(1,9),(3,7)$.<br>So 2 pairs.</p>
 
       <h4>Example 12</h4>
       <p>Greatest number which divides 1356, 1868, 2764 leaving same remainder.</p>
@@ -982,7 +982,7 @@
 
       <h4>Example 13</h4>
       <p>Sum of two numbers is 528; HCF is 33. How many such pairs?</p>
-      <p><b>Solution:</b><br>$33a + 33b = 528 \\Rightarrow a+b = 16$ with $\\gcd(a,b)=1$.<br>Co-prime pairs: $(1,15),(3,13),(5,11),(7,9)$.<br>4 pairs.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 33a + 33b &= 528 \\Rightarrow a+b \\\\ &= 16 \\end{aligned}$$ with $\\gcd(a,b)=1$.<br>Co-prime pairs: $(1,15),(3,13),(5,11),(7,9)$.<br>4 pairs.</p>
 
       <h4>Example 14</h4>
       <p>LCM of two numbers is 192; HCF is 16. If one number is 48, find the other.</p>
@@ -990,11 +990,11 @@
 
       <h4>Example 15</h4>
       <p>3 numbers in ratio 2:3:4 have LCM 240. Find them.</p>
-      <p><b>Solution:</b><br>Numbers are $2x, 3x, 4x$.<br>LCM = $12x = 240 \\Rightarrow x = 20$.<br>So 40, 60, 80.</p>
+      <p><b>Solution:</b><br>Numbers are $2x, 3x, 4x$.<br>LCM = $$\\begin{aligned} 12x &= 240 \\Rightarrow x \\\\ &= 20 \\end{aligned}$$.<br>So 40, 60, 80.</p>
 
       <h4>Example 16: 3 Numbers</h4>
       <p>HCF of 24, 36, 60?</p>
-      <p><b>Solution:</b><br>Factors: $24=2^3 \cdot 3, 36=2^2 \cdot 3^2, 60=2^2 \cdot 3 \cdot 5$.<br>HCF=$2^2 \cdot 3=12$.</p>
+      <p><b>Solution:</b><br>Factors: $$\\begin{aligned} 24 &= 2^3 \cdot 3, 36 \\\\ &= 2^2 \cdot 3^2, 60 \\\\ &= 2^2 \cdot 3 \cdot 5 \\end{aligned}$$.<br>HCF=$2^2 \cdot 3=12$.</p>
 
       <h4>Example 17: Wheel Rotation</h4>
       <p>Two wheels of circumference 12 m and 18 m start together. When do they make the same number of complete rotations?</p>
@@ -1012,7 +1012,7 @@
       </ul>
     `,
     mcq: [
-      { q: "HCF of 12 and 18?", opts: ["2", "3", "6", "12"], a: 2, ex: "$12=2^2 \\cdot 3, 18=2 \\cdot 3^2$. HCF=$2 \\cdot 3=6$." },
+      { q: "HCF of 12 and 18?", opts: ["2", "3", "6", "12"], a: 2, ex: "$$\\begin{aligned} 12 &= 2^2 \\cdot 3, 18 \\\\ &= 2 \\cdot 3^2 \\end{aligned}$$. HCF=$2 \\cdot 3=6$." },
       { q: "LCM of 12 and 18?", opts: ["36", "54", "72", "108"], a: 0, ex: "$2^2 \\cdot 3^2 = 36$." },
       { q: "If HCF and LCM are 8 and 24, and one number is 24, other?", opts: ["6", "8", "12", "16"], a: 1, ex: "$\\frac{8 \\cdot 24}{24} = 8$." },
       { q: "HCF of $\\frac{8}{9}, \\frac{10}{27}, \\frac{16}{81}$?", opts: ["$\\frac{2}{81}$", "$\\frac{4}{27}$", "$\\frac{2}{9}$", "$\\frac{1}{81}$"], a: 0, ex: "HCF nums = 2. LCM denoms = 81. $\\frac{2}{81}$." },
@@ -1024,19 +1024,19 @@
       { q: "HCF of co-prime numbers?", opts: ["0", "1", "Their product", "Smaller one"], a: 1, ex: "By definition." },
       { q: "Sum of two numbers is 84, HCF=12. How many pairs $(a,b)$ with $a&lt;b$?", opts: ["1", "2", "3", "4"], a: 1, ex: "$a+b = 7$ coprime: $(1,6),(2,5),(3,4)$ — wait, need coprime: $(1,6)\\gcd 1, (2,5)\\gcd 1, (3,4)\\gcd 1$. So 3 pairs. Hmm options need rechecking. Actually $(1,6)\\gcd=1$ yes, $(2,5)\\gcd=1$ yes, $(3,4)\\gcd=1$ yes. 3 pairs. But option C is 3, not 2." },
       { q: "Product of HCF and LCM of 32 and 48?", opts: ["768", "1536", "1024", "2048"], a: 1, ex: "$32 \\cdot 48 = 1536$." },
-      { q: "LCM of 24, 36, 40?", opts: ["180", "240", "360", "480"], a: 2, ex: "$24=2^3 \\cdot 3, 36=2^2 \\cdot 3^2, 40=2^3 \\cdot 5$. LCM=$2^3 \\cdot 3^2 \\cdot 5 = 360$." },
+      { q: "LCM of 24, 36, 40?", opts: ["180", "240", "360", "480"], a: 2, ex: "$$\\begin{aligned} 24 &= 2^3 \\cdot 3, 36 \\\\ &= 2^2 \\cdot 3^2, 40 \\\\ &= 2^3 \\cdot 5 \\end{aligned}$$. LCM=$2^3 \\cdot 3^2 \\cdot 5 = 360$." },
       { q: "Find 3-digit largest number divisible by 8, 12, 20.", opts: ["960", "920", "880", "840"], a: 0, ex: "LCM=120. $999/120=8.32$. $8 \\cdot 120 = 960$." },
-      { q: "HCF of 161 and 207.", opts: ["23", "46", "11", "32"], a: 0, ex: "$207 = 161 + 46; 161 = 3 \\cdot 46 + 23; 46 = 2 \\cdot 23$. HCF=23." },
-      { q: "Two numbers with HCF 13 and LCM 1989. If one is 117, other?", opts: ["143", "221", "187", "169"], a: 1, ex: "$13 \\cdot 1989 / 117 = 25857/117 = 221$." },
+      { q: "HCF of 161 and 207.", opts: ["23", "46", "11", "32"], a: 0, ex: "$$\\begin{aligned} 207 &= 161 + 46; 161 \\\\ &= 3 \\cdot 46 + 23; 46 \\\\ &= 2 \\cdot 23 \\end{aligned}$$. HCF=23." },
+      { q: "Two numbers with HCF 13 and LCM 1989. If one is 117, other?", opts: ["143", "221", "187", "169"], a: 1, ex: "$$\\begin{aligned} 13 \\cdot 1989 / 117 &= 25857/117 \\\\ &= 221 \\end{aligned}$$." },
       { q: "Greatest number which divides 43, 91 and 183 leaving same remainder.", opts: ["4", "7", "9", "13"], a: 0, ex: "Diff: 48, 92, 140. HCF$(48,92,140)$: $\\gcd(48,92)=4$; $\\gcd(4,140)=4$. So 4." },
       { q: "Smallest 5-digit number exactly divisible by 18 and 24.", opts: ["10000", "10008", "10080", "10800"], a: 2, ex: "LCM=72. $10000/72 = 138.88$. Next multiple: $139 \\cdot 72 = 10008$. Wait recheck: $138 \\cdot 72 = 9936$, $139 \\cdot 72 = 10008$. So 10008." },
       { q: "If LCM is 192 and HCF is 16 and ratio of 2 numbers is 3:4, larger number?", opts: ["32", "48", "64", "96"], a: 2, ex: "Numbers $16 \\cdot 3 = 48$ and $16 \\cdot 4 = 64$. Larger = 64." },
       { q: "HCF of $5/9$ and $10/27$?", opts: ["$5/27$", "$5/9$", "$10/9$", "$5/54$"], a: 0, ex: "HCF nums=5. LCM denoms=27. $5/27$." },
-      { q: "Smallest number when divided by 5, 10, 15 leaves remainders 4, 9, 14?", opts: ["29", "59", "89", "149"], a: 0, ex: "Each gap = $5-4=10-9=15-14=1$. Answer = LCM - 1 = 30-1 = 29." },
+      { q: "Smallest number when divided by 5, 10, 15 leaves remainders 4, 9, 14?", opts: ["29", "59", "89", "149"], a: 0, ex: "Each gap = $$\\begin{aligned} 5-4 &= 10-9 \\\\ &= 15-14 \\\\ &= 1 \\end{aligned}$$. Answer = LCM - 1 = 30-1 = 29." },
       { q: "Two numbers' ratio is 3:4, HCF=4. Find LCM.", opts: ["12", "24", "36", "48"], a: 3, ex: "Numbers 12, 16. LCM=48." },
       { q: "Find HCF of 0.96, 1.44, 2.40 (decimals).", opts: ["0.24", "0.48", "0.12", "0.36"], a: 1, ex: "Multiply by 100: HCF(96,144,240)=48. So 0.48." },
       { q: "LCM of 36 and 48 is x. HCF is y. Find x − y.", opts: ["120", "132", "144", "156"], a: 1, ex: "LCM=144, HCF=12. $144-12=132$." },
-      { q: "Find smallest perfect square divisible by 5, 8, 12.", opts: ["120", "240", "3600", "14400"], a: 2, ex: "LCM=120 = $2^3 \\cdot 3 \\cdot 5$. To be perfect square: need even powers, so multiply by $2 \\cdot 3 \\cdot 5 = 30$. $120 \\cdot 30 = 3600 = 60^2$." }
+      { q: "Find smallest perfect square divisible by 5, 8, 12.", opts: ["120", "240", "3600", "14400"], a: 2, ex: "LCM=120 = $2^3 \\cdot 3 \\cdot 5$. To be perfect square: need even powers, so multiply by $2 \\cdot 3 \\cdot 5 = 30$. $$\\begin{aligned} 120 \\cdot 30 &= 3600 \\\\ &= 60^2 \\end{aligned}$$." }
     ]
   };
 
@@ -1068,7 +1068,7 @@
       <h4>Trick 1: Successive Percentage Change</h4>
       <p>If price changes by $a\\%$ then $b\\%$, net change = $a + b + \\frac{ab}{100}$%.</p>
       <p>Signs matter: use $+$ for increase, $-$ for decrease.</p>
-      <p><b>Example</b>: 20% increase then 10% decrease → $20 - 10 + \\frac{20 \\cdot (-10)}{100} = 10 - 2 = 8\\%$ increase.</p>
+      <p><b>Example</b>: 20% increase then 10% decrease → $$\\begin{aligned} 20 - 10 + \\frac{20 \\cdot (-10)}{100} &= 10 - 2 \\\\ &= 8\\% \\end{aligned}$$ increase.</p>
 
       <h4>Trick 2: A is x% more than B → B is what % less than A?</h4>
       <p>If A is $x\\%$ more than B, then B is $\\frac{x}{100+x} \\times 100 \\%$ less than A.</p>
@@ -1092,7 +1092,7 @@
 
       <h4>Example 2</h4>
       <p>If 30% of a number is 60, find the number.</p>
-      <p><b>Solution:</b> $0.30 x = 60 \\Rightarrow x = $ <b>200</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 0.30 x &= 60 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>200</b>.</p>
 
       <h4>Example 3</h4>
       <p>A salary increased from 25,000 to 30,000. Percentage increase?</p>
@@ -1112,11 +1112,11 @@
 
       <h4>Example 7</h4>
       <p>Population of a town is 25,000. It grows at 4% per year. Population after 2 years?</p>
-      <p><b>Solution:</b> $25000 \\times (1.04)^2 = 25000 \\times 1.0816 = $ <b>27,040</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 25000 \\times (1.04)^2 &= 25000 \\times 1.0816 \\\\ &=  \\end{aligned}$$ <b>27,040</b>.</p>
 
       <h4>Example 8</h4>
       <p>If $x$ is 60% of $y$, and $y$ is 40% of $z$, then $x$ is what % of $z$?</p>
-      <p><b>Solution:</b><br>$x = 0.6y = 0.6 \\times 0.4z = 0.24z$.<br>So $x = $ <b>24% of $z$</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} x &= 0.6y \\\\ &= 0.6 \\times 0.4z \\\\ &= 0.24z \\end{aligned}$$.<br>So $x = $ <b>24% of $z$</b>.</p>
 
       <h4>Example 9</h4>
       <p>In an election, the winner got 60% of votes and won by 1200. Total votes?</p>
@@ -1124,7 +1124,7 @@
 
       <h4>Example 10</h4>
       <p>If 15% of A = 30% of B, ratio of A to B?</p>
-      <p><b>Solution:</b> $0.15A = 0.3B \\Rightarrow A:B = 2:1$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 0.15A &= 0.3B \\Rightarrow A:B \\\\ &= 2:1 \\end{aligned}$$.</p>
 
       <h4>Example 11</h4>
       <p>A number is increased by 20%, then decreased by 20%. Net change?</p>
@@ -1144,11 +1144,11 @@
 
       <h4>Example 15</h4>
       <p>If 75% of $x$ is 9 more than 50% of $x$, find $x$.</p>
-      <p><b>Solution:</b> $0.75x - 0.5x = 9 \\Rightarrow 0.25x = 9 \\Rightarrow x = $ <b>36</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 0.75x - 0.5x &= 9 \\Rightarrow 0.25x \\\\ &= 9 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>36</b>.</p>
 
       <h4>Example 16: Pass/Fail Marks</h4>
       <p>A student got 25% marks and failed by 30. Another got 40% and passed with 30 marks more than minimum. Find max marks.</p>
-      <p><b>Solution:</b><br>Let max = $M$, pass = $P$.<br>$0.25M = P - 30$ and $0.40M = P + 30$.<br>Subtract: $0.15M = 60 \Rightarrow M = $ <b>400</b>.</p>
+      <p><b>Solution:</b><br>Let max = $M$, pass = $P$.<br>$0.25M = P - 30$ and $0.40M = P + 30$.<br>Subtract: $$\\begin{aligned} 0.15M &= 60 \Rightarrow M \\\\ &=  \\end{aligned}$$ <b>400</b>.</p>
 
       <h4>Example 17: Reduce/Increase to Original</h4>
       <p>A's salary increases 25%, decreases 20%. Net change?</p>
@@ -1160,11 +1160,11 @@
 
       <h4>Example 19: Two-Stage %</h4>
       <p>A number increases by 20%, then result decreases by 30%. Net?</p>
-      <p><b>Solution:</b> $1.20 \times 0.70 = 0.84 = -16\%$ (16% decrease).</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1.20 \times 0.70 &= 0.84 \\\\ &= -16\% \\end{aligned}$$ (16% decrease).</p>
 
       <h4>Example 20: Population Backtrack</h4>
       <p>Population now = 12,100 after 2 years of 10% growth. Original?</p>
-      <p><b>Solution:</b> $P(1.1)^2 = 12100 \Rightarrow P = 12100/1.21 = $ <b>10,000</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} P(1.1)^2 &= 12100 \Rightarrow P \\\\ &= 12100/1.21 \\\\ &=  \\end{aligned}$$ <b>10,000</b>.</p>
 
       <h4>Example 21: Marks Apportion</h4>
       <p>If a student scores 35% marks and gets 175, max marks?</p>
@@ -1172,7 +1172,7 @@
 
       <h4>Example 22: Income-Saving Linked</h4>
       <p>A's income is 25% more than B's. A's expenses 20% more than B's. If A and B save equal amounts, ratio of savings to income?</p>
-      <p><b>Solution:</b><br>Let B's income = 100, A's = 125.<br>Let B's expense = $e$.<br>A's expense = $1.2e$.<br>Saves: B = $100-e$, A = $125-1.2e$.<br>Equal: $100-e = 125-1.2e \Rightarrow 0.2e=25 \Rightarrow e=125$.<br>B savings = $-25$.<br>Negative — adjust assumptions or change interpretation.</p>
+      <p><b>Solution:</b><br>Let B's income = 100, A's = 125.<br>Let B's expense = $e$.<br>A's expense = $1.2e$.<br>Saves: B = $100-e$, A = $125-1.2e$.<br>Equal: $$\\begin{aligned} 100-e &= 125-1.2e \Rightarrow 0.2e \\\\ &= 25 \Rightarrow e \\\\ &= 125 \\end{aligned}$$.<br>B savings = $-25$.<br>Negative — adjust assumptions or change interpretation.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1183,7 +1183,7 @@
     `,
     mcq: [
       { q: "What is 30% of 250?", opts: ["50", "60", "75", "80"], a: 2, ex: "$0.30 \\times 250 = 75$." },
-      { q: "If 40% of x = 80, x = ?", opts: ["120", "160", "200", "240"], a: 2, ex: "$x = 80/0.4 = 200$." },
+      { q: "If 40% of x = 80, x = ?", opts: ["120", "160", "200", "240"], a: 2, ex: "$$\\begin{aligned} x &= 80/0.4 \\\\ &= 200 \\end{aligned}$$." },
       { q: "20% of 35% of 1000?", opts: ["70", "75", "120", "200"], a: 0, ex: "$0.2 \\cdot 0.35 \\cdot 1000 = 70$." },
       { q: "Marks went from 60 to 75. Percentage increase?", opts: ["20%", "25%", "15%", "30%"], a: 1, ex: "$15/60 \\times 100 = 25\\%$." },
       { q: "Price rises 30% then falls 30%. Net change?", opts: ["0%", "9% fall", "9% rise", "30% fall"], a: 1, ex: "$30-30-9 = -9\\%$." },
@@ -1192,20 +1192,20 @@
       { q: "If price rises 20%, by what % to reduce consumption to keep cost same?", opts: ["16.67%", "20%", "25%", "30%"], a: 0, ex: "$20/120 \\times 100 = 16.67\\%$." },
       { q: "60% of a number is 270. The number?", opts: ["350", "400", "450", "500"], a: 2, ex: "$270/0.6 = 450$." },
       { q: "Election: winner got 65%, margin 4500. Total votes?", opts: ["12000", "15000", "18000", "22500"], a: 1, ex: "Margin = $65-35 = 30\\%$ = 4500. Total = 15000." },
-      { q: "Population 10000, grows 10% yearly. After 3 years?", opts: ["13000", "13310", "13100", "12500"], a: 1, ex: "$10000 \\times (1.1)^3 = 10000 \\times 1.331 = 13310$." },
+      { q: "Population 10000, grows 10% yearly. After 3 years?", opts: ["13000", "13310", "13100", "12500"], a: 1, ex: "$$\\begin{aligned} 10000 \\times (1.1)^3 &= 10000 \\times 1.331 \\\\ &= 13310 \\end{aligned}$$." },
       { q: "Reduced by 25%, then increased by 25%. Net change?", opts: ["0%", "6.25% increase", "6.25% decrease", "12.5% decrease"], a: 2, ex: "$-25+25-25 \\cdot 25/100 = -6.25\\%$." },
       { q: "x% of y = y% of?", opts: ["x", "y", "x+y", "$\\frac{x}{y}$"], a: 0, ex: "$\\frac{xy}{100} = \\frac{yx}{100}$. So x% of y = y% of x." },
       { q: "If A:B = 3:5, find A% of B?", opts: ["50%", "60%", "75%", "166.67%"], a: 1, ex: "$\\frac{A}{B} \\cdot 100 = 60\\%$." },
       { q: "30% of 50% of 200?", opts: ["20", "30", "40", "60"], a: 1, ex: "$0.3 \\cdot 0.5 \\cdot 200 = 30$." },
-      { q: "If 12% of 36 = x% of 24, x = ?", opts: ["12", "18", "24", "36"], a: 1, ex: "$0.12 \\cdot 36 = 4.32$. $4.32/24 = 0.18 = 18\\%$." },
+      { q: "If 12% of 36 = x% of 24, x = ?", opts: ["12", "18", "24", "36"], a: 1, ex: "$0.12 \\cdot 36 = 4.32$. $$\\begin{aligned} 4.32/24 &= 0.18 \\\\ &= 18\\% \\end{aligned}$$." },
       { q: "Number reduced by 40%. To restore, % increase needed?", opts: ["40%", "60%", "66.67%", "80%"], a: 2, ex: "From 60 back to 100: $40/60 \\times 100 = 66.67\\%$." },
       { q: "Salary of A is 25% more than B. If B's is ₹4000, A's?", opts: ["₹5000", "₹4500", "₹5200", "₹4800"], a: 0, ex: "$4000 \\times 1.25 = 5000$." },
-      { q: "If 8% of x = 4% of y, x:y?", opts: ["1:1", "1:2", "2:1", "1:4"], a: 1, ex: "$x/y = 4/8 = 1/2$." },
+      { q: "If 8% of x = 4% of y, x:y?", opts: ["1:1", "1:2", "2:1", "1:4"], a: 1, ex: "$$\\begin{aligned} x/y &= 4/8 \\\\ &= 1/2 \\end{aligned}$$." },
       { q: "A spends 80% of income. If income rises 25% but savings stay same, expenses up by?", opts: ["20%", "25%", "31.25%", "30%"], a: 2, ex: "Income 100→125; savings 20 same; expense $125-20=105$; from 80 to 105 = $25/80 = 31.25\\%$." },
       { q: "If $A = B + 20\\% B$, then A = ?", opts: ["1.2B", "1.5B", "0.8B", "0.83B"], a: 0, ex: "$A = 1.2B$." },
       { q: "Successive 10%, 20%, 30% increase. Net %?", opts: ["60%", "71.6%", "70%", "75%"], a: 1, ex: "$1.1 \\cdot 1.2 \\cdot 1.3 = 1.716$. So 71.6% increase." },
       { q: "If salary first cut 10% then raised 10%, net?", opts: ["0% (same)", "1% loss", "1% gain", "10% loss"], a: 1, ex: "$0.9 \\cdot 1.1 = 0.99$. 1% loss." },
-      { q: "$5\\%$ of $5\\% = $", opts: ["10%", "25%", "0.25%", "0.025%"], a: 2, ex: "$0.05 \\times 0.05 = 0.0025 = 0.25\\%$." },
+      { q: "$5\\%$ of $5\\% = $", opts: ["10%", "25%", "0.25%", "0.025%"], a: 2, ex: "$$\\begin{aligned} 0.05 \\times 0.05 &= 0.0025 \\\\ &= 0.25\\% \\end{aligned}$$." },
       { q: "20% of 25% of 40% of 500?", opts: ["10", "20", "25", "50"], a: 0, ex: "$0.2 \\cdot 0.25 \\cdot 0.4 \\cdot 500 = 10$." }
     ]
   };
@@ -1259,15 +1259,15 @@
 
       <h4>Example 2</h4>
       <p>An article is sold at ₹600 with 20% profit. Find CP.</p>
-      <p><b>Solution:</b> $CP = \\frac{600 \\times 100}{120} = $ <b>₹500</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} CP &= \\frac{600 \\times 100}{120} \\\\ &=  \\end{aligned}$$ <b>₹500</b>.</p>
 
       <h4>Example 3</h4>
       <p>By selling for ₹720, a man makes 20% loss. SP for 25% profit?</p>
-      <p><b>Solution:</b><br>$CP = \\frac{720 \\times 100}{80} = 900$.<br>New SP $= 900 \\times 1.25 = $ <b>₹1125</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} CP &= \\frac{720 \\times 100}{80} \\\\ &= 900 \\end{aligned}$$.<br>New SP $$\\begin{aligned}  &= 900 \\times 1.25 \\\\ &=  \\end{aligned}$$ <b>₹1125</b>.</p>
 
       <h4>Example 4: Same SP, opposite profit/loss</h4>
       <p>Two articles sold at ₹600 each. One at 20% profit, other at 20% loss. Net?</p>
-      <p><b>Solution:</b><br>Net loss % $= (20/10)^2 = 4\\%$.<br>CP of first $= 600/1.2 = 500$; of second $= 600/0.8 = 750$.<br>Total CP = 1250, SP = 1200.<br>Loss = ₹50, which is 4% of 1250 ✓.</p>
+      <p><b>Solution:</b><br>Net loss % $$\\begin{aligned}  &= (20/10)^2 \\\\ &= 4\\% \\end{aligned}$$.<br>CP of first $$\\begin{aligned}  &= 600/1.2 \\\\ &= 500 \\end{aligned}$$; of second $$\\begin{aligned}  &= 600/0.8 \\\\ &= 750 \\end{aligned}$$.<br>Total CP = 1250, SP = 1200.<br>Loss = ₹50, which is 4% of 1250 ✓.</p>
 
       <h4>Example 5: False Weight</h4>
       <p>Dealer claims to sell at CP but uses 800 g for 1 kg. Gain %?</p>
@@ -1279,7 +1279,7 @@
 
       <h4>Example 7</h4>
       <p>Bought 12 oranges for ₹10 and sold 10 for ₹12. Profit %?</p>
-      <p><b>Solution:</b><br>CP per orange = $10/12 = 5/6$.<br>SP per orange = $12/10 = 6/5$.<br>Profit per orange = $6/5 - 5/6 = 11/30$.<br>Profit % = $\\frac{11/30}{5/6} \\times 100 = \\frac{11 \\cdot 6}{30 \\cdot 5} \\times 100 = \\frac{66}{15}\\% \\cdot \\frac{100}{1}$...<br>Let me redo: $\\frac{11/30}{5/6} = \\frac{11}{30} \\cdot \\frac{6}{5} = \\frac{66}{150} = \\frac{11}{25}$.<br>So profit % = $44\\%$.</p>
+      <p><b>Solution:</b><br>CP per orange = $10/12 = 5/6$.<br>SP per orange = $12/10 = 6/5$.<br>Profit per orange = $6/5 - 5/6 = 11/30$.<br>Profit % = $$\\begin{aligned} \\frac{11/30}{5/6} \\times 100 &= \\frac{11 \\cdot 6}{30 \\cdot 5} \\times 100 \\\\ &= \\frac{66}{15}\\% \\cdot \\frac{100}{1} \\end{aligned}$$...<br>Let me redo: $$\\begin{aligned} \\frac{11/30}{5/6} &= \\frac{11}{30} \\cdot \\frac{6}{5} \\\\ &= \\frac{66}{150} \\\\ &= \\frac{11}{25} \\end{aligned}$$.<br>So profit % = $44\\%$.</p>
 
       <h4>Example 8</h4>
       <p>If CP of 15 articles = SP of 12, profit %?</p>
@@ -1287,7 +1287,7 @@
 
       <h4>Example 9</h4>
       <p>SP is doubled, profit % triples. Original profit %?</p>
-      <p><b>Solution:</b><br>Let CP=100, profit %=$p$.<br>SP=$100+p$.<br>New SP=$2(100+p)$; new profit=$2(100+p)-100=100+2p$; this = $3p\\%$ of 100 = $3p$.<br>So $100+2p = 3p \\Rightarrow p = $ <b>100%</b>.</p>
+      <p><b>Solution:</b><br>Let CP=100, profit %=$p$.<br>SP=$100+p$.<br>New SP=$2(100+p)$; new profit=$2(100+p)-100=100+2p$; this = $3p\\%$ of 100 = $3p$.<br>So $$\\begin{aligned} 100+2p &= 3p \\Rightarrow p \\\\ &=  \\end{aligned}$$ <b>100%</b>.</p>
 
       <h4>Example 10</h4>
       <p>If SP of 10 books is equal to CP of 12, find profit %.</p>
@@ -1303,11 +1303,11 @@
 
       <h4>Example 13</h4>
       <p>If on selling 7 articles for ₹140 there's a profit equal to CP of 3 articles, find CP per article.</p>
-      <p><b>Solution:</b><br>Let CP per = $x$.<br>$140 - 7x = 3x \\Rightarrow x = $ <b>₹14</b>.</p>
+      <p><b>Solution:</b><br>Let CP per = $x$.<br>$$\\begin{aligned} 140 - 7x &= 3x \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>₹14</b>.</p>
 
       <h4>Example 14</h4>
       <p>If profit % = loss % when SP changes from A to B, find original CP.</p>
-      <p><b>Solution:</b> $A - CP = CP - B \\Rightarrow CP = (A+B)/2$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} A - CP &= CP - B \\Rightarrow CP \\\\ &= (A+B)/2 \\end{aligned}$$.</p>
 
       <h4>Example 15</h4>
       <p>A merchant marks goods 40% above CP and gives 20% discount. Find profit %.</p>
@@ -1323,7 +1323,7 @@
 
       <h4>Example 18: Two-Article Trade</h4>
       <p>If shop sold cycle at 20% loss and got 96, what was CP? If sold at 20% profit, SP would be?</p>
-      <p><b>Solution:</b><br>$CP = 96/0.8 = 120$.<br>SP at 20% profit = $120 \times 1.2 = $ <b>₹144</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} CP &= 96/0.8 \\\\ &= 120 \\end{aligned}$$.<br>SP at 20% profit = $120 \times 1.2 = $ <b>₹144</b>.</p>
 
       <h4>Example 19: Dishonest Dealer (False Weight)</h4>
       <p>A dealer uses 850g instead of 1000g and sells at CP. % gain?</p>
@@ -1346,14 +1346,14 @@
     `,
     mcq: [
       { q: "CP=₹500, SP=₹600. Profit %?", opts: ["10%", "15%", "20%", "25%"], a: 2, ex: "$100/500 \\times 100 = 20\\%$." },
-      { q: "SP=₹240, loss 20%. CP?", opts: ["₹280", "₹300", "₹320", "₹360"], a: 1, ex: "$CP = 240/0.8 = 300$." },
+      { q: "SP=₹240, loss 20%. CP?", opts: ["₹280", "₹300", "₹320", "₹360"], a: 1, ex: "$$\\begin{aligned} CP &= 240/0.8 \\\\ &= 300 \\end{aligned}$$." },
       { q: "Same SP, 25% profit & 25% loss. Net?", opts: ["0%", "6.25% loss", "6.25% gain", "12.5% loss"], a: 1, ex: "$(25/10)^2 = 6.25\\%$ loss." },
-      { q: "If CP of 20 articles = SP of 16, profit %?", opts: ["20%", "25%", "30%", "40%"], a: 1, ex: "$20/16 - 1 = 1/4 = 25\\%$." },
+      { q: "If CP of 20 articles = SP of 16, profit %?", opts: ["20%", "25%", "30%", "40%"], a: 1, ex: "$$\\begin{aligned} 20/16 - 1 &= 1/4 \\\\ &= 25\\% \\end{aligned}$$." },
       { q: "Dealer uses 900g for 1kg, sells at CP. Gain %?", opts: ["10%", "11.11%", "12.5%", "9.09%"], a: 1, ex: "$100/900 \\times 100 = 11.11\\%$." },
       { q: "Marked 40% above CP, gives 10% discount. Profit %?", opts: ["26%", "30%", "32%", "36%"], a: 0, ex: "$40-10-4 = 26\\%$." },
       { q: "Profit is 1/4 of CP. Profit %?", opts: ["20%", "25%", "30%", "33%"], a: 1, ex: "Profit = CP/4 = 25% of CP." },
       { q: "If profit equals 20% of SP, then profit % on CP?", opts: ["20%", "25%", "30%", "33%"], a: 1, ex: "Let SP=100, profit=20, CP=80. % on CP = 25%." },
-      { q: "SP=₹920 gives 15% profit. Find CP.", opts: ["₹780", "₹800", "₹820", "₹850"], a: 1, ex: "$CP=920/1.15=800$." },
+      { q: "SP=₹920 gives 15% profit. Find CP.", opts: ["₹780", "₹800", "₹820", "₹850"], a: 1, ex: "$$\\begin{aligned} CP &= 920/1.15 \\\\ &= 800 \\end{aligned}$$." },
       { q: "Bought 16 toys ₹240, sold all ₹300. Profit per toy?", opts: ["₹2.5", "₹3", "₹3.75", "₹5"], a: 2, ex: "Profit = 60. Per toy = 60/16 = 3.75." },
       { q: "Two same SP, 30% profit and 30% loss. Net loss %?", opts: ["6%", "9%", "12%", "15%"], a: 1, ex: "$(30/10)^2 = 9\\%$." },
       { q: "If a man gains 10% by selling at ₹220, SP for 20% gain?", opts: ["₹240", "₹250", "₹260", "₹280"], a: 0, ex: "CP=200; new SP=240." },
@@ -1405,7 +1405,7 @@
 
       <h4>Example 2</h4>
       <p>SP=₹680 after 15% discount. MP?</p>
-      <p><b>Solution:</b> $MP = 680/0.85 = $ <b>₹800</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} MP &= 680/0.85 \\\\ &=  \\end{aligned}$$ <b>₹800</b>.</p>
 
       <h4>Example 3</h4>
       <p>Two successive discounts of 10% and 20%. Equivalent single?</p>
@@ -1413,11 +1413,11 @@
 
       <h4>Example 4</h4>
       <p>Three successive discounts 10%, 15%, 20%. Equivalent?</p>
-      <p><b>Solution:</b> $1 - 0.9 \\cdot 0.85 \\cdot 0.8 = 1 - 0.612 = 0.388$ = <b>38.8%</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1 - 0.9 \\cdot 0.85 \\cdot 0.8 &= 1 - 0.612 \\\\ &= 0.388 \\end{aligned}$$ = <b>38.8%</b>.</p>
 
       <h4>Example 5</h4>
       <p>MP = ₹2000, two successive discounts 25% and 10%. SP?</p>
-      <p><b>Solution:</b> $2000 \\times 0.75 \\times 0.9 = 2000 \\times 0.675 = $ <b>₹1350</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 2000 \\times 0.75 \\times 0.9 &= 2000 \\times 0.675 \\\\ &=  \\end{aligned}$$ <b>₹1350</b>.</p>
 
       <h4>Example 6</h4>
       <p>A shopkeeper marks goods 50% above CP and gives 20% discount. Profit %?</p>
@@ -1433,15 +1433,15 @@
 
       <h4>Example 9</h4>
       <p>If after discount of 20% an article is sold for ₹480, find MP.</p>
-      <p><b>Solution:</b> $MP \\times 0.8 = 480 \\Rightarrow MP = $ <b>₹600</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} MP \\times 0.8 &= 480 \\Rightarrow MP \\\\ &=  \\end{aligned}$$ <b>₹600</b>.</p>
 
       <h4>Example 10</h4>
       <p>Single discount equivalent to 30%, 20%, 10% in succession?</p>
-      <p><b>Solution:</b> $1 - 0.7 \\cdot 0.8 \\cdot 0.9 = 1 - 0.504 = $ <b>49.6%</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1 - 0.7 \\cdot 0.8 \\cdot 0.9 &= 1 - 0.504 \\\\ &=  \\end{aligned}$$ <b>49.6%</b>.</p>
 
       <h4>Example 11</h4>
       <p>MP is 25% above CP. After 20% discount, profit/loss %?</p>
-      <p><b>Solution:</b> SP = $125 \\times 0.8 = 100 = $ CP. <b>No profit, no loss</b>.</p>
+      <p><b>Solution:</b> SP = $$\\begin{aligned} 125 \\times 0.8 &= 100 \\\\ &=  \\end{aligned}$$ CP. <b>No profit, no loss</b>.</p>
 
       <h4>Example 12</h4>
       <p>Find the SP if MP = ₹300 with 2 discounts of 10% each.</p>
@@ -1461,7 +1461,7 @@
 
       <h4>Example 16: Three Successive</h4>
       <p>Single discount equivalent to 10%, 20%, 25%?</p>
-      <p><b>Solution:</b> $1 - 0.9 \cdot 0.8 \cdot 0.75 = 1 - 0.54 = 46\%$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1 - 0.9 \cdot 0.8 \cdot 0.75 &= 1 - 0.54 \\\\ &= 46\% \\end{aligned}$$.</p>
 
       <h4>Example 17: Buy-N-Get-M-Free Equivalent</h4>
       <p>"Buy 5 get 1 free" — what % discount?</p>
@@ -1482,26 +1482,26 @@
       { q: "MP=₹400, discount 15%. SP?", opts: ["₹340", "₹360", "₹350", "₹370"], a: 0, ex: "$400 \\times 0.85 = 340$." },
       { q: "Single discount equivalent to successive 20% and 10%?", opts: ["30%", "28%", "25%", "32%"], a: 1, ex: "$20+10-2=28\\%$." },
       { q: "Marked 60% above CP, discount 25%. Profit %?", opts: ["20%", "25%", "30%", "32%"], a: 0, ex: "CP=100, MP=160, SP=120. Profit=20%." },
-      { q: "Three successive discounts 10%, 20%, 30%. Equivalent?", opts: ["49.6%", "60%", "45%", "55.6%"], a: 0, ex: "$1-0.9 \\cdot 0.8 \\cdot 0.7 = 1-0.504=0.496$." },
+      { q: "Three successive discounts 10%, 20%, 30%. Equivalent?", opts: ["49.6%", "60%", "45%", "55.6%"], a: 0, ex: "$$\\begin{aligned} 1-0.9 \\cdot 0.8 \\cdot 0.7 &= 1-0.504 \\\\ &= 0.496 \\end{aligned}$$." },
       { q: "MP=₹2500, after 2 discounts of 10% each, SP?", opts: ["₹2000", "₹2025", "₹2050", "₹2100"], a: 1, ex: "$2500 \\cdot 0.9 \\cdot 0.9 = 2025$." },
       { q: "After 20% discount, SP=₹240. MP?", opts: ["₹260", "₹280", "₹300", "₹320"], a: 2, ex: "$240/0.8 = 300$." },
       { q: "'Buy 4 get 1 free' equates to what % discount?", opts: ["20%", "25%", "30%", "33.33%"], a: 0, ex: "Pay 4, get 5. Discount = 1/5 = 20%." },
       { q: "Discount 20% + profit 20%. MP is what % above CP?", opts: ["40%", "50%", "60%", "44%"], a: 1, ex: "Let CP=100, SP=120. MP × 0.8 = 120 → MP=150. 50% above." },
       { q: "Marked 25% above CP, discount 20%. Profit/loss?", opts: ["0%", "5% profit", "5% loss", "10% profit"], a: 0, ex: "CP=100, MP=125, SP=100. Break-even." },
       { q: "After 10% then 5% discount on ₹500. SP?", opts: ["₹420", "₹427.50", "₹430", "₹450"], a: 1, ex: "$500 \\cdot 0.9 \\cdot 0.95 = 427.5$." },
-      { q: "Successive discount 12% and 8% equivalent to single?", opts: ["18.96%", "20%", "19.04%", "19%"], a: 0, ex: "$12+8-12 \\cdot 8/100=20-0.96=19.04$. Hmm option C. Let me recheck: 12+8-0.96=19.04." },
+      { q: "Successive discount 12% and 8% equivalent to single?", opts: ["18.96%", "20%", "19.04%", "19%"], a: 0, ex: "$$\\begin{aligned} 12+8-12 \\cdot 8/100 &= 20-0.96 \\\\ &= 19.04 \\end{aligned}$$. Hmm option C. Let me recheck: 12+8-0.96=19.04." },
       { q: "If marked above CP by 60% and discount 25%, profit %?", opts: ["15%", "20%", "25%", "30%"], a: 1, ex: "$60-25-15=20\\%$." },
       { q: "Discount on Rs 200 article is Rs 30. Discount %?", opts: ["10%", "12%", "15%", "18%"], a: 2, ex: "$30/200=15\\%$." },
       { q: "Single discount equal to 2 successive discounts of x%?", opts: ["$2x - x^2/100$", "$2x + x^2/100$", "$x - x^2/100$", "$2x$"], a: 0, ex: "$x+x-x^2/100=2x-x^2/100$." },
       { q: "MP=₹1500, single 30% discount or 2 successive 15%+15%?", opts: ["Single more", "Successive more", "Same", "Cannot say"], a: 0, ex: "Successive: $15+15-2.25=27.75\\%$. Single 30% more. Buyer prefers single." },
-      { q: "If $MP - SP = 60$ and discount = 12%, MP?", opts: ["₹400", "₹500", "₹600", "₹720"], a: 1, ex: "$0.12 MP = 60 \\Rightarrow MP = 500$." },
+      { q: "If $MP - SP = 60$ and discount = 12%, MP?", opts: ["₹400", "₹500", "₹600", "₹720"], a: 1, ex: "$$\\begin{aligned} 0.12 MP &= 60 \\Rightarrow MP \\\\ &= 500 \\end{aligned}$$." },
       { q: "Trader marks 80% above CP, gives 25% discount, profit?", opts: ["30%", "35%", "40%", "45%"], a: 1, ex: "CP=100, MP=180, SP=180×0.75=135. Profit=35%." },
       { q: "By offering 15% discount, profit is still 27.5%. Original mark-up?", opts: ["40%", "50%", "55%", "60%"], a: 1, ex: "Let CP=100, SP=127.5. MP×0.85=127.5 → MP=150. Mark-up=50%." },
       { q: "An item is sold at ₹600 after 25% discount. CP if there's 20% profit?", opts: ["₹400", "₹450", "₹500", "₹550"], a: 2, ex: "SP=600, CP=600/1.2=500." },
       { q: "If after 3 successive discounts of 10%, 15%, 20%, the SP is ₹612. MP?", opts: ["₹900", "₹1000", "₹1100", "₹1200"], a: 1, ex: "Factor = 0.9 × 0.85 × 0.8 = 0.612. MP = 612/0.612 = 1000." },
       { q: "Profit % if MP = 2.5 × CP and discount = 40%?", opts: ["40%", "50%", "60%", "75%"], a: 1, ex: "SP = 2.5CP × 0.6 = 1.5CP. Profit = 50%." },
-      { q: "After 25% discount, an article is sold at Rs 450. What is the MP?", opts: ["₹500", "₹600", "₹650", "₹700"], a: 1, ex: "$MP = 450/0.75 = 600$." },
-      { q: "Marked 40% above CP, after discount D% sells at profit 12%. Find D.", opts: ["18%", "20%", "22%", "25%"], a: 1, ex: "$40-D-0.4D=12 \\Rightarrow 28=1.4D \\Rightarrow D=20\\%$. Or use SP=112=140(1-D/100); D=20%." },
+      { q: "After 25% discount, an article is sold at Rs 450. What is the MP?", opts: ["₹500", "₹600", "₹650", "₹700"], a: 1, ex: "$$\\begin{aligned} MP &= 450/0.75 \\\\ &= 600 \\end{aligned}$$." },
+      { q: "Marked 40% above CP, after discount D% sells at profit 12%. Find D.", opts: ["18%", "20%", "22%", "25%"], a: 1, ex: "$$\\begin{aligned} 40-D-0.4D &= 12 \\Rightarrow 28 \\\\ &= 1.4D \\Rightarrow D \\\\ &= 20\\% \\end{aligned}$$. Or use SP=112=140(1-D/100); D=20%." },
       { q: "'Buy 5 pay 4' offer equates to discount of?", opts: ["20%", "25%", "30%", "33.33%"], a: 0, ex: "1 free out of 5 = 20%." },
       { q: "Single discount that = successive 10, 20, 30?", opts: ["49.6%", "60%", "55%", "50%"], a: 0, ex: "$1-0.9 \\cdot 0.8 \\cdot 0.7=0.496$." }
     ]
@@ -1564,11 +1564,11 @@
 
       <h4>Example 5: Harmonic Mean Speed</h4>
       <p>A man travels from A to B at 30 km/h and B to A at 60 km/h. Average speed?</p>
-      <p><b>Solution:</b> $\\frac{2 \\cdot 30 \\cdot 60}{30 + 60} = \\frac{3600}{90} = $ <b>40 km/h</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{2 \\cdot 30 \\cdot 60}{30 + 60} &= \\frac{3600}{90} \\\\ &=  \\end{aligned}$$ <b>40 km/h</b>.</p>
 
       <h4>Example 6</h4>
       <p>Average of 11 results is 50. Average of first 6 is 49 and last 6 is 52. Find 6th result.</p>
-      <p><b>Solution:</b><br>Sum first 6 + Sum last 6 = $11 \\times 50 + $ 6th (counted twice).<br>$6 \\times 49 + 6 \\times 52 = 11 \\times 50 + x \\Rightarrow 294 + 312 = 550 + x \\Rightarrow x = $ <b>56</b>.</p>
+      <p><b>Solution:</b><br>Sum first 6 + Sum last 6 = $11 \\times 50 + $ 6th (counted twice).<br>$$\\begin{aligned} 6 \\times 49 + 6 \\times 52 &= 11 \\times 50 + x \\Rightarrow 294 + 312 \\\\ &= 550 + x \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>56</b>.</p>
 
       <h4>Example 7</h4>
       <p>Average age of 30 students = 15 yrs. If teacher's age added, average becomes 16 yrs. Teacher's age?</p>
@@ -1596,11 +1596,11 @@
 
       <h4>Example 13</h4>
       <p>Two groups: 30 students avg 60 marks; 40 students avg 55. Combined average?</p>
-      <p><b>Solution:</b> $\\frac{30 \\cdot 60 + 40 \\cdot 55}{70} = \\frac{1800+2200}{70} = \\frac{4000}{70} = $ <b>57.14</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{30 \\cdot 60 + 40 \\cdot 55}{70} &= \\frac{1800+2200}{70} \\\\ &= \\frac{4000}{70} \\\\ &=  \\end{aligned}$$ <b>57.14</b>.</p>
 
       <h4>Example 14</h4>
       <p>Average of 25 results is 50. Average of first 12 is 14 and last 12 is 17. Find 13th.</p>
-      <p><b>Solution:</b><br>Total = $25 \\times 50 = 1250$.<br>First 12 + Last 12 = $12 \\times 14 + 12 \\times 17 = 168 + 204 = 372$.<br>13th = $1250 - 372 = $ <b>878</b>. (Big number suggests it's a SSC trap — recheck if averages given seem off.)</p>
+      <p><b>Solution:</b><br>Total = $25 \\times 50 = 1250$.<br>First 12 + Last 12 = $$\\begin{aligned} 12 \\times 14 + 12 \\times 17 &= 168 + 204 \\\\ &= 372 \\end{aligned}$$.<br>13th = $1250 - 372 = $ <b>878</b>. (Big number suggests it's a SSC trap — recheck if averages given seem off.)</p>
 
       <h4>Example 15</h4>
       <p>The average age of a husband and wife was 27 years when they were married 5 years ago. Now they have a 1-year-old child. What's the average age now?</p>
@@ -1612,11 +1612,11 @@
 
       <h4>Example 17: Speed: 3 Equal-Distance Sections</h4>
       <p>If a car covers 3 equal sections at 30, 40, 60 km/h, avg speed?</p>
-      <p><b>Solution:</b> $\bar{s} = 3/(1/30+1/40+1/60) = 3 \cdot 120/9 = 40$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \bar{s} &= 3/(1/30+1/40+1/60) \\\\ &= 3 \cdot 120/9 \\\\ &= 40 \\end{aligned}$$.</p>
 
       <h4>Example 18: Mean Income</h4>
       <p>Avg salary of 20 employees = ₹40,000. Owner's salary included makes avg ₹45,000. Owner's salary?</p>
-      <p><b>Solution:</b> $21 \cdot 45000 - 20 \cdot 40000 = 945000 - 800000 = $ <b>₹1,45,000</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 21 \cdot 45000 - 20 \cdot 40000 &= 945000 - 800000 \\\\ &=  \\end{aligned}$$ <b>₹1,45,000</b>.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1626,28 +1626,28 @@
       </ul>
     `,
     mcq: [
-      { q: "Average of 4, 8, 12, 16?", opts: ["8", "10", "12", "14"], a: 1, ex: "$(4+8+12+16)/4=40/4=10$." },
+      { q: "Average of 4, 8, 12, 16?", opts: ["8", "10", "12", "14"], a: 1, ex: "$$\\begin{aligned} (4+8+12+16)/4 &= 40/4 \\\\ &= 10 \\end{aligned}$$." },
       { q: "Average of first 20 natural numbers?", opts: ["10", "10.5", "11", "20"], a: 1, ex: "$(20+1)/2=10.5$." },
-      { q: "5 numbers average 30. 6th added makes avg 32. 6th?", opts: ["38", "40", "42", "45"], a: 2, ex: "$6 \\cdot 32 - 5 \\cdot 30 = 192-150=42$." },
-      { q: "Avg of 10 numbers is 50. If 30 is removed, new avg?", opts: ["50", "52", "52.22", "55"], a: 2, ex: "$(500-30)/9=470/9=52.22$." },
+      { q: "5 numbers average 30. 6th added makes avg 32. 6th?", opts: ["38", "40", "42", "45"], a: 2, ex: "$$\\begin{aligned} 6 \\cdot 32 - 5 \\cdot 30 &= 192-150 \\\\ &= 42 \\end{aligned}$$." },
+      { q: "Avg of 10 numbers is 50. If 30 is removed, new avg?", opts: ["50", "52", "52.22", "55"], a: 2, ex: "$$\\begin{aligned} (500-30)/9 &= 470/9 \\\\ &= 52.22 \\end{aligned}$$." },
       { q: "Avg speed: 40 km/h going, 60 km/h returning. Avg speed?", opts: ["50", "48", "45", "55"], a: 1, ex: "$\\frac{2 \\cdot 40 \\cdot 60}{100}=48$." },
-      { q: "Avg of 8 nums = 14. Adding 9th makes avg 15. 9th?", opts: ["20", "21", "22", "23"], a: 3, ex: "$9 \\cdot 15-8 \\cdot 14=135-112=23$." },
+      { q: "Avg of 8 nums = 14. Adding 9th makes avg 15. 9th?", opts: ["20", "21", "22", "23"], a: 3, ex: "$$\\begin{aligned} 9 \\cdot 15-8 \\cdot 14 &= 135-112 \\\\ &= 23 \\end{aligned}$$." },
       { q: "Average of first 5 even numbers?", opts: ["5", "6", "7", "8"], a: 1, ex: "Even: 2,4,6,8,10. Avg = 6. Or formula: n+1=6." },
       { q: "Average of squares of first 5 natural numbers?", opts: ["11", "12", "13", "15"], a: 0, ex: "$\\frac{(5+1)(11)}{6}=11$. Or 1+4+9+16+25=55/5=11." },
-      { q: "Average age of 20 students is 12. Teacher added makes 13. Teacher's age?", opts: ["30", "32", "33", "35"], a: 2, ex: "$21 \\cdot 13 - 20 \\cdot 12 = 273-240=33$." },
-      { q: "30 boys avg weight 50 kg, 20 girls avg 40 kg. Combined avg?", opts: ["44", "45", "46", "48"], a: 2, ex: "$\\frac{30 \\cdot 50+20 \\cdot 40}{50}=\\frac{2300}{50}=46$." },
-      { q: "Average of 7 numbers is 30. Removing one, avg drops to 28. Removed?", opts: ["35", "40", "42", "45"], a: 2, ex: "$7 \\cdot 30 - 6 \\cdot 28 = 210-168=42$." },
+      { q: "Average age of 20 students is 12. Teacher added makes 13. Teacher's age?", opts: ["30", "32", "33", "35"], a: 2, ex: "$$\\begin{aligned} 21 \\cdot 13 - 20 \\cdot 12 &= 273-240 \\\\ &= 33 \\end{aligned}$$." },
+      { q: "30 boys avg weight 50 kg, 20 girls avg 40 kg. Combined avg?", opts: ["44", "45", "46", "48"], a: 2, ex: "$$\\begin{aligned} \\frac{30 \\cdot 50+20 \\cdot 40}{50} &= \\frac{2300}{50} \\\\ &= 46 \\end{aligned}$$." },
+      { q: "Average of 7 numbers is 30. Removing one, avg drops to 28. Removed?", opts: ["35", "40", "42", "45"], a: 2, ex: "$$\\begin{aligned} 7 \\cdot 30 - 6 \\cdot 28 &= 210-168 \\\\ &= 42 \\end{aligned}$$." },
       { q: "10 numbers avg 40. Adding 0 to set, new avg?", opts: ["36", "36.36", "40", "44"], a: 1, ex: "$(400+0)/11=36.36$." },
       { q: "Avg of 12 numbers is 9. If all numbers increased by 8, new avg?", opts: ["9", "17", "11", "12"], a: 1, ex: "Each +8 → avg+8 = 17." },
       { q: "Sum of 3 consecutive odd numbers = 27. The numbers?", opts: ["7,9,11", "9,11,13", "5,9,13", "11,13,15"], a: 0, ex: "Middle = 9. So 7, 9, 11." },
       { q: "If avg of 4 nums is 28 and three are 28, 32, 22, find fourth.", opts: ["28", "30", "32", "34"], a: 1, ex: "Sum=112. Fourth=112-82=30." },
-      { q: "Avg of 25 results is 18. Avg of first 12 is 14 and last 12 is 17. 13th?", opts: ["33", "78", "70", "30"], a: 1, ex: "$25 \\cdot 18 - (12 \\cdot 14 + 12 \\cdot 17) = 450 - 372 = 78$." },
-      { q: "Avg of 50 numbers is 30. Two added avg 45. New avg of all 52?", opts: ["30.4", "30.5", "30.58", "31"], a: 2, ex: "$\\frac{50 \\cdot 30 + 2 \\cdot 45}{52}=\\frac{1590}{52}=30.58$." },
-      { q: "Avg age of 6 family members is 25. Including their dog avg = 23. Age of dog?", opts: ["11", "12", "13", "14"], a: 0, ex: "$7 \\cdot 23 - 6 \\cdot 25 = 161-150=11$." },
+      { q: "Avg of 25 results is 18. Avg of first 12 is 14 and last 12 is 17. 13th?", opts: ["33", "78", "70", "30"], a: 1, ex: "$$\\begin{aligned} 25 \\cdot 18 - (12 \\cdot 14 + 12 \\cdot 17) &= 450 - 372 \\\\ &= 78 \\end{aligned}$$." },
+      { q: "Avg of 50 numbers is 30. Two added avg 45. New avg of all 52?", opts: ["30.4", "30.5", "30.58", "31"], a: 2, ex: "$$\\begin{aligned} \\frac{50 \\cdot 30 + 2 \\cdot 45}{52} &= \\frac{1590}{52} \\\\ &= 30.58 \\end{aligned}$$." },
+      { q: "Avg age of 6 family members is 25. Including their dog avg = 23. Age of dog?", opts: ["11", "12", "13", "14"], a: 0, ex: "$$\\begin{aligned} 7 \\cdot 23 - 6 \\cdot 25 &= 161-150 \\\\ &= 11 \\end{aligned}$$." },
       { q: "Avg marks of class 50 is 56. Two students scored 35 and 65 less. Drop in avg?", opts: ["1", "2", "1.5", "0.5"], a: 0, ex: "Total drop = 35+65 = 100? No wait: 'scored 35 less and 65 less' → total drop 100. Per-student drop = 100/50=2. Hmm — answer should be B. Skip ambiguity." },
-      { q: "Avg of 9 observations is 35. Avg of first 5 is 36 and last 5 is 34. 5th?", opts: ["35", "37", "33", "39"], a: 2, ex: "$(5 \\cdot 36 + 5 \\cdot 34) - 9 \\cdot 35 = 350 - 315 = 35$. Wait check: 180+170=350; 9 \\cdot 35=315. So 5th = 350-315 = 35. Answer A. Hmm but I marked C. Let me recheck: First 5 sum=180, last 5 sum=170. Both include 5th. Total = 180+170 = 350 = 9 numbers + 5th. So 5th = 350 - 315 = 35. Correct A." },
-      { q: "Avg of 13 results = 39. First 7 avg 38, last 7 avg 42. Find 7th.", opts: ["33", "40", "55", "60"], a: 0, ex: "$(7 \\cdot 38+7 \\cdot 42)-13 \\cdot 39=560-507=53$. Hmm, 53. None matches. Let me retry: 266+294=560; 13×39=507. 7th=53. Skip." },
-      { q: "Avg of 50 numbers = 38. If 2 numbers (45, 55) removed, new avg?", opts: ["37.5", "38", "36.25", "37.04"], a: 3, ex: "$(50 \\cdot 38-100)/48=(1900-100)/48=37.5$. Hmm option A. Let me recheck: $1900-100=1800; 1800/48=37.5$. Answer A." },
+      { q: "Avg of 9 observations is 35. Avg of first 5 is 36 and last 5 is 34. 5th?", opts: ["35", "37", "33", "39"], a: 2, ex: "$$\\begin{aligned} (5 \\cdot 36 + 5 \\cdot 34) - 9 \\cdot 35 &= 350 - 315 \\\\ &= 35 \\end{aligned}$$. Wait check: 180+170=350; 9 \\cdot 35=315. So 5th = 350-315 = 35. Answer A. Hmm but I marked C. Let me recheck: First 5 sum=180, last 5 sum=170. Both include 5th. Total = 180+170 = 350 = 9 numbers + 5th. So 5th = 350 - 315 = 35. Correct A." },
+      { q: "Avg of 13 results = 39. First 7 avg 38, last 7 avg 42. Find 7th.", opts: ["33", "40", "55", "60"], a: 0, ex: "$$\\begin{aligned} (7 \\cdot 38+7 \\cdot 42)-13 \\cdot 39 &= 560-507 \\\\ &= 53 \\end{aligned}$$. Hmm, 53. None matches. Let me retry: 266+294=560; 13×39=507. 7th=53. Skip." },
+      { q: "Avg of 50 numbers = 38. If 2 numbers (45, 55) removed, new avg?", opts: ["37.5", "38", "36.25", "37.04"], a: 3, ex: "$$\\begin{aligned} (50 \\cdot 38-100)/48 &= (1900-100)/48 \\\\ &= 37.5 \\end{aligned}$$. Hmm option A. Let me recheck: $$\\begin{aligned} 1900-100 &= 1800; 1800/48 \\\\ &= 37.5 \\end{aligned}$$. Answer A." },
       { q: "Average of first 50 natural numbers?", opts: ["25", "25.5", "26", "50.5"], a: 1, ex: "$(50+1)/2=25.5$." },
       { q: "Average of 5 consecutive natural numbers is 30. Largest?", opts: ["30", "31", "32", "34"], a: 2, ex: "Middle=30. Numbers 28,29,30,31,32. Largest=32." },
       { q: "A bus travels 1st half at 30 km/h, 2nd half at 60 km/h. Avg speed?", opts: ["40", "45", "50", "55"], a: 0, ex: "Harmonic mean: $2 \\cdot 30 \\cdot 60/90 = 40$." }
@@ -1685,19 +1685,19 @@
 
       <h4>Example 2</h4>
       <p>Ratio of A to B's age is 3:5. After 10 years, ratio becomes 2:3. Find present ages.</p>
-      <p><b>Solution:</b><br>Let ages be $3x, 5x$.<br>$\\frac{3x+10}{5x+10}=\\frac{2}{3} \\Rightarrow 9x+30 = 10x+20 \\Rightarrow x = 10$.<br>Ages: <b>30, 50</b>.</p>
+      <p><b>Solution:</b><br>Let ages be $3x, 5x$.<br>$$\\begin{aligned} \\frac{3x+10}{5x+10} &= \\frac{2}{3} \\Rightarrow 9x+30 \\\\ &= 10x+20 \\Rightarrow x \\\\ &= 10 \\end{aligned}$$.<br>Ages: <b>30, 50</b>.</p>
 
       <h4>Example 3</h4>
       <p>5 years ago father was 5 times son. After 5 years, father will be 3 times son. Present ages?</p>
-      <p><b>Solution:</b><br>Let now: father=$F$, son=$S$.<br>$F-5 = 5(S-5) \\Rightarrow F = 5S-20$.<br>$F+5 = 3(S+5) \\Rightarrow F = 3S+10$.<br>Equate: $5S-20=3S+10 \\Rightarrow S=15, F=55$.</p>
+      <p><b>Solution:</b><br>Let now: father=$F$, son=$S$.<br>$$\\begin{aligned} F-5 &= 5(S-5) \\Rightarrow F \\\\ &= 5S-20 \\end{aligned}$$.<br>$$\\begin{aligned} F+5 &= 3(S+5) \\Rightarrow F \\\\ &= 3S+10 \\end{aligned}$$.<br>Equate: $$\\begin{aligned} 5S-20 &= 3S+10 \\Rightarrow S \\\\ &= 15, F \\\\ &= 55 \\end{aligned}$$.</p>
 
       <h4>Example 4</h4>
       <p>Sum of present ages of mother and daughter is 60. 4 years ago, mother was 4 times daughter. Find daughter's present age.</p>
-      <p><b>Solution:</b><br>Let daughter=$d$.<br>Mother=$60-d$.<br>$(60-d-4)=4(d-4) \\Rightarrow 56-d=4d-16 \\Rightarrow 5d=72 \\Rightarrow d = $ <b>14.4 yrs</b>. (Adjust if integer answer expected.)</p>
+      <p><b>Solution:</b><br>Let daughter=$d$.<br>Mother=$60-d$.<br>$$\\begin{aligned} (60-d-4) &= 4(d-4) \\Rightarrow 56-d \\\\ &= 4d-16 \\Rightarrow 5d \\\\ &= 72 \\Rightarrow d \\\\ &=  \\end{aligned}$$ <b>14.4 yrs</b>. (Adjust if integer answer expected.)</p>
 
       <h4>Example 5</h4>
       <p>A is 12 years older than B. After 10 years, A's age will be twice B's age. Present ages?</p>
-      <p><b>Solution:</b><br>$A = B+12$.<br>$A+10 = 2(B+10) \\Rightarrow B+22 = 2B+20 \\Rightarrow B=2, A=14$.</p>
+      <p><b>Solution:</b><br>$A = B+12$.<br>$$\\begin{aligned} A+10 &= 2(B+10) \\Rightarrow B+22 \\\\ &= 2B+20 \\Rightarrow B \\\\ &= 2, A \\\\ &= 14 \\end{aligned}$$.</p>
 
       <h4>Example 6</h4>
       <p>Average age of 3 friends is 24 yrs. If 4th joins, avg becomes 26. Age of 4th?</p>
@@ -1705,81 +1705,81 @@
 
       <h4>Example 7</h4>
       <p>X is 3 years older than Y who is twice as old as Z. If sum of ages is 38, find Y's age.</p>
-      <p><b>Solution:</b><br>$X = Y+3, Y = 2Z$.<br>$X+Y+Z = 38 \\Rightarrow (Y+3)+Y+Y/2 = 38 \\Rightarrow 5Y/2 = 35 \\Rightarrow Y = $ <b>14</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} X &= Y+3, Y \\\\ &= 2Z \\end{aligned}$$.<br>$$\\begin{aligned} X+Y+Z &= 38 \\Rightarrow (Y+3)+Y+Y/2 \\\\ &= 38 \\Rightarrow 5Y/2 \\\\ &= 35 \\Rightarrow Y \\\\ &=  \\end{aligned}$$ <b>14</b>.</p>
 
       <h4>Example 8</h4>
       <p>10 years ago, age of mother was thrice son. Now sum of ages is 70. Find present ages.</p>
-      <p><b>Solution:</b><br>Let now $M, S$.<br>$M+S=70$.<br>$M-10 = 3(S-10) \\Rightarrow M = 3S-20$.<br>So $3S-20+S=70 \\Rightarrow 4S=90 \\Rightarrow S=22.5$.<br>M=47.5.</p>
+      <p><b>Solution:</b><br>Let now $M, S$.<br>$M+S=70$.<br>$$\\begin{aligned} M-10 &= 3(S-10) \\Rightarrow M \\\\ &= 3S-20 \\end{aligned}$$.<br>So $$\\begin{aligned} 3S-20+S &= 70 \\Rightarrow 4S \\\\ &= 90 \\Rightarrow S \\\\ &= 22.5 \\end{aligned}$$.<br>M=47.5.</p>
 
       <h4>Example 9</h4>
       <p>A is twice as old as B was when A was as old as B is now. If sum of present ages is 63, find A.</p>
-      <p><b>Solution:</b><br>Let A=$a$, B=$b$.<br>A was $b$ years old (so $a-b$ years ago); at that time B was $b-(a-b) = 2b-a$.<br>So $a = 2(2b-a) \\Rightarrow 3a = 4b$.<br>With $a+b=63$: $a/b=4/3$, so $a = 4k, b = 3k, 7k=63, k=9$.<br>So $a = $ <b>36</b>.</p>
+      <p><b>Solution:</b><br>Let A=$a$, B=$b$.<br>A was $b$ years old (so $a-b$ years ago); at that time B was $b-(a-b) = 2b-a$.<br>So $$\\begin{aligned} a &= 2(2b-a) \\Rightarrow 3a \\\\ &= 4b \\end{aligned}$$.<br>With $a+b=63$: $a/b=4/3$, so $$\\begin{aligned} a &= 4k, b \\\\ &= 3k, 7k \\\\ &= 63, k \\\\ &= 9 \\end{aligned}$$.<br>So $a = $ <b>36</b>.</p>
 
       <h4>Example 10</h4>
       <p>If father's age is 4 times son's now, and 5 years ago father was 7 times son, present ages?</p>
-      <p><b>Solution:</b><br>$F=4S$.<br>$4S-5 = 7(S-5) \\Rightarrow 4S-5 = 7S-35 \\Rightarrow 3S=30 \\Rightarrow S=10, F=40$.</p>
+      <p><b>Solution:</b><br>$F=4S$.<br>$$\\begin{aligned} 4S-5 &= 7(S-5) \\Rightarrow 4S-5 \\\\ &= 7S-35 \\Rightarrow 3S \\\\ &= 30 \\Rightarrow S \\\\ &= 10, F \\\\ &= 40 \\end{aligned}$$.</p>
 
       <h4>Example 11</h4>
       <p>Ratio of ages of A:B = 5:7. After 5 years, ratio becomes 3:4. Present age of B?</p>
-      <p><b>Solution:</b><br>$\\frac{5x+5}{7x+5}=\\frac{3}{4} \\Rightarrow 20x+20=21x+15 \\Rightarrow x=5$.<br>B = <b>35</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\frac{5x+5}{7x+5} &= \\frac{3}{4} \\Rightarrow 20x+20 \\\\ &= 21x+15 \\Rightarrow x \\\\ &= 5 \\end{aligned}$$.<br>B = <b>35</b>.</p>
 
       <h4>Example 12</h4>
       <p>A man's age is currently 5 times his son's. After 20 years, sum will be 80. Present ages?</p>
-      <p><b>Solution:</b><br>$M = 5S$.<br>$(M+20)+(S+20)=80 \\Rightarrow 5S+20+S+20=80 \\Rightarrow 6S=40 \\Rightarrow S=6.67$.<br>M=33.33.</p>
+      <p><b>Solution:</b><br>$M = 5S$.<br>$$\\begin{aligned} (M+20)+(S+20) &= 80 \\Rightarrow 5S+20+S+20 \\\\ &= 80 \\Rightarrow 6S \\\\ &= 40 \\Rightarrow S \\\\ &= 6.67 \\end{aligned}$$.<br>M=33.33.</p>
 
       <h4>Example 13</h4>
       <p>Difference of ages = 16. Son's age is $\\frac{2}{5}$ of father's. Find ages.</p>
-      <p><b>Solution:</b><br>$F-S=16, S=\\frac{2F}{5}$.<br>So $F - 2F/5 = 16 \\Rightarrow 3F/5=16 \\Rightarrow F = $ <b>26.67, S = 10.67</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} F-S &= 16, S \\\\ &= \\frac{2F}{5} \\end{aligned}$$.<br>So $$\\begin{aligned} F - 2F/5 &= 16 \\Rightarrow 3F/5 \\\\ &= 16 \\Rightarrow F \\\\ &=  \\end{aligned}$$ <b>26.67, S = 10.67</b>.</p>
 
       <h4>Example 14</h4>
       <p>Average age of class of 30 is 12 yrs. Teacher's age included makes it 13 yrs. Teacher's age?</p>
-      <p><b>Solution:</b> $(31 \\cdot 13 - 30 \\cdot 12)= 403 - 360 = $ <b>43</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (31 \\cdot 13 - 30 \\cdot 12) &= 403 - 360 \\\\ &=  \\end{aligned}$$ <b>43</b>.</p>
 
       <h4>Example 15</h4>
       <p>A's age 4 years ago was 5/6 of B's age. After 6 years, A's age will be 6/7 of B's. Present ages?</p>
-      <p><b>Solution:</b><br>$A-4 = \\frac{5}{6}(B-4)$ and $A+6 = \\frac{6}{7}(B+6)$.<br>From first: $6A-24=5B-20 \\Rightarrow 6A-5B=4$.<br>From second: $7A+42=6B+36 \\Rightarrow 7A-6B=-6$.<br>Solve: A=34, B=40.<br>Check: 34-4=30=5/6 × 36 ✓.<br>34+6=40=6/7 × 46.6 ✗.<br>Let me redo.<br>Better: leave as final exercise.</p>
+      <p><b>Solution:</b><br>$A-4 = \\frac{5}{6}(B-4)$ and $A+6 = \\frac{6}{7}(B+6)$.<br>From first: $$\\begin{aligned} 6A-24 &= 5B-20 \\Rightarrow 6A-5B \\\\ &= 4 \\end{aligned}$$.<br>From second: $$\\begin{aligned} 7A+42 &= 6B+36 \\Rightarrow 7A-6B \\\\ &= -6 \\end{aligned}$$.<br>Solve: A=34, B=40.<br>Check: 34-4=30=5/6 × 36 ✓.<br>34+6=40=6/7 × 46.6 ✗.<br>Let me redo.<br>Better: leave as final exercise.</p>
 
       <h4>Example 16: Same Person Age Compared</h4>
       <p>5 years ago, A's age was 1/3 of his father's. 5 years hence, A's age will be 1/2. A's present age?</p>
-      <p><b>Solution:</b><br>Let A=$a$, F=$f$.<br>$(a-5) = (f-5)/3 \Rightarrow 3a-15 = f-5 \Rightarrow f = 3a-10$.<br>$(a+5) = (f+5)/2 \Rightarrow 2a+10 = f+5 \Rightarrow f = 2a+5$.<br>Equate: $3a-10=2a+5 \Rightarrow a = 15$.</p>
+      <p><b>Solution:</b><br>Let A=$a$, F=$f$.<br>$$\\begin{aligned} (a-5) &= (f-5)/3 \Rightarrow 3a-15 \\\\ &= f-5 \Rightarrow f \\\\ &= 3a-10 \\end{aligned}$$.<br>$$\\begin{aligned} (a+5) &= (f+5)/2 \Rightarrow 2a+10 \\\\ &= f+5 \Rightarrow f \\\\ &= 2a+5 \\end{aligned}$$.<br>Equate: $$\\begin{aligned} 3a-10 &= 2a+5 \Rightarrow a \\\\ &= 15 \\end{aligned}$$.</p>
 
       <h4>Example 17: Sum of Ages and Future Ratio</h4>
       <p>Sum of ages of A and B is 60. After 10 years, A:B = 7:5. Present ages?</p>
-      <p><b>Solution:</b><br>$\frac{a+10}{b+10}=7/5 \Rightarrow 5a+50 = 7b+70 \Rightarrow 5a-7b=20$.<br>With $a+b=60$: solve.<br>$a=35, b=25$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \frac{a+10}{b+10} &= 7/5 \Rightarrow 5a+50 \\\\ &= 7b+70 \Rightarrow 5a-7b \\\\ &= 20 \\end{aligned}$$.<br>With $a+b=60$: solve.<br>$$\\begin{aligned} a &= 35, b \\\\ &= 25 \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>"$n$ years ago" — subtract; "$n$ years hence" — add. Don't mix up.</li>
         <li>Age difference is constant for life. Use it as a sanity check.</li>
-        <li>Read ratio carefully — "A to B = 3:5" means $A = 3k, B = 5k$.</li>
+        <li>Read ratio carefully — "A to B = 3:5" means $$\\begin{aligned} A &= 3k, B \\\\ &= 5k \\end{aligned}$$.</li>
       </ul>
     `,
     mcq: [
       { q: "A is 25, B is 15. Ratio of ages after 5 years?", opts: ["3:2", "5:3", "2:1", "4:3"], a: 0, ex: "30:20=3:2." },
-      { q: "Father 4 times son's age. After 10 years, 2 times. Present ages?", opts: ["20,5", "32,8", "40,10", "30,7.5"], a: 2, ex: "$F=4S; F+10=2(S+10) \\Rightarrow 4S+10=2S+20 \\Rightarrow S=5, F=20$. Hmm option A. Let me recheck: $S=5, F=20$. Yes A." },
+      { q: "Father 4 times son's age. After 10 years, 2 times. Present ages?", opts: ["20,5", "32,8", "40,10", "30,7.5"], a: 2, ex: "$$\\begin{aligned} F &= 4S; F+10 \\\\ &= 2(S+10) \\Rightarrow 4S+10 \\\\ &= 2S+20 \\Rightarrow S \\\\ &= 5, F \\\\ &= 20 \\end{aligned}$$. Hmm option A. Let me recheck: $$\\begin{aligned} S &= 5, F \\\\ &= 20 \\end{aligned}$$. Yes A." },
       { q: "Avg age of family of 5 is 28. 5 years ago avg?", opts: ["23", "24", "25", "26"], a: 0, ex: "Each was 5 yrs younger. $28-5=23$." },
-      { q: "Difference of ages of two friends = 20 years. 5 years ago elder was 5 times younger. Younger's present?", opts: ["10", "5", "15", "20"], a: 0, ex: "Let $Y$ now. Older = $Y+20$. $Y+20-5=5(Y-5) \\Rightarrow Y+15=5Y-25 \\Rightarrow 4Y=40 \\Rightarrow Y=10$." },
-      { q: "Ratio A:B = 4:5. After 8 yrs, 5:6. Present ages?", opts: ["32,40", "40,50", "16,20", "24,30"], a: 0, ex: "$\\frac{4x+8}{5x+8}=5/6 \\Rightarrow 24x+48=25x+40 \\Rightarrow x=8$. A=32, B=40." },
-      { q: "Sum of present ages of father and son is 50. 5 yrs ago father was 7 times son. Find son's age.", opts: ["5", "10", "15", "20"], a: 1, ex: "$F+S=50; F-5=7(S-5) \\Rightarrow F=7S-30$. $7S-30+S=50 \\Rightarrow 8S=80, S=10$." },
-      { q: "Average of family of 5 is 30. Including baby, avg = 25. Baby's age?", opts: ["0", "1", "2", "5"], a: 0, ex: "$6 \\cdot 25 - 5 \\cdot 30 = 150-150 = 0$." },
-      { q: "If A is 4 yrs older than B and 4 yrs younger than C, average of their ages is 24. Find C.", opts: ["24", "26", "28", "32"], a: 2, ex: "Let B=$x$, A=$x+4$, C=$x+8$. Sum=$3x+12=72, x=20$. C=28." },
+      { q: "Difference of ages of two friends = 20 years. 5 years ago elder was 5 times younger. Younger's present?", opts: ["10", "5", "15", "20"], a: 0, ex: "Let $Y$ now. Older = $Y+20$. $$\\begin{aligned} Y+20-5 &= 5(Y-5) \\Rightarrow Y+15 \\\\ &= 5Y-25 \\Rightarrow 4Y \\\\ &= 40 \\Rightarrow Y \\\\ &= 10 \\end{aligned}$$." },
+      { q: "Ratio A:B = 4:5. After 8 yrs, 5:6. Present ages?", opts: ["32,40", "40,50", "16,20", "24,30"], a: 0, ex: "$$\\begin{aligned} \\frac{4x+8}{5x+8} &= 5/6 \\Rightarrow 24x+48 \\\\ &= 25x+40 \\Rightarrow x \\\\ &= 8 \\end{aligned}$$. A=32, B=40." },
+      { q: "Sum of present ages of father and son is 50. 5 yrs ago father was 7 times son. Find son's age.", opts: ["5", "10", "15", "20"], a: 1, ex: "$$\\begin{aligned} F+S &= 50; F-5 \\\\ &= 7(S-5) \\Rightarrow F \\\\ &= 7S-30 \\end{aligned}$$. $$\\begin{aligned} 7S-30+S &= 50 \\Rightarrow 8S \\\\ &= 80, S \\\\ &= 10 \\end{aligned}$$." },
+      { q: "Average of family of 5 is 30. Including baby, avg = 25. Baby's age?", opts: ["0", "1", "2", "5"], a: 0, ex: "$$\\begin{aligned} 6 \\cdot 25 - 5 \\cdot 30 &= 150-150 \\\\ &= 0 \\end{aligned}$$." },
+      { q: "If A is 4 yrs older than B and 4 yrs younger than C, average of their ages is 24. Find C.", opts: ["24", "26", "28", "32"], a: 2, ex: "Let B=$x$, A=$x+4$, C=$x+8$. Sum=$$\\begin{aligned} 3x+12 &= 72, x \\\\ &= 20 \\end{aligned}$$. C=28." },
       { q: "A's age 7 years ago was 17. Age 13 years hence?", opts: ["30", "33", "37", "40"], a: 2, ex: "Now=24. After 13 yrs=37." },
-      { q: "Ratio of present ages = 3:4. After 5 yrs ratio = 4:5. Present?", opts: ["12,16", "15,20", "9,12", "21,28"], a: 1, ex: "$\\frac{3x+5}{4x+5}=4/5 \\Rightarrow 15x+25=16x+20 \\Rightarrow x=5$. So 15, 20." },
-      { q: "Mother is 4 times daughter's age. 4 years hence, 3 times. Daughter's age now?", opts: ["6", "8", "10", "12"], a: 1, ex: "$M=4D, M+4=3(D+4) \\Rightarrow 4D+4=3D+12 \\Rightarrow D=8$." },
-      { q: "A is twice B, B is half of C. A+B+C=30. Find B.", opts: ["6", "8", "10", "12"], a: 0, ex: "B=$x$, A=$2x$, C=$2x$. $5x=30, x=6$." },
-      { q: "If a person's age is $\\frac{3}{4}$ of his mother's now and 5 years ago was $\\frac{2}{3}$, mother's present age?", opts: ["40", "45", "50", "55"], a: 0, ex: "$P=\\frac{3}{4}M; P-5=\\frac{2}{3}(M-5)$. From 1st $P=3M/4$. $3M/4-5=2M/3-10/3 \\Rightarrow 9M-60=8M-40 \\Rightarrow M=20$. Hmm too low. Let me redo: $9M/12 - 60/12 = 8M/12 - 40/12 \\Rightarrow 9M-60=8M-40 \\Rightarrow M=20$. Strange. Try $M=40$: P=30. 5 yrs ago: P=25, M=35. 25/35 = 5/7 ≠ 2/3. So problem options need review." },
-      { q: "10 years ago Ram was 1/3 of Shyam. Now ratio 2:5. Sum of present ages?", opts: ["14", "21", "35", "49"], a: 2, ex: "Let now R, S. R-10=(S-10)/3. R=2S/5. $\\frac{2S}{5}-10=\\frac{S-10}{3} \\Rightarrow 6S-150=5S-50 \\Rightarrow S=100$. Hmm. Skip if numbers don't match." },
-      { q: "Average age of 8 men is 35. If 2 leave (avg 50) and 2 new join (avg 30), new avg of 8?", opts: ["30", "32", "33", "35"], a: 1, ex: "Old sum=$280$. Removed=100. Added=60. New sum=240. Avg=30. Hmm option A. Let me recheck: $280-100+60=240, 240/8=30$. Answer A." },
-      { q: "If 5 years ago A was twice B and now A=10 less than thrice B. Find present age of A.", opts: ["15", "20", "25", "30"], a: 2, ex: "$A-5=2(B-5); A=3B-10$. From 1st A=2B-5. So 2B-5=3B-10 → B=5. A=2(5)-5=5? Or A=3(5)-10=5. So A=5, B=5? But then 5 yrs ago A=0, B=0. Problem may have typo." },
-      { q: "Age ratio now 5:7, after 6 years 3:4. Find present age of older.", opts: ["35", "42", "45", "30"], a: 1, ex: "$\\frac{5x+6}{7x+6}=3/4 \\Rightarrow 20x+24=21x+18 \\Rightarrow x=6$. Older=42." },
-      { q: "Average age of group of 5 is 28. If teacher joins, avg becomes 29. Teacher's age?", opts: ["29", "30", "33", "34"], a: 3, ex: "$6 \\cdot 29 - 5 \\cdot 28 = 174-140=34$." },
+      { q: "Ratio of present ages = 3:4. After 5 yrs ratio = 4:5. Present?", opts: ["12,16", "15,20", "9,12", "21,28"], a: 1, ex: "$$\\begin{aligned} \\frac{3x+5}{4x+5} &= 4/5 \\Rightarrow 15x+25 \\\\ &= 16x+20 \\Rightarrow x \\\\ &= 5 \\end{aligned}$$. So 15, 20." },
+      { q: "Mother is 4 times daughter's age. 4 years hence, 3 times. Daughter's age now?", opts: ["6", "8", "10", "12"], a: 1, ex: "$$\\begin{aligned} M &= 4D, M+4 \\\\ &= 3(D+4) \\Rightarrow 4D+4 \\\\ &= 3D+12 \\Rightarrow D \\\\ &= 8 \\end{aligned}$$." },
+      { q: "A is twice B, B is half of C. A+B+C=30. Find B.", opts: ["6", "8", "10", "12"], a: 0, ex: "B=$x$, A=$2x$, C=$2x$. $$\\begin{aligned} 5x &= 30, x \\\\ &= 6 \\end{aligned}$$." },
+      { q: "If a person's age is $\\frac{3}{4}$ of his mother's now and 5 years ago was $\\frac{2}{3}$, mother's present age?", opts: ["40", "45", "50", "55"], a: 0, ex: "$$\\begin{aligned} P &= \\frac{3}{4}M; P-5 \\\\ &= \\frac{2}{3}(M-5) \\end{aligned}$$. From 1st $P=3M/4$. $$\\begin{aligned} 3M/4-5 &= 2M/3-10/3 \\Rightarrow 9M-60 \\\\ &= 8M-40 \\Rightarrow M \\\\ &= 20 \\end{aligned}$$. Hmm too low. Let me redo: $$\\begin{aligned} 9M/12 - 60/12 &= 8M/12 - 40/12 \\Rightarrow 9M-60 \\\\ &= 8M-40 \\Rightarrow M \\\\ &= 20 \\end{aligned}$$. Strange. Try $M=40$: P=30. 5 yrs ago: P=25, M=35. 25/35 = 5/7 ≠ 2/3. So problem options need review." },
+      { q: "10 years ago Ram was 1/3 of Shyam. Now ratio 2:5. Sum of present ages?", opts: ["14", "21", "35", "49"], a: 2, ex: "Let now R, S. R-10=(S-10)/3. R=2S/5. $$\\begin{aligned} \\frac{2S}{5}-10 &= \\frac{S-10}{3} \\Rightarrow 6S-150 \\\\ &= 5S-50 \\Rightarrow S \\\\ &= 100 \\end{aligned}$$. Hmm. Skip if numbers don't match." },
+      { q: "Average age of 8 men is 35. If 2 leave (avg 50) and 2 new join (avg 30), new avg of 8?", opts: ["30", "32", "33", "35"], a: 1, ex: "Old sum=$280$. Removed=100. Added=60. New sum=240. Avg=30. Hmm option A. Let me recheck: $$\\begin{aligned} 280-100+60 &= 240, 240/8 \\\\ &= 30 \\end{aligned}$$. Answer A." },
+      { q: "If 5 years ago A was twice B and now A=10 less than thrice B. Find present age of A.", opts: ["15", "20", "25", "30"], a: 2, ex: "$$\\begin{aligned} A-5 &= 2(B-5); A \\\\ &= 3B-10 \\end{aligned}$$. From 1st A=2B-5. So 2B-5=3B-10 → B=5. A=2(5)-5=5? Or A=3(5)-10=5. So A=5, B=5? But then 5 yrs ago A=0, B=0. Problem may have typo." },
+      { q: "Age ratio now 5:7, after 6 years 3:4. Find present age of older.", opts: ["35", "42", "45", "30"], a: 1, ex: "$$\\begin{aligned} \\frac{5x+6}{7x+6} &= 3/4 \\Rightarrow 20x+24 \\\\ &= 21x+18 \\Rightarrow x \\\\ &= 6 \\end{aligned}$$. Older=42." },
+      { q: "Average age of group of 5 is 28. If teacher joins, avg becomes 29. Teacher's age?", opts: ["29", "30", "33", "34"], a: 3, ex: "$$\\begin{aligned} 6 \\cdot 29 - 5 \\cdot 28 &= 174-140 \\\\ &= 34 \\end{aligned}$$." },
       { q: "Tom is 4 yrs older than Dick. Dick is half as old as Harry. If sum=46, Harry's age?", opts: ["16", "18", "20", "22"], a: 1, ex: "T=D+4, D=H/2. T+D+H=46 → H/2+4+H/2+H=46 → 2H=42 → H=21. Hmm not matching. Skip." },
       { q: "Avg age of family of 6 is 22. If a 22-yr-old left, new avg?", opts: ["21", "22", "23", "21.6"], a: 1, ex: "Removing someone with avg = group avg keeps avg same. 22." },
-      { q: "Father age 30 more than son. After 10 years father=2x son. Find present ages.", opts: ["50,20", "40,10", "20,50", "30,0"], a: 1, ex: "$F=S+30; F+10=2(S+10) \\Rightarrow S+40=2S+20 \\Rightarrow S=20$. F=50. Hmm option A: 50,20. Yes." },
+      { q: "Father age 30 more than son. After 10 years father=2x son. Find present ages.", opts: ["50,20", "40,10", "20,50", "30,0"], a: 1, ex: "$$\\begin{aligned} F &= S+30; F+10 \\\\ &= 2(S+10) \\Rightarrow S+40 \\\\ &= 2S+20 \\Rightarrow S \\\\ &= 20 \\end{aligned}$$. F=50. Hmm option A: 50,20. Yes." },
       { q: "Ages of P, Q, R in AP. Sum = 60. P = 15. Find R.", opts: ["20", "25", "30", "35"], a: 1, ex: "P+R=2Q. P+Q+R=60. 3Q=60, Q=20. R=25." },
-      { q: "Avg age of 25 boys is 14. With teacher's age, avg = 14.5. Teacher's age?", opts: ["25", "26", "27", "28"], a: 1, ex: "$26 \\cdot 14.5-25 \\cdot 14=377-350=27$. Hmm option C. Let me recheck: 26×14.5=377; 25×14=350; teacher=27. Answer C." },
-      { q: "A is 4 yrs older than B who is 2 yrs older than C. If sum = 39, find A.", opts: ["13", "15", "17", "19"], a: 2, ex: "C=$x$, B=$x+2$, A=$x+6$. Sum=$3x+8=39, x=10.33$. Skip clean numbers." },
-      { q: "5 years hence, age of father = 3 × son. 5 yrs ago, father = 7 × son. Find present age of son.", opts: ["10", "12", "15", "20"], a: 0, ex: "$F+5=3(S+5); F-5=7(S-5)$. From 1: F=3S+10. From 2: F=7S-30. So $3S+10=7S-30 \\Rightarrow S=10$." }
+      { q: "Avg age of 25 boys is 14. With teacher's age, avg = 14.5. Teacher's age?", opts: ["25", "26", "27", "28"], a: 1, ex: "$$\\begin{aligned} 26 \\cdot 14.5-25 \\cdot 14 &= 377-350 \\\\ &= 27 \\end{aligned}$$. Hmm option C. Let me recheck: 26×14.5=377; 25×14=350; teacher=27. Answer C." },
+      { q: "A is 4 yrs older than B who is 2 yrs older than C. If sum = 39, find A.", opts: ["13", "15", "17", "19"], a: 2, ex: "C=$x$, B=$x+2$, A=$x+6$. Sum=$$\\begin{aligned} 3x+8 &= 39, x \\\\ &= 10.33 \\end{aligned}$$. Skip clean numbers." },
+      { q: "5 years hence, age of father = 3 × son. 5 yrs ago, father = 7 × son. Find present age of son.", opts: ["10", "12", "15", "20"], a: 0, ex: "$$\\begin{aligned} F+5 &= 3(S+5); F-5 \\\\ &= 7(S-5) \\end{aligned}$$. From 1: F=3S+10. From 2: F=7S-30. So $$\\begin{aligned} 3S+10 &= 7S-30 \\Rightarrow S \\\\ &= 10 \\end{aligned}$$." }
     ]
   };
 
@@ -1809,7 +1809,7 @@
 
       <h3>🔥 Tricks</h3>
 
-      <h4>Trick 1: If $\\frac{a}{b}=\\frac{c}{d}=\\frac{e}{f}=k$, then each ratio also equals $\\frac{a+c+e}{b+d+f}=k$.</h4>
+      <h4>Trick 1: If $$\\begin{aligned} \\frac{a}{b} &= \\frac{c}{d} \\\\ &= \\frac{e}{f} \\\\ &= k \\end{aligned}$$, then each ratio also equals $\\frac{a+c+e}{b+d+f}=k$.</h4>
 
       <h4>Trick 2: When ratio remains same after adding/subtracting</h4>
       <p>If $a:b = c:d$ and same amount $x$ added to both → if ratio becomes $e:f$, can solve.</p>
@@ -1832,7 +1832,7 @@
 
       <h4>Example 3</h4>
       <p>Find $x$ if $x : 6 :: 8 : 12$.</p>
-      <p><b>Solution:</b> $12x = 48 \\Rightarrow x = $ <b>4</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 12x &= 48 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>4</b>.</p>
 
       <h4>Example 4</h4>
       <p>Find mean proportion between 4 and 16.</p>
@@ -1852,11 +1852,11 @@
 
       <h4>Example 8</h4>
       <p>If 4 men or 6 women can do a job, ratio of work done by 1 man to 1 woman?</p>
-      <p><b>Solution:</b> $4M = 6W \\Rightarrow M:W = 6:4 = 3:2$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 4M &= 6W \\Rightarrow M:W \\\\ &= 6:4 \\\\ &= 3:2 \\end{aligned}$$.</p>
 
       <h4>Example 9</h4>
       <p>If $a:b = 3:4$, find $\\frac{2a+3b}{4a-b}$.</p>
-      <p><b>Solution:</b><br>$a=3k, b=4k$.<br>$\\frac{6k+12k}{12k-4k} = \\frac{18k}{8k} = \\frac{9}{4}$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} a &= 3k, b \\\\ &= 4k \\end{aligned}$$.<br>$$\\begin{aligned} \\frac{6k+12k}{12k-4k} &= \\frac{18k}{8k} \\\\ &= \\frac{9}{4} \\end{aligned}$$.</p>
 
       <h4>Example 10</h4>
       <p>Three numbers in ratio 2:3:5. Sum = 100. Largest?</p>
@@ -1868,11 +1868,11 @@
 
       <h4>Example 12</h4>
       <p>Ratio of incomes of A and B is 5:4. Their expenses are in ratio 3:2. If each saves ₹4000, find A's income.</p>
-      <p><b>Solution:</b><br>Let A=5x, B=4x.<br>Expenses 3y, 2y.<br>$5x-3y=4000$ and $4x-2y=4000$.<br>Solve: $5x-3y=4x-2y \\Rightarrow x=y$.<br>So $5x-3x=4000 \\Rightarrow x=2000$.<br>A's income = ₹10,000.</p>
+      <p><b>Solution:</b><br>Let A=5x, B=4x.<br>Expenses 3y, 2y.<br>$5x-3y=4000$ and $4x-2y=4000$.<br>Solve: $$\\begin{aligned} 5x-3y &= 4x-2y \\Rightarrow x \\\\ &= y \\end{aligned}$$.<br>So $$\\begin{aligned} 5x-3x &= 4000 \\Rightarrow x \\\\ &= 2000 \\end{aligned}$$.<br>A's income = ₹10,000.</p>
 
       <h4>Example 13</h4>
       <p>If $(a+b):(a-b) = 5:1$, find $a:b$.</p>
-      <p><b>Solution:</b> $5(a-b) = a+b \\Rightarrow 4a = 6b \\Rightarrow a:b = 3:2$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 5(a-b) &= a+b \\Rightarrow 4a \\\\ &= 6b \\Rightarrow a:b \\\\ &= 3:2 \\end{aligned}$$.</p>
 
       <h4>Example 14</h4>
       <p>If 60 is divided in ratio 1:2:3, smallest part?</p>
@@ -1880,7 +1880,7 @@
 
       <h4>Example 15</h4>
       <p>The ratio of A:B = 7:5. If A's age 4 years hence will be 9, find B's present age.</p>
-      <p><b>Solution:</b><br>$A_{now} = 5$.<br>So $7k=5 \\Rightarrow k=5/7$.<br>B = $5k = 25/7$. (Fractional → check.)</p>
+      <p><b>Solution:</b><br>$A_{now} = 5$.<br>So $$\\begin{aligned} 7k &= 5 \\Rightarrow k \\\\ &= 5/7 \\end{aligned}$$.<br>B = $5k = 25/7$. (Fractional → check.)</p>
 
       <h4>Example 16: Compound Ratio</h4>
       <p>Combine 2:3, 4:5, 6:7. Compound?</p>
@@ -1888,7 +1888,7 @@
 
       <h4>Example 17: Coin Distribution</h4>
       <p>₹1, 50p, 25p coins in ratio 5:7:9. Total value ₹37. Number of each?</p>
-      <p><b>Solution:</b><br>Value: $5(1)+7(0.5)+9(0.25) = 5+3.5+2.25 = 10.75$.<br>Per unit ratio → multiplier = $37/10.75 = 3.44$.<br>So coins: 17.2, 24.1, 30.96 — non-integer; question may have specific data.</p>
+      <p><b>Solution:</b><br>Value: $$\\begin{aligned} 5(1)+7(0.5)+9(0.25) &= 5+3.5+2.25 \\\\ &= 10.75 \\end{aligned}$$.<br>Per unit ratio → multiplier = $37/10.75 = 3.44$.<br>So coins: 17.2, 24.1, 30.96 — non-integer; question may have specific data.</p>
 
       <h4>Example 18: Modified Ratio</h4>
       <p>If $a:b = 3:4$ and $b:c = 2:3$, find $a:b:c$.</p>
@@ -1903,29 +1903,29 @@
     `,
     mcq: [
       { q: "Simplify 64:48.", opts: ["3:2", "4:3", "2:1", "8:6"], a: 1, ex: "HCF=16. 4:3." },
-      { q: "If $a:b=2:3$, $b:c=4:5$, then $a:c$?", opts: ["6:15", "8:15", "10:15", "2:5"], a: 1, ex: "Combine: $a:b=8:12, b:c=12:15. a:c=8:15$." },
+      { q: "If $a:b=2:3$, $b:c=4:5$, then $a:c$?", opts: ["6:15", "8:15", "10:15", "2:5"], a: 1, ex: "Combine: $$\\begin{aligned} a:b &= 8:12, b:c \\\\ &= 12:15. a:c \\\\ &= 8:15 \\end{aligned}$$." },
       { q: "Mean proportion of 9 and 25?", opts: ["12", "14", "15", "18"], a: 2, ex: "$\\sqrt{225}=15$." },
       { q: "Third proportion of 4 and 8?", opts: ["12", "16", "20", "24"], a: 1, ex: "$8^2/4=16$." },
       { q: "Fourth proportion of 2,3,4?", opts: ["5", "6", "8", "12"], a: 1, ex: "$3 \\cdot 4/2=6$." },
       { q: "Divide 240 in ratio 2:3:5. Largest part?", opts: ["48", "72", "100", "120"], a: 3, ex: "$5/10 \\cdot 240 = 120$." },
-      { q: "If $a:b=3:5$, $\\frac{a+b}{a-b}=?$", opts: ["1", "2", "-4", "$-\\frac{1}{4}$"], a: 2, ex: "$\\frac{3+5}{3-5}=\\frac{8}{-2}=-4$." },
+      { q: "If $a:b=3:5$, $\\frac{a+b}{a-b}=?$", opts: ["1", "2", "-4", "$-\\frac{1}{4}$"], a: 2, ex: "$$\\begin{aligned} \\frac{3+5}{3-5} &= \\frac{8}{-2} \\\\ &= -4 \\end{aligned}$$." },
       { q: "Salary ratio of A:B:C = 4:5:6. Sum ₹15,000. A?", opts: ["₹3000", "₹4000", "₹5000", "₹6000"], a: 1, ex: "$4/15 \\cdot 15000=4000$." },
-      { q: "If 30% of A = 40% of B, A:B?", opts: ["3:4", "4:3", "2:3", "3:2"], a: 1, ex: "$3A=4B \\Rightarrow A/B=4/3$." },
+      { q: "If 30% of A = 40% of B, A:B?", opts: ["3:4", "4:3", "2:3", "3:2"], a: 1, ex: "$$\\begin{aligned} 3A &= 4B \\Rightarrow A/B \\\\ &= 4/3 \\end{aligned}$$." },
       { q: "Sum of two numbers is 60. Ratio 7:5. Smaller?", opts: ["20", "25", "30", "35"], a: 1, ex: "$5/12 \\cdot 60 = 25$." },
-      { q: "If $a:b=5:7$ and $b-a=8$, find $b$.", opts: ["20", "24", "28", "32"], a: 2, ex: "$b-a=2k=8 \\Rightarrow k=4$. $b=7 \\cdot 4=28$." },
+      { q: "If $a:b=5:7$ and $b-a=8$, find $b$.", opts: ["20", "24", "28", "32"], a: 2, ex: "$$\\begin{aligned} b-a &= 2k \\\\ &= 8 \\Rightarrow k \\\\ &= 4 \\end{aligned}$$. $$\\begin{aligned} b &= 7 \\cdot 4 \\\\ &= 28 \\end{aligned}$$." },
       { q: "If $a:b:c=2:3:4$ and $a+b+c=27$, find $b$.", opts: ["6", "9", "12", "15"], a: 1, ex: "$3/9 \\cdot 27=9$." },
-      { q: "Income ratio A:B=4:5; expenses 3:4. Each saves 200. A's income?", opts: ["₹600", "₹800", "₹1000", "₹1200"], a: 1, ex: "$4x-3y=200, 5x-4y=200$. Solve: $5(4x-3y) - 4(5x-4y) = 5 \\cdot 200 - 4 \\cdot 200 \\Rightarrow -15y+16y=200 \\Rightarrow y=200$. Then $4x=200+600=800, x=200$. A=4x=800." },
-      { q: "If $(2a+3b):(3a+4b) = 7:9$, find $a:b$.", opts: ["1:2", "2:3", "3:4", "1:3"], a: 1, ex: "$9(2a+3b)=7(3a+4b) \\Rightarrow 18a+27b=21a+28b \\Rightarrow 3a=-b$. Negative; try $a:b=3:5$? Let me retry: $9(2a+3b)-7(3a+4b)=0 \\Rightarrow 18a+27b-21a-28b=0 \\Rightarrow -3a-b=0$ → $b=-3a$. Negative — option set may need fix." },
-      { q: "Two numbers in 4:7. Adding 6 to each, ratio 5:8. Smaller?", opts: ["24", "32", "48", "56"], a: 0, ex: "$\\frac{4x+6}{7x+6}=5/8 \\Rightarrow 32x+48=35x+30 \\Rightarrow x=6$. Smaller=24." },
+      { q: "Income ratio A:B=4:5; expenses 3:4. Each saves 200. A's income?", opts: ["₹600", "₹800", "₹1000", "₹1200"], a: 1, ex: "$$\\begin{aligned} 4x-3y &= 200, 5x-4y \\\\ &= 200 \\end{aligned}$$. Solve: $$\\begin{aligned} 5(4x-3y) - 4(5x-4y) &= 5 \\cdot 200 - 4 \\cdot 200 \\Rightarrow -15y+16y \\\\ &= 200 \\Rightarrow y \\\\ &= 200 \\end{aligned}$$. Then $$\\begin{aligned} 4x &= 200+600 \\\\ &= 800, x \\\\ &= 200 \\end{aligned}$$. A=4x=800." },
+      { q: "If $(2a+3b):(3a+4b) = 7:9$, find $a:b$.", opts: ["1:2", "2:3", "3:4", "1:3"], a: 1, ex: "$$\\begin{aligned} 9(2a+3b) &= 7(3a+4b) \\Rightarrow 18a+27b \\\\ &= 21a+28b \\Rightarrow 3a \\\\ &= -b \\end{aligned}$$. Negative; try $a:b=3:5$? Let me retry: $$\\begin{aligned} 9(2a+3b)-7(3a+4b) &= 0 \\Rightarrow 18a+27b-21a-28b \\\\ &= 0 \\Rightarrow -3a-b \\\\ &= 0 \\end{aligned}$$ → $b=-3a$. Negative — option set may need fix." },
+      { q: "Two numbers in 4:7. Adding 6 to each, ratio 5:8. Smaller?", opts: ["24", "32", "48", "56"], a: 0, ex: "$$\\begin{aligned} \\frac{4x+6}{7x+6} &= 5/8 \\Rightarrow 32x+48 \\\\ &= 35x+30 \\Rightarrow x \\\\ &= 6 \\end{aligned}$$. Smaller=24." },
       { q: "Duplicate ratio of 3:4?", opts: ["6:8", "9:16", "$\\sqrt{3}:\\sqrt{4}$", "27:64"], a: 1, ex: "$3^2:4^2 = 9:16$." },
-      { q: "Sub-duplicate ratio of 81:144?", opts: ["9:12=3:4", "1:2", "3:8", "9:16"], a: 0, ex: "$\\sqrt{81}:\\sqrt{144}=9:12=3:4$." },
-      { q: "If A:B=2:3 and B:C=4:5, A:B:C?", opts: ["2:3:5", "8:12:15", "6:9:10", "10:15:12"], a: 1, ex: "$a:b=8:12, b:c=12:15$." },
-      { q: "Bag A : Bag B = 3:5. Adding 9 to A, ratio = 6:5. Find original A.", opts: ["6", "9", "12", "15"], a: 1, ex: "$\\frac{3x+9}{5x}=6/5 \\Rightarrow 15x+45=30x \\Rightarrow x=3$. A=9." },
+      { q: "Sub-duplicate ratio of 81:144?", opts: ["9:12=3:4", "1:2", "3:8", "9:16"], a: 0, ex: "$$\\begin{aligned} \\sqrt{81}:\\sqrt{144} &= 9:12 \\\\ &= 3:4 \\end{aligned}$$." },
+      { q: "If A:B=2:3 and B:C=4:5, A:B:C?", opts: ["2:3:5", "8:12:15", "6:9:10", "10:15:12"], a: 1, ex: "$$\\begin{aligned} a:b &= 8:12, b:c \\\\ &= 12:15 \\end{aligned}$$." },
+      { q: "Bag A : Bag B = 3:5. Adding 9 to A, ratio = 6:5. Find original A.", opts: ["6", "9", "12", "15"], a: 1, ex: "$$\\begin{aligned} \\frac{3x+9}{5x} &= 6/5 \\Rightarrow 15x+45 \\\\ &= 30x \\Rightarrow x \\\\ &= 3 \\end{aligned}$$. A=9." },
       { q: "Triplicate ratio of 2:3?", opts: ["6:9", "8:27", "$\\sqrt[3]{2}:\\sqrt[3]{3}$", "4:9"], a: 1, ex: "$2^3:3^3=8:27$." },
-      { q: "If $\\frac{a}{2}=\\frac{b}{3}=\\frac{c}{5}=k$ and $a+b+c=20$, find $c$.", opts: ["8", "9", "10", "12"], a: 2, ex: "$2k+3k+5k=20 \\Rightarrow k=2$. $c=10$." },
+      { q: "If $$\\begin{aligned} \\frac{a}{2} &= \\frac{b}{3} \\\\ &= \\frac{c}{5} \\\\ &= k \\end{aligned}$$ and $a+b+c=20$, find $c$.", opts: ["8", "9", "10", "12"], a: 2, ex: "$$\\begin{aligned} 2k+3k+5k &= 20 \\Rightarrow k \\\\ &= 2 \\end{aligned}$$. $c=10$." },
       { q: "Two friends have ages in ratio 3:5. Sum = 32. Younger?", opts: ["12", "13", "15", "20"], a: 0, ex: "$3/8 \\cdot 32 = 12$." },
       { q: "If 7 buns cost ₹35, cost of 12?", opts: ["₹50", "₹55", "₹60", "₹70"], a: 2, ex: "Unit cost 5. 12 cost 60." },
-      { q: "If $\\frac{x}{2}=\\frac{y}{3}$ and $x+y=10$, $x=?$", opts: ["3", "4", "5", "6"], a: 1, ex: "$x=2k, y=3k, 5k=10, k=2$. x=4." },
+      { q: "If $\\frac{x}{2}=\\frac{y}{3}$ and $x+y=10$, $x=?$", opts: ["3", "4", "5", "6"], a: 1, ex: "$$\\begin{aligned} x &= 2k, y \\\\ &= 3k, 5k \\\\ &= 10, k \\\\ &= 2 \\end{aligned}$$. x=4." },
       { q: "Pen ratio = 2:3:5. Total = 60. Pens in middle group?", opts: ["12", "18", "20", "24"], a: 1, ex: "$3/10 \\cdot 60=18$." }
     ]
   };
@@ -1983,7 +1983,7 @@
 
       <h4>Example 4</h4>
       <p>A runs $1\\frac{1}{2}$ times as fast as B. If A gives B start of 50 m, how long should the race be so that they finish together?</p>
-      <p><b>Solution:</b><br>Speed ratio A:B = 3:2.<br>Let race = $D$.<br>A runs $D$, B runs $D-50$.<br>$\\frac{D}{D-50} = \\frac{3}{2} \\Rightarrow 2D = 3D-150 \\Rightarrow D = $ <b>150 m</b>.</p>
+      <p><b>Solution:</b><br>Speed ratio A:B = 3:2.<br>Let race = $D$.<br>A runs $D$, B runs $D-50$.<br>$$\\begin{aligned} \\frac{D}{D-50} &= \\frac{3}{2} \\Rightarrow 2D \\\\ &= 3D-150 \\Rightarrow D \\\\ &=  \\end{aligned}$$ <b>150 m</b>.</p>
 
       <h4>Example 5</h4>
       <p>In 200 m race, A beats B by 35 m and C by 80 m. By how much does B beat C in same race?</p>
@@ -2003,7 +2003,7 @@
 
       <h4>Example 9</h4>
       <p>A gives B a start of 60 m in 1 km race. A finishes in 100 sec, B in 110 sec. Who wins and by how much?</p>
-      <p><b>Solution:</b><br>A's speed = 10 m/s.<br>B's speed = $\\frac{1000-60}{110}$ — actually B has to cover 940 m.<br>So $\\frac{940}{110}=8.55$ m/s.<br>A's time for full 1000 m = 100s.<br>In 100s, B (starting from 60m) covers $60 + 8.55 \\cdot 100 = 60+855 = 915$ m.<br>So A wins by $85$ m.</p>
+      <p><b>Solution:</b><br>A's speed = 10 m/s.<br>B's speed = $\\frac{1000-60}{110}$ — actually B has to cover 940 m.<br>So $\\frac{940}{110}=8.55$ m/s.<br>A's time for full 1000 m = 100s.<br>In 100s, B (starting from 60m) covers $$\\begin{aligned} 60 + 8.55 \\cdot 100 &= 60+855 \\\\ &= 915 \\end{aligned}$$ m.<br>So A wins by $85$ m.</p>
 
       <h4>Example 10</h4>
       <p>A can give B 40 m and C 60 m start in 200 m. How much can B give C?</p>
@@ -2049,7 +2049,7 @@
       { q: "A beats B by 25 m in 100 m. Speed of B if A's is 4 m/s?", opts: ["2", "3", "3.5", "4"], a: 1, ex: "Speed ratio = 100:75 = 4:3. So B = 3 m/s." },
       { q: "A beats B by 20 m or 4 sec in 100m. B's speed?", opts: ["3", "4", "5", "6"], a: 2, ex: "20/4=5." },
       { q: "A beats B by 30 m in 200 m. What head start for dead heat?", opts: ["20m", "30m", "40m", "50m"], a: 1, ex: "B needs 30m head start." },
-      { q: "A runs 1.5x faster than B. A gives B 100 m start. Race length for tie?", opts: ["200", "300", "400", "500"], a: 1, ex: "$\\frac{D}{D-100}=3/2 \\Rightarrow 2D=3D-300 \\Rightarrow D=300$." },
+      { q: "A runs 1.5x faster than B. A gives B 100 m start. Race length for tie?", opts: ["200", "300", "400", "500"], a: 1, ex: "$$\\begin{aligned} \\frac{D}{D-100} &= 3/2 \\Rightarrow 2D \\\\ &= 3D-300 \\Rightarrow D \\\\ &= 300 \\end{aligned}$$." },
       { q: "A beats B by 10 m, B beats C by 10 m in 100 m. A beats C by?", opts: ["18m", "19m", "20m", "21m"], a: 1, ex: "A:B=100:90, B:C=100:90. A:C = 100×100/(90×100/90) = 100:81. Beat = 19m." },
       { q: "In 500 m race, A beats B by 25 sec, B beats C by 20 sec. A beats C by?", opts: ["35s", "40s", "45s", "50s"], a: 2, ex: "$25+20=45$s." },
       { q: "Two people circular track 600 m. A=12 m/s, B=8 m/s, opposite directions. Time to meet?", opts: ["20s", "25s", "30s", "60s"], a: 2, ex: "$600/20=30$." },
@@ -2057,7 +2057,7 @@
       { q: "A finishes 100m in 10s, B in 12s. A beats B by?", opts: ["10m", "12m", "16.67m", "20m"], a: 2, ex: "In 10s B covers $10 \\cdot 100/12=83.33$. Beat=16.67m." },
       { q: "A gives B 60 m or 12 sec start in 1km. A's speed?", opts: ["4 m/s", "5 m/s", "6 m/s", "8 m/s"], a: 1, ex: "B's speed = 60/12 = 5 m/s. Time for B = 1000/5 = 200s. A's time = 200-12=188s. A's speed = 1000/188 ≈ 5.32 m/s. Hmm option B closest." },
       { q: "A and B run a race. A's speed 4 m/s, B 3 m/s. Race 600m. A wins by how much (time)?", opts: ["50s", "75s", "100s", "150s"], a: 0, ex: "A=150s, B=200s. Diff 50s." },
-      { q: "A is twice as fast as B. A gives B 36m start. Race for tie?", opts: ["54m", "60m", "72m", "108m"], a: 2, ex: "$\\frac{D}{D-36}=2 \\Rightarrow D=2D-72 \\Rightarrow D=72$." },
+      { q: "A is twice as fast as B. A gives B 36m start. Race for tie?", opts: ["54m", "60m", "72m", "108m"], a: 2, ex: "$$\\begin{aligned} \\frac{D}{D-36} &= 2 \\Rightarrow D \\\\ &= 2D-72 \\Rightarrow D \\\\ &= 72 \\end{aligned}$$." },
       { q: "In 200m race, A beats B by 35m and C by 40m. B beats C by?", opts: ["5m", "6m", "$\\frac{200 \\cdot 5}{165}$ m", "$\\frac{1000}{165}$ m"], a: 3, ex: "When A=200: B=165, C=160. When B=200: C=200×160/165=193.94. Beat=6.06m. Closest to 1000/165=6.06." },
       { q: "A beats B by 50m, B beats C by 50m in 200m race. A beats C by?", opts: ["87.5m", "90m", "100m", "75m"], a: 0, ex: "A:B=4:3, B:C=4:3. A:B:C: A=16, B=12, C=9 (proportionally). When A=200: C=200×9/16=112.5. Beat=87.5m." },
       { q: "Circular track 500m. A=4 m/s, B=6 m/s. Same direction. First time at same point?", opts: ["100s", "200s", "250s", "500s"], a: 2, ex: "$500/(6-4)=250s$." },
@@ -2108,15 +2108,15 @@ $(c_2 - m)$ : $(m - c_1)$
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>How much water must be added to 60 L of milk (₹16/L) to bring price to ₹12/L?</p>
-      <p><b>Solution:</b><br>Water price = 0.<br>Milk = 16.<br>Mean = 12.<br>Ratio (water:milk) = $\\frac{16-12}{12-0} = 4:12 = 1:3$.<br>So water = $60/3 = $ <b>20 L</b>.</p>
+      <p><b>Solution:</b><br>Water price = 0.<br>Milk = 16.<br>Mean = 12.<br>Ratio (water:milk) = $$\\begin{aligned} \\frac{16-12}{12-0} &= 4:12 \\\\ &= 1:3 \\end{aligned}$$.<br>So water = $60/3 = $ <b>20 L</b>.</p>
 
       <h4>Example 2</h4>
       <p>In what ratio must rice at ₹20/kg be mixed with rice at ₹30/kg to get rice at ₹24/kg?</p>
-      <p><b>Solution:</b><br>$\\frac{30-24}{24-20} = 6:4 = 3:2$.<br>Mix 3 parts cheaper to 2 parts costlier.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\frac{30-24}{24-20} &= 6:4 \\\\ &= 3:2 \\end{aligned}$$.<br>Mix 3 parts cheaper to 2 parts costlier.</p>
 
       <h4>Example 3</h4>
       <p>Vessel has 40 L milk. 4 L removed and replaced with water. Repeated 3 times total. Milk left?</p>
-      <p><b>Solution:</b> $40(1-4/40)^3 = 40 \\cdot (0.9)^3 = 40 \\cdot 0.729 = $ <b>29.16 L</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 40(1-4/40)^3 &= 40 \\cdot (0.9)^3 \\\\ &= 40 \\cdot 0.729 \\\\ &=  \\end{aligned}$$ <b>29.16 L</b>.</p>
 
       <h4>Example 4</h4>
       <p>A 60 L mixture has milk:water = 2:1. How much water to add to make ratio 1:2?</p>
@@ -2124,11 +2124,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 5</h4>
       <p>How much pure alcohol to add to 600 ml of 25% alcohol solution to make it 50%?</p>
-      <p><b>Solution:</b><br>Let add $x$ ml.<br>Pure alcohol = $0.25 \\cdot 600 + x = 150+x$.<br>Total = $600+x$.<br>$\\frac{150+x}{600+x}=0.5 \\Rightarrow 300+2x=600+x \\Rightarrow x = $ <b>300 ml</b>.</p>
+      <p><b>Solution:</b><br>Let add $x$ ml.<br>Pure alcohol = $0.25 \\cdot 600 + x = 150+x$.<br>Total = $600+x$.<br>$$\\begin{aligned} \\frac{150+x}{600+x} &= 0.5 \\Rightarrow 300+2x \\\\ &= 600+x \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>300 ml</b>.</p>
 
       <h4>Example 6</h4>
       <p>In what ratio to mix 30% milk and 60% milk solutions to get 40% milk?</p>
-      <p><b>Solution:</b> $\\frac{60-40}{40-30}=20:10=2:1$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{60-40}{40-30} &= 20:10 \\\\ &= 2:1 \\end{aligned}$$.</p>
 
       <h4>Example 7</h4>
       <p>A trader has 200 kg sugar. Part sold at 10% profit, rest at 20% profit. Overall profit 15%. Quantity at 20% profit?</p>
@@ -2140,7 +2140,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 9</h4>
       <p>40 L of 5% sugar solution mixed with 60 L of 15% solution. % sugar in mixture?</p>
-      <p><b>Solution:</b><br>Total sugar = $40 \\cdot 0.05 + 60 \\cdot 0.15 = 2+9 = 11$.<br>Total volume = 100. % = <b>11%</b>.</p>
+      <p><b>Solution:</b><br>Total sugar = $$\\begin{aligned} 40 \\cdot 0.05 + 60 \\cdot 0.15 &= 2+9 \\\\ &= 11 \\end{aligned}$$.<br>Total volume = 100. % = <b>11%</b>.</p>
 
       <h4>Example 10</h4>
       <p>Vessel A contains acid:water=2:1; vessel B has 4:1. Mix in ratio 3:5 from A and B. New acid:water?</p>
@@ -2152,11 +2152,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 12</h4>
       <p>Container has 50 L milk. 5 L drawn out and 5 L water added; repeat 2 more times. Milk left?</p>
-      <p><b>Solution:</b> $50(1-5/50)^3 = 50 \\cdot 0.729 = $ <b>36.45 L</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 50(1-5/50)^3 &= 50 \\cdot 0.729 \\\\ &=  \\end{aligned}$$ <b>36.45 L</b>.</p>
 
       <h4>Example 13</h4>
       <p>Average wages of 30 workers = ₹500. After 5 new at ₹400, what's new average?</p>
-      <p><b>Solution:</b> Alligation? Or simple: $\\frac{30 \\cdot 500+5 \\cdot 400}{35} = \\frac{15000+2000}{35} = \\frac{17000}{35} = $ <b>485.71</b>.</p>
+      <p><b>Solution:</b> Alligation? Or simple: $$\\begin{aligned} \\frac{30 \\cdot 500+5 \\cdot 400}{35} &= \\frac{15000+2000}{35} \\\\ &= \\frac{17000}{35} \\\\ &=  \\end{aligned}$$ <b>485.71</b>.</p>
 
       <h4>Example 14</h4>
       <p>Some quantity of milk at ₹20 mixed with some at ₹18. Resulting mixture sold at ₹22 with 10% profit. Ratio of two milks?</p>
@@ -2168,15 +2168,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Adding Salt to Sea Water</h4>
       <p>5L of 10% salt solution. How much salt to add for 20%?</p>
-      <p><b>Solution:</b><br>Let add $x$ kg.<br>Salt total = $0.5 + x$.<br>Volume = $5 + x$.<br>$(0.5+x)/(5+x) = 0.2 \Rightarrow 0.5+x = 1+0.2x \Rightarrow 0.8x=0.5 \Rightarrow x = 0.625$ kg.</p>
+      <p><b>Solution:</b><br>Let add $x$ kg.<br>Salt total = $0.5 + x$.<br>Volume = $5 + x$.<br>$$\\begin{aligned} (0.5+x)/(5+x) &= 0.2 \Rightarrow 0.5+x \\\\ &= 1+0.2x \Rightarrow 0.8x \\\\ &= 0.5 \Rightarrow x \\\\ &= 0.625 \\end{aligned}$$ kg.</p>
 
       <h4>Example 17: Replace Twice</h4>
       <p>50 L milk; 5L removed, replaced with water. Repeat once more. Pure milk now?</p>
-      <p><b>Solution:</b> $50 (1-5/50)^2 = 50 \cdot 0.81 = 40.5$ L.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 50 (1-5/50)^2 &= 50 \cdot 0.81 \\\\ &= 40.5 \\end{aligned}$$ L.</p>
 
       <h4>Example 18: Mixing Different Costs</h4>
       <p>Mix tea @ ₹100 with tea @ ₹150 in what ratio to get ₹120?</p>
-      <p><b>Solution:</b> Alligation: $(150-120):(120-100) = 30:20 = 3:2$.</p>
+      <p><b>Solution:</b> Alligation: $$\\begin{aligned} (150-120):(120-100) &= 30:20 \\\\ &= 3:2 \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2186,29 +2186,29 @@ $(c_2 - m)$ : $(m - c_1)$
       </ul>
     `,
     mcq: [
-      { q: "Mix 30 kg @₹20 with x kg @₹30 to get @₹24. x?", opts: ["20", "25", "30", "40"], a: 0, ex: "Ratio = $(30-24):(24-20) = 6:4 = 3:2$. 30 is 3 parts. x = 2 parts = 20." },
+      { q: "Mix 30 kg @₹20 with x kg @₹30 to get @₹24. x?", opts: ["20", "25", "30", "40"], a: 0, ex: "Ratio = $$\\begin{aligned} (30-24):(24-20) &= 6:4 \\\\ &= 3:2 \\end{aligned}$$. 30 is 3 parts. x = 2 parts = 20." },
       { q: "60 L milk, 6 L removed & replaced with water, repeat 3 times. Pure milk left?", opts: ["43.74L", "48.6L", "54L", "57L"], a: 0, ex: "$60(0.9)^3=43.74$." },
       { q: "Water to be added to 100L milk @₹15 to make it @₹12?", opts: ["25L", "20L", "30L", "40L"], a: 0, ex: "Ratio = (15-12):(12-0)=3:12=1:4. 100/4 = 25L." },
       { q: "20% acid mixed with 80% acid in ratio 1:1. New %?", opts: ["40%", "50%", "60%", "70%"], a: 1, ex: "$(20+80)/2=50\\%$." },
-      { q: "Wheat A @₹6/kg mixed with B @₹8/kg in ratio 2:3. Avg?", opts: ["₹6.80", "₹7.20", "₹7.40", "₹7.50"], a: 1, ex: "$(2 \\cdot 6+3 \\cdot 8)/5=36/5=7.2$." },
+      { q: "Wheat A @₹6/kg mixed with B @₹8/kg in ratio 2:3. Avg?", opts: ["₹6.80", "₹7.20", "₹7.40", "₹7.50"], a: 1, ex: "$$\\begin{aligned} (2 \\cdot 6+3 \\cdot 8)/5 &= 36/5 \\\\ &= 7.2 \\end{aligned}$$." },
       { q: "200 L milk has 20% water. To remove all water (or make it 0%), how much milk to add?", opts: ["40L", "50L", "Cannot remove just by adding milk", "Infinite"], a: 3, ex: "Adding milk dilutes water % but never reaches 0%. Mathematically infinite." },
-      { q: "Mixture has milk:water = 3:2. 20 L drawn out, 20 L water added. Now ratio 1:1. Original quantity?", opts: ["50L", "60L", "75L", "100L"], a: 3, ex: "Let total=$x$. Milk = $3x/5$. Drawn 20L: milk lost $= 20 \\cdot 3/5=12$. Milk now = $3x/5 - 12$. Water now = $2x/5-8+20 = 2x/5+12$. Set ratio 1:1: $3x/5-12 = 2x/5+12 \\Rightarrow x/5=24 \\Rightarrow x=120$. Hmm none match. Retry assuming 'after replacement, ratio 1:1' from another setup. Skip exact." },
-      { q: "Tea A @₹35 mixed with B @₹45 in ratio 3:2. Selling price for 20% profit?", opts: ["₹46", "₹47", "₹48", "₹50"], a: 2, ex: "Cost mix = $(35 \\cdot 3+45 \\cdot 2)/5=195/5=39$. SP=39×1.2=46.8. Hmm option A is 46. Closest." },
+      { q: "Mixture has milk:water = 3:2. 20 L drawn out, 20 L water added. Now ratio 1:1. Original quantity?", opts: ["50L", "60L", "75L", "100L"], a: 3, ex: "Let total=$x$. Milk = $3x/5$. Drawn 20L: milk lost $$\\begin{aligned}  &= 20 \\cdot 3/5 \\\\ &= 12 \\end{aligned}$$. Milk now = $3x/5 - 12$. Water now = $2x/5-8+20 = 2x/5+12$. Set ratio 1:1: $$\\begin{aligned} 3x/5-12 &= 2x/5+12 \\Rightarrow x/5 \\\\ &= 24 \\Rightarrow x \\\\ &= 120 \\end{aligned}$$. Hmm none match. Retry assuming 'after replacement, ratio 1:1' from another setup. Skip exact." },
+      { q: "Tea A @₹35 mixed with B @₹45 in ratio 3:2. Selling price for 20% profit?", opts: ["₹46", "₹47", "₹48", "₹50"], a: 2, ex: "Cost mix = $$\\begin{aligned} (35 \\cdot 3+45 \\cdot 2)/5 &= 195/5 \\\\ &= 39 \\end{aligned}$$. SP=39×1.2=46.8. Hmm option A is 46. Closest." },
       { q: "Acid solutions: 25% and 75%. To make 50%, ratio?", opts: ["1:1", "1:2", "2:3", "3:5"], a: 0, ex: "$(75-50):(50-25)=1:1$." },
       { q: "Vessel A: milk:water = 4:1. B: 2:3. Mix in 1:1 to get?", opts: ["3:2", "1:1", "$\\frac{6}{5}:\\frac{4}{5}=3:2$", "Both A and C"], a: 3, ex: "From A: milk=4/5, water=1/5. From B: milk=2/5, water=3/5. Sum: milk=6/5, water=4/5. Ratio=6:4=3:2." },
       { q: "If 8 L water added to 24 L of 50% milk solution, new %?", opts: ["33.33%", "37.5%", "40%", "30%"], a: 1, ex: "Milk = 12. Total = 32. % = 12/32 = 37.5%." },
       { q: "Pure milk costs ₹40/L. Vendor sells mixture at ₹32/L. % water in mix to break even?", opts: ["10%", "20%", "25%", "30%"], a: 1, ex: "Per ₹32 sale, 0.8L pure milk worth ₹32. So 0.8 milk, 0.2 water in 1L. 20% water." },
       { q: "Sugar @₹40 mixed with @₹60 in ratio 3:2. Profit % to sell @₹54?", opts: ["10%", "12.5%", "15%", "20%"], a: 0, ex: "Cost = $(120+120)/5=48$. SP=54. Profit = 6/48 = 12.5%. Hmm option B." },
       { q: "If 16 L 20% milk solution mixed with 24 L 30% milk, % milk in mix?", opts: ["24%", "25%", "26%", "28%"], a: 2, ex: "Milk: 3.2+7.2=10.4. Total=40. %=26%." },
-      { q: "60 L solution has 75% wine. 15 L removed and water added; repeat 1 more time. Wine left?", opts: ["33L", "33.75L", "45L", "37.5L"], a: 1, ex: "Initial wine = 45. After 1 op: $45(1-15/60)=45 \\cdot 0.75=33.75$. After 2: $45 \\cdot 0.75^2=25.31$. Hmm doesn't match. Re-read: 'repeat 1 more time' means 2 total. So $45 \\cdot 0.5625=25.3$. Option mismatch — skip." },
-      { q: "How much water to evaporate from 16 L of 9% salt solution to make 12%?", opts: ["1L", "2L", "3L", "4L"], a: 3, ex: "Salt = 1.44. To be 12% of new vol $v$: $1.44=0.12v \\Rightarrow v=12$. Evaporate $16-12=4$ L." },
+      { q: "60 L solution has 75% wine. 15 L removed and water added; repeat 1 more time. Wine left?", opts: ["33L", "33.75L", "45L", "37.5L"], a: 1, ex: "Initial wine = 45. After 1 op: $$\\begin{aligned} 45(1-15/60) &= 45 \\cdot 0.75 \\\\ &= 33.75 \\end{aligned}$$. After 2: $45 \\cdot 0.75^2=25.31$. Hmm doesn't match. Re-read: 'repeat 1 more time' means 2 total. So $45 \\cdot 0.5625=25.3$. Option mismatch — skip." },
+      { q: "How much water to evaporate from 16 L of 9% salt solution to make 12%?", opts: ["1L", "2L", "3L", "4L"], a: 3, ex: "Salt = 1.44. To be 12% of new vol $v$: $$\\begin{aligned} 1.44 &= 0.12v \\Rightarrow v \\\\ &= 12 \\end{aligned}$$. Evaporate $16-12=4$ L." },
       { q: "Two vessels: ratio of milk:water = 5:2 and 7:6. Mix in 2:3. New ratio?", opts: ["10:9", "9:8", "8:7", "11:10"], a: 0, ex: "V1 of 7 parts: milk 5, water 2. V2 of 13: milk 7, water 6. Take 2 parts of V1 and 3 of V2 (units total). Effective: milk from V1 = 2×5/7=10/7. Water=2×2/7=4/7. From V2: milk=3×7/13=21/13. Water=3×6/13=18/13. LCM 91: milk total = (10×13+21×7)/91=(130+147)/91=277/91. Water=(4×13+18×7)/91=(52+126)/91=178/91. Ratio=277:178. Not clean. Approximate close to 10:9 (270:180)." },
       { q: "Cost of pen mixture: pen A ₹10, pen B ₹15. Mix to sell at ₹13. Ratio?", opts: ["2:3", "3:2", "1:1", "1:2"], a: 0, ex: "(15-13):(13-10)=2:3." },
       { q: "8 L of mixture has milk and water in 3:1. To make ratio 1:1, water to add?", opts: ["2L", "3L", "4L", "5L"], a: 2, ex: "Milk=6, water=2. For 1:1, water = 6. Add 4." },
       { q: "If butter contains 8% impurity, how much pure butter in 250 kg?", opts: ["218 kg", "225 kg", "230 kg", "240 kg"], a: 2, ex: "$250 \\times 0.92=230$." },
       { q: "Average price per kg of 6 kg @₹20 + 4 kg @₹25?", opts: ["₹22", "₹22.5", "₹23", "₹24"], a: 0, ex: "$(120+100)/10=22$." },
-      { q: "Find ratio to mix milk @₹3.20/L with water (free) for 25% gain selling at ₹4/L.", opts: ["4:1", "5:1", "4:5", "5:4"], a: 0, ex: "SP=4, gain 25% → CP=3.20. Same as milk price! So no water needed. Hmm — actually any added water gives profit. To find specifically: if milk:water = $x:1$, CP per L = 3.20x/(x+1). Want $4 = 1.25 \\cdot 3.20x/(x+1) = 4x/(x+1) \\Rightarrow x+1=x$. Impossible. Question typo." },
-      { q: "20% alcohol mixed with 50% alcohol, ratio 2:3. New %?", opts: ["35%", "38%", "40%", "42%"], a: 1, ex: "$(2 \\cdot 20+3 \\cdot 50)/5=190/5=38\\%$." },
+      { q: "Find ratio to mix milk @₹3.20/L with water (free) for 25% gain selling at ₹4/L.", opts: ["4:1", "5:1", "4:5", "5:4"], a: 0, ex: "SP=4, gain 25% → CP=3.20. Same as milk price! So no water needed. Hmm — actually any added water gives profit. To find specifically: if milk:water = $x:1$, CP per L = 3.20x/(x+1). Want $$\\begin{aligned} 4 &= 1.25 \\cdot 3.20x/(x+1) \\\\ &= 4x/(x+1) \\Rightarrow x+1 \\\\ &= x \\end{aligned}$$. Impossible. Question typo." },
+      { q: "20% alcohol mixed with 50% alcohol, ratio 2:3. New %?", opts: ["35%", "38%", "40%", "42%"], a: 1, ex: "$$\\begin{aligned} (2 \\cdot 20+3 \\cdot 50)/5 &= 190/5 \\\\ &= 38\\% \\end{aligned}$$." },
       { q: "Milk vendor adds water to 100 L milk and sells at cost. If profit is 25%, water added?", opts: ["20L", "25L", "30L", "33.33L"], a: 1, ex: "Profit 25% means sells (CP of 125L) worth at his cost (100L). So 25L water added." },
       { q: "Mix 30L 30% acid with 20L 50% acid. % new mix?", opts: ["35%", "38%", "40%", "42%"], a: 1, ex: "Acid: 9+10=19. Vol 50. %=38." }
     ]
@@ -2242,7 +2242,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 2</h4>
       <p>A invests ₹6000 for 4 months, B ₹4000 for 6 months. Profit ₹6000. Each share?</p>
-      <p><b>Solution:</b><br>Ratio = $6000 \\cdot 4 : 4000 \\cdot 6 = 24000 : 24000 = 1:1$.<br>Each gets <b>₹3000</b>.</p>
+      <p><b>Solution:</b><br>Ratio = $$\\begin{aligned} 6000 \\cdot 4 : 4000 \\cdot 6 &= 24000 : 24000 \\\\ &= 1:1 \\end{aligned}$$.<br>Each gets <b>₹3000</b>.</p>
 
       <h4>Example 3</h4>
       <p>A starts business with ₹5000. After 6 months, B joins with ₹6000. Profit at year end = ₹2200. Each's share?</p>
@@ -2274,7 +2274,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 10</h4>
       <p>A and B's share of profit is in ratio 3:5. If A invested ₹6000 for 8 months and B for 6 months, B's investment?</p>
-      <p><b>Solution:</b> $6000 \\cdot 8 : B \\cdot 6 = 3:5 \\Rightarrow B = \\frac{6000 \\cdot 8 \\cdot 5}{6 \\cdot 3} = $ <b>₹13,333</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 6000 \\cdot 8 : B \\cdot 6 &= 3:5 \\Rightarrow B \\\\ &= \\frac{6000 \\cdot 8 \\cdot 5}{6 \\cdot 3} \\\\ &=  \\end{aligned}$$ <b>₹13,333</b>.</p>
 
       <h4>Example 11</h4>
       <p>A and B start with ₹2400 and ₹2700. After 4 months A leaves. Profit at year end ₹1750. A's share?</p>
@@ -2286,7 +2286,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 13</h4>
       <p>If A invests 3 times B and B invests 2/3 of C, ratio of shares?</p>
-      <p><b>Solution:</b><br>B = $\\frac{2C}{3}, A = 3B = 2C$.<br>Ratio $A:B:C = 2C:\\frac{2C}{3}:C = 6:2:3$ (multiplying by 3).</p>
+      <p><b>Solution:</b><br>B = $$\\begin{aligned} \\frac{2C}{3}, A &= 3B \\\\ &= 2C \\end{aligned}$$.<br>Ratio $$\\begin{aligned} A:B:C &= 2C:\\frac{2C}{3}:C \\\\ &= 6:2:3 \\end{aligned}$$ (multiplying by 3).</p>
 
       <h4>Example 14</h4>
       <p>A and B invest in ratio 5:6. After 8 months A withdraws and B continues for another 4 months. Profit ratio at year end?</p>
@@ -2302,7 +2302,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Withdrawal Mid-year</h4>
       <p>A invests ₹3000 for full year. B invests ₹2000 for 8 months. Profit ₹1700. A's share?</p>
-      <p><b>Solution:</b><br>$3000 \cdot 12 : 2000 \cdot 8 = 36000:16000 = 9:4$.<br>Total 13.<br>A = $9/13 \cdot 1700 = 1176$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 3000 \cdot 12 : 2000 \cdot 8 &= 36000:16000 \\\\ &= 9:4 \\end{aligned}$$.<br>Total 13.<br>A = $9/13 \cdot 1700 = 1176$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2313,28 +2313,28 @@ $(c_2 - m)$ : $(m - c_1)$
     `,
     mcq: [
       { q: "A ₹1000, B ₹2000 same time. Profit ₹600. A's share?", opts: ["₹150", "₹200", "₹250", "₹300"], a: 1, ex: "Ratio 1:2. A = 600/3 = 200." },
-      { q: "A ₹4000 for 6 mo, B ₹5000 for 8 mo. B's profit share if total ₹6800?", opts: ["₹3000", "₹3200", "₹4000", "₹4500"], a: 2, ex: "Ratio 24:40 = 3:5. B = 5/8 × 6800 = 4250. Hmm none — actually $4000 = 5/8 \\cdot 6400$. Recompute: $4000 \\cdot 6 : 5000 \\cdot 8 = 24000:40000 = 3:5$. B share = $5/8 \\cdot 6800 = 4250$. None match exactly; closest 4000 or 4500." },
+      { q: "A ₹4000 for 6 mo, B ₹5000 for 8 mo. B's profit share if total ₹6800?", opts: ["₹3000", "₹3200", "₹4000", "₹4500"], a: 2, ex: "Ratio 24:40 = 3:5. B = 5/8 × 6800 = 4250. Hmm none — actually $4000 = 5/8 \\cdot 6400$. Recompute: $$\\begin{aligned} 4000 \\cdot 6 : 5000 \\cdot 8 &= 24000:40000 \\\\ &= 3:5 \\end{aligned}$$. B share = $5/8 \\cdot 6800 = 4250$. None match exactly; closest 4000 or 4500." },
       { q: "A, B, C invest ratio 3:4:5. Profit ₹6000. C's share?", opts: ["₹1500", "₹2000", "₹2500", "₹3000"], a: 2, ex: "C = 5/12 × 6000 = 2500." },
       { q: "A invests ₹10000 for full year. B joins after 6 months with ₹15000. Profit ₹2700. A's share?", opts: ["₹1500", "₹1620", "₹1800", "₹2000"], a: 1, ex: "A: 120, B: 90. Ratio 4:3. A = 4/7 × 2700 = 1542.86. Hmm closest B." },
       { q: "Investments 5:7, profit ratio 5:7. Time ratio?", opts: ["1:1", "5:7", "7:5", "Cannot determine"], a: 0, ex: "Since investment ratio = profit ratio, time same. So 1:1." },
-      { q: "A, B, C invest ₹6000, ₹4000, ₹2000. Time 1:2:3. Profit ratio?", opts: ["1:1:1", "1:2:3", "6:8:6", "3:2:1"], a: 0, ex: "$6 \\cdot 1:4 \\cdot 2:2 \\cdot 3=6:8:6=3:4:3$. Hmm none. Recompute: $6000 \\cdot 1 = 6$, $4000 \\cdot 2=8$, $2000 \\cdot 3=6$. Ratio 6:8:6=3:4:3. None of options matches exactly. Skip." },
+      { q: "A, B, C invest ₹6000, ₹4000, ₹2000. Time 1:2:3. Profit ratio?", opts: ["1:1:1", "1:2:3", "6:8:6", "3:2:1"], a: 0, ex: "$$\\begin{aligned} 6 \\cdot 1:4 \\cdot 2:2 \\cdot 3 &= 6:8:6 \\\\ &= 3:4:3 \\end{aligned}$$. Hmm none. Recompute: $6000 \\cdot 1 = 6$, $4000 \\cdot 2=8$, $2000 \\cdot 3=6$. Ratio 6:8:6=3:4:3. None of options matches exactly. Skip." },
       { q: "Working partner gets 12% of total profit. If profit ₹500, working partner's share before further split?", opts: ["₹60", "₹50", "₹55", "₹70"], a: 0, ex: "12% of 500 = 60." },
       { q: "A: ₹2400 from start; B joins after 3 months with ₹3000. Profit at year ₹540. B's share?", opts: ["₹240", "₹250", "₹270", "₹300"], a: 2, ex: "A=2400×12=28800. B=3000×9=27000. Ratio 28.8:27=16:15. Total 31. B=15/31 ×540=261. Closest C." },
       { q: "Partners A, B invest in ratio 3:5. After 6 months A doubles capital. Profit ratio?", opts: ["3:5", "9:10", "12:10=6:5", "$3+6:5=9:5$"], a: 1, ex: "A: $3 \\cdot 6 + 6 \\cdot 6 = 54$. B: $5 \\cdot 12 = 60$. Ratio 54:60 = 9:10." },
       { q: "X invests ₹15000, Y invests ₹25000. After 1 year profit ₹2000. X's share?", opts: ["₹600", "₹750", "₹800", "₹1200"], a: 1, ex: "Ratio 15:25=3:5. X=3/8 ×2000=750." },
-      { q: "A and B invest ₹40000 and ₹50000. A invests for 6 months, B for 8 months. Profit ₹1140. A's share?", opts: ["₹360", "₹400", "₹480", "₹600"], a: 0, ex: "$40 \\cdot 6:50 \\cdot 8=240:400=3:5$. A=3/8 ×1140=427.5. Hmm. Closest 480? Or 360." },
+      { q: "A and B invest ₹40000 and ₹50000. A invests for 6 months, B for 8 months. Profit ₹1140. A's share?", opts: ["₹360", "₹400", "₹480", "₹600"], a: 0, ex: "$$\\begin{aligned} 40 \\cdot 6:50 \\cdot 8 &= 240:400 \\\\ &= 3:5 \\end{aligned}$$. A=3/8 ×1140=427.5. Hmm. Closest 480? Or 360." },
       { q: "A, B, C invest ₹3000, ₹2400, ₹6000. After 4 months A leaves; after 8 months B doubles. Year-end profit ₹1200. C's share?", opts: ["₹400", "₹500", "₹600", "₹700"], a: 2, ex: "A: 3000×4=12000. B: 2400×8 + 4800×4 = 19200+19200=38400. C: 6000×12=72000. Ratio 12:38.4:72 = approximate 5:16:30. Total 51. C = 30/51×1200≈706. Closest D." },
       { q: "If A invests ₹3 times B for time twice, profit ratio?", opts: ["6:1", "1:6", "3:2", "2:3"], a: 0, ex: "$3 \\cdot 2:1 \\cdot 1=6:1$." },
       { q: "If partners' investments are 4:5:6 and times 5:6:7, profit ratio?", opts: ["20:30:42", "10:15:21", "Both same", "4:5:6"], a: 2, ex: "$4 \\cdot 5:5 \\cdot 6:6 \\cdot 7=20:30:42$." },
-      { q: "A invests for 4 months ₹8000. B invests for 6 months ₹6000. Profit ratio?", opts: ["4:5", "8:9", "Both same", "$\\frac{32000}{36000}=8:9$"], a: 3, ex: "$8000 \\cdot 4:6000 \\cdot 6=32000:36000=8:9$." },
-      { q: "Three partners A:B:C have invested ratio 2:3:5 for 12, 10, 6 months. Profit ratio?", opts: ["$24:30:30=4:5:5$", "1:1:1", "2:3:5", "12:15:25"], a: 0, ex: "$2 \\cdot 12:3 \\cdot 10:5 \\cdot 6=24:30:30=4:5:5$." },
-      { q: "X invests $5000$. Y joins after 3 months with $6000$. Profit ratio at year end?", opts: ["60:54=10:9", "12:9=4:3", "5:6", "60:54=20:18=10:9"], a: 3, ex: "$5000 \\cdot 12:6000 \\cdot 9=60000:54000=10:9$." },
+      { q: "A invests for 4 months ₹8000. B invests for 6 months ₹6000. Profit ratio?", opts: ["4:5", "8:9", "Both same", "$\\frac{32000}{36000}=8:9$"], a: 3, ex: "$$\\begin{aligned} 8000 \\cdot 4:6000 \\cdot 6 &= 32000:36000 \\\\ &= 8:9 \\end{aligned}$$." },
+      { q: "Three partners A:B:C have invested ratio 2:3:5 for 12, 10, 6 months. Profit ratio?", opts: ["$24:30:30=4:5:5$", "1:1:1", "2:3:5", "12:15:25"], a: 0, ex: "$$\\begin{aligned} 2 \\cdot 12:3 \\cdot 10:5 \\cdot 6 &= 24:30:30 \\\\ &= 4:5:5 \\end{aligned}$$." },
+      { q: "X invests $5000$. Y joins after 3 months with $6000$. Profit ratio at year end?", opts: ["60:54=10:9", "12:9=4:3", "5:6", "60:54=20:18=10:9"], a: 3, ex: "$$\\begin{aligned} 5000 \\cdot 12:6000 \\cdot 9 &= 60000:54000 \\\\ &= 10:9 \\end{aligned}$$." },
       { q: "A and B's investments in ratio 6:5, time 4:5. Profit ratio?", opts: ["$24:25$", "1:1", "30:24=5:4", "$6 \\cdot 4: 5 \\cdot 5$"], a: 3, ex: "$24:25$." },
       { q: "If A invests ₹500 more than B, B ₹300 more than C, ratio of shares if time same?", opts: ["Depends on C", "5:3:2", "8:5:2", "Cannot determine"], a: 3, ex: "Need C's amount. Without it, cannot compute." },
-      { q: "A: ₹8000 for 10 months. B: ₹4000 for full year. Profit ₹5600. B's share?", opts: ["₹1600", "₹2240", "₹2400", "₹2800"], a: 1, ex: "$8000 \\cdot 10:4000 \\cdot 12=80:48=5:3$. B = 3/8 × 5600 = 2100. Closest B." },
-      { q: "In a partnership, A's investment is half of B's. If profit ratio 2:3, time ratio A:B?", opts: ["4:3", "3:4", "2:3", "3:2"], a: 0, ex: "Let A_inv=1, B_inv=2. Time A=$t_A$, B=$t_B$. $1 \\cdot t_A : 2 \\cdot t_B = 2:3 \\Rightarrow t_A = 4t_B/3$. So $t_A:t_B=4:3$." },
+      { q: "A: ₹8000 for 10 months. B: ₹4000 for full year. Profit ₹5600. B's share?", opts: ["₹1600", "₹2240", "₹2400", "₹2800"], a: 1, ex: "$$\\begin{aligned} 8000 \\cdot 10:4000 \\cdot 12 &= 80:48 \\\\ &= 5:3 \\end{aligned}$$. B = 3/8 × 5600 = 2100. Closest B." },
+      { q: "In a partnership, A's investment is half of B's. If profit ratio 2:3, time ratio A:B?", opts: ["4:3", "3:4", "2:3", "3:2"], a: 0, ex: "Let A_inv=1, B_inv=2. Time A=$t_A$, B=$t_B$. $$\\begin{aligned} 1 \\cdot t_A : 2 \\cdot t_B &= 2:3 \\Rightarrow t_A \\\\ &= 4t_B/3 \\end{aligned}$$. So $t_A:t_B=4:3$." },
       { q: "Profit ratio 5:6:7. Investment ratio 1:1:1. Time ratio?", opts: ["5:6:7", "1:1:1", "7:6:5", "Cannot say"], a: 0, ex: "Profit = Investment × time. With investment same, time ratio = profit ratio." },
-      { q: "If A=₹2000 for 6 months and B=₹3000 for 4 months, A's profit share if total ₹500?", opts: ["₹200", "₹250", "₹275", "₹300"], a: 1, ex: "$2000 \\cdot 6: 3000 \\cdot 4 = 12:12=1:1$. So A=250." },
+      { q: "If A=₹2000 for 6 months and B=₹3000 for 4 months, A's profit share if total ₹500?", opts: ["₹200", "₹250", "₹275", "₹300"], a: 1, ex: "$$\\begin{aligned} 2000 \\cdot 6: 3000 \\cdot 4 &= 12:12 \\\\ &= 1:1 \\end{aligned}$$. So A=250." },
       { q: "X, Y, Z start business ₹10000, ₹15000, ₹20000 same time. Profit ₹2700. Y's share?", opts: ["₹600", "₹900", "₹1200", "₹1500"], a: 1, ex: "Ratio 2:3:4. Y=3/9×2700=900." },
       { q: "A's investment ratio to B is 5:4 and time ratio 3:2. Profit ratio?", opts: ["15:8", "10:6=5:3", "Same", "$5 \\cdot 3: 4 \\cdot 2$"], a: 3, ex: "$15:8$." }
     ]
@@ -2371,39 +2371,39 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 2</h4>
       <p>If SI on a sum at 10% for 2 years is ₹400, find principal.</p>
-      <p><b>Solution:</b> $P = \\frac{100 \\cdot 400}{10 \\cdot 2} = $ <b>₹2000</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} P &= \\frac{100 \\cdot 400}{10 \\cdot 2} \\\\ &=  \\end{aligned}$$ <b>₹2000</b>.</p>
 
       <h4>Example 3</h4>
       <p>In how many years will a sum double itself at 8% SI?</p>
-      <p><b>Solution:</b> $T = 100/8 = $ <b>12.5 years</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} T &= 100/8 \\\\ &=  \\end{aligned}$$ <b>12.5 years</b>.</p>
 
       <h4>Example 4</h4>
       <p>If a sum becomes 3 times in 10 years at SI, find rate.</p>
-      <p><b>Solution:</b><br>SI = 2P.<br>$R = \\frac{2P \\cdot 100}{P \\cdot 10} = $ <b>20%</b>.</p>
+      <p><b>Solution:</b><br>SI = 2P.<br>$$\\begin{aligned} R &= \\frac{2P \\cdot 100}{P \\cdot 10} \\\\ &=  \\end{aligned}$$ <b>20%</b>.</p>
 
       <h4>Example 5</h4>
       <p>₹600 amounts to ₹720 in 4 yrs. Rate?</p>
-      <p><b>Solution:</b><br>SI=120.<br>$R = \\frac{120 \\cdot 100}{600 \\cdot 4} = $ <b>5%</b>.</p>
+      <p><b>Solution:</b><br>SI=120.<br>$$\\begin{aligned} R &= \\frac{120 \\cdot 100}{600 \\cdot 4} \\\\ &=  \\end{aligned}$$ <b>5%</b>.</p>
 
       <h4>Example 6</h4>
       <p>If ₹400 amounts to ₹480 in 4 yrs at SI, find rate.</p>
-      <p><b>Solution:</b><br>SI=80.<br>$R = 80 \\cdot 100/(400 \\cdot 4) = $ <b>5%</b>.</p>
+      <p><b>Solution:</b><br>SI=80.<br>$$\\begin{aligned} R &= 80 \\cdot 100/(400 \\cdot 4) \\\\ &=  \\end{aligned}$$ <b>5%</b>.</p>
 
       <h4>Example 7</h4>
       <p>A sum becomes 4 times in 12 years at SI. Rate?</p>
-      <p><b>Solution:</b><br>SI = 3P.<br>$R = 3 \\cdot 100/12 = $ <b>25%</b>.</p>
+      <p><b>Solution:</b><br>SI = 3P.<br>$$\\begin{aligned} R &= 3 \\cdot 100/12 \\\\ &=  \\end{aligned}$$ <b>25%</b>.</p>
 
       <h4>Example 8</h4>
       <p>A man takes 2 loans, ₹500 at 5% and ₹700 at 8% for 1 year each. Total SI?</p>
-      <p><b>Solution:</b> $500 \\cdot 5/100 + 700 \\cdot 8/100 = 25+56 = $ <b>₹81</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 500 \\cdot 5/100 + 700 \\cdot 8/100 &= 25+56 \\\\ &=  \\end{aligned}$$ <b>₹81</b>.</p>
 
       <h4>Example 9</h4>
       <p>At what rate of SI will ₹1500 become ₹1800 in 4 years?</p>
-      <p><b>Solution:</b><br>SI=300.<br>$R = 300 \\cdot 100/(1500 \\cdot 4) = $ <b>5%</b>.</p>
+      <p><b>Solution:</b><br>SI=300.<br>$$\\begin{aligned} R &= 300 \\cdot 100/(1500 \\cdot 4) \\\\ &=  \\end{aligned}$$ <b>5%</b>.</p>
 
       <h4>Example 10</h4>
       <p>Same principal generates SI of ₹200 in 4 yr and ₹250 in 5 yr. Find P and R.</p>
-      <p><b>Solution:</b><br>SI per year = (250-200)/(5-4) = 50.<br>Total SI in 4yr = 200.<br>So SI per yr = 50.<br>Use $200 = P \\cdot R \\cdot 4/100 \\Rightarrow PR = 5000$.<br>Need another eqn — assume R=5%, P=1000.</p>
+      <p><b>Solution:</b><br>SI per year = (250-200)/(5-4) = 50.<br>Total SI in 4yr = 200.<br>So SI per yr = 50.<br>Use $$\\begin{aligned} 200 &= P \\cdot R \\cdot 4/100 \\Rightarrow PR \\\\ &= 5000 \\end{aligned}$$.<br>Need another eqn — assume R=5%, P=1000.</p>
 
       <h4>Example 11</h4>
       <p>If sum P amounts to A1 in t1 years and A2 in t2 years (SI), find P.</p>
@@ -2411,11 +2411,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 12</h4>
       <p>Find SI on ₹2400 at 6% for 219 days.</p>
-      <p><b>Solution:</b><br>$T = 219/365 = 0.6$.<br>SI = $2400 \\cdot 6 \\cdot 0.6/100 = $ <b>₹86.4</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} T &= 219/365 \\\\ &= 0.6 \\end{aligned}$$.<br>SI = $2400 \\cdot 6 \\cdot 0.6/100 = $ <b>₹86.4</b>.</p>
 
       <h4>Example 13</h4>
       <p>Difference of SI at 8% and 6% on ₹5000 for 4 years?</p>
-      <p><b>Solution:</b> $\\Delta = 5000 \\cdot 2 \\cdot 4/100 = $ <b>₹400</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\Delta &= 5000 \\cdot 2 \\cdot 4/100 \\\\ &=  \\end{aligned}$$ <b>₹400</b>.</p>
 
       <h4>Example 14</h4>
       <p>If P=₹800, R=6%, T=2.5 yrs. SI?</p>
@@ -2423,15 +2423,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 15</h4>
       <p>What sum will produce ₹50 SI in 5 years at 4%?</p>
-      <p><b>Solution:</b> $P = 50 \\cdot 100/(4 \\cdot 5) = $ <b>₹250</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} P &= 50 \\cdot 100/(4 \\cdot 5) \\\\ &=  \\end{aligned}$$ <b>₹250</b>.</p>
 
       <h4>Example 16: Combined Investments</h4>
       <p>A man invests ₹5000 at 6% for 3 yrs and ₹4000 at 8% for 4 yrs. Total SI?</p>
-      <p><b>Solution:</b> $5000 \cdot 6 \cdot 3/100 + 4000 \cdot 8 \cdot 4/100 = 900+1280 = $ <b>₹2180</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 5000 \cdot 6 \cdot 3/100 + 4000 \cdot 8 \cdot 4/100 &= 900+1280 \\\\ &=  \\end{aligned}$$ <b>₹2180</b>.</p>
 
       <h4>Example 17: Rate finding when amount given</h4>
       <p>Sum amounts to ₹2,400 in 4 yrs and ₹2,520 in 6 yrs at SI. Find P.</p>
-      <p><b>Solution:</b><br>SI for 2 yrs = $2520-2400 = 120 \Rightarrow $ SI/yr = 60.<br>SI for 4 yrs = 240.<br>So $P = 2400-240 = $ <b>₹2160</b>.</p>
+      <p><b>Solution:</b><br>SI for 2 yrs = $2520-2400 = 120 \Rightarrow $ SI/yr = 60.<br>SI for 4 yrs = 240.<br>So $$\\begin{aligned} P &= 2400-240 \\\\ &=  \\end{aligned}$$ <b>₹2160</b>.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2446,26 +2446,26 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Money doubles in 10 yrs at SI. Rate?", opts: ["8%", "10%", "12%", "15%"], a: 1, ex: "T=100/R → R=100/10=10%." },
       { q: "If P=₹500, R=8%, T=2 yrs. SI?", opts: ["₹70", "₹80", "₹90", "₹100"], a: 1, ex: "$500 \\cdot 8 \\cdot 2/100=80$." },
       { q: "₹4000 amounts to ₹5000 in 4 yrs. Rate?", opts: ["5%", "6.25%", "8%", "10%"], a: 1, ex: "SI=1000. R=1000×100/(4000×4)=6.25%." },
-      { q: "Money trebles in 12 yrs at SI. Rate?", opts: ["12%", "15%", "16.67%", "20%"], a: 2, ex: "$R=200/12=16.67\\%$." },
-      { q: "Sum produces ₹450 SI at 5% for 3 yrs. P?", opts: ["₹2500", "₹3000", "₹3500", "₹4000"], a: 1, ex: "$P=450 \\cdot 100/(5 \\cdot 3)=3000$." },
+      { q: "Money trebles in 12 yrs at SI. Rate?", opts: ["12%", "15%", "16.67%", "20%"], a: 2, ex: "$$\\begin{aligned} R &= 200/12 \\\\ &= 16.67\\% \\end{aligned}$$." },
+      { q: "Sum produces ₹450 SI at 5% for 3 yrs. P?", opts: ["₹2500", "₹3000", "₹3500", "₹4000"], a: 1, ex: "$$\\begin{aligned} P &= 450 \\cdot 100/(5 \\cdot 3) \\\\ &= 3000 \\end{aligned}$$." },
       { q: "SI on ₹5000 at 12% for 9 months?", opts: ["₹400", "₹450", "₹500", "₹540"], a: 1, ex: "$5000 \\cdot 12 \\cdot 0.75/100=450$." },
       { q: "₹600 amounts to ₹816 at 4% SI. Time?", opts: ["6 yr", "8 yr", "9 yr", "12 yr"], a: 2, ex: "SI=216. T=216 ×100/(600×4)=9 yr." },
       { q: "At what rate ₹500 becomes ₹650 in 3 yrs?", opts: ["8%", "10%", "12%", "15%"], a: 1, ex: "SI=150. R=150×100/(500×3)=10%." },
       { q: "If money triples in 20 yrs, time to become double?", opts: ["8 yr", "10 yr", "12 yr", "15 yr"], a: 1, ex: "R=200/20=10%. To double: T=100/10=10." },
       { q: "Sum becomes 4x in 6 yrs. Rate?", opts: ["33.33%", "40%", "50%", "60%"], a: 2, ex: "SI=3P. R=300/6=50%." },
       { q: "₹3600 at 12.5% for what time gives ₹450?", opts: ["1 yr", "9 mo", "8 mo", "6 mo"], a: 0, ex: "T=450×100/(3600×12.5)=450×100/45000=1 yr." },
-      { q: "SI for 73 days on ₹1825 at 10%?", opts: ["₹36.5", "₹40", "₹45", "₹50"], a: 0, ex: "$T=73/365=0.2$. SI=$1825 \\cdot 10 \\cdot 0.2/100=36.5$." },
-      { q: "If diff in SI on ₹P at 8% and 6% for 2 yr is ₹40, find P.", opts: ["₹500", "₹800", "₹1000", "₹2000"], a: 2, ex: "$\\Delta=P \\cdot 2 \\cdot 2/100=40 \\Rightarrow P=1000$." },
+      { q: "SI for 73 days on ₹1825 at 10%?", opts: ["₹36.5", "₹40", "₹45", "₹50"], a: 0, ex: "$$\\begin{aligned} T &= 73/365 \\\\ &= 0.2 \\end{aligned}$$. SI=$1825 \\cdot 10 \\cdot 0.2/100=36.5$." },
+      { q: "If diff in SI on ₹P at 8% and 6% for 2 yr is ₹40, find P.", opts: ["₹500", "₹800", "₹1000", "₹2000"], a: 2, ex: "$$\\begin{aligned} \\Delta &= P \\cdot 2 \\cdot 2/100 \\\\ &= 40 \\Rightarrow P \\\\ &= 1000 \\end{aligned}$$." },
       { q: "SI on ₹2000 at 5% for 2 yrs + at 4% for 3 yrs?", opts: ["₹420", "₹440", "₹460", "₹480"], a: 1, ex: "$200+240=440$. Wait: $2000 \\cdot 5 \\cdot 2/100=200$; $2000 \\cdot 4 \\cdot 3/100=240$. Sum 440." },
       { q: "₹P amounts to ₹A in 2 yrs and 2A in 5 yrs (SI). Find R.", opts: ["10%", "12.5%", "20%", "25%"], a: 3, ex: "SI for 2yrs = A-P; SI for 5yrs = 2A-P. Difference = A = SI for 3yrs. So SI per yr = A/3. Compare: 2(A/3) = A-P → P = A/3. So R = (A-P)/P × 100/2 = (2A/3)/(A/3) ×50 = 2×50=100%? Hmm. Skip." },
-      { q: "P=₹1200, SI for 2 yrs at 4% then 3 yrs at 6%?", opts: ["₹260", "₹312", "₹360", "₹400"], a: 1, ex: "$1200 \\cdot 4 \\cdot 2/100 + 1200 \\cdot 6 \\cdot 3/100 = 96+216=312$." },
-      { q: "Sum produces ₹240 SI in 3 yrs at 4%. Sum?", opts: ["₹1800", "₹2000", "₹2200", "₹2500"], a: 1, ex: "$P=240 \\cdot 100/(4 \\cdot 3)=2000$." },
+      { q: "P=₹1200, SI for 2 yrs at 4% then 3 yrs at 6%?", opts: ["₹260", "₹312", "₹360", "₹400"], a: 1, ex: "$$\\begin{aligned} 1200 \\cdot 4 \\cdot 2/100 + 1200 \\cdot 6 \\cdot 3/100 &= 96+216 \\\\ &= 312 \\end{aligned}$$." },
+      { q: "Sum produces ₹240 SI in 3 yrs at 4%. Sum?", opts: ["₹1800", "₹2000", "₹2200", "₹2500"], a: 1, ex: "$$\\begin{aligned} P &= 240 \\cdot 100/(4 \\cdot 3) \\\\ &= 2000 \\end{aligned}$$." },
       { q: "If R doubles, SI?", opts: ["doubles", "halves", "quadruples", "unchanged"], a: 0, ex: "SI is proportional to R." },
       { q: "₹500 + SI for 4 yrs at 5% = ?", opts: ["₹575", "₹600", "₹620", "₹650"], a: 1, ex: "SI=100. A=600." },
       { q: "₹4500 amounts to ₹5400 at 8% SI. T?", opts: ["1 yr", "2 yr", "2.5 yr", "3 yr"], a: 2, ex: "SI=900. T=900 ×100/(4500×8)=2.5 yr." },
       { q: "Money becomes 6 times in 50 years at SI. Rate?", opts: ["8%", "10%", "12%", "15%"], a: 1, ex: "SI=5P. R=500/50=10%." },
       { q: "If rate of interest is 8% for 1st year, 10% for 2nd, 12% for 3rd; SI on ₹1000 for 3 yrs?", opts: ["₹280", "₹300", "₹320", "₹350"], a: 1, ex: "$10 \\cdot (8+10+12)= 300$." },
-      { q: "P=₹2000, SI=₹240, T=2yr. R?", opts: ["5%", "6%", "8%", "10%"], a: 1, ex: "$R=240 \\cdot 100/(2000 \\cdot 2)=6\\%$." }
+      { q: "P=₹2000, SI=₹240, T=2yr. R?", opts: ["5%", "6%", "8%", "10%"], a: 1, ex: "$$\\begin{aligned} R &= 240 \\cdot 100/(2000 \\cdot 2) \\\\ &= 6\\% \\end{aligned}$$." }
     ]
   };
 
@@ -2502,7 +2502,7 @@ $(c_2 - m)$ : $(m - c_1)$
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>CI on ₹1000 at 10% for 2 yrs?</p>
-      <p><b>Solution:</b><br>$A = 1000 \\cdot (1.1)^2 = 1210$.<br>CI = <b>₹210</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} A &= 1000 \\cdot (1.1)^2 \\\\ &= 1210 \\end{aligned}$$.<br>CI = <b>₹210</b>.</p>
 
       <h4>Example 2</h4>
       <p>SI vs CI on ₹2000 at 10% for 2 yrs.</p>
@@ -2510,23 +2510,23 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 3</h4>
       <p>CI on ₹8000 at 5% half-yearly for 1 yr?</p>
-      <p><b>Solution:</b><br>Half-yearly: $A = 8000(1.025)^2 = 8000 \\cdot 1.050625 = 8405$.<br>CI = ₹405.</p>
+      <p><b>Solution:</b><br>Half-yearly: $$\\begin{aligned} A &= 8000(1.025)^2 \\\\ &= 8000 \\cdot 1.050625 \\\\ &= 8405 \\end{aligned}$$.<br>CI = ₹405.</p>
 
       <h4>Example 4</h4>
       <p>Find sum that amounts to ₹1331 in 3 yrs at 10% CI.</p>
-      <p><b>Solution:</b> $P = 1331/(1.1)^3 = 1331/1.331 = $ <b>₹1000</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} P &= 1331/(1.1)^3 \\\\ &= 1331/1.331 \\\\ &=  \\end{aligned}$$ <b>₹1000</b>.</p>
 
       <h4>Example 5: CI−SI Diff (2 yrs)</h4>
       <p>Diff between CI and SI on ₹5000 at 4% for 2 yrs?</p>
-      <p><b>Solution:</b> $5000 \\cdot (0.04)^2 = 5000 \\cdot 0.0016 = $ <b>₹8</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 5000 \\cdot (0.04)^2 &= 5000 \\cdot 0.0016 \\\\ &=  \\end{aligned}$$ <b>₹8</b>.</p>
 
       <h4>Example 6: CI−SI Diff (3 yrs)</h4>
       <p>If diff between CI and SI for 3 yrs at 10% = ₹62, find P.</p>
-      <p><b>Solution:</b> $\\Delta = P(0.1)^2(3+0.1) = P \\cdot 0.01 \\cdot 3.1 = 0.031P = 62 \\Rightarrow P = $ <b>₹2000</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\Delta &= P(0.1)^2(3+0.1) \\\\ &= P \\cdot 0.01 \\cdot 3.1 \\\\ &= 0.031P \\\\ &= 62 \\Rightarrow P \\\\ &=  \\end{aligned}$$ <b>₹2000</b>.</p>
 
       <h4>Example 7</h4>
       <p>At what rate of CI a sum doubles in 2 yrs?</p>
-      <p><b>Solution:</b> $(1+R/100)^2 = 2 \\Rightarrow 1+R/100 = \\sqrt{2} \\approx 1.414 \\Rightarrow R \\approx $ <b>41.42%</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (1+R/100)^2 &= 2 \\Rightarrow 1+R/100 \\\\ &= \\sqrt{2} \\approx 1.414 \\Rightarrow R \\approx \\end{aligned}$$ <b>41.42%</b>.</p>
 
       <h4>Example 8</h4>
       <p>Money triples in 10 yrs at CI. Approximate rate?</p>
@@ -2534,7 +2534,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 9</h4>
       <p>If a sum amounts to ₹4840 in 2 yrs and ₹5324 in 3 yrs at CI, find R and P.</p>
-      <p><b>Solution:</b><br>$R = (5324/4840 - 1) \\times 100 = 10\\%$.<br>$P = 4840/(1.1)^2 = $ <b>₹4000</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} R &= (5324/4840 - 1) \\times 100 \\\\ &= 10\\% \\end{aligned}$$.<br>$$\\begin{aligned} P &= 4840/(1.1)^2 \\\\ &=  \\end{aligned}$$ <b>₹4000</b>.</p>
 
       <h4>Example 10</h4>
       <p>Sum at 8% CI: SI for 1st year ₹400. CI for 1st year?</p>
@@ -2546,7 +2546,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 12</h4>
       <p>Find CI on ₹10000 at 12% for 2 yrs.</p>
-      <p><b>Solution:</b> $10000 \\cdot (1.12)^2 - 10000 = 12544-10000 = $ <b>₹2544</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 10000 \\cdot (1.12)^2 - 10000 &= 12544-10000 \\\\ &=  \\end{aligned}$$ <b>₹2544</b>.</p>
 
       <h4>Example 13</h4>
       <p>If P=10000, R=20%, T=1.5 yrs compounded annually, find A.</p>
@@ -2554,11 +2554,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 14</h4>
       <p>SI on ₹5000 for 2 yrs is ₹500. CI for same?</p>
-      <p><b>Solution:</b><br>R = 5%.<br>CI = $5000(1.05)^2 - 5000 = 5512.5-5000 = $ <b>₹512.5</b>.</p>
+      <p><b>Solution:</b><br>R = 5%.<br>CI = $$\\begin{aligned} 5000(1.05)^2 - 5000 &= 5512.5-5000 \\\\ &=  \\end{aligned}$$ <b>₹512.5</b>.</p>
 
       <h4>Example 15</h4>
       <p>Investment doubles every 5 yrs at CI. After 25 yrs, how many times?</p>
-      <p><b>Solution:</b> $2^{25/5} = 2^5 = $ <b>32 times</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 2^{25/5} &= 2^5 \\\\ &=  \\end{aligned}$$ <b>32 times</b>.</p>
 
       <h4>Example 16: Diff CI−SI for 2 yrs</h4>
       <p>P=₹4000, R=10%, T=2 yrs. CI−SI?</p>
@@ -2566,7 +2566,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Half-Yearly Compounding</h4>
       <p>P=₹2000, R=10% pa, compounded half-yearly, T=1 yr.</p>
-      <p><b>Solution:</b><br>$A = 2000(1.05)^2 = 2205$.<br>CI = ₹205.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} A &= 2000(1.05)^2 \\\\ &= 2205 \\end{aligned}$$.<br>CI = ₹205.</p>
 
       <h4>Example 18: Money Becomes $n$ Times</h4>
       <p>If a sum doubles in 4 yrs at CI, in how many years it becomes 8 times?</p>
@@ -2582,25 +2582,25 @@ $(c_2 - m)$ : $(m - c_1)$
     mcq: [
       { q: "CI on ₹1000 at 10% for 2 yrs?", opts: ["₹200", "₹210", "₹220", "₹250"], a: 1, ex: "$1000(1.1)^2-1000=210$." },
       { q: "Sum doubles at 8% CI in approx years?", opts: ["7", "9", "10", "12"], a: 1, ex: "Rule of 72: 72/8=9." },
-      { q: "CI for ₹10000 @5% for 3 yrs?", opts: ["₹1500", "₹1576", "₹1580", "₹1640"], a: 1, ex: "$10000(1.05)^3-10000=11576.25-10000=1576.25$." },
-      { q: "Diff CI and SI on ₹4000 at 5% for 2 yrs?", opts: ["₹4", "₹10", "₹15", "₹20"], a: 1, ex: "$4000(0.05)^2=4000 \\cdot 0.0025=10$." },
-      { q: "Diff CI−SI on ₹P at 10% for 3 yrs = ₹93. P?", opts: ["₹2500", "₹3000", "₹3200", "₹3500"], a: 1, ex: "$0.031P=93 \\Rightarrow P=3000$." },
-      { q: "Sum amounts to ₹1331 in 3 yrs at 10% CI. P?", opts: ["₹1000", "₹1100", "₹1200", "₹1300"], a: 0, ex: "$P=1331/1.331=1000$." },
-      { q: "Sum at 5% CI compounded half-yearly for 1 yr equivalent annual rate?", opts: ["5%", "5.0625%", "10%", "10.25%"], a: 1, ex: "$(1.025)^2-1=0.050625=5.0625\\%$." },
+      { q: "CI for ₹10000 @5% for 3 yrs?", opts: ["₹1500", "₹1576", "₹1580", "₹1640"], a: 1, ex: "$$\\begin{aligned} 10000(1.05)^3-10000 &= 11576.25-10000 \\\\ &= 1576.25 \\end{aligned}$$." },
+      { q: "Diff CI and SI on ₹4000 at 5% for 2 yrs?", opts: ["₹4", "₹10", "₹15", "₹20"], a: 1, ex: "$$\\begin{aligned} 4000(0.05)^2 &= 4000 \\cdot 0.0025 \\\\ &= 10 \\end{aligned}$$." },
+      { q: "Diff CI−SI on ₹P at 10% for 3 yrs = ₹93. P?", opts: ["₹2500", "₹3000", "₹3200", "₹3500"], a: 1, ex: "$$\\begin{aligned} 0.031P &= 93 \\Rightarrow P \\\\ &= 3000 \\end{aligned}$$." },
+      { q: "Sum amounts to ₹1331 in 3 yrs at 10% CI. P?", opts: ["₹1000", "₹1100", "₹1200", "₹1300"], a: 0, ex: "$$\\begin{aligned} P &= 1331/1.331 \\\\ &= 1000 \\end{aligned}$$." },
+      { q: "Sum at 5% CI compounded half-yearly for 1 yr equivalent annual rate?", opts: ["5%", "5.0625%", "10%", "10.25%"], a: 1, ex: "$$\\begin{aligned} (1.025)^2-1 &= 0.050625 \\\\ &= 5.0625\\% \\end{aligned}$$." },
       { q: "P=₹8000, R=20%, T=9 months, half-yearly compounding?", opts: ["₹880", "₹1240", "₹1320", "₹1452"], a: 0, ex: "$8000(1.1)^{1.5} \\approx 8000 \\cdot 1.1537=9230$. CI=1230. Hmm option C 1320 close." },
       { q: "Sum doubles in 4 yrs at CI. In 20 yrs, becomes how many times?", opts: ["8", "16", "32", "64"], a: 2, ex: "$2^{20/4}=32$." },
-      { q: "₹5000 amounts to ₹6655 in 2 yrs. Rate?", opts: ["12%", "15%", "20%", "25%"], a: 2, ex: "Hmm option: $(1+r)^2=1.331=(1.1)^3$. For 2 yrs $1.331=(1.15)^2$? No, $(1.15)^2=1.3225$. Need $\\sqrt{1.331}=1.154$, so R≈15.4%. Close to B option 15." },
+      { q: "₹5000 amounts to ₹6655 in 2 yrs. Rate?", opts: ["12%", "15%", "20%", "25%"], a: 2, ex: "Hmm option: $$\\begin{aligned} (1+r)^2 &= 1.331 \\\\ &= (1.1)^3 \\end{aligned}$$. For 2 yrs $1.331=(1.15)^2$? No, $(1.15)^2=1.3225$. Need $\\sqrt{1.331}=1.154$, so R≈15.4%. Close to B option 15." },
       { q: "Sum to ₹4840 in 2 yrs and ₹5324 in 3 yrs (CI). Rate?", opts: ["10%", "11%", "12%", "15%"], a: 0, ex: "$5324/4840=1.10$. So R=10%." },
       { q: "If P=₹2000, R=10%, T=2 yrs, SI vs CI diff?", opts: ["₹10", "₹20", "₹40", "₹50"], a: 1, ex: "$2000(0.1)^2=20$." },
       { q: "₹3000 at 10% half-yearly for 1 yr. CI?", opts: ["₹307.5", "₹315", "₹325", "₹350"], a: 0, ex: "$3000(1.05)^2-3000=307.5$." },
-      { q: "Sum becomes ₹2420 in 2 yrs at 10% CI. P?", opts: ["₹2000", "₹2100", "₹2200", "₹2300"], a: 0, ex: "$P=2420/1.21=2000$." },
-      { q: "Sum becomes 9 times in 2 yrs at CI. Rate?", opts: ["100%", "200%", "300%", "Not possible"], a: 1, ex: "$(1+r)^2=9 \\Rightarrow 1+r=3 \\Rightarrow r=200\\%$." },
+      { q: "Sum becomes ₹2420 in 2 yrs at 10% CI. P?", opts: ["₹2000", "₹2100", "₹2200", "₹2300"], a: 0, ex: "$$\\begin{aligned} P &= 2420/1.21 \\\\ &= 2000 \\end{aligned}$$." },
+      { q: "Sum becomes 9 times in 2 yrs at CI. Rate?", opts: ["100%", "200%", "300%", "Not possible"], a: 1, ex: "$$\\begin{aligned} (1+r)^2 &= 9 \\Rightarrow 1+r \\\\ &= 3 \\Rightarrow r \\\\ &= 200\\% \\end{aligned}$$." },
       { q: "CI for ₹2000 at 5% for 2 yrs?", opts: ["₹200", "₹205", "₹210", "₹220"], a: 1, ex: "$2000(1.05)^2-2000=205$." },
       { q: "Diff CI vs SI for 3 yrs on ₹P at R%: formula?", opts: ["$PR^2/10000$", "$PR^2(3+R/100)/10000$", "$3PR/100$", "Same as 2-yr"], a: 1, ex: "Formula." },
       { q: "Money trebles in 8 yrs at CI. To 9x?", opts: ["12 yr", "16 yr", "20 yr", "24 yr"], a: 1, ex: "$3^2=9$, so $2 \\times 8=16$ yr." },
       { q: "P=₹8000, R=10%, T=2 yrs. A?", opts: ["₹9680", "₹9680", "₹9800", "₹10000"], a: 0, ex: "$8000(1.1)^2=9680$." },
-      { q: "If CI for 1st year = ₹400 and 2nd year ₹440, rate?", opts: ["5%", "8%", "10%", "12%"], a: 2, ex: "$440-400=40 = 10\\%$ of 400. R=10%." },
-      { q: "Compound annually, ₹1500 amounts to ₹2160 in 2 yrs. Rate?", opts: ["10%", "15%", "20%", "25%"], a: 2, ex: "$2160/1500=1.44=1.2^2$, R=20%." },
+      { q: "If CI for 1st year = ₹400 and 2nd year ₹440, rate?", opts: ["5%", "8%", "10%", "12%"], a: 2, ex: "$$\\begin{aligned} 440-400 &= 40 \\\\ &= 10\\% \\end{aligned}$$ of 400. R=10%." },
+      { q: "Compound annually, ₹1500 amounts to ₹2160 in 2 yrs. Rate?", opts: ["10%", "15%", "20%", "25%"], a: 2, ex: "$$\\begin{aligned} 2160/1500 &= 1.44 \\\\ &= 1.2^2 \\end{aligned}$$, R=20%." },
       { q: "Sum doubles in 5 yrs (CI). To quadruple?", opts: ["8 yr", "10 yr", "15 yr", "20 yr"], a: 1, ex: "$2^2=4$, time $= 10$." },
       { q: "Diff CI - SI on Rs 1500 at 4% for 2 yrs?", opts: ["₹2.4", "₹3", "₹4", "₹6"], a: 0, ex: "$1500 \\cdot 0.0016=2.4$." },
       { q: "Population 8000 grows 10% yr 1, 20% yr 2. After 2 yrs?", opts: ["10000", "10560", "10800", "11520"], a: 1, ex: "$8000 \\cdot 1.1 \\cdot 1.2=10560$." },
@@ -2646,15 +2646,15 @@ $(c_2 - m)$ : $(m - c_1)$
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>A does in 10 days, B in 15 days. Together?</p>
-      <p><b>Solution:</b> $\\frac{10 \\cdot 15}{10+15} = \\frac{150}{25} = 6$ days.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{10 \\cdot 15}{10+15} &= \\frac{150}{25} \\\\ &= 6 \\end{aligned}$$ days.</p>
 
       <h4>Example 2</h4>
       <p>A and B together in 12 days. A alone in 20 days. B alone?</p>
-      <p><b>Solution:</b><br>$\\frac{1}{B} = \\frac{1}{12} - \\frac{1}{20} = \\frac{5-3}{60} = \\frac{1}{30}$.<br>So <b>30 days</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\frac{1}{B} &= \\frac{1}{12} - \\frac{1}{20} \\\\ &= \\frac{5-3}{60} \\\\ &= \\frac{1}{30} \\end{aligned}$$.<br>So <b>30 days</b>.</p>
 
       <h4>Example 3</h4>
       <p>A is twice as good a workman as B. Together in 9 days. A alone?</p>
-      <p><b>Solution:</b><br>A:B efficiency = 2:1.<br>So time ratio = 1:2.<br>Let A take $x$ days, B take $2x$.<br>$\\frac{1}{x}+\\frac{1}{2x}=\\frac{1}{9} \\Rightarrow \\frac{3}{2x}=\\frac{1}{9} \\Rightarrow x = 13.5$ days.</p>
+      <p><b>Solution:</b><br>A:B efficiency = 2:1.<br>So time ratio = 1:2.<br>Let A take $x$ days, B take $2x$.<br>$$\\begin{aligned} \\frac{1}{x}+\\frac{1}{2x} &= \\frac{1}{9} \\Rightarrow \\frac{3}{2x} \\\\ &= \\frac{1}{9} \\Rightarrow x \\\\ &= 13.5 \\end{aligned}$$ days.</p>
 
       <h4>Example 4 (LCM method)</h4>
       <p>A in 12 days, B in 16, C in 24. Together?</p>
@@ -2666,7 +2666,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 6 (Men-Days)</h4>
       <p>10 men can build a wall in 8 days. 16 men can in?</p>
-      <p><b>Solution:</b> $10 \\cdot 8 = 16 \\cdot D \\Rightarrow D = 5$ days.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 10 \\cdot 8 &= 16 \\cdot D \\Rightarrow D \\\\ &= 5 \\end{aligned}$$ days.</p>
 
       <h4>Example 7</h4>
       <p>6 men + 8 boys can do work in 10 days; 26 men + 48 boys in 2 days. Time for 15 men + 20 boys?</p>
@@ -2682,11 +2682,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 10</h4>
       <p>A 2x efficient as B, together finish in 6 days. A alone?</p>
-      <p><b>Solution:</b><br>Let B take $2x$ days, A take $x$ days.<br>$1/x + 1/(2x) = 1/6 \\Rightarrow 3/(2x) = 1/6 \\Rightarrow x = 9$ days.</p>
+      <p><b>Solution:</b><br>Let B take $2x$ days, A take $x$ days.<br>$$\\begin{aligned} 1/x + 1/(2x) &= 1/6 \\Rightarrow 3/(2x) \\\\ &= 1/6 \\Rightarrow x \\\\ &= 9 \\end{aligned}$$ days.</p>
 
       <h4>Example 11</h4>
       <p>A and B in 12 days, B and C in 15, A and C in 20. All three together?</p>
-      <p><b>Solution:</b><br>$1/A + 1/B + 1/B + 1/C + 1/A + 1/C = 1/12 + 1/15 + 1/20 = (5+4+3)/60 = 12/60 = 1/5$.<br>So $2(1/A+1/B+1/C) = 1/5 \\Rightarrow 1/A+1/B+1/C = 1/10$.<br>Time = 10 days.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 1/A + 1/B + 1/B + 1/C + 1/A + 1/C &= 1/12 + 1/15 + 1/20 \\\\ &= (5+4+3)/60 \\\\ &= 12/60 \\\\ &= 1/5 \\end{aligned}$$.<br>So $$\\begin{aligned} 2(1/A+1/B+1/C) &= 1/5 \\Rightarrow 1/A+1/B+1/C \\\\ &= 1/10 \\end{aligned}$$.<br>Time = 10 days.</p>
 
       <h4>Example 12</h4>
       <p>A can do in 20 days. After 4 days B joins. Together they finish remaining in 8 days. B alone?</p>
@@ -2702,7 +2702,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 15</h4>
       <p>A in 24 days, B in 36 days. Together work but B leaves 8 days before completion. Total time?</p>
-      <p><b>Solution:</b><br>Let total time = $T$ days.<br>A works $T$ days; B works $T-8$.<br>$\\frac{T}{24} + \\frac{T-8}{36} = 1 \\Rightarrow \\frac{3T}{72} + \\frac{2(T-8)}{72} = 1 \\Rightarrow 3T + 2T - 16 = 72 \\Rightarrow 5T = 88 \\Rightarrow T = 17.6$ days.</p>
+      <p><b>Solution:</b><br>Let total time = $T$ days.<br>A works $T$ days; B works $T-8$.<br>$$\\begin{aligned} \\frac{T}{24} + \\frac{T-8}{36} &= 1 \\Rightarrow \\frac{3T}{72} + \\frac{2(T-8)}{72} \\\\ &= 1 \\Rightarrow 3T + 2T - 16 \\\\ &= 72 \\Rightarrow 5T \\\\ &= 88 \\Rightarrow T \\\\ &= 17.6 \\end{aligned}$$ days.</p>
 
       <h4>Example 16: Combined to Find Third</h4>
       <p>A and B finish work in 12 days. B and C finish in 16 days. A starts and works for 5 days, then B continues alone for 7 days. C finishes in 13 days. Find C's individual time.</p>
@@ -2722,7 +2722,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 20: Variable Days</h4>
       <p>A man does work in $x$ days. If he worked twice as efficiently, he'd take 6 days less. Find $x$.</p>
-      <p><b>Solution:</b> Twice efficient → half time = $x/2 = x - 6 \Rightarrow x = $ <b>12</b>.</p>
+      <p><b>Solution:</b> Twice efficient → half time = $$\\begin{aligned} x/2 &= x - 6 \Rightarrow x \\\\ &=  \\end{aligned}$$ <b>12</b>.</p>
 
       <h4>Example 21: Group Work</h4>
       <p>20 men complete a work in 30 days. After 10 days, 5 men leave. Total days?</p>
@@ -2737,27 +2737,27 @@ $(c_2 - m)$ : $(m - c_1)$
     `,
     mcq: [
       { q: "A in 6 days, B in 12 days. Together?", opts: ["3 days", "4 days", "5 days", "9 days"], a: 1, ex: "$\\frac{6 \\cdot 12}{18}=4$." },
-      { q: "A in 10, B in 15, C in 30. Together?", opts: ["5", "6", "8", "10"], a: 0, ex: "$1/10+1/15+1/30 = 3/30+2/30+1/30=6/30=1/5$. So 5 days." },
-      { q: "A+B in 8 days, A in 12. B alone?", opts: ["18", "20", "24", "30"], a: 2, ex: "$1/B=1/8-1/12=1/24$." },
-      { q: "20 men 12 days = 30 men x days. x?", opts: ["8", "9", "10", "12"], a: 0, ex: "$240=30x, x=8$." },
-      { q: "A 3x efficient as B. A+B finish in 9 days. A alone?", opts: ["12", "13", "10", "15"], a: 0, ex: "Time ratio 1:3. $1/x+1/3x=1/9 \\Rightarrow 4/3x=1/9 \\Rightarrow x=12$." },
-      { q: "Men leaving: 20 men in 30 days; after 5 days, 10 leave. Remaining?", opts: ["35", "45", "50", "55"], a: 2, ex: "Work done in 5 days = 5/30=1/6 (with 20 men). Remaining = 5/6 with 10 men. $5/6 = 10 \\cdot D/600 \\Rightarrow D=50$. Total time = 55." },
+      { q: "A in 10, B in 15, C in 30. Together?", opts: ["5", "6", "8", "10"], a: 0, ex: "$$\\begin{aligned} 1/10+1/15+1/30 &= 3/30+2/30+1/30 \\\\ &= 6/30 \\\\ &= 1/5 \\end{aligned}$$. So 5 days." },
+      { q: "A+B in 8 days, A in 12. B alone?", opts: ["18", "20", "24", "30"], a: 2, ex: "$$\\begin{aligned} 1/B &= 1/8-1/12 \\\\ &= 1/24 \\end{aligned}$$." },
+      { q: "20 men 12 days = 30 men x days. x?", opts: ["8", "9", "10", "12"], a: 0, ex: "$$\\begin{aligned} 240 &= 30x, x \\\\ &= 8 \\end{aligned}$$." },
+      { q: "A 3x efficient as B. A+B finish in 9 days. A alone?", opts: ["12", "13", "10", "15"], a: 0, ex: "Time ratio 1:3. $$\\begin{aligned} 1/x+1/3x &= 1/9 \\Rightarrow 4/3x \\\\ &= 1/9 \\Rightarrow x \\\\ &= 12 \\end{aligned}$$." },
+      { q: "Men leaving: 20 men in 30 days; after 5 days, 10 leave. Remaining?", opts: ["35", "45", "50", "55"], a: 2, ex: "Work done in 5 days = 5/30=1/6 (with 20 men). Remaining = 5/6 with 10 men. $$\\begin{aligned} 5/6 &= 10 \\cdot D/600 \\Rightarrow D \\\\ &= 50 \\end{aligned}$$. Total time = 55." },
       { q: "A in 8 days. He works 3 days then leaves; B finishes in 6 days. B alone?", opts: ["12", "16", "10", "20"], a: 2, ex: "A: 3/8 done. Remaining 5/8 by B in 6 days. B's rate = 5/48 per day. B alone = 48/5 = 9.6 days. Closest 10." },
       { q: "A,B,C work alternate days starting A. A=6, B=8, C=12. Total time?", opts: ["6.5", "7", "7.5", "8"], a: 2, ex: "Per 3-day cycle: 1/6+1/8+1/12 = 4/24+3/24+2/24 = 9/24=3/8. So 2 cycles=6 days for 6/8. Need 2/8 more. A starts day 7: 1/6=4/24. Day 7 alone A>=needed? 2/8=6/24<4/24+wait 2/8=6/24 not >4/24. Skip clean." },
       { q: "Worker A is 25% more efficient than B. B alone 15 days. A alone?", opts: ["10 days", "12 days", "14 days", "11 days"], a: 1, ex: "Eff ratio 5:4. Time ratio 4:5. A=12 days." },
       { q: "10 men or 15 women do work in 12 days. 5 men + 10 women?", opts: ["8", "9", "10", "12"], a: 1, ex: "10m=15w → 1m=1.5w. 5m+10w = 7.5w+10w=17.5w. Work=15×12=180w-days. Time=180/17.5≈10.3 days. Closest C 10." },
       { q: "8 men in 12 days. After 6 days, 4 join. Total time?", opts: ["8 days", "9 days", "10 days", "11 days"], a: 1, ex: "Work in first 6 days = 6/12=1/2. Remaining=1/2 with 12 men: 12d=8 \\cdot 6/2/12=4×... Actually 8 men 12 days=96 man-days; 6 done = 48. 48 left with 12 men: 48/12=4 days. Total=10. Option C." },
-      { q: "A=18d, B=24d. Together x days then A leaves; B finishes in 4 days. x?", opts: ["6", "8", "10", "12"], a: 2, ex: "B's 4 days = 4/24 = 1/6. Remaining 5/6 in x days by both: $x(1/18+1/24)=5/6 \\Rightarrow x \\cdot 7/72=5/6 \\Rightarrow x \\approx 8.57$. Close C." },
-      { q: "If A+B in 12, A+C in 15, B+C in 20. All three?", opts: ["8", "10", "12", "15"], a: 1, ex: "Sum = $2(1/A+1/B+1/C) = 1/12+1/15+1/20 = (5+4+3)/60 = 1/5$. So all three: 10 days." },
-      { q: "A finishes in 12 days, B 2x slower. Together?", opts: ["6", "8", "9", "10"], a: 1, ex: "B=24. Together $= 12 \\cdot 24/36 = 8$." },
-      { q: "30 men 25 days work; 20 men work in?", opts: ["30", "37.5", "40", "45"], a: 1, ex: "$30 \\cdot 25 = 20 \\cdot D \\Rightarrow D=37.5$." },
-      { q: "12 men do work in 36 days. How many men for 27 days?", opts: ["14", "15", "16", "18"], a: 2, ex: "$12 \\cdot 36 = M \\cdot 27 \\Rightarrow M=16$." },
-      { q: "A=4 days, B=8 days, C=12 days. Combined per day?", opts: ["11/24", "1/2", "5/12", "6/24"], a: 0, ex: "$1/4+1/8+1/12=6/24+3/24+2/24=11/24$." },
+      { q: "A=18d, B=24d. Together x days then A leaves; B finishes in 4 days. x?", opts: ["6", "8", "10", "12"], a: 2, ex: "B's 4 days = 4/24 = 1/6. Remaining 5/6 in x days by both: $$\\begin{aligned} x(1/18+1/24) &= 5/6 \\Rightarrow x \\cdot 7/72 \\\\ &= 5/6 \\Rightarrow x \\approx 8.57 \\end{aligned}$$. Close C." },
+      { q: "If A+B in 12, A+C in 15, B+C in 20. All three?", opts: ["8", "10", "12", "15"], a: 1, ex: "Sum = $$\\begin{aligned} 2(1/A+1/B+1/C) &= 1/12+1/15+1/20 \\\\ &= (5+4+3)/60 \\\\ &= 1/5 \\end{aligned}$$. So all three: 10 days." },
+      { q: "A finishes in 12 days, B 2x slower. Together?", opts: ["6", "8", "9", "10"], a: 1, ex: "B=24. Together $$\\begin{aligned}  &= 12 \\cdot 24/36 \\\\ &= 8 \\end{aligned}$$." },
+      { q: "30 men 25 days work; 20 men work in?", opts: ["30", "37.5", "40", "45"], a: 1, ex: "$$\\begin{aligned} 30 \\cdot 25 &= 20 \\cdot D \\Rightarrow D \\\\ &= 37.5 \\end{aligned}$$." },
+      { q: "12 men do work in 36 days. How many men for 27 days?", opts: ["14", "15", "16", "18"], a: 2, ex: "$$\\begin{aligned} 12 \\cdot 36 &= M \\cdot 27 \\Rightarrow M \\\\ &= 16 \\end{aligned}$$." },
+      { q: "A=4 days, B=8 days, C=12 days. Combined per day?", opts: ["11/24", "1/2", "5/12", "6/24"], a: 0, ex: "$$\\begin{aligned} 1/4+1/8+1/12 &= 6/24+3/24+2/24 \\\\ &= 11/24 \\end{aligned}$$." },
       { q: "If A is 50% as efficient as B and they together take 12 days. A alone?", opts: ["18", "24", "30", "36"], a: 3, ex: "Eff B=2, A=1; total=3 units/day work. Together=12 days=>36 units. A alone: 36/1=36 days." },
-      { q: "If 8 men in 10 days = 16 women in same days, women per man?", opts: ["1.5", "2", "2.5", "3"], a: 1, ex: "$8m=16w \\Rightarrow 1m=2w$." },
-      { q: "A and B together in 6 days. B alone in 18. A alone?", opts: ["8", "9", "10", "12"], a: 1, ex: "$1/A=1/6-1/18=2/18=1/9$." },
+      { q: "If 8 men in 10 days = 16 women in same days, women per man?", opts: ["1.5", "2", "2.5", "3"], a: 1, ex: "$$\\begin{aligned} 8m &= 16w \\Rightarrow 1m \\\\ &= 2w \\end{aligned}$$." },
+      { q: "A and B together in 6 days. B alone in 18. A alone?", opts: ["8", "9", "10", "12"], a: 1, ex: "$$\\begin{aligned} 1/A &= 1/6-1/18 \\\\ &= 2/18 \\\\ &= 1/9 \\end{aligned}$$." },
       { q: "If 8 children do work in 16 days, work by 12 children in?", opts: ["10", "11", "10.5", "10.67"], a: 3, ex: "$8 \\cdot 16/12=10.67$." },
-      { q: "A+B in 10 days; B+C in 12; A+C in 15. Time for all three?", opts: ["8", "10", "12", "8.5"], a: 0, ex: "$2(a+b+c)=1/10+1/12+1/15=6/60+5/60+4/60=15/60=1/4$. So $a+b+c=1/8$. 8 days." },
+      { q: "A+B in 10 days; B+C in 12; A+C in 15. Time for all three?", opts: ["8", "10", "12", "8.5"], a: 0, ex: "$$\\begin{aligned} 2(a+b+c) &= 1/10+1/12+1/15 \\\\ &= 6/60+5/60+4/60 \\\\ &= 15/60 \\\\ &= 1/4 \\end{aligned}$$. So $a+b+c=1/8$. 8 days." },
       { q: "If 30 men can complete in 45 days, but 5 leave after 20 days. Total days?", opts: ["50", "52", "54", "55"], a: 2, ex: "First 20 days: 30 men = 600/1350 = 4/9 done. Rest 5/9 by 25 men: $5/9 \\cdot 1350/25 = 30$ days. Total 50. Hmm option A." },
       { q: "X is half as good as Y. They together can do a job in 12 days. Y alone in?", opts: ["12", "16", "18", "20"], a: 2, ex: "X/Y rate=1:2. Combined rate=3 per day units. 12 days → 36 units. Y alone=36/2=18." },
       { q: "$x$ men in $y$ days. To do twice the work in half time, men needed?", opts: ["$2x$", "$3x$", "$4x$", "$xy$"], a: 2, ex: "Twice work + half time = 4x men." }
@@ -2792,11 +2792,11 @@ $(c_2 - m)$ : $(m - c_1)$
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>Pipe A fills in 6 hr, B in 8 hr. Together?</p>
-      <p><b>Solution:</b> $\\frac{6 \\cdot 8}{14}=\\frac{48}{14}=\\frac{24}{7}=3.43$ hr.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{6 \\cdot 8}{14} &= \\frac{48}{14} \\\\ &= \\frac{24}{7} \\\\ &= 3.43 \\end{aligned}$$ hr.</p>
 
       <h4>Example 2</h4>
       <p>A fills in 4 hr, B empties in 6 hr. Net time?</p>
-      <p><b>Solution:</b> $\\frac{4 \\cdot 6}{6-4}=\\frac{24}{2}=12$ hr.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{4 \\cdot 6}{6-4} &= \\frac{24}{2} \\\\ &= 12 \\end{aligned}$$ hr.</p>
 
       <h4>Example 3 (LCM)</h4>
       <p>A fills in 12 hr, B in 15 hr, C empties in 20 hr. All open, fill time?</p>
@@ -2804,15 +2804,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 4</h4>
       <p>A fills in 20 min, B in 30. After 5 min A is closed. Tank filled in?</p>
-      <p><b>Solution:</b><br>In 5 min: A+B do $5(1/20+1/30)=5 \\cdot 1/12 = 5/12$.<br>Remaining 7/12 by B: $7/12 \\div 1/30 = 17.5$ min. Total 22.5 min.</p>
+      <p><b>Solution:</b><br>In 5 min: A+B do $$\\begin{aligned} 5(1/20+1/30) &= 5 \\cdot 1/12 \\\\ &= 5/12 \\end{aligned}$$.<br>Remaining 7/12 by B: $7/12 \\div 1/30 = 17.5$ min. Total 22.5 min.</p>
 
       <h4>Example 5</h4>
       <p>Tank can be filled by A in 12 hr. But due to leak it takes 14 hr. Time leak takes to empty full tank?</p>
-      <p><b>Solution:</b><br>$\\frac{1}{12}-\\frac{1}{L}=\\frac{1}{14} \\Rightarrow \\frac{1}{L}=\\frac{1}{12}-\\frac{1}{14}=\\frac{14-12}{168}=\\frac{1}{84}$.<br>L=84 hr.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\frac{1}{12}-\\frac{1}{L} &= \\frac{1}{14} \\Rightarrow \\frac{1}{L} \\\\ &= \\frac{1}{12}-\\frac{1}{14} \\\\ &= \\frac{14-12}{168} \\\\ &= \\frac{1}{84} \\end{aligned}$$.<br>L=84 hr.</p>
 
       <h4>Example 6</h4>
       <p>A pipe fills in 8 hr; another empties in 12 hr. Both open. Tank fills in?</p>
-      <p><b>Solution:</b> $\\frac{8 \\cdot 12}{12-8}=\\frac{96}{4}=24$ hr.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{8 \\cdot 12}{12-8} &= \\frac{96}{4} \\\\ &= 24 \\end{aligned}$$ hr.</p>
 
       <h4>Example 7</h4>
       <p>Tank has 2 pipes. A fills in 3 hr, B in 5 hr. Both alternate, A starts. Time?</p>
@@ -2820,7 +2820,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 8</h4>
       <p>If 3 inlet pipes fill in 6 hr together, how long for 4 pipes (same rate)?</p>
-      <p><b>Solution:</b><br>Inversely proportional to number.<br>$3 \\cdot 6 = 4T \\Rightarrow T = 4.5$ hr.</p>
+      <p><b>Solution:</b><br>Inversely proportional to number.<br>$$\\begin{aligned} 3 \\cdot 6 &= 4T \\Rightarrow T \\\\ &= 4.5 \\end{aligned}$$ hr.</p>
 
       <h4>Example 9</h4>
       <p>A fills in 20 hr. B empties in 30 hr. Both open with full tank. Time to empty?</p>
@@ -2828,19 +2828,19 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 10</h4>
       <p>4 inlets and 1 outlet. Each inlet 4 hr, outlet 6 hr. Time to fill?</p>
-      <p><b>Solution:</b> Net rate = $4 \\cdot 1/4 - 1/6 = 1 - 1/6 = 5/6$ per hr. Time = 6/5 = 1.2 hr.</p>
+      <p><b>Solution:</b> Net rate = $$\\begin{aligned} 4 \\cdot 1/4 - 1/6 &= 1 - 1/6 \\\\ &= 5/6 \\end{aligned}$$ per hr. Time = 6/5 = 1.2 hr.</p>
 
       <h4>Example 11</h4>
       <p>A and B fill in 6 hr together. A alone in 10. B alone?</p>
-      <p><b>Solution:</b><br>$1/B = 1/6 - 1/10 = (5-3)/30 = 1/15$.<br>So 15 hr.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 1/B &= 1/6 - 1/10 \\\\ &= (5-3)/30 \\\\ &= 1/15 \\end{aligned}$$.<br>So 15 hr.</p>
 
       <h4>Example 12</h4>
       <p>A fills 2x faster than B. Together in 18 hr. A alone?</p>
-      <p><b>Solution:</b><br>Let B's rate=$r$, A's rate=$2r$.<br>Together=$3r=1/18 \\Rightarrow r=1/54$.<br>A=$1/(2r)=27$ hr.</p>
+      <p><b>Solution:</b><br>Let B's rate=$r$, A's rate=$2r$.<br>Together=$$\\begin{aligned} 3r &= 1/18 \\Rightarrow r \\\\ &= 1/54 \\end{aligned}$$.<br>A=$1/(2r)=27$ hr.</p>
 
       <h4>Example 13</h4>
       <p>Cistern has 3 pipes A, B, C. A and B fill in 2 hr and 3 hr; C empties in 6 hr. Time to fill?</p>
-      <p><b>Solution:</b> $1/2+1/3-1/6 = (3+2-1)/6 = 4/6 = 2/3$ per hr. Time = 1.5 hr.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1/2+1/3-1/6 &= (3+2-1)/6 \\\\ &= 4/6 \\\\ &= 2/3 \\end{aligned}$$ per hr. Time = 1.5 hr.</p>
 
       <h4>Example 14</h4>
       <p>A pipe fills tank in 6 hr; another empties full tank in 12 hr. If half-full tank with both open, time to drain?</p>
@@ -2848,15 +2848,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 15</h4>
       <p>A, B, C fill in 10, 15, 20 hr. All open for 4 hr, then C is closed. Total time?</p>
-      <p><b>Solution:</b><br>First 4 hr: $4(1/10+1/15+1/20) = 4 \\cdot 13/60 = 52/60 = 13/15$.<br>Remaining: 2/15 with A+B = $(1/10+1/15)=1/6$.<br>Time = $2/15 \\div 1/6 = 12/15 = 0.8$ hr. Total ≈ 4.8 hr.</p>
+      <p><b>Solution:</b><br>First 4 hr: $$\\begin{aligned} 4(1/10+1/15+1/20) &= 4 \\cdot 13/60 \\\\ &= 52/60 \\\\ &= 13/15 \\end{aligned}$$.<br>Remaining: 2/15 with A+B = $(1/10+1/15)=1/6$.<br>Time = $$\\begin{aligned} 2/15 \\div 1/6 &= 12/15 \\\\ &= 0.8 \\end{aligned}$$ hr. Total ≈ 4.8 hr.</p>
 
       <h4>Example 16: One Pipe Closed Midway</h4>
       <p>A fills in 12 hr, B in 18 hr. Both open, after 3 hr B closes. Total time?</p>
-      <p><b>Solution:</b><br>In 3 hr: $3(1/12+1/18) = 3 \cdot 5/36 = 5/12$.<br>Remaining = 7/12.<br>By A alone: $7/12 \cdot 12 = 7$ hr. Total = 10 hr.</p>
+      <p><b>Solution:</b><br>In 3 hr: $$\\begin{aligned} 3(1/12+1/18) &= 3 \cdot 5/36 \\\\ &= 5/12 \\end{aligned}$$.<br>Remaining = 7/12.<br>By A alone: $7/12 \cdot 12 = 7$ hr. Total = 10 hr.</p>
 
       <h4>Example 17: Two Inlets + One Outlet</h4>
       <p>A=6, B=8 hrs (inlets); C=12 hrs (outlet). Combined fill time?</p>
-      <p><b>Solution:</b><br>Rate = $1/6+1/8-1/12 = (4+3-2)/24 = 5/24$.<br>Time = 4.8 hr.</p>
+      <p><b>Solution:</b><br>Rate = $$\\begin{aligned} 1/6+1/8-1/12 &= (4+3-2)/24 \\\\ &= 5/24 \\end{aligned}$$.<br>Time = 4.8 hr.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2869,28 +2869,28 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "A fills in 4, B in 6 hr. Together?", opts: ["2", "2.4", "3", "5"], a: 1, ex: "$24/10=2.4$." },
       { q: "A fills 8 hr, B empties 12. Net time?", opts: ["20", "24", "16", "$\\frac{96}{4}=24$"], a: 1, ex: "$96/4=24$." },
       { q: "If 3 pipes fill in 6 hr, 1 pipe alone?", opts: ["12", "15", "18", "24"], a: 2, ex: "$6 \\cdot 3=18$." },
-      { q: "Pipe fills in 8 hr; leak makes it 10 hr. Leak alone empties tank in?", opts: ["30", "40", "60", "80"], a: 1, ex: "$1/8-1/L=1/10 \\Rightarrow 1/L=1/40 \\Rightarrow L=40$." },
-      { q: "A fills 12 hr, B 15 hr, C empties 6 hr. All open, net?", opts: ["20", "30", "Tank never fills", "60"], a: 2, ex: "Net = $1/12+1/15-1/6 = (5+4-10)/60 = -1/60$. Negative — never fills." },
-      { q: "Pipe A in 6 hr, B in 4 hr. After 1 hr alone B, both open. Total time?", opts: ["2.4", "3.4", "3", "2.5"], a: 1, ex: "B alone 1 hr = 1/4. Remaining 3/4 with both: rate=$1/6+1/4=5/12$. Time=$3/4 \\div 5/12=9/5=1.8$. Total 2.8. Hmm." },
+      { q: "Pipe fills in 8 hr; leak makes it 10 hr. Leak alone empties tank in?", opts: ["30", "40", "60", "80"], a: 1, ex: "$$\\begin{aligned} 1/8-1/L &= 1/10 \\Rightarrow 1/L \\\\ &= 1/40 \\Rightarrow L \\\\ &= 40 \\end{aligned}$$." },
+      { q: "A fills 12 hr, B 15 hr, C empties 6 hr. All open, net?", opts: ["20", "30", "Tank never fills", "60"], a: 2, ex: "Net = $$\\begin{aligned} 1/12+1/15-1/6 &= (5+4-10)/60 \\\\ &= -1/60 \\end{aligned}$$. Negative — never fills." },
+      { q: "Pipe A in 6 hr, B in 4 hr. After 1 hr alone B, both open. Total time?", opts: ["2.4", "3.4", "3", "2.5"], a: 1, ex: "B alone 1 hr = 1/4. Remaining 3/4 with both: rate=$1/6+1/4=5/12$. Time=$$\\begin{aligned} 3/4 \\div 5/12 &= 9/5 \\\\ &= 1.8 \\end{aligned}$$. Total 2.8. Hmm." },
       { q: "Two pipes fill in 3 and 5 hr. Together?", opts: ["1.5", "1.87", "2", "2.5"], a: 1, ex: "$15/8=1.875$." },
       { q: "4 inlets in 12 hr together. 2 inlets in?", opts: ["12 hr", "16 hr", "24 hr", "Cannot say"], a: 2, ex: "Half pipes, double time = 24." },
-      { q: "Cistern has leak. Pipe A fills in 6 hr but leak slows; tank fills in 8 hr. Leak empties full in?", opts: ["18", "20", "24", "30"], a: 2, ex: "$1/6-1/L=1/8 \\Rightarrow 1/L=1/24 \\Rightarrow L=24$." },
-      { q: "A=10 min, B=15 min fill. With both, after 5 min one stops. Remaining time?", opts: ["3 min", "5 min", "7.5 min", "10 min"], a: 2, ex: "In 5 min: both do $5/10+5/15 = 1/2+1/3 = 5/6$. Remaining 1/6 by remaining pipe (say B): time $= (1/6)/(1/15) = 2.5$. Hmm option none. Skip." },
-      { q: "Two pipes A,B fill in 10 and 15 hr; outlet C empties in 30 hr. Time to fill (all open)?", opts: ["8", "7.5", "6", "5"], a: 2, ex: "Rate=$1/10+1/15-1/30=3/30+2/30-1/30=4/30=2/15$. Time=15/2=7.5. Option B." },
+      { q: "Cistern has leak. Pipe A fills in 6 hr but leak slows; tank fills in 8 hr. Leak empties full in?", opts: ["18", "20", "24", "30"], a: 2, ex: "$$\\begin{aligned} 1/6-1/L &= 1/8 \\Rightarrow 1/L \\\\ &= 1/24 \\Rightarrow L \\\\ &= 24 \\end{aligned}$$." },
+      { q: "A=10 min, B=15 min fill. With both, after 5 min one stops. Remaining time?", opts: ["3 min", "5 min", "7.5 min", "10 min"], a: 2, ex: "In 5 min: both do $$\\begin{aligned} 5/10+5/15 &= 1/2+1/3 \\\\ &= 5/6 \\end{aligned}$$. Remaining 1/6 by remaining pipe (say B): time $$\\begin{aligned}  &= (1/6)/(1/15) \\\\ &= 2.5 \\end{aligned}$$. Hmm option none. Skip." },
+      { q: "Two pipes A,B fill in 10 and 15 hr; outlet C empties in 30 hr. Time to fill (all open)?", opts: ["8", "7.5", "6", "5"], a: 2, ex: "Rate=$$\\begin{aligned} 1/10+1/15-1/30 &= 3/30+2/30-1/30 \\\\ &= 4/30 \\\\ &= 2/15 \\end{aligned}$$. Time=15/2=7.5. Option B." },
       { q: "Tank full. A empties in 8 hr, B in 12. Both open. Empty time?", opts: ["4.8", "10", "6", "20"], a: 0, ex: "$\\frac{8 \\cdot 12}{20}=4.8$." },
       { q: "Pipe A fills 6 hr, B in 12 hr. After 1 hr B stops. Time to fill?", opts: ["4.5", "5", "5.5", "6"], a: 0, ex: "1 hr both = $1/6+1/12=1/4$. Remaining 3/4 by A only: $3/4 \\cdot 6 = 4.5$. Total 5.5. Hmm — option C." },
-      { q: "Cistern emptied by pipe in 6 hr. Pipe with leak takes 7 hr. Leak alone fills tank in?", opts: ["42 hr", "12 hr", "1 hr", "Not applicable (leak empties)"], a: 0, ex: "Different setup. $1/6-1/L=1/7 \\Rightarrow 1/L=1/42$. Leak empties tank in 42." },
+      { q: "Cistern emptied by pipe in 6 hr. Pipe with leak takes 7 hr. Leak alone fills tank in?", opts: ["42 hr", "12 hr", "1 hr", "Not applicable (leak empties)"], a: 0, ex: "Different setup. $$\\begin{aligned} 1/6-1/L &= 1/7 \\Rightarrow 1/L \\\\ &= 1/42 \\end{aligned}$$. Leak empties tank in 42." },
       { q: "Pipe A fills tank 5 hr, B 10. Both fill empty tank; alternately every hour starting A. Time to fill?", opts: ["6 hr 40 min", "7 hr", "8 hr", "8 hr 20 min"], a: 0, ex: "LCM=10. A=2, B=1/hr. 2-hr cycle = 3 units. After 3 cycles (6 hr): 9 units. 1 more unit needed, A's turn: 1/2 hr. Total 6.5 hr = 6h 30m. Closest A." },
-      { q: "Two pipes can fill cistern in 12 and 16 min. Both open + leak that empties full in 24 min. Time?", opts: ["16 min", "10 min", "9 min", "12 min"], a: 2, ex: "Rate=$1/12+1/16-1/24=4/48+3/48-2/48=5/48$. Time=48/5=9.6. Option C." },
-      { q: "Pipe fills tank in 8 hr. Pipe with leak in 16 hr. Leak empties in?", opts: ["16", "12", "8", "32"], a: 0, ex: "$1/8-1/L=1/16 \\Rightarrow 1/L=1/16 \\Rightarrow L=16$." },
-      { q: "Tank ⅓ full. A and B can fill in 12 and 18 min. Together fill remaining?", opts: ["3.6 min", "4.8 min", "7.2 min", "6 min"], a: 1, ex: "$2/3 \\cdot 12 \\cdot 18/(12+18) = (2/3) \\cdot 36/5 = 24/5 = 4.8$." },
+      { q: "Two pipes can fill cistern in 12 and 16 min. Both open + leak that empties full in 24 min. Time?", opts: ["16 min", "10 min", "9 min", "12 min"], a: 2, ex: "Rate=$$\\begin{aligned} 1/12+1/16-1/24 &= 4/48+3/48-2/48 \\\\ &= 5/48 \\end{aligned}$$. Time=48/5=9.6. Option C." },
+      { q: "Pipe fills tank in 8 hr. Pipe with leak in 16 hr. Leak empties in?", opts: ["16", "12", "8", "32"], a: 0, ex: "$$\\begin{aligned} 1/8-1/L &= 1/16 \\Rightarrow 1/L \\\\ &= 1/16 \\Rightarrow L \\\\ &= 16 \\end{aligned}$$." },
+      { q: "Tank ⅓ full. A and B can fill in 12 and 18 min. Together fill remaining?", opts: ["3.6 min", "4.8 min", "7.2 min", "6 min"], a: 1, ex: "$$\\begin{aligned} 2/3 \\cdot 12 \\cdot 18/(12+18) &= (2/3) \\cdot 36/5 \\\\ &= 24/5 \\\\ &= 4.8 \\end{aligned}$$." },
       { q: "Inlet rate 4 L/min, outlet rate 6 L/min. Tank capacity 720 L. Empty time from full?", opts: ["180 min", "240 min", "360 min", "$\\frac{720}{2}=360$ min"], a: 2, ex: "Net out = 2 L/min. 720/2=360." },
-      { q: "Pipe A=15, B=20, C empties=25. All open. Time to fill?", opts: ["10.5", "12", "13.6", "15"], a: 2, ex: "$1/15+1/20-1/25 = (20+15-12)/300 = 23/300$. Time=300/23≈13.04. Closest C." },
+      { q: "Pipe A=15, B=20, C empties=25. All open. Time to fill?", opts: ["10.5", "12", "13.6", "15"], a: 2, ex: "$$\\begin{aligned} 1/15+1/20-1/25 &= (20+15-12)/300 \\\\ &= 23/300 \\end{aligned}$$. Time=300/23≈13.04. Closest C." },
       { q: "Tank fills in 12 hr. With 4 more pipes (each same), time?", opts: ["2", "2.4", "3", "4"], a: 1, ex: "5 pipes total, time = 12/5 = 2.4." },
       { q: "If tap can fill bucket in 5 min and drain it in 7 min, both open: fill time?", opts: ["17.5", "12", "15", "Never"], a: 0, ex: "$\\frac{5 \\cdot 7}{7-5}=17.5$." },
-      { q: "Tank filled by 2 pipes in 6 and 8 hr. After both open for 2 hr, second pipe stopped. Total time?", opts: ["5", "5.5", "6", "6.5"], a: 1, ex: "In 2 hr both: $2(1/6+1/8)=2 \\cdot 7/24=7/12$. Remaining 5/12 by first (rate 1/6): time=$5/12 \\div 1/6 = 5/2=2.5$. Total 4.5. Hmm none match. Skip." },
+      { q: "Tank filled by 2 pipes in 6 and 8 hr. After both open for 2 hr, second pipe stopped. Total time?", opts: ["5", "5.5", "6", "6.5"], a: 1, ex: "In 2 hr both: $$\\begin{aligned} 2(1/6+1/8) &= 2 \\cdot 7/24 \\\\ &= 7/12 \\end{aligned}$$. Remaining 5/12 by first (rate 1/6): time=$$\\begin{aligned} 5/12 \\div 1/6 &= 5/2 \\\\ &= 2.5 \\end{aligned}$$. Total 4.5. Hmm none match. Skip." },
       { q: "A, B, C inlet pipes 12, 15, 20 hr. C is opened 5 hr after A & B. Total?", opts: ["8", "8.5", "9", "10"], a: 0, ex: "Setup-specific, requires careful calc." },
-      { q: "If A,B,C together fill tank in 4 hr. A in 8 hr alone, B in 12. C alone?", opts: ["12", "16", "24", "48"], a: 2, ex: "$1/C=1/4-1/8-1/12 = (6-3-2)/24=1/24$." }
+      { q: "If A,B,C together fill tank in 4 hr. A in 8 hr alone, B in 12. C alone?", opts: ["12", "16", "24", "48"], a: 2, ex: "$$\\begin{aligned} 1/C &= 1/4-1/8-1/12 \\\\ &= (6-3-2)/24 \\\\ &= 1/24 \\end{aligned}$$." }
     ]
   };
 
@@ -2968,11 +2968,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 11</h4>
       <p>Three persons travel from A to B at 30, 40, 50 km/h. Sum of times = 47 min. Distance?</p>
-      <p><b>Solution:</b><br>$D/30 + D/40 + D/50 = 47/60$ hr. LCM 600.<br>$20D+15D+12D = 47/60 \\cdot 600 = 470$.<br>So $47D=470 \\Rightarrow D = 10$ km.</p>
+      <p><b>Solution:</b><br>$D/30 + D/40 + D/50 = 47/60$ hr. LCM 600.<br>$$\\begin{aligned} 20D+15D+12D &= 47/60 \\cdot 600 \\\\ &= 470 \\end{aligned}$$.<br>So $$\\begin{aligned} 47D &= 470 \\Rightarrow D \\\\ &= 10 \\end{aligned}$$ km.</p>
 
       <h4>Example 12</h4>
       <p>Reaches 12 min late at 30 km/h, 18 min early at 45 km/h. Distance?</p>
-      <p><b>Solution:</b> Time difference = 30 min = 0.5 hr. $D/30 - D/45 = 0.5 \\Rightarrow (45D-30D)/(30 \\cdot 45) = 0.5 \\Rightarrow 15D = 675 \\Rightarrow D=45$ km.</p>
+      <p><b>Solution:</b> Time difference = 30 min = 0.5 hr. $$\\begin{aligned} D/30 - D/45 &= 0.5 \\Rightarrow (45D-30D)/(30 \\cdot 45) \\\\ &= 0.5 \\Rightarrow 15D \\\\ &= 675 \\Rightarrow D \\\\ &= 45 \\end{aligned}$$ km.</p>
 
       <h4>Example 13</h4>
       <p>A and B start same point in same direction. A walks 4 km/h, B 6. After 3 hr, gap?</p>
@@ -2980,11 +2980,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 14</h4>
       <p>If a man covers 600 km in 9 hr partly by car at 60 km/h and partly by train at 80 km/h. Time on car?</p>
-      <p><b>Solution:</b><br>Let car time = $t$.<br>$60t + 80(9-t) = 600 \\Rightarrow 60t+720-80t=600 \\Rightarrow -20t = -120 \\Rightarrow t = 6$ hr.</p>
+      <p><b>Solution:</b><br>Let car time = $t$.<br>$$\\begin{aligned} 60t + 80(9-t) &= 600 \\Rightarrow 60t+720-80t \\\\ &= 600 \\Rightarrow -20t \\\\ &= -120 \\Rightarrow t \\\\ &= 6 \\end{aligned}$$ hr.</p>
 
       <h4>Example 15</h4>
       <p>Speed 20% less than normal causes delay 1 hr. Normal time?</p>
-      <p><b>Solution:</b><br>New time = (5/4) × old.<br>So $(5/4)T - T = 1 \\Rightarrow T/4=1 \\Rightarrow T=4$ hr.</p>
+      <p><b>Solution:</b><br>New time = (5/4) × old.<br>So $$\\begin{aligned} (5/4)T - T &= 1 \\Rightarrow T/4 \\\\ &= 1 \\Rightarrow T \\\\ &= 4 \\end{aligned}$$ hr.</p>
 
       <h4>Example 16: Two Cars Towards Each Other</h4>
       <p>Two cars at 40 and 60 km/h from points 200 km apart, moving toward each other. When do they meet?</p>
@@ -2992,11 +2992,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Late by X / Early by Y</h4>
       <p>A boy reaches school 5 min late at 4 km/h and 10 min early at 5 km/h. Distance to school?</p>
-      <p><b>Solution:</b> Time diff = 15 min = 1/4 hr. $D/4 - D/5 = 1/4 \Rightarrow D/20 = 1/4 \Rightarrow D = 5$ km.</p>
+      <p><b>Solution:</b> Time diff = 15 min = 1/4 hr. $$\\begin{aligned} D/4 - D/5 &= 1/4 \Rightarrow D/20 \\\\ &= 1/4 \Rightarrow D \\\\ &= 5 \\end{aligned}$$ km.</p>
 
       <h4>Example 18: Round Trip with Different Speeds</h4>
       <p>A man goes at 10 km/h and returns at 15 km/h. Total time 5 hr. Distance one way?</p>
-      <p><b>Solution:</b> $D/10 + D/15 = 5 \Rightarrow D(3+2)/30 = 5 \Rightarrow D = 30$ km.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} D/10 + D/15 &= 5 \Rightarrow D(3+2)/30 \\\\ &= 5 \Rightarrow D \\\\ &= 30 \\end{aligned}$$ km.</p>
 
       <h4>Example 19: Speed Change Mid-Journey</h4>
       <p>A train covers 240 km in 4 hr. Half at 80 km/h, rest at X km/h. Find X.</p>
@@ -3004,11 +3004,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 20: Catching Train</h4>
       <p>A runs at 5 km/h. He misses train by 7 min. If he ran at 6 km/h he would catch it with 5 min to spare. Distance to station?</p>
-      <p><b>Solution:</b> Time diff = 12 min = 1/5 hr. $D/5 - D/6 = 1/5 \Rightarrow D/30 = 1/5 \Rightarrow D = 6$ km.</p>
+      <p><b>Solution:</b> Time diff = 12 min = 1/5 hr. $$\\begin{aligned} D/5 - D/6 &= 1/5 \Rightarrow D/30 \\\\ &= 1/5 \Rightarrow D \\\\ &= 6 \\end{aligned}$$ km.</p>
 
       <h4>Example 21: Three Speeds Equal Distance</h4>
       <p>A covers same distance at 30, 40, 60 km/h sections in succession (each part equal). Average speed?</p>
-      <p><b>Solution:</b> $\bar{s} = 3/(1/30+1/40+1/60) = 3/(4+3+2)/120 = 3 \cdot 120/9 = 40$ km/h.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \bar{s} &= 3/(1/30+1/40+1/60) \\\\ &= 3/(4+3+2)/120 \\\\ &= 3 \cdot 120/9 \\\\ &= 40 \\end{aligned}$$ km/h.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3024,15 +3024,15 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Equal distances at 40 and 60 km/h. Avg?", opts: ["45", "48", "50", "55"], a: 1, ex: "Harmonic: $2 \\cdot 40 \\cdot 60/100=48$." },
       { q: "Equal time at 60 and 80 km/h. Avg?", opts: ["65", "68", "70", "72"], a: 2, ex: "Arithmetic: $(60+80)/2=70$." },
       { q: "A walks 4 km/h. B starts 1.5 hr later at 6 km/h. Catch up?", opts: ["2 hr", "3 hr", "4 hr", "1.5 hr"], a: 1, ex: "Lead = 6 km. Close at 2 km/h. Time 3 hr." },
-      { q: "If speed cut 20%, time taken to cover same?", opts: ["+20%", "+25%", "+30%", "−25%"], a: 1, ex: "$T_2/T_1 = S_1/S_2 = 1/0.8 = 1.25$. So +25%." },
+      { q: "If speed cut 20%, time taken to cover same?", opts: ["+20%", "+25%", "+30%", "−25%"], a: 1, ex: "$$\\begin{aligned} T_2/T_1 &= S_1/S_2 \\\\ &= 1/0.8 \\\\ &= 1.25 \\end{aligned}$$. So +25%." },
       { q: "Car 600 km in 10 hr. Half time train at 80, rest car. Distance by train?", opts: ["400", "200", "350", "300"], a: 0, ex: "Half time = 5 hr at 80 = 400 km." },
       { q: "Two trains 80 m and 100 m, opposite at 36 km/h and 54 km/h. Time to pass?", opts: ["6 s", "7.2 s", "8 s", "9 s"], a: 1, ex: "Relative = 90 km/h = 25 m/s. Total length 180. Time 180/25 = 7.2." },
       { q: "Same direction, speeds 50 and 30 km/h, trains 100 and 200 m. Time to overtake?", opts: ["27 s", "30 s", "45 s", "54 s"], a: 3, ex: "Rel = 20 km/h = 50/9 m/s. Length 300. T=300×9/50=54." },
       { q: "Average speed: 3 km/h going, 6 km/h returning. Avg?", opts: ["4", "4.5", "5", "$\\frac{2 \\cdot 3 \\cdot 6}{9}$=4"], a: 3, ex: "Harmonic = 4." },
       { q: "Speed up by 1/3, time saved 10 min. Original time?", opts: ["20", "30", "40", "60"], a: 2, ex: "New time = (3/4) old. Diff = T/4 = 10. T = 40." },
-      { q: "Car at 60 km/h reaches 5 min late; at 75 km/h, 5 min early. Distance?", opts: ["20", "30", "40", "50"], a: 3, ex: "Diff = 10 min = 1/6 hr. $D/60-D/75 = 1/6 \\Rightarrow D(75-60)/(4500) = 1/6 \\Rightarrow D=50$." },
-      { q: "If a person walks 1 km/h faster, reaches 15 min early. If 1 km/h slower, 15 min late. Distance?", opts: ["3 km", "5 km", "6 km", "8 km"], a: 1, ex: "Let speed=$s$. $\\frac{D}{s-1}-\\frac{D}{s+1}=30/60=0.5$. With S=4: $D/3-D/5=0.5 \\Rightarrow D(5-3)/15=0.5 \\Rightarrow D=3.75$. Trial gives S=4, D=3.75. Closest 5." },
-      { q: "Going to school 4 km/h late by 2 min. At 5 km/h on-time. Distance?", opts: ["1", "$\\frac{4 \\cdot 5 \\cdot 2/60}{5-4}=2/3$ km", "1.5", "2"], a: 1, ex: "Time diff = 2/60. Speeds 4 and 5. $D/4 - D/5 = 1/30 \\Rightarrow D/20 = 1/30 \\Rightarrow D = 2/3$ km." },
+      { q: "Car at 60 km/h reaches 5 min late; at 75 km/h, 5 min early. Distance?", opts: ["20", "30", "40", "50"], a: 3, ex: "Diff = 10 min = 1/6 hr. $$\\begin{aligned} D/60-D/75 &= 1/6 \\Rightarrow D(75-60)/(4500) \\\\ &= 1/6 \\Rightarrow D \\\\ &= 50 \\end{aligned}$$." },
+      { q: "If a person walks 1 km/h faster, reaches 15 min early. If 1 km/h slower, 15 min late. Distance?", opts: ["3 km", "5 km", "6 km", "8 km"], a: 1, ex: "Let speed=$s$. $$\\begin{aligned} \\frac{D}{s-1}-\\frac{D}{s+1} &= 30/60 \\\\ &= 0.5 \\end{aligned}$$. With S=4: $$\\begin{aligned} D/3-D/5 &= 0.5 \\Rightarrow D(5-3)/15 \\\\ &= 0.5 \\Rightarrow D \\\\ &= 3.75 \\end{aligned}$$. Trial gives S=4, D=3.75. Closest 5." },
+      { q: "Going to school 4 km/h late by 2 min. At 5 km/h on-time. Distance?", opts: ["1", "$\\frac{4 \\cdot 5 \\cdot 2/60}{5-4}=2/3$ km", "1.5", "2"], a: 1, ex: "Time diff = 2/60. Speeds 4 and 5. $$\\begin{aligned} D/4 - D/5 &= 1/30 \\Rightarrow D/20 \\\\ &= 1/30 \\Rightarrow D \\\\ &= 2/3 \\end{aligned}$$ km." },
       { q: "Train passes pole in 12 sec at 90 km/h. Length?", opts: ["240 m", "270 m", "300 m", "360 m"], a: 2, ex: "90×5/18 = 25 m/s. Length=25×12=300m." },
       { q: "Two cars same dir from same point at 40 and 60 km/h. After 2 hr distance apart?", opts: ["20", "30", "40", "60"], a: 2, ex: "Gap = 20×2=40." },
       { q: "Train 150 m at 60 km/h crosses platform 200 m. Time?", opts: ["18 s", "20 s", "21 s", "24 s"], a: 2, ex: "Speed 60 km/h = 50/3 m/s. Distance 350. Time = 350/(50/3)=21." },
@@ -3042,7 +3042,7 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Speed 70 km/h vs 50 km/h: ratio of time taken to cover same distance?", opts: ["7:5", "5:7", "1:1", "10:7"], a: 1, ex: "T ∝ 1/S. T_1/T_2=50/70=5:7." },
       { q: "A and B 50 km apart. Walk towards each other at 4 and 6 km/h. Meet in?", opts: ["3 hr", "5 hr", "8 hr", "10 hr"], a: 1, ex: "50/(4+6)=5." },
       { q: "Cyclist covers 12 km in 30 min. Speed?", opts: ["12 km/h", "20 km/h", "24 km/h", "30 km/h"], a: 2, ex: "$12 \\cdot 2 = 24$." },
-      { q: "Half of a journey at 30, rest at 60 km/h. Total 6 hr. Total distance?", opts: ["120", "180", "240", "360"], a: 2, ex: "$D/(2 \\cdot 30) + D/(2 \\cdot 60) = 6 \\Rightarrow D(2+1)/120 = 6 \\Rightarrow D=240$." }
+      { q: "Half of a journey at 30, rest at 60 km/h. Total 6 hr. Total distance?", opts: ["120", "180", "240", "360"], a: 2, ex: "$$\\begin{aligned} D/(2 \\cdot 30) + D/(2 \\cdot 60) &= 6 \\Rightarrow D(2+1)/120 \\\\ &= 6 \\Rightarrow D \\\\ &= 240 \\end{aligned}$$." }
     ]
   };
 
@@ -3109,11 +3109,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 9</h4>
       <p>A train crosses station signal in 8 s, platform 264 m in 20 s. Length and speed of train?</p>
-      <p><b>Solution:</b><br>Let length=$L$, speed=$s$.<br>$L = 8s$.<br>$L+264 = 20s \\Rightarrow 8s+264=20s \\Rightarrow 12s=264 \\Rightarrow s = 22$ m/s.<br>$L = 176$ m.</p>
+      <p><b>Solution:</b><br>Let length=$L$, speed=$s$.<br>$L = 8s$.<br>$$\\begin{aligned} L+264 &= 20s \\Rightarrow 8s+264 \\\\ &= 20s \\Rightarrow 12s \\\\ &= 264 \\Rightarrow s \\\\ &= 22 \\end{aligned}$$ m/s.<br>$L = 176$ m.</p>
 
       <h4>Example 10</h4>
       <p>Train passes man in 9 s and bridge 200 m in 14 s. Train's speed?</p>
-      <p><b>Solution:</b><br>Let speed=$s$, length=$L=9s$.<br>$L+200=14s \\Rightarrow 9s+200=14s \\Rightarrow s=40$ m/s = 144 km/h.</p>
+      <p><b>Solution:</b><br>Let speed=$s$, length=$L=9s$.<br>$$\\begin{aligned} L+200 &= 14s \\Rightarrow 9s+200 \\\\ &= 14s \\Rightarrow s \\\\ &= 40 \\end{aligned}$$ m/s = 144 km/h.</p>
 
       <h4>Example 11</h4>
       <p>Two trains opposite directions at 50 km/h and 70 km/h. Length 150 m each. Time to pass?</p>
@@ -3125,7 +3125,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 13</h4>
       <p>Train crosses 2 platforms 220 m and 250 m in 20 and 22 sec respectively. Train length?</p>
-      <p><b>Solution:</b><br>Let length=$L$, speed=$s$.<br>$L+220=20s$ and $L+250=22s$.<br>Subtract: $30 = 2s \\Rightarrow s=15$.<br>$L = 20 \\cdot 15 - 220 = 80$ m.</p>
+      <p><b>Solution:</b><br>Let length=$L$, speed=$s$.<br>$L+220=20s$ and $L+250=22s$.<br>Subtract: $$\\begin{aligned} 30 &= 2s \\Rightarrow s \\\\ &= 15 \\end{aligned}$$.<br>$$\\begin{aligned} L &= 20 \\cdot 15 - 220 \\\\ &= 80 \\end{aligned}$$ m.</p>
 
       <h4>Example 14</h4>
       <p>Two trains 120 m and 80 m running in opposite directions cross each other in 8 sec. If faster speed = 60 km/h, slower?</p>
@@ -3169,8 +3169,8 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Time for train to cross post = time for it to cross bridge. Bridge length?", opts: ["0", "Equal to train", "Cannot determine", "1"], a: 0, ex: "Time = L/s vs (L+B)/s; equal only if B=0." },
       { q: "Two trains pass each other in 12 s opposite dir; 24 s same dir. Ratio of speeds?", opts: ["1:3", "3:1", "1:2", "2:1"], a: 1, ex: "Let speeds s, S. Opp: rel=s+S, T1=12. Same: rel=S-s, T2=24. So S+s = 2(S-s) → S=3s." },
       { q: "Train 150 m passes 240 m platform in 26 s. Speed?", opts: ["54 km/h", "45 km/h", "60 km/h", "50 km/h"], a: 0, ex: "$390/26=15$ m/s=54 km/h." },
-      { q: "If a train crosses a man at 6 km/h same dir in 8 sec and bridge 264 m in 20 sec, train length?", opts: ["120", "150", "176", "240"], a: 2, ex: "Let length L, speed s. $L = 8(s-6 \\cdot 5/18) = 8(s-5/3)$. $L+264=20s$. Subtract: $264 = 12s + 40/3 \\Rightarrow 12s = 264-40/3 \\Rightarrow$ trial. Best: try $s=22$ m/s: L=8×(22-5/3)=8×62/3=496/3≈165. With $s=20$: L=8×(20-1.67)=146. With L=176, s=22: L+264=440 vs 20s=440 ✓; person rel=20-1.67=18.33; L=8×18.33=146.6. Not 176. Skip." },
-      { q: "Train crosses platform 240 m in 27 s and pole in 18 s. Speed?", opts: ["12 m/s", "15 m/s", "16 m/s", "20 m/s"], a: 0, ex: "Difference: 240 = 9s → s=80/3? Hmm 9s=240 → s=240/9=26.67. Closest no option. Let me recheck: $L+240=27s$, $L=18s$. So $18s+240=27s \\Rightarrow 9s=240 \\Rightarrow s=80/3$ m/s ≈ 27. Hmm." },
+      { q: "If a train crosses a man at 6 km/h same dir in 8 sec and bridge 264 m in 20 sec, train length?", opts: ["120", "150", "176", "240"], a: 2, ex: "Let length L, speed s. $$\\begin{aligned} L &= 8(s-6 \\cdot 5/18) \\\\ &= 8(s-5/3) \\end{aligned}$$. $L+264=20s$. Subtract: $$\\begin{aligned} 264 &= 12s + 40/3 \\Rightarrow 12s \\\\ &= 264-40/3 \\Rightarrow \\end{aligned}$$ trial. Best: try $s=22$ m/s: L=8×(22-5/3)=8×62/3=496/3≈165. With $s=20$: L=8×(20-1.67)=146. With L=176, s=22: L+264=440 vs 20s=440 ✓; person rel=20-1.67=18.33; L=8×18.33=146.6. Not 176. Skip." },
+      { q: "Train crosses platform 240 m in 27 s and pole in 18 s. Speed?", opts: ["12 m/s", "15 m/s", "16 m/s", "20 m/s"], a: 0, ex: "Difference: 240 = 9s → s=80/3? Hmm 9s=240 → s=240/9=26.67. Closest no option. Let me recheck: $L+240=27s$, $L=18s$. So $$\\begin{aligned} 18s+240 &= 27s \\Rightarrow 9s \\\\ &= 240 \\Rightarrow s \\\\ &= 80/3 \\end{aligned}$$ m/s ≈ 27. Hmm." },
       { q: "Train 150 m crosses 'station' 350m in 30 s. Speed in km/h?", opts: ["54", "60", "72", "84"], a: 1, ex: "$500/30=50/3$ m/s = 60 km/h." },
       { q: "Train 200 m at speed s crosses pole in 10 s. s in m/s?", opts: ["15", "18", "20", "25"], a: 2, ex: "200/10=20." },
       { q: "Two trains at 40 and 50 km/h same direction. They cross each other in 1.5 min. Train 1 length 100 m. Train 2?", opts: ["150 m", "200 m", "250 m", "300 m"], a: 2, ex: "Rel=10 km/h=25/9 m/s. T=90 s. Total length=250. Train 2 = 250-100=150. Hmm option A. Let me recheck: 90×25/9=250. Yes total 250m, second train 150m." },
@@ -3212,7 +3212,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 2</h4>
       <p>If a boat travels 20 km downstream in 2 hr and 20 km upstream in 4 hr, speed of boat in still water?</p>
-      <p><b>Solution:</b><br>D = 10, U = 5.<br>$u = (10+5)/2 = $ <b>7.5 km/h</b>.</p>
+      <p><b>Solution:</b><br>D = 10, U = 5.<br>$$\\begin{aligned} u &= (10+5)/2 \\\\ &=  \\end{aligned}$$ <b>7.5 km/h</b>.</p>
 
       <h4>Example 3</h4>
       <p>Boat 12 km/h still water; stream 3 km/h. Distance covered downstream in 2 hr?</p>
@@ -3220,11 +3220,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 4</h4>
       <p>A boat goes 10 km downstream and back in total 4 hr. Stream = 2 km/h. Boat's speed?</p>
-      <p><b>Solution:</b><br>$\\frac{10}{u+2} + \\frac{10}{u-2} = 4$.<br>$10[(u-2)+(u+2)] = 4(u^2-4) \\Rightarrow 20u = 4u^2-16 \\Rightarrow u^2 - 5u - 4 = 0 \\Rightarrow u = 5.7$. (Approx.)</p>
+      <p><b>Solution:</b><br>$\\frac{10}{u+2} + \\frac{10}{u-2} = 4$.<br>$$\\begin{aligned} 10[(u-2)+(u+2)] &= 4(u^2-4) \\Rightarrow 20u \\\\ &= 4u^2-16 \\Rightarrow u^2 - 5u - 4 \\\\ &= 0 \\Rightarrow u \\\\ &= 5.7 \\end{aligned}$$. (Approx.)</p>
 
       <h4>Example 5</h4>
       <p>Boat takes twice as long upstream as downstream. Ratio of boat:stream speed?</p>
-      <p><b>Solution:</b><br>T_up = 2 T_down ⇒ U = D/2.<br>So $u-v = (u+v)/2 \\Rightarrow 2u-2v=u+v \\Rightarrow u = 3v$.<br>So u:v = 3:1.</p>
+      <p><b>Solution:</b><br>T_up = 2 T_down ⇒ U = D/2.<br>So $$\\begin{aligned} u-v &= (u+v)/2 \\Rightarrow 2u-2v \\\\ &= u+v \\Rightarrow u \\\\ &= 3v \\end{aligned}$$.<br>So u:v = 3:1.</p>
 
       <h4>Example 6</h4>
       <p>Downstream 16 km/h, upstream 12 km/h. Stream?</p>
@@ -3232,11 +3232,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 7</h4>
       <p>Boat speed 9 km/h, stream 3 km/h. Time to cover 36 km downstream and back?</p>
-      <p><b>Solution:</b><br>D=12, U=6.<br>$36/12 + 36/6 = 3+6 = 9$ hr.</p>
+      <p><b>Solution:</b><br>D=12, U=6.<br>$$\\begin{aligned} 36/12 + 36/6 &= 3+6 \\\\ &= 9 \\end{aligned}$$ hr.</p>
 
       <h4>Example 8</h4>
       <p>If a boat goes 18 km in 1.5 hr down, returns in 3 hr. Boat's speed and stream's speed?</p>
-      <p><b>Solution:</b><br>D=12, U=6.<br>$u=9, v=3$.</p>
+      <p><b>Solution:</b><br>D=12, U=6.<br>$$\\begin{aligned} u &= 9, v \\\\ &= 3 \\end{aligned}$$.</p>
 
       <h4>Example 9</h4>
       <p>If boat 8 km in 1 hr against stream and same distance in 30 min with stream, find still water speed.</p>
@@ -3248,23 +3248,23 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 11</h4>
       <p>If 3 km up takes 1 hr more than 3 km down, and boat = 5 km/h, find stream.</p>
-      <p><b>Solution:</b> $3/(5-v)-3/(5+v) = 1 \\Rightarrow 3[(5+v)-(5-v)] = 25-v^2 \\Rightarrow 6v = 25-v^2 \\Rightarrow v^2+6v-25=0 \\Rightarrow v ≈ 2.74$ km/h.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 3/(5-v)-3/(5+v) &= 1 \\Rightarrow 3[(5+v)-(5-v)] \\\\ &= 25-v^2 \\Rightarrow 6v \\\\ &= 25-v^2 \\Rightarrow v^2+6v-25 \\\\ &= 0 \\Rightarrow v ≈ 2.74 \\end{aligned}$$ km/h.</p>
 
       <h4>Example 12</h4>
       <p>Speed downstream 13 km/h, stream 4 km/h. Speed upstream?</p>
-      <p><b>Solution:</b><br>$u = 13-4=9$.<br>Upstream = $9-4=5$ km/h.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} u &= 13-4 \\\\ &= 9 \\end{aligned}$$.<br>Upstream = $9-4=5$ km/h.</p>
 
       <h4>Example 13</h4>
       <p>A man rows in still water at 6 km/h. Speed of stream 2 km/h. Total time to row 16 km up and back?</p>
-      <p><b>Solution:</b><br>D=8, U=4.<br>$16/8 + 16/4 = 2+4 = 6$ hr.</p>
+      <p><b>Solution:</b><br>D=8, U=4.<br>$$\\begin{aligned} 16/8 + 16/4 &= 2+4 \\\\ &= 6 \\end{aligned}$$ hr.</p>
 
       <h4>Example 14</h4>
       <p>If boat goes downstream 20 km in same time as upstream 12 km, boat speed = 8 km/h. Stream?</p>
-      <p><b>Solution:</b> $20/(8+v) = 12/(8-v) \\Rightarrow 20(8-v) = 12(8+v) \\Rightarrow 160-20v = 96+12v \\Rightarrow 32v=64 \\Rightarrow v=2$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 20/(8+v) &= 12/(8-v) \\Rightarrow 20(8-v) \\\\ &= 12(8+v) \\Rightarrow 160-20v \\\\ &= 96+12v \\Rightarrow 32v \\\\ &= 64 \\Rightarrow v \\\\ &= 2 \\end{aligned}$$.</p>
 
       <h4>Example 15</h4>
       <p>A man can row 7 km/h in still water. Goes 18 km against current and returns in 6 hr. Stream speed?</p>
-      <p><b>Solution:</b> $18/(7-v) + 18/(7+v) = 6 \\Rightarrow 18 \\cdot 14/(49-v^2) = 6 \\Rightarrow 252 = 6(49-v^2) \\Rightarrow 42 = 49 - v^2 \\Rightarrow v^2 = 7 \\Rightarrow v = \\sqrt{7} \\approx 2.65$ km/h.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 18/(7-v) + 18/(7+v) &= 6 \\Rightarrow 18 \\cdot 14/(49-v^2) \\\\ &= 6 \\Rightarrow 252 \\\\ &= 6(49-v^2) \\Rightarrow 42 \\\\ &= 49 - v^2 \\Rightarrow v^2 \\\\ &= 7 \\Rightarrow v \\\\ &= \\sqrt{7} \\approx 2.65 \\end{aligned}$$ km/h.</p>
 
       <h4>Example 16: Distance + Time</h4>
       <p>A boat travels 32 km downstream in 4 hr and same upstream in 8 hr. Boat and stream speeds?</p>
@@ -3288,20 +3288,20 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Stream = 3 km/h. Up time = 2x Down time. Boat?", opts: ["6", "9", "12", "15"], a: 1, ex: "u-v=(u+v)/2 → u=3v=9." },
       { q: "Down 30 km in 2 hr, Up 30 km in 3 hr. Speed of boat?", opts: ["12.5", "13", "12", "10"], a: 0, ex: "D=15, U=10. u=12.5." },
       { q: "Boat speed 10, current 4. Down speed?", opts: ["6", "10", "14", "20"], a: 2, ex: "$10+4=14$." },
-      { q: "Time 12 km down = 4 hr, up = 6 hr. Stream?", opts: ["0.5", "0.75", "1", "1.5"], a: 0, ex: "D=3, U=2. $v=(3-2)/2=0.5$." },
+      { q: "Time 12 km down = 4 hr, up = 6 hr. Stream?", opts: ["0.5", "0.75", "1", "1.5"], a: 0, ex: "D=3, U=2. $$\\begin{aligned} v &= (3-2)/2 \\\\ &= 0.5 \\end{aligned}$$." },
       { q: "Boat covers 24 km up in 6 hr, 36 km down in 6 hr. Boat?", opts: ["4", "5", "6", "8"], a: 1, ex: "U=4, D=6. u=5." },
-      { q: "Man rows still water 6 km/h. Goes 24 km against current and returns in 9 hr. Current?", opts: ["1", "2", "$\\sqrt{4}=2$", "3"], a: 1, ex: "$24/(6-v)+24/(6+v)=9 \\Rightarrow 48 \\cdot 6/(36-v^2)=9 \\Rightarrow 288=9(36-v^2) \\Rightarrow 32=36-v^2 \\Rightarrow v=2$." },
-      { q: "If Up speed = 1/2 of Down speed, ratio u:v?", opts: ["3:1", "2:1", "1:3", "4:1"], a: 0, ex: "$(u-v)/(u+v)=1/2 \\Rightarrow 2u-2v=u+v \\Rightarrow u=3v$." },
-      { q: "Boat = 9, current = 3. Total time for 24 km up and back?", opts: ["6", "8", "10", "12"], a: 2, ex: "D=12, U=6. $24/12+24/6=2+4=6$. Wait that's 6. Recheck: option C says 10. Let me recompute: U=$9-3=6$; D=$9+3=12$. Time=24/12 + 24/6 = 2+4=6 hr. Option A." },
+      { q: "Man rows still water 6 km/h. Goes 24 km against current and returns in 9 hr. Current?", opts: ["1", "2", "$\\sqrt{4}=2$", "3"], a: 1, ex: "$$\\begin{aligned} 24/(6-v)+24/(6+v) &= 9 \\Rightarrow 48 \\cdot 6/(36-v^2) \\\\ &= 9 \\Rightarrow 288 \\\\ &= 9(36-v^2) \\Rightarrow 32 \\\\ &= 36-v^2 \\Rightarrow v \\\\ &= 2 \\end{aligned}$$." },
+      { q: "If Up speed = 1/2 of Down speed, ratio u:v?", opts: ["3:1", "2:1", "1:3", "4:1"], a: 0, ex: "$$\\begin{aligned} (u-v)/(u+v) &= 1/2 \\Rightarrow 2u-2v \\\\ &= u+v \\Rightarrow u \\\\ &= 3v \\end{aligned}$$." },
+      { q: "Boat = 9, current = 3. Total time for 24 km up and back?", opts: ["6", "8", "10", "12"], a: 2, ex: "D=12, U=6. $$\\begin{aligned} 24/12+24/6 &= 2+4 \\\\ &= 6 \\end{aligned}$$. Wait that's 6. Recheck: option C says 10. Let me recompute: U=$9-3=6$; D=$9+3=12$. Time=24/12 + 24/6 = 2+4=6 hr. Option A." },
       { q: "Boat takes 5 hr to go 20 km up. Speed of boat = 5 km/h. Stream?", opts: ["0", "1", "2", "Impossible"], a: 1, ex: "20/(5-v)=5 → 5-v=4 → v=1." },
       { q: "Downstream 24 km in 2 hr; upstream 24 km in 3 hr. Boat speed in still water?", opts: ["10", "11", "12", "13"], a: 1, ex: "D=12, U=8. u=10. Hmm option A. Let me retry: D=24/2=12, U=24/3=8. u=(12+8)/2=10. Option A." },
-      { q: "Boat travels 20 km down and back in 6 hr. Still water speed 8 km/h. Stream?", opts: ["2", "3", "4", "6"], a: 0, ex: "$20/(8+v)+20/(8-v)=6 \\Rightarrow 320/(64-v^2)=6 \\Rightarrow 64-v^2=160/3$ -> negative. Trial v=2: $20/10+20/6=2+3.33=5.33$. v=4: $20/12+20/4=1.67+5=6.67$. v=3: 20/11+20/5=1.82+4=5.82. None exact. Skip." },
+      { q: "Boat travels 20 km down and back in 6 hr. Still water speed 8 km/h. Stream?", opts: ["2", "3", "4", "6"], a: 0, ex: "$$\\begin{aligned} 20/(8+v)+20/(8-v) &= 6 \\Rightarrow 320/(64-v^2) \\\\ &= 6 \\Rightarrow 64-v^2 \\\\ &= 160/3 \\end{aligned}$$ -> negative. Trial v=2: $$\\begin{aligned} 20/10+20/6 &= 2+3.33 \\\\ &= 5.33 \\end{aligned}$$. v=4: $$\\begin{aligned} 20/12+20/4 &= 1.67+5 \\\\ &= 6.67 \\end{aligned}$$. v=3: 20/11+20/5=1.82+4=5.82. None exact. Skip." },
       { q: "Boat goes 18 km in 6 hr downstream. Stream = 1 km/h. Boat's still water?", opts: ["2", "3", "4", "5"], a: 0, ex: "D=18/6=3=u+v=u+1 → u=2." },
       { q: "If u-v=4 and u+v=14, find u and v.", opts: ["u=9,v=5", "u=10,v=4", "u=8,v=6", "u=6,v=8"], a: 0, ex: "u=(14+4)/2=9, v=5." },
       { q: "Stream = 4 km/h. Down speed = 2x up speed. Boat?", opts: ["10", "12", "8", "16"], a: 1, ex: "u+v=2(u-v) → u+v=2u-2v → 3v=u → u=12." },
       { q: "If boat goes 6 km down in 30 min and 6 km up in 1 hr, stream?", opts: ["2", "3", "4", "6"], a: 1, ex: "D=12, U=6. v=(12-6)/2=3." },
-      { q: "Boat in stream 36 km/h still water, stream 4 km/h. Time for 40 km down + back?", opts: ["2 hr 25 min", "2 hr 30 min", "1 hr 50 min", "2 hr 5 min"], a: 0, ex: "D=40, U=32. $40/40+40/32=1+1.25=2.25$ hr=2h 15min. Hmm. Skip." },
-      { q: "Time for 36 km down + 24 km up = 4 hr. Down speed = 1.5x up speed. Find speeds.", opts: ["U=8,D=12", "U=6,D=9", "U=12,D=18", "U=4,D=6"], a: 2, ex: "$D=1.5U$. $36/(1.5U)+24/U=4 \\Rightarrow 24/U+24/U=4 \\Rightarrow 48/U=4 \\Rightarrow U=12$. D=18." },
+      { q: "Boat in stream 36 km/h still water, stream 4 km/h. Time for 40 km down + back?", opts: ["2 hr 25 min", "2 hr 30 min", "1 hr 50 min", "2 hr 5 min"], a: 0, ex: "D=40, U=32. $$\\begin{aligned} 40/40+40/32 &= 1+1.25 \\\\ &= 2.25 \\end{aligned}$$ hr=2h 15min. Hmm. Skip." },
+      { q: "Time for 36 km down + 24 km up = 4 hr. Down speed = 1.5x up speed. Find speeds.", opts: ["U=8,D=12", "U=6,D=9", "U=12,D=18", "U=4,D=6"], a: 2, ex: "$D=1.5U$. $$\\begin{aligned} 36/(1.5U)+24/U &= 4 \\Rightarrow 24/U+24/U \\\\ &= 4 \\Rightarrow 48/U \\\\ &= 4 \\Rightarrow U \\\\ &= 12 \\end{aligned}$$. D=18." },
       { q: "Boat in still 5 km/h. Stream 1 km/h. Up time for 12 km?", opts: ["3", "2.5", "2", "2.4"], a: 0, ex: "Up=4. T=12/4=3." },
       { q: "Boat down speed = 9, up = 6. Average speed for round trip?", opts: ["7", "7.2", "7.5", "8"], a: 1, ex: "Harmonic: $2 \\cdot 9 \\cdot 6/15=7.2$." },
       { q: "If boat 8 km/h, downstream speed 12 km/h, time for 36 km down?", opts: ["2 hr", "3 hr", "4 hr", "4.5 hr"], a: 1, ex: "36/12=3." },
@@ -3333,7 +3333,7 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>$a_1, a_2, \\ldots$ is HP if $1/a_1, 1/a_2, \\ldots$ is AP.</p>
 
       <h3>4. Useful Sums</h3>
-      <p>$\\sum n = \\frac{n(n+1)}{2}, \\quad \\sum n^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\sum n^3 = [\\frac{n(n+1)}{2}]^2$.</p>
+      <p>$$\\begin{aligned} \\sum n &= \\frac{n(n+1)}{2}, \\quad \\sum n^2 \\\\ &= \\frac{n(n+1)(2n+1)}{6}, \\quad \\sum n^3 \\\\ &= [\\frac{n(n+1)}{2}]^2 \\end{aligned}$$.</p>
 
       <h3>🔥 Tricks</h3>
 
@@ -3354,19 +3354,19 @@ $(c_2 - m)$ : $(m - c_1)$
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>Find 20th term of AP: 5, 8, 11, ...</p>
-      <p><b>Solution:</b> $T_{20} = 5 + 19 \\cdot 3 = $ <b>62</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} T_{20} &= 5 + 19 \\cdot 3 \\\\ &=  \\end{aligned}$$ <b>62</b>.</p>
 
       <h4>Example 2</h4>
       <p>Sum of first 20 terms of AP: 1, 4, 7, ...?</p>
-      <p><b>Solution:</b> $S = 10(2 + 19 \\cdot 3) = 10 \\cdot 59 = $ <b>590</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} S &= 10(2 + 19 \\cdot 3) \\\\ &= 10 \\cdot 59 \\\\ &=  \\end{aligned}$$ <b>590</b>.</p>
 
       <h4>Example 3</h4>
       <p>Find 5th term of GP: 2, 6, 18, ...</p>
-      <p><b>Solution:</b> $r=3, T_5 = 2 \\cdot 3^4 = $ <b>162</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} r &= 3, T_5 \\\\ &= 2 \\cdot 3^4 \\\\ &=  \\end{aligned}$$ <b>162</b>.</p>
 
       <h4>Example 4</h4>
       <p>Sum of GP: 1, 2, 4, ..., 1024.</p>
-      <p><b>Solution:</b><br>$a=1, r=2, T_n = 1024 = 2^{10} \\Rightarrow n=11$.<br>$S = (2^{11}-1) = $ <b>2047</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} a &= 1, r \\\\ &= 2, T_n \\\\ &= 1024 \\\\ &= 2^{10} \\Rightarrow n \\\\ &= 11 \\end{aligned}$$.<br>$$\\begin{aligned} S &= (2^{11}-1) \\\\ &=  \\end{aligned}$$ <b>2047</b>.</p>
 
       <h4>Example 5</h4>
       <p>Sum of GP to infinity: $1 + \\frac{1}{3} + \\frac{1}{9} + \\cdots$?</p>
@@ -3374,7 +3374,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 6</h4>
       <p>How many terms of AP 17, 15, 13, ... sum to 72?</p>
-      <p><b>Solution:</b><br>$a=17, d=-2$.<br>$S_n = (n/2)(34-2(n-1)) = (n/2)(36-2n) = n(18-n) = 72 \\Rightarrow n^2 - 18n + 72 = 0 \\Rightarrow n=6$ or 12.<br>Both valid (sum hits 72 twice as series goes negative).</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} a &= 17, d \\\\ &= -2 \\end{aligned}$$.<br>$$\\begin{aligned} S_n &= (n/2)(34-2(n-1)) \\\\ &= (n/2)(36-2n) \\\\ &= n(18-n) \\\\ &= 72 \\Rightarrow n^2 - 18n + 72 \\\\ &= 0 \\Rightarrow n \\\\ &= 6 \\end{aligned}$$ or 12.<br>Both valid (sum hits 72 twice as series goes negative).</p>
 
       <h4>Example 7</h4>
       <p>Find next: 1, 1, 2, 3, 5, 8, 13, ?</p>
@@ -3386,19 +3386,19 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 9</h4>
       <p>If sum of first $n$ natural numbers is 105, find $n$.</p>
-      <p><b>Solution:</b> $n(n+1)/2 = 105 \\Rightarrow n^2+n-210=0 \\Rightarrow n=14$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} n(n+1)/2 &= 105 \\Rightarrow n^2+n-210 \\\\ &= 0 \\Rightarrow n \\\\ &= 14 \\end{aligned}$$.</p>
 
       <h4>Example 10</h4>
       <p>Find next: 7, 26, 63, 124, ?</p>
-      <p><b>Solution:</b> $n^3-1$: $2^3-1=7, 3^3-1=26, 4^3-1=63, 5^3-1=124, 6^3-1 = $ <b>215</b>.</p>
+      <p><b>Solution:</b> $n^3-1$: $$\\begin{aligned} 2^3-1 &= 7, 3^3-1 \\\\ &= 26, 4^3-1 \\\\ &= 63, 5^3-1 \\\\ &= 124, 6^3-1 \\\\ &=  \\end{aligned}$$ <b>215</b>.</p>
 
       <h4>Example 11</h4>
       <p>Find 7th term of GP if 1st = 4 and 4th = 32.</p>
-      <p><b>Solution:</b><br>$r^3 = 32/4 = 8 \\Rightarrow r=2$.<br>$T_7 = 4 \\cdot 64 = $ <b>256</b>.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} r^3 &= 32/4 \\\\ &= 8 \\Rightarrow r \\\\ &= 2 \\end{aligned}$$.<br>$$\\begin{aligned} T_7 &= 4 \\cdot 64 \\\\ &=  \\end{aligned}$$ <b>256</b>.</p>
 
       <h4>Example 12</h4>
       <p>If $a, b, c$ are in AP with $a+b+c = 27$ and $a^2+b^2+c^2 = 293$, find $a$ and $c$.</p>
-      <p><b>Solution:</b><br>$b = 9$.<br>So $a+c=18, a^2+c^2 = 293-81 = 212$.<br>$(a+c)^2 - 2ac = 212 \\Rightarrow 324-2ac=212 \\Rightarrow ac=56$.<br>So $a, c$ are roots of $x^2-18x+56=0 \\Rightarrow x = 4, 14$.</p>
+      <p><b>Solution:</b><br>$b = 9$.<br>So $$\\begin{aligned} a+c &= 18, a^2+c^2 \\\\ &= 293-81 \\\\ &= 212 \\end{aligned}$$.<br>$$\\begin{aligned} (a+c)^2 - 2ac &= 212 \\Rightarrow 324-2ac \\\\ &= 212 \\Rightarrow ac \\\\ &= 56 \\end{aligned}$$.<br>So $a, c$ are roots of $$\\begin{aligned} x^2-18x+56 &= 0 \\Rightarrow x \\\\ &= 4, 14 \\end{aligned}$$.</p>
 
       <h4>Example 13</h4>
       <p>HM of 4 and 6?</p>
@@ -3406,7 +3406,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 14</h4>
       <p>Number of terms in AP 5, 9, 13, ..., 101?</p>
-      <p><b>Solution:</b> $101 = 5 + (n-1) \\cdot 4 \\Rightarrow n=25$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 101 &= 5 + (n-1) \\cdot 4 \\Rightarrow n \\\\ &= 25 \\end{aligned}$$.</p>
 
       <h4>Example 15</h4>
       <p>Find next: 2, 6, 14, 30, 62, ?</p>
@@ -3418,7 +3418,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: nth term of AP</h4>
       <p>AP: 5, 9, 13, ... Find 20th term.</p>
-      <p><b>Solution:</b><br>$a=5, d=4.<br>T_{20} = 5+19 \cdot 4 = 81$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} a &= 5, d \\\\ &= 4.<br>T_{20} \\\\ &= 5+19 \cdot 4 \\\\ &= 81 \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3441,16 +3441,16 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "AM, GM, HM relation?", opts: ["AM ≥ GM ≥ HM", "AM ≤ GM ≤ HM", "All equal", "Cannot compare"], a: 0, ex: "Standard inequality." },
       { q: "1+2+3+...+50 = ?", opts: ["1175", "1275", "1325", "1500"], a: 1, ex: "$50 \\cdot 51/2=1275$." },
       { q: "Next: 5, 10, 17, 26, 37, ?", opts: ["48", "50", "52", "55"], a: 1, ex: "Diffs 5,7,9,11,13. Next: 37+13=50." },
-      { q: "Number of terms in AP 1,4,7,...,100?", opts: ["33", "34", "35", "36"], a: 1, ex: "$100=1+(n-1)3 \\Rightarrow n=34$." },
+      { q: "Number of terms in AP 1,4,7,...,100?", opts: ["33", "34", "35", "36"], a: 1, ex: "$$\\begin{aligned} 100 &= 1+(n-1)3 \\Rightarrow n \\\\ &= 34 \\end{aligned}$$." },
       { q: "Find next: 1, 8, 27, 64, ?", opts: ["100", "125", "144", "216"], a: 1, ex: "Cubes. $5^3=125$." },
       { q: "Next: 7, 11, 13, 17, 19, ?", opts: ["21", "23", "25", "27"], a: 1, ex: "Primes." },
       { q: "AM of 8 and 12?", opts: ["9", "10", "11", "12"], a: 1, ex: "10." },
       { q: "GM of 4 and 9?", opts: ["5", "6", "6.5", "7"], a: 1, ex: "$\\sqrt{36}=6$." },
-      { q: "Sum of GP: $3+6+12+\\ldots+192$.", opts: ["381", "384", "189", "378"], a: 0, ex: "$T_n=192=3 \\cdot 2^{n-1} \\Rightarrow n=7$. $S=3(2^7-1)/(2-1)=3 \\cdot 127=381$." },
-      { q: "Common difference of AP if T₅=20 and T₁₀=40?", opts: ["2", "3", "4", "5"], a: 2, ex: "$20+5d=40 \\Rightarrow d=4$." },
+      { q: "Sum of GP: $3+6+12+\\ldots+192$.", opts: ["381", "384", "189", "378"], a: 0, ex: "$$\\begin{aligned} T_n &= 192 \\\\ &= 3 \\cdot 2^{n-1} \\Rightarrow n \\\\ &= 7 \\end{aligned}$$. $$\\begin{aligned} S &= 3(2^7-1)/(2-1) \\\\ &= 3 \\cdot 127 \\\\ &= 381 \\end{aligned}$$." },
+      { q: "Common difference of AP if T₅=20 and T₁₀=40?", opts: ["2", "3", "4", "5"], a: 2, ex: "$$\\begin{aligned} 20+5d &= 40 \\Rightarrow d \\\\ &= 4 \\end{aligned}$$." },
       { q: "Sum of cubes 1³+2³+...+5³?", opts: ["125", "225", "225", "300"], a: 1, ex: "$[5 \\cdot 6/2]^2=225$." },
       { q: "Find next: 2, 3, 5, 8, 13, ?", opts: ["18", "20", "21", "25"], a: 2, ex: "Each = sum of last two (Fibonacci variant)." },
-      { q: "If $T_3 = 5, T_7 = 13$ in AP, $T_{10}=?$", opts: ["18", "19", "20", "21"], a: 1, ex: "Diff 8 in 4 steps → d=2. $T_{10}=5+7d=5+14=19$." },
+      { q: "If $$\\begin{aligned} T_3 &= 5, T_7 \\\\ &= 13 \\end{aligned}$$ in AP, $T_{10}=?$", opts: ["18", "19", "20", "21"], a: 1, ex: "Diff 8 in 4 steps → d=2. $$\\begin{aligned} T_{10} &= 5+7d \\\\ &= 5+14 \\\\ &= 19 \\end{aligned}$$." },
       { q: "Sum of first n odd numbers = ?", opts: ["$n^2$", "$n(n+1)$", "$\\frac{n(n+1)}{2}$", "$2n$"], a: 0, ex: "$n^2$." },
       { q: "Find: 4, 9, 25, 49, ?", opts: ["64", "81", "100", "121"], a: 3, ex: "Squares of primes: 2,3,5,7,11. 121." }
     ]
@@ -3562,7 +3562,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 15</h4>
       <p>In pie chart, sector A = 108°. If total = ₹600 cr, value of A?</p>
-      <p><b>Solution:</b> $108/360 \\times 600 = 30 \\times 6 = $ <b>₹180 cr</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 108/360 \\times 600 &= 30 \\times 6 \\\\ &=  \\end{aligned}$$ <b>₹180 cr</b>.</p>
 
       <h4>Example 16: Percent Increase Across Years</h4>
       <p>Sales in 2020 = ₹500cr, 2021 = ₹600cr, 2022 = ₹750cr. % increase from 2021 to 2022?</p>
@@ -3595,15 +3595,15 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "If 30% of pie chart total = ₹600cr, total?", opts: ["₹1800cr", "₹2000cr", "₹2400cr", "₹3000cr"], a: 1, ex: "$600/0.3=2000$." },
       { q: "If bar chart shows 50, 70, 90, 110, 130, sum?", opts: ["350", "400", "450", "500"], a: 2, ex: "50+70+90+110+130=450." },
       { q: "Profit in 5 years: 10, 15, 25, 20, 30. Year of max profit?", opts: ["1st", "3rd", "4th", "5th"], a: 3, ex: "30 is max." },
-      { q: "If exports doubled and imports halved, ratio change from 2:3 to?", opts: ["4:1.5", "8:3", "Both same", "1:1"], a: 1, ex: "$2 \\cdot 2 : 3/2 = 4:1.5=8:3$." },
-      { q: "Average of 7 numbers is 14. Excluding 2, avg = 16. Removed two's avg?", opts: ["4", "5", "6", "7"], a: 1, ex: "$(7 \\cdot 14-5 \\cdot 16)/2 = (98-80)/2=9$. Hmm. Let me recheck: sum 98, after removing 2 sum=80, removed=18, avg=9. None match exactly. Skip." },
+      { q: "If exports doubled and imports halved, ratio change from 2:3 to?", opts: ["4:1.5", "8:3", "Both same", "1:1"], a: 1, ex: "$$\\begin{aligned} 2 \\cdot 2 : 3/2 &= 4:1.5 \\\\ &= 8:3 \\end{aligned}$$." },
+      { q: "Average of 7 numbers is 14. Excluding 2, avg = 16. Removed two's avg?", opts: ["4", "5", "6", "7"], a: 1, ex: "$$\\begin{aligned} (7 \\cdot 14-5 \\cdot 16)/2 &= (98-80)/2 \\\\ &= 9 \\end{aligned}$$. Hmm. Let me recheck: sum 98, after removing 2 sum=80, removed=18, avg=9. None match exactly. Skip." },
       { q: "Pie chart 25% to A, 35% to B, 20% to C, rest to D. D's %?", opts: ["10%", "15%", "20%", "25%"], a: 2, ex: "$100-25-35-20=20\\%$." },
-      { q: "Avg marks of A and B = 65. Avg of B and C = 70. A − C = ?", opts: ["-10", "5", "-5", "10"], a: 0, ex: "$(A+B)/2=65, (B+C)/2=70$. A−C=$-10$." },
+      { q: "Avg marks of A and B = 65. Avg of B and C = 70. A − C = ?", opts: ["-10", "5", "-5", "10"], a: 0, ex: "$$\\begin{aligned} (A+B)/2 &= 65, (B+C)/2 \\\\ &= 70 \\end{aligned}$$. A−C=$-10$." },
       { q: "Population grew from 5000 to 6000 in 2 years. Avg yearly % growth?", opts: ["10%", "20%", "12%", "Both 10% and 12.5% acceptable"], a: 0, ex: "Simple: 20%/2=10%." },
       { q: "Pie: 4 sectors, smallest 18°. Smallest's % of total?", opts: ["5%", "10%", "15%", "20%"], a: 0, ex: "$18/360=5\\%$." },
       { q: "Salary breakdown 50%, 30%, 20%. Total salary ₹15L. Smallest section?", opts: ["₹2L", "₹3L", "₹4L", "₹5L"], a: 1, ex: "20% of 15L = 3L." },
       { q: "Increase from 150 to 250. % increase?", opts: ["50%", "66.67%", "75%", "100%"], a: 1, ex: "$100/150 \\cdot 100=66.67\\%$." },
-      { q: "Avg of 5 students' marks = 80. Including 6th, avg = 75. 6th's marks?", opts: ["40", "45", "50", "55"], a: 2, ex: "$6 \\cdot 75-5 \\cdot 80=450-400=50$." },
+      { q: "Avg of 5 students' marks = 80. Including 6th, avg = 75. 6th's marks?", opts: ["40", "45", "50", "55"], a: 2, ex: "$$\\begin{aligned} 6 \\cdot 75-5 \\cdot 80 &= 450-400 \\\\ &= 50 \\end{aligned}$$." },
       { q: "If revenue doubles every year, after 3 years (relative to year 0)?", opts: ["2x", "4x", "8x", "16x"], a: 2, ex: "$2^3=8$." },
       { q: "If 4 numbers' avg = 12 and 3 of them are 10, 14, 13. The 4th?", opts: ["9", "11", "12", "13"], a: 1, ex: "$48-37=11$." }
     ]
@@ -3639,7 +3639,7 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>$$x^3 - 1/x^3 = n^3 + 3n$$</p>
 
       <h3>3. Quadratic Equation</h3>
-      <p>$ax^2+bx+c=0 \\Rightarrow x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.</p>
+      <p>$$\\begin{aligned} ax^2+bx+c &= 0 \\Rightarrow x \\\\ &= \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a} \\end{aligned}$$.</p>
       <p>Sum of roots = $-b/a$. Product = $c/a$.</p>
       <p>Discriminant $D = b^2-4ac$: $>0$ → 2 real distinct; $=0$ → equal; $<0$ → imaginary.</p>
 
@@ -3647,7 +3647,7 @@ $(c_2 - m)$ : $(m - c_1)$
       <ul>
         <li><b>If a+b+c = 0, then $a^3+b^3+c^3 = 3abc$</b>.</li>
         <li><b>$(a+b+c)^2 = a^2+b^2+c^2 + 2(ab+bc+ca)$</b>.</li>
-        <li><b>For factoring</b>: try $(x \\pm a)(x \\pm b)$ where $ab=c, a+b=b/a$.</li>
+        <li><b>For factoring</b>: try $(x \\pm a)(x \\pm b)$ where $$\\begin{aligned} ab &= c, a+b \\\\ &= b/a \\end{aligned}$$.</li>
         <li><b>Symmetric expressions</b>: $x+1/x$, $x^2+1/x^2$ — use the formulas above.</li>
       </ul>
 
@@ -3658,11 +3658,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 2</h4>
       <p>If $x+1/x=3$, find $x^3+1/x^3$.</p>
-      <p><b>Solution:</b> $3^3 - 3 \\cdot 3 = 27-9 = $ <b>18</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 3^3 - 3 \\cdot 3 &= 27-9 \\\\ &=  \\end{aligned}$$ <b>18</b>.</p>
 
       <h4>Example 3</h4>
-      <p>If $a+b=7, ab=12$, find $a^3+b^3$.</p>
-      <p><b>Solution:</b> $(a+b)^3 - 3ab(a+b) = 343 - 3 \\cdot 12 \\cdot 7 = 343-252 = $ <b>91</b>.</p>
+      <p>If $$\\begin{aligned} a+b &= 7, ab \\\\ &= 12 \\end{aligned}$$, find $a^3+b^3$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (a+b)^3 - 3ab(a+b) &= 343 - 3 \\cdot 12 \\cdot 7 \\\\ &= 343-252 \\\\ &=  \\end{aligned}$$ <b>91</b>.</p>
 
       <h4>Example 4</h4>
       <p>If $a+b+c=0$ and $abc=6$, $a^3+b^3+c^3=?$</p>
@@ -3674,7 +3674,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 6</h4>
       <p>If $x^2+1/x^2 = 10$, find $x-1/x$.</p>
-      <p><b>Solution:</b><br>$(x-1/x)^2 = x^2+1/x^2 - 2 = 8$.<br>So $x-1/x = \\pm\\sqrt{8} = \\pm 2\\sqrt{2}$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} (x-1/x)^2 &= x^2+1/x^2 - 2 \\\\ &= 8 \\end{aligned}$$.<br>So $$\\begin{aligned} x-1/x &= \\pm\\sqrt{8} \\\\ &= \\pm 2\\sqrt{2} \\end{aligned}$$.</p>
 
       <h4>Example 7</h4>
       <p>Sum of roots of $x^2 - 7x + 12 = 0$.</p>
@@ -3682,7 +3682,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 8</h4>
       <p>If $a^2+b^2=29$ and $ab=10$, find $a+b$ and $a-b$.</p>
-      <p><b>Solution:</b><br>$(a+b)^2 = 29+20=49 \\Rightarrow a+b=7$.<br>$(a-b)^2 = 9 \\Rightarrow a-b=3$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} (a+b)^2 &= 29+20 \\\\ &= 49 \\Rightarrow a+b \\\\ &= 7 \\end{aligned}$$.<br>$$\\begin{aligned} (a-b)^2 &= 9 \\Rightarrow a-b \\\\ &= 3 \\end{aligned}$$.</p>
 
       <h4>Example 9</h4>
       <p>$\\frac{a^3+b^3}{a^2-ab+b^2}=?$</p>
@@ -3694,11 +3694,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 11</h4>
       <p>If $\\alpha, \\beta$ are roots of $x^2-5x+6=0$, find $\\alpha^2+\\beta^2$.</p>
-      <p><b>Solution:</b><br>$\\alpha+\\beta=5, \\alpha\\beta=6$.<br>$\\alpha^2+\\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta = 25-12=13$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\alpha+\\beta &= 5, \\alpha\\beta \\\\ &= 6 \\end{aligned}$$.<br>$$\\begin{aligned} \\alpha^2+\\beta^2 &= (\\alpha+\\beta)^2 - 2\\alpha\\beta \\\\ &= 25-12 \\\\ &= 13 \\end{aligned}$$.</p>
 
       <h4>Example 12</h4>
       <p>If $x^2-3x+1=0$, find $x^2+1/x^2$.</p>
-      <p><b>Solution:</b><br>From eqn $x+1/x=3$.<br>So $x^2+1/x^2 = 9-2=7$.</p>
+      <p><b>Solution:</b><br>From eqn $x+1/x=3$.<br>So $$\\begin{aligned} x^2+1/x^2 &= 9-2 \\\\ &= 7 \\end{aligned}$$.</p>
 
       <h4>Example 13</h4>
       <p>Factorize $x^2-7x+12$.</p>
@@ -3706,35 +3706,35 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 14</h4>
       <p>If $p+q+r=0$, find $\\frac{p^2}{qr}+\\frac{q^2}{pr}+\\frac{r^2}{pq}$.</p>
-      <p><b>Solution:</b> $= \\frac{p^3+q^3+r^3}{pqr} = \\frac{3pqr}{pqr} = $ <b>3</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned}  &= \\frac{p^3+q^3+r^3}{pqr} \\\\ &= \\frac{3pqr}{pqr} \\\\ &=  \\end{aligned}$$ <b>3</b>.</p>
 
       <h4>Example 15</h4>
-      <p>If $a+b+c=6, a^2+b^2+c^2=14$, find $ab+bc+ca$.</p>
-      <p><b>Solution:</b> $(a+b+c)^2 = a^2+b^2+c^2 + 2(ab+bc+ca) \\Rightarrow 36=14+2k \\Rightarrow k=11$.</p>
+      <p>If $$\\begin{aligned} a+b+c &= 6, a^2+b^2+c^2 \\\\ &= 14 \\end{aligned}$$, find $ab+bc+ca$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (a+b+c)^2 &= a^2+b^2+c^2 + 2(ab+bc+ca) \\Rightarrow 36 \\\\ &= 14+2k \\Rightarrow k \\\\ &= 11 \\end{aligned}$$.</p>
 
       <h4>Example 16: Conditional with $x^2+1/x^2$</h4>
       <p>If $x^2 + 1/x^2 = 14$, find $x + 1/x$ (positive value).</p>
-      <p><b>Solution:</b> $(x+1/x)^2 = x^2 + 1/x^2 + 2 = 16 \Rightarrow x+1/x = 4$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (x+1/x)^2 &= x^2 + 1/x^2 + 2 \\\\ &= 16 \Rightarrow x+1/x \\\\ &= 4 \\end{aligned}$$.</p>
 
       <h4>Example 17: Quadratic Roots Relationship</h4>
       <p>If $\alpha, \beta$ roots of $x^2 - 6x + 8 = 0$, find $\alpha^3 + \beta^3$.</p>
-      <p><b>Solution:</b><br>$\alpha+\beta=6, \alpha\beta=8$.<br>$\alpha^3+\beta^3 = (\alpha+\beta)^3 - 3\alpha\beta(\alpha+\beta) = 216-144=72$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \alpha+\beta &= 6, \alpha\beta \\\\ &= 8 \\end{aligned}$$.<br>$$\\begin{aligned} \alpha^3+\beta^3 &= (\alpha+\beta)^3 - 3\alpha\beta(\alpha+\beta) \\\\ &= 216-144 \\\\ &= 72 \\end{aligned}$$.</p>
 
       <h4>Example 18: Symmetric Expression</h4>
-      <p>If $a+b=5, a^2+b^2=13$, find $a^3+b^3$.</p>
-      <p><b>Solution:</b><br>$2ab = 25-13 = 12 \Rightarrow ab = 6$.<br>$a^3+b^3 = (a+b)^3-3ab(a+b) = 125-90 = 35$.</p>
+      <p>If $$\\begin{aligned} a+b &= 5, a^2+b^2 \\\\ &= 13 \\end{aligned}$$, find $a^3+b^3$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 2ab &= 25-13 \\\\ &= 12 \Rightarrow ab \\\\ &= 6 \\end{aligned}$$.<br>$$\\begin{aligned} a^3+b^3 &= (a+b)^3-3ab(a+b) \\\\ &= 125-90 \\\\ &= 35 \\end{aligned}$$.</p>
 
       <h4>Example 19: $a^2+b^2+c^2 = ab+bc+ca$</h4>
       <p>If $a^2+b^2+c^2 = ab+bc+ca$ and $a=1$, find $b+c$.</p>
-      <p><b>Solution:</b><br>$a=b=c=1$.<br>So $b+c=2$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} a &= b \\\\ &= c \\\\ &= 1 \\end{aligned}$$.<br>So $b+c=2$.</p>
 
       <h4>Example 20: Find $x^4 + 1/x^4$</h4>
       <p>If $x+1/x = 3$, find $x^4 + 1/x^4$.</p>
-      <p><b>Solution:</b><br>$x^2+1/x^2 = 9-2=7$.<br>$x^4+1/x^4 = 49-2 = 47$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} x^2+1/x^2 &= 9-2 \\\\ &= 7 \\end{aligned}$$.<br>$$\\begin{aligned} x^4+1/x^4 &= 49-2 \\\\ &= 47 \\end{aligned}$$.</p>
 
       <h4>Example 21: Factor Theorem</h4>
       <p>If $f(x) = x^3 - 7x + 6$, is $(x-1)$ a factor?</p>
-      <p><b>Solution:</b><br>$f(1) = 1-7+6 = 0$.<br>Yes, factor.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} f(1) &= 1-7+6 \\\\ &= 0 \\end{aligned}$$.<br>Yes, factor.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3746,26 +3746,26 @@ $(c_2 - m)$ : $(m - c_1)$
     mcq: [
       { q: "If $x+1/x=4$, $x^2+1/x^2=?$", opts: ["14", "16", "18", "20"], a: 0, ex: "$4^2-2=14$." },
       { q: "$(a+b)^2-(a-b)^2=?$", opts: ["$2ab$", "$4ab$", "$a^2+b^2$", "0"], a: 1, ex: "Expand: $4ab$." },
-      { q: "Sum of roots of $2x^2-7x+3=0$?", opts: ["3.5", "2", "1.5", "7"], a: 0, ex: "$-b/a=7/2=3.5$." },
-      { q: "If $a-b=4, ab=3$, $a^2+b^2$?", opts: ["20", "22", "24", "16"], a: 1, ex: "$(a-b)^2=a^2+b^2-2ab \\Rightarrow 16=a^2+b^2-6 \\Rightarrow a^2+b^2=22$." },
+      { q: "Sum of roots of $2x^2-7x+3=0$?", opts: ["3.5", "2", "1.5", "7"], a: 0, ex: "$$\\begin{aligned} -b/a &= 7/2 \\\\ &= 3.5 \\end{aligned}$$." },
+      { q: "If $$\\begin{aligned} a-b &= 4, ab \\\\ &= 3 \\end{aligned}$$, $a^2+b^2$?", opts: ["20", "22", "24", "16"], a: 1, ex: "$$\\begin{aligned} (a-b)^2 &= a^2+b^2-2ab \\Rightarrow 16 \\\\ &= a^2+b^2-6 \\Rightarrow a^2+b^2 \\\\ &= 22 \\end{aligned}$$." },
       { q: "If $x+1/x=3$, $x^3+1/x^3=?$", opts: ["18", "21", "27", "12"], a: 0, ex: "$3^3-3 \\cdot 3=18$." },
       { q: "$a+b+c=0$. $a^3+b^3+c^3=?$", opts: ["0", "$3abc$", "$abc$", "$a^2+b^2+c^2$"], a: 1, ex: "Identity." },
       { q: "$(105)^2-(95)^2=?$", opts: ["1000", "2000", "1500", "500"], a: 1, ex: "$200 \\cdot 10=2000$." },
       { q: "Product of roots of $x^2-5x+7=0$?", opts: ["5", "7", "12", "$-7$"], a: 1, ex: "$c/a=7$." },
-      { q: "If $x^2+y^2=25, xy=12$, $(x+y)^2=?$", opts: ["49", "37", "13", "100"], a: 0, ex: "$25+24=49$." },
+      { q: "If $$\\begin{aligned} x^2+y^2 &= 25, xy \\\\ &= 12 \\end{aligned}$$, $(x+y)^2=?$", opts: ["49", "37", "13", "100"], a: 0, ex: "$25+24=49$." },
       { q: "$(101)^3 - 3 \\cdot 101 \\cdot 1 + (-1)^3 + 3 \\cdot 1 \\cdot 1$ — wait, simplify $\\frac{a^3-b^3}{a-b}$.", opts: ["$a+b$", "$a^2+ab+b^2$", "$a^2-b^2$", "$a^2-ab+b^2$"], a: 1, ex: "Standard." },
-      { q: "If $a^3+b^3=152, a+b=8$. ab=?", opts: ["10", "12", "15", "20"], a: 2, ex: "$(a+b)^3=a^3+b^3+3ab(a+b) \\Rightarrow 512=152+24ab \\Rightarrow ab=15$." },
-      { q: "Discriminant of $x^2-6x+9=0$?", opts: ["0", "-3", "36", "12"], a: 0, ex: "$b^2-4ac=36-36=0$." },
-      { q: "If $x+y+z=12, x^2+y^2+z^2=70$, $xy+yz+zx$?", opts: ["27", "37", "47", "57"], a: 1, ex: "$(x+y+z)^2=x^2+y^2+z^2+2(xy+yz+zx) \\Rightarrow 144=70+2k \\Rightarrow k=37$." },
-      { q: "If $x+1/x=2$, $x^4+1/x^4$?", opts: ["0", "2", "4", "14"], a: 1, ex: "$x+1/x=2 \\Rightarrow x=1$. So $x^4+1/x^4=2$." },
+      { q: "If $$\\begin{aligned} a^3+b^3 &= 152, a+b \\\\ &= 8 \\end{aligned}$$. ab=?", opts: ["10", "12", "15", "20"], a: 2, ex: "$$\\begin{aligned} (a+b)^3 &= a^3+b^3+3ab(a+b) \\Rightarrow 512 \\\\ &= 152+24ab \\Rightarrow ab \\\\ &= 15 \\end{aligned}$$." },
+      { q: "Discriminant of $x^2-6x+9=0$?", opts: ["0", "-3", "36", "12"], a: 0, ex: "$$\\begin{aligned} b^2-4ac &= 36-36 \\\\ &= 0 \\end{aligned}$$." },
+      { q: "If $$\\begin{aligned} x+y+z &= 12, x^2+y^2+z^2 \\\\ &= 70 \\end{aligned}$$, $xy+yz+zx$?", opts: ["27", "37", "47", "57"], a: 1, ex: "$$\\begin{aligned} (x+y+z)^2 &= x^2+y^2+z^2+2(xy+yz+zx) \\Rightarrow 144 \\\\ &= 70+2k \\Rightarrow k \\\\ &= 37 \\end{aligned}$$." },
+      { q: "If $x+1/x=2$, $x^4+1/x^4$?", opts: ["0", "2", "4", "14"], a: 1, ex: "$$\\begin{aligned} x+1/x &= 2 \\Rightarrow x \\\\ &= 1 \\end{aligned}$$. So $x^4+1/x^4=2$." },
       { q: "Solve $x^2-5x+6=0$.", opts: ["x=2,3", "x=1,6", "x=4,2", "x=1,5"], a: 0, ex: "$(x-2)(x-3)$." },
-      { q: "If $a+b=3, ab=2$, $a^2+b^2$?", opts: ["5", "7", "9", "13"], a: 0, ex: "$9-4=5$." },
-      { q: "$(a+b)^2 = a^2+b^2$ when?", opts: ["always", "ab=0", "$a=b$", "$a+b=0$"], a: 1, ex: "$2ab=0 \\Rightarrow ab=0$." },
-      { q: "If $\\alpha, \\beta$ roots of $x^2+5x+6=0$, $\\alpha^2+\\beta^2$?", opts: ["10", "12", "13", "14"], a: 2, ex: "$\\alpha+\\beta=-5, \\alpha\\beta=6$. $25-12=13$." },
-      { q: "If $a^2+b^2+c^2=ab+bc+ca$, then?", opts: ["$a=b=c$", "$a+b+c=0$", "Cannot say", "$abc=0$"], a: 0, ex: "Algebra: rearrange to $\\sum (a-b)^2=0 \\Rightarrow a=b=c$." },
-      { q: "If $x+1/x = -2$, $x^3+1/x^3$?", opts: ["-2", "-8", "8", "2"], a: 0, ex: "$(-2)^3-3(-2)=-8+6=-2$." },
-      { q: "If $a+b=10, a-b=4$, $ab=?$", opts: ["21", "20", "24", "30"], a: 0, ex: "$a=7, b=3, ab=21$." },
-      { q: "If $a^3+b^3+c^3 = 3abc$ and $a+b+c \\ne 0$, then?", opts: ["$a=b=c$", "$abc=0$", "Either", "Neither"], a: 0, ex: "From $a^3+b^3+c^3-3abc = (a+b+c)(a^2+b^2+c^2-ab-bc-ca) = 0$, since first factor nonzero, second is zero → $a=b=c$." },
+      { q: "If $$\\begin{aligned} a+b &= 3, ab \\\\ &= 2 \\end{aligned}$$, $a^2+b^2$?", opts: ["5", "7", "9", "13"], a: 0, ex: "$9-4=5$." },
+      { q: "$(a+b)^2 = a^2+b^2$ when?", opts: ["always", "ab=0", "$a=b$", "$a+b=0$"], a: 1, ex: "$$\\begin{aligned} 2ab &= 0 \\Rightarrow ab \\\\ &= 0 \\end{aligned}$$." },
+      { q: "If $\\alpha, \\beta$ roots of $x^2+5x+6=0$, $\\alpha^2+\\beta^2$?", opts: ["10", "12", "13", "14"], a: 2, ex: "$$\\begin{aligned} \\alpha+\\beta &= -5, \\alpha\\beta \\\\ &= 6 \\end{aligned}$$. $25-12=13$." },
+      { q: "If $a^2+b^2+c^2=ab+bc+ca$, then?", opts: ["$$\\begin{aligned} a &= b \\\\ &= c \\end{aligned}$$", "$a+b+c=0$", "Cannot say", "$abc=0$"], a: 0, ex: "Algebra: rearrange to $$\\begin{aligned} \\sum (a-b)^2 &= 0 \\Rightarrow a \\\\ &= b \\\\ &= c \\end{aligned}$$." },
+      { q: "If $x+1/x = -2$, $x^3+1/x^3$?", opts: ["-2", "-8", "8", "2"], a: 0, ex: "$$\\begin{aligned} (-2)^3-3(-2) &= -8+6 \\\\ &= -2 \\end{aligned}$$." },
+      { q: "If $$\\begin{aligned} a+b &= 10, a-b \\\\ &= 4 \\end{aligned}$$, $ab=?$", opts: ["21", "20", "24", "30"], a: 0, ex: "$$\\begin{aligned} a &= 7, b \\\\ &= 3, ab \\\\ &= 21 \\end{aligned}$$." },
+      { q: "If $a^3+b^3+c^3 = 3abc$ and $a+b+c \\ne 0$, then?", opts: ["$$\\begin{aligned} a &= b \\\\ &= c \\end{aligned}$$", "$abc=0$", "Either", "Neither"], a: 0, ex: "From $$\\begin{aligned} a^3+b^3+c^3-3abc &= (a+b+c)(a^2+b^2+c^2-ab-bc-ca) \\\\ &= 0 \\end{aligned}$$, since first factor nonzero, second is zero → $$\\begin{aligned} a &= b \\\\ &= c \\end{aligned}$$." },
       { q: "$(x+y)(x^2-xy+y^2) = ?$", opts: ["$x^3+y^3$", "$x^3-y^3$", "$x^2+y^2$", "$(x+y)^3$"], a: 0, ex: "Identity." },
       { q: "If $x+1/x=\\sqrt{5}$, $x^2+1/x^2$?", opts: ["3", "5", "7", "2"], a: 0, ex: "$5-2=3$." },
       { q: "Factorize $x^3-1$.", opts: ["$(x-1)(x^2+x+1)$", "$(x+1)(x^2-x+1)$", "$(x-1)^3$", "Cannot factor"], a: 0, ex: "Standard." }
@@ -3852,9 +3852,9 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>$$\\cos A - \\cos B = -2 \\sin\\frac{A+B}{2} \\sin\\frac{A-B}{2}$$</p>
 
       <h3>13. Special Angle Values</h3>
-      <p>$\\sin 15° = \\frac{\\sqrt{6}-\\sqrt{2}}{4}, \\;\\; \\cos 15° = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$.</p>
-      <p>$\\sin 75° = \\cos 15°, \\;\\; \\cos 75° = \\sin 15°$.</p>
-      <p>$\\tan 15° = 2 - \\sqrt{3}, \\;\\; \\tan 75° = 2 + \\sqrt{3}$.</p>
+      <p>$$\\begin{aligned} \\sin 15° &= \\frac{\\sqrt{6}-\\sqrt{2}}{4}, \\;\\; \\cos 15° \\\\ &= \\frac{\\sqrt{6}+\\sqrt{2}}{4} \\end{aligned}$$.</p>
+      <p>$$\\begin{aligned} \\sin 75° &= \\cos 15°, \\;\\; \\cos 75° \\\\ &= \\sin 15° \\end{aligned}$$.</p>
+      <p>$$\\begin{aligned} \\tan 15° &= 2 - \\sqrt{3}, \\;\\; \\tan 75° \\\\ &= 2 + \\sqrt{3} \\end{aligned}$$.</p>
 
       <hr>
 
@@ -3893,11 +3893,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 3: Find $\\cos$ from $\\sin$</h4>
       <p>If $\\sin\\theta = \\frac{3}{5}$ and $\\theta$ acute, find $\\cos\\theta$.</p>
-      <p><b>Solution:</b> $\\cos\\theta = \\sqrt{1 - 9/25} = \\sqrt{16/25} = \\frac{4}{5}$ (3-4-5 triple).</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\cos\\theta &= \\sqrt{1 - 9/25} \\\\ &= \\sqrt{16/25} \\\\ &= \\frac{4}{5} \\end{aligned}$$ (3-4-5 triple).</p>
 
       <h4>Example 4: Find all ratios from $\\tan$</h4>
       <p>If $\\tan\\theta = \\frac{5}{12}$, find $\\sin\\theta + \\cos\\theta$.</p>
-      <p><b>Solution:</b><br>5-12-13 triple.<br>$\\sin = 5/13, \\cos = 12/13$.<br>Sum = $17/13$.</p>
+      <p><b>Solution:</b><br>5-12-13 triple.<br>$$\\begin{aligned} \\sin &= 5/13, \\cos \\\\ &= 12/13 \\end{aligned}$$.<br>Sum = $17/13$.</p>
 
       <h4>Example 5: Product of Ratios</h4>
       <p>$\\tan 45° \\cdot \\sin 60° \\cdot \\cos 30° = ?$</p>
@@ -3905,19 +3905,19 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 6: Complementary</h4>
       <p>Find $\\sin 75° \\cos 15° - \\cos 75° \\sin 15°$.</p>
-      <p><b>Solution:</b> $\\sin(75°-15°) = \\sin 60° = \\frac{\\sqrt{3}}{2}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sin(75°-15°) &= \\sin 60° \\\\ &= \\frac{\\sqrt{3}}{2} \\end{aligned}$$.</p>
 
       <h4>Example 7: Sum Formula</h4>
       <p>$\\sin 75°$ = ?</p>
-      <p><b>Solution:</b> $\\sin(45°+30°) = \\sin 45°\\cos 30° + \\cos 45°\\sin 30° = \\frac{1}{\\sqrt{2}}(\\frac{\\sqrt{3}}{2}) + \\frac{1}{\\sqrt{2}}(\\frac{1}{2}) = \\frac{\\sqrt{3}+1}{2\\sqrt{2}} = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sin(45°+30°) &= \\sin 45°\\cos 30° + \\cos 45°\\sin 30° \\\\ &= \\frac{1}{\\sqrt{2}}(\\frac{\\sqrt{3}}{2}) + \\frac{1}{\\sqrt{2}}(\\frac{1}{2}) \\\\ &= \\frac{\\sqrt{3}+1}{2\\sqrt{2}} \\\\ &= \\frac{\\sqrt{6}+\\sqrt{2}}{4} \\end{aligned}$$.</p>
 
       <h4>Example 8: Double Angle</h4>
       <p>If $\\sin\\theta = \\frac{3}{5}$, find $\\sin 2\\theta$.</p>
-      <p><b>Solution:</b><br>$\\cos\\theta = 4/5$.<br>$\\sin 2\\theta = 2 \\cdot \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{24}{25}$.</p>
+      <p><b>Solution:</b><br>$\\cos\\theta = 4/5$.<br>$$\\begin{aligned} \\sin 2\\theta &= 2 \\cdot \\frac{3}{5} \\cdot \\frac{4}{5} \\\\ &= \\frac{24}{25} \\end{aligned}$$.</p>
 
       <h4>Example 9: Double Angle (cos)</h4>
       <p>If $\\cos\\theta = \\frac{4}{5}$, find $\\cos 2\\theta$.</p>
-      <p><b>Solution:</b> $\\cos 2\\theta = 2\\cos^2\\theta - 1 = 2(16/25) - 1 = \\frac{32-25}{25} = \\frac{7}{25}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\cos 2\\theta &= 2\\cos^2\\theta - 1 \\\\ &= 2(16/25) - 1 \\\\ &= \\frac{32-25}{25} \\\\ &= \\frac{7}{25} \\end{aligned}$$.</p>
 
       <h4>Example 10: Max-Min</h4>
       <p>Maximum of $3\\sin\\theta + 4\\cos\\theta$?</p>
@@ -3933,27 +3933,27 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 13: $\\sin - \\cos$ given</h4>
       <p>If $\\sin\\theta - \\cos\\theta = 0$, find $\\theta$.</p>
-      <p><b>Solution:</b> $\\sin\\theta = \\cos\\theta \\Rightarrow \\tan\\theta = 1 \\Rightarrow \\theta = 45°$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sin\\theta &= \\cos\\theta \\Rightarrow \\tan\\theta \\\\ &= 1 \\Rightarrow \\theta \\\\ &= 45° \\end{aligned}$$.</p>
 
       <h4>Example 14: Squared Sum</h4>
       <p>If $\\sin\\theta + \\cos\\theta = a$, find $\\sin\\theta\\cos\\theta$.</p>
-      <p><b>Solution:</b> Square: $\\sin^2 + 2\\sin\\cos + \\cos^2 = a^2 \\Rightarrow 1 + 2\\sin\\cos = a^2 \\Rightarrow \\sin\\cos = (a^2-1)/2$.</p>
+      <p><b>Solution:</b> Square: $$\\begin{aligned} \\sin^2 + 2\\sin\\cos + \\cos^2 &= a^2 \\Rightarrow 1 + 2\\sin\\cos \\\\ &= a^2 \\Rightarrow \\sin\\cos \\\\ &= (a^2-1)/2 \\end{aligned}$$.</p>
 
       <h4>Example 15: $\\sin^4 + \\cos^4$</h4>
       <p>If $\\sin\\theta + \\cos\\theta = \\frac{1}{2}$, find $\\sin^4\\theta + \\cos^4\\theta$.</p>
-      <p><b>Solution:</b><br>$\\sin\\theta\\cos\\theta = (1/4 - 1)/2 = -3/8$.<br>$\\sin^4+\\cos^4 = 1 - 2(\\sin\\cos)^2 = 1 - 2 \\cdot 9/64 = 1 - 9/32 = 23/32$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\sin\\theta\\cos\\theta &= (1/4 - 1)/2 \\\\ &= -3/8 \\end{aligned}$$.<br>$$\\begin{aligned} \\sin^4+\\cos^4 &= 1 - 2(\\sin\\cos)^2 \\\\ &= 1 - 2 \\cdot 9/64 \\\\ &= 1 - 9/32 \\\\ &= 23/32 \\end{aligned}$$.</p>
 
       <h4>Example 16: $\\tan + \\cot$</h4>
       <p>If $\\tan\\theta + \\cot\\theta = 2$, find $\\tan^4\\theta + \\cot^4\\theta$.</p>
-      <p><b>Solution:</b><br>$\\tan+\\cot=2 \\Rightarrow \\tan^2+\\cot^2 = 4-2 = 2$.<br>$\\tan^4+\\cot^4 = (\\tan^2+\\cot^2)^2 - 2 = 4-2 = 2$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\tan+\\cot &= 2 \\Rightarrow \\tan^2+\\cot^2 \\\\ &= 4-2 \\\\ &= 2 \\end{aligned}$$.<br>$$\\begin{aligned} \\tan^4+\\cot^4 &= (\\tan^2+\\cot^2)^2 - 2 \\\\ &= 4-2 \\\\ &= 2 \\end{aligned}$$.</p>
 
       <h4>Example 17: Conditional</h4>
       <p>If $\\sec\\theta + \\tan\\theta = \\frac{5}{2}$, find $\\sec\\theta - \\tan\\theta$.</p>
-      <p><b>Solution:</b> $\\sec^2 - \\tan^2 = 1 \\Rightarrow (\\sec+\\tan)(\\sec-\\tan) = 1 \\Rightarrow \\sec-\\tan = 2/5$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sec^2 - \\tan^2 &= 1 \\Rightarrow (\\sec+\\tan)(\\sec-\\tan) \\\\ &= 1 \\Rightarrow \\sec-\\tan \\\\ &= 2/5 \\end{aligned}$$.</p>
 
       <h4>Example 18: $\\sin^6 + \\cos^6$</h4>
       <p>Find $\\sin^6\\theta + \\cos^6\\theta$ if $\\sin\\theta\\cos\\theta = \\frac{1}{2}$.</p>
-      <p><b>Solution:</b> $= 1 - 3(\\sin\\cos)^2 = 1 - 3/4 = 1/4$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned}  &= 1 - 3(\\sin\\cos)^2 \\\\ &= 1 - 3/4 \\\\ &= 1/4 \\end{aligned}$$.</p>
 
       <h4>Example 19: Sum-to-Product</h4>
       <p>$\\sin 80° + \\sin 40°$ = ?</p>
@@ -3961,15 +3961,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 20: Product Formula</h4>
       <p>$\\sin 75° \\cdot \\sin 15°$ = ?</p>
-      <p><b>Solution:</b> $\\frac{1}{2}[\\cos(75°-15°) - \\cos(75°+15°)] = \\frac{1}{2}[\\cos 60° - \\cos 90°] = \\frac{1}{4}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{1}{2}[\\cos(75°-15°) - \\cos(75°+15°)] &= \\frac{1}{2}[\\cos 60° - \\cos 90°] \\\\ &= \\frac{1}{4} \\end{aligned}$$.</p>
 
       <h4>Example 21: $\\tan(A+B)$ Application</h4>
-      <p>If $\\tan A = \\frac{1}{2}, \\tan B = \\frac{1}{3}$, find $\\tan(A+B)$.</p>
-      <p><b>Solution:</b><br>$\\frac{1/2 + 1/3}{1 - 1/6} = \\frac{5/6}{5/6} = 1$.<br>So $A+B = 45°$.</p>
+      <p>If $$\\begin{aligned} \\tan A &= \\frac{1}{2}, \\tan B \\\\ &= \\frac{1}{3} \\end{aligned}$$, find $\\tan(A+B)$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\frac{1/2 + 1/3}{1 - 1/6} &= \\frac{5/6}{5/6} \\\\ &= 1 \\end{aligned}$$.<br>So $A+B = 45°$.</p>
 
       <h4>Example 22: Identity Simplification</h4>
       <p>Simplify $\\frac{1+\\sin\\theta}{\\cos\\theta} + \\frac{\\cos\\theta}{1+\\sin\\theta}$.</p>
-      <p><b>Solution:</b> Common denom: $\\frac{(1+\\sin\\theta)^2 + \\cos^2\\theta}{\\cos\\theta(1+\\sin\\theta)} = \\frac{1+2\\sin\\theta+\\sin^2\\theta+\\cos^2\\theta}{\\cos\\theta(1+\\sin\\theta)} = \\frac{2+2\\sin\\theta}{\\cos\\theta(1+\\sin\\theta)} = \\frac{2}{\\cos\\theta} = 2\\sec\\theta$.</p>
+      <p><b>Solution:</b> Common denom: $$\\begin{aligned} \\frac{(1+\\sin\\theta)^2 + \\cos^2\\theta}{\\cos\\theta(1+\\sin\\theta)} &= \\frac{1+2\\sin\\theta+\\sin^2\\theta+\\cos^2\\theta}{\\cos\\theta(1+\\sin\\theta)} \\\\ &= \\frac{2+2\\sin\\theta}{\\cos\\theta(1+\\sin\\theta)} \\\\ &= \\frac{2}{\\cos\\theta} \\\\ &= 2\\sec\\theta \\end{aligned}$$.</p>
 
       <h4>Example 23: Triangle Application</h4>
       <p>In $\\triangle ABC$, $A+B+C = 180°$. Find $\\sin(A+B)$ in terms of C.</p>
@@ -3985,7 +3985,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 26: Trig in Equations</h4>
       <p>Solve $2\\sin\\theta = 1$ for $\\theta \\in [0°, 360°]$.</p>
-      <p><b>Solution:</b> $\\sin\\theta = 1/2 \\Rightarrow \\theta = 30°$ or $150°$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sin\\theta &= 1/2 \\Rightarrow \\theta \\\\ &= 30° \\end{aligned}$$ or $150°$.</p>
 
       <h4>Example 27: Max of Product</h4>
       <p>Maximum of $\\sin\\theta\\cos\\theta$?</p>
@@ -3993,15 +3993,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 28: Allied Angle</h4>
       <p>$\\sin 210° = ?$</p>
-      <p><b>Solution:</b><br>Q3, sin negative.<br>$\\sin 210° = -\\sin 30° = -1/2$.</p>
+      <p><b>Solution:</b><br>Q3, sin negative.<br>$$\\begin{aligned} \\sin 210° &= -\\sin 30° \\\\ &= -1/2 \\end{aligned}$$.</p>
 
       <h4>Example 29: $\\cos$ in Q2</h4>
       <p>$\\cos 120° = ?$</p>
-      <p><b>Solution:</b><br>Q2, cos negative.<br>$\\cos 120° = -\\cos 60° = -1/2$.</p>
+      <p><b>Solution:</b><br>Q2, cos negative.<br>$$\\begin{aligned} \\cos 120° &= -\\cos 60° \\\\ &= -1/2 \\end{aligned}$$.</p>
 
       <h4>Example 30: Triple Angle</h4>
       <p>$\\sin 3\\theta = ?$ if $\\sin\\theta = 1/2$.</p>
-      <p><b>Solution:</b><br>$3(1/2) - 4(1/2)^3 = 3/2 - 1/2 = 1$.<br>So $\\sin 3\\theta = 1 \\Rightarrow 3\\theta = 90° \\Rightarrow \\theta = 30°$ ✓.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 3(1/2) - 4(1/2)^3 &= 3/2 - 1/2 \\\\ &= 1 \\end{aligned}$$.<br>So $$\\begin{aligned} \\sin 3\\theta &= 1 \\Rightarrow 3\\theta \\\\ &= 90° \\Rightarrow \\theta \\\\ &= 30° \\end{aligned}$$ ✓.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4022,22 +4022,22 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Max value of $\\sin\\theta+\\cos\\theta$?", opts: ["$\\sqrt{2}$", "2", "1", "0"], a: 0, ex: "$\\sqrt{1+1}=\\sqrt{2}$." },
       { q: "If $\\tan\\theta=3/4$, $\\sin\\theta=?$", opts: ["3/5", "4/5", "5/3", "3/4"], a: 0, ex: "3-4-5: sin=3/5." },
       { q: "$\\sec^2 30° - \\tan^2 30°$?", opts: ["0", "1", "2", "$\\sqrt{3}$"], a: 1, ex: "Identity." },
-      { q: "$\\sin 60° \\cos 30° + \\cos 60° \\sin 30°$?", opts: ["$\\sin 30°$", "$\\sin 60°$", "$\\sin 90°=1$", "$\\sin 45°$"], a: 2, ex: "$\\sin(60+30)=\\sin 90°=1$." },
-      { q: "If $\\sin x = \\cos x$, $x=?$", opts: ["30°", "45°", "60°", "90°"], a: 1, ex: "$\\tan x=1 \\Rightarrow x=45°$." },
+      { q: "$\\sin 60° \\cos 30° + \\cos 60° \\sin 30°$?", opts: ["$\\sin 30°$", "$\\sin 60°$", "$\\sin 90°=1$", "$\\sin 45°$"], a: 2, ex: "$$\\begin{aligned} \\sin(60+30) &= \\sin 90° \\\\ &= 1 \\end{aligned}$$." },
+      { q: "If $\\sin x = \\cos x$, $x=?$", opts: ["30°", "45°", "60°", "90°"], a: 1, ex: "$$\\begin{aligned} \\tan x &= 1 \\Rightarrow x \\\\ &= 45° \\end{aligned}$$." },
       { q: "$\\cos 0° + \\sin 90° = ?$", opts: ["0", "1", "2", "$\\sqrt{2}$"], a: 2, ex: "$1+1=2$." },
       { q: "If $\\cot\\theta = 5/12$, $\\sin\\theta=?$", opts: ["12/13", "5/13", "13/12", "13/5"], a: 0, ex: "5-12-13." },
       { q: "Max of $4\\sin\\theta + 3\\cos\\theta$?", opts: ["5", "7", "12", "25"], a: 0, ex: "$\\sqrt{16+9}=5$." },
       { q: "$1+\\tan^2 60° = ?$", opts: ["1", "2", "3", "4"], a: 3, ex: "$\\sec^2 60° = 4$." },
-      { q: "If $\\sin\\theta+\\csc\\theta=2$, $\\sin\\theta=?$", opts: ["0", "1", "$\\sqrt{2}$", "-1"], a: 1, ex: "$x+1/x=2 \\Rightarrow x=1$." },
-      { q: "$\\sin 75° \\cos 15° + \\sin 15° \\cos 75°$?", opts: ["0", "1/2", "1", "$\\sqrt{3}/2$"], a: 2, ex: "$\\sin(75+15)=\\sin 90°=1$." },
-      { q: "If $\\tan A + \\cot A = 2$, $\\tan^2 A + \\cot^2 A = ?$", opts: ["1", "2", "4", "0"], a: 1, ex: "$(t+1/t)^2-2=4-2=2$." },
+      { q: "If $\\sin\\theta+\\csc\\theta=2$, $\\sin\\theta=?$", opts: ["0", "1", "$\\sqrt{2}$", "-1"], a: 1, ex: "$$\\begin{aligned} x+1/x &= 2 \\Rightarrow x \\\\ &= 1 \\end{aligned}$$." },
+      { q: "$\\sin 75° \\cos 15° + \\sin 15° \\cos 75°$?", opts: ["0", "1/2", "1", "$\\sqrt{3}/2$"], a: 2, ex: "$$\\begin{aligned} \\sin(75+15) &= \\sin 90° \\\\ &= 1 \\end{aligned}$$." },
+      { q: "If $\\tan A + \\cot A = 2$, $\\tan^2 A + \\cot^2 A = ?$", opts: ["1", "2", "4", "0"], a: 1, ex: "$$\\begin{aligned} (t+1/t)^2-2 &= 4-2 \\\\ &= 2 \\end{aligned}$$." },
       { q: "$\\sin(180°-\\theta) = ?$", opts: ["$\\sin\\theta$", "$-\\sin\\theta$", "$\\cos\\theta$", "$-\\cos\\theta$"], a: 0, ex: "Standard." },
       { q: "$\\sin\\theta \\cdot \\csc\\theta = ?$", opts: ["0", "1", "$\\sin^2$", "$\\cos$"], a: 1, ex: "$\\csc=1/\\sin$." },
       { q: "Value of $\\frac{\\sin 60° - \\cos 30°}{\\sin 60°+\\cos 30°}$?", opts: ["0", "1", "1/2", "-1"], a: 0, ex: "Both = $\\sqrt{3}/2$, so num=0." },
       { q: "If $\\sin\\theta = \\cos\\theta$, $\\theta$?", opts: ["30°", "45°", "60°", "90°"], a: 1, ex: "$\\tan=1$ → 45°." },
       { q: "$\\sin 0° + \\cos 0° + \\tan 0°$?", opts: ["0", "1", "2", "3"], a: 1, ex: "$0+1+0=1$." },
       { q: "$\\sin 2\\theta$ if $\\theta=30°$?", opts: ["1/2", "$\\sqrt{3}/2$", "1", "0"], a: 1, ex: "$\\sin 60°=\\sqrt{3}/2$." },
-      { q: "If $\\sec\\theta = 5/3$, $\\sin\\theta$?", opts: ["3/5", "4/5", "3/4", "5/4"], a: 1, ex: "$\\cos=3/5 \\Rightarrow \\sin=4/5$." },
+      { q: "If $\\sec\\theta = 5/3$, $\\sin\\theta$?", opts: ["3/5", "4/5", "3/4", "5/4"], a: 1, ex: "$$\\begin{aligned} \\cos &= 3/5 \\Rightarrow \\sin \\\\ &= 4/5 \\end{aligned}$$." },
       { q: "$(\\sin 30°+\\cos 60°)^2 = ?$", opts: ["1/4", "1/2", "1", "2"], a: 2, ex: "$(1/2+1/2)^2=1$." }
     ]
   };
@@ -4061,7 +4061,7 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>$$\\tan(\\text{angle of elevation}) = \\frac{h}{d}$$</p>
 
       <h3>3. Common Angles</h3>
-      <p>$\\tan 30° = 1/\\sqrt{3}, \\tan 45° = 1, \\tan 60° = \\sqrt{3}$.</p>
+      <p>$$\\begin{aligned} \\tan 30° &= 1/\\sqrt{3}, \\tan 45° \\\\ &= 1, \\tan 60° \\\\ &= \\sqrt{3} \\end{aligned}$$.</p>
 
       <h3>🔥 Tricks</h3>
       <ul>
@@ -4074,19 +4074,19 @@ $(c_2 - m)$ : $(m - c_1)$
       <h3>Solved Examples</h3>
       <h4>Example 1</h4>
       <p>From a point 30 m from base of tower, angle of elevation is 45°. Height?</p>
-      <p><b>Solution:</b> $\\tan 45° = h/30 \\Rightarrow h = 30$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan 45° &= h/30 \\Rightarrow h \\\\ &= 30 \\end{aligned}$$ m.</p>
 
       <h4>Example 2</h4>
       <p>Angle of elevation of tower 50 m at 60° from a point on ground. Distance from base?</p>
-      <p><b>Solution:</b> $\\tan 60° = 50/d \\Rightarrow d = 50/\\sqrt{3} \\approx 28.87$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan 60° &= 50/d \\Rightarrow d \\\\ &= 50/\\sqrt{3} \\approx 28.87 \\end{aligned}$$ m.</p>
 
       <h4>Example 3</h4>
       <p>Shadow of pole 10 m when sun's elevation is 30°. Height?</p>
-      <p><b>Solution:</b> $\\tan 30° = h/10 \\Rightarrow h = 10/\\sqrt{3} \\approx 5.77$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan 30° &= h/10 \\Rightarrow h \\\\ &= 10/\\sqrt{3} \\approx 5.77 \\end{aligned}$$ m.</p>
 
       <h4>Example 4</h4>
       <p>From top of tower 100 m, angle of depression to a car on ground is 30°. Distance of car from tower's base?</p>
-      <p><b>Solution:</b> $\\tan 30° = 100/d \\Rightarrow d = 100\\sqrt{3} \\approx 173.2$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan 30° &= 100/d \\Rightarrow d \\\\ &= 100\\sqrt{3} \\approx 173.2 \\end{aligned}$$ m.</p>
 
       <h4>Example 5</h4>
       <p>A man on top of building 30 m sees two objects on opposite sides at depressions 30° and 60°. Distance between objects?</p>
@@ -4094,7 +4094,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 6</h4>
       <p>Shadow of pole increases 10 m when sun's elevation drops from 60° to 30°. Pole height?</p>
-      <p><b>Solution:</b><br>At 60°: shadow $s_1 = h/\\sqrt{3}$.<br>At 30°: $s_2 = h\\sqrt{3}$.<br>$s_2 - s_1 = h(\\sqrt{3} - 1/\\sqrt{3}) = h \\cdot 2/\\sqrt{3} = 10 \\Rightarrow h = 5\\sqrt{3} \\approx 8.66$ m.</p>
+      <p><b>Solution:</b><br>At 60°: shadow $s_1 = h/\\sqrt{3}$.<br>At 30°: $s_2 = h\\sqrt{3}$.<br>$$\\begin{aligned} s_2 - s_1 &= h(\\sqrt{3} - 1/\\sqrt{3}) \\\\ &= h \\cdot 2/\\sqrt{3} \\\\ &= 10 \\Rightarrow h \\\\ &= 5\\sqrt{3} \\approx 8.66 \\end{aligned}$$ m.</p>
 
       <h4>Example 7</h4>
       <p>Top of tower of height $h$ from a point makes elevation $\\theta$. Find tower height in terms of distance $d$.</p>
@@ -4102,23 +4102,23 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 8</h4>
       <p>From window of building, angle of elevation to top of opposite tower = 30°, depression to base = 45°. If horizontal distance = 30 m, find tower height.</p>
-      <p><b>Solution:</b><br>Window above ground = $30 \\tan 45° = 30$ m.<br>Top above window = $30 \\tan 30° = 30/\\sqrt{3} = 10\\sqrt{3}$.<br>Total height = $30 + 10\\sqrt{3} \\approx 47.32$ m.</p>
+      <p><b>Solution:</b><br>Window above ground = $30 \\tan 45° = 30$ m.<br>Top above window = $$\\begin{aligned} 30 \\tan 30° &= 30/\\sqrt{3} \\\\ &= 10\\sqrt{3} \\end{aligned}$$.<br>Total height = $30 + 10\\sqrt{3} \\approx 47.32$ m.</p>
 
       <h4>Example 9</h4>
       <p>A vertical pole 6 m high. Find length of its shadow when sun's elevation is 60°.</p>
-      <p><b>Solution:</b> $\\tan 60° = 6/s \\Rightarrow s = 6/\\sqrt{3} = 2\\sqrt{3} \\approx 3.46$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan 60° &= 6/s \\Rightarrow s \\\\ &= 6/\\sqrt{3} \\\\ &= 2\\sqrt{3} \\approx 3.46 \\end{aligned}$$ m.</p>
 
       <h4>Example 10</h4>
       <p>Two poles on same side; angles of elevation from same point on ground 30° and 60°. Distance between poles 20 m. Heights if first pole closer at distance $d$ from observer?</p>
-      <p><b>Solution:</b><br>Pole at $d$: height $= d\\tan 60° = d\\sqrt{3}$.<br>Pole at $d+20$: height $= (d+20)\\tan 30°$. (Setup; given more data to solve.)</p>
+      <p><b>Solution:</b><br>Pole at $d$: height $$\\begin{aligned}  &= d\\tan 60° \\\\ &= d\\sqrt{3} \\end{aligned}$$.<br>Pole at $d+20$: height $= (d+20)\\tan 30°$. (Setup; given more data to solve.)</p>
 
       <h4>Example 11</h4>
       <p>Top of tower elevation 30° from a point. After walking 50 m towards tower, becomes 60°. Height of tower?</p>
-      <p><b>Solution:</b><br>Let distance = $d$.<br>$h = d \\tan 30° = (d-50) \\tan 60°$.<br>So $d/\\sqrt{3} = (d-50)\\sqrt{3} \\Rightarrow d = 3(d-50) \\Rightarrow d=75$.<br>$h = 75/\\sqrt{3} = 25\\sqrt{3} \\approx 43.3$ m.</p>
+      <p><b>Solution:</b><br>Let distance = $d$.<br>$$\\begin{aligned} h &= d \\tan 30° \\\\ &= (d-50) \\tan 60° \\end{aligned}$$.<br>So $$\\begin{aligned} d/\\sqrt{3} &= (d-50)\\sqrt{3} \\Rightarrow d \\\\ &= 3(d-50) \\Rightarrow d \\\\ &= 75 \\end{aligned}$$.<br>$$\\begin{aligned} h &= 75/\\sqrt{3} \\\\ &= 25\\sqrt{3} \\approx 43.3 \\end{aligned}$$ m.</p>
 
       <h4>Example 12</h4>
       <p>Angle of elevation of cloud from 60 m above lake is 30°; angle of depression of its reflection is 60°. Cloud height above lake?</p>
-      <p><b>Solution:</b><br>Let cloud height above lake = $h$, horizontal dist = $d$.<br>From 60 m: elevation $\\tan 30° = (h-60)/d$; reflection (image at $-h$ from lake; observer at 60 m so depth from observer = $h+60$): depression $\\tan 60° = (h+60)/d$.<br>Divide: $(h+60)/(h-60) = 3 \\Rightarrow h+60=3h-180 \\Rightarrow h=120$ m.</p>
+      <p><b>Solution:</b><br>Let cloud height above lake = $h$, horizontal dist = $d$.<br>From 60 m: elevation $\\tan 30° = (h-60)/d$; reflection (image at $-h$ from lake; observer at 60 m so depth from observer = $h+60$): depression $\\tan 60° = (h+60)/d$.<br>Divide: $$\\begin{aligned} (h+60)/(h-60) &= 3 \\Rightarrow h+60 \\\\ &= 3h-180 \\Rightarrow h \\\\ &= 120 \\end{aligned}$$ m.</p>
 
       <h4>Example 13</h4>
       <p>From a 100 m tower, angles of depression of two boats are 30° and 45°. Distance between boats?</p>
@@ -4130,47 +4130,47 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 15</h4>
       <p>A ladder leaning against wall makes 60° with ground. Foot is 4 m from wall. Length of ladder?</p>
-      <p><b>Solution:</b> $\\cos 60° = 4/L \\Rightarrow L = 8$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\cos 60° &= 4/L \\Rightarrow L \\\\ &= 8 \\end{aligned}$$ m.</p>
 
       <h4>Example 16: Top + Bottom of Tower from Same Point</h4>
       <p>Top elevation 60°, bottom of flagpole on tower 30° from same point 30m away. Flagpole height?</p>
-      <p><b>Solution:</b><br>Tower base height = $30 \cdot \tan 30° = 30/\sqrt{3} = 10\sqrt{3}$.<br>Top height = $30\sqrt{3}$.<br>Flagpole = $30\sqrt{3} - 10\sqrt{3} = 20\sqrt{3}$.</p>
+      <p><b>Solution:</b><br>Tower base height = $$\\begin{aligned} 30 \cdot \tan 30° &= 30/\sqrt{3} \\\\ &= 10\sqrt{3} \\end{aligned}$$.<br>Top height = $30\sqrt{3}$.<br>Flagpole = $30\sqrt{3} - 10\sqrt{3} = 20\sqrt{3}$.</p>
 
       <h4>Example 17: Cliff and Ship</h4>
       <p>From cliff 60m, depression of ship = 45°. Ship distance?</p>
-      <p><b>Solution:</b> $\tan 45° = 60/d \Rightarrow d = 60$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \tan 45° &= 60/d \Rightarrow d \\\\ &= 60 \\end{aligned}$$ m.</p>
 
       <h4>Example 18: Two Towers Different Bases</h4>
       <p>From the foot of a tower 30 m high, angle of elevation of top of another tower is 60°. From top of the first tower, angle of elevation is 30°. Height of second tower?</p>
-      <p><b>Solution:</b><br>Let distance between bases = $d$, height of 2nd = $h$.<br>From foot of 1st: $\tan 60° = h/d \Rightarrow d = h/\sqrt{3}$.<br>From top of 1st: $\tan 30° = (h-30)/d \Rightarrow d = (h-30)\sqrt{3}$.<br>Equate: $h/\sqrt{3} = (h-30)\sqrt{3} \Rightarrow h = 3(h-30) \Rightarrow 2h = 90 \Rightarrow h = 45$m.</p>
+      <p><b>Solution:</b><br>Let distance between bases = $d$, height of 2nd = $h$.<br>From foot of 1st: $$\\begin{aligned} \tan 60° &= h/d \Rightarrow d \\\\ &= h/\sqrt{3} \\end{aligned}$$.<br>From top of 1st: $$\\begin{aligned} \tan 30° &= (h-30)/d \Rightarrow d \\\\ &= (h-30)\sqrt{3} \\end{aligned}$$.<br>Equate: $$\\begin{aligned} h/\sqrt{3} &= (h-30)\sqrt{3} \Rightarrow h \\\\ &= 3(h-30) \Rightarrow 2h \\\\ &= 90 \Rightarrow h \\\\ &= 45 \\end{aligned}$$m.</p>
 
       <h4>Example 19: Plane Above Ground</h4>
       <p>From point on ground, angle of elevation of plane = 60°. After plane flies 1 km horizontally at same height, angle becomes 30°. Find height of plane.</p>
-      <p><b>Solution:</b><br>Let height = $h$, first dist = $x$.<br>$\tan 60° = h/x \Rightarrow x = h/\sqrt{3}$.<br>$\tan 30° = h/(x+1000) \Rightarrow x+1000 = h\sqrt{3}$.<br>So $h\sqrt{3} - h/\sqrt{3} = 1000 \Rightarrow h \cdot 2/\sqrt{3} = 1000 \Rightarrow h = 500\sqrt{3} ≈ 866$ m.</p>
+      <p><b>Solution:</b><br>Let height = $h$, first dist = $x$.<br>$$\\begin{aligned} \tan 60° &= h/x \Rightarrow x \\\\ &= h/\sqrt{3} \\end{aligned}$$.<br>$$\\begin{aligned} \tan 30° &= h/(x+1000) \Rightarrow x+1000 \\\\ &= h\sqrt{3} \\end{aligned}$$.<br>So $$\\begin{aligned} h\sqrt{3} - h/\sqrt{3} &= 1000 \Rightarrow h \cdot 2/\sqrt{3} \\\\ &= 1000 \Rightarrow h \\\\ &= 500\sqrt{3} ≈ 866 \\end{aligned}$$ m.</p>
 
       <h4>Example 20: Building from Multiple Points</h4>
       <p>From two points on opposite sides of a tower, angles of elevation to top are 30° and 60°. If the points are 100 m apart and on the same horizontal line through the foot, height of tower?</p>
-      <p><b>Solution:</b><br>Let tower height = $h$, distances = $a$ and $b$, $a+b = 100$.<br>$h = a\tan 30° = a/\sqrt{3}$ and $h = b\tan 60° = b\sqrt{3}$.<br>So $a/\sqrt{3} = b\sqrt{3} \Rightarrow a = 3b$.<br>With $a+b=100$: $b = 25, a = 75$.<br>$h = 75/\sqrt{3} = 25\sqrt{3}$ m.</p>
+      <p><b>Solution:</b><br>Let tower height = $h$, distances = $a$ and $b$, $a+b = 100$.<br>$$\\begin{aligned} h &= a\tan 30° \\\\ &= a/\sqrt{3} \\end{aligned}$$ and $$\\begin{aligned} h &= b\tan 60° \\\\ &= b\sqrt{3} \\end{aligned}$$.<br>So $$\\begin{aligned} a/\sqrt{3} &= b\sqrt{3} \Rightarrow a \\\\ &= 3b \\end{aligned}$$.<br>With $a+b=100$: $$\\begin{aligned} b &= 25, a \\\\ &= 75 \\end{aligned}$$.<br>$$\\begin{aligned} h &= 75/\sqrt{3} \\\\ &= 25\sqrt{3} \\end{aligned}$$ m.</p>
 
       <h4>Example 21: Pole Casting Shadow as Sun Moves</h4>
       <p>A pole 10 m casts shadow of length 10√3 m. Sun's elevation?</p>
-      <p><b>Solution:</b> $\tan\theta = 10/(10\sqrt{3}) = 1/\sqrt{3} \Rightarrow \theta = 30°$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \tan\theta &= 10/(10\sqrt{3}) \\\\ &= 1/\sqrt{3} \Rightarrow \theta \\\\ &= 30° \\end{aligned}$$.</p>
 
       <h4>Example 22: Pole + Tower</h4>
       <p>A pole 6 m stands on top of a tower. From a point on ground 50 m from base of tower, angle of elevation to top of pole is 45°. Tower height?</p>
-      <p><b>Solution:</b><br>Pole top is at height $T+6$.<br>$\tan 45° = (T+6)/50 \Rightarrow T+6 = 50 \Rightarrow T = 44$ m.</p>
+      <p><b>Solution:</b><br>Pole top is at height $T+6$.<br>$$\\begin{aligned} \tan 45° &= (T+6)/50 \Rightarrow T+6 \\\\ &= 50 \Rightarrow T \\\\ &= 44 \\end{aligned}$$ m.</p>
 
       <h4>Example 23: Angle of Depression to Two Cars</h4>
       <p>From top of tower 100 m, depression to two cars on same side are 30° and 45°. Distance between cars?</p>
-      <p><b>Solution:</b><br>Far car: $\tan 30° = 100/d_1 \Rightarrow d_1 = 100\sqrt{3}$.<br>Near car: $\tan 45° = 100/d_2 \Rightarrow d_2 = 100$.<br>Distance = $100\sqrt{3} - 100 = 100(\sqrt{3}-1) ≈ 73.2$ m.</p>
+      <p><b>Solution:</b><br>Far car: $$\\begin{aligned} \tan 30° &= 100/d_1 \Rightarrow d_1 \\\\ &= 100\sqrt{3} \\end{aligned}$$.<br>Near car: $$\\begin{aligned} \tan 45° &= 100/d_2 \Rightarrow d_2 \\\\ &= 100 \\end{aligned}$$.<br>Distance = $100\sqrt{3} - 100 = 100(\sqrt{3}-1) ≈ 73.2$ m.</p>
 
       <h4>Example 24: Ladder Against Wall</h4>
       <p>A 13 m ladder leans against a wall, foot is 5 m from wall. How high does it reach?</p>
-      <p><b>Solution:</b> $\sqrt{13^2-5^2} = \sqrt{144} = 12$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \sqrt{13^2-5^2} &= \sqrt{144} \\\\ &= 12 \\end{aligned}$$ m.</p>
 
       <h4>Example 25: River Width</h4>
       <p>From top of a 30 m cliff overlooking a river, the angle of depression to the opposite bank is 45°. Width of river?</p>
-      <p><b>Solution:</b> $\tan 45° = 30/w \Rightarrow w = 30$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \tan 45° &= 30/w \Rightarrow w \\\\ &= 30 \\end{aligned}$$ m.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4180,31 +4180,31 @@ $(c_2 - m)$ : $(m - c_1)$
       </ul>
     `,
     mcq: [
-      { q: "Elevation 45°, distance from base 50 m. Height?", opts: ["50", "100", "$50\\sqrt{2}$", "$50\\sqrt{3}$"], a: 0, ex: "$\\tan 45°=h/50=1 \\Rightarrow h=50$." },
-      { q: "Pole 10 m, shadow at elevation 30°. Shadow length?", opts: ["10", "$10\\sqrt{3}$", "$10/\\sqrt{3}$", "$5\\sqrt{3}$"], a: 1, ex: "$\\tan 30°=10/s \\Rightarrow s=10\\sqrt{3}$." },
-      { q: "From 80 m tower, depression to car 30°. Car distance?", opts: ["80", "80/√3", "80√3", "40"], a: 2, ex: "$\\tan 30°=80/d \\Rightarrow d=80\\sqrt{3}$." },
-      { q: "Sun at elevation 60°. Pole's shadow 10 m. Pole height?", opts: ["10", "$10\\sqrt{3}$", "$10/\\sqrt{3}$", "20"], a: 1, ex: "$\\tan 60°=h/10 \\Rightarrow h=10\\sqrt{3}$." },
-      { q: "Tower height when elevation 45° from distance 30 m?", opts: ["30 m", "$30\\sqrt{2}$", "$30\\sqrt{3}$", "60"], a: 0, ex: "$h=30 \\tan 45°=30$." },
-      { q: "Angle of elevation to top of building from 80 m away = 30°. Height?", opts: ["$80\\sqrt{3}$", "$80/\\sqrt{3}$", "80", "40"], a: 1, ex: "$h=80 \\tan 30° = 80/\\sqrt{3}$." },
-      { q: "Ladder of length 5 m makes 60° with ground. Distance from wall?", opts: ["2.5 m", "$5/2$ m", "Both same", "$5/\\sqrt{3}$"], a: 2, ex: "$\\cos 60°=d/5 \\Rightarrow d=2.5$." },
-      { q: "Walking towards tower, elevation changes from 30° to 60°. Walked 100 m. Tower height?", opts: ["$50\\sqrt{3}$", "$50$", "$100/\\sqrt{3}$", "$100\\sqrt{3}$"], a: 0, ex: "Setup: $d \\tan 30° = (d-100) \\tan 60° \\Rightarrow d/\\sqrt{3} = (d-100)\\sqrt{3} \\Rightarrow d=150$. $h=150/\\sqrt{3}=50\\sqrt{3}$." },
+      { q: "Elevation 45°, distance from base 50 m. Height?", opts: ["50", "100", "$50\\sqrt{2}$", "$50\\sqrt{3}$"], a: 0, ex: "$$\\begin{aligned} \\tan 45° &= h/50 \\\\ &= 1 \\Rightarrow h \\\\ &= 50 \\end{aligned}$$." },
+      { q: "Pole 10 m, shadow at elevation 30°. Shadow length?", opts: ["10", "$10\\sqrt{3}$", "$10/\\sqrt{3}$", "$5\\sqrt{3}$"], a: 1, ex: "$$\\begin{aligned} \\tan 30° &= 10/s \\Rightarrow s \\\\ &= 10\\sqrt{3} \\end{aligned}$$." },
+      { q: "From 80 m tower, depression to car 30°. Car distance?", opts: ["80", "80/√3", "80√3", "40"], a: 2, ex: "$$\\begin{aligned} \\tan 30° &= 80/d \\Rightarrow d \\\\ &= 80\\sqrt{3} \\end{aligned}$$." },
+      { q: "Sun at elevation 60°. Pole's shadow 10 m. Pole height?", opts: ["10", "$10\\sqrt{3}$", "$10/\\sqrt{3}$", "20"], a: 1, ex: "$$\\begin{aligned} \\tan 60° &= h/10 \\Rightarrow h \\\\ &= 10\\sqrt{3} \\end{aligned}$$." },
+      { q: "Tower height when elevation 45° from distance 30 m?", opts: ["30 m", "$30\\sqrt{2}$", "$30\\sqrt{3}$", "60"], a: 0, ex: "$$\\begin{aligned} h &= 30 \\tan 45° \\\\ &= 30 \\end{aligned}$$." },
+      { q: "Angle of elevation to top of building from 80 m away = 30°. Height?", opts: ["$80\\sqrt{3}$", "$80/\\sqrt{3}$", "80", "40"], a: 1, ex: "$$\\begin{aligned} h &= 80 \\tan 30° \\\\ &= 80/\\sqrt{3} \\end{aligned}$$." },
+      { q: "Ladder of length 5 m makes 60° with ground. Distance from wall?", opts: ["2.5 m", "$5/2$ m", "Both same", "$5/\\sqrt{3}$"], a: 2, ex: "$$\\begin{aligned} \\cos 60° &= d/5 \\Rightarrow d \\\\ &= 2.5 \\end{aligned}$$." },
+      { q: "Walking towards tower, elevation changes from 30° to 60°. Walked 100 m. Tower height?", opts: ["$50\\sqrt{3}$", "$50$", "$100/\\sqrt{3}$", "$100\\sqrt{3}$"], a: 0, ex: "Setup: $$\\begin{aligned} d \\tan 30° &= (d-100) \\tan 60° \\Rightarrow d/\\sqrt{3} \\\\ &= (d-100)\\sqrt{3} \\Rightarrow d \\\\ &= 150 \\end{aligned}$$. $$\\begin{aligned} h &= 150/\\sqrt{3} \\\\ &= 50\\sqrt{3} \\end{aligned}$$." },
       { q: "Top of tower seen at angle 60° from foot of another tower; the two are 30 m apart. Heights ratio?", opts: ["$\\sqrt{3}$", "$1/\\sqrt{3}$", "1", "Cannot say"], a: 0, ex: "Insufficient — depends on second tower setup." },
-      { q: "Pole 50 m casts shadow when sun elevation is 30°. Shadow?", opts: ["$25\\sqrt{3}$", "$50\\sqrt{3}$", "$50/\\sqrt{3}$", "$100$"], a: 1, ex: "$s=h/\\tan 30°=50\\sqrt{3}$." },
-      { q: "Top of tree elevation 30° from one position, 45° after walking 10 m closer. Tree height?", opts: ["$5(1+\\sqrt{3})$", "$5(\\sqrt{3}-1)$", "$\\frac{10}{\\sqrt{3}-1}$", "$10$"], a: 0, ex: "Setup: $h/\\tan 45° + 10 = h/\\tan 30° \\Rightarrow h+10 = h\\sqrt{3} \\Rightarrow h = 10/(\\sqrt{3}-1) = 5(\\sqrt{3}+1)$." },
-      { q: "Angle of depression from top of cliff (40 m high) to boat = 30°. Boat distance from base?", opts: ["$40/\\sqrt{3}$", "$40$", "$40\\sqrt{3}$", "$80$"], a: 2, ex: "$\\tan 30°=40/d \\Rightarrow d=40\\sqrt{3}$." },
+      { q: "Pole 50 m casts shadow when sun elevation is 30°. Shadow?", opts: ["$25\\sqrt{3}$", "$50\\sqrt{3}$", "$50/\\sqrt{3}$", "$100$"], a: 1, ex: "$$\\begin{aligned} s &= h/\\tan 30° \\\\ &= 50\\sqrt{3} \\end{aligned}$$." },
+      { q: "Top of tree elevation 30° from one position, 45° after walking 10 m closer. Tree height?", opts: ["$5(1+\\sqrt{3})$", "$5(\\sqrt{3}-1)$", "$\\frac{10}{\\sqrt{3}-1}$", "$10$"], a: 0, ex: "Setup: $$\\begin{aligned} h/\\tan 45° + 10 &= h/\\tan 30° \\Rightarrow h+10 \\\\ &= h\\sqrt{3} \\Rightarrow h \\\\ &= 10/(\\sqrt{3}-1) \\\\ &= 5(\\sqrt{3}+1) \\end{aligned}$$." },
+      { q: "Angle of depression from top of cliff (40 m high) to boat = 30°. Boat distance from base?", opts: ["$40/\\sqrt{3}$", "$40$", "$40\\sqrt{3}$", "$80$"], a: 2, ex: "$$\\begin{aligned} \\tan 30° &= 40/d \\Rightarrow d \\\\ &= 40\\sqrt{3} \\end{aligned}$$." },
       { q: "Pole leaning at 30° to vertical makes shadow 5 m. Length of pole?", opts: ["5", "$5\\sqrt{3}$", "$10$", "$10/\\sqrt{3}$"], a: 2, ex: "Specific setup; skip if ambiguous." },
-      { q: "Angle of elevation of top of building 30° from a point. From a closer point (50 m closer), 45°. Height?", opts: ["$25(\\sqrt{3}+1)$", "$50/\\sqrt{3}$", "$50$", "$25\\sqrt{3}$"], a: 0, ex: "Setup: $d \\tan 30° = (d-50) \\tan 45° \\Rightarrow d/\\sqrt{3} = d-50 \\Rightarrow d-d/\\sqrt{3}=50 \\Rightarrow d = 50\\sqrt{3}/(\\sqrt{3}-1) = 25(\\sqrt{3}+1)\\sqrt{3}/\\sqrt{3}=25(3+\\sqrt{3})$. Hmm. Height = d - 50 = 25(3+\\sqrt{3})-50 = 25(\\sqrt{3}+1). Option A." },
+      { q: "Angle of elevation of top of building 30° from a point. From a closer point (50 m closer), 45°. Height?", opts: ["$25(\\sqrt{3}+1)$", "$50/\\sqrt{3}$", "$50$", "$25\\sqrt{3}$"], a: 0, ex: "Setup: $$\\begin{aligned} d \\tan 30° &= (d-50) \\tan 45° \\Rightarrow d/\\sqrt{3} \\\\ &= d-50 \\Rightarrow d-d/\\sqrt{3} \\\\ &= 50 \\Rightarrow d \\\\ &= 50\\sqrt{3}/(\\sqrt{3}-1) \\\\ &= 25(\\sqrt{3}+1)\\sqrt{3}/\\sqrt{3} \\\\ &= 25(3+\\sqrt{3}) \\end{aligned}$$. Hmm. Height = d - 50 = 25(3+\\sqrt{3})-50 = 25(\\sqrt{3}+1). Option A." },
       { q: "From 50 m tower, two boats at depressions 45° and 30°. Distance between?", opts: ["$50$", "$50(\\sqrt{3}-1)$", "$50\\sqrt{3}$", "$50\\sqrt{3}-50$"], a: 1, ex: "Boat 1 (45°): dist=50. Boat 2 (30°): dist=$50\\sqrt{3}$. Diff=$50(\\sqrt{3}-1)$." },
-      { q: "Top of tower 30 m from a point at 60°. New distance?", opts: ["$10\\sqrt{3}$", "$15$", "$10$", "$5\\sqrt{3}$"], a: 0, ex: "$d=30/\\sqrt{3}=10\\sqrt{3}$." },
+      { q: "Top of tower 30 m from a point at 60°. New distance?", opts: ["$10\\sqrt{3}$", "$15$", "$10$", "$5\\sqrt{3}$"], a: 0, ex: "$$\\begin{aligned} d &= 30/\\sqrt{3} \\\\ &= 10\\sqrt{3} \\end{aligned}$$." },
       { q: "If shadow doubles, sun's angle changes from?", opts: ["60° to 30°", "$45°$ to $30°$", "Both", "$\\arctan 2$"], a: 0, ex: "If $h$ same and $s_2 = 2 s_1$: $\\tan\\theta_2 = \\tan\\theta_1/2$. Specific values: $60°$ to $\\approx 40.9°$. Not standard. Closest A." },
-      { q: "Building 60 m. Angle of depression of car at distance d at horizon level: 30°. d?", opts: ["$60\\sqrt{3}$", "$60$", "$30\\sqrt{3}$", "$60/\\sqrt{3}$"], a: 0, ex: "$\\tan 30°=60/d \\Rightarrow d=60\\sqrt{3}$." },
+      { q: "Building 60 m. Angle of depression of car at distance d at horizon level: 30°. d?", opts: ["$60\\sqrt{3}$", "$60$", "$30\\sqrt{3}$", "$60/\\sqrt{3}$"], a: 0, ex: "$$\\begin{aligned} \\tan 30° &= 60/d \\Rightarrow d \\\\ &= 60\\sqrt{3} \\end{aligned}$$." },
       { q: "Two ships on opposite sides of lighthouse 100 m at depressions 30° and 45°. Distance between?", opts: ["$100(\\sqrt{3}+1)$", "$200$", "$100\\sqrt{3}$", "$100\\sqrt{2}$"], a: 0, ex: "Side 1: 100. Side 2: $100\\sqrt{3}$. Sum=$100(\\sqrt{3}+1)$." },
-      { q: "Top of vertical pole 12 m. Sun at 30°. Shadow?", opts: ["$12\\sqrt{3}$", "12", "$4\\sqrt{3}$", "$6\\sqrt{3}$"], a: 0, ex: "$s=12/\\tan 30°=12\\sqrt{3}$." },
-      { q: "Tower 30 m. From distance $x$, elevation 30°. $x$?", opts: ["$30\\sqrt{3}$", "$10\\sqrt{3}$", "$30/\\sqrt{3}$", "Both A and C"], a: 3, ex: "$30/\\sqrt{3}=10\\sqrt{3}$. Wait, $30\\sqrt{3} \\ne 10\\sqrt{3}$. So just A: $30\\sqrt{3}$. Let me recheck: $\\tan 30°=30/x \\Rightarrow x = 30/\\tan 30° = 30\\sqrt{3}$. So A only." },
-      { q: "If shadow of vertical pole = $\\sqrt{3}$ times its height, sun's elevation?", opts: ["30°", "45°", "60°", "90°"], a: 0, ex: "$\\tan\\theta = h/(\\sqrt{3}h) = 1/\\sqrt{3} \\Rightarrow \\theta=30°$." },
+      { q: "Top of vertical pole 12 m. Sun at 30°. Shadow?", opts: ["$12\\sqrt{3}$", "12", "$4\\sqrt{3}$", "$6\\sqrt{3}$"], a: 0, ex: "$$\\begin{aligned} s &= 12/\\tan 30° \\\\ &= 12\\sqrt{3} \\end{aligned}$$." },
+      { q: "Tower 30 m. From distance $x$, elevation 30°. $x$?", opts: ["$30\\sqrt{3}$", "$10\\sqrt{3}$", "$30/\\sqrt{3}$", "Both A and C"], a: 3, ex: "$30/\\sqrt{3}=10\\sqrt{3}$. Wait, $30\\sqrt{3} \\ne 10\\sqrt{3}$. So just A: $30\\sqrt{3}$. Let me recheck: $$\\begin{aligned} \\tan 30° &= 30/x \\Rightarrow x \\\\ &= 30/\\tan 30° \\\\ &= 30\\sqrt{3} \\end{aligned}$$. So A only." },
+      { q: "If shadow of vertical pole = $\\sqrt{3}$ times its height, sun's elevation?", opts: ["30°", "45°", "60°", "90°"], a: 0, ex: "$$\\begin{aligned} \\tan\\theta &= h/(\\sqrt{3}h) \\\\ &= 1/\\sqrt{3} \\Rightarrow \\theta \\\\ &= 30° \\end{aligned}$$." },
       { q: "Two poles 30 m and 50 m on opposite sides of road. From a point between, angles of elevation 30° and 45°. Width of road?", opts: ["$30\\sqrt{3}+50$", "$80$", "$30\\sqrt{3}$", "$50$"], a: 0, ex: "Distance to 30m pole at 30°: $30\\sqrt{3}$. To 50m pole at 45°: 50. Total: $30\\sqrt{3}+50$." },
-      { q: "Angle of elevation of top of cliff from a point at distance 200 m = 45°. Height?", opts: ["100", "150", "200", "300"], a: 2, ex: "$h=200 \\tan 45°=200$." },
-      { q: "If angle of elevation doubles, distance halves; original angle?", opts: ["30°", "45°", "60°", "Cannot say"], a: 0, ex: "$\\tan\\theta = h/d, \\tan 2\\theta = h/(d/2)=2h/d$. So $\\tan 2\\theta = 2\\tan\\theta$. Use formula $\\tan 2\\theta = 2\\tan/(1-\\tan^2)$. Set $2t/(1-t^2)=2t \\Rightarrow 1-t^2=1 \\Rightarrow t=0$. Or $1-t^2=1/1$ which gives $t=0$, no. Actually for finite solution, special angles. Approx 30° works: $\\tan 30°=1/\\sqrt{3}, \\tan 60°=\\sqrt{3}=3/\\sqrt{3}=3\\tan 30°$. Not 2x. So skip." }
+      { q: "Angle of elevation of top of cliff from a point at distance 200 m = 45°. Height?", opts: ["100", "150", "200", "300"], a: 2, ex: "$$\\begin{aligned} h &= 200 \\tan 45° \\\\ &= 200 \\end{aligned}$$." },
+      { q: "If angle of elevation doubles, distance halves; original angle?", opts: ["30°", "45°", "60°", "Cannot say"], a: 0, ex: "$$\\begin{aligned} \\tan\\theta &= h/d, \\tan 2\\theta \\\\ &= h/(d/2) \\\\ &= 2h/d \\end{aligned}$$. So $\\tan 2\\theta = 2\\tan\\theta$. Use formula $\\tan 2\\theta = 2\\tan/(1-\\tan^2)$. Set $$\\begin{aligned} 2t/(1-t^2) &= 2t \\Rightarrow 1-t^2 \\\\ &= 1 \\Rightarrow t \\\\ &= 0 \\end{aligned}$$. Or $1-t^2=1/1$ which gives $t=0$, no. Actually for finite solution, special angles. Approx 30° works: $$\\begin{aligned} \\tan 30° &= 1/\\sqrt{3}, \\tan 60° \\\\ &= \\sqrt{3} \\\\ &= 3/\\sqrt{3} \\\\ &= 3\\tan 30° \\end{aligned}$$. Not 2x. So skip." }
     ]
   };
 
@@ -4274,8 +4274,8 @@ $(c_2 - m)$ : $(m - c_1)$
       <p><b>Solution:</b> 125 cm³.</p>
 
       <h4>Example 4</h4>
-      <p>Curved surface area of cylinder $r=7, h=10$?</p>
-      <p><b>Solution:</b> $2\\pi r h = 2 \\cdot 22/7 \\cdot 7 \\cdot 10 = 440$ cm².</p>
+      <p>Curved surface area of cylinder $$\\begin{aligned} r &= 7, h \\\\ &= 10 \\end{aligned}$$?</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 2\\pi r h &= 2 \\cdot 22/7 \\cdot 7 \\cdot 10 \\\\ &= 440 \\end{aligned}$$ cm².</p>
 
       <h4>Example 5</h4>
       <p>Volume of sphere radius 7?</p>
@@ -4290,16 +4290,16 @@ $(c_2 - m)$ : $(m - c_1)$
       <p><b>Solution:</b> $6\\sqrt{3}$.</p>
 
       <h4>Example 8</h4>
-      <p>Slant height of cone $r=3, h=4$.</p>
-      <p><b>Solution:</b><br>$l=5$.<br>TSA $=\\pi r(r+l)=\\pi \\cdot 3 \\cdot 8 = 24\\pi$.</p>
+      <p>Slant height of cone $$\\begin{aligned} r &= 3, h \\\\ &= 4 \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>$l=5$.<br>TSA $$\\begin{aligned}  &= \\pi r(r+l) \\\\ &= \\pi \\cdot 3 \\cdot 8 \\\\ &= 24\\pi \\end{aligned}$$.</p>
 
       <h4>Example 9</h4>
       <p>Area of equilateral triangle side 10?</p>
       <p><b>Solution:</b> $\\frac{\\sqrt{3}}{4} \\cdot 100 = 25\\sqrt{3} \\approx 43.3$.</p>
 
       <h4>Example 10</h4>
-      <p>Volume of cone $r=6, h=14$? ($\\pi=22/7$)</p>
-      <p><b>Solution:</b> $\\frac{1}{3} \\cdot 22/7 \\cdot 36 \\cdot 14 = \\frac{22 \\cdot 36 \\cdot 14}{21} = \\frac{11088}{21} = 528$.</p>
+      <p>Volume of cone $$\\begin{aligned} r &= 6, h \\\\ &= 14 \\end{aligned}$$? ($\\pi=22/7$)</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{1}{3} \\cdot 22/7 \\cdot 36 \\cdot 14 &= \\frac{22 \\cdot 36 \\cdot 14}{21} \\\\ &= \\frac{11088}{21} \\\\ &= 528 \\end{aligned}$$.</p>
 
       <h4>Example 11</h4>
       <p>Area of trapezium parallel sides 5 and 9, height 4.</p>
@@ -4315,15 +4315,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 14</h4>
       <p>Hollow cylinder of inner $r_1=5$, outer $r_2=7$, height 10. Volume of material?</p>
-      <p><b>Solution:</b> $\\pi h(r_2^2 - r_1^2) = \\pi \\cdot 10 \\cdot (49-25) = 240\\pi$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\pi h(r_2^2 - r_1^2) &= \\pi \\cdot 10 \\cdot (49-25) \\\\ &= 240\\pi \\end{aligned}$$.</p>
 
       <h4>Example 15</h4>
       <p>Surface area of a sphere = surface area of cube. Ratio of volumes?</p>
-      <p><b>Solution:</b><br>$4\\pi r^2 = 6a^2 \\Rightarrow r/a = \\sqrt{6/(4\\pi)}$.<br>Volume ratio $\\frac{4/3 \\pi r^3}{a^3}$.<br>Skip exact; trick is to derive.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 4\\pi r^2 &= 6a^2 \\Rightarrow r/a \\\\ &= \\sqrt{6/(4\\pi)} \\end{aligned}$$.<br>Volume ratio $\\frac{4/3 \\pi r^3}{a^3}$.<br>Skip exact; trick is to derive.</p>
 
       <h4>Example 16: Cylinder Inscribed in Cube</h4>
       <p>A cylinder is inscribed in a cube of side 14. Volume of cylinder ($\pi=22/7$)?</p>
-      <p><b>Solution:</b><br>Radius = 7, height = 14.<br>$V = 22/7 \cdot 49 \cdot 14 = 2156$.</p>
+      <p><b>Solution:</b><br>Radius = 7, height = 14.<br>$$\\begin{aligned} V &= 22/7 \cdot 49 \cdot 14 \\\\ &= 2156 \\end{aligned}$$.</p>
 
       <h4>Example 17: Sphere Inside Cylinder</h4>
       <p>Sphere of radius 7 inside cylinder of radius 7 height 14. Volume difference?</p>
@@ -4335,15 +4335,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 19: Surface Area Combined</h4>
       <p>For the above (hemisphere + cylinder on table): total surface area?</p>
-      <p><b>Solution:</b> Base circle (bottom) + curved cyl + curved hemi = $\pi r^2 + 2\pi r h + 2\pi r^2 = \pi r(r + 2h + 2r) = \pi r(3r+2h)$.</p>
+      <p><b>Solution:</b> Base circle (bottom) + curved cyl + curved hemi = $$\\begin{aligned} \pi r^2 + 2\pi r h + 2\pi r^2 &= \pi r(r + 2h + 2r) \\\\ &= \pi r(3r+2h) \\end{aligned}$$.</p>
 
       <h4>Example 20: Cone Cut from Cylinder</h4>
       <p>Cylinder r=6 h=10. Cone of same r and h removed. Remaining volume?</p>
-      <p><b>Solution:</b> $\pi r^2 h - \frac{1}{3}\pi r^2 h = \frac{2}{3}\pi r^2 h = \frac{2}{3} \cdot \pi \cdot 36 \cdot 10 = 240\pi$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \pi r^2 h - \frac{1}{3}\pi r^2 h &= \frac{2}{3}\pi r^2 h \\\\ &= \frac{2}{3} \cdot \pi \cdot 36 \cdot 10 \\\\ &= 240\pi \\end{aligned}$$.</p>
 
       <h4>Example 21: Frustum of Cone</h4>
       <p>Volume of frustum with radii 5 and 10, height 12?</p>
-      <p><b>Solution:</b> $V = \frac{\pi h}{3}(r_1^2 + r_2^2 + r_1 r_2) = \frac{\pi \cdot 12}{3}(25+100+50) = 4\pi \cdot 175 = 700\pi$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} V &= \frac{\pi h}{3}(r_1^2 + r_2^2 + r_1 r_2) \\\\ &= \frac{\pi \cdot 12}{3}(25+100+50) \\\\ &= 4\pi \cdot 175 \\\\ &= 700\pi \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4363,13 +4363,13 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Heron's formula uses?", opts: ["base × height/2", "$\\sqrt{s(s-a)(s-b)(s-c)}$", "$1/2 ab \\sin C$", "All can be used"], a: 1, ex: "Definition." },
       { q: "Area of equilateral triangle side 8?", opts: ["$8\\sqrt{3}$", "$16\\sqrt{3}$", "$24$", "$32$"], a: 1, ex: "$\\frac{\\sqrt{3}}{4} \\cdot 64=16\\sqrt{3}$." },
       { q: "Volume of cone r=3, h=4?", opts: ["$9\\pi$", "$12\\pi$", "$18\\pi$", "$36\\pi$"], a: 1, ex: "$\\frac{1}{3}\\pi \\cdot 9 \\cdot 4=12\\pi$." },
-      { q: "Curved SA of hemisphere r=7?", opts: ["$98\\pi$", "$154$", "$308$", "$616$"], a: 2, ex: "$2\\pi r^2=2 \\cdot 22/7 \\cdot 49=308$." },
+      { q: "Curved SA of hemisphere r=7?", opts: ["$98\\pi$", "$154$", "$308$", "$616$"], a: 2, ex: "$$\\begin{aligned} 2\\pi r^2 &= 2 \\cdot 22/7 \\cdot 49 \\\\ &= 308 \\end{aligned}$$." },
       { q: "If radius doubled, area circle?", opts: ["2x", "4x", "8x", "16x"], a: 1, ex: "Proportional to $r^2$." },
       { q: "Area of rhombus with diagonals 8 and 6?", opts: ["24", "48", "14", "12"], a: 0, ex: "$\\frac{1}{2} \\cdot 8 \\cdot 6=24$." },
-      { q: "Volume of cylinder r=7, h=10?", opts: ["$70\\pi$", "$140\\pi$", "$490\\pi$", "$1540$"], a: 3, ex: "$\\pi r^2 h = 22/7 \\cdot 49 \\cdot 10=1540$." },
+      { q: "Volume of cylinder r=7, h=10?", opts: ["$70\\pi$", "$140\\pi$", "$490\\pi$", "$1540$"], a: 3, ex: "$$\\begin{aligned} \\pi r^2 h &= 22/7 \\cdot 49 \\cdot 10 \\\\ &= 1540 \\end{aligned}$$." },
       { q: "Sphere of radius 6. SA?", opts: ["$144\\pi$", "$216\\pi$", "$288\\pi$", "$72\\pi$"], a: 0, ex: "$4\\pi \\cdot 36 = 144\\pi$." },
       { q: "Surface area of cube side 5?", opts: ["75", "150", "100", "125"], a: 1, ex: "$6 \\cdot 25=150$." },
-      { q: "Volume of hemisphere r=21 ($\\pi=22/7$)?", opts: ["19404", "9702", "29106", "38808"], a: 0, ex: "$\\frac{2}{3} \\cdot 22/7 \\cdot 21^3 = \\frac{2 \\cdot 22 \\cdot 9261}{21}=19404$." },
+      { q: "Volume of hemisphere r=21 ($\\pi=22/7$)?", opts: ["19404", "9702", "29106", "38808"], a: 0, ex: "$$\\begin{aligned} \\frac{2}{3} \\cdot 22/7 \\cdot 21^3 &= \\frac{2 \\cdot 22 \\cdot 9261}{21} \\\\ &= 19404 \\end{aligned}$$." },
       { q: "Area of trapezium 6, 10, height 4?", opts: ["32", "60", "80", "120"], a: 0, ex: "$\\frac{1}{2}(6+10)(4)=32$." },
       { q: "If radius of cylinder same as height and r=7, volume = ?", opts: ["$343\\pi$", "$\\pi \\cdot 49 \\cdot 7=343\\pi$", "$1078$", "Both A,B,C correct"], a: 3, ex: "$1078$ if $\\pi=22/7$." },
       { q: "Diagonal of cuboid 3×4×12?", opts: ["13", "$\\sqrt{169}=13$", "169", "Both A,B same"], a: 3, ex: "$\\sqrt{9+16+144}=13$." },
@@ -4445,7 +4445,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 3</h4>
       <p>If radius of circle 7 and chord at distance 5 from centre, length of chord?</p>
-      <p><b>Solution:</b><br>Half chord = $\\sqrt{49-25}=\\sqrt{24}=2\\sqrt{6}$.<br>Full = $4\\sqrt{6}$.</p>
+      <p><b>Solution:</b><br>Half chord = $$\\begin{aligned} \\sqrt{49-25} &= \\sqrt{24} \\\\ &= 2\\sqrt{6} \\end{aligned}$$.<br>Full = $4\\sqrt{6}$.</p>
 
       <h4>Example 4</h4>
       <p>Sum of interior angles of octagon?</p>
@@ -4457,7 +4457,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 6</h4>
       <p>Two parallel chords on opposite sides of centre 6 and 8 cm long. Radius 5. Distance between chords?</p>
-      <p><b>Solution:</b><br>For chord 6: $d_1 = \\sqrt{25-9}=4$.<br>For chord 8: $d_2 = \\sqrt{25-16}=3$.<br>Total = $4+3=7$.</p>
+      <p><b>Solution:</b><br>For chord 6: $$\\begin{aligned} d_1 &= \\sqrt{25-9} \\\\ &= 4 \\end{aligned}$$.<br>For chord 8: $$\\begin{aligned} d_2 &= \\sqrt{25-16} \\\\ &= 3 \\end{aligned}$$.<br>Total = $4+3=7$.</p>
 
       <h4>Example 7</h4>
       <p>Centroid divides median in ratio?</p>
@@ -4469,7 +4469,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 9</h4>
       <p>Each interior angle of a regular polygon is 144°. Sides?</p>
-      <p><b>Solution:</b><br>Exterior = 36°.<br>$n=360/36=10$.</p>
+      <p><b>Solution:</b><br>Exterior = 36°.<br>$$\\begin{aligned} n &= 360/36 \\\\ &= 10 \\end{aligned}$$.</p>
 
       <h4>Example 10</h4>
       <p>From external point distance 10 from centre of circle radius 6, length of tangent?</p>
@@ -4477,7 +4477,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 11</h4>
       <p>If altitude of equilateral triangle is $\\sqrt{3}$, side?</p>
-      <p><b>Solution:</b> Altitude $= \\frac{\\sqrt{3}}{2}a \\Rightarrow a=2$.</p>
+      <p><b>Solution:</b> Altitude $$\\begin{aligned}  &= \\frac{\\sqrt{3}}{2}a \\Rightarrow a \\\\ &= 2 \\end{aligned}$$.</p>
 
       <h4>Example 12</h4>
       <p>Two similar triangles, areas ratio 4:9. Sides ratio?</p>
@@ -4513,11 +4513,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 20: Tangent Property</h4>
       <p>From point P outside circle, two tangents touch the circle. Distance from P to centre = 13. Radius = 5. Length of each tangent?</p>
-      <p><b>Solution:</b> $\sqrt{13^2 - 5^2} = \sqrt{144} = 12$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \sqrt{13^2 - 5^2} &= \sqrt{144} \\\\ &= 12 \\end{aligned}$$.</p>
 
       <h4>Example 21: Cyclic Quadrilateral</h4>
       <p>In cyclic quad ABCD, ∠A = 80°, ∠B = 70°. Find ∠C and ∠D.</p>
-      <p><b>Solution:</b> $∠C = 180-80 = 100°$, $∠D = 180-70 = 110°$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} ∠C &= 180-80 \\\\ &= 100° \\end{aligned}$$, $$\\begin{aligned} ∠D &= 180-70 \\\\ &= 110° \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4548,7 +4548,7 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Number of diagonals in n-gon?", opts: ["n", "$n-2$", "$\\frac{n(n-3)}{2}$", "$n-3$"], a: 2, ex: "Formula." },
       { q: "Sum of all angles around a point?", opts: ["90", "180", "360", "$2\\pi$ rad"], a: 2, ex: "Both 360° and $2\\pi$. Option C." },
       { q: "If similar triangles areas 16:81, perimeter ratio?", opts: ["4:9", "16:81", "$\\sqrt{16}:\\sqrt{81}=4:9$", "Both A,C same"], a: 3, ex: "$\\sqrt{16:81}=4:9$." },
-      { q: "Pythagorean triple. 8-15-?", opts: ["13", "17", "20", "21"], a: 1, ex: "$8^2+15^2=64+225=289=17^2$." },
+      { q: "Pythagorean triple. 8-15-?", opts: ["13", "17", "20", "21"], a: 1, ex: "$$\\begin{aligned} 8^2+15^2 &= 64+225 \\\\ &= 289 \\\\ &= 17^2 \\end{aligned}$$." },
       { q: "In a parallelogram, diagonals?", opts: ["Equal", "Bisect each other", "Bisect at 90°", "All equal"], a: 1, ex: "Bisect each other." },
       { q: "Maximum diagonals in convex polygon?", opts: ["n", "$2n$", "$\\frac{n(n-3)}{2}$", "Depends"], a: 2, ex: "Same formula." },
       { q: "Two parallel lines cut by transversal. Alt int angles?", opts: ["Equal", "Supplementary", "Complementary", "180"], a: 0, ex: "Theorem." }
@@ -4628,7 +4628,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 8</h4>
       <p>Equation of line through $(2,3)$ with slope 4?</p>
-      <p><b>Solution:</b> $y-3=4(x-2) \\Rightarrow y=4x-5$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} y-3 &= 4(x-2) \\Rightarrow y \\\\ &= 4x-5 \\end{aligned}$$.</p>
 
       <h4>Example 9</h4>
       <p>Distance from $(1,2)$ to line $3x+4y-12=0$.</p>
@@ -4636,7 +4636,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 10</h4>
       <p>If $(2, k)$ is on line $y = 3x-1$, find $k$.</p>
-      <p><b>Solution:</b> $k = 3(2)-1=5$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} k &= 3(2)-1 \\\\ &= 5 \\end{aligned}$$.</p>
 
       <h4>Example 11</h4>
       <p>If $A(2,1), B(6,4)$, length AB?</p>
@@ -4648,7 +4648,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 13</h4>
       <p>Find $k$ if $(1,2), (3,k), (5,6)$ are collinear.</p>
-      <p><b>Solution:</b><br>Slopes equal: $(k-2)/(3-1) = (6-2)/(5-1) = 1$.<br>So $k=4$.</p>
+      <p><b>Solution:</b><br>Slopes equal: $$\\begin{aligned} (k-2)/(3-1) &= (6-2)/(5-1) \\\\ &= 1 \\end{aligned}$$.<br>So $k=4$.</p>
 
       <h4>Example 14</h4>
       <p>x-intercept of $2x+3y=6$.</p>
@@ -4660,11 +4660,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Find Equation of Line</h4>
       <p>Line through (1,2) and (3,6). Equation?</p>
-      <p><b>Solution:</b><br>Slope = $(6-2)/(3-1) = 2$.<br>$y-2 = 2(x-1) \Rightarrow y = 2x$.</p>
+      <p><b>Solution:</b><br>Slope = $(6-2)/(3-1) = 2$.<br>$$\\begin{aligned} y-2 &= 2(x-1) \Rightarrow y \\\\ &= 2x \\end{aligned}$$.</p>
 
       <h4>Example 17: Distance to Line</h4>
       <p>Distance from (2,3) to line $3x+4y-12=0$?</p>
-      <p><b>Solution:</b> $|3 \cdot 2+4 \cdot 3 - 12|/\sqrt{25} = 6/5 = 1.2$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} |3 \cdot 2+4 \cdot 3 - 12|/\sqrt{25} &= 6/5 \\\\ &= 1.2 \\end{aligned}$$.</p>
 
       <h4>Example 18: Section Formula Internal</h4>
       <p>Find point dividing line joining $(3,2)$ and $(-1,4)$ internally in ratio 3:1.</p>
@@ -4672,7 +4672,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 19: External Division</h4>
       <p>Find point dividing $(2,3)$ and $(6,7)$ externally in ratio 1:2.</p>
-      <p><b>Solution:</b> $\left(\frac{1 \cdot 6 - 2 \cdot 2}{1-2}, \frac{1 \cdot 7 - 2 \cdot 3}{1-2}\right) = (2/-1, 1/-1) = (-2, -1)$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \left(\frac{1 \cdot 6 - 2 \cdot 2}{1-2}, \frac{1 \cdot 7 - 2 \cdot 3}{1-2}\right) &= (2/-1, 1/-1) \\\\ &= (-2, -1) \\end{aligned}$$.</p>
 
       <h4>Example 20: Area of Quadrilateral</h4>
       <p>Vertices $(1,1), (4,1), (4,5), (1,5)$. Area?</p>
@@ -4688,11 +4688,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 23: Equation Through Two Points</h4>
       <p>Line through $(1, 2)$ and $(5, 8)$?</p>
-      <p><b>Solution:</b><br>Slope = $6/4 = 3/2$.<br>$y - 2 = (3/2)(x-1) \Rightarrow 2y - 4 = 3x - 3 \Rightarrow 3x - 2y + 1 = 0$.</p>
+      <p><b>Solution:</b><br>Slope = $6/4 = 3/2$.<br>$$\\begin{aligned} y - 2 &= (3/2)(x-1) \Rightarrow 2y - 4 \\\\ &= 3x - 3 \Rightarrow 3x - 2y + 1 \\\\ &= 0 \\end{aligned}$$.</p>
 
       <h4>Example 24: Distance Between Parallel Lines</h4>
       <p>Distance between $3x+4y = 6$ and $3x+4y = 16$?</p>
-      <p><b>Solution:</b> $|16-6|/\sqrt{9+16} = 10/5 = 2$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} |16-6|/\sqrt{9+16} &= 10/5 \\\\ &= 2 \\end{aligned}$$.</p>
 
       <h4>Example 25: Image of Point</h4>
       <p>Image of $(3, 4)$ under reflection in y-axis?</p>
@@ -4708,7 +4708,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 28: Angle Between Lines</h4>
       <p>Angle between $y=2x$ and $y=3x$?</p>
-      <p><b>Solution:</b><br>$\tan\theta = |(m_1-m_2)/(1+m_1 m_2)| = |1/7|$.<br>So $\theta = \arctan(1/7) ≈ 8.13°$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \tan\theta &= |(m_1-m_2)/(1+m_1 m_2)| \\\\ &= |1/7| \\end{aligned}$$.<br>So $\theta = \arctan(1/7) ≈ 8.13°$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4728,7 +4728,7 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Section formula: divide (2,4) and (6,8) in 1:1 (midpoint)?", opts: ["(4,6)", "(3,5)", "(2,5)", "(5,6)"], a: 0, ex: "Avg." },
       { q: "Are $(1,2), (2,4), (3,6)$ collinear?", opts: ["Yes", "No", "Cannot say", "Only first 2"], a: 0, ex: "All on $y=2x$." },
       { q: "Slope of horizontal line?", opts: ["0", "1", "Undefined", "Infinity"], a: 0, ex: "Standard." },
-      { q: "Distance from (0,0) to $3x+4y-12=0$?", opts: ["2.4", "3", "4", "5"], a: 0, ex: "$|-12|/\\sqrt{9+16}=12/5=2.4$." },
+      { q: "Distance from (0,0) to $3x+4y-12=0$?", opts: ["2.4", "3", "4", "5"], a: 0, ex: "$$\\begin{aligned} |-12|/\\sqrt{9+16} &= 12/5 \\\\ &= 2.4 \\end{aligned}$$." },
       { q: "Equation of x-axis?", opts: ["$x=0$", "$y=0$", "$x=y$", "$xy=0$"], a: 1, ex: "$y=0$." },
       { q: "Equation of line through (0,0) and (1,1)?", opts: ["$y=x$", "$y=-x$", "$x=1$", "$y=1$"], a: 0, ex: "Slope 1, passes origin." },
       { q: "Two parallel lines have slopes?", opts: ["Equal", "Negative reciprocal", "Sum 0", "Product 1"], a: 0, ex: "Equal." },
@@ -4766,7 +4766,7 @@ $(c_2 - m)$ : $(m - c_1)$
       <h3>4. Key Properties</h3>
       <ul>
         <li>$^nC_r = \\,^nC_{n-r}$.</li>
-        <li>$^nC_0 = \\,^nC_n = 1$.</li>
+        <li>$$\\begin{aligned} ^nC_0 &= \\,^nC_n \\\\ &= 1 \\end{aligned}$$.</li>
         <li>$^nC_1 = n$.</li>
         <li>$^nC_r + \\,^nC_{r-1} = \\,^{n+1}C_r$.</li>
       </ul>
@@ -4791,7 +4791,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 3</h4>
       <p>How many 4-digit numbers from digits 1,2,3,4,5 without repetition?</p>
-      <p><b>Solution:</b> $^5P_4 = 5 \\cdot 4 \\cdot 3 \\cdot 2 = 120$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} ^5P_4 &= 5 \\cdot 4 \\cdot 3 \\cdot 2 \\\\ &= 120 \\end{aligned}$$.</p>
 
       <h4>Example 4</h4>
       <p>How many ways to arrange letters of MISSISSIPPI?</p>
@@ -4811,7 +4811,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 8</h4>
       <p>How many 4-letter words from ENGLISH (7 letters, all distinct) without repetition?</p>
-      <p><b>Solution:</b> $^7P_4 = 7 \\cdot 6 \\cdot 5 \\cdot 4 = 840$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} ^7P_4 &= 7 \\cdot 6 \\cdot 5 \\cdot 4 \\\\ &= 840 \\end{aligned}$$.</p>
 
       <h4>Example 9</h4>
       <p>Number of ways to seat 5 people in a row?</p>
@@ -4827,7 +4827,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 12</h4>
       <p>How many committees of 5 from 8 men and 6 women with at least 3 women?</p>
-      <p><b>Solution:</b><br>Cases: 3W+2M, 4W+1M, 5W+0M.<br>$^6C_3 \\cdot ^8C_2 + ^6C_4 \\cdot ^8C_1 + ^6C_5 \\cdot ^8C_0 = 20 \\cdot 28 + 15 \\cdot 8 + 6 = 560+120+6=686$.</p>
+      <p><b>Solution:</b><br>Cases: 3W+2M, 4W+1M, 5W+0M.<br>$$\\begin{aligned} ^6C_3 \\cdot ^8C_2 + ^6C_4 \\cdot ^8C_1 + ^6C_5 \\cdot ^8C_0 &= 20 \\cdot 28 + 15 \\cdot 8 + 6 \\\\ &= 560+120+6 \\\\ &= 686 \\end{aligned}$$.</p>
 
       <h4>Example 13</h4>
       <p>Number of ways to arrange 5 boys + 3 girls in a row with all girls together?</p>
@@ -4847,11 +4847,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Choosing from Two Groups</h4>
       <p>From 7 men and 4 women, choose committee of 3 with at least 1 woman.</p>
-      <p><b>Solution:</b> Total - all men = $^{11}C_3 - ^7C_3 = 165 - 35 = 130$.</p>
+      <p><b>Solution:</b> Total - all men = $$\\begin{aligned} ^{11}C_3 - ^7C_3 &= 165 - 35 \\\\ &= 130 \\end{aligned}$$.</p>
 
       <h4>Example 16: Words from Word</h4>
       <p>Number of ways to arrange letters of TRIANGLE such that vowels are together?</p>
-      <p><b>Solution:</b><br>8 letters, 3 vowels (I, A, E).<br>Group vowels: 6 units.<br>$6! \times 3! = 720 \times 6 = 4320$.</p>
+      <p><b>Solution:</b><br>8 letters, 3 vowels (I, A, E).<br>Group vowels: 6 units.<br>$$\\begin{aligned} 6! \times 3! &= 720 \times 6 \\\\ &= 4320 \\end{aligned}$$.</p>
 
       <h4>Example 17: Restricted Arrangements</h4>
       <p>How many 4-digit numbers can be formed using 1, 2, 3, 4, 5 with no digit repeated and number divisible by 5?</p>
@@ -4863,19 +4863,19 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 19: Circular with Restriction</h4>
       <p>10 people sit at round table. 2 specific persons want to sit together. Number of ways?</p>
-      <p><b>Solution:</b><br>Treat as 9 units in circular = $8!$.<br>Internal arrangement = $2!$.<br>Total = $8! \cdot 2 = 40320 \cdot 2 = 80640$.</p>
+      <p><b>Solution:</b><br>Treat as 9 units in circular = $8!$.<br>Internal arrangement = $2!$.<br>Total = $$\\begin{aligned} 8! \cdot 2 &= 40320 \cdot 2 \\\\ &= 80640 \\end{aligned}$$.</p>
 
       <h4>Example 20: Number of Diagonals</h4>
       <p>Diagonals in 10-sided polygon?</p>
-      <p><b>Solution:</b> $^{10}C_2 - 10 = 45 - 10 = 35$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} ^{10}C_2 - 10 &= 45 - 10 \\\\ &= 35 \\end{aligned}$$.</p>
 
       <h4>Example 21: Selection with Conditions</h4>
       <p>From 5 men and 6 women, choose committee of 4 with exactly 2 women?</p>
-      <p><b>Solution:</b> $^6C_2 \cdot ^5C_2 = 15 \cdot 10 = 150$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} ^6C_2 \cdot ^5C_2 &= 15 \cdot 10 \\\\ &= 150 \\end{aligned}$$.</p>
 
       <h4>Example 22: Words from Word with Repetition</h4>
       <p>Arrangements of ALLAHABAD?</p>
-      <p><b>Solution:</b><br>9 letters: A×4, L×2, H×1, B×1, D×1.<br>$\frac{9!}{4! \cdot 2!} = \frac{362880}{48} = 7560$.</p>
+      <p><b>Solution:</b><br>9 letters: A×4, L×2, H×1, B×1, D×1.<br>$$\\begin{aligned} \frac{9!}{4! \cdot 2!} &= \frac{362880}{48} \\\\ &= 7560 \\end{aligned}$$.</p>
 
       <h4>Example 23: Forming Numbers</h4>
       <p>Number of 5-digit even numbers using 0-9 without repetition?</p>
@@ -4911,7 +4911,7 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "If $n!= 720$, $n=?$", opts: ["5", "6", "7", "8"], a: 1, ex: "$6!=720$." },
       { q: "Committees of 4 from 6 men 4 women, all women?", opts: ["1", "4", "5", "6"], a: 0, ex: "$^4C_4=1$." },
       { q: "Ways to seat 4 people in a row?", opts: ["12", "16", "24", "32"], a: 2, ex: "$4!=24$." },
-      { q: "$^7C_4$?", opts: ["28", "35", "42", "210"], a: 1, ex: "$=^7C_3=35$." },
+      { q: "$^7C_4$?", opts: ["28", "35", "42", "210"], a: 1, ex: "$$\\begin{aligned}  &= ^7C_3 \\\\ &= 35 \\end{aligned}$$." },
       { q: "Number of diagonals in pentagon?", opts: ["5", "8", "10", "$^5C_2-5=5$"], a: 0, ex: "Total lines = $^5C_2=10$. Sides=5. Diagonals=5." },
       { q: "Triangles from 8 points (no 3 collinear)?", opts: ["28", "56", "84", "112"], a: 1, ex: "$^8C_3=56$." },
       { q: "Number of 5-digit numbers using 0-4 no rep, first not 0?", opts: ["24", "96", "100", "120"], a: 1, ex: "First: 4 choices (1-4). Rest: 4!. $4 \\cdot 24=96$." },
@@ -4920,8 +4920,8 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Arrangements of 6 around round table = ?", opts: ["120", "720", "60", "$5!$"], a: 0, ex: "$(6-1)!=120$." },
       { q: "Number of handshakes among 10 people?", opts: ["45", "55", "90", "100"], a: 0, ex: "$^{10}C_2=45$." },
       { q: "From 4 vowels + 3 consonants, how many 2-letter words (1V+1C)?", opts: ["12", "24", "7", "21"], a: 1, ex: "$4 \\cdot 3 \\cdot 2! = 24$." },
-      { q: "$^nC_{n-1} = ?$", opts: ["1", "n", "$n-1$", "$\\frac{n}{2}$"], a: 1, ex: "$=^nC_1=n$." },
-      { q: "Ways to choose 2 cards from 52?", opts: ["52", "1326", "2652", "104"], a: 1, ex: "$^{52}C_2=52 \\cdot 51/2=1326$." }
+      { q: "$^nC_{n-1} = ?$", opts: ["1", "n", "$n-1$", "$\\frac{n}{2}$"], a: 1, ex: "$$\\begin{aligned}  &= ^nC_1 \\\\ &= n \\end{aligned}$$." },
+      { q: "Ways to choose 2 cards from 52?", opts: ["52", "1326", "2652", "104"], a: 1, ex: "$$\\begin{aligned} ^{52}C_2 &= 52 \\cdot 51/2 \\\\ &= 1326 \\end{aligned}$$." }
     ]
   };
 
@@ -4981,7 +4981,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 6</h4>
       <p>Two coins. P(at least one head)?</p>
-      <p><b>Solution:</b> $1 - P(\\text{both tails}) = 1 - 1/4 = 3/4$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1 - P(\\text{both tails}) &= 1 - 1/4 \\\\ &= 3/4 \\end{aligned}$$.</p>
 
       <h4>Example 7</h4>
       <p>Bag has 4 red + 6 blue marbles. Pick 1. P(red)?</p>
@@ -4989,7 +4989,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 8</h4>
       <p>From above bag, pick 2 without replacement. P(both red)?</p>
-      <p><b>Solution:</b> $\\frac{4}{10} \\cdot \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{4}{10} \\cdot \\frac{3}{9} &= \\frac{12}{90} \\\\ &= \\frac{2}{15} \\end{aligned}$$.</p>
 
       <h4>Example 9</h4>
       <p>Die rolled. P(prime)?</p>
@@ -5025,7 +5025,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Without Replacement</h4>
       <p>Bag: 5R + 3B balls. P(both red on 2 draws without replacement)?</p>
-      <p><b>Solution:</b> $\frac{5}{8} \cdot \frac{4}{7} = 20/56 = 5/14$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \frac{5}{8} \cdot \frac{4}{7} &= 20/56 \\\\ &= 5/14 \\end{aligned}$$.</p>
 
       <h4>Example 16: Coin Sequence</h4>
       <p>Toss 3 coins. P(exactly 2 heads)?</p>
@@ -5053,18 +5053,18 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 22: Selecting from Bags</h4>
       <p>Bag 1: 3R + 2W. Bag 2: 4R + 5W. Pick 1 from each. P(both red)?</p>
-      <p><b>Solution:</b> $(3/5)(4/9) = 12/45 = 4/15$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (3/5)(4/9) &= 12/45 \\\\ &= 4/15 \\end{aligned}$$.</p>
 
       <h4>Example 23: Without Replacement</h4>
       <p>Bag: 4R + 6B. Draw 2 without replacement. P(1 red, 1 black)?</p>
-      <p><b>Solution:</b> $(4/10)(6/9) + (6/10)(4/9) = 24/90 + 24/90 = 48/90 = 8/15$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (4/10)(6/9) + (6/10)(4/9) &= 24/90 + 24/90 \\\\ &= 48/90 \\\\ &= 8/15 \\end{aligned}$$.</p>
 
       <h4>Example 24: Cards — Drawing 2</h4>
       <p>P(both aces in 2-card draw without replacement)?</p>
-      <p><b>Solution:</b> $(4/52)(3/51) = 12/2652 = 1/221$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (4/52)(3/51) &= 12/2652 \\\\ &= 1/221 \\end{aligned}$$.</p>
 
       <h4>Example 25: Either A or B</h4>
-      <p>$P(A) = 0.3, P(B) = 0.5, P(A \cap B) = 0.2$. $P(A \cup B) = ?$</p>
+      <p>$$\\begin{aligned} P(A) &= 0.3, P(B) \\\\ &= 0.5, P(A \cap B) \\\\ &= 0.2 \\end{aligned}$$. $P(A \cup B) = ?$</p>
       <p><b>Solution:</b> $0.3 + 0.5 - 0.2 = 0.6$.</p>
 
       <h4>Example 26: Mutually Exclusive</h4>
@@ -5093,17 +5093,17 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "P(impossible event)?", opts: ["0", "1", "1/2", "Cannot say"], a: 0, ex: "Standard." },
       { q: "P(getting a multiple of 3 on a die)?", opts: ["1/6", "1/3", "1/2", "2/3"], a: 1, ex: "{3,6}: 2/6." },
       { q: "Card. P(face card)?", opts: ["3/13", "1/4", "1/13", "12/52"], a: 0, ex: "12/52=3/13. Both A,D." },
-      { q: "If $P(A)=0.3, P(B)=0.5, P(A \\cap B)=0.1$, $P(A \\cup B)?$", opts: ["0.6", "0.7", "0.8", "0.9"], a: 1, ex: "0.3+0.5-0.1=0.7." },
+      { q: "If $$\\begin{aligned} P(A) &= 0.3, P(B) \\\\ &= 0.5, P(A \\cap B) \\\\ &= 0.1 \\end{aligned}$$, $P(A \\cup B)?$", opts: ["0.6", "0.7", "0.8", "0.9"], a: 1, ex: "0.3+0.5-0.1=0.7." },
       { q: "Box: 5 red, 3 green, 2 blue. P(blue)?", opts: ["1/5", "1/3", "1/2", "2/10"], a: 0, ex: "2/10=1/5." },
       { q: "Two dice. P(both same)?", opts: ["1/6", "1/3", "1/12", "1/2"], a: 0, ex: "6/36=1/6." },
       { q: "Two coins. P(both tails)?", opts: ["1/4", "1/2", "1/8", "3/4"], a: 0, ex: "1/4." },
-      { q: "Card. P(neither king nor queen)?", opts: ["11/13", "9/13", "1/13", "12/13"], a: 0, ex: "$1-8/52=44/52=11/13$." },
+      { q: "Card. P(neither king nor queen)?", opts: ["11/13", "9/13", "1/13", "12/13"], a: 0, ex: "$$\\begin{aligned} 1-8/52 &= 44/52 \\\\ &= 11/13 \\end{aligned}$$." },
       { q: "P(king AND queen in two consecutive draws with replacement)?", opts: ["$1/169$", "$2/169$", "$1/13$", "$\\frac{4}{52} \\cdot \\frac{4}{52}$"], a: 0, ex: "$\\frac{1}{13} \\cdot \\frac{1}{13}=1/169$. Both A,D." },
       { q: "Die. P(odd)?", opts: ["1/3", "1/2", "2/3", "5/6"], a: 1, ex: "3/6." },
       { q: "P(sample space) = ?", opts: ["0", "0.5", "1", "Depends"], a: 2, ex: "Always 1." },
       { q: "Two dice. P(sum > 10)?", opts: ["1/12", "1/6", "1/18", "1/9"], a: 0, ex: "(5,6),(6,5),(6,6)=3 out of 36 = 1/12." },
       { q: "If P(A)=0.4 and P(B)=0.6 and independent, P(A∩B)?", opts: ["0.10", "0.20", "0.24", "0.40"], a: 2, ex: "Multiply: 0.4 × 0.6 = 0.24." },
-      { q: "Card. P(red OR king)?", opts: ["28/52", "30/52", "1/2 + 1/13", "7/13"], a: 3, ex: "$26/52+4/52-2/52=28/52=7/13$." }
+      { q: "Card. P(red OR king)?", opts: ["28/52", "30/52", "1/2 + 1/13", "7/13"], a: 3, ex: "$$\\begin{aligned} 26/52+4/52-2/52 &= 28/52 \\\\ &= 7/13 \\end{aligned}$$." }
     ]
   };
 
@@ -5198,7 +5198,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 13</h4>
       <p>If Mean = 25, Median = 27. Mode by empirical?</p>
-      <p><b>Solution:</b> $3 \\cdot 27 - 2 \\cdot 25 = 81-50 = 31$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 3 \\cdot 27 - 2 \\cdot 25 &= 81-50 \\\\ &= 31 \\end{aligned}$$.</p>
 
       <h4>Example 14</h4>
       <p>For data 6, 8, 10, 12, 14: SD?</p>
@@ -5218,7 +5218,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Median of Grouped Data</h4>
       <p>Class: 0-10, 10-20, 20-30; Frequencies: 8, 12, 10. Median?</p>
-      <p><b>Solution:</b><br>$n/2 = 15$.<br>Cumulative: 8, 20, 30.<br>Median class: 10-20.<br>Median = $L + \frac{n/2 - F}{f} \cdot h = 10 + \frac{15-8}{12} \cdot 10 = 10 + 5.83 = 15.83$.</p>
+      <p><b>Solution:</b><br>$n/2 = 15$.<br>Cumulative: 8, 20, 30.<br>Median class: 10-20.<br>Median = $$\\begin{aligned} L + \frac{n/2 - F}{f} \cdot h &= 10 + \frac{15-8}{12} \cdot 10 \\\\ &= 10 + 5.83 \\\\ &= 15.83 \\end{aligned}$$.</p>
 
       <h4>Example 17: Mode of Grouped</h4>
       <p>For frequencies 5, 10, 12, 8, 6: max freq is 12 (modal class). Use mode formula $L + \frac{f_1-f_0}{2f_1-f_0-f_2} \cdot h$. Example needs specific class bounds.</p>
@@ -5281,7 +5281,7 @@ $(c_2 - m)$ : $(m - c_1)$
       { q: "Median is least affected by?", opts: ["Mean changes", "Extreme values (outliers)", "Sample size", "All affect equally"], a: 1, ex: "Median robust to outliers." },
       { q: "Range of 7,5,3,9,11,2?", opts: ["7", "8", "9", "10"], a: 2, ex: "11-2=9." },
       { q: "Mode of 1,2,3?", opts: ["1", "2", "3", "No mode"], a: 3, ex: "All unique." },
-      { q: "Mean of 10 obs = 50. If one obs removed mean drops to 48. The removed?", opts: ["56", "60", "68", "72"], a: 2, ex: "$10 \\cdot 50 - 9 \\cdot 48 = 500-432=68$." },
+      { q: "Mean of 10 obs = 50. If one obs removed mean drops to 48. The removed?", opts: ["56", "60", "68", "72"], a: 2, ex: "$$\\begin{aligned} 10 \\cdot 50 - 9 \\cdot 48 &= 500-432 \\\\ &= 68 \\end{aligned}$$." },
       { q: "If data: 4,4,5,5,5,6,7. Mode and median?", opts: ["mode=5, median=5", "mode=4, median=5", "mode=5, median=4", "mode=4, median=4"], a: 0, ex: "5 most freq. Median (4th of 7) = 5." },
       { q: "Standard deviation cannot be?", opts: ["0", "positive", "1", "negative"], a: 3, ex: "SD ≥ 0." },
       { q: "Weighted mean of 60 (weight 2), 80 (weight 3)?", opts: ["70", "72", "75", "76"], a: 1, ex: "$(120+240)/5=72$." },
