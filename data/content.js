@@ -187,7 +187,52 @@ window.SUBJECTS = [
       }
     ]
   },
-  { id: "quant", name: "Quantitative Aptitude", sections: [] },
+  {
+    id: "quant",
+    name: "Quantitative Aptitude",
+    sections: [
+      {
+        id: "maths",
+        name: "Maths",
+        topics: [
+          { id: "math-intro", name: "How to Use This Section (KaTeX, Tricks)", group: "Start Here" },
+          { id: "math-number-system", name: "Number System", group: "Quant — Arithmetic" },
+          { id: "math-simplification", name: "Simplification (BODMAS)", group: "Quant — Arithmetic" },
+          { id: "math-fraction-decimal", name: "Fractions & Decimals", group: "Quant — Arithmetic" },
+          { id: "math-surds-indices", name: "Surds & Indices", group: "Quant — Arithmetic" },
+          { id: "math-square-cube-root", name: "Square Root & Cube Root", group: "Quant — Arithmetic" },
+          { id: "math-hcf-lcm", name: "HCF & LCM", group: "Quant — Arithmetic" },
+          { id: "math-percentage", name: "Percentage", group: "Quant — Commercial" },
+          { id: "math-profit-loss", name: "Profit & Loss", group: "Quant — Commercial" },
+          { id: "math-discount", name: "Discount", group: "Quant — Commercial" },
+          { id: "math-average", name: "Average", group: "Quant — Commercial" },
+          { id: "math-age", name: "Problems on Ages", group: "Quant — Commercial" },
+          { id: "math-ratio-proportion", name: "Ratio & Proportion", group: "Quant — Commercial" },
+          { id: "math-race", name: "Races", group: "Quant — Commercial" },
+          { id: "math-mixture", name: "Mixture & Alligation", group: "Quant — Commercial" },
+          { id: "math-partnership", name: "Partnership", group: "Quant — Commercial" },
+          { id: "math-si", name: "Simple Interest", group: "Quant — Interest" },
+          { id: "math-ci", name: "Compound Interest", group: "Quant — Interest" },
+          { id: "math-time-work", name: "Time & Work", group: "Quant — Time" },
+          { id: "math-pipe-cistern", name: "Pipes & Cisterns", group: "Quant — Time" },
+          { id: "math-time-distance", name: "Time, Speed & Distance", group: "Quant — Time" },
+          { id: "math-train", name: "Problems on Trains", group: "Quant — Time" },
+          { id: "math-boat-stream", name: "Boats & Streams", group: "Quant — Time" },
+          { id: "math-sequence-series", name: "Sequences & Series", group: "Quant — Misc" },
+          { id: "math-di", name: "Data Interpretation", group: "Quant — Misc" },
+          { id: "math-algebra", name: "Algebra", group: "Advance Maths" },
+          { id: "math-trigonometry", name: "Trigonometry", group: "Advance Maths" },
+          { id: "math-height-distance", name: "Height & Distance", group: "Advance Maths" },
+          { id: "math-mensuration", name: "Mensuration (2D & 3D)", group: "Advance Maths" },
+          { id: "math-geometry", name: "Geometry", group: "Advance Maths" },
+          { id: "math-coord-geometry", name: "Coordinate Geometry", group: "Advance Maths" },
+          { id: "math-permutation-combination", name: "Permutation & Combination", group: "Advance Maths" },
+          { id: "math-probability", name: "Probability", group: "Advance Maths" },
+          { id: "math-statistics", name: "Statistics", group: "Advance Maths" }
+        ]
+      }
+    ]
+  },
   { id: "english", name: "English Language", sections: [] },
   { id: "reasoning", name: "Reasoning", sections: [] }
 ];

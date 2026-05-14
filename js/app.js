@@ -200,6 +200,18 @@
 
     if (data.mcq && data.mcq.length) bindQuiz(id, data.mcq);
 
+    if (window.renderMathInElement) {
+      window.renderMathInElement(content, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true }
+        ],
+        throwOnError: false
+      });
+    }
+
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
