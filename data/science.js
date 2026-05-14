@@ -5144,4 +5144,1467 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 40. SKELETAL SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-skeletal"] = {
+    body: `
+      <h2>Skeletal System</h2>
+      <p>The framework of the body consisting of 206 bones in adults (300 in babies — some fuse).</p>
+
+      <h3>1. Functions</h3>
+      <ul>
+        <li>Support (framework).</li>
+        <li>Movement (with muscles).</li>
+        <li>Protection (skull → brain, ribs → heart/lungs, vertebrae → spinal cord).</li>
+        <li>Mineral storage (Ca, P).</li>
+        <li>Blood cell production (bone marrow).</li>
+        <li>Energy storage (yellow marrow has fat).</li>
+      </ul>
+
+      <h3>2. Two Main Divisions</h3>
+
+      <h4>(a) Axial Skeleton (80 bones)</h4>
+      <ul>
+        <li>Skull (22).</li>
+        <li>Vertebral column (33 → 26 after fusion).</li>
+        <li>Ribs (24, 12 pairs).</li>
+        <li>Sternum (1).</li>
+        <li>Hyoid bone (1, in throat).</li>
+        <li>Ear ossicles (6, 3 in each ear).</li>
+      </ul>
+
+      <h4>(b) Appendicular Skeleton (126 bones)</h4>
+      <ul>
+        <li>Upper limbs (60).</li>
+        <li>Lower limbs (60).</li>
+        <li>Shoulder girdle (4): clavicles, scapulae.</li>
+        <li>Pelvic girdle (2): hip bones.</li>
+      </ul>
+
+      <h3>3. Vertebral Column (33 vertebrae)</h3>
+      <ul>
+        <li>Cervical (neck): 7.</li>
+        <li>Thoracic (chest): 12.</li>
+        <li>Lumbar (lower back): 5.</li>
+        <li>Sacral (fused): 5 → 1 sacrum.</li>
+        <li>Coccygeal (fused): 4 → 1 coccyx (tailbone).</li>
+      </ul>
+
+      <h3>4. Skull (22 bones)</h3>
+      <ul>
+        <li>Cranium: 8 bones (protect brain).</li>
+        <li>Face: 14 bones (jaw, cheeks, nose).</li>
+      </ul>
+
+      <h3>5. Ear Ossicles (Tiny ear bones)</h3>
+      <ul>
+        <li>Malleus (hammer).</li>
+        <li>Incus (anvil).</li>
+        <li>Stapes (stirrup) — smallest bone in body.</li>
+      </ul>
+
+      <h3>6. Bone Records</h3>
+      <ul>
+        <li><b>Longest</b>: Femur (thigh bone).</li>
+        <li><b>Smallest</b>: Stapes (ear).</li>
+        <li><b>Strongest</b>: Femur.</li>
+        <li><b>Hardest</b>: Mandible (jaw).</li>
+        <li><b>Most fragile</b>: Clavicle (collar bone).</li>
+        <li>Hand: 27 bones each (8 carpals + 5 metacarpals + 14 phalanges).</li>
+        <li>Foot: 26 bones each (7 tarsals + 5 metatarsals + 14 phalanges).</li>
+      </ul>
+
+      <h3>7. Joints</h3>
+      <ul>
+        <li><b>Fixed (Immovable)</b>: skull sutures.</li>
+        <li><b>Slightly movable (Cartilaginous)</b>: vertebrae.</li>
+        <li><b>Freely movable (Synovial)</b>:
+          <ul>
+            <li>Ball and socket: shoulder, hip (max movement).</li>
+            <li>Hinge: elbow, knee, finger (one direction).</li>
+            <li>Pivot: neck (atlas-axis).</li>
+            <li>Gliding: wrist, ankle.</li>
+            <li>Saddle: thumb.</li>
+            <li>Ellipsoid: wrist.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>8. Bone Composition</h3>
+      <ul>
+        <li>~70% inorganic: calcium phosphate (hydroxyapatite).</li>
+        <li>~30% organic: collagen (protein).</li>
+        <li>Bone marrow: red (makes blood cells), yellow (fat).</li>
+      </ul>
+
+      <h3>9. Cartilage</h3>
+      <ul>
+        <li>Flexible connective tissue.</li>
+        <li>Found in nose, ear, joints, between vertebrae.</li>
+        <li>Doesn't have blood vessels.</li>
+      </ul>
+
+      <h3>10. Common Disorders</h3>
+      <ul>
+        <li><b>Osteoporosis</b>: weak, brittle bones (often elderly women).</li>
+        <li><b>Arthritis</b>: joint inflammation.
+          <ul>
+            <li>Osteoarthritis: wear-and-tear.</li>
+            <li>Rheumatoid: autoimmune.</li>
+          </ul>
+        </li>
+        <li><b>Rickets</b>: Vitamin D deficiency (children); soft bones.</li>
+        <li><b>Osteomalacia</b>: vit D deficiency (adults).</li>
+        <li><b>Gout</b>: uric acid deposits in joints.</li>
+        <li><b>Scoliosis</b>: spine curvature.</li>
+        <li><b>Fracture</b>: bone break.</li>
+        <li><b>Dislocation</b>: joint out of place.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>206 bones in adult.</li>
+        <li>Femur = longest; Stapes = smallest.</li>
+        <li>Vertebrae: 7 cervical, 12 thoracic, 5 lumbar.</li>
+        <li>3 ear bones: malleus, incus, stapes.</li>
+        <li>Ball-and-socket: max movement.</li>
+        <li>Vit D needed for calcium → strong bones.</li>
+        <li>Osteoporosis: low bone density.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Total bones in adult:", opts: ["200", "206", "212", "300"], a: 1, ex: "206 bones." },
+      { q: "Longest bone:", opts: ["Femur", "Tibia", "Humerus", "Sternum"], a: 0, ex: "Thigh bone." },
+      { q: "Smallest bone:", opts: ["Coccyx", "Patella", "Stapes", "Tibia"], a: 2, ex: "Ear ossicle." },
+      { q: "Bones in hand:", opts: ["20", "24", "27", "32"], a: 2, ex: "27 each hand." },
+      { q: "Bones in foot:", opts: ["20", "24", "26", "30"], a: 2, ex: "26 each foot." },
+      { q: "Cervical vertebrae:", opts: ["5", "7", "12", "33"], a: 1, ex: "Neck = 7." },
+      { q: "Ear ossicles count:", opts: ["1", "2", "3", "5"], a: 2, ex: "Malleus, incus, stapes." },
+      { q: "Number of pairs of ribs:", opts: ["10", "11", "12", "14"], a: 2, ex: "12 pairs." },
+      { q: "Knee joint type:", opts: ["Ball and socket", "Hinge", "Pivot", "Saddle"], a: 1, ex: "One direction motion." },
+      { q: "Shoulder joint type:", opts: ["Ball and socket", "Hinge", "Pivot", "Saddle"], a: 0, ex: "All directions." },
+      { q: "Osteoporosis affects:", opts: ["Muscles", "Bones (density)", "Joints", "Blood"], a: 1, ex: "Brittle bones." },
+      { q: "Rickets due to:", opts: ["Vit A deficiency", "Vit D deficiency", "Vit C deficiency", "Calcium excess"], a: 1, ex: "Vit D in children." },
+      { q: "Most bones formed of:", opts: ["Collagen + Ca phosphate", "Pure Ca", "Pure protein", "Cartilage"], a: 0, ex: "70% inorganic + 30% collagen." },
+      { q: "Cartilage example:", opts: ["Skull", "Femur", "Nose tip", "Tooth"], a: 2, ex: "Nose has cartilage." },
+      { q: "Sacrum is formed by:", opts: ["5 fused vertebrae", "12 ribs", "1 bone", "2 hip bones"], a: 0, ex: "Sacral fusion." },
+      { q: "Hardest substance in body:", opts: ["Femur", "Tooth enamel", "Stapes", "Skull"], a: 1, ex: "Enamel harder than bone." },
+      { q: "Skull bones count:", opts: ["20", "22", "28", "32"], a: 1, ex: "22." },
+      { q: "Arthritis is:", opts: ["Joint inflammation", "Bone cancer", "Skin disease", "Heart issue"], a: 0, ex: "Joint disorder." },
+      { q: "Gout caused by:", opts: ["Calcium deposit", "Uric acid in joints", "Cholesterol", "Iron"], a: 1, ex: "Uric acid crystals." },
+      { q: "Number of bones in newborn:", opts: ["206", "270-300", "100", "150"], a: 1, ex: "Many fuse over time." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 41. MUSCULAR SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-muscular"] = {
+    body: `
+      <h2>Muscular System</h2>
+      <p>The muscular system enables movement, posture, and function of organs. Body has ~640 skeletal muscles, plus smooth and cardiac muscles.</p>
+
+      <h3>1. Three Types of Muscles</h3>
+      <table>
+        <tr><th>Property</th><th>Skeletal</th><th>Smooth</th><th>Cardiac</th></tr>
+        <tr><td>Location</td><td>Attached to bones</td><td>Walls of organs</td><td>Heart only</td></tr>
+        <tr><td>Control</td><td>Voluntary</td><td>Involuntary</td><td>Involuntary</td></tr>
+        <tr><td>Appearance</td><td>Striated</td><td>Non-striated</td><td>Striated</td></tr>
+        <tr><td>Nucleus</td><td>Many per cell</td><td>One</td><td>One/two</td></tr>
+        <tr><td>Fatigue</td><td>Fatigues easily</td><td>Slower fatigue</td><td>Doesn't fatigue</td></tr>
+      </table>
+
+      <h3>2. Skeletal Muscles</h3>
+      <ul>
+        <li>Voluntary; under conscious control.</li>
+        <li>Attached to bones by tendons.</li>
+        <li>Work in pairs (antagonistic): one contracts, other relaxes.
+          <ul>
+            <li>Biceps + triceps (arm).</li>
+            <li>Quadriceps + hamstrings (thigh).</li>
+          </ul>
+        </li>
+        <li>Major muscles:
+          <ul>
+            <li>Biceps, triceps: arm.</li>
+            <li>Pectoralis: chest.</li>
+            <li>Quadriceps, hamstrings: thigh.</li>
+            <li>Gastrocnemius: calf.</li>
+            <li>Gluteus maximus: largest muscle (buttock).</li>
+            <li>Sartorius: longest muscle (thigh).</li>
+            <li>Masseter: strongest (jaw, biting).</li>
+            <li>Stapedius: smallest (ear).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>3. Smooth Muscles</h3>
+      <ul>
+        <li>Involuntary.</li>
+        <li>In walls of: stomach, intestines, blood vessels, uterus.</li>
+        <li>Slow, sustained contractions.</li>
+        <li>Peristalsis (movement of food in digestive tract).</li>
+      </ul>
+
+      <h3>4. Cardiac Muscle</h3>
+      <ul>
+        <li>Only in heart.</li>
+        <li>Striated like skeletal but involuntary.</li>
+        <li>Doesn't tire — contracts ~100,000 times per day.</li>
+        <li>Intercalated discs help cells contract together.</li>
+      </ul>
+
+      <h3>5. Muscle Contraction</h3>
+      <ul>
+        <li>Driven by ATP (energy).</li>
+        <li>Calcium ions trigger contraction.</li>
+        <li>Sliding filament theory: actin and myosin slide past each other.</li>
+        <li>Two main proteins: <b>actin</b> (thin) and <b>myosin</b> (thick).</li>
+      </ul>
+
+      <h3>6. Tendons vs Ligaments</h3>
+      <ul>
+        <li><b>Tendons</b>: connect muscle to bone (e.g., Achilles tendon).</li>
+        <li><b>Ligaments</b>: connect bone to bone (in joints).</li>
+      </ul>
+
+      <h3>7. Muscle Fatigue and Cramps</h3>
+      <ul>
+        <li>Fatigue: when ATP runs low, lactic acid builds up (anaerobic respiration).</li>
+        <li>Cramps: involuntary painful contractions.</li>
+        <li>Caused by: dehydration, low salts (Na/K/Ca), overexertion.</li>
+      </ul>
+
+      <h3>8. Common Muscle Disorders</h3>
+      <ul>
+        <li><b>Muscular Dystrophy</b>: genetic, progressive weakness.</li>
+        <li><b>Myasthenia Gravis</b>: autoimmune, fatigue.</li>
+        <li><b>Tetanus</b>: bacterial toxin (Clostridium), painful spasms.</li>
+        <li><b>Cramps</b>: dehydration/electrolyte imbalance.</li>
+        <li><b>Sprain</b>: ligament injury.</li>
+        <li><b>Strain</b>: muscle/tendon injury.</li>
+        <li><b>Atrophy</b>: muscle wasting from disuse.</li>
+        <li><b>Hypertrophy</b>: muscle growth from exercise.</li>
+      </ul>
+
+      <h3>9. Muscle Records</h3>
+      <ul>
+        <li>Largest: Gluteus maximus.</li>
+        <li>Longest: Sartorius.</li>
+        <li>Smallest: Stapedius.</li>
+        <li>Strongest (force): Masseter (jaw).</li>
+        <li>Hardest working: Heart (cardiac).</li>
+        <li>Fastest: Eye muscles.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Skeletal = voluntary; Smooth = involuntary; Cardiac = heart, involuntary.</li>
+        <li>Tendon = muscle-bone; Ligament = bone-bone.</li>
+        <li>Biceps + triceps work as antagonistic pair.</li>
+        <li>Cardiac muscle never tires.</li>
+        <li>Stapedius = smallest muscle (in ear).</li>
+        <li>Gluteus maximus = largest muscle.</li>
+        <li>Masseter = strongest muscle (jaw).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Number of skeletal muscles approx:", opts: ["100", "640", "1000", "2000"], a: 1, ex: "~640." },
+      { q: "Largest muscle:", opts: ["Biceps", "Gluteus maximus", "Quadriceps", "Heart"], a: 1, ex: "Buttock muscle." },
+      { q: "Longest muscle:", opts: ["Sartorius", "Femur", "Triceps", "Pectoralis"], a: 0, ex: "Thigh, crosses two joints." },
+      { q: "Smallest muscle:", opts: ["Biceps", "Stapedius", "Iris", "Tongue"], a: 1, ex: "In middle ear." },
+      { q: "Strongest muscle:", opts: ["Biceps", "Heart", "Masseter (jaw)", "Quadriceps"], a: 2, ex: "Bite force." },
+      { q: "Heart muscle is:", opts: ["Skeletal", "Smooth", "Cardiac (striated, involuntary)", "All"], a: 2, ex: "Unique type." },
+      { q: "Smooth muscles found in:", opts: ["Arms", "Stomach walls", "Bones", "Heart"], a: 1, ex: "Internal organs." },
+      { q: "Tendon connects:", opts: ["Bone to bone", "Muscle to bone", "Muscle to skin", "Nerve to muscle"], a: 1, ex: "Muscle to bone." },
+      { q: "Ligament connects:", opts: ["Bone to bone", "Muscle to bone", "Bone to skin", "Nerve to muscle"], a: 0, ex: "At joints." },
+      { q: "Voluntary muscle:", opts: ["Skeletal", "Smooth", "Cardiac", "Smooth + cardiac"], a: 0, ex: "Under conscious control." },
+      { q: "Antagonistic pair example:", opts: ["Biceps-triceps", "Liver-pancreas", "Heart-lung", "Brain-spine"], a: 0, ex: "Opposite movements." },
+      { q: "Cardiac muscle:", opts: ["Tires easily", "Never tires", "Cancer prone", "Voluntary"], a: 1, ex: "Continuous contraction." },
+      { q: "Muscle protein:", opts: ["Hemoglobin", "Actin and myosin", "Collagen", "Insulin"], a: 1, ex: "Filaments slide." },
+      { q: "Energy for muscle contraction:", opts: ["Glucose", "ATP", "DNA", "RNA"], a: 1, ex: "ATP from respiration." },
+      { q: "Ion for contraction:", opts: ["Na", "Ca²⁺", "K", "Fe"], a: 1, ex: "Calcium triggers." },
+      { q: "Muscle fatigue due to:", opts: ["Lactic acid buildup", "Excess oxygen", "Calcium", "Vitamin"], a: 0, ex: "Anaerobic respiration." },
+      { q: "Tetanus is:", opts: ["Heart disease", "Muscle disease from bacterial toxin", "Bone disease", "Skin"], a: 1, ex: "Clostridium tetani." },
+      { q: "Achilles tendon connects:", opts: ["Knee to leg", "Calf muscle to heel", "Hand to arm", "Spine to head"], a: 1, ex: "Heel cord." },
+      { q: "Sprain affects:", opts: ["Bone", "Muscle", "Ligament", "Skin"], a: 2, ex: "Ligament injury." },
+      { q: "Strain affects:", opts: ["Bone", "Muscle/tendon", "Joint", "Skin"], a: 1, ex: "Muscle injury." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 42. EXCRETORY SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-excretory"] = {
+    body: `
+      <h2>Excretory System</h2>
+      <p>Removes metabolic waste from the body (mainly urea, salts, water).</p>
+
+      <h3>1. Organs of Excretion</h3>
+      <ul>
+        <li><b>Kidneys</b>: main excretion organ.</li>
+        <li><b>Skin</b>: sweat (water, salts, urea).</li>
+        <li><b>Lungs</b>: CO₂ and water vapor.</li>
+        <li><b>Liver</b>: breaks down toxins, bilirubin to bile.</li>
+        <li><b>Large intestine</b>: undigested waste.</li>
+      </ul>
+
+      <h3>2. Kidneys</h3>
+      <ul>
+        <li>Two bean-shaped organs in lower back.</li>
+        <li>Each ~150 g, ~12 cm long.</li>
+        <li>Receive ~25% of cardiac output.</li>
+        <li>Filter ~180 L blood/day → ~1.5 L urine.</li>
+        <li>Functions:
+          <ul>
+            <li>Remove waste (urea, creatinine, uric acid).</li>
+            <li>Maintain water balance.</li>
+            <li>Maintain electrolyte (Na, K, Ca) balance.</li>
+            <li>Regulate BP (renin).</li>
+            <li>Acid-base balance.</li>
+            <li>Produce erythropoietin (stimulates RBC).</li>
+            <li>Activate vitamin D.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>3. Structure of Kidney</h3>
+      <ul>
+        <li>Cortex (outer), Medulla (inner), Pelvis (collecting area).</li>
+        <li>Functional unit: <b>Nephron</b>.</li>
+        <li>~1 million nephrons per kidney.</li>
+      </ul>
+
+      <h3>4. Nephron</h3>
+      <ul>
+        <li>Each nephron has:
+          <ul>
+            <li><b>Glomerulus</b>: ball of capillaries; filters blood.</li>
+            <li><b>Bowman's capsule</b>: receives filtrate.</li>
+            <li><b>PCT (Proximal Convoluted Tubule)</b>: reabsorbs glucose, salts, water.</li>
+            <li><b>Loop of Henle</b>: concentrates urine.</li>
+            <li><b>DCT (Distal Convoluted Tubule)</b>: further reabsorption.</li>
+            <li><b>Collecting duct</b>: takes urine to pelvis.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>5. Urine Formation (3 steps)</h3>
+      <ol>
+        <li><b>Glomerular Filtration</b>: small molecules pass into Bowman's capsule.</li>
+        <li><b>Tubular Reabsorption</b>: useful substances (glucose, salts, water) reabsorbed.</li>
+        <li><b>Tubular Secretion</b>: extra wastes added to filtrate.</li>
+      </ol>
+
+      <h3>6. Urinary Pathway</h3>
+      <p>Kidney → Ureter → Urinary Bladder → Urethra → outside.</p>
+      <ul>
+        <li>Ureters: tubes carrying urine to bladder.</li>
+        <li>Bladder: stores urine (~500 mL capacity).</li>
+        <li>Urethra: tube to outside (longer in males).</li>
+      </ul>
+
+      <h3>7. Composition of Urine</h3>
+      <ul>
+        <li>~95% water.</li>
+        <li>~2% urea.</li>
+        <li>Salts: NaCl, K, Ca, etc.</li>
+        <li>Creatinine, uric acid.</li>
+        <li>Yellow colour from urochrome.</li>
+        <li>pH: ~6 (slightly acidic).</li>
+      </ul>
+
+      <h3>8. Common Disorders</h3>
+      <ul>
+        <li><b>Kidney stones</b>: calcium oxalate or uric acid deposits.</li>
+        <li><b>UTI (Urinary Tract Infection)</b>: bacterial.</li>
+        <li><b>Cystitis</b>: bladder inflammation.</li>
+        <li><b>Nephritis</b>: kidney inflammation.</li>
+        <li><b>Kidney failure</b>: requires dialysis or transplant.</li>
+        <li><b>Diabetes insipidus</b>: ADH deficiency, excess urine.</li>
+        <li><b>Diabetes mellitus</b>: sugar in urine.</li>
+        <li><b>Hematuria</b>: blood in urine.</li>
+        <li><b>Albuminuria</b>: protein in urine.</li>
+      </ul>
+
+      <h3>9. Dialysis</h3>
+      <ul>
+        <li>Artificial filtration when kidneys fail.</li>
+        <li>Hemodialysis: machine filters blood.</li>
+        <li>Peritoneal dialysis: uses abdominal lining.</li>
+      </ul>
+
+      <h3>10. Kidney Transplant</h3>
+      <ul>
+        <li>Replacement of failing kidney.</li>
+        <li>From living or deceased donor.</li>
+        <li>Matched for blood and tissue type.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Kidney's functional unit: Nephron.</li>
+        <li>Glomerulus filters; tubules reabsorb.</li>
+        <li>Adult urine output: ~1.5 L/day.</li>
+        <li>Kidneys filter ~180 L blood/day.</li>
+        <li>Pathway: Kidney → Ureter → Bladder → Urethra.</li>
+        <li>Dialysis replaces kidney function.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Main excretory organ:", opts: ["Liver", "Kidney", "Skin", "Lung"], a: 1, ex: "Kidneys." },
+      { q: "Functional unit of kidney:", opts: ["Neuron", "Nephron", "Alveolus", "Villi"], a: 1, ex: "Nephron." },
+      { q: "Nephrons per kidney:", opts: ["1000", "100,000", "~1 million", "10 million"], a: 2, ex: "~1 million." },
+      { q: "Filters blood in kidney:", opts: ["Glomerulus", "Loop of Henle", "Ureter", "Bladder"], a: 0, ex: "Ball of capillaries." },
+      { q: "Urine pathway:", opts: ["Kidney→Bladder→Ureter→Urethra", "Kidney→Ureter→Bladder→Urethra", "Bladder→Kidney→Ureter", "Random"], a: 1, ex: "Standard order." },
+      { q: "Urine composition mainly:", opts: ["Water + urea", "Glucose", "Protein", "Salt only"], a: 0, ex: "~95% water." },
+      { q: "Urine yellow due to:", opts: ["Salt", "Urochrome", "Sugar", "Iron"], a: 1, ex: "Pigment urochrome." },
+      { q: "Daily urine output approx:", opts: ["100 mL", "500 mL", "1.5 L", "5 L"], a: 2, ex: "~1.5 L/day." },
+      { q: "Blood filtered per day:", opts: ["1 L", "10 L", "100 L", "180 L"], a: 3, ex: "~180 L." },
+      { q: "Kidney stones often made of:", opts: ["Iron", "Calcium oxalate", "Sugar", "Protein"], a: 1, ex: "Most common stone." },
+      { q: "Dialysis is needed when:", opts: ["Heart fails", "Kidneys fail", "Lung fails", "Liver fails"], a: 1, ex: "Renal replacement." },
+      { q: "Sweat contains:", opts: ["Only water", "Water + salts + urea", "Sugar", "Hormones"], a: 1, ex: "Skin excretion." },
+      { q: "Diabetes mellitus shows in urine as:", opts: ["Blood", "Glucose", "Protein", "Acid"], a: 1, ex: "Sugar in urine." },
+      { q: "Albuminuria means:", opts: ["Blood in urine", "Protein in urine", "Glucose in urine", "Pus"], a: 1, ex: "Kidney damage." },
+      { q: "Erythropoietin from kidney:", opts: ["Helps digest", "Stimulates RBC production", "Lowers BP", "No effect"], a: 1, ex: "Bone marrow stimulation." },
+      { q: "Bowman's capsule:", opts: ["Filter", "Receives filtrate", "Carries urine", "Stores urine"], a: 1, ex: "Around glomerulus." },
+      { q: "Hemodialysis filters:", opts: ["Blood", "Air", "Bile", "Urine"], a: 0, ex: "Blood filtration." },
+      { q: "Vitamin activated by kidney:", opts: ["A", "B", "C", "D"], a: 3, ex: "Vit D activation." },
+      { q: "Wastes excreted by lungs:", opts: ["Urea", "CO₂ + water", "Salts", "Protein"], a: 1, ex: "Gaseous waste." },
+      { q: "UTI is:", opts: ["Heart disease", "Urinary tract infection", "Lung infection", "Bone disease"], a: 1, ex: "Bacterial usually." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 43. REPRODUCTIVE SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-reproductive"] = {
+    body: `
+      <h2>Reproductive System</h2>
+
+      <h3>1. Male Reproductive System</h3>
+      <ul>
+        <li><b>Testes</b>: produce sperm and testosterone. Located in scrotum (outside body for cooler temperature).</li>
+        <li><b>Epididymis</b>: storage and maturation of sperm.</li>
+        <li><b>Vas deferens</b>: tube carrying sperm.</li>
+        <li><b>Seminal vesicles + Prostate gland + Cowper's gland</b>: produce seminal fluid.</li>
+        <li><b>Penis</b>: delivers sperm.</li>
+        <li><b>Urethra</b>: passes both urine and semen.</li>
+      </ul>
+
+      <h3>2. Female Reproductive System</h3>
+      <ul>
+        <li><b>Ovaries</b>: produce eggs (ova) and hormones (estrogen, progesterone). Born with ~400,000 eggs.</li>
+        <li><b>Fallopian tubes (Oviducts)</b>: carry egg to uterus; fertilization usually happens here.</li>
+        <li><b>Uterus (Womb)</b>: where embryo develops.</li>
+        <li><b>Cervix</b>: lower part of uterus.</li>
+        <li><b>Vagina</b>: birth canal.</li>
+      </ul>
+
+      <h3>3. Gametes</h3>
+      <ul>
+        <li><b>Sperm</b>: male gamete; very small, motile (tail). Smallest cell in body.</li>
+        <li><b>Ovum (Egg)</b>: female gamete; largest human cell.</li>
+        <li>Sperm and egg each have 23 chromosomes (haploid).</li>
+        <li>Fertilized egg (zygote) has 46 chromosomes.</li>
+      </ul>
+
+      <h3>4. Menstrual Cycle (~28 days)</h3>
+      <ul>
+        <li>Day 1-5: Menstruation (period).</li>
+        <li>Day 6-14: Follicular phase (egg maturing).</li>
+        <li>Day 14: <b>Ovulation</b> (egg released).</li>
+        <li>Day 15-28: Luteal phase (uterus prepared for pregnancy).</li>
+        <li>If no fertilization → next menstruation.</li>
+        <li>Hormones: FSH, LH, estrogen, progesterone.</li>
+        <li>Menarche: first period (~10-15 years).</li>
+        <li>Menopause: end of periods (~45-55 years).</li>
+      </ul>
+
+      <h3>5. Fertilization & Pregnancy</h3>
+      <ul>
+        <li>Fertilization in fallopian tube → zygote.</li>
+        <li>Zygote → embryo → fetus (after 8 weeks).</li>
+        <li>Implantation in uterine wall ~6-7 days after fertilization.</li>
+        <li>Placenta: organ that supplies oxygen, nutrients to fetus and removes waste. Also makes hormones.</li>
+        <li>Umbilical cord: connects fetus to placenta.</li>
+        <li>Gestation: ~9 months (~40 weeks).</li>
+        <li>Three trimesters of 3 months each.</li>
+      </ul>
+
+      <h3>6. Sex Determination</h3>
+      <ul>
+        <li>Female: XX chromosomes.</li>
+        <li>Male: XY chromosomes.</li>
+        <li>Father determines sex (X from egg, X or Y from sperm).</li>
+        <li>50/50 chance.</li>
+      </ul>
+
+      <h3>7. Twins</h3>
+      <ul>
+        <li><b>Identical (Monozygotic)</b>: one egg, one sperm, splits. Same DNA, same sex.</li>
+        <li><b>Fraternal (Dizygotic)</b>: two eggs, two sperm. Different DNA, can be different sex.</li>
+      </ul>
+
+      <h3>8. Contraception (Birth Control)</h3>
+      <ul>
+        <li>Barrier: condom, diaphragm.</li>
+        <li>Hormonal: pills, injections.</li>
+        <li>IUD: intrauterine device (Cu-T).</li>
+        <li>Sterilization: tubectomy (female), vasectomy (male).</li>
+        <li>Emergency: morning-after pill.</li>
+      </ul>
+
+      <h3>9. Sexually Transmitted Diseases (STDs)</h3>
+      <ul>
+        <li>HIV/AIDS (viral).</li>
+        <li>Syphilis (bacterial).</li>
+        <li>Gonorrhea (bacterial).</li>
+        <li>Chlamydia.</li>
+        <li>Herpes.</li>
+        <li>HPV (cervical cancer, vaccine available).</li>
+        <li>Hepatitis B.</li>
+      </ul>
+
+      <h3>10. IVF (In Vitro Fertilization)</h3>
+      <ul>
+        <li>"Test-tube baby".</li>
+        <li>Egg + sperm combined outside body, then implanted.</li>
+        <li>First test-tube baby: Louise Brown, 1978 (UK).</li>
+        <li>First Indian test-tube baby: 1986.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Female: XX; Male: XY.</li>
+        <li>Father determines sex.</li>
+        <li>Fertilization in fallopian tube.</li>
+        <li>Gestation: ~9 months.</li>
+        <li>Placenta supplies fetus.</li>
+        <li>Menarche = first period; Menopause = last.</li>
+        <li>Largest cell: ovum; Smallest cell: sperm.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Male gonads:", opts: ["Ovaries", "Testes", "Uterus", "Prostate"], a: 1, ex: "Testes." },
+      { q: "Female gonads:", opts: ["Testes", "Ovaries", "Uterus", "Vagina"], a: 1, ex: "Ovaries." },
+      { q: "Hormone from testes:", opts: ["Estrogen", "Testosterone", "Progesterone", "FSH"], a: 1, ex: "Testosterone." },
+      { q: "Hormone from ovaries:", opts: ["Insulin", "Testosterone", "Estrogen + Progesterone", "Adrenaline"], a: 2, ex: "Female hormones." },
+      { q: "Fertilization occurs in:", opts: ["Uterus", "Fallopian tube", "Vagina", "Ovary"], a: 1, ex: "Fallopian tube." },
+      { q: "Female chromosomes:", opts: ["XY", "XX", "YY", "XO"], a: 1, ex: "XX." },
+      { q: "Male chromosomes:", opts: ["XX", "XY", "YY", "XO"], a: 1, ex: "XY." },
+      { q: "Sex of baby determined by:", opts: ["Mother", "Father (sperm)", "Random", "Both"], a: 1, ex: "Father's X or Y sperm." },
+      { q: "Gestation period in humans:", opts: ["6 months", "9 months", "12 months", "3 months"], a: 1, ex: "~9 months." },
+      { q: "First test-tube baby (1978):", opts: ["Louise Brown", "Mary Brown", "Jane Wood", "Sue Black"], a: 0, ex: "UK." },
+      { q: "Identical twins arise from:", opts: ["2 eggs", "1 egg that splits", "Different parents", "Random"], a: 1, ex: "Monozygotic." },
+      { q: "Menopause means:", opts: ["First period", "End of menstruation", "Pregnancy", "Ovulation"], a: 1, ex: "Around 45-55 years." },
+      { q: "Placenta function:", opts: ["Filters air", "Nourishes fetus", "Makes bones", "Stores urine"], a: 1, ex: "Fetal life support." },
+      { q: "Largest human cell:", opts: ["Sperm", "RBC", "Ovum (egg)", "Neuron"], a: 2, ex: "Ovum." },
+      { q: "Smallest human cell:", opts: ["RBC", "Sperm", "Neuron", "Skin"], a: 1, ex: "Sperm." },
+      { q: "Number of chromosomes in sperm/egg:", opts: ["23", "46", "92", "44"], a: 0, ex: "Haploid (n=23)." },
+      { q: "HIV causes:", opts: ["Diabetes", "AIDS", "Cancer", "TB"], a: 1, ex: "Acquired immunodeficiency." },
+      { q: "Cu-T is:", opts: ["Cup", "Contraceptive IUD", "Vaccine", "Drug"], a: 1, ex: "Copper-T device." },
+      { q: "First Indian test-tube baby:", opts: ["1978", "1986", "2000", "1990"], a: 1, ex: "1986." },
+      { q: "Ovulation typically on day:", opts: ["1", "7", "14", "28"], a: 2, ex: "Mid-cycle." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 44. HUMAN SENSE ORGANS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-sense"] = {
+    body: `
+      <h2>Human Sense Organs</h2>
+      <p>Five sense organs: eyes (sight), ears (hearing + balance), nose (smell), tongue (taste), skin (touch).</p>
+
+      <h3>1. EYE (Vision)</h3>
+
+      <h4>Parts of the Eye</h4>
+      <ul>
+        <li><b>Cornea</b>: transparent front layer; bends light.</li>
+        <li><b>Iris</b>: coloured part; controls light entry.</li>
+        <li><b>Pupil</b>: hole in iris; size controlled by iris.</li>
+        <li><b>Lens</b>: focuses light on retina (convex, biconvex).</li>
+        <li><b>Retina</b>: light-sensitive layer at back.</li>
+        <li><b>Rod cells</b>: dim light, no colour.</li>
+        <li><b>Cone cells</b>: bright light, colour (3 types — RGB).</li>
+        <li><b>Optic nerve</b>: carries signal to brain.</li>
+        <li><b>Blind spot</b>: where optic nerve exits, no receptors.</li>
+        <li><b>Yellow spot (Fovea/Macula)</b>: sharpest vision.</li>
+        <li><b>Aqueous humor</b>: liquid in front part.</li>
+        <li><b>Vitreous humor</b>: gel in back part.</li>
+      </ul>
+
+      <h4>Defects of Vision</h4>
+      <ul>
+        <li><b>Myopia (Short-sight)</b>: can't see far. Eyeball too long. Correction: concave lens.</li>
+        <li><b>Hypermetropia (Long-sight)</b>: can't see near. Eyeball too short. Correction: convex lens.</li>
+        <li><b>Astigmatism</b>: irregular cornea. Correction: cylindrical lens.</li>
+        <li><b>Presbyopia</b>: age-related; lens loses elasticity. Bifocal lens.</li>
+        <li><b>Cataract</b>: lens becomes cloudy. Surgery.</li>
+        <li><b>Colour blindness</b>: genetic, mostly males; red-green confused.</li>
+      </ul>
+
+      <h3>2. EAR (Hearing & Balance)</h3>
+
+      <h4>Three Parts</h4>
+      <ul>
+        <li><b>Outer ear</b>: pinna, ear canal, eardrum (tympanic membrane).</li>
+        <li><b>Middle ear</b>: 3 ossicles — malleus, incus, stapes; Eustachian tube to throat.</li>
+        <li><b>Inner ear</b>: cochlea (hearing), semicircular canals (balance), vestibule.</li>
+      </ul>
+
+      <h4>Hearing Process</h4>
+      <ol>
+        <li>Sound waves enter ear canal.</li>
+        <li>Vibrate eardrum.</li>
+        <li>Vibration passed through ossicles.</li>
+        <li>Stapes pushes oval window.</li>
+        <li>Vibration in cochlear fluid moves hair cells.</li>
+        <li>Hair cells generate nerve signals → brain.</li>
+      </ol>
+
+      <h4>Balance</h4>
+      <p>Semicircular canals filled with fluid; sense head movement.</p>
+
+      <h3>3. NOSE (Smell)</h3>
+      <ul>
+        <li>Olfactory receptors at top of nasal cavity.</li>
+        <li>~400 types of receptors; can distinguish ~10,000 smells.</li>
+        <li>Smell is closely linked to memory and emotion.</li>
+        <li>Anosmia: loss of smell.</li>
+      </ul>
+
+      <h3>4. TONGUE (Taste)</h3>
+      <ul>
+        <li>~10,000 taste buds.</li>
+        <li>Taste buds regenerate every 10-14 days.</li>
+        <li>Five basic tastes:
+          <ul>
+            <li>Sweet (tip).</li>
+            <li>Sour (sides).</li>
+            <li>Salty (sides).</li>
+            <li>Bitter (back).</li>
+            <li>Umami (savory) — discovered 1908.</li>
+          </ul>
+        </li>
+        <li>(Older "tongue map" largely debunked; tastes detected throughout.)</li>
+      </ul>
+
+      <h3>5. SKIN (Touch)</h3>
+      <ul>
+        <li>Largest organ.</li>
+        <li>Receptors detect:
+          <ul>
+            <li>Touch (pressure).</li>
+            <li>Temperature (hot, cold).</li>
+            <li>Pain.</li>
+            <li>Vibration.</li>
+          </ul>
+        </li>
+        <li>Layers:
+          <ul>
+            <li><b>Epidermis</b>: outer layer.</li>
+            <li><b>Dermis</b>: middle; nerves, hair, glands.</li>
+            <li><b>Hypodermis</b>: fat, insulation.</li>
+          </ul>
+        </li>
+        <li>Melanin: pigment, protects from UV.</li>
+        <li>Vitamin D made in skin via sunlight.</li>
+      </ul>
+
+      <h3>6. Sense Organ Disorders</h3>
+      <ul>
+        <li>Glaucoma: high eye pressure.</li>
+        <li>Conjunctivitis (pink eye).</li>
+        <li>Hearing loss: noise damage, age.</li>
+        <li>Vertigo: balance problem.</li>
+        <li>Tinnitus: ringing in ears.</li>
+        <li>Color blindness: genetic.</li>
+        <li>Anosmia: loss of smell (also COVID-19 sign).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Retina has rods (dim, no colour) and cones (bright, colour).</li>
+        <li>Three cone types: RGB.</li>
+        <li>Stapes: smallest bone (in ear).</li>
+        <li>Cochlea: hearing organ.</li>
+        <li>Semicircular canals: balance.</li>
+        <li>Five tastes: sweet, sour, salty, bitter, umami.</li>
+        <li>Skin makes vitamin D from sunlight.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Light-sensitive layer of eye:", opts: ["Cornea", "Iris", "Retina", "Lens"], a: 2, ex: "Retina." },
+      { q: "Colour vision cells:", opts: ["Rods", "Cones", "Both", "Neither"], a: 1, ex: "Cones." },
+      { q: "Dim light vision cells:", opts: ["Rods", "Cones", "Iris", "Optic nerve"], a: 0, ex: "Rods." },
+      { q: "Myopia corrected by:", opts: ["Concave lens", "Convex lens", "Cylindrical", "Plane"], a: 0, ex: "Diverging lens." },
+      { q: "Hypermetropia corrected by:", opts: ["Concave", "Convex", "Cylindrical", "None"], a: 1, ex: "Converging lens." },
+      { q: "Astigmatism corrected by:", opts: ["Cylindrical lens", "Convex", "Concave", "None"], a: 0, ex: "Irregular cornea correction." },
+      { q: "Hearing organ in inner ear:", opts: ["Eardrum", "Cochlea", "Stapes", "Pinna"], a: 1, ex: "Cochlea." },
+      { q: "Smallest bone:", opts: ["Stapes (ear)", "Hand bone", "Coccyx", "Patella"], a: 0, ex: "Stapes." },
+      { q: "Balance organ:", opts: ["Cochlea", "Semicircular canals", "Cornea", "Tongue"], a: 1, ex: "Inner ear." },
+      { q: "Taste of tip of tongue:", opts: ["Bitter", "Sweet", "Sour", "Salty"], a: 1, ex: "Sweet (traditional map)." },
+      { q: "Basic tastes count:", opts: ["3", "4", "5", "6"], a: 2, ex: "5 (with umami)." },
+      { q: "Skin pigment:", opts: ["Carotene", "Melanin", "Hemoglobin", "Iron"], a: 1, ex: "Melanin." },
+      { q: "Vitamin made in skin:", opts: ["A", "B", "C", "D"], a: 3, ex: "Vit D from sunlight." },
+      { q: "Iris controls:", opts: ["Light entry (pupil size)", "Focus", "Image", "Colour"], a: 0, ex: "Adjusts pupil." },
+      { q: "Largest organ:", opts: ["Liver", "Skin", "Lung", "Heart"], a: 1, ex: "Skin." },
+      { q: "Color blindness mostly affects:", opts: ["Females", "Males", "Both equally", "Neither"], a: 1, ex: "X-linked recessive." },
+      { q: "Cataract is clouding of:", opts: ["Cornea", "Lens", "Retina", "Iris"], a: 1, ex: "Lens." },
+      { q: "Glaucoma is:", opts: ["High eye pressure", "Low pressure", "Color blind", "Lens clouding"], a: 0, ex: "Damages optic nerve." },
+      { q: "Eustachian tube connects:", opts: ["Ear to nose/throat", "Eye to brain", "Heart to ear", "Stomach to ear"], a: 0, ex: "Equalizes pressure." },
+      { q: "Anosmia means loss of:", opts: ["Sight", "Smell", "Taste", "Hearing"], a: 1, ex: "Smell loss." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 45. HEALTH & DISEASES (incl. vitamins, nutrition)
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-health"] = {
+    body: `
+      <h2>Health & Diseases</h2>
+
+      <h3>1. Vitamins</h3>
+      <table>
+        <tr><th>Vitamin</th><th>Chemical Name</th><th>Source</th><th>Deficiency Disease</th></tr>
+        <tr><td>A</td><td>Retinol</td><td>Carrot, papaya, milk, fish liver oil</td><td>Night blindness, xerophthalmia</td></tr>
+        <tr><td>B1</td><td>Thiamine</td><td>Whole grains, pulses</td><td>Beri-beri</td></tr>
+        <tr><td>B2</td><td>Riboflavin</td><td>Milk, eggs, leafy greens</td><td>Cheilosis, ariboflavinosis</td></tr>
+        <tr><td>B3</td><td>Niacin</td><td>Meat, fish, peanuts</td><td>Pellagra (3 D's: dementia, diarrhea, dermatitis)</td></tr>
+        <tr><td>B5</td><td>Pantothenic acid</td><td>Many foods</td><td>Rare</td></tr>
+        <tr><td>B6</td><td>Pyridoxine</td><td>Meat, fish, banana</td><td>Anaemia, neuropathy</td></tr>
+        <tr><td>B7</td><td>Biotin</td><td>Egg yolk, liver</td><td>Hair loss, dermatitis</td></tr>
+        <tr><td>B9</td><td>Folic acid</td><td>Leafy greens, beans</td><td>Megaloblastic anaemia, neural tube defects</td></tr>
+        <tr><td>B12</td><td>Cyanocobalamin</td><td>Meat, fish, eggs, dairy</td><td>Pernicious anaemia</td></tr>
+        <tr><td>C</td><td>Ascorbic acid</td><td>Citrus fruits, amla, guava, tomato</td><td>Scurvy</td></tr>
+        <tr><td>D</td><td>Calciferol</td><td>Sunlight, fish, eggs, dairy</td><td>Rickets (children), Osteomalacia (adults)</td></tr>
+        <tr><td>E</td><td>Tocopherol</td><td>Nuts, seeds, vegetable oils</td><td>Rare (anaemia)</td></tr>
+        <tr><td>K</td><td>Phylloquinone</td><td>Leafy greens</td><td>Excessive bleeding (clotting problem)</td></tr>
+      </table>
+      <p>Fat-soluble: A, D, E, K. Water-soluble: B and C.</p>
+
+      <h3>2. Major Communicable Diseases</h3>
+
+      <h4>(a) Viral</h4>
+      <table>
+        <tr><th>Disease</th><th>Virus</th><th>Transmission</th></tr>
+        <tr><td>Common cold</td><td>Rhinovirus</td><td>Airborne</td></tr>
+        <tr><td>Influenza (flu)</td><td>Influenza</td><td>Airborne</td></tr>
+        <tr><td>COVID-19</td><td>SARS-CoV-2</td><td>Airborne</td></tr>
+        <tr><td>Measles</td><td>Morbillivirus</td><td>Airborne</td></tr>
+        <tr><td>Mumps</td><td>Mumps virus</td><td>Airborne</td></tr>
+        <tr><td>Chickenpox / Smallpox (eradicated)</td><td>Varicella / Variola</td><td>Airborne</td></tr>
+        <tr><td>Polio</td><td>Poliovirus</td><td>Water/food</td></tr>
+        <tr><td>Hepatitis A, B, C</td><td>HAV, HBV, HCV</td><td>Water/blood/sex</td></tr>
+        <tr><td>HIV/AIDS</td><td>HIV</td><td>Blood/sex</td></tr>
+        <tr><td>Rabies</td><td>Rabies virus</td><td>Animal bite</td></tr>
+        <tr><td>Dengue, Chikungunya</td><td>Flaviviruses</td><td>Mosquito (Aedes)</td></tr>
+        <tr><td>Ebola</td><td>Ebola virus</td><td>Bodily fluids</td></tr>
+        <tr><td>Zika</td><td>Zika virus</td><td>Mosquito</td></tr>
+      </table>
+
+      <h4>(b) Bacterial</h4>
+      <table>
+        <tr><th>Disease</th><th>Bacterium</th></tr>
+        <tr><td>Tuberculosis (TB)</td><td>Mycobacterium tuberculosis</td></tr>
+        <tr><td>Cholera</td><td>Vibrio cholerae</td></tr>
+        <tr><td>Typhoid</td><td>Salmonella typhi</td></tr>
+        <tr><td>Diphtheria</td><td>C. diphtheriae</td></tr>
+        <tr><td>Tetanus</td><td>Clostridium tetani</td></tr>
+        <tr><td>Pneumonia</td><td>Streptococcus pneumoniae</td></tr>
+        <tr><td>Plague</td><td>Yersinia pestis</td></tr>
+        <tr><td>Leprosy</td><td>Mycobacterium leprae</td></tr>
+        <tr><td>Syphilis</td><td>Treponema pallidum</td></tr>
+        <tr><td>Whooping cough</td><td>Bordetella pertussis</td></tr>
+      </table>
+
+      <h4>(c) Protozoan</h4>
+      <table>
+        <tr><th>Disease</th><th>Cause</th></tr>
+        <tr><td>Malaria</td><td>Plasmodium (Female Anopheles mosquito)</td></tr>
+        <tr><td>Amoebiasis</td><td>Entamoeba histolytica</td></tr>
+        <tr><td>Kala-azar</td><td>Leishmania (sandfly)</td></tr>
+        <tr><td>Sleeping sickness</td><td>Trypanosoma (Tsetse fly)</td></tr>
+      </table>
+
+      <h4>(d) Fungal</h4>
+      <ul>
+        <li>Ringworm.</li>
+        <li>Athlete's foot.</li>
+        <li>Candidiasis.</li>
+      </ul>
+
+      <h3>3. Non-Communicable Diseases (Lifestyle)</h3>
+      <ul>
+        <li>Diabetes mellitus, hypertension.</li>
+        <li>Heart disease, stroke.</li>
+        <li>Cancer.</li>
+        <li>Obesity.</li>
+        <li>Asthma, COPD.</li>
+        <li>Mental illness (depression, anxiety).</li>
+      </ul>
+
+      <h3>4. Vaccines (Examples)</h3>
+      <ul>
+        <li>BCG: TB.</li>
+        <li>DPT: diphtheria, pertussis, tetanus.</li>
+        <li>OPV/IPV: polio.</li>
+        <li>MMR: measles, mumps, rubella.</li>
+        <li>Hepatitis B.</li>
+        <li>HPV.</li>
+        <li>COVID-19 vaccines: Covishield, Covaxin, etc.</li>
+        <li>Smallpox eradicated by vaccination (1980).</li>
+      </ul>
+
+      <h3>5. National Health Programmes (India)</h3>
+      <ul>
+        <li>Pulse Polio.</li>
+        <li>National TB Elimination Programme.</li>
+        <li>National AIDS Control Programme.</li>
+        <li>Universal Immunization Programme.</li>
+        <li>Ayushman Bharat.</li>
+        <li>Mission Indradhanush (immunization).</li>
+      </ul>
+
+      <h3>6. Important Vectors</h3>
+      <ul>
+        <li>Female Anopheles mosquito: Malaria.</li>
+        <li>Aedes aegypti mosquito: Dengue, Chikungunya, Zika, Yellow fever.</li>
+        <li>Culex mosquito: Filaria, Japanese encephalitis.</li>
+        <li>Housefly: typhoid, cholera, diarrhea.</li>
+        <li>Sandfly: Kala-azar.</li>
+        <li>Tsetse fly: African sleeping sickness.</li>
+        <li>Rat flea: plague.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Vit A: night blindness; Vit C: scurvy; Vit D: rickets; Vit K: clotting.</li>
+        <li>Fat-soluble vitamins: ADEK.</li>
+        <li>Female Anopheles → malaria; Aedes → dengue.</li>
+        <li>BCG vaccine for TB.</li>
+        <li>Smallpox: eradicated (1980).</li>
+        <li>Polio India-free since 2014.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Vitamin C deficiency:", opts: ["Beri-beri", "Scurvy", "Rickets", "Pellagra"], a: 1, ex: "Scurvy." },
+      { q: "Vitamin D deficiency in children:", opts: ["Scurvy", "Rickets", "Beri-beri", "Goitre"], a: 1, ex: "Rickets." },
+      { q: "Night blindness due to lack of:", opts: ["A", "B", "C", "D"], a: 0, ex: "Vit A." },
+      { q: "Beri-beri due to deficiency of:", opts: ["B1", "B2", "C", "D"], a: 0, ex: "Thiamine." },
+      { q: "Pellagra due to:", opts: ["B1", "B3 (niacin)", "B12", "C"], a: 1, ex: "3D's: dementia, diarrhea, dermatitis." },
+      { q: "Fat-soluble vitamins:", opts: ["A,D,E,K", "B,C", "All B", "B and C"], a: 0, ex: "ADEK." },
+      { q: "Female Anopheles mosquito spreads:", opts: ["Dengue", "Malaria", "Plague", "TB"], a: 1, ex: "Plasmodium parasite." },
+      { q: "Dengue is spread by:", opts: ["Anopheles", "Aedes aegypti", "Culex", "Sandfly"], a: 1, ex: "Aedes." },
+      { q: "TB caused by:", opts: ["Virus", "Mycobacterium tuberculosis", "Fungus", "Protozoa"], a: 1, ex: "Bacterium." },
+      { q: "AIDS caused by:", opts: ["HIV", "HBV", "HCV", "HPV"], a: 0, ex: "Human Immunodeficiency Virus." },
+      { q: "Malaria caused by:", opts: ["Bacterium", "Virus", "Plasmodium (protozoan)", "Fungus"], a: 2, ex: "Protozoan parasite." },
+      { q: "Cholera caused by:", opts: ["Virus", "V. cholerae bacterium", "Fungus", "Protozoa"], a: 1, ex: "Vibrio cholerae." },
+      { q: "Smallpox is:", opts: ["Current threat", "Eradicated (1980)", "Common", "New"], a: 1, ex: "Eradicated by vaccination." },
+      { q: "BCG vaccine for:", opts: ["Polio", "TB", "Tetanus", "Hepatitis"], a: 1, ex: "Tuberculosis." },
+      { q: "Rabies caused by bite of:", opts: ["Snake", "Dog (or animal)", "Mosquito", "Bee"], a: 1, ex: "Mostly dog bite." },
+      { q: "Kala-azar transmitted by:", opts: ["Mosquito", "Sandfly", "Housefly", "Tick"], a: 1, ex: "Sandfly + Leishmania." },
+      { q: "Plague spread by:", opts: ["Rat flea", "Mosquito", "Air", "Fish"], a: 0, ex: "Yersinia pestis via rat fleas." },
+      { q: "Goitre due to lack of:", opts: ["Iron", "Iodine", "Calcium", "Vit C"], a: 1, ex: "Iodine deficiency." },
+      { q: "Anaemia due to deficiency of:", opts: ["Iron", "Iodine", "Calcium", "Vit C"], a: 0, ex: "Iron." },
+      { q: "Polio is caused by:", opts: ["Bacterium", "Virus", "Fungus", "Protozoa"], a: 1, ex: "Poliovirus." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 46. GENETICS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-genetics"] = {
+    body: `
+      <h2>Genetics</h2>
+      <p>The study of heredity — how traits are passed from parent to offspring.</p>
+
+      <h3>1. Father of Genetics: Gregor Mendel (1866)</h3>
+      <p>Austrian monk who experimented on pea plants. His <b>Three Laws</b>:</p>
+      <ul>
+        <li><b>Law of Dominance</b>: in heterozygous, dominant trait shows.</li>
+        <li><b>Law of Segregation</b>: alleles separate during gamete formation.</li>
+        <li><b>Law of Independent Assortment</b>: traits inherited independently.</li>
+      </ul>
+
+      <h3>2. Key Terms</h3>
+      <ul>
+        <li><b>Gene</b>: unit of heredity; segment of DNA.</li>
+        <li><b>Allele</b>: alternative form of gene (e.g., for eye color: brown allele, blue allele).</li>
+        <li><b>Genotype</b>: genetic makeup (BB, Bb, bb).</li>
+        <li><b>Phenotype</b>: physical expression (brown eyes).</li>
+        <li><b>Dominant</b>: shows in heterozygote (B).</li>
+        <li><b>Recessive</b>: shown only when homozygous (bb).</li>
+        <li><b>Homozygous</b>: same alleles (BB or bb).</li>
+        <li><b>Heterozygous</b>: different alleles (Bb).</li>
+      </ul>
+
+      <h3>3. DNA Structure</h3>
+      <ul>
+        <li>Discovered by Watson and Crick (1953).</li>
+        <li>Double helix.</li>
+        <li>Bases: A (Adenine), T (Thymine), G (Guanine), C (Cytosine).</li>
+        <li>A pairs with T (2 H-bonds); G pairs with C (3 H-bonds).</li>
+        <li>Sugar-phosphate backbone.</li>
+        <li>Antiparallel strands.</li>
+      </ul>
+
+      <h3>4. RNA vs DNA</h3>
+      <table>
+        <tr><th>Feature</th><th>DNA</th><th>RNA</th></tr>
+        <tr><td>Sugar</td><td>Deoxyribose</td><td>Ribose</td></tr>
+        <tr><td>Strands</td><td>Double</td><td>Single</td></tr>
+        <tr><td>Bases</td><td>A,T,G,C</td><td>A,U,G,C (U instead of T)</td></tr>
+        <tr><td>Location</td><td>Nucleus</td><td>Throughout cell</td></tr>
+        <tr><td>Function</td><td>Genetic storage</td><td>Protein synthesis</td></tr>
+      </table>
+      <p>RNA types: mRNA (messenger), tRNA (transfer), rRNA (ribosomal).</p>
+
+      <h3>5. Central Dogma</h3>
+      <p>DNA → RNA → Protein (via transcription and translation).</p>
+      <ul>
+        <li>Transcription: DNA → mRNA (in nucleus).</li>
+        <li>Translation: mRNA → protein (at ribosomes).</li>
+      </ul>
+
+      <h3>6. Human Chromosomes</h3>
+      <ul>
+        <li>46 total (23 pairs).</li>
+        <li>22 pairs autosomes + 1 pair sex chromosomes.</li>
+        <li>Female: XX; Male: XY.</li>
+        <li>Egg contains X; sperm contains X or Y.</li>
+        <li>Father determines sex.</li>
+      </ul>
+
+      <h3>7. Sex-Linked Inheritance</h3>
+      <ul>
+        <li>X-linked recessive: mostly affects males.</li>
+        <li>Examples: hemophilia, color blindness, Duchenne muscular dystrophy.</li>
+      </ul>
+
+      <h3>8. Genetic Disorders</h3>
+      <ul>
+        <li><b>Down syndrome</b>: extra chromosome 21 (trisomy 21).</li>
+        <li><b>Turner syndrome</b>: only X (female XO), short stature.</li>
+        <li><b>Klinefelter syndrome</b>: XXY (male, infertile).</li>
+        <li><b>Sickle cell anaemia</b>: mutation in Hb gene.</li>
+        <li><b>Thalassemia</b>: defective Hb.</li>
+        <li><b>Hemophilia</b>: clotting factor missing.</li>
+        <li><b>Color blindness</b>: X-linked recessive.</li>
+        <li><b>Phenylketonuria (PKU)</b>: enzyme deficiency.</li>
+        <li><b>Cystic fibrosis</b>: thick mucus, lung issues.</li>
+        <li><b>Huntington's disease</b>: dominant; neurodegenerative.</li>
+      </ul>
+
+      <h3>9. Mutation</h3>
+      <ul>
+        <li>Change in DNA sequence.</li>
+        <li>Causes: radiation, chemicals, viruses, errors in replication.</li>
+        <li>Can be harmful, neutral, or beneficial.</li>
+        <li>Driving force of evolution.</li>
+      </ul>
+
+      <h3>10. Important Genetic Facts</h3>
+      <ul>
+        <li>~3 billion DNA base pairs in human genome.</li>
+        <li>~20,000-25,000 genes.</li>
+        <li>99.9% DNA same among all humans.</li>
+        <li>Human Genome Project: completed 2003.</li>
+        <li>India: ~1.4% of genome unique.</li>
+      </ul>
+
+      <h3>11. Cloning</h3>
+      <ul>
+        <li>Genetic copy of organism.</li>
+        <li><b>Dolly the sheep</b>: first mammal cloned from adult cell (1996).</li>
+        <li>Ethics controversial.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Mendel: pea plant experiments.</li>
+        <li>DNA: A-T, G-C pairing.</li>
+        <li>Watson and Crick: DNA double helix (1953).</li>
+        <li>23 pairs of chromosomes in humans.</li>
+        <li>Down syndrome: trisomy 21.</li>
+        <li>Color blindness: X-linked recessive.</li>
+        <li>Dolly: first cloned mammal.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Father of genetics:", opts: ["Darwin", "Mendel", "Hooke", "Watson"], a: 1, ex: "Gregor Mendel." },
+      { q: "Mendel experimented on:", opts: ["Mice", "Fruit flies", "Pea plants", "Roses"], a: 2, ex: "Garden pea." },
+      { q: "Gene is:", opts: ["Chromosome", "DNA segment", "Protein", "RNA"], a: 1, ex: "Unit of heredity." },
+      { q: "DNA pairing:", opts: ["A-G, T-C", "A-T, G-C", "Random", "A-C, T-G"], a: 1, ex: "A-T, G-C." },
+      { q: "DNA structure (double helix) by:", opts: ["Mendel", "Watson + Crick", "Darwin", "Hooke"], a: 1, ex: "1953." },
+      { q: "Down syndrome is:", opts: ["Extra chromosome 21", "Missing X", "Extra X in male", "Liver disease"], a: 0, ex: "Trisomy 21." },
+      { q: "Color blindness is:", opts: ["Autosomal", "X-linked", "Y-linked", "Mitochondrial"], a: 1, ex: "X-linked recessive." },
+      { q: "Hemophilia is:", opts: ["Bone disease", "Clotting disorder (X-linked)", "Skin", "Heart"], a: 1, ex: "Sex-linked recessive." },
+      { q: "Number of human chromosomes:", opts: ["23", "46", "48", "44"], a: 1, ex: "46 (23 pairs)." },
+      { q: "RNA has instead of T:", opts: ["A", "C", "G", "U"], a: 3, ex: "Uracil." },
+      { q: "Allele:", opts: ["Chromosome", "Alternative form of gene", "Cell", "DNA molecule"], a: 1, ex: "Versions of a gene." },
+      { q: "Dominant vs recessive — dominant:", opts: ["Always shows", "Only homozygous shows", "Never shows", "Random"], a: 0, ex: "Shown even in heterozygote." },
+      { q: "Genotype:", opts: ["Physical appearance", "Genetic makeup", "Cell type", "RNA type"], a: 1, ex: "BB, Bb, bb." },
+      { q: "Phenotype:", opts: ["Genetic code", "Physical expression", "Allele", "DNA"], a: 1, ex: "Observable trait." },
+      { q: "Klinefelter syndrome:", opts: ["XO", "XXY", "XYY", "Trisomy 21"], a: 1, ex: "Male with extra X." },
+      { q: "Turner syndrome:", opts: ["XO (female)", "XXY", "Trisomy 21", "XXX"], a: 0, ex: "Only one X chromosome." },
+      { q: "Dolly the sheep was first:", opts: ["GM organism", "Cloned mammal from adult cell", "Test tube baby", "Hybrid"], a: 1, ex: "1996." },
+      { q: "Central dogma:", opts: ["DNA → RNA → Protein", "Protein → DNA", "DNA → Protein only", "RNA → DNA"], a: 0, ex: "Information flow." },
+      { q: "Human genome size approx:", opts: ["3 million bp", "3 billion bp", "30 million bp", "30 billion bp"], a: 1, ex: "3 × 10⁹ bp." },
+      { q: "Sickle cell anaemia:", opts: ["Bacterial disease", "Genetic Hb disorder", "Vitamin deficiency", "Heart issue"], a: 1, ex: "Mutation in HBB gene." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 47. BIOLOGICAL EVOLUTION
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-evolution"] = {
+    body: `
+      <h2>Biological Evolution</h2>
+      <p>Evolution: the change in inherited characteristics of biological populations over generations.</p>
+
+      <h3>1. Theory of Natural Selection</h3>
+      <p>Proposed by <b>Charles Darwin</b> (1859) in "On the Origin of Species" along with <b>Alfred Russel Wallace</b>.</p>
+      <ul>
+        <li>More offspring produced than can survive.</li>
+        <li>Variation exists in populations.</li>
+        <li>Some variations help survival.</li>
+        <li>Survivors reproduce, passing advantageous traits.</li>
+        <li>Over time, species change ("survival of the fittest").</li>
+      </ul>
+      <p>Darwin's voyage on HMS Beagle to Galapagos Islands (1831-36) provided key insights — different finch beaks on different islands.</p>
+
+      <h3>2. Other Theories</h3>
+      <ul>
+        <li><b>Lamarck's theory</b> (1809): inheritance of acquired characteristics (incorrect, e.g., giraffe stretching neck).</li>
+        <li><b>Mutation theory (de Vries)</b>: sudden changes drive evolution.</li>
+        <li><b>Modern Synthesis</b>: combines Darwin's natural selection with Mendel's genetics. Includes mutation, gene flow, genetic drift.</li>
+      </ul>
+
+      <h3>3. Evidence for Evolution</h3>
+      <ul>
+        <li><b>Fossils</b>: preserved remains showing intermediate forms (Archaeopteryx — link between dinosaurs and birds).</li>
+        <li><b>Comparative anatomy</b>:
+          <ul>
+            <li>Homologous organs: same structure, different function (human arm, whale flipper, bat wing) — common ancestor.</li>
+            <li>Analogous organs: similar function, different structure (bird wing vs insect wing) — convergent evolution.</li>
+            <li>Vestigial organs: leftover, non-functional (human appendix, wisdom teeth, ear muscles).</li>
+          </ul>
+        </li>
+        <li><b>Embryology</b>: similar early development across species.</li>
+        <li><b>Molecular evidence</b>: DNA similarity (humans share 98% DNA with chimps).</li>
+        <li><b>Direct observation</b>: bacteria evolving antibiotic resistance, finches in Galapagos.</li>
+      </ul>
+
+      <h3>4. Origin of Life</h3>
+      <ul>
+        <li>Earth ~4.6 billion years old.</li>
+        <li>First life ~3.5 billion years ago (bacteria).</li>
+        <li><b>Oparin-Haldane hypothesis</b>: organic molecules in primordial soup.</li>
+        <li><b>Miller-Urey experiment</b> (1953): showed amino acids could form from inorganic gases + electric spark.</li>
+        <li>RNA world hypothesis: RNA was first genetic material.</li>
+      </ul>
+
+      <h3>5. Human Evolution Timeline</h3>
+      <ul>
+        <li>Australopithecus (~4-2 mya).</li>
+        <li>Homo habilis (~2.4-1.4 mya) — first tool user.</li>
+        <li>Homo erectus (~1.9 mya - 110,000 ya) — used fire.</li>
+        <li>Neanderthals (~400,000-40,000 ya).</li>
+        <li>Homo sapiens (~300,000 ya - present).</li>
+        <li>All modern humans: 200,000-300,000 years ago in Africa.</li>
+      </ul>
+
+      <h3>6. Important Events in Evolution</h3>
+      <ul>
+        <li>3.5 bya: first prokaryotes.</li>
+        <li>2 bya: first eukaryotes.</li>
+        <li>600 mya: Cambrian explosion (many forms appear).</li>
+        <li>500 mya: vertebrates.</li>
+        <li>360 mya: amphibians.</li>
+        <li>225 mya: dinosaurs.</li>
+        <li>65 mya: dinosaur extinction (asteroid impact).</li>
+        <li>200,000 ya: Homo sapiens.</li>
+      </ul>
+
+      <h3>7. Speciation</h3>
+      <ul>
+        <li>Formation of new species.</li>
+        <li>Geographic isolation, accumulating differences → new species.</li>
+      </ul>
+
+      <h3>8. Adaptive Radiation</h3>
+      <ul>
+        <li>One species diversifies into many forms in different ecological niches.</li>
+        <li>Examples: Darwin's finches, marsupials in Australia.</li>
+      </ul>
+
+      <h3>9. Famous Names</h3>
+      <ul>
+        <li><b>Charles Darwin</b>: Natural selection.</li>
+        <li><b>Alfred Wallace</b>: independently proposed natural selection.</li>
+        <li><b>Lamarck</b>: inheritance of acquired traits (incorrect).</li>
+        <li><b>Mendel</b>: genetics.</li>
+        <li><b>Stephen Jay Gould</b>: punctuated equilibrium.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Darwin: "On the Origin of Species" (1859).</li>
+        <li>Survival of the fittest.</li>
+        <li>Humans evolved in Africa (~200,000 ya).</li>
+        <li>Lamarck's theory: discredited.</li>
+        <li>Vestigial organs: appendix, wisdom teeth.</li>
+        <li>Homologous: same origin; analogous: same function.</li>
+        <li>Archaeopteryx: dinosaur-bird link fossil.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Origin of Species written by:", opts: ["Mendel", "Darwin", "Lamarck", "Wallace"], a: 1, ex: "Charles Darwin 1859." },
+      { q: "Survival of the fittest by:", opts: ["Darwin", "Mendel", "Lamarck", "Watson"], a: 0, ex: "Natural selection." },
+      { q: "Inheritance of acquired traits by:", opts: ["Darwin", "Lamarck", "Mendel", "Wallace"], a: 1, ex: "Lamarck (incorrect)." },
+      { q: "Darwin's voyage on:", opts: ["Beagle", "Endeavour", "Titanic", "Discovery"], a: 0, ex: "HMS Beagle." },
+      { q: "Earth age:", opts: ["1 bya", "4.6 bya", "10 bya", "100 mya"], a: 1, ex: "~4.6 billion years." },
+      { q: "Vestigial organ:", opts: ["Heart", "Lung", "Appendix", "Liver"], a: 2, ex: "Non-functional in humans." },
+      { q: "Homologous organs example:", opts: ["Bird wing vs insect wing", "Human arm vs whale flipper", "Bird beak vs human nose", "All same"], a: 1, ex: "Same structure, different function." },
+      { q: "Analogous organs:", opts: ["Same origin, different function", "Different origin, same function", "Same function and origin", "Vestigial"], a: 1, ex: "Convergent evolution." },
+      { q: "Miller-Urey experiment showed:", opts: ["DNA structure", "Origin of organic molecules", "Genetics", "Cells"], a: 1, ex: "1953 amino acid synthesis." },
+      { q: "Homo sapiens origin (years ago):", opts: ["1000", "200,000-300,000", "1 million", "10 million"], a: 1, ex: "~200-300 kya in Africa." },
+      { q: "First tool user:", opts: ["Australopithecus", "Homo habilis", "Neanderthal", "Sapiens"], a: 1, ex: "'Handy man'." },
+      { q: "Dinosaurs extinct (years ago):", opts: ["1 mya", "10 mya", "65 mya", "100 mya"], a: 2, ex: "Asteroid impact." },
+      { q: "Archaeopteryx is link between:", opts: ["Fish and amphibian", "Dinosaur and bird", "Human and ape", "Plant and animal"], a: 1, ex: "Feathered dinosaur fossil." },
+      { q: "Human-chimp DNA similarity:", opts: ["50%", "75%", "98%", "100%"], a: 2, ex: "~98%." },
+      { q: "Wallace independently proposed:", opts: ["Mutation", "Genetics", "Natural selection", "Mendelism"], a: 2, ex: "Same as Darwin." },
+      { q: "Adaptive radiation example:", opts: ["Darwin's finches", "Frog metamorphosis", "Cell division", "Photosynthesis"], a: 0, ex: "Diversification in niches." },
+      { q: "Charles Darwin year of birth:", opts: ["1809", "1859", "1900", "1850"], a: 0, ex: "1809-1882." },
+      { q: "Speciation means:", opts: ["Death of species", "Formation of new species", "Migration", "Mutation"], a: 1, ex: "New species formation." },
+      { q: "Lamarck's theory of giraffe neck:", opts: ["Correct", "Discredited", "Modified", "Confirmed"], a: 1, ex: "Acquired traits not inherited." },
+      { q: "First life on Earth (years ago):", opts: ["1 mya", "100 mya", "1 bya", "3.5 bya"], a: 3, ex: "Cyanobacteria-like." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 48. BOTANY (PLANT BIOLOGY)
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-botany"] = {
+    body: `
+      <h2>Botany (Plant Biology)</h2>
+      <p>Botany is the scientific study of plants. <b>Father of Botany</b>: Theophrastus.</p>
+
+      <h3>1. Plant Kingdom Classification</h3>
+      <ul>
+        <li><b>Thallophyta</b>: algae (no proper roots/stems/leaves). Examples: spirogyra, ulothrix.</li>
+        <li><b>Bryophyta</b>: amphibians of plant world. Mosses, liverworts.</li>
+        <li><b>Pteridophyta</b>: ferns; have vascular tissue but no seeds.</li>
+        <li><b>Gymnosperms</b>: naked seeds (no flowers). Pine, cedar, cycas.</li>
+        <li><b>Angiosperms</b> (Flowering plants): seeds enclosed in fruit.
+          <ul>
+            <li>Monocots: one cotyledon (wheat, rice, banana).</li>
+            <li>Dicots: two cotyledons (mango, neem, beans).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>2. Plant Parts and Their Functions</h3>
+      <ul>
+        <li><b>Root</b>: anchors plant, absorbs water and minerals.</li>
+        <li><b>Stem</b>: support, transport.</li>
+        <li><b>Leaf</b>: photosynthesis, transpiration, gas exchange.</li>
+        <li><b>Flower</b>: reproduction (gametes).</li>
+        <li><b>Fruit</b>: protects seeds, helps dispersal.</li>
+        <li><b>Seed</b>: contains embryo and food reserve.</li>
+      </ul>
+
+      <h3>3. Photosynthesis</h3>
+      <p>Process by which plants make food using sunlight.</p>
+      <p>6CO₂ + 6H₂O + light → C₆H₁₂O₆ (glucose) + 6O₂</p>
+      <ul>
+        <li>Occurs in chloroplasts (contain chlorophyll, the green pigment).</li>
+        <li>Site: mainly leaves.</li>
+        <li>Two phases:
+          <ul>
+            <li>Light phase: in thylakoids; produces ATP and NADPH.</li>
+            <li>Dark phase (Calvin cycle): in stroma; uses CO₂ to make glucose.</li>
+          </ul>
+        </li>
+        <li>By-product: oxygen (essential for life on earth).</li>
+      </ul>
+
+      <h3>4. Respiration in Plants</h3>
+      <p>Plants respire 24x7. They take in O₂ and release CO₂ (opposite of photosynthesis).</p>
+      <p>During day: photosynthesis > respiration → net O₂ release.<br>At night: only respiration → CO₂ release.</p>
+
+      <h3>5. Transpiration</h3>
+      <ul>
+        <li>Loss of water from plant (mostly through stomata in leaves).</li>
+        <li>Cools the plant.</li>
+        <li>Creates transpiration pull (helps water rise up from roots).</li>
+        <li>Stomata: tiny pores in leaves.</li>
+      </ul>
+
+      <h3>6. Plant Tissues</h3>
+      <ul>
+        <li><b>Meristematic</b>: cell division (apical, lateral, intercalary).</li>
+        <li><b>Permanent</b>:
+          <ul>
+            <li>Parenchyma: storage, photosynthesis.</li>
+            <li>Collenchyma: support in young plants.</li>
+            <li>Sclerenchyma: support, hard.</li>
+            <li>Xylem: water and mineral transport (up).</li>
+            <li>Phloem: food transport (down).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>7. Plant Hormones</h3>
+      <ul>
+        <li><b>Auxin</b>: growth, phototropism.</li>
+        <li><b>Gibberellin</b>: stem elongation, seed germination.</li>
+        <li><b>Cytokinin</b>: cell division.</li>
+        <li><b>Ethylene</b>: fruit ripening, leaf fall.</li>
+        <li><b>Abscisic acid (ABA)</b>: stress response, stomata closing.</li>
+      </ul>
+
+      <h3>8. Plant Movements (Tropisms)</h3>
+      <ul>
+        <li><b>Phototropism</b>: response to light (shoots toward, roots away).</li>
+        <li><b>Geotropism</b>: response to gravity (roots down, shoots up).</li>
+        <li><b>Hydrotropism</b>: toward water.</li>
+        <li><b>Thigmotropism</b>: response to touch (vines).</li>
+        <li><b>Chemotropism</b>: response to chemicals.</li>
+      </ul>
+
+      <h3>9. Pollination & Fertilization</h3>
+      <ul>
+        <li>Pollination: transfer of pollen from anther to stigma.</li>
+        <li>Self-pollination: within same flower.</li>
+        <li>Cross-pollination: between flowers.</li>
+        <li>Agents: wind, water, insects (bees), birds.</li>
+        <li>Fertilization → seed and fruit.</li>
+        <li>Double fertilization: unique to angiosperms.</li>
+      </ul>
+
+      <h3>10. Important Botanical Facts</h3>
+      <ul>
+        <li>Largest flower: Rafflesia.</li>
+        <li>Smallest flowering plant: Wolffia.</li>
+        <li>Tallest tree: Coast Redwood (~115 m).</li>
+        <li>Largest tree by volume: Sequoia (General Sherman).</li>
+        <li>Oldest tree: Bristlecone Pine (~5000 years).</li>
+        <li>Fastest-growing plant: Bamboo.</li>
+        <li>Insectivorous plants: Venus flytrap, pitcher plant, sundew.</li>
+        <li>Living fossil: Ginkgo, Cycas.</li>
+        <li>National tree of India: Banyan.</li>
+        <li>National flower of India: Lotus.</li>
+        <li>National fruit of India: Mango.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Father of Botany: Theophrastus.</li>
+        <li>Chlorophyll absorbs sunlight; reflects green.</li>
+        <li>Photosynthesis releases O₂.</li>
+        <li>Stomata: gas exchange in leaves.</li>
+        <li>Xylem: up (water); Phloem: down (food).</li>
+        <li>Insectivorous plants live in N-poor soil.</li>
+        <li>Monocots: parallel veins; Dicots: net-like veins.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Father of botany:", opts: ["Theophrastus", "Aristotle", "Linnaeus", "Darwin"], a: 0, ex: "Theophrastus." },
+      { q: "Photosynthesis pigment:", opts: ["Hemoglobin", "Chlorophyll", "Carotene", "Melanin"], a: 1, ex: "Green chlorophyll." },
+      { q: "Photosynthesis produces:", opts: ["Glucose + O₂", "Sugar + CO₂", "Starch + N₂", "Glucose + H₂"], a: 0, ex: "C₆H₁₂O₆ + 6O₂." },
+      { q: "Photosynthesis occurs in:", opts: ["Mitochondria", "Chloroplast", "Nucleus", "Ribosome"], a: 1, ex: "Chloroplast." },
+      { q: "Xylem transports:", opts: ["Food downward", "Water and minerals upward", "Air", "Sugar"], a: 1, ex: "Water up." },
+      { q: "Phloem transports:", opts: ["Water up", "Food (sugars) up and down", "Air", "Sap only"], a: 1, ex: "Food distribution." },
+      { q: "Pores in leaves:", opts: ["Lenticels", "Stomata", "Cuticle", "Trichomes"], a: 1, ex: "Stomata for gas exchange." },
+      { q: "Plant hormone for ripening:", opts: ["Auxin", "Ethylene", "Cytokinin", "ABA"], a: 1, ex: "Ethylene." },
+      { q: "Auxin's role:", opts: ["Growth/phototropism", "Ripening", "Cell division", "Stress"], a: 0, ex: "Growth toward light." },
+      { q: "Stem grows away from gravity:", opts: ["Positive geotropism", "Negative geotropism", "Phototropism", "Hydrotropism"], a: 1, ex: "Negative geotropism." },
+      { q: "Largest flower:", opts: ["Rose", "Rafflesia", "Lotus", "Sunflower"], a: 1, ex: "Rafflesia arnoldii." },
+      { q: "Tallest tree:", opts: ["Banyan", "Coast Redwood", "Pine", "Oak"], a: 1, ex: "Sequoia sempervirens ~115 m." },
+      { q: "Fastest growing plant:", opts: ["Grass", "Bamboo", "Rice", "Wheat"], a: 1, ex: "Bamboo (up to 1m/day)." },
+      { q: "Insectivorous plant:", opts: ["Rose", "Venus flytrap", "Mango", "Banyan"], a: 1, ex: "Eats insects for nitrogen." },
+      { q: "National tree of India:", opts: ["Mango", "Peepal", "Banyan", "Neem"], a: 2, ex: "Banyan." },
+      { q: "Monocot example:", opts: ["Bean", "Wheat", "Mango", "Neem"], a: 1, ex: "One cotyledon." },
+      { q: "Dicot example:", opts: ["Rice", "Wheat", "Bean", "Banana"], a: 2, ex: "Two cotyledons." },
+      { q: "Pollination agent:", opts: ["Wind", "Insects (bees)", "Birds", "All correct"], a: 3, ex: "Various agents." },
+      { q: "Bryophyta example:", opts: ["Algae", "Moss", "Fern", "Pine"], a: 1, ex: "Moss is bryophyte." },
+      { q: "Roots grow toward:", opts: ["Light", "Water (hydrotropism)", "Away from gravity", "Up"], a: 1, ex: "Water-seeking." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 49. BIOTECHNOLOGY
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-biotechnology"] = {
+    body: `
+      <h2>Biotechnology</h2>
+      <p>Use of living organisms or their parts to make products useful to humans.</p>
+
+      <h3>1. Old vs Modern Biotechnology</h3>
+      <ul>
+        <li><b>Traditional</b>: cheese, yogurt, bread, wine, beer (using microbes).</li>
+        <li><b>Modern</b>: genetic engineering, GMOs, CRISPR, cloning.</li>
+      </ul>
+
+      <h3>2. Important Techniques</h3>
+
+      <h4>(a) Recombinant DNA (rDNA) Technology</h4>
+      <ul>
+        <li>Combining DNA from different sources.</li>
+        <li>Tools: restriction enzymes (molecular scissors), ligases (glue), vectors (carry DNA).</li>
+        <li>Used to make insulin, growth hormone in bacteria.</li>
+      </ul>
+
+      <h4>(b) PCR (Polymerase Chain Reaction)</h4>
+      <ul>
+        <li>Invented by Kary Mullis (1983), Nobel 1993.</li>
+        <li>Amplifies DNA samples (makes millions of copies).</li>
+        <li>Used in: forensics, disease diagnosis (e.g., COVID-19 RT-PCR), paternity testing.</li>
+      </ul>
+
+      <h4>(c) Gene Cloning</h4>
+      <ul>
+        <li>Making copies of a specific gene.</li>
+      </ul>
+
+      <h4>(d) Genetic Engineering</h4>
+      <ul>
+        <li>Directly modifying organism's DNA.</li>
+        <li>Examples:
+          <ul>
+            <li>Bt cotton (resistant to bollworm).</li>
+            <li>Golden rice (Vitamin A enriched).</li>
+            <li>GM tomatoes, soybeans.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h4>(e) CRISPR-Cas9 (Gene Editing)</h4>
+      <ul>
+        <li>Discovered by Charpentier and Doudna; Nobel 2020.</li>
+        <li>Precise editing of DNA.</li>
+        <li>Treats genetic diseases, makes designer crops.</li>
+      </ul>
+
+      <h4>(f) Stem Cell Research</h4>
+      <ul>
+        <li>Cells that can become any type of cell.</li>
+        <li>Sources: embryos (controversial), adults, induced pluripotent.</li>
+        <li>Potential treatments: spinal cord injury, Parkinson's, diabetes.</li>
+      </ul>
+
+      <h4>(g) Cloning</h4>
+      <ul>
+        <li>Reproductive: creating genetic copy (Dolly the sheep, 1996).</li>
+        <li>Therapeutic: making tissues for transplant.</li>
+      </ul>
+
+      <h3>3. Applications</h3>
+
+      <h4>Medical</h4>
+      <ul>
+        <li>Insulin from genetically modified bacteria.</li>
+        <li>Growth hormone production.</li>
+        <li>Hepatitis B vaccine (recombinant).</li>
+        <li>Monoclonal antibodies for cancer.</li>
+        <li>Gene therapy for genetic diseases.</li>
+        <li>COVID-19 mRNA vaccines (Pfizer, Moderna).</li>
+      </ul>
+
+      <h4>Agricultural</h4>
+      <ul>
+        <li>GM crops (Bt cotton, golden rice).</li>
+        <li>Pest-resistant plants.</li>
+        <li>Drought-tolerant crops.</li>
+        <li>Better yield, longer shelf life.</li>
+        <li>Biofertilizers (Azolla, Rhizobium).</li>
+      </ul>
+
+      <h4>Industrial</h4>
+      <ul>
+        <li>Enzymes for detergents.</li>
+        <li>Fermentation for beverages, food.</li>
+        <li>Biofuels (ethanol from sugarcane).</li>
+        <li>Bioplastics.</li>
+      </ul>
+
+      <h4>Environmental</h4>
+      <ul>
+        <li>Bioremediation: microbes clean oil spills, toxic waste.</li>
+        <li>Wastewater treatment.</li>
+        <li>Biogas from organic waste.</li>
+      </ul>
+
+      <h4>Forensic</h4>
+      <ul>
+        <li>DNA fingerprinting (Alec Jeffreys 1984).</li>
+        <li>Solve crimes, paternity tests.</li>
+      </ul>
+
+      <h3>4. Vaccines Made by Biotechnology</h3>
+      <ul>
+        <li>Hepatitis B: recombinant.</li>
+        <li>HPV: recombinant.</li>
+        <li>COVID-19: mRNA, viral vector, protein-based.</li>
+      </ul>
+
+      <h3>5. Concerns & Ethics</h3>
+      <ul>
+        <li>GM food safety.</li>
+        <li>Biodiversity loss.</li>
+        <li>Designer babies — ethics.</li>
+        <li>Cloning ethical issues.</li>
+        <li>Privacy of genetic data.</li>
+        <li>Bioterrorism.</li>
+      </ul>
+
+      <h3>6. India's Achievements</h3>
+      <ul>
+        <li>First country in Asia to use Bt cotton (2002).</li>
+        <li>DBT (Department of Biotechnology) founded 1986.</li>
+        <li>National Biotechnology Mission.</li>
+        <li>Covaxin: indigenous COVID vaccine (Bharat Biotech).</li>
+        <li>NIBSC, NIB, NCCS — biotech research centres.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>PCR: amplifies DNA (Kary Mullis, Nobel 1993).</li>
+        <li>Dolly: first cloned mammal (1996).</li>
+        <li>Bt cotton: pest-resistant GM crop.</li>
+        <li>Golden rice: enriched with Vit A.</li>
+        <li>CRISPR-Cas9: gene editing (Nobel 2020).</li>
+        <li>DNA fingerprinting: identification.</li>
+        <li>Insulin first made by recombinant bacteria (1982).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "PCR invented by:", opts: ["Watson", "Kary Mullis", "Mendel", "Darwin"], a: 1, ex: "1983, Nobel 1993." },
+      { q: "Dolly the sheep:", opts: ["First test tube baby", "First cloned mammal", "First GM animal", "Frist hybrid"], a: 1, ex: "Cloned 1996." },
+      { q: "Bt cotton resists:", opts: ["Drought", "Bollworm/pests", "Cold", "Heat"], a: 1, ex: "Bacillus thuringiensis gene." },
+      { q: "Golden rice enriched with:", opts: ["Iron", "Vit A (beta-carotene)", "Protein", "Calcium"], a: 1, ex: "Combats Vit A deficiency." },
+      { q: "CRISPR is used for:", opts: ["Cooking", "Gene editing", "Cloning", "Photography"], a: 1, ex: "Precise DNA editing." },
+      { q: "First recombinant DNA medicine:", opts: ["Aspirin", "Insulin", "Penicillin", "Paracetamol"], a: 1, ex: "Insulin 1982." },
+      { q: "DNA fingerprinting by:", opts: ["Mendel", "Watson", "Alec Jeffreys", "Mullis"], a: 2, ex: "1984." },
+      { q: "Bioremediation uses:", opts: ["Pesticides", "Microbes to clean pollution", "Heat", "Acid"], a: 1, ex: "Microbes break down toxins." },
+      { q: "India started Bt cotton:", opts: ["1990", "2002", "2010", "2015"], a: 1, ex: "2002." },
+      { q: "Covaxin made by:", opts: ["Pfizer", "Moderna", "Bharat Biotech", "AstraZeneca"], a: 2, ex: "India indigenous." },
+      { q: "Vaccines made by recombinant DNA:", opts: ["Hepatitis B", "HPV", "Both", "Neither"], a: 2, ex: "Both." },
+      { q: "DBT founded in:", opts: ["1976", "1986", "2000", "1990"], a: 1, ex: "Department of Biotechnology." },
+      { q: "Restriction enzymes are:", opts: ["DNA glue", "Molecular scissors (cut DNA)", "DNA copiers", "Catalysts"], a: 1, ex: "Cut DNA at specific sites." },
+      { q: "Genetic engineering modifies:", opts: ["DNA", "Cell wall only", "Membrane", "Phenotype only"], a: 0, ex: "DNA changes." },
+      { q: "Stem cells can:", opts: ["Only divide", "Become any cell type", "Only photosynthesize", "Only digest"], a: 1, ex: "Pluripotent." },
+      { q: "GM organisms are:", opts: ["Natural", "Genetically Modified by humans", "Random mutations", "Just labeled"], a: 1, ex: "Engineered traits." },
+      { q: "COVID PCR test detects:", opts: ["Antibody", "Viral RNA", "Bacteria", "Sugar"], a: 1, ex: "Amplifies SARS-CoV-2 RNA." },
+      { q: "Biotechnology in agriculture aims:", opts: ["More yield, pest resistance, etc.", "Less food", "More waste", "Lower nutrition"], a: 0, ex: "All positive aims." },
+      { q: "Insulin produced in:", opts: ["Plants only", "Genetically modified bacteria", "Mice", "Cattle"], a: 1, ex: "E. coli with human gene." },
+      { q: "CRISPR-Cas9 Nobel year:", opts: ["2000", "2010", "2020", "2023"], a: 2, ex: "Charpentier and Doudna." }
+    ]
+  };
+
 })();
