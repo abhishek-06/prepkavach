@@ -6239,4 +6239,814 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 33. IDIOMS AND PHRASES
+  // ───────────────────────────────────────────────────────────────
+  T["eng-idioms"] = {
+    body: `
+      <h2>Idioms and Phrases</h2>
+      <p>An <b>idiom</b> is a fixed expression whose meaning isn't apparent from the literal meanings of its words. SSC asks 2-3 idiom questions in CGL Tier 1.</p>
+
+      <h3>🔥 Top 100 SSC Idioms</h3>
+
+      <h3>Animals</h3>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>A bird's-eye view</td><td>A general view from above</td></tr>
+        <tr><td>A wolf in sheep's clothing</td><td>A dangerous person pretending to be harmless</td></tr>
+        <tr><td>A snake in the grass</td><td>A hidden enemy</td></tr>
+        <tr><td>A fish out of water</td><td>Someone uncomfortable in a situation</td></tr>
+        <tr><td>A dog's life</td><td>A miserable life</td></tr>
+        <tr><td>Let the cat out of the bag</td><td>Reveal a secret</td></tr>
+        <tr><td>Kill two birds with one stone</td><td>Achieve two things at once</td></tr>
+        <tr><td>The lion's share</td><td>The largest portion</td></tr>
+        <tr><td>Have a whale of a time</td><td>Enjoy thoroughly</td></tr>
+        <tr><td>Cry crocodile tears</td><td>Show false sympathy</td></tr>
+        <tr><td>Hit the bull's eye</td><td>Achieve the exact target</td></tr>
+        <tr><td>Curiosity killed the cat</td><td>Being too curious can be harmful</td></tr>
+        <tr><td>An eager beaver</td><td>An enthusiastic, hardworking person</td></tr>
+      </table>
+
+      <h3>Body Parts</h3>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>To pull someone's leg</td><td>To joke/tease</td></tr>
+        <tr><td>Cost an arm and a leg</td><td>Very expensive</td></tr>
+        <tr><td>To turn a deaf ear</td><td>Refuse to listen</td></tr>
+        <tr><td>To turn a blind eye</td><td>Ignore deliberately</td></tr>
+        <tr><td>Apple of one's eye</td><td>Most loved person</td></tr>
+        <tr><td>Bite the bullet</td><td>Endure hardship bravely</td></tr>
+        <tr><td>Have cold feet</td><td>To get nervous before something</td></tr>
+        <tr><td>Get on someone's nerves</td><td>Annoy someone</td></tr>
+        <tr><td>Lose face</td><td>Be humiliated</td></tr>
+        <tr><td>Save face</td><td>Avoid humiliation</td></tr>
+        <tr><td>By the skin of one's teeth</td><td>Barely / Just barely</td></tr>
+        <tr><td>Keep one's chin up</td><td>Stay positive</td></tr>
+        <tr><td>Cross your fingers</td><td>Hope for the best</td></tr>
+        <tr><td>Have one's hands full</td><td>Be very busy</td></tr>
+        <tr><td>Heart in mouth</td><td>Very anxious</td></tr>
+        <tr><td>At one's wits' end</td><td>Confused, no idea what to do</td></tr>
+        <tr><td>To pick someone's brain</td><td>Get advice/ideas from someone</td></tr>
+        <tr><td>To rack one's brains</td><td>Think very hard</td></tr>
+        <tr><td>Lend a hand</td><td>Help</td></tr>
+        <tr><td>Pull a long face</td><td>Look sad/displeased</td></tr>
+      </table>
+
+      <h3>Money / Business</h3>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>To make ends meet</td><td>To have just enough money to live</td></tr>
+        <tr><td>To break the bank</td><td>To use all the money</td></tr>
+        <tr><td>To pay through the nose</td><td>To pay too much</td></tr>
+        <tr><td>To strike it rich</td><td>To become wealthy suddenly</td></tr>
+        <tr><td>To tighten one's belt</td><td>To spend less</td></tr>
+        <tr><td>To bring home the bacon</td><td>To earn money</td></tr>
+        <tr><td>To be in the red</td><td>To be in debt</td></tr>
+        <tr><td>To go bust</td><td>To go bankrupt</td></tr>
+      </table>
+
+      <h3>Time</h3>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>Once in a blue moon</td><td>Very rarely</td></tr>
+        <tr><td>In the nick of time</td><td>Just in time</td></tr>
+        <tr><td>To call it a day</td><td>To stop working</td></tr>
+        <tr><td>At the eleventh hour</td><td>At the last moment</td></tr>
+        <tr><td>Ahead of one's time</td><td>Having advanced ideas</td></tr>
+        <tr><td>Hour of need</td><td>Time of trouble</td></tr>
+        <tr><td>Time flies</td><td>Time passes quickly</td></tr>
+        <tr><td>Beat the clock</td><td>Finish before deadline</td></tr>
+        <tr><td>Around the clock</td><td>Continuously, all day</td></tr>
+      </table>
+
+      <h3>General Idioms</h3>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>A piece of cake</td><td>Very easy task</td></tr>
+        <tr><td>Hit the nail on the head</td><td>Be exactly right</td></tr>
+        <tr><td>Hit the books</td><td>Study hard</td></tr>
+        <tr><td>Hit the sack</td><td>Go to bed</td></tr>
+        <tr><td>Spill the beans</td><td>Reveal secret</td></tr>
+        <tr><td>Out of the blue</td><td>Suddenly, unexpectedly</td></tr>
+        <tr><td>Once in a lifetime</td><td>Very rare opportunity</td></tr>
+        <tr><td>Under the weather</td><td>Slightly ill</td></tr>
+        <tr><td>Cut corners</td><td>Take shortcuts (often inappropriately)</td></tr>
+        <tr><td>Beat around the bush</td><td>Avoid the main topic</td></tr>
+        <tr><td>Burn the midnight oil</td><td>Work late at night</td></tr>
+        <tr><td>Add fuel to the fire</td><td>Make things worse</td></tr>
+        <tr><td>Bury the hatchet</td><td>End an argument</td></tr>
+        <tr><td>Cross that bridge when you come to it</td><td>Deal with problem when it arises</td></tr>
+        <tr><td>Don't count your chickens before they hatch</td><td>Don't assume success before it happens</td></tr>
+        <tr><td>Every cloud has a silver lining</td><td>There's hope in every difficulty</td></tr>
+        <tr><td>Get the ball rolling</td><td>Start something</td></tr>
+        <tr><td>In hot water</td><td>In trouble</td></tr>
+        <tr><td>It takes two to tango</td><td>Both parties involved</td></tr>
+        <tr><td>Jump on the bandwagon</td><td>Join a trend</td></tr>
+        <tr><td>Kick the bucket</td><td>Die</td></tr>
+        <tr><td>Make a long story short</td><td>Get to the point</td></tr>
+        <tr><td>On thin ice</td><td>In a risky situation</td></tr>
+        <tr><td>Read between the lines</td><td>Understand hidden meaning</td></tr>
+        <tr><td>See eye to eye</td><td>Agree completely</td></tr>
+        <tr><td>Spice things up</td><td>Make more exciting</td></tr>
+        <tr><td>Steal someone's thunder</td><td>Take credit for someone else's idea</td></tr>
+        <tr><td>The ball is in your court</td><td>It's your decision now</td></tr>
+        <tr><td>The best of both worlds</td><td>Two good things at once</td></tr>
+        <tr><td>Through thick and thin</td><td>In all circumstances</td></tr>
+        <tr><td>Tip of the iceberg</td><td>Only a small part of a big problem</td></tr>
+        <tr><td>To make a mountain out of a molehill</td><td>Exaggerate a small issue</td></tr>
+        <tr><td>To put the cart before the horse</td><td>Do things in wrong order</td></tr>
+        <tr><td>To take with a grain of salt</td><td>Don't take literally</td></tr>
+        <tr><td>To turn over a new leaf</td><td>Start fresh</td></tr>
+        <tr><td>To smell a rat</td><td>Suspect something wrong</td></tr>
+        <tr><td>Up in arms</td><td>Strongly protesting</td></tr>
+        <tr><td>Wear one's heart on one's sleeve</td><td>Show emotions openly</td></tr>
+        <tr><td>When pigs fly</td><td>Something that will never happen</td></tr>
+        <tr><td>You can't judge a book by its cover</td><td>Don't judge by appearance</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Don't translate literally — idioms are figurative.</li>
+        <li>Learn in clusters by theme (animals, body parts, etc.).</li>
+        <li>Use them in context to memorize.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Meaning of 'kick the bucket':", opts: ["Die", "Run away", "Fight", "Cry"], a: 0, ex: "Idiom for dying." },
+      { q: "'A piece of cake' means:", opts: ["Easy task", "Sweet thing", "Dessert", "Birthday"], a: 0, ex: "Very easy." },
+      { q: "'To spill the beans' means:", opts: ["Reveal secret", "Drop food", "Be careless", "Make mess"], a: 0, ex: "Reveal secret." },
+      { q: "'Once in a blue moon' means:", opts: ["Frequently", "Rarely", "Daily", "Always"], a: 1, ex: "Very rarely." },
+      { q: "'Bite the bullet' means:", opts: ["Run away", "Endure hardship", "Use weapon", "Be afraid"], a: 1, ex: "Endure bravely." },
+      { q: "'At eleventh hour' means:", opts: ["Late night", "Just in time", "Early", "On time"], a: 1, ex: "At last moment." },
+      { q: "'To turn a deaf ear' means:", opts: ["Refuse to listen", "Be deaf", "Listen carefully", "Ignore noise"], a: 0, ex: "Refuse to hear." },
+      { q: "'Apple of one's eye' means:", opts: ["Most loved", "Eye problem", "Favorite fruit", "Vision"], a: 0, ex: "Most loved person." },
+      { q: "'Hit the books' means:", opts: ["Study hard", "Read", "Damage books", "Buy books"], a: 0, ex: "Study." },
+      { q: "'In hot water' means:", opts: ["Bathing", "In trouble", "Cooking", "Sweating"], a: 1, ex: "Trouble." },
+      { q: "'Cost an arm and a leg' means:", opts: ["Cheap", "Very expensive", "Reasonable", "Free"], a: 1, ex: "Expensive." },
+      { q: "'Make ends meet' means:", opts: ["Earn enough to live", "Be rich", "Save", "Spend"], a: 0, ex: "Manage income & expenses." },
+      { q: "'A fish out of water' means:", opts: ["Dead fish", "Uncomfortable", "Lost", "Funny"], a: 1, ex: "Out of place." },
+      { q: "'Add fuel to the fire' means:", opts: ["Make worse", "Help", "Cook", "Heat"], a: 0, ex: "Worsen situation." },
+      { q: "'Beat around the bush' means:", opts: ["Avoid main topic", "Search", "Garden", "Hunt"], a: 0, ex: "Be evasive." },
+      { q: "'Bury the hatchet' means:", opts: ["End argument", "Plant tree", "Hide weapon", "Forget"], a: 0, ex: "Make peace." },
+      { q: "'Tip of the iceberg' means:", opts: ["Cold place", "Small part of big issue", "Top", "Mountain"], a: 1, ex: "Small visible part." },
+      { q: "'Read between the lines' means:", opts: ["Understand hidden meaning", "Read carefully", "Read fast", "Skip"], a: 0, ex: "Hidden meaning." },
+      { q: "'See eye to eye' means:", opts: ["Stare", "Agree completely", "Look closely", "Be close"], a: 1, ex: "Agree." },
+      { q: "'Once in a lifetime' means:", opts: ["Once daily", "Rare opportunity", "Always", "Never"], a: 1, ex: "Very rare." },
+      { q: "'Under the weather' means:", opts: ["Outside", "Slightly ill", "Cold", "Sweating"], a: 1, ex: "Unwell." },
+      { q: "'Burn midnight oil' means:", opts: ["Light lamp", "Work late at night", "Cook", "Waste"], a: 1, ex: "Late work." },
+      { q: "'Cry crocodile tears' means:", opts: ["Cry hard", "False sympathy", "Real tears", "Mourn"], a: 1, ex: "Insincere grief." },
+      { q: "'Out of the blue' means:", opts: ["Color", "Suddenly", "From sky", "From sea"], a: 1, ex: "Unexpectedly." },
+      { q: "'Turn over a new leaf' means:", opts: ["Read", "Start fresh", "Garden", "Move"], a: 1, ex: "Begin anew." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 34. ROOT WORDS (Word Roots, Prefixes, Suffixes)
+  // ───────────────────────────────────────────────────────────────
+  T["eng-root-words"] = {
+    body: `
+      <h2>Root Words, Prefixes, Suffixes</h2>
+      <p>Understanding word roots, prefixes, and suffixes helps you decode unknown words. This is HIGH ROI for synonyms, antonyms, and one-word substitution sections.</p>
+
+      <h3>🔥 Common Roots</h3>
+
+      <h3>Greek Roots</h3>
+      <table>
+        <tr><th>Root</th><th>Meaning</th><th>Examples</th></tr>
+        <tr><td>anthropo</td><td>man, human</td><td>Anthropology, Misanthrope</td></tr>
+        <tr><td>auto</td><td>self</td><td>Autobiography, Automatic</td></tr>
+        <tr><td>bio</td><td>life</td><td>Biology, Biography</td></tr>
+        <tr><td>chrono</td><td>time</td><td>Chronology, Chronic</td></tr>
+        <tr><td>cosmo</td><td>universe</td><td>Cosmos, Cosmopolitan</td></tr>
+        <tr><td>demo</td><td>people</td><td>Democracy, Demography</td></tr>
+        <tr><td>geo</td><td>earth</td><td>Geography, Geology</td></tr>
+        <tr><td>graph/gram</td><td>write/draw</td><td>Telegraph, Diagram</td></tr>
+        <tr><td>hydro</td><td>water</td><td>Hydraulic, Hydrant</td></tr>
+        <tr><td>hyper</td><td>over, excessive</td><td>Hyperactive, Hyperbole</td></tr>
+        <tr><td>logy</td><td>study of</td><td>Biology, Psychology</td></tr>
+        <tr><td>macro</td><td>large</td><td>Macroeconomics</td></tr>
+        <tr><td>mega</td><td>great, large</td><td>Megaphone, Megaton</td></tr>
+        <tr><td>micro</td><td>small</td><td>Microscope, Microbe</td></tr>
+        <tr><td>mono</td><td>one</td><td>Monopoly, Monologue</td></tr>
+        <tr><td>neuro</td><td>nerve</td><td>Neurology, Neuron</td></tr>
+        <tr><td>pan</td><td>all</td><td>Panorama, Pandemic</td></tr>
+        <tr><td>path</td><td>feeling, disease</td><td>Sympathy, Pathology</td></tr>
+        <tr><td>phil</td><td>love</td><td>Philosophy, Bibliophile</td></tr>
+        <tr><td>phobia</td><td>fear</td><td>Claustrophobia, Hydrophobia</td></tr>
+        <tr><td>phon</td><td>sound</td><td>Telephone, Phonetic</td></tr>
+        <tr><td>photo</td><td>light</td><td>Photograph, Photosynthesis</td></tr>
+        <tr><td>poly</td><td>many</td><td>Polygamy, Polygon</td></tr>
+        <tr><td>pseudo</td><td>false</td><td>Pseudonym, Pseudo-science</td></tr>
+        <tr><td>psych</td><td>mind, soul</td><td>Psychology, Psychic</td></tr>
+        <tr><td>scope</td><td>see, view</td><td>Microscope, Telescope</td></tr>
+        <tr><td>tele</td><td>far, distant</td><td>Telephone, Television</td></tr>
+        <tr><td>theo</td><td>god</td><td>Theology, Theocracy</td></tr>
+        <tr><td>thermo</td><td>heat</td><td>Thermometer, Thermos</td></tr>
+        <tr><td>zoo</td><td>animal</td><td>Zoology, Zookeeper</td></tr>
+      </table>
+
+      <h3>Latin Roots</h3>
+      <table>
+        <tr><th>Root</th><th>Meaning</th><th>Examples</th></tr>
+        <tr><td>ambi/ambo</td><td>both</td><td>Ambidextrous, Ambivalent</td></tr>
+        <tr><td>aqua</td><td>water</td><td>Aquatic, Aquarium</td></tr>
+        <tr><td>audi</td><td>hear</td><td>Auditory, Audience</td></tr>
+        <tr><td>bene</td><td>good</td><td>Benevolent, Benefit</td></tr>
+        <tr><td>centi</td><td>hundred</td><td>Century, Centipede</td></tr>
+        <tr><td>circum</td><td>around</td><td>Circumference, Circumvent</td></tr>
+        <tr><td>contra/counter</td><td>against</td><td>Contradict, Counteract</td></tr>
+        <tr><td>cred</td><td>believe</td><td>Credible, Credit</td></tr>
+        <tr><td>dict</td><td>speak/say</td><td>Dictate, Predict</td></tr>
+        <tr><td>duct</td><td>lead</td><td>Conduct, Aqueduct</td></tr>
+        <tr><td>fac/fact</td><td>do, make</td><td>Factory, Manufacture</td></tr>
+        <tr><td>flect/flex</td><td>bend</td><td>Reflect, Flexible</td></tr>
+        <tr><td>fract/frag</td><td>break</td><td>Fraction, Fragment</td></tr>
+        <tr><td>jud</td><td>judge</td><td>Judge, Prejudice</td></tr>
+        <tr><td>juven</td><td>young</td><td>Juvenile, Rejuvenate</td></tr>
+        <tr><td>loc</td><td>place</td><td>Locate, Local</td></tr>
+        <tr><td>mal</td><td>bad</td><td>Malevolent, Malice</td></tr>
+        <tr><td>mort</td><td>death</td><td>Mortal, Mortuary</td></tr>
+        <tr><td>multi</td><td>many</td><td>Multiple, Multinational</td></tr>
+        <tr><td>omni</td><td>all</td><td>Omnipresent, Omniscient</td></tr>
+        <tr><td>port</td><td>carry</td><td>Transport, Portable</td></tr>
+        <tr><td>rupt</td><td>break</td><td>Erupt, Interrupt</td></tr>
+        <tr><td>scrib/script</td><td>write</td><td>Scribble, Manuscript</td></tr>
+        <tr><td>sect</td><td>cut</td><td>Section, Dissect</td></tr>
+        <tr><td>spec/spect</td><td>see, look</td><td>Inspect, Spectator</td></tr>
+        <tr><td>tract</td><td>pull, drag</td><td>Tractor, Attract</td></tr>
+        <tr><td>vert/vers</td><td>turn</td><td>Convert, Reverse</td></tr>
+        <tr><td>vid/vis</td><td>see</td><td>Video, Vision</td></tr>
+        <tr><td>voc</td><td>voice, call</td><td>Vocal, Provoke</td></tr>
+      </table>
+
+      <h3>🔥 Common Prefixes</h3>
+      <table>
+        <tr><th>Prefix</th><th>Meaning</th><th>Example</th></tr>
+        <tr><td>a-/an-</td><td>without, not</td><td>Atheist (without God)</td></tr>
+        <tr><td>ab-</td><td>away from</td><td>Abnormal, Absent</td></tr>
+        <tr><td>ad-</td><td>to, toward</td><td>Adhere, Adjoin</td></tr>
+        <tr><td>ante-</td><td>before</td><td>Antecedent</td></tr>
+        <tr><td>anti-</td><td>against</td><td>Antibody, Antifreeze</td></tr>
+        <tr><td>bi-</td><td>two</td><td>Bicycle, Biannual</td></tr>
+        <tr><td>co-/con-</td><td>with, together</td><td>Cooperate, Connect</td></tr>
+        <tr><td>de-</td><td>down, away from</td><td>Demote, Descend</td></tr>
+        <tr><td>dis-</td><td>not, opposite</td><td>Disagree, Disappear</td></tr>
+        <tr><td>e-/ex-</td><td>out of</td><td>Exit, Eject</td></tr>
+        <tr><td>en-/em-</td><td>in, into</td><td>Engage, Embrace</td></tr>
+        <tr><td>fore-</td><td>before</td><td>Foresee, Foreword</td></tr>
+        <tr><td>il-/im-/in-/ir-</td><td>not</td><td>Illegal, Impossible, Inactive, Irregular</td></tr>
+        <tr><td>inter-</td><td>between</td><td>International, Interact</td></tr>
+        <tr><td>mis-</td><td>wrong</td><td>Misuse, Mistake</td></tr>
+        <tr><td>non-</td><td>not</td><td>Nonsense, Nonfiction</td></tr>
+        <tr><td>over-</td><td>too much</td><td>Overweight, Overdo</td></tr>
+        <tr><td>post-</td><td>after</td><td>Postpone, Postscript</td></tr>
+        <tr><td>pre-</td><td>before</td><td>Prepare, Prevent</td></tr>
+        <tr><td>pro-</td><td>forward, for</td><td>Promote, Project</td></tr>
+        <tr><td>re-</td><td>again, back</td><td>Replay, Return</td></tr>
+        <tr><td>sub-</td><td>under</td><td>Submarine, Subtract</td></tr>
+        <tr><td>super-</td><td>above</td><td>Supervise, Superstar</td></tr>
+        <tr><td>trans-</td><td>across</td><td>Transport, Transit</td></tr>
+        <tr><td>tri-</td><td>three</td><td>Triangle, Tripod</td></tr>
+        <tr><td>un-</td><td>not</td><td>Unhappy, Unsure</td></tr>
+        <tr><td>uni-</td><td>one</td><td>Unicorn, Universe</td></tr>
+      </table>
+
+      <h3>🔥 Common Suffixes</h3>
+      <table>
+        <tr><th>Suffix</th><th>Function</th><th>Example</th></tr>
+        <tr><td>-able/-ible</td><td>capable of</td><td>Readable, Visible</td></tr>
+        <tr><td>-er/-or</td><td>person who</td><td>Teacher, Actor</td></tr>
+        <tr><td>-ful</td><td>full of</td><td>Beautiful, Careful</td></tr>
+        <tr><td>-ist</td><td>person who does</td><td>Artist, Scientist</td></tr>
+        <tr><td>-less</td><td>without</td><td>Hopeless, Endless</td></tr>
+        <tr><td>-ly</td><td>in the manner of</td><td>Quickly, Slowly</td></tr>
+        <tr><td>-ness</td><td>state of being</td><td>Kindness, Happiness</td></tr>
+        <tr><td>-tion/-sion</td><td>act/state of</td><td>Action, Decision</td></tr>
+        <tr><td>-ity</td><td>state of</td><td>Activity, Reality</td></tr>
+        <tr><td>-ous</td><td>full of</td><td>Famous, Joyous</td></tr>
+        <tr><td>-cide</td><td>killing of</td><td>Suicide, Homicide</td></tr>
+        <tr><td>-cracy</td><td>rule of</td><td>Democracy, Aristocracy</td></tr>
+        <tr><td>-archy</td><td>government</td><td>Monarchy, Anarchy</td></tr>
+        <tr><td>-phile</td><td>lover of</td><td>Bibliophile, Anglophile</td></tr>
+        <tr><td>-phobia</td><td>fear of</td><td>Claustrophobia, Acrophobia</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Knowing roots helps decode hundreds of words.</li>
+        <li>Greek + Latin roots cover ~60% of complex English words.</li>
+        <li>"-cide" always means killing.</li>
+        <li>"-ology" always means study of.</li>
+        <li>"-phobia" always means fear of.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "'Bio' means:", opts: ["Life", "Light", "Earth", "Time"], a: 0, ex: "Greek bio = life." },
+      { q: "'-cide' means:", opts: ["Killing", "Loving", "Studying", "Knowing"], a: 0, ex: "-cide = killing." },
+      { q: "'Anti' means:", opts: ["For", "Against", "Above", "Below"], a: 1, ex: "Anti = against." },
+      { q: "'Re-' means:", opts: ["Before", "After", "Again", "Around"], a: 2, ex: "Re = again/back." },
+      { q: "'Hydro' means:", opts: ["Earth", "Water", "Fire", "Air"], a: 1, ex: "Hydro = water." },
+      { q: "'Phobia' means:", opts: ["Love", "Fear", "Study", "Killing"], a: 1, ex: "Phobia = fear." },
+      { q: "'Auto' means:", opts: ["Self", "Other", "Many", "Few"], a: 0, ex: "Auto = self." },
+      { q: "'Phil' means:", opts: ["Love", "Hate", "Study", "Power"], a: 0, ex: "Phil = love." },
+      { q: "'Tele' means:", opts: ["Near", "Far", "High", "Low"], a: 1, ex: "Tele = distant." },
+      { q: "'Sub' means:", opts: ["Above", "Below", "Around", "Between"], a: 1, ex: "Sub = under." },
+      { q: "'Bene' means:", opts: ["Bad", "Good", "Big", "Small"], a: 1, ex: "Bene = good." },
+      { q: "'Mal' means:", opts: ["Good", "Bad", "Big", "Small"], a: 1, ex: "Mal = bad." },
+      { q: "'Omni' means:", opts: ["None", "All", "Few", "Many"], a: 1, ex: "Omni = all." },
+      { q: "'Poly' means:", opts: ["One", "Two", "Many", "None"], a: 2, ex: "Poly = many." },
+      { q: "'Mono' means:", opts: ["One", "Two", "Three", "Many"], a: 0, ex: "Mono = one." },
+      { q: "'Geo' means:", opts: ["Sky", "Earth", "Sea", "Sun"], a: 1, ex: "Geo = earth." },
+      { q: "'Logy' means:", opts: ["Study of", "Killing of", "Love of", "Fear of"], a: 0, ex: "-logy = study of." },
+      { q: "'Cracy' means:", opts: ["Killing", "Study", "Government", "Love"], a: 2, ex: "-cracy = rule." },
+      { q: "'Anthropo' means:", opts: ["Animal", "Plant", "Human", "God"], a: 2, ex: "Anthropo = human." },
+      { q: "Anthropology means:", opts: ["Study of humans", "Study of plants", "Study of stars", "Study of animals"], a: 0, ex: "Anthropo + logy." },
+      { q: "Microscope is for seeing:", opts: ["Stars", "Small things", "Far things", "Hot things"], a: 1, ex: "Micro = small." },
+      { q: "'Pre-' means:", opts: ["Before", "After", "During", "Without"], a: 0, ex: "Pre = before." },
+      { q: "'Post-' means:", opts: ["Before", "After", "Above", "Below"], a: 1, ex: "Post = after." },
+      { q: "Pseudo means:", opts: ["True", "False", "Bright", "Dark"], a: 1, ex: "Pseudo = false." },
+      { q: "Aqua means:", opts: ["Air", "Fire", "Water", "Earth"], a: 2, ex: "Aqua = water." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 35. IMPORTANT/CONFUSING WORDS
+  // ───────────────────────────────────────────────────────────────
+  T["eng-important-words"] = {
+    body: `
+      <h2>Important / Confusing Words</h2>
+      <p>SSC frequently tests commonly-confused word pairs. Mastering these gets you easy marks.</p>
+
+      <h3>🔥 Top Confusing Word Pairs</h3>
+
+      <table>
+        <tr><th>Word</th><th>Meaning</th><th>Example</th></tr>
+        <tr><td><b>Accept</b> (v)</td><td>To receive</td><td>I accept your gift.</td></tr>
+        <tr><td><b>Except</b> (prep)</td><td>Excluding</td><td>All except him.</td></tr>
+        <tr><td><b>Affect</b> (v)</td><td>To influence</td><td>Smoking affects health.</td></tr>
+        <tr><td><b>Effect</b> (n)</td><td>Result</td><td>The effect was visible.</td></tr>
+        <tr><td><b>Advice</b> (n)</td><td>Suggestion</td><td>Take my advice.</td></tr>
+        <tr><td><b>Advise</b> (v)</td><td>To suggest</td><td>I advise you to study.</td></tr>
+        <tr><td><b>Allowed</b> (v)</td><td>Permitted</td><td>You are allowed.</td></tr>
+        <tr><td><b>Aloud</b> (adv)</td><td>Loudly</td><td>Read aloud.</td></tr>
+        <tr><td><b>Already</b> (adv)</td><td>Before now</td><td>Already done.</td></tr>
+        <tr><td><b>All ready</b> (phr)</td><td>All prepared</td><td>We are all ready.</td></tr>
+        <tr><td><b>Altogether</b> (adv)</td><td>Completely</td><td>I'm altogether confused.</td></tr>
+        <tr><td><b>All together</b></td><td>All in one group</td><td>We sat all together.</td></tr>
+        <tr><td><b>Beside</b> (prep)</td><td>Next to</td><td>Sit beside me.</td></tr>
+        <tr><td><b>Besides</b> (adv)</td><td>In addition to</td><td>Besides, he is good.</td></tr>
+        <tr><td><b>Born</b></td><td>Brought to life</td><td>She was born in Delhi.</td></tr>
+        <tr><td><b>Borne</b></td><td>Carried (pp of bear)</td><td>The cost is borne by me.</td></tr>
+        <tr><td><b>Brake</b> (n)</td><td>Stopping device</td><td>Press the brake.</td></tr>
+        <tr><td><b>Break</b> (v)</td><td>To shatter</td><td>Don't break it.</td></tr>
+        <tr><td><b>Capital</b></td><td>City / money / letter</td><td>Delhi is the capital.</td></tr>
+        <tr><td><b>Capitol</b></td><td>Government building (US)</td><td>The Capitol building.</td></tr>
+        <tr><td><b>Cite</b> (v)</td><td>To quote</td><td>Cite your source.</td></tr>
+        <tr><td><b>Site</b> (n)</td><td>Location</td><td>The website is good.</td></tr>
+        <tr><td><b>Sight</b> (n)</td><td>Vision</td><td>A beautiful sight.</td></tr>
+        <tr><td><b>Complement</b></td><td>Completion</td><td>His tie complements his suit.</td></tr>
+        <tr><td><b>Compliment</b></td><td>Praise</td><td>She gave me a compliment.</td></tr>
+        <tr><td><b>Conscience</b></td><td>Sense of right/wrong</td><td>Listen to your conscience.</td></tr>
+        <tr><td><b>Conscious</b></td><td>Aware</td><td>He is conscious.</td></tr>
+        <tr><td><b>Council</b></td><td>Group/assembly</td><td>City council met.</td></tr>
+        <tr><td><b>Counsel</b></td><td>Advice/lawyer</td><td>Seek counsel.</td></tr>
+        <tr><td><b>Desert</b> (n)</td><td>Dry sandy land</td><td>Sahara is a desert.</td></tr>
+        <tr><td><b>Dessert</b> (n)</td><td>Sweet dish</td><td>I want dessert.</td></tr>
+        <tr><td><b>Device</b> (n)</td><td>Instrument</td><td>This device works.</td></tr>
+        <tr><td><b>Devise</b> (v)</td><td>To plan</td><td>Devise a strategy.</td></tr>
+        <tr><td><b>Disinterested</b></td><td>Impartial</td><td>A disinterested judge.</td></tr>
+        <tr><td><b>Uninterested</b></td><td>Not interested</td><td>He is uninterested.</td></tr>
+        <tr><td><b>Eligible</b></td><td>Qualified</td><td>Eligible for the job.</td></tr>
+        <tr><td><b>Illegible</b></td><td>Unreadable</td><td>Illegible handwriting.</td></tr>
+        <tr><td><b>Emigrate</b></td><td>Leave country</td><td>Emigrate from India.</td></tr>
+        <tr><td><b>Immigrate</b></td><td>Move into country</td><td>Immigrate to US.</td></tr>
+        <tr><td><b>Eminent</b></td><td>Famous</td><td>Eminent scientist.</td></tr>
+        <tr><td><b>Imminent</b></td><td>About to happen</td><td>Imminent danger.</td></tr>
+        <tr><td><b>Farther</b></td><td>Physical distance</td><td>Farther down the road.</td></tr>
+        <tr><td><b>Further</b></td><td>Additional/extent</td><td>I need further help.</td></tr>
+        <tr><td><b>Fewer</b></td><td>Countable</td><td>Fewer apples.</td></tr>
+        <tr><td><b>Less</b></td><td>Uncountable</td><td>Less water.</td></tr>
+        <tr><td><b>Imply</b></td><td>Suggest indirectly</td><td>He implied a meaning.</td></tr>
+        <tr><td><b>Infer</b></td><td>Deduce</td><td>I infer from the data.</td></tr>
+        <tr><td><b>Lay</b> (v) — laid, laid</td><td>To put down</td><td>Lay the book here.</td></tr>
+        <tr><td><b>Lie</b> (v) — lay, lain</td><td>To recline</td><td>Lie on the bed.</td></tr>
+        <tr><td><b>Lend</b></td><td>To give temporarily</td><td>I'll lend you money.</td></tr>
+        <tr><td><b>Borrow</b></td><td>To take temporarily</td><td>I'll borrow from you.</td></tr>
+        <tr><td><b>Loose</b> (adj)</td><td>Not tight</td><td>Loose shirt.</td></tr>
+        <tr><td><b>Lose</b> (v)</td><td>To misplace/be defeated</td><td>Don't lose hope.</td></tr>
+        <tr><td><b>Personal</b></td><td>Private</td><td>Personal matter.</td></tr>
+        <tr><td><b>Personnel</b></td><td>Staff</td><td>Hire personnel.</td></tr>
+        <tr><td><b>Principal</b></td><td>Head/Main</td><td>School principal.</td></tr>
+        <tr><td><b>Principle</b></td><td>Rule/Doctrine</td><td>Moral principle.</td></tr>
+        <tr><td><b>Quiet</b> (adj)</td><td>Silent</td><td>Be quiet.</td></tr>
+        <tr><td><b>Quite</b> (adv)</td><td>Completely</td><td>Quite right.</td></tr>
+        <tr><td><b>Stationary</b> (adj)</td><td>Not moving</td><td>Stationary object.</td></tr>
+        <tr><td><b>Stationery</b> (n)</td><td>Writing materials</td><td>Buy stationery.</td></tr>
+        <tr><td><b>Then</b> (adv)</td><td>At that time</td><td>I called, then he came.</td></tr>
+        <tr><td><b>Than</b> (conj)</td><td>Comparison</td><td>Taller than me.</td></tr>
+        <tr><td><b>Their</b></td><td>Possessive</td><td>Their book.</td></tr>
+        <tr><td><b>There</b></td><td>In that place</td><td>Sit there.</td></tr>
+        <tr><td><b>They're</b></td><td>They are</td><td>They're here.</td></tr>
+        <tr><td><b>To</b></td><td>Towards</td><td>Go to school.</td></tr>
+        <tr><td><b>Too</b></td><td>Also/very</td><td>Me too.</td></tr>
+        <tr><td><b>Two</b></td><td>Number 2</td><td>Two apples.</td></tr>
+        <tr><td><b>Weather</b> (n)</td><td>Climate</td><td>Sunny weather.</td></tr>
+        <tr><td><b>Whether</b> (conj)</td><td>If/either</td><td>Whether or not.</td></tr>
+        <tr><td><b>Whose</b></td><td>Possessive</td><td>Whose book?</td></tr>
+        <tr><td><b>Who's</b></td><td>Who is</td><td>Who's there?</td></tr>
+        <tr><td><b>Your</b></td><td>Possessive</td><td>Your book.</td></tr>
+        <tr><td><b>You're</b></td><td>You are</td><td>You're right.</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Make a flashcard for each pair.</li>
+        <li>Look at part of speech — that often distinguishes pairs.</li>
+        <li>Use in context: "I 'accept' your suggestion" vs "All 'except' Ram".</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Choose correct: 'Your advice will __ me.' (a) effect (b) affect", opts: ["effect", "affect", "Both", "Neither"], a: 1, ex: "Affect = verb." },
+      { q: "Choose: 'Please __ my apology.'", opts: ["accept", "except", "expect", "respect"], a: 0, ex: "Accept = receive." },
+      { q: "Choose: 'She is __ on the bed.' (recline)", opts: ["laying", "lying", "lain", "lied"], a: 1, ex: "Lie (recline)." },
+      { q: "Choose: 'Don't __ your temper.'", opts: ["loose", "lose", "loss", "loosen"], a: 1, ex: "Lose = misplace." },
+      { q: "Choose: 'The two are __.'", opts: ["complement", "compliment", "complementing", "Both A and C"], a: 3, ex: "They complete each other." },
+      { q: "Choose: 'I will __ you a book.'", opts: ["lend", "borrow", "loan", "give"], a: 0, ex: "Lend = give temporarily." },
+      { q: "Choose: 'Their handwriting is __.'", opts: ["legible", "illegible", "eligible", "ineligible"], a: 1, ex: "Illegible = unreadable." },
+      { q: "Choose: 'He is the __ of our school.'", opts: ["principal", "principle", "principles", "principally"], a: 0, ex: "Principal = head." },
+      { q: "Choose: 'The two roads run __.' (next to each other)", opts: ["beside", "besides", "either", "between"], a: 0, ex: "Beside = next to." },
+      { q: "Choose: 'He __ to England.' (leaves)", opts: ["emigrated", "immigrated", "migrated", "All correct"], a: 0, ex: "Emigrate = leave." },
+      { q: "Choose: 'He is an __ scientist.' (famous)", opts: ["eminent", "imminent", "iminent", "immanent"], a: 0, ex: "Eminent = famous." },
+      { q: "Choose: 'Let's go __ this matter.'", opts: ["farther", "further", "either", "father"], a: 1, ex: "Further = additional." },
+      { q: "Choose: 'There are __ apples.' (countable)", opts: ["less", "fewer", "few", "many"], a: 1, ex: "Fewer for countable." },
+      { q: "Choose: 'Use __ water.'", opts: ["less", "fewer", "few", "many"], a: 0, ex: "Less for uncountable." },
+      { q: "Choose: 'A __ judge.' (impartial)", opts: ["disinterested", "uninterested", "interesting", "interested"], a: 0, ex: "Disinterested = impartial." },
+      { q: "Choose: 'I __ from the report.' (deduce)", opts: ["imply", "infer", "infer/imply", "expect"], a: 1, ex: "Infer = deduce." },
+      { q: "Choose: 'This is my __ matter.'", opts: ["personnel", "personal", "person", "persona"], a: 1, ex: "Personal = private." },
+      { q: "Choose: 'I bought __.'", opts: ["stationary", "stationery", "station", "stationer"], a: 1, ex: "Stationery (with -ery)." },
+      { q: "Choose: 'A __ object.' (not moving)", opts: ["stationary", "stationery", "moving", "fixed"], a: 0, ex: "Stationary = not moving." },
+      { q: "Choose: 'I came, __ I saw, __ I conquered.'", opts: ["then", "than", "but", "yet"], a: 0, ex: "Then = sequence." },
+      { q: "Choose: 'Taller __ me.'", opts: ["then", "than", "to", "from"], a: 1, ex: "Than = comparison." },
+      { q: "Choose: '__ raining today.'", opts: ["Its", "It's", "Their", "There"], a: 1, ex: "It's = it is." },
+      { q: "Choose: 'I don't know __ to go.'", opts: ["whether", "weather", "weather/whether", "either"], a: 0, ex: "Whether = if." },
+      { q: "Choose: '__ is your name?'", opts: ["Whose", "Who's", "Whom", "Whomsoever"], a: 1, ex: "Who's = who is." },
+      { q: "Choose: 'I sat __ him.' (next to)", opts: ["beside", "besides", "between", "near"], a: 0, ex: "Beside = next to." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 36. HOMONYMS / HOMOPHONES
+  // ───────────────────────────────────────────────────────────────
+  T["eng-homonyms"] = {
+    body: `
+      <h2>Homonyms / Homophones</h2>
+      <p><b>Homophones</b> = words that sound alike but have different meanings/spellings. <b>Homonyms</b> = same spelling but different meanings.</p>
+
+      <h3>🔥 Top SSC Homophones</h3>
+      <table>
+        <tr><th>Word 1</th><th>Meaning</th><th>Word 2</th><th>Meaning</th></tr>
+        <tr><td>Aid</td><td>Help</td><td>Aide</td><td>Assistant</td></tr>
+        <tr><td>Air</td><td>Atmosphere</td><td>Heir</td><td>One who inherits</td></tr>
+        <tr><td>Aisle</td><td>Passage</td><td>Isle</td><td>Island</td></tr>
+        <tr><td>Allowed</td><td>Permitted</td><td>Aloud</td><td>Loudly</td></tr>
+        <tr><td>Ate</td><td>Past of eat</td><td>Eight</td><td>Number 8</td></tr>
+        <tr><td>Ball</td><td>Round object</td><td>Bawl</td><td>Cry loudly</td></tr>
+        <tr><td>Bare</td><td>Naked</td><td>Bear</td><td>Animal / endure</td></tr>
+        <tr><td>Beach</td><td>Seashore</td><td>Beech</td><td>Tree</td></tr>
+        <tr><td>Beat</td><td>Strike</td><td>Beet</td><td>Vegetable</td></tr>
+        <tr><td>Berry</td><td>Fruit</td><td>Bury</td><td>Inter</td></tr>
+        <tr><td>Blew</td><td>Past of blow</td><td>Blue</td><td>Color</td></tr>
+        <tr><td>Bored</td><td>Uninterested</td><td>Board</td><td>Plank</td></tr>
+        <tr><td>Brake</td><td>Stop device</td><td>Break</td><td>Shatter</td></tr>
+        <tr><td>Bread</td><td>Food</td><td>Bred</td><td>Past of breed</td></tr>
+        <tr><td>By</td><td>Near</td><td>Buy</td><td>Purchase</td></tr>
+        <tr><td>Bye</td><td>Farewell</td><td>By/Buy</td><td>see above</td></tr>
+        <tr><td>Cell</td><td>Small room</td><td>Sell</td><td>Vend</td></tr>
+        <tr><td>Cent</td><td>Coin</td><td>Sent</td><td>Past of send</td></tr>
+        <tr><td>Cite</td><td>Quote</td><td>Site</td><td>Location</td></tr>
+        <tr><td>Coarse</td><td>Rough</td><td>Course</td><td>Path / class</td></tr>
+        <tr><td>Counsel</td><td>Advice</td><td>Council</td><td>Group</td></tr>
+        <tr><td>Dear</td><td>Beloved</td><td>Deer</td><td>Animal</td></tr>
+        <tr><td>Die</td><td>Pass away</td><td>Dye</td><td>Color</td></tr>
+        <tr><td>Doe</td><td>Female deer</td><td>Dough</td><td>Bread mixture</td></tr>
+        <tr><td>Eye</td><td>Vision organ</td><td>I</td><td>Self / Roman one</td></tr>
+        <tr><td>Fair</td><td>Just / market</td><td>Fare</td><td>Cost</td></tr>
+        <tr><td>Feat</td><td>Achievement</td><td>Feet</td><td>Plural of foot</td></tr>
+        <tr><td>Flour</td><td>Ground grain</td><td>Flower</td><td>Bloom</td></tr>
+        <tr><td>For</td><td>Preposition</td><td>Four</td><td>Number 4</td></tr>
+        <tr><td>Foul</td><td>Bad/dirty</td><td>Fowl</td><td>Bird</td></tr>
+        <tr><td>Grate</td><td>Shred/iron</td><td>Great</td><td>Excellent</td></tr>
+        <tr><td>Hair</td><td>On head</td><td>Hare</td><td>Rabbit</td></tr>
+        <tr><td>Heal</td><td>Cure</td><td>Heel</td><td>Back of foot</td></tr>
+        <tr><td>Hear</td><td>Listen</td><td>Here</td><td>This place</td></tr>
+        <tr><td>Hi</td><td>Hello</td><td>High</td><td>Tall</td></tr>
+        <tr><td>Hole</td><td>Opening</td><td>Whole</td><td>Entire</td></tr>
+        <tr><td>Knew</td><td>Past of know</td><td>New</td><td>Recent</td></tr>
+        <tr><td>Knight</td><td>Warrior</td><td>Night</td><td>Evening</td></tr>
+        <tr><td>Knot</td><td>Tied</td><td>Not</td><td>Negation</td></tr>
+        <tr><td>Know</td><td>Be aware</td><td>No</td><td>Negation</td></tr>
+        <tr><td>Lead (n)</td><td>Metal</td><td>Led (v)</td><td>Past of lead</td></tr>
+        <tr><td>Leak</td><td>Drip</td><td>Leek</td><td>Vegetable</td></tr>
+        <tr><td>Loan</td><td>Borrowed</td><td>Lone</td><td>Alone</td></tr>
+        <tr><td>Made</td><td>Past of make</td><td>Maid</td><td>Female servant</td></tr>
+        <tr><td>Mail</td><td>Post</td><td>Male</td><td>Masculine</td></tr>
+        <tr><td>Meat</td><td>Animal flesh</td><td>Meet</td><td>Encounter</td></tr>
+        <tr><td>Medal</td><td>Award</td><td>Meddle</td><td>Interfere</td></tr>
+        <tr><td>Might</td><td>Power/maybe</td><td>Mite</td><td>Tiny insect</td></tr>
+        <tr><td>Miner</td><td>Mine worker</td><td>Minor</td><td>Less / under-18</td></tr>
+        <tr><td>Missed</td><td>Failed to get</td><td>Mist</td><td>Fog</td></tr>
+        <tr><td>Need</td><td>Require</td><td>Knead</td><td>Press dough</td></tr>
+        <tr><td>One</td><td>Number 1</td><td>Won</td><td>Past of win</td></tr>
+        <tr><td>Pail</td><td>Bucket</td><td>Pale</td><td>Light-colored</td></tr>
+        <tr><td>Pain</td><td>Hurt</td><td>Pane</td><td>Glass</td></tr>
+        <tr><td>Pair</td><td>Two</td><td>Pear</td><td>Fruit</td></tr>
+        <tr><td>Past</td><td>Time gone</td><td>Passed</td><td>Crossed</td></tr>
+        <tr><td>Peace</td><td>Calm</td><td>Piece</td><td>Part</td></tr>
+        <tr><td>Peer</td><td>Equal/look</td><td>Pier</td><td>Wharf</td></tr>
+        <tr><td>Plane</td><td>Aircraft</td><td>Plain</td><td>Simple / flat land</td></tr>
+        <tr><td>Pour</td><td>Flow</td><td>Pore</td><td>Skin opening</td></tr>
+        <tr><td>Pray</td><td>Worship</td><td>Prey</td><td>Hunted animal</td></tr>
+        <tr><td>Profit</td><td>Gain</td><td>Prophet</td><td>Seer</td></tr>
+        <tr><td>Rain</td><td>Water</td><td>Reign</td><td>Rule</td></tr>
+        <tr><td>Read</td><td>Read book</td><td>Reed</td><td>Plant</td></tr>
+        <tr><td>Right</td><td>Correct</td><td>Write</td><td>Compose</td></tr>
+        <tr><td>Right</td><td>Direction</td><td>Rite</td><td>Ceremony</td></tr>
+        <tr><td>Ring</td><td>Circle</td><td>Wring</td><td>Twist</td></tr>
+        <tr><td>Road</td><td>Path</td><td>Rode</td><td>Past of ride</td></tr>
+        <tr><td>Role</td><td>Part to play</td><td>Roll</td><td>Turn over</td></tr>
+        <tr><td>Sail</td><td>Boat travel</td><td>Sale</td><td>Selling</td></tr>
+        <tr><td>Scene</td><td>View</td><td>Seen</td><td>Past part of see</td></tr>
+        <tr><td>Sea</td><td>Ocean</td><td>See</td><td>Look</td></tr>
+        <tr><td>Seam</td><td>Joint</td><td>Seem</td><td>Appear</td></tr>
+        <tr><td>Sole</td><td>Only</td><td>Soul</td><td>Spirit</td></tr>
+        <tr><td>Some</td><td>A few</td><td>Sum</td><td>Total</td></tr>
+        <tr><td>Son</td><td>Male child</td><td>Sun</td><td>Star</td></tr>
+        <tr><td>Stair</td><td>Step</td><td>Stare</td><td>Look fixedly</td></tr>
+        <tr><td>Steal</td><td>Take wrongly</td><td>Steel</td><td>Metal</td></tr>
+        <tr><td>Sweet</td><td>Sugary</td><td>Suite</td><td>Set of rooms</td></tr>
+        <tr><td>Tail</td><td>End</td><td>Tale</td><td>Story</td></tr>
+        <tr><td>Threw</td><td>Past of throw</td><td>Through</td><td>Across</td></tr>
+        <tr><td>Tide</td><td>Sea level</td><td>Tied</td><td>Past of tie</td></tr>
+        <tr><td>Toe</td><td>Foot digit</td><td>Tow</td><td>Pull</td></tr>
+        <tr><td>Vale</td><td>Valley</td><td>Veil</td><td>Cover</td></tr>
+        <tr><td>Vain</td><td>Conceited</td><td>Vein</td><td>Blood vessel</td></tr>
+        <tr><td>Waist</td><td>Body part</td><td>Waste</td><td>Squander</td></tr>
+        <tr><td>Wait</td><td>Stay</td><td>Weight</td><td>Heaviness</td></tr>
+        <tr><td>Way</td><td>Path</td><td>Weigh</td><td>Measure mass</td></tr>
+        <tr><td>Weak</td><td>Not strong</td><td>Week</td><td>7 days</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Use in sentences — context fixes meaning.</li>
+        <li>Watch for the spelling — they sound alike but write differently.</li>
+        <li>Common SSC traps: principal/principle, stationary/stationery, accept/except.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Choose: 'I went to the __.' (seashore)", opts: ["beach", "beech", "bitch", "patch"], a: 0, ex: "Beach = shore." },
+      { q: "Choose: '__ of horses ran' (animals)", opts: ["pair", "pear", "pare", "par"], a: 0, ex: "Pair = two." },
+      { q: "Choose: 'He __ the bell yesterday.'", opts: ["rang", "wrong", "wrong", "wrung"], a: 0, ex: "Rang (past of ring)." },
+      { q: "Choose: '__ stories' (tales)", opts: ["Tales", "Tails", "Tells", "Tools"], a: 0, ex: "Tale = story." },
+      { q: "Choose: 'I __ the test' (passed)", opts: ["passed", "past", "post", "paste"], a: 0, ex: "Passed = verb." },
+      { q: "Choose: '__ for peace'", opts: ["pray", "prey", "play", "preview"], a: 0, ex: "Pray = worship." },
+      { q: "Choose: '__ of bread' (slice)", opts: ["piece", "peace", "place", "preach"], a: 0, ex: "Piece = part." },
+      { q: "Choose: '__ of paper' (white sheet)", opts: ["pail", "pale", "pane", "Plain"], a: 3, ex: "Plain paper." },
+      { q: "Choose: '__ a guitar' (own)", opts: ["bare", "bear", "bore", "bear/bare"], a: 1, ex: "Bear (own/carry)." },
+      { q: "Choose: 'My __ is the captain' (father)", opts: ["heir", "air", "aire", "ere"], a: 1, ex: "Not specific — but 'air' is wrong here." },
+      { q: "Choose: 'Iron __' (Indian product)", opts: ["ore", "or", "oar", "o'er"], a: 0, ex: "Ore = mineral rock." },
+      { q: "Choose: 'A __ of light' (beam)", opts: ["ray", "ree", "rye", "raye"], a: 0, ex: "Ray of light." },
+      { q: "Choose: 'I felt __' (uninterested)", opts: ["bored", "board", "borde", "bord"], a: 0, ex: "Bored = adjective." },
+      { q: "Choose: '__ the ball' (caught)", opts: ["seized", "ceased", "sees", "seas"], a: 0, ex: "Seized = grabbed." },
+      { q: "Choose: '__ to school' (move)", opts: ["walked", "wokked", "walkt", "waked"], a: 0, ex: "Walked = past." },
+      { q: "Choose: '__ for the bus' (anticipate)", opts: ["wait", "weight", "wite", "white"], a: 0, ex: "Wait = stay." },
+      { q: "Choose: 'I am __' (not strong)", opts: ["weak", "week", "wick", "wake"], a: 0, ex: "Weak = feeble." },
+      { q: "Choose: 'A __ of cookies' (group)", opts: ["pack", "pact", "packed", "back"], a: 0, ex: "Pack = group." },
+      { q: "Choose: '__ over the table' (across)", opts: ["over", "ova", "lover", "older"], a: 0, ex: "Over." },
+      { q: "Choose: '__ of water' (rain)", opts: ["pour", "pore", "poor", "tour"], a: 0, ex: "Pour = flow." },
+      { q: "Choose: '__ in the morning' (sunrise)", opts: ["dawn", "down", "den", "dune"], a: 0, ex: "Dawn = sunrise." },
+      { q: "Choose: '__ off your shoes' (remove)", opts: ["take", "took", "taken", "taking"], a: 0, ex: "Take off." },
+      { q: "Choose: 'I __ paper' (compose)", opts: ["write", "right", "rite", "writ"], a: 0, ex: "Write = compose." },
+      { q: "Choose: 'The Queen's __' (rule)", opts: ["reign", "rain", "rein", "reins"], a: 0, ex: "Reign = rule." },
+      { q: "Choose: 'A __ between two trees' (sail)", opts: ["sail", "sale", "sael", "saile"], a: 0, ex: "Sail = boat travel." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 37. MISSPELT WORDS / SPELLING
+  // ───────────────────────────────────────────────────────────────
+  T["eng-misspelt"] = {
+    body: `
+      <h2>Misspelt Words / Spelling</h2>
+      <p>Identify the wrongly-spelled word from 4 options. SSC asks 1-2 questions of this type. The trick: spot common spelling traps.</p>
+
+      <h3>🔥 Top 100 Tricky Spellings (Correct Forms)</h3>
+      <p>Memorize these — they're the ones MOST often misspelt:</p>
+
+      <table>
+        <tr><th>Correct</th><th>Common Wrong Forms</th></tr>
+        <tr><td>Accommodation</td><td>Accomodation, Acommodation</td></tr>
+        <tr><td>Achieve</td><td>Acheive</td></tr>
+        <tr><td>Acquaintance</td><td>Aquaintance, Aquaintence</td></tr>
+        <tr><td>Acquit</td><td>Aquit</td></tr>
+        <tr><td>Address</td><td>Adress, Addres</td></tr>
+        <tr><td>Aggravate</td><td>Agravate</td></tr>
+        <tr><td>Aggression</td><td>Agression</td></tr>
+        <tr><td>Allegiance</td><td>Allegience</td></tr>
+        <tr><td>Already</td><td>Allready</td></tr>
+        <tr><td>Amateur</td><td>Ameture, Amature</td></tr>
+        <tr><td>Apparent</td><td>Aparent</td></tr>
+        <tr><td>Appearance</td><td>Apparance, Apperance</td></tr>
+        <tr><td>Argument</td><td>Arguement</td></tr>
+        <tr><td>Ascend</td><td>Acend</td></tr>
+        <tr><td>Assassinate</td><td>Asasinate, Assasinate</td></tr>
+        <tr><td>Attendance</td><td>Atendance, Attendence</td></tr>
+        <tr><td>Beautiful</td><td>Beautifull, Beutiful</td></tr>
+        <tr><td>Believe</td><td>Beleive</td></tr>
+        <tr><td>Beneficial</td><td>Beneficiall, Benficial</td></tr>
+        <tr><td>Business</td><td>Buisness, Bussiness</td></tr>
+        <tr><td>Calendar</td><td>Calender</td></tr>
+        <tr><td>Cemetery</td><td>Cemetary, Cemetary</td></tr>
+        <tr><td>Changeable</td><td>Changable</td></tr>
+        <tr><td>Colonel</td><td>Coronel, Kernel (this is correct spelling, just sounds different)</td></tr>
+        <tr><td>Committee</td><td>Comittee, Comitee</td></tr>
+        <tr><td>Conscience</td><td>Concience</td></tr>
+        <tr><td>Conscious</td><td>Concious</td></tr>
+        <tr><td>Convenience</td><td>Convenence, Conveinence</td></tr>
+        <tr><td>Correspondence</td><td>Correspondance</td></tr>
+        <tr><td>Definitely</td><td>Definately, Definitly</td></tr>
+        <tr><td>Descend</td><td>Desend</td></tr>
+        <tr><td>Description</td><td>Discription</td></tr>
+        <tr><td>Difficulty</td><td>Dificulty</td></tr>
+        <tr><td>Disappear</td><td>Dissappear</td></tr>
+        <tr><td>Disappointment</td><td>Dissappointment, Disapointment</td></tr>
+        <tr><td>Discipline</td><td>Disipline, Dicipline</td></tr>
+        <tr><td>Embarrass</td><td>Embarass, Embaras</td></tr>
+        <tr><td>Environment</td><td>Enviorment, Environement</td></tr>
+        <tr><td>Equipment</td><td>Equiptment</td></tr>
+        <tr><td>Exaggerate</td><td>Exagerate</td></tr>
+        <tr><td>Excellent</td><td>Excelent</td></tr>
+        <tr><td>Exhilarate</td><td>Exilirate, Exhilirate</td></tr>
+        <tr><td>Existence</td><td>Existance</td></tr>
+        <tr><td>Familiar</td><td>Familier, Familar</td></tr>
+        <tr><td>February</td><td>Feburary</td></tr>
+        <tr><td>Foreign</td><td>Foriegn</td></tr>
+        <tr><td>Forty</td><td>Fourty</td></tr>
+        <tr><td>Friend</td><td>Freind</td></tr>
+        <tr><td>Government</td><td>Goverment</td></tr>
+        <tr><td>Grammar</td><td>Grammer</td></tr>
+        <tr><td>Grateful</td><td>Greatful</td></tr>
+        <tr><td>Guarantee</td><td>Garantee, Guarrantee</td></tr>
+        <tr><td>Harass</td><td>Harras</td></tr>
+        <tr><td>Height</td><td>Heigth, Hieght</td></tr>
+        <tr><td>Hindrance</td><td>Hinderance</td></tr>
+        <tr><td>Hygiene</td><td>Hygeine</td></tr>
+        <tr><td>Immediate</td><td>Immediete, Imediate</td></tr>
+        <tr><td>Independent</td><td>Independant</td></tr>
+        <tr><td>Indispensable</td><td>Indispensible</td></tr>
+        <tr><td>Intelligent</td><td>Inteligent</td></tr>
+        <tr><td>Interfere</td><td>Interferre, Interfeere</td></tr>
+        <tr><td>Interrupt</td><td>Interupt</td></tr>
+        <tr><td>Irrelevant</td><td>Irelevant, Irrevelant</td></tr>
+        <tr><td>Knowledge</td><td>Knowlege, Knowlegde</td></tr>
+        <tr><td>Laboratory</td><td>Labratory</td></tr>
+        <tr><td>Leisure</td><td>Liesure</td></tr>
+        <tr><td>Lieutenant</td><td>Liutenent, Leuitenant</td></tr>
+        <tr><td>Liaison</td><td>Liason</td></tr>
+        <tr><td>Library</td><td>Libary</td></tr>
+        <tr><td>License</td><td>Lisence, Liscense</td></tr>
+        <tr><td>Maintenance</td><td>Maintainance, Maintnance</td></tr>
+        <tr><td>Maneuver</td><td>Manoever</td></tr>
+        <tr><td>Manageable</td><td>Managable</td></tr>
+        <tr><td>Mathematics</td><td>Mathmatics</td></tr>
+        <tr><td>Millennium</td><td>Milennium, Millenium</td></tr>
+        <tr><td>Miniature</td><td>Minature</td></tr>
+        <tr><td>Mischievous</td><td>Mischevious, Mischievious</td></tr>
+        <tr><td>Misspell</td><td>Mispell</td></tr>
+        <tr><td>Necessary</td><td>Neccessary, Necesary</td></tr>
+        <tr><td>Niece</td><td>Neice</td></tr>
+        <tr><td>Noticeable</td><td>Noticable</td></tr>
+        <tr><td>Occasion</td><td>Ocassion, Occassion</td></tr>
+        <tr><td>Occurrence</td><td>Occurance, Occurence</td></tr>
+        <tr><td>Omission</td><td>Ommission</td></tr>
+        <tr><td>Parallel</td><td>Paralel, Paralell</td></tr>
+        <tr><td>Parliament</td><td>Parlament, Parliment</td></tr>
+        <tr><td>Pavilion</td><td>Pavillion</td></tr>
+        <tr><td>Perseverance</td><td>Perseverence, Persevearance</td></tr>
+        <tr><td>Personnel</td><td>Personell, Personel</td></tr>
+        <tr><td>Pleasant</td><td>Pleasent</td></tr>
+        <tr><td>Possession</td><td>Posession</td></tr>
+        <tr><td>Privilege</td><td>Priviledge, Privelege</td></tr>
+        <tr><td>Professor</td><td>Proffesor, Professer</td></tr>
+        <tr><td>Pronunciation</td><td>Pronounciation</td></tr>
+        <tr><td>Psychology</td><td>Psycology, Sychology</td></tr>
+        <tr><td>Questionnaire</td><td>Questionaire</td></tr>
+        <tr><td>Receive</td><td>Recieve</td></tr>
+        <tr><td>Recommend</td><td>Recomend, Recomendd</td></tr>
+        <tr><td>Reference</td><td>Refrence</td></tr>
+        <tr><td>Restaurant</td><td>Restraunt, Resturant</td></tr>
+        <tr><td>Rhythm</td><td>Rythm, Rhythem</td></tr>
+        <tr><td>Schedule</td><td>Sehedule, Schedule</td></tr>
+        <tr><td>Separate</td><td>Seperate</td></tr>
+        <tr><td>Sergeant</td><td>Sargeant</td></tr>
+        <tr><td>Sincerely</td><td>Sincerly, Sincierly</td></tr>
+        <tr><td>Soldier</td><td>Solder</td></tr>
+        <tr><td>Successful</td><td>Successfull, Succesful</td></tr>
+        <tr><td>Supersede</td><td>Supercede</td></tr>
+        <tr><td>Surprise</td><td>Suprise, Surpise</td></tr>
+        <tr><td>Sympathy</td><td>Sympathey, Sympathy</td></tr>
+        <tr><td>Temperature</td><td>Tempreture</td></tr>
+        <tr><td>Their</td><td>Thier</td></tr>
+        <tr><td>Thorough</td><td>Throrough, Thurough</td></tr>
+        <tr><td>Tomorrow</td><td>Tommorrow, Tomorow</td></tr>
+        <tr><td>Tournament</td><td>Tornament</td></tr>
+        <tr><td>Tragedy</td><td>Tragady, Tradegy</td></tr>
+        <tr><td>Tyranny</td><td>Tyrany, Tirany</td></tr>
+        <tr><td>Unforeseen</td><td>Unforseen</td></tr>
+        <tr><td>Unnecessary</td><td>Unneccessary</td></tr>
+        <tr><td>Vacuum</td><td>Vaccum, Vacumm</td></tr>
+        <tr><td>Vengeance</td><td>Vengence</td></tr>
+        <tr><td>Wednesday</td><td>Wensday, Wednesay</td></tr>
+        <tr><td>Weird</td><td>Wierd</td></tr>
+        <tr><td>Withhold</td><td>Withold</td></tr>
+        <tr><td>Yacht</td><td>Yatch, Yatchht</td></tr>
+      </table>
+
+      <h3>🔥 Spelling Rules</h3>
+
+      <h4>1. "I before E except after C"</h4>
+      <ul>
+        <li>Believe, achieve, receive (with c → ei).</li>
+        <li>Exceptions: weird, seize, neither.</li>
+      </ul>
+
+      <h4>2. Doubling Consonants</h4>
+      <p>When verb ends in single consonant + vowel + consonant (CVC), double the last consonant when adding -ed, -ing, -er.</p>
+      <ul>
+        <li>Run → running (CVC, double n).</li>
+        <li>Stop → stopping.</li>
+        <li>Sit → sitting.</li>
+      </ul>
+
+      <h4>3. Silent Letters</h4>
+      <ul>
+        <li>Silent K: knee, knight, knot.</li>
+        <li>Silent W: wrist, write.</li>
+        <li>Silent B: lamb, comb, climb.</li>
+        <li>Silent L: calf, half, would, could.</li>
+        <li>Silent G: gnome, design, sign.</li>
+      </ul>
+
+      <h4>4. Y to I</h4>
+      <p>If a word ends in consonant + y, change y to i when adding suffix.</p>
+      <ul>
+        <li>Carry → carried, carries.</li>
+        <li>Happy → happiest, happily.</li>
+      </ul>
+
+      <h4>5. Drop Silent E</h4>
+      <p>Drop silent "e" before adding suffix starting with vowel.</p>
+      <ul>
+        <li>Hope → hoping.</li>
+        <li>Make → making.</li>
+        <li>Use → using.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Read aloud — common errors get caught.</li>
+        <li>Memorize 5-10 tricky words daily.</li>
+        <li>For SSC, focus on most-tested words: necessary, occurrence, accommodation, embarrass, etc.</li>
+        <li>Watch for double consonants: occurrence, embarrass, accommodation.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Which is correctly spelt?", opts: ["Accomodation", "Accommodation", "Acommodation", "Accommadation"], a: 1, ex: "Accommodation has 2 c's and 2 m's." },
+      { q: "Which is correctly spelt?", opts: ["Beleive", "Belive", "Believe", "Beleeve"], a: 2, ex: "Believe (i before e except after c)." },
+      { q: "Which is correctly spelt?", opts: ["Recieve", "Receive", "Receeve", "Reciev"], a: 1, ex: "Receive (after c, ei)." },
+      { q: "Which is correctly spelt?", opts: ["Embarass", "Embarrass", "Embaras", "Embarrass"], a: 3, ex: "Embarrass (2 r's, 2 s's)." },
+      { q: "Which is correctly spelt?", opts: ["Acheive", "Achieve", "Acheeve", "Achievee"], a: 1, ex: "Achieve." },
+      { q: "Which is correctly spelt?", opts: ["Necesary", "Neccessary", "Necessary", "Neccesary"], a: 2, ex: "Necessary (1 c, 2 s's)." },
+      { q: "Which is correctly spelt?", opts: ["Definately", "Definitely", "Definatly", "Defenetely"], a: 1, ex: "Definitely." },
+      { q: "Which is correctly spelt?", opts: ["Seperate", "Saparate", "Separate", "Seperete"], a: 2, ex: "Separate (sep-a-rate)." },
+      { q: "Which is correctly spelt?", opts: ["Occasion", "Ocassion", "Occassion", "Occassions"], a: 0, ex: "Occasion (2 c's, 1 s)." },
+      { q: "Which is correctly spelt?", opts: ["Calendar", "Calender", "Calandar", "Calandar"], a: 0, ex: "Calendar (with 'ar' at end)." },
+      { q: "Which is correctly spelt?", opts: ["Goverment", "Government", "Govrnment", "Governmant"], a: 1, ex: "Government." },
+      { q: "Which is correctly spelt?", opts: ["Grammer", "Grammar", "Grammor", "Grammar"], a: 1, ex: "Grammar." },
+      { q: "Which is correctly spelt?", opts: ["Comittee", "Comitee", "Committee", "Commitee"], a: 2, ex: "Committee (2 m's, 2 t's, 2 e's)." },
+      { q: "Which is correctly spelt?", opts: ["Foriegn", "Forieng", "Foreign", "Forein"], a: 2, ex: "Foreign (ei, not ie)." },
+      { q: "Which is correctly spelt?", opts: ["Wensday", "Wednesday", "Wedensday", "Wensday"], a: 1, ex: "Wednesday." },
+      { q: "Which is correctly spelt?", opts: ["Tommorrow", "Tomorow", "Tomorrow", "Tommorow"], a: 2, ex: "Tomorrow (1 m, 2 r's)." },
+      { q: "Which is correctly spelt?", opts: ["Existance", "Existence", "Existense", "Exsistance"], a: 1, ex: "Existence." },
+      { q: "Which is correctly spelt?", opts: ["Suprise", "Surprise", "Surpise", "Suprize"], a: 1, ex: "Surprise." },
+      { q: "Which is correctly spelt?", opts: ["Knowlege", "Knowledge", "Knowlegde", "Knowleege"], a: 1, ex: "Knowledge." },
+      { q: "Which is correctly spelt?", opts: ["Concious", "Conscious", "Conshious", "Counscious"], a: 1, ex: "Conscious." },
+      { q: "Which is correctly spelt?", opts: ["Liesure", "Leisure", "Liesur", "Leasure"], a: 1, ex: "Leisure." },
+      { q: "Which is correctly spelt?", opts: ["Mischievious", "Mischievous", "Mischevious", "Mischievious"], a: 1, ex: "Mischievous." },
+      { q: "Which is correctly spelt?", opts: ["Wierd", "Wired", "Weird", "Weirde"], a: 2, ex: "Weird (exception to i before e)." },
+      { q: "Which is correctly spelt?", opts: ["Argueing", "Arguing", "Argueing", "Argueng"], a: 1, ex: "Arguing (drop e from argue)." },
+      { q: "Which is correctly spelt?", opts: ["Beautifull", "Beautyful", "Beautiful", "Beutifull"], a: 2, ex: "Beautiful (one l)." }
+    ]
+  };
+
 })();
