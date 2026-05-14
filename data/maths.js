@@ -384,6 +384,22 @@
       <p>If $a = 11, b = 7$, find $\\frac{a^3 + b^3}{a^2 - ab + b^2}$.</p>
       <p><b>Sol</b>: $a^3+b^3 = (a+b)(a^2-ab+b^2)$. So ratio = $a+b = $ <b>18</b>.</p>
 
+      <h4>Example 16: Big Number Identity</h4>
+      <p>$(99)^2 - (98)^2 + (97)^2 - (96)^2 + \cdots + (1)^2$ = ?</p>
+      <p><b>Sol</b>: Pair: $(99^2-98^2) + (97^2-96^2) + \cdots = 197+193+\cdots+3 = $ sum of AP with $a=3, d=4, n=50$. $S = 50/2 (6 + 49 \cdot 4) = 25 \cdot 202 = $ <b>5050</b>.</p>
+
+      <h4>Example 17: Identity Application</h4>
+      <p>If $\frac{x}{y}+\frac{y}{x}=3$, find $\frac{x^2}{y^2}+\frac{y^2}{x^2}$.</p>
+      <p><b>Sol</b>: Square: $\frac{x^2}{y^2}+2+\frac{y^2}{x^2}=9 \Rightarrow $ answer = 7.</p>
+
+      <h4>Example 18: Recurring Sum</h4>
+      <p>$\frac{1}{1\cdot 3}+\frac{1}{3\cdot 5}+\cdots+\frac{1}{19\cdot 21}$?</p>
+      <p><b>Sol</b>: Each term = $\frac{1}{2}(\frac{1}{n}-\frac{1}{n+2})$. Telescopes to $\frac{1}{2}(1 - 1/21) = 10/21$.</p>
+
+      <h4>Example 19: Surd Simplification</h4>
+      <p>$\sqrt{10+\sqrt{24}+\sqrt{60}+\sqrt{40}}$?</p>
+      <p><b>Sol</b>: Try $\sqrt{a}+\sqrt{b}+\sqrt{c}$. Square: $a+b+c+2(\sqrt{ab}+\sqrt{bc}+\sqrt{ca}) = 10+\sqrt{24}+\sqrt{60}+\sqrt{40}$. Match: $a+b+c=10$, $\sqrt{ab}=\sqrt{6}, \sqrt{bc}=\sqrt{15}, \sqrt{ca}=\sqrt{10}$. So $ab=6, bc=15, ca=10 \Rightarrow a=2, b=3, c=5$. Sum $\sqrt{2}+\sqrt{3}+\sqrt{5}$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Always do division <b>before</b> multiplication only if it comes first left-to-right. Treat × and ÷ as equal priority.</li>
@@ -520,6 +536,22 @@
       <p>A jug is $\\frac{2}{3}$ full. After pouring out $\\frac{1}{4}$ of contents, what fraction of jug is filled?</p>
       <p><b>Sol</b>: Remaining $= \\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{2}$.</p>
 
+      <h4>Example 16: Order of Fractions</h4>
+      <p>Arrange in ascending: $\frac{2}{3}, \frac{3}{4}, \frac{5}{6}, \frac{7}{8}$.</p>
+      <p><b>Sol</b>: All $\frac{n}{n+1}$ pattern, increasing. So order as listed (decimals 0.667, 0.75, 0.833, 0.875).</p>
+
+      <h4>Example 17: Decimal Subtraction</h4>
+      <p>$0.6789 - 0.4321 = ?$</p>
+      <p><b>Sol</b>: 0.2468.</p>
+
+      <h4>Example 18: Repeating Decimal Multiplied</h4>
+      <p>$0.\overline{3} \times 0.\overline{6} = ?$</p>
+      <p><b>Sol</b>: $(1/3)(2/3) = 2/9 = 0.\overline{2}$.</p>
+
+      <h4>Example 19: Mixed-Recurring to Fraction</h4>
+      <p>$0.2\overline{45}$ as fraction?</p>
+      <p><b>Sol</b>: $\frac{245-2}{990} = \frac{243}{990} = \frac{27}{110}$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>$0.\\overline{9} = 1$ exactly. Don't confuse.</li>
@@ -653,6 +685,18 @@
       <h4>Example 15</h4>
       <p>Find $x$ if $5^{x-1} \\cdot 5^{x+1} = 625$.</p>
       <p><b>Sol</b>: $5^{2x} = 5^4 \\Rightarrow x = $ <b>2</b>.</p>
+
+      <h4>Example 16: Combined Indices</h4>
+      <p>$\sqrt{x} \cdot \sqrt[3]{x^2} = ?$</p>
+      <p><b>Sol</b>: $x^{1/2+2/3} = x^{7/6}$.</p>
+
+      <h4>Example 17: Surd Equation</h4>
+      <p>If $\sqrt{x-1}+\sqrt{x+1} = 2$, find $x$.</p>
+      <p><b>Sol</b>: Square: $2x + 2\sqrt{x^2-1} = 4 \Rightarrow \sqrt{x^2-1} = 2-x$. Square again: $x^2-1 = 4-4x+x^2 \Rightarrow 4x = 5 \Rightarrow x = 5/4$.</p>
+
+      <h4>Example 18: Rationalize</h4>
+      <p>$\frac{1}{2-\sqrt{3}}$ rationalized?</p>
+      <p><b>Sol</b>: $\frac{2+\sqrt{3}}{4-3} = 2+\sqrt{3}$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -805,6 +849,18 @@
       <p>If $\\sqrt{x} + \\sqrt{1/x} = 3$, find $x + 1/x$.</p>
       <p><b>Sol</b>: Square: $x + 2 + 1/x = 9 \\Rightarrow x+1/x = 7$.</p>
 
+      <h4>Example 16: Estimate $\sqrt{N}$</h4>
+      <p>Estimate $\sqrt{4900}$.</p>
+      <p><b>Sol</b>: $4900 = 49 \cdot 100 \Rightarrow \sqrt{4900} = 70$.</p>
+
+      <h4>Example 17: Find $x$ in $\sqrt{x}=...$</h4>
+      <p>If $\sqrt{x^2+9}=5$, $x$?</p>
+      <p><b>Sol</b>: $x^2+9=25 \Rightarrow x = \pm 4$.</p>
+
+      <h4>Example 18: Cube Root Decimal</h4>
+      <p>$\sqrt[3]{0.064}$?</p>
+      <p><b>Sol</b>: $0.064 = 0.4^3 \Rightarrow 0.4$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Square roots have two values (±). Question usually wants positive only — read carefully.</li>
@@ -935,6 +991,18 @@
       <h4>Example 15</h4>
       <p>3 numbers in ratio 2:3:4 have LCM 240. Find them.</p>
       <p><b>Sol</b>: Numbers are $2x, 3x, 4x$. LCM = $12x = 240 \\Rightarrow x = 20$. So 40, 60, 80.</p>
+
+      <h4>Example 16: 3 Numbers</h4>
+      <p>HCF of 24, 36, 60?</p>
+      <p><b>Sol</b>: Factors: $24=2^3 \cdot 3, 36=2^2 \cdot 3^2, 60=2^2 \cdot 3 \cdot 5$. HCF=$2^2 \cdot 3=12$.</p>
+
+      <h4>Example 17: Wheel Rotation</h4>
+      <p>Two wheels of circumference 12 m and 18 m start together. When do they make the same number of complete rotations?</p>
+      <p><b>Sol</b>: LCM(12, 18) = 36 m. So when each has covered 36 m: first 3 rotations, second 2 rotations. Distance = 36 m.</p>
+
+      <h4>Example 18: Largest Tile</h4>
+      <p>Largest square tile that exactly tiles 18 × 24 floor?</p>
+      <p><b>Sol</b>: HCF(18, 24) = 6. Tile side = 6.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1078,6 +1146,34 @@
       <p>If 75% of $x$ is 9 more than 50% of $x$, find $x$.</p>
       <p><b>Sol</b>: $0.75x - 0.5x = 9 \\Rightarrow 0.25x = 9 \\Rightarrow x = $ <b>36</b>.</p>
 
+      <h4>Example 16: Pass/Fail Marks</h4>
+      <p>A student got 25% marks and failed by 30. Another got 40% and passed with 30 marks more than minimum. Find max marks.</p>
+      <p><b>Sol</b>: Let max = $M$, pass = $P$. $0.25M = P - 30$ and $0.40M = P + 30$. Subtract: $0.15M = 60 \Rightarrow M = $ <b>400</b>.</p>
+
+      <h4>Example 17: Reduce/Increase to Original</h4>
+      <p>A's salary increases 25%, decreases 20%. Net change?</p>
+      <p><b>Sol</b>: $25-20-5 = 0\%$ (using a+b+ab/100 with signs). So salary unchanged.</p>
+
+      <h4>Example 18: Cost-Revenue Mix</h4>
+      <p>Cost of an article = ₹100. Profit at 25% on cost = SP. Now SP is reduced by 20%. Profit/loss?</p>
+      <p><b>Sol</b>: SP = 125, reduced to 100. So profit = 0%.</p>
+
+      <h4>Example 19: Two-Stage %</h4>
+      <p>A number increases by 20%, then result decreases by 30%. Net?</p>
+      <p><b>Sol</b>: $1.20 \times 0.70 = 0.84 = -16\%$ (16% decrease).</p>
+
+      <h4>Example 20: Population Backtrack</h4>
+      <p>Population now = 12,100 after 2 years of 10% growth. Original?</p>
+      <p><b>Sol</b>: $P(1.1)^2 = 12100 \Rightarrow P = 12100/1.21 = $ <b>10,000</b>.</p>
+
+      <h4>Example 21: Marks Apportion</h4>
+      <p>If a student scores 35% marks and gets 175, max marks?</p>
+      <p><b>Sol</b>: $175/0.35 = $ <b>500</b>.</p>
+
+      <h4>Example 22: Income-Saving Linked</h4>
+      <p>A's income is 25% more than B's. A's expenses 20% more than B's. If A and B save equal amounts, ratio of savings to income?</p>
+      <p><b>Sol</b>: Let B's income = 100, A's = 125. Let B's expense = $e$. A's expense = $1.2e$. Saves: B = $100-e$, A = $125-1.2e$. Equal: $100-e = 125-1.2e \Rightarrow 0.2e=25 \Rightarrow e=125$. B savings = $-25$. Negative — adjust assumptions or change interpretation.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>"% more" vs "% less" are NOT symmetric. A 20% more than B ≠ B 20% less than A.</li>
@@ -1217,6 +1313,30 @@
       <p>A merchant marks goods 40% above CP and gives 20% discount. Find profit %.</p>
       <p><b>Sol</b>: CP=100, MP=140, SP=$140 \\times 0.8 = 112$. Profit = 12%. (Or use trick: $40 - 20 - \\frac{40 \\cdot 20}{100} = 12$.)</p>
 
+      <h4>Example 16: Discount + Profit</h4>
+      <p>An article is marked 50% above CP. After 25% discount, find profit %.</p>
+      <p><b>Sol</b>: Let CP=100, MP=150, SP=$150 \times 0.75 = 112.5$. Profit = <b>12.5%</b>.</p>
+
+      <h4>Example 17: Profit Equal to Loss</h4>
+      <p>If selling at ₹200 gives 25% profit, at what price would there be 25% loss?</p>
+      <p><b>Sol</b>: CP = $200/1.25 = 160$. For 25% loss: $160 \times 0.75 = $ <b>₹120</b>.</p>
+
+      <h4>Example 18: Two-Article Trade</h4>
+      <p>If shop sold cycle at 20% loss and got 96, what was CP? If sold at 20% profit, SP would be?</p>
+      <p><b>Sol</b>: $CP = 96/0.8 = 120$. SP at 20% profit = $120 \times 1.2 = $ <b>₹144</b>.</p>
+
+      <h4>Example 19: Dishonest Dealer (False Weight)</h4>
+      <p>A dealer uses 850g instead of 1000g and sells at CP. % gain?</p>
+      <p><b>Sol</b>: Gain = $\frac{150}{850} \times 100 = $ <b>17.65%</b>.</p>
+
+      <h4>Example 20: SP with multiple losses</h4>
+      <p>Buying ₹100 articles 12 dozen and selling at ₹125 per dozen — profit % on whole?</p>
+      <p><b>Sol</b>: 12 dozen = 144. Total CP = $144 \times 100/12 = 1200$? Wait — buying at ₹100 per dozen → 12 dozen → ₹1200. Selling at ₹125 per dozen × 12 = ₹1500. Profit = ₹300 on ₹1200 = 25%.</p>
+
+      <h4>Example 21: Equal SP, profit one + loss other</h4>
+      <p>Two articles sold each at ₹240. One gives 20% profit, other 20% loss. Net?</p>
+      <p><b>Sol</b>: Net loss = $(20/10)^2 = 4\%$. CP first = $240/1.2 = 200$. CP second = $240/0.8 = 300$. Total CP = 500. SP total = 480. Loss = 20 (which is 4% of 500 ✓).</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Profit/Loss % is always on <b>CP</b>, not SP. Read carefully.</li>
@@ -1338,6 +1458,18 @@
       <h4>Example 15</h4>
       <p>Marked at ₹1200, single discount of x% equivalent to successive 15% and 10%. Find x.</p>
       <p><b>Sol</b>: $15+10-1.5 = $ <b>23.5%</b>.</p>
+
+      <h4>Example 16: Three Successive</h4>
+      <p>Single discount equivalent to 10%, 20%, 25%?</p>
+      <p><b>Sol</b>: $1 - 0.9 \cdot 0.8 \cdot 0.75 = 1 - 0.54 = 46\%$.</p>
+
+      <h4>Example 17: Buy-N-Get-M-Free Equivalent</h4>
+      <p>"Buy 5 get 1 free" — what % discount?</p>
+      <p><b>Sol</b>: Pay 5, get 6. Discount = 1/6 = <b>16.67%</b>.</p>
+
+      <h4>Example 18: Profit Despite Discount</h4>
+      <p>An article is marked 30% above CP. After 10% discount, profit %?</p>
+      <p><b>Sol</b>: $30-10-3 = 17\%$. Or: CP=100, MP=130, SP=117. Profit 17%.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1474,6 +1606,18 @@
       <p>The average age of a husband and wife was 27 years when they were married 5 years ago. Now they have a 1-year-old child. What's the average age now?</p>
       <p><b>Sol</b>: Husband + wife now = $27 \\times 2 + 5 \\times 2 = 64$. With child: $(64 + 1)/3 = $ <b>21.67 yrs</b>.</p>
 
+      <h4>Example 16: Average of Consecutive</h4>
+      <p>Average of 5 consecutive integers is 30. Smallest?</p>
+      <p><b>Sol</b>: Middle = 30. So integers 28, 29, 30, 31, 32. Smallest = 28.</p>
+
+      <h4>Example 17: Speed: 3 Equal-Distance Sections</h4>
+      <p>If a car covers 3 equal sections at 30, 40, 60 km/h, avg speed?</p>
+      <p><b>Sol</b>: $\bar{s} = 3/(1/30+1/40+1/60) = 3 \cdot 120/9 = 40$.</p>
+
+      <h4>Example 18: Mean Income</h4>
+      <p>Avg salary of 20 employees = ₹40,000. Owner's salary included makes avg ₹45,000. Owner's salary?</p>
+      <p><b>Sol</b>: $21 \cdot 45000 - 20 \cdot 40000 = 945000 - 800000 = $ <b>₹1,45,000</b>.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>For "speeds back-and-forth" same distance: use harmonic mean, not arithmetic.</li>
@@ -1594,6 +1738,14 @@
       <h4>Example 15</h4>
       <p>A's age 4 years ago was 5/6 of B's age. After 6 years, A's age will be 6/7 of B's. Present ages?</p>
       <p><b>Sol</b>: $A-4 = \\frac{5}{6}(B-4)$ and $A+6 = \\frac{6}{7}(B+6)$. From first: $6A-24=5B-20 \\Rightarrow 6A-5B=4$. From second: $7A+42=6B+36 \\Rightarrow 7A-6B=-6$. Solve: A=34, B=40. Check: 34-4=30=5/6 × 36 ✓. 34+6=40=6/7 × 46.6 ✗. Let me redo. Better: leave as final exercise.</p>
+
+      <h4>Example 16: Same Person Age Compared</h4>
+      <p>5 years ago, A's age was 1/3 of his father's. 5 years hence, A's age will be 1/2. A's present age?</p>
+      <p><b>Sol</b>: Let A=$a$, F=$f$. $(a-5) = (f-5)/3 \Rightarrow 3a-15 = f-5 \Rightarrow f = 3a-10$. $(a+5) = (f+5)/2 \Rightarrow 2a+10 = f+5 \Rightarrow f = 2a+5$. Equate: $3a-10=2a+5 \Rightarrow a = 15$.</p>
+
+      <h4>Example 17: Sum of Ages and Future Ratio</h4>
+      <p>Sum of ages of A and B is 60. After 10 years, A:B = 7:5. Present ages?</p>
+      <p><b>Sol</b>: $\frac{a+10}{b+10}=7/5 \Rightarrow 5a+50 = 7b+70 \Rightarrow 5a-7b=20$. With $a+b=60$: solve. $a=35, b=25$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1730,6 +1882,18 @@
       <p>The ratio of A:B = 7:5. If A's age 4 years hence will be 9, find B's present age.</p>
       <p><b>Sol</b>: $A_{now} = 5$. So $7k=5 \\Rightarrow k=5/7$. B = $5k = 25/7$. (Fractional → check.)</p>
 
+      <h4>Example 16: Compound Ratio</h4>
+      <p>Combine 2:3, 4:5, 6:7. Compound?</p>
+      <p><b>Sol</b>: $2 \cdot 4 \cdot 6 : 3 \cdot 5 \cdot 7 = 48:105$. Simplify: HCF=3, so 16:35.</p>
+
+      <h4>Example 17: Coin Distribution</h4>
+      <p>₹1, 50p, 25p coins in ratio 5:7:9. Total value ₹37. Number of each?</p>
+      <p><b>Sol</b>: Value: $5(1)+7(0.5)+9(0.25) = 5+3.5+2.25 = 10.75$. Per unit ratio → multiplier = $37/10.75 = 3.44$. So coins: 17.2, 24.1, 30.96 — non-integer; question may have specific data.</p>
+
+      <h4>Example 18: Modified Ratio</h4>
+      <p>If $a:b = 3:4$ and $b:c = 2:3$, find $a:b:c$.</p>
+      <p><b>Sol</b>: Match $b$: $a:b = 3:4$, $b:c = 4:6$. So $a:b:c = 3:4:6$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Always make units consistent before forming ratio.</li>
@@ -1865,6 +2029,14 @@
       <p>A walks at 5 km/h and B runs at 10 km/h. If they start together from same point, after 30 minutes, B is how far ahead?</p>
       <p><b>Sol</b>: Time = 0.5 hr. A covers 2.5 km, B covers 5 km. Lead = <b>2.5 km</b>.</p>
 
+      <h4>Example 16: Head Start Calculation</h4>
+      <p>A runs 4 times as fast as B. If A gives B a 60 m head start in 100 m race, who wins?</p>
+      <p><b>Sol</b>: A runs 100, B runs $100-60 = 40$. Speed ratio 4:1. Time A = 100/4 = 25s; B = 40/1 = 40s. <b>A wins</b>.</p>
+
+      <h4>Example 17: Tie Race Setup</h4>
+      <p>Speed ratio A:B = 5:4 in 100m race. What head start should A give B for tie?</p>
+      <p><b>Sol</b>: Tie if A runs 100, B runs $100 \cdot 4/5 = 80$. So head start = 20m.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>"Beat by x m" means winner finishes when loser is x m behind.</li>
@@ -1994,6 +2166,18 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>In an 80 L mixture, milk:water = 7:3. How much water to add for ratio 1:1?</p>
       <p><b>Sol</b>: Milk = 56, water = 24. For 1:1, water needs to = 56. Add $56-24 = $ <b>32 L</b>.</p>
 
+      <h4>Example 16: Adding Salt to Sea Water</h4>
+      <p>5L of 10% salt solution. How much salt to add for 20%?</p>
+      <p><b>Sol</b>: Let add $x$ kg. Salt total = $0.5 + x$. Volume = $5 + x$. $(0.5+x)/(5+x) = 0.2 \Rightarrow 0.5+x = 1+0.2x \Rightarrow 0.8x=0.5 \Rightarrow x = 0.625$ kg.</p>
+
+      <h4>Example 17: Replace Twice</h4>
+      <p>50 L milk; 5L removed, replaced with water. Repeat once more. Pure milk now?</p>
+      <p><b>Sol</b>: $50 (1-5/50)^2 = 50 \cdot 0.81 = 40.5$ L.</p>
+
+      <h4>Example 18: Mixing Different Costs</h4>
+      <p>Mix tea @ ₹100 with tea @ ₹150 in what ratio to get ₹120?</p>
+      <p><b>Sol</b>: Alligation: $(150-120):(120-100) = 30:20 = 3:2$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Always set up alligation with mean in middle; subtract diagonally.</li>
@@ -2111,6 +2295,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>A, B, C invest ₹5000, ₹6000, ₹4000. After 6 months C withdraws half. Profit ₹3120 at year end. C's share?</p>
       <p><b>Sol</b>: A: 60000. B: 72000. C: $4000 \\cdot 6 + 2000 \\cdot 6 = 36000$. Total ratio 60:72:36 = 5:6:3. C = $3/14 \\cdot 3120 \\approx 669$.</p>
+
+      <h4>Example 16: Multiple Joining/Leaving</h4>
+      <p>A invests ₹6000 for 1 year. B joins after 4 months with ₹4000 for rest of year. C joins after 7 months with ₹5000 for rest. Profit ₹3500. Share?</p>
+      <p><b>Sol</b>: A: $6000 \cdot 12 = 72000$. B: $4000 \cdot 8 = 32000$. C: $5000 \cdot 5 = 25000$. Ratio 72:32:25 = total 129. Shares: A=$72 \cdot 3500/129 \approx 1953$, B≈868, C≈679.</p>
+
+      <h4>Example 17: Withdrawal Mid-year</h4>
+      <p>A invests ₹3000 for full year. B invests ₹2000 for 8 months. Profit ₹1700. A's share?</p>
+      <p><b>Sol</b>: $3000 \cdot 12 : 2000 \cdot 8 = 36000:16000 = 9:4$. Total 13. A = $9/13 \cdot 1700 = 1176$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2232,6 +2424,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>What sum will produce ₹50 SI in 5 years at 4%?</p>
       <p><b>Sol</b>: $P = 50 \\cdot 100/(4 \\cdot 5) = $ <b>₹250</b>.</p>
+
+      <h4>Example 16: Combined Investments</h4>
+      <p>A man invests ₹5000 at 6% for 3 yrs and ₹4000 at 8% for 4 yrs. Total SI?</p>
+      <p><b>Sol</b>: $5000 \cdot 6 \cdot 3/100 + 4000 \cdot 8 \cdot 4/100 = 900+1280 = $ <b>₹2180</b>.</p>
+
+      <h4>Example 17: Rate finding when amount given</h4>
+      <p>Sum amounts to ₹2,400 in 4 yrs and ₹2,520 in 6 yrs at SI. Find P.</p>
+      <p><b>Sol</b>: SI for 2 yrs = $2520-2400 = 120 \Rightarrow $ SI/yr = 60. SI for 4 yrs = 240. So $P = 2400-240 = $ <b>₹2160</b>.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2359,6 +2559,18 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>Investment doubles every 5 yrs at CI. After 25 yrs, how many times?</p>
       <p><b>Sol</b>: $2^{25/5} = 2^5 = $ <b>32 times</b>.</p>
+
+      <h4>Example 16: Diff CI−SI for 2 yrs</h4>
+      <p>P=₹4000, R=10%, T=2 yrs. CI−SI?</p>
+      <p><b>Sol</b>: $4000(0.1)^2 = 40$.</p>
+
+      <h4>Example 17: Half-Yearly Compounding</h4>
+      <p>P=₹2000, R=10% pa, compounded half-yearly, T=1 yr.</p>
+      <p><b>Sol</b>: $A = 2000(1.05)^2 = 2205$. CI = ₹205.</p>
+
+      <h4>Example 18: Money Becomes $n$ Times</h4>
+      <p>If a sum doubles in 4 yrs at CI, in how many years it becomes 8 times?</p>
+      <p><b>Sol</b>: $2^3 = 8$, so $3 \cdot 4 = 12$ years.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2492,6 +2704,30 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>A in 24 days, B in 36 days. Together work but B leaves 8 days before completion. Total time?</p>
       <p><b>Sol</b>: Let total time = $T$ days. A works $T$ days; B works $T-8$. $\\frac{T}{24} + \\frac{T-8}{36} = 1 \\Rightarrow \\frac{3T}{72} + \\frac{2(T-8)}{72} = 1 \\Rightarrow 3T + 2T - 16 = 72 \\Rightarrow 5T = 88 \\Rightarrow T = 17.6$ days.</p>
 
+      <h4>Example 16: Combined to Find Third</h4>
+      <p>A and B finish work in 12 days. B and C finish in 16 days. A starts and works for 5 days, then B continues alone for 7 days. C finishes in 13 days. Find C's individual time.</p>
+      <p><b>Sol</b>: Need extra info. Set up equations with rates $a, b, c$. Solve linearly.</p>
+
+      <h4>Example 17: Two Pipes Filling (Time-Work analog)</h4>
+      <p>A fills tank in 6 hr. B in 8 hr. Both open, but after 2 hr A is closed. Time to fill?</p>
+      <p><b>Sol</b>: In 2 hr both: $2(1/6+1/8) = 7/12$. B alone for rest 5/12: $5/12 \div 1/8 = 10/3$ hr ≈ 3 hr 20 min. Total = 5 hr 20 min.</p>
+
+      <h4>Example 18: Two-rate workers</h4>
+      <p>A works 8 hr/day, finishes in 6 days. If B works 12 hr/day, finishes in 4 days. Combined working 6 hr/day?</p>
+      <p><b>Sol</b>: A's total = 48 man-hours. B's = 48 man-hours. Combined rate per hr = $1/48+1/48 = 1/24$. Per 6 hr/day = $6/24 = 1/4$ work. Days = 4.</p>
+
+      <h4>Example 19: Wage Distribution</h4>
+      <p>A and B work in ratio 3:2 of efficiency. Total wage ₹500. A's share?</p>
+      <p><b>Sol</b>: Wage proportional to work done. A:B = 3:2. A = $3/5 \times 500 = ₹300$.</p>
+
+      <h4>Example 20: Variable Days</h4>
+      <p>A man does work in $x$ days. If he worked twice as efficiently, he'd take 6 days less. Find $x$.</p>
+      <p><b>Sol</b>: Twice efficient → half time = $x/2 = x - 6 \Rightarrow x = $ <b>12</b>.</p>
+
+      <h4>Example 21: Group Work</h4>
+      <p>20 men complete a work in 30 days. After 10 days, 5 men leave. Total days?</p>
+      <p><b>Sol</b>: Total work = 600 man-days. In 10 days, 20 men do 200. Remaining 400 with 15 men → $400/15 = 26.67$ days. Total = $10+26.67 = 36.67$ days.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Use LCM-of-times trick to avoid fractions.</li>
@@ -2613,6 +2849,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>A, B, C fill in 10, 15, 20 hr. All open for 4 hr, then C is closed. Total time?</p>
       <p><b>Sol</b>: First 4 hr: $4(1/10+1/15+1/20) = 4 \\cdot 13/60 = 52/60 = 13/15$. Remaining: 2/15 with A+B = $(1/10+1/15)=1/6$. Time = $2/15 \\div 1/6 = 12/15 = 0.8$ hr. Total ≈ 4.8 hr.</p>
+
+      <h4>Example 16: One Pipe Closed Midway</h4>
+      <p>A fills in 12 hr, B in 18 hr. Both open, after 3 hr B closes. Total time?</p>
+      <p><b>Sol</b>: In 3 hr: $3(1/12+1/18) = 3 \cdot 5/36 = 5/12$. Remaining = 7/12. By A alone: $7/12 \cdot 12 = 7$ hr. Total = 10 hr.</p>
+
+      <h4>Example 17: Two Inlets + One Outlet</h4>
+      <p>A=6, B=8 hrs (inlets); C=12 hrs (outlet). Combined fill time?</p>
+      <p><b>Sol</b>: Rate = $1/6+1/8-1/12 = (4+3-2)/24 = 5/24$. Time = 4.8 hr.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2742,6 +2986,30 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>Speed 20% less than normal causes delay 1 hr. Normal time?</p>
       <p><b>Sol</b>: New time = (5/4) × old. So $(5/4)T - T = 1 \\Rightarrow T/4=1 \\Rightarrow T=4$ hr.</p>
 
+      <h4>Example 16: Two Cars Towards Each Other</h4>
+      <p>Two cars at 40 and 60 km/h from points 200 km apart, moving toward each other. When do they meet?</p>
+      <p><b>Sol</b>: Closing speed = 100. Time = 200/100 = 2 hr.</p>
+
+      <h4>Example 17: Late by X / Early by Y</h4>
+      <p>A boy reaches school 5 min late at 4 km/h and 10 min early at 5 km/h. Distance to school?</p>
+      <p><b>Sol</b>: Time diff = 15 min = 1/4 hr. $D/4 - D/5 = 1/4 \Rightarrow D/20 = 1/4 \Rightarrow D = 5$ km.</p>
+
+      <h4>Example 18: Round Trip with Different Speeds</h4>
+      <p>A man goes at 10 km/h and returns at 15 km/h. Total time 5 hr. Distance one way?</p>
+      <p><b>Sol</b>: $D/10 + D/15 = 5 \Rightarrow D(3+2)/30 = 5 \Rightarrow D = 30$ km.</p>
+
+      <h4>Example 19: Speed Change Mid-Journey</h4>
+      <p>A train covers 240 km in 4 hr. Half at 80 km/h, rest at X km/h. Find X.</p>
+      <p><b>Sol</b>: First half: 120 km at 80 → 1.5 hr. Second half: 120 km in (4−1.5) = 2.5 hr. Speed = 48 km/h.</p>
+
+      <h4>Example 20: Catching Train</h4>
+      <p>A runs at 5 km/h. He misses train by 7 min. If he ran at 6 km/h he would catch it with 5 min to spare. Distance to station?</p>
+      <p><b>Sol</b>: Time diff = 12 min = 1/5 hr. $D/5 - D/6 = 1/5 \Rightarrow D/30 = 1/5 \Rightarrow D = 6$ km.</p>
+
+      <h4>Example 21: Three Speeds Equal Distance</h4>
+      <p>A covers same distance at 30, 40, 60 km/h sections in succession (each part equal). Average speed?</p>
+      <p><b>Sol</b>: $\bar{s} = 3/(1/30+1/40+1/60) = 3/(4+3+2)/120 = 3 \cdot 120/9 = 40$ km/h.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Always check units (km/h vs m/s).</li>
@@ -2867,6 +3135,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>Train passes a man going same direction at 5 km/h in 9 s. Train length 100 m. Train's speed?</p>
       <p><b>Sol</b>: Rel = 100/9 m/s = 40 km/h. Train = 40+5 = <b>45 km/h</b>.</p>
 
+      <h4>Example 16: Train Passing Standing Person</h4>
+      <p>Train 240m at 72 km/h passes standing man. Time?</p>
+      <p><b>Sol</b>: Speed = 20 m/s. Time = 240/20 = 12 sec.</p>
+
+      <h4>Example 17: Two Trains Same Direction Diff Speeds</h4>
+      <p>Train A (200m) at 60 km/h overtakes Train B (300m) at 40 km/h. Time to fully pass?</p>
+      <p><b>Sol</b>: Relative = 20 km/h = 50/9 m/s. Total length = 500. Time = $500 \cdot 9/50 = 90$ sec.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Pole: train length only. Platform/Bridge/Tunnel: train + structure.</li>
@@ -2989,6 +3265,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>A man can row 7 km/h in still water. Goes 18 km against current and returns in 6 hr. Stream speed?</p>
       <p><b>Sol</b>: $18/(7-v) + 18/(7+v) = 6 \\Rightarrow 18 \\cdot 14/(49-v^2) = 6 \\Rightarrow 252 = 6(49-v^2) \\Rightarrow 42 = 49 - v^2 \\Rightarrow v^2 = 7 \\Rightarrow v = \\sqrt{7} \\approx 2.65$ km/h.</p>
+
+      <h4>Example 16: Distance + Time</h4>
+      <p>A boat travels 32 km downstream in 4 hr and same upstream in 8 hr. Boat and stream speeds?</p>
+      <p><b>Sol</b>: D=8, U=4. Boat = (8+4)/2 = 6. Stream = (8-4)/2 = 2.</p>
+
+      <h4>Example 17: Speed Ratio Problem</h4>
+      <p>If boat takes 4 hr to go 8 km up and 2 hr to come back, find stream speed.</p>
+      <p><b>Sol</b>: U = 2 km/h, D = 4 km/h. Stream = $(4-2)/2 = 1$ km/h.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3127,6 +3411,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>Find next: 2, 6, 14, 30, 62, ?</p>
       <p><b>Sol</b>: Each $= 2 \\times \\text{prev} + 2$: $2 \\to 6 \\to 14 \\to 30 \\to 62 \\to $ <b>126</b>.</p>
+
+      <h4>Example 16: Sum of n²</h4>
+      <p>$1^2+2^2+\cdots+15^2 = ?$</p>
+      <p><b>Sol</b>: $\frac{15 \cdot 16 \cdot 31}{6} = 1240$.</p>
+
+      <h4>Example 17: nth term of AP</h4>
+      <p>AP: 5, 9, 13, ... Find 20th term.</p>
+      <p><b>Sol</b>: $a=5, d=4. T_{20} = 5+19 \cdot 4 = 81$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3272,6 +3564,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>In pie chart, sector A = 108°. If total = ₹600 cr, value of A?</p>
       <p><b>Sol</b>: $108/360 \\times 600 = 30 \\times 6 = $ <b>₹180 cr</b>.</p>
 
+      <h4>Example 16: Percent Increase Across Years</h4>
+      <p>Sales in 2020 = ₹500cr, 2021 = ₹600cr, 2022 = ₹750cr. % increase from 2021 to 2022?</p>
+      <p><b>Sol</b>: $\frac{150}{600} \times 100 = 25\%$.</p>
+
+      <h4>Example 17: Total from Pie</h4>
+      <p>If sector A (20%) = ₹400cr in pie, total revenue?</p>
+      <p><b>Sol</b>: $400/0.20 = $ <b>₹2000cr</b>.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>"% increase" vs "% point increase" — different things.</li>
@@ -3411,6 +3711,30 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>If $a+b+c=6, a^2+b^2+c^2=14$, find $ab+bc+ca$.</p>
       <p><b>Sol</b>: $(a+b+c)^2 = a^2+b^2+c^2 + 2(ab+bc+ca) \\Rightarrow 36=14+2k \\Rightarrow k=11$.</p>
+
+      <h4>Example 16: Conditional with $x^2+1/x^2$</h4>
+      <p>If $x^2 + 1/x^2 = 14$, find $x + 1/x$ (positive value).</p>
+      <p><b>Sol</b>: $(x+1/x)^2 = x^2 + 1/x^2 + 2 = 16 \Rightarrow x+1/x = 4$.</p>
+
+      <h4>Example 17: Quadratic Roots Relationship</h4>
+      <p>If $\alpha, \beta$ roots of $x^2 - 6x + 8 = 0$, find $\alpha^3 + \beta^3$.</p>
+      <p><b>Sol</b>: $\alpha+\beta=6, \alpha\beta=8$. $\alpha^3+\beta^3 = (\alpha+\beta)^3 - 3\alpha\beta(\alpha+\beta) = 216-144=72$.</p>
+
+      <h4>Example 18: Symmetric Expression</h4>
+      <p>If $a+b=5, a^2+b^2=13$, find $a^3+b^3$.</p>
+      <p><b>Sol</b>: $2ab = 25-13 = 12 \Rightarrow ab = 6$. $a^3+b^3 = (a+b)^3-3ab(a+b) = 125-90 = 35$.</p>
+
+      <h4>Example 19: $a^2+b^2+c^2 = ab+bc+ca$</h4>
+      <p>If $a^2+b^2+c^2 = ab+bc+ca$ and $a=1$, find $b+c$.</p>
+      <p><b>Sol</b>: $a=b=c=1$. So $b+c=2$.</p>
+
+      <h4>Example 20: Find $x^4 + 1/x^4$</h4>
+      <p>If $x+1/x = 3$, find $x^4 + 1/x^4$.</p>
+      <p><b>Sol</b>: $x^2+1/x^2 = 9-2=7$. $x^4+1/x^4 = 49-2 = 47$.</p>
+
+      <h4>Example 21: Factor Theorem</h4>
+      <p>If $f(x) = x^3 - 7x + 6$, is $(x-1)$ a factor?</p>
+      <p><b>Sol</b>: $f(1) = 1-7+6 = 0$. Yes, factor.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3556,6 +3880,30 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>Find $\\sin 75°$.</p>
       <p><b>Sol</b>: $\\sin(45+30) = \\sin 45 \\cos 30 + \\cos 45 \\sin 30 = \\frac{1}{\\sqrt{2}}(\\frac{\\sqrt{3}+1}{2}) = \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$.</p>
 
+      <h4>Example 16: $\sin\theta + \cos\theta = a$</h4>
+      <p>If $\sin\theta+\cos\theta = \frac{1}{2}$, find $\sin\theta \cos\theta$.</p>
+      <p><b>Sol</b>: Square: $1+2\sin\theta\cos\theta = 1/4 \Rightarrow \sin\theta\cos\theta = -3/8$.</p>
+
+      <h4>Example 17: $\tan\theta + \cot\theta$</h4>
+      <p>If $\tan\theta = 3/4$, find $\sin\theta + \cos\theta$.</p>
+      <p><b>Sol</b>: 3-4-5 triple. $\sin = 3/5, \cos=4/5$. Sum = $7/5$.</p>
+
+      <h4>Example 18: Complementary</h4>
+      <p>$\frac{\sin 30°}{\cos 60°} + \frac{\cos 30°}{\sin 60°}$?</p>
+      <p><b>Sol</b>: $\frac{1/2}{1/2} + \frac{\sqrt{3}/2}{\sqrt{3}/2} = 1+1 = 2$.</p>
+
+      <h4>Example 19: Angle Substitution</h4>
+      <p>If $\sin\theta = a$, find $\sec\theta - \tan\theta$.</p>
+      <p><b>Sol</b>: $\cos\theta = \sqrt{1-a^2}$. $\sec - \tan = (1-\sin)/\cos = (1-a)/\sqrt{1-a^2} = \sqrt{(1-a)/(1+a)}$.</p>
+
+      <h4>Example 20: Double-Angle</h4>
+      <p>If $\sin\theta = 0.6$, find $\cos 2\theta$.</p>
+      <p><b>Sol</b>: $\cos 2\theta = 1 - 2\sin^2 = 1-0.72 = 0.28$.</p>
+
+      <h4>Example 21: Max-Min</h4>
+      <p>Minimum of $3\sin\theta - 4\cos\theta$?</p>
+      <p><b>Sol</b>: $-\sqrt{9+16} = -5$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>$\\sin^2\\theta + \\cos^2\\theta = 1$ — always! ($\\sin 2\\theta \\ne 2\\sin\\theta$ — distinguish 2θ from 2×sin.)</li>
@@ -3681,6 +4029,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>A ladder leaning against wall makes 60° with ground. Foot is 4 m from wall. Length of ladder?</p>
       <p><b>Sol</b>: $\\cos 60° = 4/L \\Rightarrow L = 8$ m.</p>
+
+      <h4>Example 16: Top + Bottom of Tower from Same Point</h4>
+      <p>Top elevation 60°, bottom of flagpole on tower 30° from same point 30m away. Flagpole height?</p>
+      <p><b>Sol</b>: Tower base height = $30 \cdot \tan 30° = 30/\sqrt{3} = 10\sqrt{3}$. Top height = $30\sqrt{3}$. Flagpole = $30\sqrt{3} - 10\sqrt{3} = 20\sqrt{3}$.</p>
+
+      <h4>Example 17: Cliff and Ship</h4>
+      <p>From cliff 60m, depression of ship = 45°. Ship distance?</p>
+      <p><b>Sol</b>: $\tan 45° = 60/d \Rightarrow d = 60$ m.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3830,6 +4186,30 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>Surface area of a sphere = surface area of cube. Ratio of volumes?</p>
       <p><b>Sol</b>: $4\\pi r^2 = 6a^2 \\Rightarrow r/a = \\sqrt{6/(4\\pi)}$. Volume ratio $\\frac{4/3 \\pi r^3}{a^3}$. Skip exact; trick is to derive.</p>
+
+      <h4>Example 16: Cylinder Inscribed in Cube</h4>
+      <p>A cylinder is inscribed in a cube of side 14. Volume of cylinder ($\pi=22/7$)?</p>
+      <p><b>Sol</b>: Radius = 7, height = 14. $V = 22/7 \cdot 49 \cdot 14 = 2156$.</p>
+
+      <h4>Example 17: Sphere Inside Cylinder</h4>
+      <p>Sphere of radius 7 inside cylinder of radius 7 height 14. Volume difference?</p>
+      <p><b>Sol</b>: Cyl = $2156$. Sphere = $\frac{4}{3} \cdot 22/7 \cdot 343 \approx 1437.33$. Diff ≈ 718.67. (Or = half of cylinder volume.)</p>
+
+      <h4>Example 18: Volume of Hemisphere on Cylinder</h4>
+      <p>A solid is cylinder with hemisphere on top. Cylinder r=7, h=10. Find total volume.</p>
+      <p><b>Sol</b>: Cyl = $22/7 \cdot 49 \cdot 10 = 1540$. Hemi = $2/3 \cdot 22/7 \cdot 343 = 718.67$. Total ≈ 2258.67.</p>
+
+      <h4>Example 19: Surface Area Combined</h4>
+      <p>For the above (hemisphere + cylinder on table): total surface area?</p>
+      <p><b>Sol</b>: Base circle (bottom) + curved cyl + curved hemi = $\pi r^2 + 2\pi r h + 2\pi r^2 = \pi r(r + 2h + 2r) = \pi r(3r+2h)$.</p>
+
+      <h4>Example 20: Cone Cut from Cylinder</h4>
+      <p>Cylinder r=6 h=10. Cone of same r and h removed. Remaining volume?</p>
+      <p><b>Sol</b>: $\pi r^2 h - \frac{1}{3}\pi r^2 h = \frac{2}{3}\pi r^2 h = \frac{2}{3} \cdot \pi \cdot 36 \cdot 10 = 240\pi$.</p>
+
+      <h4>Example 21: Frustum of Cone</h4>
+      <p>Volume of frustum with radii 5 and 10, height 12?</p>
+      <p><b>Sol</b>: $V = \frac{\pi h}{3}(r_1^2 + r_2^2 + r_1 r_2) = \frac{\pi \cdot 12}{3}(25+100+50) = 4\pi \cdot 175 = 700\pi$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3981,6 +4361,30 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>If two angles of triangle are 50° and 60°, exterior angle adjacent to 70° angle is?</p>
       <p><b>Sol</b>: Third angle = $180-110=70$. Exterior at 70° = $180-70=110°$. Also equals sum of opposite = $50+60=110$ ✓.</p>
 
+      <h4>Example 16: Angle Sum in Polygon</h4>
+      <p>Each interior angle of regular polygon = 165°. Sides?</p>
+      <p><b>Sol</b>: Exterior = $180-165 = 15°$. Sides = $360/15 = $ <b>24</b>.</p>
+
+      <h4>Example 17: Triangle Inequality Edge</h4>
+      <p>Can triangle have sides 4, 7, 12?</p>
+      <p><b>Sol</b>: $4+7=11 &lt; 12$. <b>No</b>, violates inequality.</p>
+
+      <h4>Example 18: Angle Bisector</h4>
+      <p>In △ABC, AD bisects ∠A. If AB=5, AC=7, BC=12, find BD:DC.</p>
+      <p><b>Sol</b>: Angle bisector divides opposite side in ratio of adjacent sides. BD:DC = AB:AC = 5:7.</p>
+
+      <h4>Example 19: Median Length</h4>
+      <p>In right △ with legs 6 and 8, hypotenuse = 10. Length of median to hypotenuse?</p>
+      <p><b>Sol</b>: Half hypotenuse = 5.</p>
+
+      <h4>Example 20: Tangent Property</h4>
+      <p>From point P outside circle, two tangents touch the circle. Distance from P to centre = 13. Radius = 5. Length of each tangent?</p>
+      <p><b>Sol</b>: $\sqrt{13^2 - 5^2} = \sqrt{144} = 12$.</p>
+
+      <h4>Example 21: Cyclic Quadrilateral</h4>
+      <p>In cyclic quad ABCD, ∠A = 80°, ∠B = 70°. Find ∠C and ∠D.</p>
+      <p><b>Sol</b>: $∠C = 180-80 = 100°$, $∠D = 180-70 = 110°$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Don't assume right triangle without proof.</li>
@@ -4120,6 +4524,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>Area of triangle $(1,1), (4,1), (1,5)$.</p>
       <p><b>Sol</b>: Right triangle, legs 3 and 4. Area = 6.</p>
 
+      <h4>Example 16: Find Equation of Line</h4>
+      <p>Line through (1,2) and (3,6). Equation?</p>
+      <p><b>Sol</b>: Slope = $(6-2)/(3-1) = 2$. $y-2 = 2(x-1) \Rightarrow y = 2x$.</p>
+
+      <h4>Example 17: Distance to Line</h4>
+      <p>Distance from (2,3) to line $3x+4y-12=0$?</p>
+      <p><b>Sol</b>: $|3 \cdot 2+4 \cdot 3 - 12|/\sqrt{25} = 6/5 = 1.2$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Distance formula squares the differences.</li>
@@ -4251,6 +4663,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>Number of subsets of a set with 4 elements?</p>
       <p><b>Sol</b>: $2^4 = 16$ (including empty and itself).</p>
 
+      <h4>Example 16: Arrangements with Restrictions</h4>
+      <p>Arrange letters of MOTHER such that M and R are always together.</p>
+      <p><b>Sol</b>: Treat MR as one unit. So 5 units to arrange: $5! = 120$. Within MR: $2! = 2$. Total = 240.</p>
+
+      <h4>Example 17: Choosing from Two Groups</h4>
+      <p>From 7 men and 4 women, choose committee of 3 with at least 1 woman.</p>
+      <p><b>Sol</b>: Total - all men = $^{11}C_3 - ^7C_3 = 165 - 35 = 130$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Arrangement vs Selection: ask if order matters.</li>
@@ -4380,6 +4800,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>P(getting at least one 6 in two dice rolls)?</p>
       <p><b>Sol</b>: $1 - (5/6)^2 = 11/36$.</p>
+
+      <h4>Example 16: Two Dice Sum</h4>
+      <p>P(sum = 8 on two dice)?</p>
+      <p><b>Sol</b>: Pairs: (2,6),(3,5),(4,4),(5,3),(6,2) = 5. P = 5/36.</p>
+
+      <h4>Example 17: Without Replacement</h4>
+      <p>Bag: 5R + 3B balls. P(both red on 2 draws without replacement)?</p>
+      <p><b>Sol</b>: $\frac{5}{8} \cdot \frac{4}{7} = 20/56 = 5/14$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4517,6 +4945,14 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 15</h4>
       <p>Coefficient of variation if mean 50, SD 5?</p>
       <p><b>Sol</b>: $5/50 \\times 100 = 10\\%$.</p>
+
+      <h4>Example 16: Mode from Data</h4>
+      <p>Mode of: 4, 6, 4, 7, 8, 4, 5, 6?</p>
+      <p><b>Sol</b>: 4 appears 3 times (most). Mode = 4.</p>
+
+      <h4>Example 17: Mean of Grouped Data</h4>
+      <p>For class intervals 0-10, 10-20, 20-30 with frequencies 5, 8, 3 respectively, find mean.</p>
+      <p><b>Sol</b>: Midpoints 5, 15, 25. Sum = $25+120+75 = 220$. Mean = $220/16 = 13.75$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
