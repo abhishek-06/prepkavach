@@ -3111,4 +3111,1195 @@
     ]
   };
 
+  // ═══════════════════════════════════════════════════════════════
+  // AWARDS, PEOPLE & MISCELLANEOUS
+  // ═══════════════════════════════════════════════════════════════
+
+  // ───────────────────────────────────────────────────────────────
+  // 25. FATHERS OF VARIOUS FIELDS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-fathers"] = {
+    body: `
+      <h2>Fathers of Various Fields</h2>
+
+      <h3>1. Fathers of Indian Fields</h3>
+      <table>
+        <tr><th>Field</th><th>Father</th></tr>
+        <tr><td>Indian Nation</td><td>Mahatma Gandhi</td></tr>
+        <tr><td>Indian Constitution</td><td>B.R. Ambedkar</td></tr>
+        <tr><td>Indian Civil Services</td><td>Lord Cornwallis</td></tr>
+        <tr><td>Indian Civil Aviation</td><td>JRD Tata</td></tr>
+        <tr><td>Indian Economic Reforms</td><td>P.V. Narasimha Rao / Manmohan Singh</td></tr>
+        <tr><td>Indian Renaissance</td><td>Raja Ram Mohan Roy</td></tr>
+        <tr><td>Indian Industry</td><td>Jamsetji Tata</td></tr>
+        <tr><td>Indian Banking</td><td>Maidavolu Narasimham</td></tr>
+        <tr><td>Indian Atomic Energy</td><td>Homi J. Bhabha</td></tr>
+        <tr><td>Indian Space Programme</td><td>Vikram Sarabhai</td></tr>
+        <tr><td>Indian Missile Programme</td><td>APJ Abdul Kalam</td></tr>
+        <tr><td>Indian Green Revolution</td><td>M.S. Swaminathan</td></tr>
+        <tr><td>Indian White Revolution</td><td>Verghese Kurien</td></tr>
+        <tr><td>Indian Blue Revolution</td><td>Hiralal Chaudhuri</td></tr>
+        <tr><td>Indian Cinema</td><td>Dadasaheb Phalke</td></tr>
+        <tr><td>Indian Computer Education</td><td>Rajiv Gandhi</td></tr>
+        <tr><td>Indian Press</td><td>James Augustus Hickey</td></tr>
+        <tr><td>Indian Geology</td><td>William Logan</td></tr>
+        <tr><td>Indian Surgery</td><td>Sushruta</td></tr>
+        <tr><td>Indian Medicine</td><td>Charaka</td></tr>
+        <tr><td>Indian English Education</td><td>Lord Macaulay</td></tr>
+        <tr><td>Indian Geometry / Mathematics</td><td>Aryabhata</td></tr>
+        <tr><td>Local Self Government</td><td>Lord Ripon</td></tr>
+        <tr><td>Indian Archaeology</td><td>Alexander Cunningham</td></tr>
+        <tr><td>Indian Numismatics</td><td>Edward Thomas</td></tr>
+        <tr><td>Indian Polity (modern)</td><td>Ambedkar</td></tr>
+        <tr><td>Indian Botany</td><td>William Roxburgh</td></tr>
+        <tr><td>Indian Unrest</td><td>Bal Gangadhar Tilak</td></tr>
+        <tr><td>Indian Communism</td><td>M.N. Roy</td></tr>
+        <tr><td>Indian Socialism</td><td>Jayaprakash Narayan / Acharya Narendra Dev</td></tr>
+      </table>
+
+      <h3>2. Fathers of World Fields</h3>
+      <table>
+        <tr><th>Field</th><th>Father</th></tr>
+        <tr><td>History</td><td>Herodotus</td></tr>
+        <tr><td>Geometry</td><td>Euclid</td></tr>
+        <tr><td>Modern Astronomy</td><td>Nicolaus Copernicus</td></tr>
+        <tr><td>Physics</td><td>Isaac Newton (also Galileo)</td></tr>
+        <tr><td>Modern Physics</td><td>Albert Einstein</td></tr>
+        <tr><td>Chemistry</td><td>Antoine Lavoisier</td></tr>
+        <tr><td>Modern Chemistry</td><td>Antoine Lavoisier</td></tr>
+        <tr><td>Biology</td><td>Aristotle</td></tr>
+        <tr><td>Modern Biology</td><td>Charles Darwin</td></tr>
+        <tr><td>Botany</td><td>Theophrastus</td></tr>
+        <tr><td>Zoology</td><td>Aristotle</td></tr>
+        <tr><td>Genetics</td><td>Gregor Mendel</td></tr>
+        <tr><td>Modern Genetics</td><td>T.H. Morgan</td></tr>
+        <tr><td>Microbiology</td><td>Louis Pasteur</td></tr>
+        <tr><td>Bacteriology</td><td>Robert Koch</td></tr>
+        <tr><td>Medicine</td><td>Hippocrates</td></tr>
+        <tr><td>Surgery</td><td>Sushruta (ancient); Modern: Joseph Lister</td></tr>
+        <tr><td>Psychology</td><td>Wilhelm Wundt</td></tr>
+        <tr><td>Psychoanalysis</td><td>Sigmund Freud</td></tr>
+        <tr><td>Sociology</td><td>Auguste Comte</td></tr>
+        <tr><td>Political Science</td><td>Aristotle (or Machiavelli for modern)</td></tr>
+        <tr><td>Modern Political Science</td><td>Niccolò Machiavelli</td></tr>
+        <tr><td>Economics</td><td>Adam Smith</td></tr>
+        <tr><td>Modern Economics</td><td>John Maynard Keynes</td></tr>
+        <tr><td>Computer</td><td>Charles Babbage</td></tr>
+        <tr><td>Modern Computer Science</td><td>Alan Turing</td></tr>
+        <tr><td>Internet</td><td>Vint Cerf / Bob Kahn</td></tr>
+        <tr><td>WWW</td><td>Tim Berners-Lee</td></tr>
+        <tr><td>Mathematics</td><td>Archimedes / Pythagoras / Euclid</td></tr>
+        <tr><td>Algebra</td><td>Al-Khwarizmi (Mohammad ibn Musa)</td></tr>
+        <tr><td>Number Theory</td><td>Pierre de Fermat</td></tr>
+        <tr><td>Geometry</td><td>Euclid</td></tr>
+        <tr><td>Trigonometry</td><td>Hipparchus</td></tr>
+        <tr><td>Modern Astronomy</td><td>Copernicus</td></tr>
+        <tr><td>Telescope</td><td>Galileo Galilei</td></tr>
+        <tr><td>Aviation</td><td>Wright Brothers</td></tr>
+        <tr><td>Communism</td><td>Karl Marx</td></tr>
+        <tr><td>Capitalism</td><td>Adam Smith</td></tr>
+        <tr><td>English Poetry</td><td>Geoffrey Chaucer</td></tr>
+        <tr><td>English Drama</td><td>Christopher Marlowe</td></tr>
+        <tr><td>Olympic Games (Modern)</td><td>Baron Pierre de Coubertin</td></tr>
+        <tr><td>Test-Tube Baby</td><td>Robert Edwards</td></tr>
+        <tr><td>Modern Science</td><td>Galileo</td></tr>
+        <tr><td>Modern Surgery</td><td>Joseph Lister</td></tr>
+        <tr><td>Vaccination</td><td>Edward Jenner (smallpox)</td></tr>
+        <tr><td>Modern Painting</td><td>Pablo Picasso (impressionism: Cézanne)</td></tr>
+        <tr><td>Public Address System</td><td>Edward Charles Wente</td></tr>
+        <tr><td>Atomic Theory</td><td>John Dalton</td></tr>
+        <tr><td>Periodic Table</td><td>Dmitri Mendeleev</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Father of Nation (India): Mahatma Gandhi.</li>
+        <li>Father of Constitution: Ambedkar.</li>
+        <li>Father of Green Revolution: M.S. Swaminathan.</li>
+        <li>Father of White Revolution: Kurien.</li>
+        <li>Father of Indian Space: Vikram Sarabhai.</li>
+        <li>Father of Indian Atomic: Homi Bhabha.</li>
+        <li>Father of Indian Missiles: Kalam.</li>
+        <li>Father of Genetics: Mendel.</li>
+        <li>Father of Medicine: Hippocrates.</li>
+        <li>Father of Computer: Babbage.</li>
+        <li>Father of Economics: Adam Smith.</li>
+        <li>Father of Modern Olympics: Coubertin.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Father of Indian Nation:", opts: ["Nehru", "Gandhi", "Patel", "Bose"], a: 1, ex: "Mahatma Gandhi." },
+      { q: "Father of Indian Constitution:", opts: ["Nehru", "Patel", "Ambedkar", "Rajagopalachari"], a: 2, ex: "Dr B.R. Ambedkar." },
+      { q: "Father of Green Revolution:", opts: ["Kurien", "Swaminathan", "Nehru", "Borlaug"], a: 1, ex: "M.S. Swaminathan." },
+      { q: "Father of White Revolution:", opts: ["Swaminathan", "Kurien", "Tata", "Birla"], a: 1, ex: "Verghese Kurien." },
+      { q: "Father of Indian Space:", opts: ["Bhabha", "Vikram Sarabhai", "Kalam", "Rao"], a: 1, ex: "Vikram Sarabhai." },
+      { q: "Father of Indian Atomic:", opts: ["Vikram Sarabhai", "Bhabha", "Kalam", "Raman"], a: 1, ex: "Homi Bhabha." },
+      { q: "Father of Indian Missiles:", opts: ["Bhabha", "Sarabhai", "Kalam", "Naidu"], a: 2, ex: "Kalam." },
+      { q: "Father of Genetics:", opts: ["Darwin", "Mendel", "Watson", "Crick"], a: 1, ex: "Gregor Mendel." },
+      { q: "Father of Medicine:", opts: ["Galen", "Hippocrates", "Sushruta", "Lister"], a: 1, ex: "Hippocrates." },
+      { q: "Father of Surgery (Indian):", opts: ["Sushruta", "Charaka", "Hippocrates", "Lister"], a: 0, ex: "Ancient Indian." },
+      { q: "Father of Computer:", opts: ["Babbage", "Turing", "Gates", "Jobs"], a: 0, ex: "Charles Babbage." },
+      { q: "Father of WWW:", opts: ["Gates", "Jobs", "Berners-Lee", "Zuckerberg"], a: 2, ex: "Tim Berners-Lee." },
+      { q: "Father of Economics:", opts: ["Marx", "Keynes", "Adam Smith", "Friedman"], a: 2, ex: "Adam Smith." },
+      { q: "Father of Modern Physics:", opts: ["Newton", "Einstein", "Galileo", "Faraday"], a: 1, ex: "Einstein." },
+      { q: "Father of Indian Cinema:", opts: ["Phalke", "Roy", "Mehboob", "Kapoor"], a: 0, ex: "Dadasaheb Phalke." },
+      { q: "Father of Modern Olympics:", opts: ["Coubertin", "Aristotle", "Phidias", "Hercules"], a: 0, ex: "Pierre de Coubertin." },
+      { q: "Father of Microbiology:", opts: ["Pasteur", "Koch", "Lister", "Jenner"], a: 0, ex: "Louis Pasteur." },
+      { q: "Father of Periodic Table:", opts: ["Newton", "Mendeleev", "Dalton", "Bohr"], a: 1, ex: "Dmitri Mendeleev." },
+      { q: "Father of Botany:", opts: ["Aristotle", "Theophrastus", "Linnaeus", "Darwin"], a: 1, ex: "Theophrastus." },
+      { q: "Father of History:", opts: ["Herodotus", "Plato", "Aristotle", "Socrates"], a: 0, ex: "Herodotus." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 26. FAMOUS BOOKS & AUTHORS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-books-authors"] = {
+    body: `
+      <h2>Famous Books & Authors</h2>
+
+      <h3>1. Indian Authors — Famous Works</h3>
+      <table>
+        <tr><th>Author</th><th>Famous Books</th></tr>
+        <tr><td>Rabindranath Tagore</td><td>Gitanjali (Nobel 1913), Gora, The Home and the World, Chokher Bali</td></tr>
+        <tr><td>Mahatma Gandhi</td><td>My Experiments with Truth, Hind Swaraj</td></tr>
+        <tr><td>Jawaharlal Nehru</td><td>The Discovery of India, Glimpses of World History, Autobiography</td></tr>
+        <tr><td>R.K. Narayan</td><td>Malgudi Days, The Guide, Swami and Friends</td></tr>
+        <tr><td>Mulk Raj Anand</td><td>Untouchable, Coolie</td></tr>
+        <tr><td>Khushwant Singh</td><td>Train to Pakistan, The Company of Women</td></tr>
+        <tr><td>Vikram Seth</td><td>A Suitable Boy, The Golden Gate</td></tr>
+        <tr><td>Salman Rushdie</td><td>Midnight's Children, Satanic Verses, Shame</td></tr>
+        <tr><td>Arundhati Roy</td><td>The God of Small Things (Booker 1997)</td></tr>
+        <tr><td>Kiran Desai</td><td>The Inheritance of Loss (Booker 2006)</td></tr>
+        <tr><td>Aravind Adiga</td><td>The White Tiger (Booker 2008)</td></tr>
+        <tr><td>Jhumpa Lahiri</td><td>The Namesake, Interpreter of Maladies</td></tr>
+        <tr><td>Amitav Ghosh</td><td>The Shadow Lines, Sea of Poppies</td></tr>
+        <tr><td>Anita Desai</td><td>Fire on the Mountain, In Custody</td></tr>
+        <tr><td>Chetan Bhagat</td><td>Five Point Someone, 2 States, Half Girlfriend</td></tr>
+        <tr><td>Amish Tripathi</td><td>Shiva Trilogy, Ramachandra Series</td></tr>
+        <tr><td>Tulsidas</td><td>Ramcharitmanas</td></tr>
+        <tr><td>Valmiki</td><td>Ramayana</td></tr>
+        <tr><td>Ved Vyasa</td><td>Mahabharata, 18 Puranas</td></tr>
+        <tr><td>Kalidasa</td><td>Shakuntala, Meghadootam, Raghuvamsa, Kumarasambhava</td></tr>
+        <tr><td>Kautilya (Chanakya)</td><td>Arthashastra</td></tr>
+        <tr><td>Panini</td><td>Ashtadhyayi</td></tr>
+        <tr><td>Bana</td><td>Harshacharita, Kadambari</td></tr>
+        <tr><td>Vishakhadatta</td><td>Mudrarakshasa</td></tr>
+        <tr><td>Subhash Chandra Bose</td><td>The Indian Struggle</td></tr>
+        <tr><td>APJ Abdul Kalam</td><td>Wings of Fire, India 2020, Ignited Minds</td></tr>
+        <tr><td>Indira Gandhi</td><td>My Truth (autobiography)</td></tr>
+        <tr><td>Bal Gangadhar Tilak</td><td>Gita Rahasya, The Arctic Home of Vedas</td></tr>
+        <tr><td>Sri Aurobindo</td><td>Savitri, Life Divine</td></tr>
+        <tr><td>Swami Vivekananda</td><td>Raja Yoga, Karma Yoga</td></tr>
+      </table>
+
+      <h3>2. World Literature</h3>
+      <table>
+        <tr><th>Author</th><th>Famous Works</th></tr>
+        <tr><td>William Shakespeare</td><td>Hamlet, Othello, Romeo and Juliet, Macbeth, Julius Caesar, King Lear</td></tr>
+        <tr><td>Leo Tolstoy</td><td>War and Peace, Anna Karenina</td></tr>
+        <tr><td>Fyodor Dostoevsky</td><td>Crime and Punishment, Brothers Karamazov</td></tr>
+        <tr><td>Charles Dickens</td><td>Oliver Twist, David Copperfield, A Tale of Two Cities</td></tr>
+        <tr><td>Jane Austen</td><td>Pride and Prejudice, Emma, Sense and Sensibility</td></tr>
+        <tr><td>Mark Twain</td><td>Tom Sawyer, Huckleberry Finn</td></tr>
+        <tr><td>Ernest Hemingway</td><td>The Old Man and the Sea, A Farewell to Arms</td></tr>
+        <tr><td>George Orwell</td><td>1984, Animal Farm</td></tr>
+        <tr><td>Aldous Huxley</td><td>Brave New World</td></tr>
+        <tr><td>J.K. Rowling</td><td>Harry Potter series</td></tr>
+        <tr><td>Dan Brown</td><td>The Da Vinci Code, Angels and Demons</td></tr>
+        <tr><td>J.R.R. Tolkien</td><td>The Lord of the Rings, The Hobbit</td></tr>
+        <tr><td>Paulo Coelho</td><td>The Alchemist, Veronika Decides to Die</td></tr>
+        <tr><td>Gabriel García Márquez</td><td>One Hundred Years of Solitude</td></tr>
+        <tr><td>Homer</td><td>Iliad, Odyssey</td></tr>
+        <tr><td>Karl Marx</td><td>Das Kapital, Communist Manifesto</td></tr>
+        <tr><td>Adam Smith</td><td>The Wealth of Nations</td></tr>
+        <tr><td>Charles Darwin</td><td>On the Origin of Species</td></tr>
+        <tr><td>Sigmund Freud</td><td>The Interpretation of Dreams</td></tr>
+        <tr><td>Niccolò Machiavelli</td><td>The Prince</td></tr>
+        <tr><td>John Steinbeck</td><td>The Grapes of Wrath, Of Mice and Men</td></tr>
+        <tr><td>Harper Lee</td><td>To Kill a Mockingbird</td></tr>
+      </table>
+
+      <h3>3. Recent Booker / Nobel Laureates</h3>
+      <ul>
+        <li>Indian Booker Prize: Roy (1997), Desai (2006), Adiga (2008), Geetanjali Shree (Tomb of Sand, 2022 International).</li>
+        <li>Indian Nobel in Literature: Rabindranath Tagore (1913).</li>
+        <li>V.S. Naipaul (Trinidad-born, Indian origin): Nobel 2001.</li>
+        <li>Other Nobel laureates from Indian origin: Hargobind Khorana, Subramanyan Chandrasekhar, Amartya Sen, Venkatraman Ramakrishnan, Kailash Satyarthi, Abhijit Banerjee.</li>
+      </ul>
+
+      <h3>4. Religious Books</h3>
+      <ul>
+        <li>Bible (Christianity).</li>
+        <li>Quran (Islam).</li>
+        <li>Bhagavad Gita, Vedas, Upanishads, Ramayana, Mahabharata (Hinduism).</li>
+        <li>Tripitaka, Dhammapada (Buddhism).</li>
+        <li>Guru Granth Sahib (Sikhism).</li>
+        <li>Agamas, Tattvartha Sutra (Jainism).</li>
+        <li>Torah, Talmud (Judaism).</li>
+        <li>Avesta (Zoroastrianism).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Gitanjali by Tagore (Nobel 1913).</li>
+        <li>God of Small Things: Arundhati Roy.</li>
+        <li>Midnight's Children: Salman Rushdie.</li>
+        <li>White Tiger: Aravind Adiga.</li>
+        <li>Wings of Fire: APJ Kalam.</li>
+        <li>Discovery of India: Nehru.</li>
+        <li>Arthashastra: Kautilya.</li>
+        <li>Ramayana: Valmiki; Mahabharata: Vyasa.</li>
+        <li>War and Peace: Tolstoy.</li>
+        <li>1984, Animal Farm: Orwell.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Gitanjali by:", opts: ["Tagore", "Nehru", "Bose", "Gandhi"], a: 0, ex: "Nobel 1913." },
+      { q: "Discovery of India by:", opts: ["Gandhi", "Nehru", "Tagore", "Patel"], a: 1, ex: "Nehru." },
+      { q: "My Experiments with Truth by:", opts: ["Gandhi", "Tagore", "Tilak", "Bose"], a: 0, ex: "Gandhi's autobiography." },
+      { q: "Arthashastra by:", opts: ["Kautilya", "Kalidasa", "Panini", "Vyasa"], a: 0, ex: "Chanakya." },
+      { q: "Ramayana by:", opts: ["Vyasa", "Valmiki", "Tulsidas", "Kalidasa"], a: 1, ex: "Sanskrit original by Valmiki." },
+      { q: "Mahabharata by:", opts: ["Valmiki", "Vyasa", "Tulsidas", "Vishakhadatta"], a: 1, ex: "Ved Vyasa." },
+      { q: "Shakuntala by:", opts: ["Bana", "Kalidasa", "Vyasa", "Panini"], a: 1, ex: "Kalidasa." },
+      { q: "Wings of Fire by:", opts: ["Kalam", "Nehru", "Modi", "Bose"], a: 0, ex: "APJ Abdul Kalam." },
+      { q: "God of Small Things by:", opts: ["Roy", "Desai", "Adiga", "Lahiri"], a: 0, ex: "Arundhati Roy." },
+      { q: "Midnight's Children by:", opts: ["Roy", "Rushdie", "Naipaul", "Seth"], a: 1, ex: "Salman Rushdie." },
+      { q: "The White Tiger by:", opts: ["Adiga", "Roy", "Lahiri", "Rushdie"], a: 0, ex: "Aravind Adiga, Booker 2008." },
+      { q: "Hamlet by:", opts: ["Shakespeare", "Marlowe", "Wilde", "Shaw"], a: 0, ex: "William Shakespeare." },
+      { q: "War and Peace by:", opts: ["Dostoevsky", "Tolstoy", "Chekhov", "Pushkin"], a: 1, ex: "Leo Tolstoy." },
+      { q: "Animal Farm by:", opts: ["Huxley", "Orwell", "Wells", "Lewis"], a: 1, ex: "George Orwell." },
+      { q: "Das Kapital by:", opts: ["Marx", "Engels", "Smith", "Keynes"], a: 0, ex: "Karl Marx." },
+      { q: "On the Origin of Species by:", opts: ["Mendel", "Darwin", "Lamarck", "Wallace"], a: 1, ex: "Charles Darwin." },
+      { q: "Harry Potter by:", opts: ["Rowling", "Tolkien", "Lewis", "Roald Dahl"], a: 0, ex: "J.K. Rowling." },
+      { q: "The Alchemist by:", opts: ["Roy", "Coelho", "Hemingway", "Murakami"], a: 1, ex: "Paulo Coelho." },
+      { q: "1984 by:", opts: ["Huxley", "Orwell", "Bradbury", "Asimov"], a: 1, ex: "George Orwell." },
+      { q: "The Prince by:", opts: ["Marx", "Plato", "Machiavelli", "Rousseau"], a: 2, ex: "Niccolò Machiavelli." }
+    ]
+  };
+
+  // sgk-official-books placeholder
+  T["sgk-official-books"] = T["sgk-books-authors"];
+
+  // ───────────────────────────────────────────────────────────────
+  // 27. SPORTS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-sports"] = {
+    body: `
+      <h2>Sports: Cups, Trophies, Players & Stadia</h2>
+
+      <h3>1. Cricket Trophies</h3>
+      <ul>
+        <li><b>ICC World Cup (ODI)</b>: every 4 years.</li>
+        <li><b>ICC T20 World Cup</b>: every 2 years.</li>
+        <li><b>ICC Champions Trophy</b>: discontinued, may return.</li>
+        <li><b>IPL Trophy</b>: Indian Premier League.</li>
+        <li><b>Ranji Trophy</b>: Indian domestic.</li>
+        <li><b>Duleep Trophy</b>: zonal cricket.</li>
+        <li><b>Irani Trophy</b>: champion vs Rest of India.</li>
+        <li><b>Vijay Hazare Trophy</b>: domestic ODI.</li>
+        <li><b>Syed Mushtaq Ali Trophy</b>: domestic T20.</li>
+        <li><b>Ashes</b>: England vs Australia Test.</li>
+        <li><b>Border-Gavaskar Trophy</b>: India vs Australia.</li>
+      </ul>
+
+      <h3>2. Football</h3>
+      <ul>
+        <li><b>FIFA World Cup</b>: every 4 years; 1st 1930 (Uruguay won); 2022 won by Argentina.</li>
+        <li><b>UEFA Champions League</b>: Europe's top club tournament.</li>
+        <li><b>UEFA Euro</b>: European national.</li>
+        <li><b>Copa America</b>: South American national.</li>
+        <li><b>AFC Asian Cup</b>: Asian national.</li>
+        <li><b>Indian: Santosh Trophy, I-League, ISL, Federation Cup, Durand Cup</b>.</li>
+      </ul>
+
+      <h3>3. Hockey</h3>
+      <ul>
+        <li><b>World Cup</b>: every 4 years.</li>
+        <li><b>Champions Trophy</b>.</li>
+        <li><b>India's domestic</b>: Beighton Cup, Aga Khan Cup, Bombay Gold Cup.</li>
+      </ul>
+
+      <h3>4. Tennis</h3>
+      <ul>
+        <li><b>Grand Slams</b> (4 majors):
+          <ul>
+            <li>Australian Open (January).</li>
+            <li>French Open / Roland Garros (May-June; clay).</li>
+            <li>Wimbledon (June-July; grass; oldest, 1877).</li>
+            <li>US Open (August-September; hard).</li>
+          </ul>
+        </li>
+        <li><b>Davis Cup</b>: Men's national team.</li>
+        <li><b>Fed Cup</b> (Billie Jean King Cup): Women's national team.</li>
+        <li><b>ATP Finals</b>: Top 8 men.</li>
+      </ul>
+
+      <h3>5. Olympic Sports</h3>
+      <ul>
+        <li>Modern Olympics started: 1896 Athens.</li>
+        <li>Winter Olympics started: 1924 Chamonix.</li>
+        <li>Olympic motto: "Citius, Altius, Fortius" (Faster, Higher, Stronger) — added "Communiter" (Together) 2021.</li>
+        <li>Olympic flag: 5 rings on white — represent 5 continents.</li>
+      </ul>
+
+      <h3>6. Game Origin Countries</h3>
+      <table>
+        <tr><th>Sport</th><th>Origin</th></tr>
+        <tr><td>Cricket</td><td>England</td></tr>
+        <tr><td>Football</td><td>England</td></tr>
+        <tr><td>Hockey</td><td>England/Persia</td></tr>
+        <tr><td>Tennis</td><td>France</td></tr>
+        <tr><td>Badminton</td><td>England (India "Poona")</td></tr>
+        <tr><td>Table Tennis</td><td>England</td></tr>
+        <tr><td>Golf</td><td>Scotland</td></tr>
+        <tr><td>Baseball</td><td>USA</td></tr>
+        <tr><td>Basketball</td><td>USA (James Naismith, 1891)</td></tr>
+        <tr><td>Volleyball</td><td>USA (William Morgan, 1895)</td></tr>
+        <tr><td>Chess</td><td>India (Chaturanga)</td></tr>
+        <tr><td>Polo</td><td>Manipur (India)</td></tr>
+        <tr><td>Kabaddi</td><td>India</td></tr>
+        <tr><td>Judo</td><td>Japan</td></tr>
+        <tr><td>Karate</td><td>Japan</td></tr>
+        <tr><td>Taekwondo</td><td>Korea</td></tr>
+        <tr><td>Sumo</td><td>Japan</td></tr>
+        <tr><td>Rugby</td><td>England</td></tr>
+      </table>
+
+      <h3>7. Number of Players (per side)</h3>
+      <table>
+        <tr><th>Game</th><th>Players</th></tr>
+        <tr><td>Cricket</td><td>11</td></tr>
+        <tr><td>Football</td><td>11</td></tr>
+        <tr><td>Hockey</td><td>11</td></tr>
+        <tr><td>Volleyball</td><td>6</td></tr>
+        <tr><td>Basketball</td><td>5</td></tr>
+        <tr><td>Baseball</td><td>9</td></tr>
+        <tr><td>Polo</td><td>4</td></tr>
+        <tr><td>Kabaddi</td><td>7</td></tr>
+        <tr><td>Kho-Kho</td><td>9 (with 3 reserves)</td></tr>
+        <tr><td>Rugby</td><td>15</td></tr>
+        <tr><td>Water polo</td><td>7</td></tr>
+        <tr><td>Netball</td><td>7</td></tr>
+        <tr><td>Lacrosse</td><td>10</td></tr>
+      </table>
+
+      <h3>8. Indian Sports Stadia</h3>
+      <ul>
+        <li><b>Narendra Modi Stadium</b>, Ahmedabad: largest cricket stadium (132,000).</li>
+        <li><b>Eden Gardens</b>, Kolkata: oldest test ground in India.</li>
+        <li><b>Wankhede</b>, Mumbai.</li>
+        <li><b>Chinnaswamy</b>, Bengaluru.</li>
+        <li><b>Chepauk</b>, Chennai.</li>
+        <li><b>Feroz Shah Kotla / Arun Jaitley Stadium</b>, Delhi.</li>
+        <li><b>Salt Lake Stadium</b>, Kolkata: 2nd largest football stadium in world.</li>
+      </ul>
+
+      <h3>9. Sports Awards in India</h3>
+      <ul>
+        <li><b>Major Dhyan Chand Khel Ratna Award</b>: highest sporting honor.</li>
+        <li><b>Arjuna Award</b>: outstanding performance.</li>
+        <li><b>Dronacharya Award</b>: best coach.</li>
+        <li><b>Dhyan Chand Award</b>: lifetime achievement.</li>
+        <li><b>Rashtriya Khel Protsahan Puraskar</b>: corporate sports promotion.</li>
+        <li>1st Khel Ratna: Viswanathan Anand (1991-92).</li>
+      </ul>
+
+      <h3>10. Famous Indian Sportspersons</h3>
+      <ul>
+        <li>Cricket: Tendulkar, Kohli, Dhoni, Sourav Ganguly, Sunil Gavaskar, Kapil Dev.</li>
+        <li>Hockey: Dhyan Chand, Balbir Singh, Sardar Singh.</li>
+        <li>Athletics: Milkha Singh, PT Usha, Anju Bobby George, Neeraj Chopra.</li>
+        <li>Badminton: Prakash Padukone, P. Gopichand, Saina Nehwal, PV Sindhu, Lakshya Sen.</li>
+        <li>Boxing: Mary Kom, Vijender Singh.</li>
+        <li>Wrestling: Sushil Kumar, Yogeshwar Dutt, Sakshi Malik.</li>
+        <li>Tennis: Leander Paes, Mahesh Bhupathi, Sania Mirza.</li>
+        <li>Shooting: Abhinav Bindra, Gagan Narang, Rajyavardhan Rathore.</li>
+        <li>Chess: Viswanathan Anand, Praggnanandhaa, Gukesh.</li>
+        <li>Golf: Jeev Milkha Singh, Anirban Lahiri.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>FIFA WC 2022: Argentina (Messi).</li>
+        <li>Cricket WC 2023: Australia (vs India).</li>
+        <li>Wimbledon: oldest grand slam (1877).</li>
+        <li>Largest cricket stadium: Modi Stadium Ahmedabad.</li>
+        <li>Salt Lake: 2nd largest football stadium.</li>
+        <li>Khel Ratna: highest sport award (Indian).</li>
+        <li>1st Khel Ratna: Anand 1991-92.</li>
+        <li>Olympic motto: Citius, Altius, Fortius.</li>
+        <li>Chess origin: India.</li>
+        <li>Basketball: USA, 1891.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "FIFA WC 2022 winner:", opts: ["France", "Argentina", "Croatia", "Brazil"], a: 1, ex: "Messi's team." },
+      { q: "Cricket WC 2023 winner:", opts: ["India", "Australia", "England", "NZ"], a: 1, ex: "Australia vs India." },
+      { q: "Oldest tennis Grand Slam:", opts: ["Australian Open", "Wimbledon", "French", "US Open"], a: 1, ex: "1877." },
+      { q: "Olympic motto:", opts: ["Citius Altius Fortius", "Per Aspera", "Festina Lente", "Carpe Diem"], a: 0, ex: "Faster Higher Stronger." },
+      { q: "Olympic rings count:", opts: ["3", "4", "5", "6"], a: 2, ex: "5 continents." },
+      { q: "Players in football:", opts: ["10", "11", "9", "7"], a: 1, ex: "11 per side." },
+      { q: "Players in basketball:", opts: ["5", "7", "9", "6"], a: 0, ex: "5 on court." },
+      { q: "Players in kabaddi:", opts: ["5", "7", "9", "11"], a: 1, ex: "7 per side." },
+      { q: "Players in polo:", opts: ["4", "7", "9", "11"], a: 0, ex: "4 per team." },
+      { q: "Chess originated in:", opts: ["China", "India", "Persia", "Egypt"], a: 1, ex: "Chaturanga." },
+      { q: "Basketball invented by:", opts: ["Naismith", "Edison", "Smith", "Watt"], a: 0, ex: "James Naismith 1891." },
+      { q: "Wimbledon court surface:", opts: ["Hard", "Clay", "Grass", "Carpet"], a: 2, ex: "Grass." },
+      { q: "French Open surface:", opts: ["Hard", "Clay", "Grass", "Carpet"], a: 1, ex: "Clay." },
+      { q: "Largest cricket stadium:", opts: ["Eden Gardens", "MCG", "Wankhede", "Modi Stadium"], a: 3, ex: "Ahmedabad 132K." },
+      { q: "Highest Indian sport award:", opts: ["Arjuna", "Khel Ratna", "Dronacharya", "Padma"], a: 1, ex: "Khel Ratna." },
+      { q: "First Khel Ratna:", opts: ["Anand", "Dhoni", "Tendulkar", "Milkha"], a: 0, ex: "1991-92." },
+      { q: "Hockey wizard:", opts: ["Dhyan Chand", "Sardar", "Balbir", "Bhutia"], a: 0, ex: "Major Dhyan Chand." },
+      { q: "Neeraj Chopra event:", opts: ["Shotput", "Discus", "Javelin", "100m"], a: 2, ex: "Olympic gold 2020." },
+      { q: "Davis Cup is in:", opts: ["Football", "Cricket", "Tennis", "Hockey"], a: 2, ex: "Tennis men national." },
+      { q: "Polo origin:", opts: ["England", "Manipur", "Spain", "Russia"], a: 1, ex: "India." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 28. AWARDS & HONOURS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-awards"] = {
+    body: `
+      <h2>Awards & Honours</h2>
+
+      <h3>1. Indian Civilian Awards (in order)</h3>
+      <ol>
+        <li><b>Bharat Ratna</b>: Highest civilian. Instituted 1954.</li>
+        <li><b>Padma Vibhushan</b>: 2nd highest.</li>
+        <li><b>Padma Bhushan</b>: 3rd.</li>
+        <li><b>Padma Shri</b>: 4th.</li>
+      </ol>
+      <p>First Bharat Ratna recipients (1954): Dr. S. Radhakrishnan, C. Rajagopalachari, C.V. Raman.</p>
+      <p>First Indian-born Nobel: Tagore.</p>
+
+      <h3>2. Bharat Ratna Notable Recipients</h3>
+      <ul>
+        <li>Dr. Rajendra Prasad, Indira Gandhi, Rajiv Gandhi.</li>
+        <li>Mother Teresa, Khan Abdul Ghaffar Khan (1st non-Indian).</li>
+        <li>Nelson Mandela.</li>
+        <li>Sachin Tendulkar (1st sportsperson, 2014).</li>
+        <li>Atal Bihari Vajpayee, Madan Mohan Malviya.</li>
+        <li>APJ Abdul Kalam (2nd youngest scientist).</li>
+        <li>Pranab Mukherjee, Bhupen Hazarika, Nanaji Deshmukh.</li>
+        <li>L.K. Advani (2024).</li>
+      </ul>
+
+      <h3>3. Gallantry Awards</h3>
+      <ul>
+        <li>Wartime: PVC → MVC → VC.</li>
+        <li>Peacetime: Ashoka Chakra → Kirti Chakra → Shaurya Chakra.</li>
+      </ul>
+
+      <h3>4. Literature Awards</h3>
+      <ul>
+        <li><b>Jnanpith Award</b>: Highest Indian literary award.</li>
+        <li><b>Sahitya Akademi Award</b>: For Indian language literature.</li>
+        <li><b>Vyas Samman</b>: Hindi literature.</li>
+        <li><b>Saraswati Samman</b>: Indian literature.</li>
+        <li><b>Bharatiya Jnanpith</b>: Founded by Sahu Shanti Prasad Jain (1944).</li>
+        <li>1st Jnanpith: G. Sankara Kurup (Malayalam, 1965).</li>
+      </ul>
+
+      <h3>5. International Awards</h3>
+      <ul>
+        <li><b>Nobel Prize</b>: instituted 1901. 6 fields: Physics, Chemistry, Medicine, Literature, Peace, Economics (1969).</li>
+        <li><b>Booker Prize</b>: English fiction. International Booker also.</li>
+        <li><b>Pulitzer Prize</b>: USA journalism and arts.</li>
+        <li><b>Magsaysay Award</b>: "Asian Nobel" — Philippines.</li>
+        <li><b>Right Livelihood Award</b>: "Alternative Nobel".</li>
+        <li><b>Fields Medal</b>: highest math award (Manjul Bhargava, Indian-origin).</li>
+        <li><b>Abel Prize</b>: math.</li>
+        <li><b>Turing Award</b>: highest in CS.</li>
+        <li><b>Pritzker Prize</b>: architecture.</li>
+        <li><b>Templeton Prize</b>: religion-science.</li>
+        <li><b>Oscar (Academy Awards)</b>: cinema.</li>
+        <li><b>Grammy</b>: music.</li>
+        <li><b>Emmy</b>: TV.</li>
+        <li><b>Tony</b>: theatre.</li>
+        <li><b>Cannes Festival</b>: Palme d'Or.</li>
+      </ul>
+
+      <h3>6. Indian Cinema Awards</h3>
+      <ul>
+        <li><b>Dadasaheb Phalke Award</b>: highest film honor.</li>
+        <li><b>National Film Awards</b>: by Govt of India.</li>
+        <li><b>Filmfare</b>, <b>IIFA</b>, <b>Zee Cine</b>: private awards.</li>
+      </ul>
+
+      <h3>7. Major Sports Awards (India)</h3>
+      <ul>
+        <li>Khel Ratna (highest).</li>
+        <li>Arjuna Award.</li>
+        <li>Dronacharya (coach).</li>
+        <li>Dhyan Chand Award (lifetime).</li>
+        <li>Rashtriya Khel Protsahan Puraskar.</li>
+        <li>1st Khel Ratna: Anand (1991-92).</li>
+      </ul>
+
+      <h3>8. Nobel Laureates of Indian Origin</h3>
+      <ul>
+        <li>1913 Literature: <b>Rabindranath Tagore</b>.</li>
+        <li>1930 Physics: <b>C.V. Raman</b>.</li>
+        <li>1968 Medicine: <b>Hargobind Khorana</b>.</li>
+        <li>1979 Peace: <b>Mother Teresa</b>.</li>
+        <li>1983 Physics: <b>Subramanyan Chandrasekhar</b>.</li>
+        <li>1998 Economics: <b>Amartya Sen</b>.</li>
+        <li>2001 Literature: <b>V.S. Naipaul</b> (Trinidad-born, Indian origin).</li>
+        <li>2009 Chemistry: <b>Venkatraman Ramakrishnan</b> (UK-born Indian).</li>
+        <li>2014 Peace: <b>Kailash Satyarthi</b>.</li>
+        <li>2019 Economics: <b>Abhijit Banerjee</b>.</li>
+      </ul>
+
+      <h3>9. Important Other Awards</h3>
+      <ul>
+        <li><b>Gandhi Peace Prize</b>: by Govt of India.</li>
+        <li><b>Indira Gandhi Peace Prize</b>: international.</li>
+        <li><b>Jamnalal Bajaj Award</b>: constructive work.</li>
+        <li><b>Tata Innovation Prize</b>.</li>
+        <li><b>UNESCO Peace Prize</b>.</li>
+        <li><b>WHO Awards</b>.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Bharat Ratna: highest Indian civilian (1954).</li>
+        <li>1st BR: Radhakrishnan, Rajagopalachari, C.V. Raman.</li>
+        <li>Nobel: 1901, 6 fields.</li>
+        <li>Magsaysay: Asian Nobel.</li>
+        <li>Booker: English fiction.</li>
+        <li>Fields Medal: top math.</li>
+        <li>Turing Award: top CS.</li>
+        <li>Pulitzer: USA.</li>
+        <li>Oscar: film.</li>
+        <li>Tagore: 1st Indian Nobel (1913).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Highest Indian civilian award:", opts: ["Padma Vibhushan", "Bharat Ratna", "Padma Shri", "Padma Bhushan"], a: 1, ex: "Bharat Ratna." },
+      { q: "Bharat Ratna instituted:", opts: ["1947", "1950", "1954", "1962"], a: 2, ex: "1954." },
+      { q: "1st Bharat Ratna (not single name, set):", opts: ["Radhakrishnan, Rajagopalachari, CV Raman", "Nehru", "Gandhi", "Patel"], a: 0, ex: "Three together." },
+      { q: "Bharat Ratna first non-Indian:", opts: ["Nelson Mandela", "Khan Abdul Ghaffar Khan", "Mother Teresa", "Asha Bhonsle"], a: 1, ex: "Frontier Gandhi." },
+      { q: "1st sportsperson Bharat Ratna:", opts: ["Dhyan Chand", "Tendulkar", "Anand", "Milkha"], a: 1, ex: "Sachin 2014." },
+      { q: "Highest Indian literary award:", opts: ["Sahitya Akademi", "Jnanpith", "Vyas Samman", "Saraswati"], a: 1, ex: "Jnanpith." },
+      { q: "Highest film award (India):", opts: ["Filmfare", "Dadasaheb Phalke", "IIFA", "National"], a: 1, ex: "Phalke Award." },
+      { q: "Magsaysay is called:", opts: ["European Nobel", "Asian Nobel", "Indian Nobel", "African"], a: 1, ex: "Philippines award." },
+      { q: "Nobel Prize started:", opts: ["1900", "1901", "1905", "1910"], a: 1, ex: "1901." },
+      { q: "Nobel in Economics added:", opts: ["1901", "1969", "1990", "2001"], a: 1, ex: "1969 by Sweden bank." },
+      { q: "Pulitzer Prize is for:", opts: ["Film", "Journalism/literature (USA)", "Math", "Science"], a: 1, ex: "USA award." },
+      { q: "Fields Medal is for:", opts: ["Math", "Physics", "Chemistry", "Literature"], a: 0, ex: "Highest math award." },
+      { q: "Turing Award:", opts: ["Math", "Computer Science", "Robotics", "Engineering"], a: 1, ex: "Highest CS." },
+      { q: "Booker Prize:", opts: ["English fiction", "Poetry", "Drama", "Non-fiction"], a: 0, ex: "Fiction novel." },
+      { q: "Oscar award:", opts: ["Music", "Film", "TV", "Theatre"], a: 1, ex: "Academy Awards." },
+      { q: "Grammy is for:", opts: ["Film", "Music", "TV", "Sports"], a: 1, ex: "Music." },
+      { q: "Mother Teresa got Nobel in:", opts: ["1969", "1979", "1989", "1999"], a: 1, ex: "1979 Peace." },
+      { q: "CV Raman Nobel Physics in:", opts: ["1930", "1913", "1968", "1983"], a: 0, ex: "1930." },
+      { q: "Amartya Sen Nobel:", opts: ["Literature", "Economics", "Peace", "Physics"], a: 1, ex: "1998." },
+      { q: "Kailash Satyarthi Nobel:", opts: ["Literature", "Peace", "Economics", "Chemistry"], a: 1, ex: "2014 Peace." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 29. IMPORTANT DAYS & DATES
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-days"] = {
+    body: `
+      <h2>Important Days & Dates</h2>
+
+      <h3>1. January</h3>
+      <ul>
+        <li>1: New Year, Global Family Day.</li>
+        <li>4: World Braille Day.</li>
+        <li>9: Pravasi Bharatiya Divas.</li>
+        <li>10: World Hindi Day.</li>
+        <li>12: National Youth Day (Vivekananda's birthday).</li>
+        <li>15: Army Day (India).</li>
+        <li>23: Subhas Chandra Bose's birth (Parakram Diwas).</li>
+        <li>24: National Girl Child Day.</li>
+        <li>25: National Voters' Day, National Tourism Day.</li>
+        <li>26: <b>Republic Day</b>; International Customs Day.</li>
+        <li>27: International Holocaust Remembrance Day.</li>
+        <li>28: Data Protection Day.</li>
+        <li>30: Martyrs' Day (Gandhi's death).</li>
+      </ul>
+
+      <h3>2. February</h3>
+      <ul>
+        <li>2: World Wetlands Day.</li>
+        <li>4: World Cancer Day.</li>
+        <li>11: International Day of Women and Girls in Science.</li>
+        <li>13: World Radio Day; National Women's Day (Sarojini Naidu).</li>
+        <li>14: Valentine's Day.</li>
+        <li>20: World Day of Social Justice.</li>
+        <li>21: International Mother Language Day.</li>
+        <li>24: Central Excise Day.</li>
+        <li>28: National Science Day (CV Raman's discovery).</li>
+      </ul>
+
+      <h3>3. March</h3>
+      <ul>
+        <li>3: World Wildlife Day; World Hearing Day.</li>
+        <li>4: National Safety Day.</li>
+        <li>8: International Women's Day.</li>
+        <li>14: Pi Day.</li>
+        <li>15: World Consumer Rights Day.</li>
+        <li>20: International Day of Happiness.</li>
+        <li>21: World Forestry Day; World Down Syndrome Day; World Poetry Day.</li>
+        <li>22: World Water Day.</li>
+        <li>23: Shaheed Diwas (Bhagat Singh, Rajguru, Sukhdev); World Meteorological Day.</li>
+        <li>24: World TB Day.</li>
+        <li>27: World Theatre Day.</li>
+      </ul>
+
+      <h3>4. April</h3>
+      <ul>
+        <li>1: Odisha Day; April Fools'.</li>
+        <li>2: World Autism Awareness Day.</li>
+        <li>5: National Maritime Day.</li>
+        <li>7: World Health Day (WHO founded).</li>
+        <li>10: World Homeopathy Day.</li>
+        <li>11: National Safe Motherhood Day.</li>
+        <li>14: Ambedkar Jayanti.</li>
+        <li>17: World Hemophilia Day.</li>
+        <li>18: World Heritage Day.</li>
+        <li>21: National Civil Services Day.</li>
+        <li>22: Earth Day.</li>
+        <li>23: World Book Day.</li>
+        <li>24: National Panchayati Raj Day.</li>
+        <li>25: World Malaria Day.</li>
+      </ul>
+
+      <h3>5. May</h3>
+      <ul>
+        <li>1: International Labour Day, Maharashtra Day, Gujarat Day.</li>
+        <li>3: World Press Freedom Day.</li>
+        <li>4: Coal Miners' Day.</li>
+        <li>5: World Hand Hygiene Day.</li>
+        <li>7: Rabindranath Tagore Jayanti.</li>
+        <li>8: World Red Cross Day; World Thalassemia Day.</li>
+        <li>11: National Technology Day.</li>
+        <li>12: International Nurses Day.</li>
+        <li>15: International Day of Families.</li>
+        <li>17: World Telecommunication Day.</li>
+        <li>18: World AIDS Vaccine Day; Museum Day.</li>
+        <li>21: Anti-Terrorism Day (Rajiv Gandhi's death).</li>
+        <li>22: International Day for Biological Diversity.</li>
+        <li>24: Commonwealth Day.</li>
+        <li>31: World No Tobacco Day.</li>
+      </ul>
+
+      <h3>6. June</h3>
+      <ul>
+        <li>1: World Milk Day.</li>
+        <li>3: World Bicycle Day.</li>
+        <li>5: World Environment Day.</li>
+        <li>8: World Ocean Day.</li>
+        <li>12: World Day Against Child Labour.</li>
+        <li>14: World Blood Donor Day.</li>
+        <li>15: World Wind Day.</li>
+        <li>20: World Refugee Day.</li>
+        <li>21: <b>International Day of Yoga</b>.</li>
+        <li>23: International Olympic Day.</li>
+        <li>26: International Day Against Drug Abuse.</li>
+        <li>27: MSME Day.</li>
+        <li>29: National Statistics Day.</li>
+      </ul>
+
+      <h3>7. July</h3>
+      <ul>
+        <li>1: National Doctor's Day, GST Day.</li>
+        <li>11: World Population Day.</li>
+        <li>18: Nelson Mandela International Day.</li>
+        <li>26: Kargil Vijay Diwas.</li>
+        <li>28: World Hepatitis Day.</li>
+        <li>29: International Tiger Day.</li>
+      </ul>
+
+      <h3>8. August</h3>
+      <ul>
+        <li>6: Hiroshima Day.</li>
+        <li>9: International Day of World's Indigenous People; Quit India Day.</li>
+        <li>12: International Youth Day.</li>
+        <li>15: <b>Independence Day</b> (India).</li>
+        <li>19: World Humanitarian Day; World Photography Day.</li>
+        <li>20: Sadbhavna Diwas (Rajiv Gandhi birth).</li>
+        <li>23: National Space Day (Chandrayaan-3 landing).</li>
+        <li>29: National Sports Day (Dhyan Chand's birth).</li>
+      </ul>
+
+      <h3>9. September</h3>
+      <ul>
+        <li>5: Teachers' Day (Radhakrishnan); International Day of Charity.</li>
+        <li>8: International Literacy Day.</li>
+        <li>14: Hindi Diwas.</li>
+        <li>15: Engineer's Day (Visvesvaraya); International Day of Democracy.</li>
+        <li>16: World Ozone Day.</li>
+        <li>21: International Peace Day; Alzheimer's Day.</li>
+        <li>27: World Tourism Day.</li>
+        <li>29: World Heart Day.</li>
+      </ul>
+
+      <h3>10. October</h3>
+      <ul>
+        <li>1: International Day of Older Persons.</li>
+        <li>2: Gandhi Jayanti; International Day of Non-Violence.</li>
+        <li>4: World Animal Welfare Day.</li>
+        <li>5: World Teachers' Day.</li>
+        <li>8: Indian Air Force Day.</li>
+        <li>9: World Postal Day.</li>
+        <li>10: World Mental Health Day.</li>
+        <li>11: International Day of the Girl Child.</li>
+        <li>15: World Students' Day (Kalam birth); World White Cane Day.</li>
+        <li>16: World Food Day.</li>
+        <li>17: International Day for Eradication of Poverty.</li>
+        <li>24: UN Day; World Polio Day.</li>
+        <li>31: Sardar Vallabhbhai Patel (National Unity Day); Halloween.</li>
+      </ul>
+
+      <h3>11. November</h3>
+      <ul>
+        <li>1: All Saints' Day.</li>
+        <li>7: National Cancer Awareness Day.</li>
+        <li>11: National Education Day (Maulana Azad birth).</li>
+        <li>12: Public Service Broadcasting Day.</li>
+        <li>14: Children's Day (Nehru birth).</li>
+        <li>16: International Day for Tolerance.</li>
+        <li>17: National Epilepsy Day.</li>
+        <li>19: International Men's Day; National Integration Day (Indira birth).</li>
+        <li>20: Universal Children's Day.</li>
+        <li>21: World Television Day.</li>
+        <li>26: Constitution Day (Samvidhan Diwas) — adopted 1949.</li>
+        <li>29: International Day of Solidarity with Palestinian People.</li>
+      </ul>
+
+      <h3>12. December</h3>
+      <ul>
+        <li>1: World AIDS Day.</li>
+        <li>2: National Pollution Control Day.</li>
+        <li>3: International Day of Disabled Persons.</li>
+        <li>4: Indian Navy Day.</li>
+        <li>5: International Volunteer Day.</li>
+        <li>7: Indian Armed Forces Flag Day.</li>
+        <li>10: Human Rights Day.</li>
+        <li>11: International Mountain Day.</li>
+        <li>14: National Energy Conservation Day.</li>
+        <li>18: Minority Rights Day (India).</li>
+        <li>22: National Mathematics Day (Ramanujan birth).</li>
+        <li>23: National Farmer's Day (Kisan Diwas).</li>
+        <li>24: National Consumer Rights Day.</li>
+        <li>25: Christmas; Good Governance Day (Vajpayee birth).</li>
+        <li>26: National Veer Bal Diwas; Boxing Day.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>26 Jan: Republic Day.</li>
+        <li>15 Aug: Independence Day.</li>
+        <li>2 Oct: Gandhi Jayanti.</li>
+        <li>21 June: Yoga Day.</li>
+        <li>5 June: Environment Day.</li>
+        <li>8 March: Women's Day.</li>
+        <li>22 April: Earth Day.</li>
+        <li>5 Sept: Teachers' Day.</li>
+        <li>14 Sept: Hindi Diwas.</li>
+        <li>14 Nov: Children's Day.</li>
+        <li>22 Dec: Mathematics Day.</li>
+        <li>23 Aug: National Space Day.</li>
+        <li>15 Jan: Army Day.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Republic Day:", opts: ["15 Aug", "26 Jan", "2 Oct", "14 Nov"], a: 1, ex: "26 January." },
+      { q: "Independence Day:", opts: ["15 Aug", "26 Jan", "2 Oct", "14 Aug"], a: 0, ex: "15 August." },
+      { q: "International Yoga Day:", opts: ["1 June", "21 June", "5 June", "30 June"], a: 1, ex: "21 June." },
+      { q: "Environment Day:", opts: ["22 April", "5 June", "8 June", "1 Apr"], a: 1, ex: "5 June." },
+      { q: "Teachers Day in India:", opts: ["5 Sept", "5 Oct", "14 Nov", "26 Jan"], a: 0, ex: "Radhakrishnan birth." },
+      { q: "Children's Day in India:", opts: ["14 Nov", "5 Sept", "26 Jan", "11 Apr"], a: 0, ex: "Nehru's birth." },
+      { q: "Hindi Diwas:", opts: ["14 Sept", "14 Nov", "8 Sept", "26 Jan"], a: 0, ex: "14 September." },
+      { q: "Earth Day:", opts: ["22 April", "5 June", "22 Mar", "22 July"], a: 0, ex: "22 April." },
+      { q: "Water Day:", opts: ["5 June", "22 March", "22 April", "1 May"], a: 1, ex: "22 March." },
+      { q: "Women's Day:", opts: ["8 March", "14 Nov", "5 Sept", "21 June"], a: 0, ex: "International." },
+      { q: "Army Day (India):", opts: ["15 Jan", "26 Jan", "8 Oct", "4 Dec"], a: 0, ex: "15 January." },
+      { q: "Navy Day (India):", opts: ["15 Jan", "4 Dec", "8 Oct", "26 Jan"], a: 1, ex: "December 4." },
+      { q: "Air Force Day:", opts: ["15 Jan", "4 Dec", "8 Oct", "26 Jan"], a: 2, ex: "October 8." },
+      { q: "Gandhi Jayanti:", opts: ["15 Aug", "2 Oct", "26 Jan", "14 Nov"], a: 1, ex: "2 October." },
+      { q: "Math Day (India):", opts: ["22 Dec", "1 Apr", "22 March", "11 May"], a: 0, ex: "Ramanujan birth." },
+      { q: "Science Day (India):", opts: ["28 Feb", "11 May", "22 Apr", "5 Jun"], a: 0, ex: "CV Raman discovery." },
+      { q: "Tech Day (India):", opts: ["28 Feb", "11 May", "5 Sept", "23 Aug"], a: 1, ex: "Pokhran 1998." },
+      { q: "Constitution Day:", opts: ["26 Jan", "26 Nov", "14 Nov", "15 Aug"], a: 1, ex: "Adopted Nov 26, 1949." },
+      { q: "Sports Day (India):", opts: ["29 Aug", "29 Sept", "23 Aug", "5 Sept"], a: 0, ex: "Dhyan Chand birth." },
+      { q: "Yoga Day declared by:", opts: ["UN (2014)", "PM India", "Both A and B", "WHO"], a: 2, ex: "UN on India proposal." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 30. IMPORTANT ABBREVIATIONS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-abbreviations"] = {
+    body: `
+      <h2>Important Abbreviations</h2>
+
+      <h3>1. Government / Indian</h3>
+      <ul>
+        <li><b>ATM</b>: Automated Teller Machine</li>
+        <li><b>PAN</b>: Permanent Account Number</li>
+        <li><b>GST</b>: Goods and Services Tax</li>
+        <li><b>TDS</b>: Tax Deducted at Source</li>
+        <li><b>UPI</b>: Unified Payments Interface</li>
+        <li><b>NEFT</b>: National Electronic Funds Transfer</li>
+        <li><b>RTGS</b>: Real-Time Gross Settlement</li>
+        <li><b>IMPS</b>: Immediate Payment Service</li>
+        <li><b>FDI</b>: Foreign Direct Investment</li>
+        <li><b>FII</b>: Foreign Institutional Investor</li>
+        <li><b>NRI</b>: Non-Resident Indian</li>
+        <li><b>OCI</b>: Overseas Citizen of India</li>
+        <li><b>PIO</b>: Person of Indian Origin</li>
+        <li><b>FERA</b>: Foreign Exchange Regulation Act</li>
+        <li><b>FEMA</b>: Foreign Exchange Management Act</li>
+        <li><b>EPF</b>: Employees' Provident Fund</li>
+        <li><b>ESIC</b>: Employees' State Insurance Corporation</li>
+        <li><b>LIC</b>: Life Insurance Corporation</li>
+        <li><b>GIC</b>: General Insurance Corporation</li>
+        <li><b>NSE</b>: National Stock Exchange</li>
+        <li><b>BSE</b>: Bombay Stock Exchange</li>
+        <li><b>SEBI</b>: Securities and Exchange Board of India</li>
+        <li><b>RBI</b>: Reserve Bank of India</li>
+        <li><b>NPA</b>: Non-Performing Assets</li>
+        <li><b>NBFC</b>: Non-Banking Financial Company</li>
+        <li><b>SHG</b>: Self-Help Group</li>
+        <li><b>SLR</b>: Statutory Liquidity Ratio</li>
+        <li><b>CRR</b>: Cash Reserve Ratio</li>
+        <li><b>BPL</b>: Below Poverty Line</li>
+        <li><b>NREGA</b>: National Rural Employment Guarantee Act</li>
+        <li><b>UIDAI</b>: Unique Identification Authority of India (Aadhaar)</li>
+        <li><b>CBDT</b>: Central Board of Direct Taxes</li>
+        <li><b>CBIC</b>: Central Board of Indirect Taxes and Customs</li>
+        <li><b>NITI Aayog</b>: National Institution for Transforming India</li>
+        <li><b>NRC</b>: National Register of Citizens</li>
+        <li><b>CAA</b>: Citizenship Amendment Act</li>
+        <li><b>NPR</b>: National Population Register</li>
+      </ul>
+
+      <h3>2. International Organisations</h3>
+      <ul>
+        <li><b>UN</b>: United Nations</li>
+        <li><b>UNESCO</b>: UN Educational, Scientific, Cultural Org.</li>
+        <li><b>UNICEF</b>: UN Children's Fund</li>
+        <li><b>WHO</b>: World Health Organization</li>
+        <li><b>WTO</b>: World Trade Organization</li>
+        <li><b>IMF</b>: International Monetary Fund</li>
+        <li><b>OPEC</b>: Organization of Petroleum Exporting Countries</li>
+        <li><b>NATO</b>: North Atlantic Treaty Organization</li>
+        <li><b>SAARC</b>: South Asian Association for Regional Cooperation</li>
+        <li><b>ASEAN</b>: Association of Southeast Asian Nations</li>
+        <li><b>BRICS</b>: Brazil, Russia, India, China, South Africa</li>
+        <li><b>G7</b>: Group of Seven (USA, UK, Canada, France, Germany, Italy, Japan)</li>
+        <li><b>G20</b>: Group of Twenty</li>
+        <li><b>OECD</b>: Organisation for Economic Co-operation and Development</li>
+        <li><b>FAO</b>: Food and Agriculture Organization</li>
+        <li><b>IAEA</b>: International Atomic Energy Agency</li>
+        <li><b>ILO</b>: International Labour Organization</li>
+        <li><b>ICJ</b>: International Court of Justice</li>
+        <li><b>ICC</b>: International Cricket Council / International Criminal Court</li>
+        <li><b>WIPO</b>: World Intellectual Property Organization</li>
+        <li><b>IOC</b>: International Olympic Committee</li>
+        <li><b>FIFA</b>: Fédération Internationale de Football Association</li>
+        <li><b>SCO</b>: Shanghai Cooperation Organisation</li>
+        <li><b>BIMSTEC</b>: Bay of Bengal Initiative</li>
+        <li><b>APEC</b>: Asia-Pacific Economic Cooperation</li>
+        <li><b>QUAD</b>: India, USA, Japan, Australia</li>
+        <li><b>AUKUS</b>: Australia, UK, USA</li>
+      </ul>
+
+      <h3>3. Defence & Space</h3>
+      <ul>
+        <li><b>ISRO</b>: Indian Space Research Organisation</li>
+        <li><b>DRDO</b>: Defence Research and Development Organisation</li>
+        <li><b>BARC</b>: Bhabha Atomic Research Centre</li>
+        <li><b>HAL</b>: Hindustan Aeronautics Limited</li>
+        <li><b>BEL</b>: Bharat Electronics Limited</li>
+        <li><b>BHEL</b>: Bharat Heavy Electricals Limited</li>
+        <li><b>NPCIL</b>: Nuclear Power Corporation of India Limited</li>
+        <li><b>CDS</b>: Chief of Defence Staff</li>
+        <li><b>NSG</b>: National Security Guard</li>
+        <li><b>SPG</b>: Special Protection Group</li>
+        <li><b>BSF</b>: Border Security Force</li>
+        <li><b>CRPF</b>: Central Reserve Police Force</li>
+        <li><b>CISF</b>: Central Industrial Security Force</li>
+        <li><b>ITBP</b>: Indo-Tibetan Border Police</li>
+        <li><b>SSB</b>: Sashastra Seema Bal</li>
+        <li><b>NASA</b>: National Aeronautics and Space Administration (USA)</li>
+        <li><b>ESA</b>: European Space Agency</li>
+        <li><b>CERN</b>: European Organization for Nuclear Research</li>
+      </ul>
+
+      <h3>4. Computers / Internet</h3>
+      <ul>
+        <li><b>CPU</b>: Central Processing Unit</li>
+        <li><b>GPU</b>: Graphics Processing Unit</li>
+        <li><b>RAM</b>: Random Access Memory</li>
+        <li><b>ROM</b>: Read-Only Memory</li>
+        <li><b>HDD</b>: Hard Disk Drive</li>
+        <li><b>SSD</b>: Solid State Drive</li>
+        <li><b>USB</b>: Universal Serial Bus</li>
+        <li><b>OS</b>: Operating System</li>
+        <li><b>GUI</b>: Graphical User Interface</li>
+        <li><b>CLI</b>: Command Line Interface</li>
+        <li><b>WWW</b>: World Wide Web</li>
+        <li><b>HTTP</b>: HyperText Transfer Protocol</li>
+        <li><b>HTTPS</b>: HTTP Secure</li>
+        <li><b>URL</b>: Uniform Resource Locator</li>
+        <li><b>HTML</b>: HyperText Markup Language</li>
+        <li><b>CSS</b>: Cascading Style Sheets</li>
+        <li><b>IP</b>: Internet Protocol</li>
+        <li><b>TCP</b>: Transmission Control Protocol</li>
+        <li><b>DNS</b>: Domain Name System</li>
+        <li><b>FTP</b>: File Transfer Protocol</li>
+        <li><b>SMTP</b>: Simple Mail Transfer Protocol</li>
+        <li><b>POP</b>: Post Office Protocol</li>
+        <li><b>IMAP</b>: Internet Message Access Protocol</li>
+        <li><b>LAN</b>: Local Area Network</li>
+        <li><b>WAN</b>: Wide Area Network</li>
+        <li><b>VPN</b>: Virtual Private Network</li>
+        <li><b>ISP</b>: Internet Service Provider</li>
+        <li><b>WIFI</b>: Wireless Fidelity</li>
+        <li><b>GIF</b>: Graphics Interchange Format</li>
+        <li><b>JPEG</b>: Joint Photographic Experts Group</li>
+        <li><b>PDF</b>: Portable Document Format</li>
+        <li><b>MP3</b>: MPEG Audio Layer 3</li>
+        <li><b>API</b>: Application Programming Interface</li>
+        <li><b>AI</b>: Artificial Intelligence</li>
+        <li><b>ML</b>: Machine Learning</li>
+        <li><b>IoT</b>: Internet of Things</li>
+        <li><b>VR / AR</b>: Virtual / Augmented Reality</li>
+      </ul>
+
+      <h3>5. Health</h3>
+      <ul>
+        <li><b>WHO</b>: World Health Organization</li>
+        <li><b>AIIMS</b>: All India Institute of Medical Sciences</li>
+        <li><b>ICU</b>: Intensive Care Unit</li>
+        <li><b>OPD</b>: Out-Patient Department</li>
+        <li><b>HIV</b>: Human Immunodeficiency Virus</li>
+        <li><b>AIDS</b>: Acquired Immunodeficiency Syndrome</li>
+        <li><b>BP</b>: Blood Pressure</li>
+        <li><b>ECG</b>: Electrocardiogram</li>
+        <li><b>MRI</b>: Magnetic Resonance Imaging</li>
+        <li><b>CT</b>: Computed Tomography</li>
+        <li><b>BMI</b>: Body Mass Index</li>
+        <li><b>WBC / RBC</b>: White / Red Blood Cells</li>
+        <li><b>DNA / RNA</b>: Deoxy / Ribonucleic Acid</li>
+        <li><b>ATP</b>: Adenosine Triphosphate</li>
+        <li><b>TB</b>: Tuberculosis</li>
+        <li><b>COVID</b>: Coronavirus Disease</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>GST: Goods and Services Tax (2017).</li>
+        <li>SEBI: stock market regulator.</li>
+        <li>RBI: central bank.</li>
+        <li>NATO: military alliance.</li>
+        <li>OPEC: oil cartel.</li>
+        <li>WWW: Berners-Lee.</li>
+        <li>BRICS: 5 emerging economies.</li>
+        <li>QUAD: India + USA + Japan + Australia.</li>
+        <li>NASA: USA space agency.</li>
+        <li>UNESCO: education + science + culture.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "GST stands for:", opts: ["Goods and Services Tax", "General Sales Tax", "Govt Sales Tax", "General Service Tariff"], a: 0, ex: "Goods and Services." },
+      { q: "ISRO stands for:", opts: ["Indian Space Research Organisation", "Indian Science", "International Space", "Indian Spaceflight"], a: 0, ex: "Space agency." },
+      { q: "NATO stands for:", opts: ["North American Treaty", "North Atlantic Treaty Organisation", "Northern Asia", "New Atlantic"], a: 1, ex: "Military alliance." },
+      { q: "BRICS members:", opts: ["Brazil Russia India China S Africa", "Britain Romania India Chad Sudan", "Both correct", "Random"], a: 0, ex: "5 economies." },
+      { q: "WWW invented by:", opts: ["Gates", "Berners-Lee", "Jobs", "Zuckerberg"], a: 1, ex: "Tim Berners-Lee." },
+      { q: "UPI is:", opts: ["Unified Payments Interface", "United Payment", "Universal Pay", "Uni Payment Index"], a: 0, ex: "Indian payment system." },
+      { q: "PAN is:", opts: ["Permanent Account Number", "Personal Account No", "Public Acc Num", "Private"], a: 0, ex: "Income tax ID." },
+      { q: "FDI:", opts: ["Foreign Direct Investment", "Foreign Domestic Income", "Fast Direct India", "Fund Develop India"], a: 0, ex: "Investment from abroad." },
+      { q: "RBI:", opts: ["Reserve Bank India", "Real Bank India", "Royal Bank India", "Rural Bank India"], a: 0, ex: "Central bank." },
+      { q: "SEBI:", opts: ["Sec and Exch Board of India", "Stock Exchange Bank", "South Eastern Bank", "Service Bank"], a: 0, ex: "Stock regulator." },
+      { q: "DRDO:", opts: ["Defence R&D Organisation", "Defence Research Development Office", "Defense R&D Org", "All correct"], a: 0, ex: "Defence research." },
+      { q: "OPEC:", opts: ["Petroleum exporters", "Energy exporters", "Oil & coal", "Random group"], a: 0, ex: "Oil cartel." },
+      { q: "QUAD members:", opts: ["India, USA, Japan, Australia", "China, Russia, India, USA", "Random", "All Asian"], a: 0, ex: "Indo-Pacific group." },
+      { q: "ASEAN HQ:", opts: ["Jakarta", "Bangkok", "Singapore", "Manila"], a: 0, ex: "Indonesia." },
+      { q: "RAM is:", opts: ["Random Access Memory", "Read Access", "Real Active", "Run Active"], a: 0, ex: "Temporary memory." },
+      { q: "HTTP is:", opts: ["HyperText Transfer Protocol", "High Trans Protocol", "Hyper Trans Path", "Hello"], a: 0, ex: "Web protocol." },
+      { q: "NREGA:", opts: ["National Rural Employment Guarantee Act", "National Rural Energy", "New Rural", "National Reform"], a: 0, ex: "Job guarantee scheme." },
+      { q: "UIDAI:", opts: ["Unique ID Authority", "United Indian Authority", "Universal Indian", "All India ID"], a: 0, ex: "Aadhaar." },
+      { q: "WHO:", opts: ["World Health", "World House Org", "Workers Health Org", "Wide Health"], a: 0, ex: "World Health Organization." },
+      { q: "ATM:", opts: ["Automated Teller Machine", "Auto Tax Machine", "Adv Teller", "Auto Trans Money"], a: 0, ex: "Banking machine." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 31. MISCELLANEOUS GK
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-misc"] = {
+    body: `
+      <h2>Miscellaneous GK</h2>
+
+      <h3>1. Indian Currency Notes</h3>
+      <ul>
+        <li>₹10: Konark Sun Temple.</li>
+        <li>₹20: Ellora Caves.</li>
+        <li>₹50: Hampi Stone Chariot.</li>
+        <li>₹100: Rani-ki-Vav, Patan.</li>
+        <li>₹200: Sanchi Stupa.</li>
+        <li>₹500: Red Fort.</li>
+        <li>₹2000: Mangalyaan (Mars Orbiter Mission) — withdrawn 2023.</li>
+        <li>All notes signed by RBI Governor.</li>
+        <li>₹1 note signed by Finance Secretary.</li>
+      </ul>
+
+      <h3>2. Indian Capitals and Famous For</h3>
+      <ul>
+        <li>Mumbai: financial capital, Bollywood.</li>
+        <li>Delhi: political capital.</li>
+        <li>Bengaluru: IT/Silicon Valley of India.</li>
+        <li>Hyderabad: Cyberabad, pearl city.</li>
+        <li>Chennai: Detroit of India (auto).</li>
+        <li>Pune: Oxford of East.</li>
+        <li>Kolkata: City of Joy.</li>
+        <li>Surat: Diamond city.</li>
+        <li>Coimbatore: Manchester of South.</li>
+        <li>Ahmedabad: Manchester of India.</li>
+        <li>Jamshedpur: Steel city.</li>
+        <li>Lucknow: City of Nawabs.</li>
+        <li>Jaipur: Pink City.</li>
+        <li>Udaipur: City of Lakes.</li>
+        <li>Jodhpur: Blue/Sun City.</li>
+        <li>Kanpur: Manchester of East / leather city.</li>
+        <li>Ludhiana: Manchester of North.</li>
+        <li>Nashik: Wine capital.</li>
+        <li>Madurai: Athens of East.</li>
+        <li>Varanasi: Spiritual capital.</li>
+        <li>Allahabad/Prayagraj: Sangam city.</li>
+        <li>Mysuru: City of Palaces.</li>
+        <li>Vadodara: Cultural capital of Gujarat.</li>
+      </ul>
+
+      <h3>3. Sobriquets & Nicknames (World Cities)</h3>
+      <ul>
+        <li>Venice: Queen of the Adriatic.</li>
+        <li>Rome: Eternal City.</li>
+        <li>Paris: City of Light, Fashion Capital.</li>
+        <li>New York: Big Apple.</li>
+        <li>London: Foggy City.</li>
+        <li>Tokyo: City of Lights (Asia).</li>
+        <li>Beijing: Forbidden City.</li>
+        <li>Singapore: Lion City, Garden City.</li>
+        <li>Las Vegas: Sin City.</li>
+        <li>Chicago: Windy City.</li>
+        <li>Detroit: Motor City.</li>
+        <li>Hollywood: Film capital.</li>
+        <li>Geneva: City of Peace.</li>
+        <li>Berlin: Athens on Spree.</li>
+        <li>Bangkok: City of Angels.</li>
+        <li>Cairo: City of 1000 Minarets.</li>
+        <li>Istanbul: City of Seven Hills.</li>
+      </ul>
+
+      <h3>4. Important Indian Government Bodies</h3>
+      <ul>
+        <li>UPSC: Union Public Service Commission.</li>
+        <li>SSC: Staff Selection Commission.</li>
+        <li>Election Commission of India (ECI).</li>
+        <li>NITI Aayog (replaced Planning Commission, 2015).</li>
+        <li>CAG: Comptroller and Auditor General.</li>
+        <li>NHRC: National Human Rights Commission.</li>
+        <li>NCW: National Commission for Women.</li>
+        <li>NCST/NCSC: Tribes/SC.</li>
+        <li>CBI: Central Bureau of Investigation.</li>
+        <li>CVC: Central Vigilance Commission.</li>
+        <li>CIC: Central Information Commission.</li>
+        <li>Lokpal.</li>
+      </ul>
+
+      <h3>5. Famous Indian Slogans</h3>
+      <ul>
+        <li>"Jai Hind": Bose.</li>
+        <li>"Jai Jawan Jai Kisan": Shastri.</li>
+        <li>"Jai Jawan Jai Kisan Jai Vigyan": Vajpayee added.</li>
+        <li>"Jai Jawan Jai Kisan Jai Vigyan Jai Anusandhan": Modi.</li>
+        <li>"Tum mujhe khoon do, main tumhe azadi dunga": Bose.</li>
+        <li>"Inquilab Zindabad": Bhagat Singh.</li>
+        <li>"Do or Die" / "Karo ya Maro": Gandhi.</li>
+        <li>"Sare Jahan Se Achha": Iqbal.</li>
+        <li>"Vande Mataram": Bankim.</li>
+        <li>"Garibi Hatao": Indira Gandhi.</li>
+        <li>"Sabka Saath Sabka Vikas": Modi.</li>
+      </ul>
+
+      <h3>6. Five-Year Plans of India</h3>
+      <ul>
+        <li>1st: 1951-56 (focus on agriculture).</li>
+        <li>2nd: 1956-61 (industrialization, Mahalanobis model).</li>
+        <li>11th: 2007-12.</li>
+        <li>12th: 2012-17 (last; Planning Commission abolished 2014).</li>
+        <li>NITI Aayog now (2015): no plans, just policy.</li>
+      </ul>
+
+      <h3>7. Notable Indian Trees, Birds, Animals</h3>
+      <ul>
+        <li>Indian National Animal: Tiger.</li>
+        <li>Bengal Tiger: most famous; project Tiger 1973.</li>
+        <li>Asiatic Lion: only in Gir, Gujarat.</li>
+        <li>Indian Elephant: heritage animal.</li>
+        <li>Indian Rhino: Kaziranga.</li>
+        <li>Snow Leopard: Ladakh, Himalayas.</li>
+        <li>One-horned Rhino: Indian, in Assam.</li>
+        <li>Common birds: Peacock (national), Sarus crane, Crow, Mynas.</li>
+        <li>State birds vary.</li>
+      </ul>
+
+      <h3>8. Largest in India (Misc)</h3>
+      <ul>
+        <li>Largest Library: National Library, Kolkata.</li>
+        <li>Largest auditorium: Sri Shanmukhananda, Mumbai (~2,800 seats).</li>
+        <li>Largest cantilever bridge: Howrah Bridge.</li>
+        <li>Largest book fair: Kolkata Book Fair.</li>
+        <li>Highest gallantry: PVC.</li>
+        <li>Largest electric power station (hydroelectric): Tehri Dam.</li>
+        <li>Largest planetarium: Birla, Kolkata.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Bengaluru: Silicon Valley of India.</li>
+        <li>Mumbai: financial capital.</li>
+        <li>Chennai: Detroit of India.</li>
+        <li>Jaipur: Pink City.</li>
+        <li>Coimbatore: Manchester of South.</li>
+        <li>Kolkata: City of Joy.</li>
+        <li>5-year plans started: 1951.</li>
+        <li>Planning Commission replaced by NITI Aayog: 2015.</li>
+        <li>National Library: Kolkata.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Silicon Valley of India:", opts: ["Mumbai", "Bengaluru", "Hyderabad", "Pune"], a: 1, ex: "Bengaluru." },
+      { q: "Pink City:", opts: ["Udaipur", "Jaipur", "Jodhpur", "Jaisalmer"], a: 1, ex: "Jaipur." },
+      { q: "Detroit of India:", opts: ["Mumbai", "Chennai", "Delhi", "Pune"], a: 1, ex: "Chennai (automobile)." },
+      { q: "City of Joy:", opts: ["Mumbai", "Kolkata", "Delhi", "Pune"], a: 1, ex: "Kolkata." },
+      { q: "Diamond city of India:", opts: ["Mumbai", "Surat", "Ahmedabad", "Jaipur"], a: 1, ex: "Surat." },
+      { q: "Manchester of India:", opts: ["Mumbai", "Ahmedabad", "Surat", "Coimbatore"], a: 1, ex: "Ahmedabad." },
+      { q: "Steel city:", opts: ["Mumbai", "Jamshedpur", "Hyderabad", "Pune"], a: 1, ex: "Tata Steel." },
+      { q: "City of Lakes:", opts: ["Udaipur", "Bhopal", "Nainital", "Both A and B"], a: 0, ex: "Udaipur." },
+      { q: "Wine capital of India:", opts: ["Mumbai", "Nashik", "Pune", "Goa"], a: 1, ex: "Nashik." },
+      { q: "Eternal City (Rome):", opts: ["Rome", "Athens", "Paris", "Venice"], a: 0, ex: "Rome." },
+      { q: "Big Apple:", opts: ["London", "Paris", "New York", "Tokyo"], a: 2, ex: "NYC." },
+      { q: "Sin City:", opts: ["New York", "Las Vegas", "Paris", "Bangkok"], a: 1, ex: "Vegas." },
+      { q: "Lion City:", opts: ["Singapore", "Tokyo", "Bangkok", "HK"], a: 0, ex: "Singapore." },
+      { q: "Garibi Hatao slogan:", opts: ["Nehru", "Indira", "Modi", "Rao"], a: 1, ex: "Indira Gandhi." },
+      { q: "First 5-year plan:", opts: ["1947-52", "1951-56", "1955-60", "1950-55"], a: 1, ex: "1951-56." },
+      { q: "Planning Commission replaced by:", opts: ["NITI Aayog (2015)", "Yojana", "Vikas", "Niyojan"], a: 0, ex: "2015." },
+      { q: "Mangalyaan on which note (now withdrawn):", opts: ["₹500", "₹1000", "₹2000", "₹100"], a: 2, ex: "₹2000 (withdrawn 2023)." },
+      { q: "Konark Sun Temple on which note:", opts: ["₹10", "₹50", "₹100", "₹200"], a: 0, ex: "₹10." },
+      { q: "Red Fort on which note:", opts: ["₹100", "₹500", "₹200", "₹50"], a: 1, ex: "₹500." },
+      { q: "Foggy City:", opts: ["Paris", "London", "Tokyo", "Berlin"], a: 1, ex: "London." }
+    ]
+  };
+
 })();
