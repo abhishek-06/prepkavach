@@ -3803,4 +3803,1345 @@
     ]
   };
 
+  // ═══════════════════════════════════════════════════════════════
+  // BIOLOGY (19 topics)
+  // ═══════════════════════════════════════════════════════════════
+
+  // ───────────────────────────────────────────────────────────────
+  // 31. THE CELL
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-cell"] = {
+    body: `
+      <h2>The Cell</h2>
+      <p>The <b>cell</b> is the basic structural and functional unit of life. Discovered by <b>Robert Hooke (1665)</b> looking at cork.</p>
+
+      <h3>1. Cell Theory</h3>
+      <p>Proposed by <b>Schleiden & Schwann (1839)</b>:</p>
+      <ul>
+        <li>All living things are made up of one or more cells.</li>
+        <li>Cell is the basic unit of life.</li>
+        <li>All cells arise from pre-existing cells (Virchow, 1855).</li>
+      </ul>
+
+      <h3>2. Types of Cells</h3>
+
+      <h4>(a) Prokaryotic</h4>
+      <ul>
+        <li>No nucleus or membrane-bound organelles.</li>
+        <li>DNA in a region called nucleoid.</li>
+        <li>Examples: bacteria, blue-green algae (cyanobacteria).</li>
+        <li>Smaller (~1-10 μm).</li>
+      </ul>
+
+      <h4>(b) Eukaryotic</h4>
+      <ul>
+        <li>True nucleus and organelles.</li>
+        <li>Examples: animals, plants, fungi, protozoa.</li>
+        <li>Larger (10-100 μm).</li>
+      </ul>
+
+      <h3>3. Plant vs Animal Cells</h3>
+      <table>
+        <tr><th>Feature</th><th>Plant Cell</th><th>Animal Cell</th></tr>
+        <tr><td>Cell wall</td><td>Yes (cellulose)</td><td>No (only membrane)</td></tr>
+        <tr><td>Chloroplasts</td><td>Yes</td><td>No</td></tr>
+        <tr><td>Vacuole</td><td>One large central</td><td>Many small</td></tr>
+        <tr><td>Shape</td><td>Fixed, regular</td><td>Irregular</td></tr>
+        <tr><td>Centrioles</td><td>Absent</td><td>Present</td></tr>
+        <tr><td>Lysosomes</td><td>Rare</td><td>Common</td></tr>
+      </table>
+
+      <h3>4. Cell Organelles</h3>
+      <ul>
+        <li><b>Nucleus</b>: control centre; contains DNA in chromosomes; discovered by Robert Brown (1831).</li>
+        <li><b>Mitochondria</b>: powerhouse of cell; site of ATP production (cellular respiration). Has its own DNA.</li>
+        <li><b>Chloroplast</b>: in plant cells; photosynthesis; contains chlorophyll.</li>
+        <li><b>Endoplasmic Reticulum (ER)</b>: transport network.
+          <ul>
+            <li>Rough ER: has ribosomes; protein synthesis.</li>
+            <li>Smooth ER: lipid synthesis, detoxification.</li>
+          </ul>
+        </li>
+        <li><b>Golgi apparatus</b>: packaging and shipping (post office).</li>
+        <li><b>Ribosomes</b>: protein synthesis.</li>
+        <li><b>Lysosomes</b>: "suicide bags" — digestion, waste disposal.</li>
+        <li><b>Vacuole</b>: storage (water, food, waste).</li>
+        <li><b>Cytoplasm</b>: jelly-like fluid where organelles float.</li>
+        <li><b>Cell membrane (plasma membrane)</b>: selectively permeable.</li>
+        <li><b>Cell wall</b>: in plants/bacteria; rigid (cellulose in plants).</li>
+        <li><b>Centrosome/Centrioles</b>: cell division.</li>
+        <li><b>Cilia/Flagella</b>: movement.</li>
+      </ul>
+
+      <h3>5. DNA, Genes, Chromosomes</h3>
+      <ul>
+        <li><b>DNA</b>: Deoxyribonucleic Acid; double helix (Watson & Crick 1953); blueprint of life.</li>
+        <li><b>Gene</b>: segment of DNA coding for a trait.</li>
+        <li><b>Chromosome</b>: DNA packaged with proteins.</li>
+        <li>Humans: 46 chromosomes (23 pairs).</li>
+        <li>22 pairs autosomes + 1 pair sex chromosomes (XX female, XY male).</li>
+      </ul>
+
+      <h3>6. Cell Division</h3>
+      <ul>
+        <li><b>Mitosis</b>: body cells (somatic); produces 2 identical daughter cells; growth and repair.</li>
+        <li><b>Meiosis</b>: sex cells (gametes); produces 4 different daughter cells with half chromosomes; reproduction.</li>
+        <li>Phases: Interphase, Prophase, Metaphase, Anaphase, Telophase, Cytokinesis.</li>
+      </ul>
+
+      <h3>7. Cell Membrane Transport</h3>
+      <ul>
+        <li><b>Diffusion</b>: high to low concentration (passive).</li>
+        <li><b>Osmosis</b>: water across semi-permeable membrane (passive).</li>
+        <li><b>Active transport</b>: against gradient (uses ATP).</li>
+        <li><b>Endocytosis</b>: cell takes in material.</li>
+        <li><b>Exocytosis</b>: cell releases material.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Robert Hooke discovered cell (1665) in cork.</li>
+        <li>Cell theory: Schleiden + Schwann + Virchow.</li>
+        <li>Mitochondria = powerhouse.</li>
+        <li>Ribosomes = protein factory.</li>
+        <li>Lysosome = suicide bag.</li>
+        <li>Largest human cell: egg (ovum). Smallest: sperm (or RBC).</li>
+        <li>Longest cell: nerve cell.</li>
+        <li>Watson and Crick discovered DNA double helix (1953).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Who discovered cell:", opts: ["Hooke", "Schleiden", "Schwann", "Watson"], a: 0, ex: "Robert Hooke 1665." },
+      { q: "Cell theory by:", opts: ["Hooke", "Schleiden + Schwann", "Watson + Crick", "Mendel"], a: 1, ex: "1839." },
+      { q: "Powerhouse of cell:", opts: ["Nucleus", "Mitochondria", "Ribosome", "Lysosome"], a: 1, ex: "Produces ATP." },
+      { q: "Site of protein synthesis:", opts: ["Lysosome", "Ribosome", "Vacuole", "Golgi"], a: 1, ex: "Ribosomes." },
+      { q: "Photosynthesis happens in:", opts: ["Mitochondria", "Chloroplast", "Nucleus", "Lysosome"], a: 1, ex: "Plant chloroplasts." },
+      { q: "Suicide bag of cell:", opts: ["Lysosome", "Vacuole", "Golgi", "ER"], a: 0, ex: "Lysosome digests." },
+      { q: "Plant cell has but animal doesn't:", opts: ["Nucleus", "Cell wall", "Mitochondria", "Membrane"], a: 1, ex: "Cell wall (cellulose)." },
+      { q: "Discovered nucleus:", opts: ["Hooke", "Robert Brown", "Watson", "Mendel"], a: 1, ex: "Brown 1831." },
+      { q: "Humans have how many chromosomes:", opts: ["23", "44", "46", "48"], a: 2, ex: "46 (23 pairs)." },
+      { q: "Female chromosomes:", opts: ["XX", "XY", "YY", "XO"], a: 0, ex: "XX." },
+      { q: "Male chromosomes:", opts: ["XX", "XY", "YY", "XO"], a: 1, ex: "XY." },
+      { q: "DNA structure (double helix) by:", opts: ["Watson & Crick", "Mendel", "Hooke", "Darwin"], a: 0, ex: "1953." },
+      { q: "Largest human cell:", opts: ["Sperm", "RBC", "Ovum (egg)", "Neuron"], a: 2, ex: "~0.1 mm." },
+      { q: "Longest cell:", opts: ["Sperm", "Ovum", "Neuron", "Muscle"], a: 2, ex: "Nerve cell." },
+      { q: "Smallest cell:", opts: ["Sperm / Mycoplasma", "Egg", "Neuron", "Muscle"], a: 0, ex: "Mycoplasma very small." },
+      { q: "Prokaryote example:", opts: ["Bacteria", "Plant", "Fungus", "Animal"], a: 0, ex: "No nucleus." },
+      { q: "Mitosis produces:", opts: ["2 different cells", "4 identical", "2 identical daughter cells", "1 cell"], a: 2, ex: "Body cell division." },
+      { q: "Meiosis produces:", opts: ["2 cells", "4 different cells with half chromosomes", "Same cells", "No cells"], a: 1, ex: "Gamete formation." },
+      { q: "Osmosis is movement of:", opts: ["Water across membrane", "Salt", "Heat", "Gas"], a: 0, ex: "Water through semi-permeable." },
+      { q: "Golgi apparatus function:", opts: ["Protein synthesis", "Packaging/shipping", "DNA storage", "Respiration"], a: 1, ex: "Cell's post office." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 32. BIOMOLECULES
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-biomolecules"] = {
+    body: `
+      <h2>Biomolecules</h2>
+      <p><b>Biomolecules</b> = organic molecules that make up living organisms. Four main classes: carbohydrates, proteins, lipids (fats), nucleic acids.</p>
+
+      <h3>1. Carbohydrates (Sugars & Starches)</h3>
+      <ul>
+        <li>Formula: (CH₂O)ₙ — main energy source.</li>
+        <li>Contains C, H, O in 1:2:1 ratio.</li>
+        <li>Types:
+          <ul>
+            <li><b>Monosaccharides</b> (simple sugars): glucose, fructose, galactose.</li>
+            <li><b>Disaccharides</b>: sucrose (table sugar = glucose + fructose), lactose (milk sugar = glucose + galactose), maltose.</li>
+            <li><b>Polysaccharides</b>: starch (plant storage), glycogen (animal storage), cellulose (plant cell wall).</li>
+          </ul>
+        </li>
+        <li>4 kcal/g energy.</li>
+        <li>Iodine test: turns blue-black with starch.</li>
+        <li>Benedict's test: positive for reducing sugars (glucose).</li>
+      </ul>
+
+      <h3>2. Proteins</h3>
+      <ul>
+        <li>Made of amino acids (20 standard) joined by peptide bonds.</li>
+        <li>Building blocks of body — muscles, enzymes, hormones, antibodies.</li>
+        <li>Essential amino acids: must come from diet (9 of them).</li>
+        <li>Non-essential: body can synthesize.</li>
+        <li>Sources: meat, eggs, milk, beans, lentils, fish.</li>
+        <li>Deficiency: <b>Kwashiorkor</b> (in children).</li>
+        <li>4 kcal/g energy.</li>
+        <li>Biuret test: positive (purple) for proteins.</li>
+        <li>Structure:
+          <ul>
+            <li>Primary: amino acid sequence.</li>
+            <li>Secondary: α-helix or β-sheet.</li>
+            <li>Tertiary: 3D folding.</li>
+            <li>Quaternary: multiple subunits (e.g., haemoglobin).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>3. Lipids (Fats & Oils)</h3>
+      <ul>
+        <li>Made of fatty acids + glycerol.</li>
+        <li>Energy storage (9 kcal/g — most efficient).</li>
+        <li>Types:
+          <ul>
+            <li><b>Saturated</b>: solid at room temp; animal fats, ghee, butter. (Bad — increases cholesterol.)</li>
+            <li><b>Unsaturated</b>: liquid at room temp; oils, fish oil, nuts. (Good.)</li>
+            <li><b>Trans fats</b>: hydrogenated oils; very harmful.</li>
+          </ul>
+        </li>
+        <li>Cholesterol: essential but excess is harmful (LDL bad, HDL good).</li>
+        <li>Phospholipids: make cell membranes.</li>
+        <li>Steroids: hormones (testosterone, estrogen), cholesterol.</li>
+      </ul>
+
+      <h3>4. Nucleic Acids</h3>
+      <ul>
+        <li><b>DNA</b> (Deoxyribonucleic Acid): genetic material.
+          <ul>
+            <li>Double helix structure.</li>
+            <li>Bases: A (Adenine), T (Thymine), G (Guanine), C (Cytosine).</li>
+            <li>A pairs with T; G with C.</li>
+            <li>Sugar: deoxyribose.</li>
+          </ul>
+        </li>
+        <li><b>RNA</b> (Ribonucleic Acid):
+          <ul>
+            <li>Single stranded.</li>
+            <li>U (Uracil) instead of T.</li>
+            <li>Sugar: ribose.</li>
+            <li>Types: mRNA, tRNA, rRNA.</li>
+          </ul>
+        </li>
+        <li>Function: DNA → RNA → Protein (Central Dogma).</li>
+      </ul>
+
+      <h3>5. Enzymes</h3>
+      <ul>
+        <li>Proteins that catalyze biological reactions.</li>
+        <li>Lower activation energy; not consumed.</li>
+        <li>Highly specific (lock and key model).</li>
+        <li>Examples:
+          <ul>
+            <li>Amylase (saliva): starch → maltose.</li>
+            <li>Pepsin (stomach): proteins.</li>
+            <li>Trypsin (intestine): proteins.</li>
+            <li>Lipase: fats.</li>
+            <li>Rennin: milk curdling.</li>
+            <li>Catalase: H₂O₂ breakdown.</li>
+            <li>DNA polymerase: DNA replication.</li>
+            <li>ATP synthase: makes ATP.</li>
+          </ul>
+        </li>
+        <li>Optimum at body temperature 37°C and specific pH.</li>
+        <li>Denatured by heat or extreme pH.</li>
+      </ul>
+
+      <h3>6. Vitamins (Brief)</h3>
+      <p>Vital organic compounds needed in small amounts. Detail in "Health & Diseases" topic.</p>
+
+      <h3>7. Minerals (in body)</h3>
+      <ul>
+        <li>Calcium: bones, teeth, blood clotting.</li>
+        <li>Iron: haemoglobin (deficiency → anaemia).</li>
+        <li>Iodine: thyroid (deficiency → goiter).</li>
+        <li>Sodium, Potassium: nerve, muscle function.</li>
+        <li>Fluoride: teeth.</li>
+        <li>Zinc, copper, etc.: trace minerals.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Carbs and proteins: 4 kcal/g; Fats: 9 kcal/g.</li>
+        <li>Starch test: iodine → blue-black.</li>
+        <li>DNA: A-T, G-C pairing.</li>
+        <li>Insulin is a protein hormone (made of amino acids).</li>
+        <li>Enzymes end in -ase usually (amylase, lipase, protease).</li>
+        <li>Kwashiorkor: protein deficiency disease.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Building blocks of proteins:", opts: ["Sugars", "Amino acids", "Fatty acids", "Nucleotides"], a: 1, ex: "Amino acids." },
+      { q: "Energy from 1g fat:", opts: ["4 kcal", "9 kcal", "7 kcal", "2 kcal"], a: 1, ex: "9 kcal/g." },
+      { q: "Energy from 1g carbs:", opts: ["4 kcal", "9 kcal", "7 kcal", "2 kcal"], a: 0, ex: "4 kcal/g." },
+      { q: "DNA bases:", opts: ["A,T,G,C", "A,U,G,C", "A,T,G,U", "G,C,U,T"], a: 0, ex: "T in DNA." },
+      { q: "RNA has instead of T:", opts: ["A", "U", "G", "C"], a: 1, ex: "Uracil." },
+      { q: "Storage carb in plants:", opts: ["Glycogen", "Starch", "Cellulose", "Glucose"], a: 1, ex: "Starch." },
+      { q: "Storage carb in animals:", opts: ["Starch", "Glycogen", "Cellulose", "Sucrose"], a: 1, ex: "Glycogen (in liver/muscles)." },
+      { q: "Iodine test detects:", opts: ["Protein", "Starch", "Fat", "DNA"], a: 1, ex: "Blue-black for starch." },
+      { q: "Saliva enzyme:", opts: ["Pepsin", "Amylase", "Trypsin", "Lipase"], a: 1, ex: "Amylase digests starch." },
+      { q: "Stomach enzyme:", opts: ["Amylase", "Pepsin", "Lipase", "Trypsin"], a: 1, ex: "Pepsin breaks proteins." },
+      { q: "Cell membrane lipid type:", opts: ["Triglycerides", "Phospholipids", "Wax", "Steroids"], a: 1, ex: "Bilayer." },
+      { q: "Kwashiorkor caused by deficiency of:", opts: ["Carbs", "Protein", "Fat", "Vitamin"], a: 1, ex: "Severe protein deficiency." },
+      { q: "Insulin is:", opts: ["Carbohydrate", "Protein hormone", "Fat", "Vitamin"], a: 1, ex: "Peptide hormone." },
+      { q: "DNA double helix discovered by:", opts: ["Mendel", "Watson + Crick", "Hooke", "Darwin"], a: 1, ex: "1953." },
+      { q: "Table sugar (sucrose) = ?", opts: ["Glucose + glucose", "Glucose + fructose", "Glucose + galactose", "Fructose + lactose"], a: 1, ex: "Sucrose." },
+      { q: "Milk sugar = ?", opts: ["Glucose", "Sucrose", "Lactose", "Maltose"], a: 2, ex: "Lactose." },
+      { q: "Saturated fats are:", opts: ["Liquid at RT", "Solid at RT", "Gas", "Variable"], a: 1, ex: "Animal fats, butter, ghee." },
+      { q: "Cellulose is found in:", opts: ["Animal cells", "Plant cell wall", "Fungi", "Bacteria"], a: 1, ex: "Plant rigidity." },
+      { q: "Enzymes are:", opts: ["Fats", "Proteins", "Carbs", "Minerals"], a: 1, ex: "Biological catalysts." },
+      { q: "Central dogma:", opts: ["DNA → RNA → Protein", "Protein → RNA → DNA", "DNA → Protein", "RNA → DNA"], a: 0, ex: "Information flow." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 33. FACTS ABOUT THE HUMAN BODY
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-human-facts"] = {
+    body: `
+      <h2>Facts about the Human Body</h2>
+
+      <h3>1. General</h3>
+      <ul>
+        <li>Adult body has ~37 trillion cells.</li>
+        <li>~200 different cell types.</li>
+        <li>206 bones in adult (300 in baby; some fuse).</li>
+        <li>~640 skeletal muscles.</li>
+        <li>~70% water (newborn ~78%, elderly ~50%).</li>
+        <li>Body temperature: 37°C (98.6°F).</li>
+        <li>Blood: ~5-6 litres in adult.</li>
+        <li>Blood pH: 7.35-7.45 (slightly basic).</li>
+        <li>Heart beats: ~72 times/min, ~100,000 times/day.</li>
+        <li>Breaths: ~12-20 per minute.</li>
+        <li>Brain: ~1.4 kg, ~86 billion neurons.</li>
+      </ul>
+
+      <h3>2. Bones — Records</h3>
+      <ul>
+        <li><b>Largest/longest bone</b>: Femur (thigh bone).</li>
+        <li><b>Smallest bone</b>: Stapes (in middle ear).</li>
+        <li><b>Hardest bone</b>: Jaw bone.</li>
+        <li><b>Strongest bone</b>: Femur.</li>
+        <li><b>Most fragile bone</b>: Tailbone (coccyx) or clavicle.</li>
+        <li>Backbone: 33 vertebrae (7 cervical + 12 thoracic + 5 lumbar + 5 sacral fused + 4 coccygeal fused).</li>
+        <li>Skull: 22 bones (8 cranial + 14 facial).</li>
+        <li>Ribs: 12 pairs (24 total).</li>
+        <li>Hands: 27 bones each; Feet: 26 bones each.</li>
+      </ul>
+
+      <h3>3. Muscles</h3>
+      <ul>
+        <li><b>Strongest muscle</b>: Masseter (jaw) — for biting force.</li>
+        <li><b>Largest muscle</b>: Gluteus maximus (buttock).</li>
+        <li><b>Smallest muscle</b>: Stapedius (ear).</li>
+        <li><b>Hardest working</b>: Heart (cardiac muscle, never tires).</li>
+        <li>Types: skeletal (voluntary), smooth (involuntary), cardiac (heart).</li>
+      </ul>
+
+      <h3>4. Organs — Records</h3>
+      <ul>
+        <li><b>Largest organ</b>: Skin (~2 m², 4-5 kg).</li>
+        <li><b>Largest internal organ</b>: Liver (~1.5 kg).</li>
+        <li><b>Smallest organ</b>: Pineal gland (pea-sized in brain).</li>
+        <li><b>Heart</b>: ~300 g; pumps 7000 L blood/day.</li>
+        <li><b>Lungs</b>: combined ~1 kg; surface area ~70 m² when spread.</li>
+        <li><b>Kidneys</b>: ~150 g each; filter ~180 L blood/day → 1.5 L urine.</li>
+        <li><b>Stomach</b>: holds 1-1.5 L food.</li>
+        <li><b>Small intestine</b>: ~6-7 m long.</li>
+        <li><b>Large intestine</b>: ~1.5 m long.</li>
+      </ul>
+
+      <h3>5. Senses & Skin</h3>
+      <ul>
+        <li>Skin sheds ~50 million cells/day.</li>
+        <li>Tongue has ~10,000 taste buds (replaced every 10-14 days).</li>
+        <li>5 tastes: sweet, sour, salty, bitter, umami.</li>
+        <li>Nose can distinguish ~10,000 smells.</li>
+        <li>Eye can distinguish ~10 million colours.</li>
+        <li>Eye blink: ~15-20 times/minute.</li>
+      </ul>
+
+      <h3>6. Blood</h3>
+      <ul>
+        <li>~5-6 L in adult.</li>
+        <li>55% plasma (mostly water), 45% cells (RBC, WBC, platelets).</li>
+        <li>RBC: 5 million/μL; life 120 days; no nucleus.</li>
+        <li>WBC: 4000-11000/μL; immunity.</li>
+        <li>Platelets: 1.5-4 lakh/μL; clotting.</li>
+        <li>Blood groups: A, B, AB, O (and Rh +/−). O− = universal donor; AB+ = universal recipient.</li>
+        <li>Haemoglobin: ~12-17 g/dL; carries O₂.</li>
+      </ul>
+
+      <h3>7. Hair & Nails</h3>
+      <ul>
+        <li>~100,000 hairs on scalp.</li>
+        <li>Lose 50-100 hairs/day.</li>
+        <li>Hair grows ~1.25 cm/month; ~15 cm/year.</li>
+        <li>Nails grow ~3 mm/month (fingers); toes slower.</li>
+      </ul>
+
+      <h3>8. Vital Signs Normal Ranges</h3>
+      <table>
+        <tr><th>Vital</th><th>Normal Range</th></tr>
+        <tr><td>Temperature</td><td>36.5-37.5°C</td></tr>
+        <tr><td>Pulse</td><td>60-100 bpm</td></tr>
+        <tr><td>Respiratory rate</td><td>12-20/min</td></tr>
+        <tr><td>BP</td><td>120/80 mm Hg</td></tr>
+        <tr><td>Blood sugar (fasting)</td><td>70-100 mg/dL</td></tr>
+        <tr><td>Body water</td><td>60-70%</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>206 bones in adult; 300 in baby.</li>
+        <li>Femur = longest; Stapes = smallest.</li>
+        <li>Skin = largest organ.</li>
+        <li>Liver = largest internal organ.</li>
+        <li>Heart pumps ~7000 L/day.</li>
+        <li>O− = universal blood donor; AB+ = universal recipient.</li>
+        <li>Normal BP: 120/80 mm Hg.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Number of bones in adult:", opts: ["200", "206", "212", "300"], a: 1, ex: "206." },
+      { q: "Longest bone:", opts: ["Femur", "Tibia", "Humerus", "Spine"], a: 0, ex: "Thigh bone." },
+      { q: "Smallest bone:", opts: ["Stapes", "Coccyx", "Finger bones", "Patella"], a: 0, ex: "In middle ear." },
+      { q: "Largest organ:", opts: ["Liver", "Skin", "Heart", "Brain"], a: 1, ex: "Skin." },
+      { q: "Largest internal organ:", opts: ["Heart", "Liver", "Lung", "Stomach"], a: 1, ex: "Liver." },
+      { q: "Universal blood donor:", opts: ["A+", "B+", "AB+", "O−"], a: 3, ex: "O− no antigens." },
+      { q: "Universal blood recipient:", opts: ["O−", "AB+", "B+", "A+"], a: 1, ex: "AB+." },
+      { q: "Average human body temperature:", opts: ["35°C", "37°C (98.6°F)", "39°C", "32°C"], a: 1, ex: "Normal 37°C." },
+      { q: "Heart rate at rest:", opts: ["60 bpm", "72 bpm avg", "100 bpm", "200 bpm"], a: 1, ex: "~72/min." },
+      { q: "Vertebrae in spine:", opts: ["24", "26", "33", "40"], a: 2, ex: "33 (some fuse)." },
+      { q: "Blood volume in adult:", opts: ["2 L", "3 L", "5-6 L", "10 L"], a: 2, ex: "~5-6 litres." },
+      { q: "Strongest muscle:", opts: ["Heart", "Biceps", "Masseter (jaw)", "Quadriceps"], a: 2, ex: "Jaw muscle." },
+      { q: "Number of teeth in adult:", opts: ["20", "28", "32", "36"], a: 2, ex: "32 (with wisdom teeth)." },
+      { q: "Number of teeth in child:", opts: ["20", "24", "28", "32"], a: 0, ex: "20 milk teeth." },
+      { q: "Normal BP:", opts: ["80/120", "120/80", "100/60", "140/90"], a: 1, ex: "120/80 mm Hg." },
+      { q: "Skull bones:", opts: ["10", "18", "22", "30"], a: 2, ex: "22 (8 cranial + 14 facial)." },
+      { q: "Pairs of ribs:", opts: ["10", "12", "14", "20"], a: 1, ex: "12 pairs." },
+      { q: "RBC lifespan:", opts: ["20 days", "60 days", "120 days", "1 year"], a: 2, ex: "~120 days." },
+      { q: "Smallest gland:", opts: ["Pituitary", "Pineal", "Thyroid", "Adrenal"], a: 1, ex: "Pineal (pea-sized)." },
+      { q: "Largest gland:", opts: ["Pituitary", "Liver (also a gland)", "Thyroid", "Adrenal"], a: 1, ex: "Liver." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 34. BLOOD
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-blood"] = {
+    body: `
+      <h2>Blood</h2>
+      <p>Blood is a connective tissue. Adult has ~5-6 litres.</p>
+
+      <h3>1. Composition of Blood</h3>
+      <ul>
+        <li><b>Plasma (55%)</b>: liquid part; mostly water (90%), with proteins (albumin, globulin, fibrinogen), salts, hormones, nutrients, wastes.</li>
+        <li><b>Cells (45%)</b>:
+          <ul>
+            <li>RBC (Red Blood Cells / Erythrocytes).</li>
+            <li>WBC (White Blood Cells / Leukocytes).</li>
+            <li>Platelets (Thrombocytes).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>2. Red Blood Cells (RBC)</h3>
+      <ul>
+        <li>Most numerous: ~5 million/μL.</li>
+        <li>Carry oxygen via <b>haemoglobin (Hb)</b> — iron-containing protein.</li>
+        <li>Biconcave shape, no nucleus (in mammals).</li>
+        <li>Lifespan: 120 days.</li>
+        <li>Made in: red bone marrow.</li>
+        <li>Destroyed in: liver and spleen.</li>
+        <li>Hb normal range: 12-17 g/dL.</li>
+        <li>Anaemia: low Hb (iron deficiency, blood loss).</li>
+        <li>Sickle cell anaemia: genetic defect in Hb.</li>
+      </ul>
+
+      <h3>3. White Blood Cells (WBC)</h3>
+      <ul>
+        <li>~4000-11000/μL; immunity.</li>
+        <li>Have nucleus; live a few hours to years.</li>
+        <li>Types:
+          <ul>
+            <li>Neutrophils (60-70%): fight bacterial infection.</li>
+            <li>Lymphocytes (20-30%): T cells (immunity), B cells (antibodies).</li>
+            <li>Monocytes (5%): become macrophages — eat pathogens.</li>
+            <li>Eosinophils (2-4%): allergy, parasites.</li>
+            <li>Basophils (0.5-1%): inflammation, allergy.</li>
+          </ul>
+        </li>
+        <li>Leukemia: cancer of WBC.</li>
+      </ul>
+
+      <h3>4. Platelets (Thrombocytes)</h3>
+      <ul>
+        <li>1.5-4 lakh/μL.</li>
+        <li>Clotting of blood.</li>
+        <li>Lifespan: 7-10 days.</li>
+        <li>Low platelets → bleeding (dengue, etc.).</li>
+      </ul>
+
+      <h3>5. Blood Groups (ABO System)</h3>
+      <p>Discovered by <b>Karl Landsteiner</b> (1900).</p>
+      <table>
+        <tr><th>Blood Group</th><th>Antigen on RBC</th><th>Antibody in plasma</th></tr>
+        <tr><td>A</td><td>A</td><td>anti-B</td></tr>
+        <tr><td>B</td><td>B</td><td>anti-A</td></tr>
+        <tr><td>AB</td><td>A & B</td><td>None</td></tr>
+        <tr><td>O</td><td>None</td><td>anti-A & anti-B</td></tr>
+      </table>
+      <ul>
+        <li><b>O−</b>: universal donor (no antigens).</li>
+        <li><b>AB+</b>: universal recipient (no antibodies).</li>
+      </ul>
+
+      <h3>6. Rh Factor</h3>
+      <ul>
+        <li>Rh⁺: has Rh antigen.</li>
+        <li>Rh−: no Rh antigen.</li>
+        <li>Important in pregnancy: Rh− mother + Rh+ baby can cause complications.</li>
+      </ul>
+
+      <h3>7. Blood Clotting</h3>
+      <ul>
+        <li>Platelets + clotting factors → fibrin mesh.</li>
+        <li>Requires Vitamin K.</li>
+        <li>Haemophilia: clotting disorder (sex-linked recessive; Queen Victoria's disease).</li>
+      </ul>
+
+      <h3>8. Blood Functions</h3>
+      <ul>
+        <li>Transport: O₂, CO₂, nutrients, hormones, wastes.</li>
+        <li>Temperature regulation.</li>
+        <li>Immunity (WBC, antibodies).</li>
+        <li>Clotting (platelets).</li>
+        <li>pH balance (buffer).</li>
+      </ul>
+
+      <h3>9. Blood Tests</h3>
+      <ul>
+        <li>CBC: complete blood count.</li>
+        <li>Hb: haemoglobin.</li>
+        <li>WBC count: infection.</li>
+        <li>Platelet count.</li>
+        <li>Blood sugar: glucose level.</li>
+        <li>Lipid profile: cholesterol.</li>
+        <li>Blood urea: kidney function.</li>
+        <li>SGOT/SGPT: liver function.</li>
+      </ul>
+
+      <h3>10. Common Disorders</h3>
+      <ul>
+        <li><b>Anaemia</b>: low Hb.</li>
+        <li><b>Leukemia</b>: WBC cancer.</li>
+        <li><b>Haemophilia</b>: clotting disorder.</li>
+        <li><b>Thalassemia</b>: genetic Hb disorder.</li>
+        <li><b>Polycythemia</b>: too many RBCs.</li>
+        <li><b>Sickle cell</b>: misshapen RBCs.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>RBC: O₂ transport; WBC: immunity; Platelets: clotting.</li>
+        <li>RBC lifespan: 120 days.</li>
+        <li>Karl Landsteiner discovered blood groups (Nobel 1930).</li>
+        <li>Vitamin K needed for clotting.</li>
+        <li>Haemophilia is sex-linked (mostly in males).</li>
+        <li>Dengue: low platelets.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Blood volume in adult:", opts: ["3 L", "5-6 L", "10 L", "2 L"], a: 1, ex: "~5-6 L." },
+      { q: "Carries oxygen:", opts: ["Plasma", "Haemoglobin in RBC", "WBC", "Platelets"], a: 1, ex: "Hb in RBC." },
+      { q: "Plasma percentage:", opts: ["45%", "55%", "30%", "70%"], a: 1, ex: "~55%." },
+      { q: "RBC lifespan:", opts: ["7 days", "30 days", "120 days", "1 year"], a: 2, ex: "~120 days." },
+      { q: "Immunity is provided by:", opts: ["RBC", "WBC", "Platelets", "Plasma"], a: 1, ex: "WBC." },
+      { q: "Clotting cells:", opts: ["RBC", "WBC", "Platelets", "Plasma"], a: 2, ex: "Platelets." },
+      { q: "Universal donor:", opts: ["A−", "B+", "O−", "AB+"], a: 2, ex: "O−." },
+      { q: "Universal recipient:", opts: ["A−", "B+", "O−", "AB+"], a: 3, ex: "AB+." },
+      { q: "Discoverer of blood groups:", opts: ["Mendel", "Karl Landsteiner", "Watson", "Pasteur"], a: 1, ex: "1900, Nobel 1930." },
+      { q: "RBC made in:", opts: ["Spleen", "Liver", "Red bone marrow", "Heart"], a: 2, ex: "Bone marrow." },
+      { q: "RBC destroyed in:", opts: ["Bone marrow", "Liver and spleen", "Heart", "Kidney"], a: 1, ex: "Liver + spleen." },
+      { q: "Anaemia is due to:", opts: ["High RBC", "Low Hb", "High Pl", "Low BP"], a: 1, ex: "Low haemoglobin." },
+      { q: "Leukemia is cancer of:", opts: ["RBC", "WBC", "Platelets", "Plasma"], a: 1, ex: "WBC cancer." },
+      { q: "Haemophilia is:", opts: ["RBC defect", "Clotting disorder", "WBC cancer", "Anaemia type"], a: 1, ex: "Clotting failure." },
+      { q: "Vitamin needed for clotting:", opts: ["A", "B", "C", "K"], a: 3, ex: "Vit K." },
+      { q: "Dengue causes drop in:", opts: ["RBC", "WBC", "Platelets", "Plasma"], a: 2, ex: "Thrombocytopenia." },
+      { q: "Hb normal range (g/dL):", opts: ["5-7", "8-10", "12-17", "20-25"], a: 2, ex: "12-17." },
+      { q: "Rh− mother + Rh+ baby:", opts: ["No issue", "Pregnancy complications", "Bigger baby", "Lower BP"], a: 1, ex: "Erythroblastosis." },
+      { q: "Platelet count normal:", opts: ["1-2 lakh", "1.5-4 lakh", "5-10 lakh", "10 thousand"], a: 1, ex: "1.5-4 lakh/μL." },
+      { q: "Plasma is mostly:", opts: ["Salt", "Water", "Sugar", "Iron"], a: 1, ex: "~90% water." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 35. CIRCULATORY SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-circulatory"] = {
+    body: `
+      <h2>Circulatory System</h2>
+      <p>The <b>circulatory (cardiovascular) system</b> transports blood, oxygen, nutrients, hormones, and waste products throughout the body.</p>
+
+      <h3>1. Components</h3>
+      <ul>
+        <li><b>Heart</b>: pump.</li>
+        <li><b>Blood vessels</b>: arteries, veins, capillaries.</li>
+        <li><b>Blood</b>: transport medium.</li>
+      </ul>
+
+      <h3>2. The Heart</h3>
+      <ul>
+        <li>Size of fist, weight ~300 g.</li>
+        <li>Located: middle of chest, slightly left.</li>
+        <li>4 chambers:
+          <ul>
+            <li>Right atrium (receives deoxygenated from body).</li>
+            <li>Right ventricle (pumps to lungs).</li>
+            <li>Left atrium (receives oxygenated from lungs).</li>
+            <li>Left ventricle (pumps to body; thickest wall).</li>
+          </ul>
+        </li>
+        <li>4 valves:
+          <ul>
+            <li>Tricuspid: between right atrium and right ventricle.</li>
+            <li>Pulmonary: from right ventricle to pulmonary artery.</li>
+            <li>Bicuspid (Mitral): between left atrium and left ventricle.</li>
+            <li>Aortic: from left ventricle to aorta.</li>
+          </ul>
+        </li>
+        <li>Heart pumps ~70 mL per beat, ~5 L/min, ~7000 L/day.</li>
+        <li>Average heart rate: 72 beats/min.</li>
+        <li>SA Node: natural pacemaker.</li>
+      </ul>
+
+      <h3>3. Blood Vessels</h3>
+      <table>
+        <tr><th>Type</th><th>Carry</th><th>Wall</th><th>Direction</th></tr>
+        <tr><td>Artery</td><td>Mostly oxygenated (except pulmonary)</td><td>Thick, elastic</td><td>Away from heart</td></tr>
+        <tr><td>Vein</td><td>Mostly deoxygenated (except pulmonary)</td><td>Thin, valves present</td><td>Toward heart</td></tr>
+        <tr><td>Capillary</td><td>Exchange of materials</td><td>One cell thick</td><td>Throughout tissues</td></tr>
+      </table>
+      <ul>
+        <li>Largest artery: Aorta.</li>
+        <li>Largest vein: Vena cava (superior + inferior).</li>
+        <li>Pulmonary artery: deoxygenated (unusual).</li>
+        <li>Pulmonary vein: oxygenated (unusual).</li>
+      </ul>
+
+      <h3>4. Circulation Pathways</h3>
+      <ul>
+        <li><b>Pulmonary circulation</b>: heart → lungs → heart (for oxygenation).</li>
+        <li><b>Systemic circulation</b>: heart → body → heart.</li>
+        <li><b>Coronary circulation</b>: heart's own blood supply via coronary arteries.</li>
+        <li><b>Hepatic portal</b>: gut → liver → heart.</li>
+      </ul>
+
+      <h3>5. Pulse and BP</h3>
+      <ul>
+        <li>Pulse: throbbing of arteries with heartbeat. Normal: 60-100 bpm.</li>
+        <li>BP (Blood Pressure): force exerted on artery walls.
+          <ul>
+            <li>Systolic: when heart pumps (high). Normal: 120 mm Hg.</li>
+            <li>Diastolic: when heart relaxes. Normal: 80 mm Hg.</li>
+            <li>Normal: 120/80 mm Hg.</li>
+            <li>High (Hypertension): >140/90.</li>
+            <li>Low (Hypotension): <90/60.</li>
+          </ul>
+        </li>
+        <li>BP measured by Sphygmomanometer.</li>
+      </ul>
+
+      <h3>6. Cardiac Cycle</h3>
+      <ul>
+        <li>One complete heartbeat (~0.8 sec at rest).</li>
+        <li>Phases:
+          <ul>
+            <li>Atrial systole: atria contract.</li>
+            <li>Ventricular systole: ventricles contract (LUB sound).</li>
+            <li>Diastole: relaxation (DUB sound).</li>
+          </ul>
+        </li>
+        <li>"Lub-Dub" sounds: valves closing.</li>
+        <li>ECG (Electrocardiogram): records electrical activity.</li>
+      </ul>
+
+      <h3>7. Diseases & Conditions</h3>
+      <ul>
+        <li><b>Hypertension (high BP)</b>: silent killer.</li>
+        <li><b>Atherosclerosis</b>: arteries hardened by plaque.</li>
+        <li><b>Coronary heart disease</b>: blockage of coronary arteries.</li>
+        <li><b>Heart attack (Myocardial infarction)</b>: blocked artery, heart muscle dies.</li>
+        <li><b>Stroke</b>: blocked or burst artery in brain.</li>
+        <li><b>Angina</b>: chest pain from reduced blood to heart.</li>
+        <li><b>Aneurysm</b>: bulging weak spot in artery.</li>
+        <li><b>Varicose veins</b>: enlarged veins, esp. legs.</li>
+        <li><b>Rheumatic heart disease</b>: from streptococcal infection.</li>
+      </ul>
+
+      <h3>8. Treatments</h3>
+      <ul>
+        <li>Angioplasty: balloon to widen artery.</li>
+        <li>Stent: tiny tube to keep artery open.</li>
+        <li>Bypass surgery: detour around blocked artery.</li>
+        <li>Pacemaker: artificial heart rhythm regulator.</li>
+        <li>Heart transplant.</li>
+      </ul>
+
+      <h3>9. Famous Facts</h3>
+      <ul>
+        <li>First heart transplant: Dr. <b>Christiaan Barnard</b>, South Africa, 1967.</li>
+        <li>William Harvey: described blood circulation (1628).</li>
+        <li>First Indian heart transplant: 1994 (AIIMS, Dr. Venugopal).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Heart has 4 chambers in humans.</li>
+        <li>Pulmonary artery: deoxygenated; Pulmonary vein: oxygenated (exceptions).</li>
+        <li>Left ventricle: thickest wall (pumps to whole body).</li>
+        <li>SA Node: natural pacemaker.</li>
+        <li>BP: 120/80 normal.</li>
+        <li>Sphygmomanometer measures BP.</li>
+        <li>Heart sound: Lub-Dub.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Number of heart chambers in humans:", opts: ["2", "3", "4", "5"], a: 2, ex: "4 chambers." },
+      { q: "Largest artery:", opts: ["Aorta", "Pulmonary", "Carotid", "Femoral"], a: 0, ex: "Aorta from left ventricle." },
+      { q: "Largest vein:", opts: ["Pulmonary", "Vena cava", "Jugular", "Hepatic"], a: 1, ex: "Vena cava." },
+      { q: "Normal BP:", opts: ["90/60", "120/80", "140/90", "160/100"], a: 1, ex: "120/80 mm Hg." },
+      { q: "BP measured by:", opts: ["Thermometer", "Stethoscope", "Sphygmomanometer", "Manometer"], a: 2, ex: "Sphygmomanometer." },
+      { q: "Natural pacemaker of heart:", opts: ["AV Node", "SA Node", "Aorta", "Ventricle"], a: 1, ex: "SA Node." },
+      { q: "Pulmonary artery carries:", opts: ["Oxygenated", "Deoxygenated", "Mixed", "None"], a: 1, ex: "Exception: artery with deoxy." },
+      { q: "Pulmonary vein carries:", opts: ["Oxygenated", "Deoxygenated", "Mixed", "None"], a: 0, ex: "Exception: vein with oxy." },
+      { q: "Thickest chamber of heart:", opts: ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"], a: 3, ex: "Pumps to whole body." },
+      { q: "Average heart rate:", opts: ["50 bpm", "72 bpm", "100 bpm", "150 bpm"], a: 1, ex: "~72/min." },
+      { q: "Heart pump per day:", opts: ["100 L", "1000 L", "7000 L", "10000 L"], a: 2, ex: "~7000 litres/day." },
+      { q: "First heart transplant by:", opts: ["Christiaan Barnard", "DeBakey", "Lillehei", "Cooley"], a: 0, ex: "1967, South Africa." },
+      { q: "Blood circulation discovered by:", opts: ["Mendel", "William Harvey", "Galen", "Vesalius"], a: 1, ex: "1628." },
+      { q: "Capillaries are:", opts: ["Thick walled", "One cell thick", "Have valves", "Largest vessels"], a: 1, ex: "Thin for exchange." },
+      { q: "Hypertension is:", opts: ["Low BP", "High BP", "Low HR", "High HR"], a: 1, ex: "BP > 140/90." },
+      { q: "Heart attack also called:", opts: ["Stroke", "Myocardial infarction", "Angina", "Tachycardia"], a: 1, ex: "MI." },
+      { q: "Stroke affects:", opts: ["Heart", "Brain", "Kidney", "Liver"], a: 1, ex: "Brain blood vessel blocked/burst." },
+      { q: "Tricuspid valve is between:", opts: ["Right atrium-ventricle", "Left atrium-ventricle", "Right to aorta", "Left to pulmonary"], a: 0, ex: "Right side." },
+      { q: "Mitral valve between:", opts: ["Right atrium-ventricle", "Left atrium-ventricle", "Atria", "Ventricles"], a: 1, ex: "Bicuspid valve." },
+      { q: "ECG measures:", opts: ["Sound", "Electrical activity of heart", "BP", "Pulse"], a: 1, ex: "Electrocardiogram." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 36. HUMAN DIGESTIVE SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-digestive"] = {
+    body: `
+      <h2>Human Digestive System</h2>
+      <p><b>Digestion</b>: breakdown of food into simpler molecules for absorption. Total length of alimentary canal: ~9 m.</p>
+
+      <h3>1. Parts of the Alimentary Canal</h3>
+
+      <h4>(a) Mouth (Oral Cavity)</h4>
+      <ul>
+        <li>Teeth: cut and grind. Adult: 32 teeth (8 incisors, 4 canines, 8 premolars, 12 molars including wisdom teeth).</li>
+        <li>Tongue: tastes, mixes, swallows.</li>
+        <li>Salivary glands: produce <b>saliva</b> containing <b>amylase</b> (starts starch digestion).</li>
+        <li>Saliva pH: 6.5-7.5.</li>
+      </ul>
+
+      <h4>(b) Pharynx & Esophagus (Food Pipe)</h4>
+      <ul>
+        <li>~25 cm long tube.</li>
+        <li>Peristalsis (muscle contractions) pushes food down.</li>
+        <li>Epiglottis prevents food entering windpipe.</li>
+      </ul>
+
+      <h4>(c) Stomach</h4>
+      <ul>
+        <li>J-shaped sac, holds 1-1.5 L.</li>
+        <li>Secretes gastric juice (HCl + pepsin + mucus).</li>
+        <li>HCl: kills bacteria, activates pepsin.</li>
+        <li>Pepsin: digests proteins.</li>
+        <li>pH: 1.5-3 (very acidic).</li>
+        <li>Food stays here 3-4 hours, becomes chyme.</li>
+      </ul>
+
+      <h4>(d) Small Intestine (~6 m)</h4>
+      <ul>
+        <li>3 parts: duodenum → jejunum → ileum.</li>
+        <li>Main site of digestion & absorption.</li>
+        <li>Receives:
+          <ul>
+            <li>Bile from <b>liver</b> (via gall bladder): emulsifies fats.</li>
+            <li>Pancreatic juice from pancreas: trypsin (proteins), lipase (fats), amylase (carbs).</li>
+            <li>Intestinal juice: completes digestion.</li>
+          </ul>
+        </li>
+        <li>Inner lining has <b>villi</b> (tiny finger-like projections) for absorption.</li>
+        <li>pH: 7-8 (slightly basic).</li>
+      </ul>
+
+      <h4>(e) Large Intestine (~1.5 m)</h4>
+      <ul>
+        <li>Absorbs water and salts.</li>
+        <li>Forms faeces.</li>
+        <li>Contains beneficial bacteria (gut flora).</li>
+        <li>Appendix: vestigial; can get inflamed (appendicitis).</li>
+      </ul>
+
+      <h4>(f) Anus</h4>
+      <p>Elimination of waste.</p>
+
+      <h3>2. Accessory Organs (Don't store food)</h3>
+
+      <h4>Liver</h4>
+      <ul>
+        <li>Largest internal organ (~1.5 kg).</li>
+        <li>Produces <b>bile</b>.</li>
+        <li>Detoxifies blood.</li>
+        <li>Stores glycogen.</li>
+        <li>Makes plasma proteins.</li>
+        <li>Diseases: hepatitis (viral), jaundice, cirrhosis, fatty liver.</li>
+      </ul>
+
+      <h4>Gall Bladder</h4>
+      <ul>
+        <li>Stores bile.</li>
+        <li>Releases when food (especially fat) enters intestine.</li>
+        <li>Gallstones: hardened bile deposits.</li>
+      </ul>
+
+      <h4>Pancreas</h4>
+      <ul>
+        <li>Mixed gland (digestive enzymes + hormone insulin).</li>
+        <li>Pancreatic juice contains: amylase, lipase, trypsin.</li>
+        <li>Islets of Langerhans secrete insulin and glucagon (regulate blood sugar).</li>
+        <li>Diabetes: insulin deficiency or resistance.</li>
+      </ul>
+
+      <h3>3. Digestion of Food Types</h3>
+      <table>
+        <tr><th>Food</th><th>Location</th><th>Enzyme</th><th>Final Product</th></tr>
+        <tr><td>Carbohydrates (starch)</td><td>Mouth, small intestine</td><td>Amylase</td><td>Glucose</td></tr>
+        <tr><td>Proteins</td><td>Stomach, small intestine</td><td>Pepsin, trypsin</td><td>Amino acids</td></tr>
+        <tr><td>Fats</td><td>Small intestine</td><td>Lipase (after bile)</td><td>Fatty acids + glycerol</td></tr>
+      </table>
+
+      <h3>4. Common Disorders</h3>
+      <ul>
+        <li><b>Acidity / Heartburn</b>: excess stomach acid.</li>
+        <li><b>Ulcer</b>: erosion of stomach/duodenum lining (often H. pylori).</li>
+        <li><b>Diarrhea</b>: loose, frequent stools.</li>
+        <li><b>Constipation</b>: difficulty passing stool.</li>
+        <li><b>Diabetes mellitus</b>: high blood sugar.</li>
+        <li><b>Jaundice</b>: yellow skin/eyes (high bilirubin).</li>
+        <li><b>Appendicitis</b>: appendix inflammation.</li>
+        <li><b>Hepatitis</b>: liver inflammation.</li>
+        <li><b>Piles (Hemorrhoids)</b>: swollen anal veins.</li>
+        <li><b>Cholera</b>: severe diarrhea (V. cholerae).</li>
+      </ul>
+
+      <h3>5. Tips for Digestion</h3>
+      <ul>
+        <li>Chew well — mechanical breakdown helps.</li>
+        <li>Fibre prevents constipation.</li>
+        <li>Water aids digestion.</li>
+        <li>Avoid excess fat, spice → indigestion.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Saliva: amylase begins starch digestion.</li>
+        <li>Stomach pH: very acidic (HCl).</li>
+        <li>Small intestine: main absorption site (with villi).</li>
+        <li>Liver makes bile, gallbladder stores it.</li>
+        <li>Pancreas makes insulin (Islets of Langerhans).</li>
+        <li>Vitamin B12 absorbed in ileum (last part of small intestine).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Length of small intestine:", opts: ["1 m", "3 m", "6 m", "10 m"], a: 2, ex: "~6 m." },
+      { q: "Saliva contains:", opts: ["Pepsin", "Amylase", "Lipase", "Trypsin"], a: 1, ex: "Amylase digests starch." },
+      { q: "Stomach acid:", opts: ["HCl", "H₂SO₄", "HNO₃", "Acetic"], a: 0, ex: "Hydrochloric acid." },
+      { q: "Enzyme in stomach:", opts: ["Pepsin", "Amylase", "Lipase", "Trypsin"], a: 0, ex: "Pepsin." },
+      { q: "Bile produced by:", opts: ["Pancreas", "Liver", "Gall bladder", "Stomach"], a: 1, ex: "Liver." },
+      { q: "Bile stored in:", opts: ["Liver", "Gall bladder", "Pancreas", "Spleen"], a: 1, ex: "Gallbladder." },
+      { q: "Insulin produced by:", opts: ["Liver", "Pancreas", "Stomach", "Kidney"], a: 1, ex: "Islets of Langerhans." },
+      { q: "Digestion mainly in:", opts: ["Stomach", "Small intestine", "Large intestine", "Mouth"], a: 1, ex: "Small intestine." },
+      { q: "Water absorbed in:", opts: ["Stomach", "Small intestine", "Large intestine", "Esophagus"], a: 2, ex: "Mostly in large intestine." },
+      { q: "Bile function:", opts: ["Digests starch", "Emulsifies fats", "Kills bacteria", "Makes blood"], a: 1, ex: "Breaks fat into droplets." },
+      { q: "Number of teeth in adult:", opts: ["28", "30", "32", "20"], a: 2, ex: "32 (with wisdom teeth)." },
+      { q: "Peristalsis means:", opts: ["Wave of muscle contractions", "Heart pumping", "Lung expansion", "Brain wave"], a: 0, ex: "Pushes food along." },
+      { q: "Vitamin B12 absorbed in:", opts: ["Stomach", "Ileum", "Large intestine", "Mouth"], a: 1, ex: "Lower small intestine." },
+      { q: "Pancreatic enzyme for proteins:", opts: ["Amylase", "Trypsin", "Pepsin", "Lipase"], a: 1, ex: "Trypsin." },
+      { q: "Villi present in:", opts: ["Stomach", "Small intestine", "Large intestine", "Liver"], a: 1, ex: "Increase absorption surface." },
+      { q: "Diabetes due to:", opts: ["Insulin deficiency", "High HCl", "Less bile", "Excess water"], a: 0, ex: "Pancreas dysfunction." },
+      { q: "Jaundice affects:", opts: ["Kidney", "Liver", "Stomach", "Lung"], a: 1, ex: "Liver, bilirubin." },
+      { q: "Appendix is:", opts: ["Useful organ", "Vestigial", "Largest", "Smallest"], a: 1, ex: "No major function in humans." },
+      { q: "Cholera caused by:", opts: ["Virus", "Bacterium (V. cholerae)", "Fungus", "Parasite"], a: 1, ex: "Vibrio cholerae." },
+      { q: "Largest gland:", opts: ["Pancreas", "Liver", "Thyroid", "Pituitary"], a: 1, ex: "Liver." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 37. RESPIRATORY SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-respiratory"] = {
+    body: `
+      <h2>Respiratory System</h2>
+      <p>Brings oxygen into the body and removes carbon dioxide.</p>
+
+      <h3>1. Organs (Air Pathway)</h3>
+      <p>Nose → Pharynx → Larynx (voice box) → Trachea (windpipe) → Bronchi → Bronchioles → Alveoli (lungs).</p>
+
+      <h3>2. Nose</h3>
+      <ul>
+        <li>Filters air (hairs trap particles).</li>
+        <li>Warms and moistens air.</li>
+        <li>Olfactory receptors detect smell.</li>
+      </ul>
+
+      <h3>3. Larynx (Voice Box)</h3>
+      <ul>
+        <li>Contains vocal cords.</li>
+        <li>Sound produced by vibration of vocal cords.</li>
+        <li>Adam's apple: prominent in males.</li>
+      </ul>
+
+      <h3>4. Trachea (Windpipe)</h3>
+      <ul>
+        <li>~10-12 cm long.</li>
+        <li>Reinforced by C-shaped cartilage rings (don't collapse).</li>
+        <li>Lined with cilia and mucus (traps dirt).</li>
+      </ul>
+
+      <h3>5. Lungs</h3>
+      <ul>
+        <li>Two lungs in chest cavity.</li>
+        <li>Right lung: 3 lobes; Left lung: 2 lobes (smaller, makes room for heart).</li>
+        <li>Surrounded by pleural membranes.</li>
+        <li>Surface area ~70 m² (spread out).</li>
+        <li>~300-500 million alveoli per lung.</li>
+      </ul>
+
+      <h3>6. Alveoli</h3>
+      <ul>
+        <li>Tiny air sacs in lungs.</li>
+        <li>Site of gas exchange.</li>
+        <li>O₂ enters blood; CO₂ leaves blood.</li>
+        <li>Thin walls (1 cell), surrounded by capillaries.</li>
+      </ul>
+
+      <h3>7. Diaphragm</h3>
+      <ul>
+        <li>Dome-shaped muscle below lungs.</li>
+        <li>Contracts (flattens) during inhalation → chest expands → air rushes in.</li>
+        <li>Relaxes during exhalation.</li>
+        <li>Hiccup: spasm of diaphragm.</li>
+      </ul>
+
+      <h3>8. Breathing</h3>
+      <table>
+        <tr><th>Process</th><th>Diaphragm</th><th>Chest Volume</th><th>Air Movement</th></tr>
+        <tr><td>Inhalation</td><td>Contracts (flat)</td><td>Increases</td><td>In</td></tr>
+        <tr><td>Exhalation</td><td>Relaxes (dome)</td><td>Decreases</td><td>Out</td></tr>
+      </table>
+      <ul>
+        <li>Normal rate: 12-20 breaths/min.</li>
+        <li>Tidal volume: 500 mL per breath.</li>
+        <li>Lung capacity (vital): ~4-6 L.</li>
+      </ul>
+
+      <h3>9. Composition of Air</h3>
+      <table>
+        <tr><th>Gas</th><th>Inhaled (%)</th><th>Exhaled (%)</th></tr>
+        <tr><td>Nitrogen</td><td>78</td><td>78</td></tr>
+        <tr><td>Oxygen</td><td>21</td><td>16</td></tr>
+        <tr><td>Carbon dioxide</td><td>0.04</td><td>4-5</td></tr>
+        <tr><td>Water vapor</td><td>Variable</td><td>More</td></tr>
+      </table>
+
+      <h3>10. Respiration (Cellular)</h3>
+      <p>Glucose + O₂ → CO₂ + H₂O + ATP (38 ATP per glucose).</p>
+      <ul>
+        <li>Site: mitochondria.</li>
+        <li>Aerobic: with O₂, full breakdown, more energy.</li>
+        <li>Anaerobic: without O₂, partial breakdown → lactic acid (muscle fatigue), less energy.</li>
+        <li>Fermentation: yeast breaks glucose → alcohol + CO₂ (anaerobic).</li>
+      </ul>
+
+      <h3>11. Common Diseases</h3>
+      <ul>
+        <li><b>Asthma</b>: airway narrowing, wheezing.</li>
+        <li><b>Bronchitis</b>: bronchi inflammation.</li>
+        <li><b>Pneumonia</b>: lung infection (bacterial/viral).</li>
+        <li><b>Tuberculosis (TB)</b>: bacterial (Mycobacterium tuberculosis).</li>
+        <li><b>Emphysema</b>: damaged alveoli (smokers).</li>
+        <li><b>COPD</b>: chronic obstructive pulmonary disease.</li>
+        <li><b>Lung cancer</b>: often from smoking.</li>
+        <li><b>COVID-19</b>: SARS-CoV-2 virus.</li>
+        <li><b>Pleurisy</b>: pleura inflammation.</li>
+      </ul>
+
+      <h3>12. Smoking Effects</h3>
+      <ul>
+        <li>Nicotine: addictive.</li>
+        <li>Tar: causes cancer.</li>
+        <li>CO: reduces O₂ in blood.</li>
+        <li>Causes emphysema, lung cancer, heart disease.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Trachea has C-shaped cartilage rings.</li>
+        <li>Right lung 3 lobes; left lung 2 lobes.</li>
+        <li>Gas exchange at alveoli.</li>
+        <li>Diaphragm contracts on inhalation.</li>
+        <li>Normal breathing: 12-20/min.</li>
+        <li>Cellular respiration in mitochondria.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Voice box:", opts: ["Pharynx", "Larynx", "Trachea", "Bronchus"], a: 1, ex: "Larynx has vocal cords." },
+      { q: "Windpipe:", opts: ["Esophagus", "Trachea", "Bronchus", "Pharynx"], a: 1, ex: "Trachea." },
+      { q: "Gas exchange occurs at:", opts: ["Bronchi", "Trachea", "Alveoli", "Larynx"], a: 2, ex: "Tiny air sacs." },
+      { q: "Number of lobes in right lung:", opts: ["2", "3", "4", "5"], a: 1, ex: "3 lobes." },
+      { q: "Number of lobes in left lung:", opts: ["2", "3", "4", "5"], a: 0, ex: "2 (heart space)." },
+      { q: "Diaphragm role:", opts: ["Pumping blood", "Breathing", "Digestion", "Filtering"], a: 1, ex: "Main breathing muscle." },
+      { q: "Cellular respiration in:", opts: ["Cytoplasm", "Mitochondria", "Nucleus", "Lysosome"], a: 1, ex: "Powerhouse." },
+      { q: "Anaerobic respiration in muscles produces:", opts: ["Glucose", "Lactic acid", "Ethanol", "CO₂"], a: 1, ex: "Causes fatigue." },
+      { q: "O₂ in exhaled air:", opts: ["21%", "16%", "0%", "10%"], a: 1, ex: "Used some." },
+      { q: "CO₂ in exhaled air:", opts: ["0.04%", "21%", "4-5%", "10%"], a: 2, ex: "Higher than inhaled." },
+      { q: "Asthma affects:", opts: ["Heart", "Kidney", "Lungs (airways)", "Stomach"], a: 2, ex: "Airway narrowing." },
+      { q: "TB caused by:", opts: ["Virus", "Mycobacterium tuberculosis", "Fungus", "Parasite"], a: 1, ex: "Bacterium." },
+      { q: "Normal breathing rate:", opts: ["5/min", "12-20/min", "30/min", "60/min"], a: 1, ex: "12-20 per minute." },
+      { q: "Vital capacity of lungs:", opts: ["1 L", "2 L", "4-6 L", "10 L"], a: 2, ex: "Total breathable volume." },
+      { q: "Smoking causes:", opts: ["Lung cancer", "Emphysema", "Heart disease", "All correct"], a: 3, ex: "All these." },
+      { q: "Hiccup is:", opts: ["Stomach spasm", "Diaphragm spasm", "Lung problem", "Heart issue"], a: 1, ex: "Diaphragm contraction." },
+      { q: "Cilia in trachea:", opts: ["Filter dust", "Pump air", "Vibrate sound", "Help digestion"], a: 0, ex: "Trap dirt." },
+      { q: "Site of olfaction:", opts: ["Mouth", "Nose", "Throat", "Lung"], a: 1, ex: "Smell in nose." },
+      { q: "COVID-19 caused by:", opts: ["Virus", "Bacteria", "Fungus", "Parasite"], a: 0, ex: "SARS-CoV-2." },
+      { q: "Yeast fermentation produces:", opts: ["Glucose + O₂", "Alcohol + CO₂", "Lactic acid", "Water"], a: 1, ex: "Anaerobic, used in baking and brewing." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 38. NERVOUS SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-nervous"] = {
+    body: `
+      <h2>Nervous System</h2>
+      <p>The nervous system controls and coordinates all body activities. Made of nerve cells (neurons) and supporting cells.</p>
+
+      <h3>1. Divisions</h3>
+
+      <h4>(a) Central Nervous System (CNS)</h4>
+      <ul>
+        <li>Brain + Spinal Cord.</li>
+        <li>Processes information.</li>
+      </ul>
+
+      <h4>(b) Peripheral Nervous System (PNS)</h4>
+      <ul>
+        <li>Nerves outside brain and spinal cord.</li>
+        <li>Two parts:
+          <ul>
+            <li><b>Somatic</b>: voluntary actions (skeletal muscles).</li>
+            <li><b>Autonomic</b>: involuntary (heart, glands).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h4>(c) Autonomic Nervous System (subset of PNS)</h4>
+      <ul>
+        <li><b>Sympathetic</b>: "fight or flight" — increases heart rate, dilates pupils.</li>
+        <li><b>Parasympathetic</b>: "rest and digest" — slows heart, stimulates digestion.</li>
+      </ul>
+
+      <h3>2. The Neuron (Nerve Cell)</h3>
+      <ul>
+        <li>Basic unit; ~86 billion in brain.</li>
+        <li>Parts:
+          <ul>
+            <li><b>Dendrites</b>: receive signals.</li>
+            <li><b>Cell body (soma)</b>: contains nucleus.</li>
+            <li><b>Axon</b>: long fibre that carries signal away.</li>
+            <li><b>Myelin sheath</b>: insulates axon, speeds up signal.</li>
+            <li><b>Synapse</b>: gap between two neurons (chemical signal via neurotransmitter).</li>
+          </ul>
+        </li>
+        <li>Longest cell in body.</li>
+      </ul>
+
+      <h3>3. Brain (~1.4 kg)</h3>
+      <ul>
+        <li><b>Cerebrum</b> (largest part): voluntary action, intelligence, memory, thinking. Two hemispheres connected by corpus callosum.
+          <ul>
+            <li>Frontal lobe: thinking, decision making.</li>
+            <li>Parietal: sensation.</li>
+            <li>Temporal: hearing, memory.</li>
+            <li>Occipital: vision.</li>
+          </ul>
+        </li>
+        <li><b>Cerebellum</b>: balance, coordination, fine motor control.</li>
+        <li><b>Brainstem</b>:
+          <ul>
+            <li>Medulla oblongata: heart rate, breathing, BP.</li>
+            <li>Pons: relay station.</li>
+            <li>Midbrain: vision, hearing reflexes.</li>
+          </ul>
+        </li>
+        <li><b>Thalamus</b>: sensory relay.</li>
+        <li><b>Hypothalamus</b>: homeostasis, temperature, hunger, thirst, hormones.</li>
+        <li><b>Limbic system</b> (incl. amygdala, hippocampus): emotion, memory.</li>
+      </ul>
+
+      <h3>4. Spinal Cord</h3>
+      <ul>
+        <li>~45 cm long.</li>
+        <li>Protected by vertebral column.</li>
+        <li>31 pairs of spinal nerves.</li>
+        <li>Reflex arc (without brain).</li>
+      </ul>
+
+      <h3>5. Reflex Action</h3>
+      <ul>
+        <li>Quick, automatic response.</li>
+        <li>Bypasses brain via spinal cord.</li>
+        <li>Examples: touching hot object → withdraw hand; knee jerk.</li>
+        <li>Pathway: receptor → sensory neuron → spinal cord → motor neuron → effector.</li>
+      </ul>
+
+      <h3>6. Neurotransmitters</h3>
+      <ul>
+        <li><b>Acetylcholine</b>: muscle activation, learning.</li>
+        <li><b>Dopamine</b>: pleasure, reward, motivation.</li>
+        <li><b>Serotonin</b>: mood, sleep, appetite.</li>
+        <li><b>GABA</b>: inhibitory.</li>
+        <li><b>Glutamate</b>: excitatory.</li>
+        <li><b>Endorphins</b>: pain relief, pleasure.</li>
+        <li><b>Adrenaline</b>: fight-or-flight.</li>
+      </ul>
+
+      <h3>7. Senses & Reflexes</h3>
+      <ul>
+        <li>5 senses: sight, hearing, smell, taste, touch.</li>
+        <li>Conditioned reflex: learned (Pavlov's dogs).</li>
+      </ul>
+
+      <h3>8. Common Disorders</h3>
+      <ul>
+        <li><b>Parkinson's</b>: dopamine deficiency; tremors.</li>
+        <li><b>Alzheimer's</b>: memory loss, dementia.</li>
+        <li><b>Epilepsy</b>: seizures.</li>
+        <li><b>Stroke</b>: blood supply blocked.</li>
+        <li><b>Meningitis</b>: inflammation of meninges.</li>
+        <li><b>Multiple Sclerosis (MS)</b>: myelin damage.</li>
+        <li><b>Migraine</b>: severe headache.</li>
+        <li><b>Polio</b>: motor neuron disease.</li>
+        <li><b>Rabies</b>: viral, fatal if untreated.</li>
+        <li><b>Depression, Anxiety</b>: mental health.</li>
+      </ul>
+
+      <h3>9. Important Facts</h3>
+      <ul>
+        <li>Brain uses ~20% of body's oxygen and glucose.</li>
+        <li>Left brain controls right body and vice versa.</li>
+        <li>Brain has no pain receptors itself.</li>
+        <li>Memory stored across many brain areas, not one spot.</li>
+        <li>Smell goes directly to brain (without thalamus filter).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>CNS = Brain + Spinal Cord.</li>
+        <li>Cerebrum = thinking; Cerebellum = balance; Medulla = heart/breathing.</li>
+        <li>Spinal cord controls reflexes.</li>
+        <li>Parkinson's = dopamine deficiency.</li>
+        <li>Alzheimer's = memory loss.</li>
+        <li>Longest cell: neuron.</li>
+        <li>Brain has ~86 billion neurons.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "CNS consists of:", opts: ["Brain only", "Brain + Spinal cord", "Nerves only", "All glands"], a: 1, ex: "Brain + cord." },
+      { q: "Largest part of brain:", opts: ["Cerebrum", "Cerebellum", "Medulla", "Thalamus"], a: 0, ex: "Cerebrum." },
+      { q: "Balance and coordination:", opts: ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"], a: 1, ex: "Cerebellum." },
+      { q: "Controls heart rate and breathing:", opts: ["Cerebrum", "Cerebellum", "Medulla oblongata", "Spinal cord"], a: 2, ex: "Brainstem." },
+      { q: "Reflex action mediated by:", opts: ["Cerebrum", "Cerebellum", "Spinal cord", "Heart"], a: 2, ex: "Without brain involvement." },
+      { q: "Parkinson's disease due to deficiency of:", opts: ["Insulin", "Dopamine", "Adrenaline", "Serotonin"], a: 1, ex: "Dopamine." },
+      { q: "Alzheimer's affects:", opts: ["Vision", "Memory", "Hearing", "Movement"], a: 1, ex: "Dementia, memory loss." },
+      { q: "Polio affects:", opts: ["Heart", "Motor neurons", "Liver", "Kidney"], a: 1, ex: "Paralysis." },
+      { q: "Pavlov's experiment was on:", opts: ["Memory", "Conditioned reflex", "Pain", "Hearing"], a: 1, ex: "Salivating dogs." },
+      { q: "Number of spinal nerves:", opts: ["12 pairs", "31 pairs", "20 pairs", "40 pairs"], a: 1, ex: "31 pairs." },
+      { q: "Longest cell in body:", opts: ["Sperm", "Neuron", "RBC", "Muscle cell"], a: 1, ex: "Nerve cell." },
+      { q: "Synapse:", opts: ["Inside neuron", "Gap between neurons", "End of axon", "Brain region"], a: 1, ex: "Between two neurons." },
+      { q: "Sympathetic NS triggers:", opts: ["Rest", "Fight or flight", "Sleep", "Digestion"], a: 1, ex: "Emergency response." },
+      { q: "Parasympathetic does:", opts: ["Excitement", "Rest and digest", "Aggression", "Stress"], a: 1, ex: "Restoration." },
+      { q: "Brain weight approx:", opts: ["500 g", "1.4 kg", "3 kg", "5 kg"], a: 1, ex: "~1.4 kg." },
+      { q: "Cerebral hemispheres:", opts: ["1", "2", "3", "4"], a: 1, ex: "Left + Right." },
+      { q: "Right brain controls:", opts: ["Right body", "Left body", "All body", "None"], a: 1, ex: "Crossover." },
+      { q: "Brain oxygen consumption:", opts: ["5%", "20%", "50%", "80%"], a: 1, ex: "~20% of body's." },
+      { q: "Myelin sheath function:", opts: ["Insulate axon, speed signal", "Make neurotransmitters", "Provide nutrients", "Damage neurons"], a: 0, ex: "Fast nerve conduction." },
+      { q: "Endorphin function:", opts: ["Pain relief, pleasure", "Sleep only", "Memory only", "Vision"], a: 0, ex: "Natural painkillers." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 39. ENDOCRINE SYSTEM
+  // ───────────────────────────────────────────────────────────────
+  T["sci-bio-endocrine"] = {
+    body: `
+      <h2>Endocrine System</h2>
+      <p>The <b>endocrine system</b> is a network of glands that secrete <b>hormones</b> directly into the bloodstream. Hormones are chemical messengers that control body functions.</p>
+
+      <h3>1. Pituitary Gland ("Master Gland")</h3>
+      <ul>
+        <li>Located at base of brain, pea-sized.</li>
+        <li>Controls other endocrine glands.</li>
+        <li>Hormones:
+          <ul>
+            <li><b>Growth Hormone (GH)</b>: body growth. Excess → gigantism; deficiency → dwarfism.</li>
+            <li><b>Prolactin</b>: milk production.</li>
+            <li><b>TSH</b>: stimulates thyroid.</li>
+            <li><b>ACTH</b>: stimulates adrenal cortex.</li>
+            <li><b>FSH, LH</b>: reproduction.</li>
+            <li><b>ADH (Vasopressin)</b>: water retention in kidneys. Deficiency → diabetes insipidus.</li>
+            <li><b>Oxytocin</b>: childbirth, milk release, "love hormone".</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>2. Thyroid Gland</h3>
+      <ul>
+        <li>Located in neck (butterfly-shaped).</li>
+        <li>Hormones:
+          <ul>
+            <li><b>Thyroxine (T4) and T3</b>: regulate metabolism. Need iodine.</li>
+            <li><b>Calcitonin</b>: lowers blood calcium.</li>
+          </ul>
+        </li>
+        <li>Disorders:
+          <ul>
+            <li><b>Goiter</b>: iodine deficiency → swollen thyroid.</li>
+            <li><b>Hypothyroidism</b>: low thyroxine; sluggish, weight gain. Cretinism in children.</li>
+            <li><b>Hyperthyroidism</b>: high thyroxine; weight loss, anxiety, Graves' disease.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>3. Parathyroid Glands</h3>
+      <ul>
+        <li>4 small glands behind thyroid.</li>
+        <li>PTH (Parathormone): raises blood calcium.</li>
+        <li>Works opposite to calcitonin.</li>
+      </ul>
+
+      <h3>4. Adrenal Glands</h3>
+      <ul>
+        <li>On top of kidneys.</li>
+        <li>Two parts:
+          <ul>
+            <li><b>Cortex</b>:
+              <ul>
+                <li>Cortisol: stress hormone, anti-inflammatory.</li>
+                <li>Aldosterone: salt-water balance.</li>
+                <li>Androgens (small amounts).</li>
+              </ul>
+            </li>
+            <li><b>Medulla</b>:
+              <ul>
+                <li>Adrenaline (epinephrine): fight or flight.</li>
+                <li>Noradrenaline: blood pressure.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Addison's disease: adrenal insufficiency.</li>
+        <li>Cushing's syndrome: excess cortisol.</li>
+      </ul>
+
+      <h3>5. Pancreas (Islets of Langerhans)</h3>
+      <ul>
+        <li>Mixed gland — has digestive enzymes AND hormones.</li>
+        <li>Hormones:
+          <ul>
+            <li><b>Insulin</b> (β cells): lowers blood sugar. Deficiency → Diabetes Type 1.</li>
+            <li><b>Glucagon</b> (α cells): raises blood sugar.</li>
+          </ul>
+        </li>
+        <li>Diabetes:
+          <ul>
+            <li>Type 1: insulin deficiency (autoimmune).</li>
+            <li>Type 2: insulin resistance (lifestyle).</li>
+            <li>Symptoms: frequent urination, thirst, hunger, weight loss.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>6. Gonads (Ovaries & Testes)</h3>
+
+      <h4>Ovaries (Female)</h4>
+      <ul>
+        <li><b>Estrogen</b>: female characteristics.</li>
+        <li><b>Progesterone</b>: pregnancy support.</li>
+      </ul>
+
+      <h4>Testes (Male)</h4>
+      <ul>
+        <li><b>Testosterone</b>: male characteristics, sperm production.</li>
+      </ul>
+
+      <h3>7. Pineal Gland</h3>
+      <ul>
+        <li>Small gland in brain.</li>
+        <li><b>Melatonin</b>: sleep-wake cycle.</li>
+      </ul>
+
+      <h3>8. Thymus</h3>
+      <ul>
+        <li>Behind sternum.</li>
+        <li>Thymosin: T-cell maturation (immunity).</li>
+        <li>Active in children, shrinks in adults.</li>
+      </ul>
+
+      <h3>9. Summary of Major Hormones</h3>
+      <table>
+        <tr><th>Hormone</th><th>Gland</th><th>Function</th></tr>
+        <tr><td>Insulin</td><td>Pancreas</td><td>Lowers blood sugar</td></tr>
+        <tr><td>Glucagon</td><td>Pancreas</td><td>Raises blood sugar</td></tr>
+        <tr><td>Thyroxine</td><td>Thyroid</td><td>Metabolism</td></tr>
+        <tr><td>Adrenaline</td><td>Adrenal medulla</td><td>Fight or flight</td></tr>
+        <tr><td>Cortisol</td><td>Adrenal cortex</td><td>Stress, anti-inflammatory</td></tr>
+        <tr><td>Growth hormone</td><td>Pituitary</td><td>Growth</td></tr>
+        <tr><td>Estrogen</td><td>Ovaries</td><td>Female characteristics</td></tr>
+        <tr><td>Testosterone</td><td>Testes</td><td>Male characteristics</td></tr>
+        <tr><td>Melatonin</td><td>Pineal</td><td>Sleep</td></tr>
+        <tr><td>Oxytocin</td><td>Pituitary</td><td>Childbirth, bonding</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Pituitary = master gland.</li>
+        <li>Insulin lowers; glucagon raises blood sugar.</li>
+        <li>Iodine deficiency → goiter.</li>
+        <li>Adrenaline = fight or flight.</li>
+        <li>Melatonin = sleep hormone.</li>
+        <li>Dwarfism from low GH; gigantism from excess.</li>
+        <li>Diabetes mellitus = sugar; Diabetes insipidus = water (ADH deficient).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Master gland:", opts: ["Thyroid", "Pituitary", "Adrenal", "Pineal"], a: 1, ex: "Controls other glands." },
+      { q: "Insulin produced by:", opts: ["Liver", "Pancreas", "Thyroid", "Adrenal"], a: 1, ex: "Islets of Langerhans." },
+      { q: "Insulin function:", opts: ["Raises sugar", "Lowers sugar", "Stress", "Growth"], a: 1, ex: "Reduces blood glucose." },
+      { q: "Thyroid hormone:", opts: ["Insulin", "Cortisol", "Thyroxine", "Adrenaline"], a: 2, ex: "T4 (thyroxine)." },
+      { q: "Iodine deficiency causes:", opts: ["Diabetes", "Goiter", "Dwarfism", "Anaemia"], a: 1, ex: "Thyroid swelling." },
+      { q: "Fight or flight hormone:", opts: ["Insulin", "Thyroxine", "Adrenaline", "Melatonin"], a: 2, ex: "From adrenal medulla." },
+      { q: "Melatonin from:", opts: ["Pineal", "Pituitary", "Thyroid", "Thymus"], a: 0, ex: "Sleep cycle." },
+      { q: "Diabetes due to:", opts: ["Excess insulin", "Insulin deficiency", "High thyroid", "Low Hb"], a: 1, ex: "Or resistance." },
+      { q: "Estrogen from:", opts: ["Testes", "Ovaries", "Thyroid", "Adrenal"], a: 1, ex: "Female gonads." },
+      { q: "Testosterone from:", opts: ["Testes", "Ovaries", "Thyroid", "Pancreas"], a: 0, ex: "Male gonads." },
+      { q: "Cortisol from:", opts: ["Adrenal cortex", "Pituitary", "Pineal", "Thyroid"], a: 0, ex: "Stress hormone." },
+      { q: "Growth hormone from:", opts: ["Thyroid", "Pituitary", "Pancreas", "Adrenal"], a: 1, ex: "Anterior pituitary." },
+      { q: "Excess GH in childhood:", opts: ["Dwarfism", "Gigantism", "Acromegaly", "Diabetes"], a: 1, ex: "Gigantism (Acromegaly in adults)." },
+      { q: "Calcium balance hormone:", opts: ["Insulin", "Thyroxine", "Parathormone (PTH)", "Adrenaline"], a: 2, ex: "Raises blood Ca²⁺." },
+      { q: "Oxytocin function:", opts: ["Sleep", "Childbirth/bonding", "Sugar", "Growth"], a: 1, ex: "Uterine contraction; bonding." },
+      { q: "Vasopressin/ADH:", opts: ["Sleep", "Water retention", "Growth", "Sugar"], a: 1, ex: "Kidney water conservation." },
+      { q: "Thymus function:", opts: ["Digestion", "T-cell maturation", "Heart rate", "Growth"], a: 1, ex: "Immunity." },
+      { q: "Hyperthyroidism cause:", opts: ["High thyroxine", "Low thyroxine", "Iodine deficiency", "Low calcium"], a: 0, ex: "Graves' disease." },
+      { q: "Glucagon raises:", opts: ["Sugar", "Calcium", "Thyroid", "Sodium"], a: 0, ex: "Opposite of insulin." },
+      { q: "Pancreas is:", opts: ["Endocrine only", "Exocrine only", "Mixed (both)", "Neither"], a: 2, ex: "Insulin (endo) + digestive enzymes (exo)." }
+    ]
+  };
+
 })();
