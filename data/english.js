@@ -2040,4 +2040,875 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 11. TIME AND TENSE
+  // ───────────────────────────────────────────────────────────────
+  T["eng-tense"] = {
+    body: `
+      <h2>Time and Tense</h2>
+      <p>Tense shows the <b>time</b> of action. There are <b>3 times × 4 aspects = 12 tenses</b>. SSC asks 3-5 questions on tense — most-tested grammar area.</p>
+
+      <h3>1. The 12 Tenses Chart</h3>
+      <table>
+        <tr><th>Time \\ Aspect</th><th>Simple (indefinite)</th><th>Continuous (progressive)</th><th>Perfect</th><th>Perfect Continuous</th></tr>
+        <tr><td><b>Present</b></td><td>I write</td><td>I am writing</td><td>I have written</td><td>I have been writing</td></tr>
+        <tr><td><b>Past</b></td><td>I wrote</td><td>I was writing</td><td>I had written</td><td>I had been writing</td></tr>
+        <tr><td><b>Future</b></td><td>I will write</td><td>I will be writing</td><td>I will have written</td><td>I will have been writing</td></tr>
+      </table>
+
+      <h3>2. Forms (Active Voice)</h3>
+      <table>
+        <tr><th>Tense</th><th>Structure</th></tr>
+        <tr><td>Present Simple</td><td>S + V1/V-s</td></tr>
+        <tr><td>Present Continuous</td><td>S + am/is/are + V-ing</td></tr>
+        <tr><td>Present Perfect</td><td>S + has/have + V3</td></tr>
+        <tr><td>Present Perfect Continuous</td><td>S + has/have been + V-ing</td></tr>
+        <tr><td>Past Simple</td><td>S + V2</td></tr>
+        <tr><td>Past Continuous</td><td>S + was/were + V-ing</td></tr>
+        <tr><td>Past Perfect</td><td>S + had + V3</td></tr>
+        <tr><td>Past Perfect Continuous</td><td>S + had been + V-ing</td></tr>
+        <tr><td>Future Simple</td><td>S + will/shall + V1</td></tr>
+        <tr><td>Future Continuous</td><td>S + will be + V-ing</td></tr>
+        <tr><td>Future Perfect</td><td>S + will have + V3</td></tr>
+        <tr><td>Future Perfect Continuous</td><td>S + will have been + V-ing</td></tr>
+      </table>
+
+      <h3>3. When to Use Each Tense</h3>
+
+      <h4>Present Simple</h4>
+      <ul>
+        <li>Habitual / Regular action: He <b>walks</b> daily.</li>
+        <li>Universal truths: The sun <b>rises</b> in the east.</li>
+        <li>Scheduled future events: The train <b>leaves</b> at 6 pm.</li>
+        <li>With "always, often, never, every day, usually, generally, sometimes, daily, weekly"</li>
+      </ul>
+
+      <h4>Present Continuous</h4>
+      <ul>
+        <li>Action happening now: I <b>am writing</b>.</li>
+        <li>Temporary action: She <b>is staying</b> with us this week.</li>
+        <li>Future plan/arrangement: I <b>am meeting</b> him tomorrow.</li>
+        <li>With "now, at the moment, currently, presently, this week"</li>
+      </ul>
+
+      <h4>Present Perfect</h4>
+      <ul>
+        <li>Action completed recently with present relevance: I <b>have just eaten</b>.</li>
+        <li>Action in past with effect on present: She <b>has broken</b> her leg.</li>
+        <li>Experiences (life): Have you <b>ever been</b> to Paris?</li>
+        <li>With "just, already, yet, ever, never, recently, lately, so far, since, for"</li>
+      </ul>
+
+      <h4>Present Perfect Continuous</h4>
+      <ul>
+        <li>Action started in past, still continuing: I <b>have been waiting</b> for 2 hours.</li>
+        <li>With "since" (point) / "for" (duration)</li>
+      </ul>
+
+      <h4>Past Simple</h4>
+      <ul>
+        <li>Completed past action: I <b>went</b> yesterday.</li>
+        <li>With specific past time: yesterday, last week, in 2010, ago, when</li>
+      </ul>
+
+      <h4>Past Continuous</h4>
+      <ul>
+        <li>Action ongoing at past moment: I <b>was reading</b> at 7 pm.</li>
+        <li>Two simultaneous past actions: While I <b>was cooking</b>, he <b>was watching</b> TV.</li>
+        <li>Past action interrupted by another: I <b>was watching</b> TV <b>when</b> he came.</li>
+      </ul>
+
+      <h4>Past Perfect</h4>
+      <ul>
+        <li>Earlier of two past actions: He <b>had left</b> when I arrived.</li>
+        <li>Used with past simple in same sentence. Past perfect = earlier action.</li>
+      </ul>
+
+      <h4>Past Perfect Continuous</h4>
+      <ul>
+        <li>Action that was ongoing before another past action: He <b>had been studying</b> for 3 hours when I called.</li>
+      </ul>
+
+      <h4>Future Simple</h4>
+      <ul>
+        <li>Action in future: I <b>will go</b> tomorrow.</li>
+        <li>Predictions, promises, instant decisions, offers</li>
+      </ul>
+
+      <h4>Future Continuous / Future Perfect / Future Perfect Continuous</h4>
+      <ul>
+        <li>Will be doing (continuous future): At 5 pm I <b>will be sleeping</b>.</li>
+        <li>Will have done (action complete by future time): By tomorrow I <b>will have finished</b>.</li>
+        <li>Will have been doing: By 5 pm, I <b>will have been working</b> for 8 hours.</li>
+      </ul>
+
+      <h3>4. Key Rules</h3>
+
+      <h4>Rule 1: "Since" — present perfect / perfect continuous (NOT simple past)</h4>
+      <ul>
+        <li>❌ I am waiting since 2 hours. → ✓ I have been waiting for 2 hours.</li>
+        <li>❌ I waited since morning. → ✓ I have been waiting since morning.</li>
+      </ul>
+
+      <h4>Rule 2: Universal truths — always present simple</h4>
+      <ul>
+        <li>✓ He told me that the earth <b>is</b> round. (not "was" round)</li>
+      </ul>
+
+      <h4>Rule 3: Future after "when, if, until, before, after, as soon as" — simple present</h4>
+      <ul>
+        <li>✓ I will call when I <b>reach</b> home. (not "will reach")</li>
+        <li>✓ Wait until he <b>comes</b>. (not "will come")</li>
+      </ul>
+
+      <h4>Rule 4: Stative verbs — no continuous</h4>
+      <p>love, like, hate, know, believe, understand, want, mean, see, hear, taste, smell, feel, own, have, possess, prefer, recognize, doubt, suppose, seem, appear, remember, forget, contain, include</p>
+      <ul>
+        <li>❌ I am loving it. → ✓ I love it.</li>
+        <li>❌ I am understanding. → ✓ I understand.</li>
+      </ul>
+
+      <h4>Rule 5: After "wish / if only" — past tenses for present hypothetical</h4>
+      <ul>
+        <li>I wish I <b>had</b> a car. (present situation)</li>
+        <li>I wish I <b>had had</b> a car yesterday. (past)</li>
+      </ul>
+
+      <h4>Rule 6: "By the time" + simple past, main clause past perfect</h4>
+      <ul>
+        <li>By the time I reached, he <b>had left</b>.</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li><b>Since (point) + present perfect</b>; <b>For (duration) + present perfect/cont.</b></li>
+        <li>Two past actions — earlier one in past perfect.</li>
+        <li>After "if/when/until/before" referring to future → use simple <b>present</b>.</li>
+        <li>Stative verbs (know, love, understand) → never continuous.</li>
+        <li>Universal truths → always simple present.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "I am living in Delhi since 2010."</p>
+      <p><b>Solution:</b><br>"Since" needs present perfect.<br>Correct: "I <b>have been living</b> in Delhi since 2010."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "He told me that the earth was round."</p>
+      <p><b>Solution:</b><br>Universal truth — present.<br>Correct: "...the earth <b>is</b> round."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "I will call you when I will reach home."</p>
+      <p><b>Solution:</b><br>After "when" (future) → simple present.<br>Correct: "...when I <b>reach</b> home."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Spot the error</b>: "She has come yesterday."</p>
+      <p><b>Solution:</b><br>"Yesterday" is specific past — use simple past.<br>Correct: "She <b>came</b> yesterday."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Spot the error</b>: "When I reached, he already left."</p>
+      <p><b>Solution:</b><br>Earlier of two past actions → past perfect.<br>Correct: "When I reached, he <b>had already left</b>."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Spot the error</b>: "I am knowing him for 5 years."</p>
+      <p><b>Solution:</b><br>"Know" — stative.<br>Correct: "I <b>have known</b> him for 5 years."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Spot the error</b>: "He is going to school every day."</p>
+      <p><b>Solution:</b><br>Habit → simple present.<br>Correct: "He <b>goes</b> to school every day."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Spot the error</b>: "I have seen him last week."</p>
+      <p><b>Solution:</b><br>"Last week" — specific past.<br>Correct: "I <b>saw</b> him last week."</p>
+
+      <h4>Example 9</h4>
+      <p><b>Spot the error</b>: "If it will rain, I will not come."</p>
+      <p><b>Solution:</b><br>After "if" (future condition) → present.<br>Correct: "If it <b>rains</b>, I will not come."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "Hardly had I sat when the phone rang." (correct or error?)</p>
+      <p><b>Solution:</b><br>Correct! "Hardly had + S + V3 + when + simple past."</p>
+
+      <h4>Example 11</h4>
+      <p><b>Spot the error</b>: "I wish I have more time."</p>
+      <p><b>Solution:</b><br>"Wish" + past tense (present situation hypothetical).<br>Correct: "I wish I <b>had</b> more time."</p>
+
+      <h4>Example 12</h4>
+      <p><b>Spot the error</b>: "He says that he has gone there yesterday."</p>
+      <p><b>Solution:</b><br>"Yesterday" → simple past.<br>Correct: "...that he <b>went</b> there yesterday."</p>
+
+      <h4>Example 13</h4>
+      <p><b>Spot the error</b>: "It is raining since morning."</p>
+      <p><b>Solution:</b><br>"Since" → present perfect continuous.<br>Correct: "It <b>has been raining</b> since morning."</p>
+
+      <h4>Example 14</h4>
+      <p><b>Spot the error</b>: "While she cooked dinner, the phone rang."</p>
+      <p><b>Solution:</b><br>"While" → ongoing action → past continuous.<br>Correct: "While she <b>was cooking</b>, the phone rang."</p>
+
+      <h4>Example 15</h4>
+      <p><b>Spot the error</b>: "By the time he came, I have finished."</p>
+      <p><b>Solution:</b><br>"By the time + past" → main clause past perfect.<br>Correct: "By the time he came, I <b>had finished</b>."</p>
+
+      <h4>Example 16</h4>
+      <p><b>Spot the error</b>: "He is having two cars."</p>
+      <p><b>Solution:</b><br>"Have" (possess) is stative.<br>Correct: "He <b>has</b> two cars."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>"Since" requires present perfect tense, NOT present.</li>
+        <li>"Yesterday", "ago", "last week/year" → simple past, NOT present perfect.</li>
+        <li>After "if/when/until/as soon as" (future) → simple present, NOT future.</li>
+        <li>Stative verbs (know, love, etc.) — never -ing.</li>
+        <li>Two past actions → use past perfect for the earlier one.</li>
+        <li>Universal truths and habitual actions → always simple present.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'I am living here since 2015.'", opts: ["I am living", "here", "since 2015", "No error"], a: 0, ex: "Since → present perfect: 'I have been living'." },
+      { q: "Choose: 'He ___ to school every day.'", opts: ["is going", "goes", "has gone", "went"], a: 1, ex: "Habit → simple present." },
+      { q: "Spot the error: 'When I reached home, he already left.'", opts: ["When I reached", "he already left", "No error", "home"], a: 1, ex: "Earlier past → had already left." },
+      { q: "Choose: 'I ___ him last Sunday.'", opts: ["have seen", "saw", "had seen", "see"], a: 1, ex: "Last Sunday → past simple." },
+      { q: "Spot the error: 'It is raining since morning.'", opts: ["It is raining", "since morning", "No error", "It"], a: 0, ex: "Has been raining." },
+      { q: "Choose: 'If it ___ tomorrow, we will postpone.'", opts: ["rain", "rains", "will rain", "is raining"], a: 1, ex: "After 'if' (future) → simple present." },
+      { q: "Spot the error: 'He told me that the sun was bright.'", opts: ["He told me", "the sun was bright", "No error", "told"], a: 1, ex: "Universal truth → 'is bright'." },
+      { q: "Choose: 'I ___ for the bus when he arrived.'", opts: ["wait", "was waiting", "had waited", "have waited"], a: 1, ex: "Ongoing past → was waiting." },
+      { q: "Spot the error: 'He has gone to Delhi two days ago.'", opts: ["He has gone", "two days ago", "Delhi", "No error"], a: 0, ex: "Ago → past simple: went." },
+      { q: "Choose: 'I ___ him for 10 years now.'", opts: ["know", "am knowing", "have known", "have been knowing"], a: 2, ex: "Stative + duration → have known." },
+      { q: "Spot the error: 'She is going to gym daily.'", opts: ["is going", "daily", "to gym", "No error"], a: 0, ex: "Daily = habit → goes." },
+      { q: "Choose: 'By next year, I ___ my course.'", opts: ["will complete", "will have completed", "complete", "completed"], a: 1, ex: "Action complete by future time → future perfect." },
+      { q: "Spot the error: 'He died from cancer last year.'", opts: ["He died", "from cancer", "last year", "No error"], a: 1, ex: "Die OF disease." },
+      { q: "Choose: 'I wish I ___ a car.'", opts: ["have", "had", "has", "having"], a: 1, ex: "Wish + past (present hypothetical)." },
+      { q: "Spot the error: 'I will tell you when he will come.'", opts: ["I will tell", "when he will come", "No error", "tell"], a: 1, ex: "After 'when' (future) → simple present 'comes'." },
+      { q: "Choose: 'He ___ TV when I called.'", opts: ["watches", "was watching", "had watched", "watched"], a: 1, ex: "Past continuous for ongoing past." },
+      { q: "Spot the error: 'I am understanding the lesson now.'", opts: ["I am understanding", "now", "the lesson", "No error"], a: 0, ex: "Understand is stative → 'I understand'." },
+      { q: "Choose: 'They ___ here for years.'", opts: ["live", "are living", "have been living", "had lived"], a: 2, ex: "For + present perfect continuous." },
+      { q: "Spot the error: 'She left as soon as he had come.'", opts: ["She left", "as soon as", "he had come", "No error"], a: 2, ex: "Two past actions, but 'as soon as' suggests immediately — use simple past 'came'." },
+      { q: "Choose: 'The train ___ at 6 tomorrow.'", opts: ["leaves", "is leaving", "will leave", "All correct"], a: 3, ex: "Scheduled future allows all three." },
+      { q: "Spot the error: 'He has been knowing her since college.'", opts: ["has been knowing", "her", "since college", "No error"], a: 0, ex: "Stative → 'has known'." },
+      { q: "Choose: 'No sooner ___ than the rain stopped.'", opts: ["I went out", "had I gone out", "did I go out", "I had gone"], a: 1, ex: "Inversion: 'had I gone out'." },
+      { q: "Spot the error: 'I had finished the work before he comes.'", opts: ["I had finished", "before he comes", "No error", "the work"], a: 1, ex: "Past perfect → 'before he came'." },
+      { q: "Choose: 'When the bell ___, leave the room.'", opts: ["will ring", "rings", "rang", "has rung"], a: 1, ex: "After 'when' (future) → simple present." },
+      { q: "Spot the error: 'He is loving cricket.'", opts: ["He is loving", "cricket", "No error", "loving"], a: 0, ex: "Stative → 'He loves cricket'." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 12. SEQUENCE OF TENSE
+  // ───────────────────────────────────────────────────────────────
+  T["eng-sequence-tense"] = {
+    body: `
+      <h2>Sequence of Tense</h2>
+      <p>When a sentence has two clauses (main + subordinate), the tense of subordinate clause is governed by tense of the main clause. SSC asks 1-2 questions.</p>
+
+      <h3>1. The Master Rule</h3>
+      <p>If the <b>main clause</b> is in <b>past tense</b>, the <b>subordinate clause</b> is usually also in past tense.</p>
+      <ul>
+        <li>✓ He said that he <b>was</b> tired. (main: "said" past → subordinate: was past)</li>
+        <li>✓ I knew she <b>would</b> come. (would, not will)</li>
+        <li>✓ He believed that she <b>was telling</b> the truth.</li>
+      </ul>
+
+      <h3>2. Tense Shifts (main past → subordinate)</h3>
+      <table>
+        <tr><th>Direct (Main = Present)</th><th>Reported (Main = Past)</th></tr>
+        <tr><td>Present Simple → write</td><td>Past Simple → wrote</td></tr>
+        <tr><td>Present Continuous → is writing</td><td>Past Continuous → was writing</td></tr>
+        <tr><td>Present Perfect → has written</td><td>Past Perfect → had written</td></tr>
+        <tr><td>Present Perfect Cont. → has been writing</td><td>Past Perfect Cont. → had been writing</td></tr>
+        <tr><td>Past Simple → wrote</td><td>Past Perfect → had written</td></tr>
+        <tr><td>Past Continuous → was writing</td><td>Past Perfect Cont. → had been writing</td></tr>
+        <tr><td>Will / Shall → will</td><td>Would / Should → would</td></tr>
+        <tr><td>Can → can</td><td>Could → could</td></tr>
+        <tr><td>May → may</td><td>Might → might</td></tr>
+      </table>
+
+      <h3>3. EXCEPTIONS to the Rule</h3>
+      <p>Subordinate clause does NOT shift to past even if main is past, when it expresses:</p>
+
+      <h4>(a) Universal truth / Fact / Law of nature</h4>
+      <ul>
+        <li>✓ He said that the sun <b>rises</b> in the east. (NOT "rose")</li>
+        <li>✓ Galileo proved that the earth <b>moves</b> around the sun.</li>
+      </ul>
+
+      <h4>(b) Habitual / Regular action</h4>
+      <ul>
+        <li>✓ He said that he <b>walks</b> daily.</li>
+      </ul>
+
+      <h4>(c) Quotations / Historical truths in direct sense</h4>
+      <ul>
+        <li>✓ Our teacher told us that honesty <b>is</b> the best policy.</li>
+      </ul>
+
+      <h4>(d) "Than" comparison — keep original tense</h4>
+      <ul>
+        <li>✓ He worked harder than he <b>does</b> now.</li>
+      </ul>
+
+      <h4>(e) Modal "must" — no past form, stays</h4>
+      <ul>
+        <li>✓ He said that I <b>must</b> go.</li>
+      </ul>
+
+      <h3>4. Special Cases</h3>
+
+      <h4>Main: Present / Future → Subordinate: Any tense</h4>
+      <ul>
+        <li>If main clause is present or future, subordinate can be any tense based on meaning.</li>
+        <li>✓ He says that he <b>was</b> ill yesterday.</li>
+        <li>✓ I think he <b>has gone</b> already.</li>
+        <li>✓ I will tell him when he <b>comes</b>.</li>
+      </ul>
+
+      <h4>"As if" / "As though" → past tense (subjunctive)</h4>
+      <ul>
+        <li>✓ He talks as if he <b>knew</b> everything.</li>
+        <li>✓ He behaves as if he <b>were</b> a king. (subjunctive)</li>
+      </ul>
+
+      <h4>"It is high time / about time" → past tense</h4>
+      <ul>
+        <li>✓ It is high time you <b>started</b> studying.</li>
+        <li>❌ It is high time you start.</li>
+      </ul>
+
+      <h4>"Wish / If only" → past tense (present), past perfect (past)</h4>
+      <ul>
+        <li>✓ I wish I <b>had</b> wings. (present)</li>
+        <li>✓ I wish he <b>had come</b> yesterday. (past)</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Main past → Subordinate past (usually).</li>
+        <li>EXCEPT: universal truths, habits, "than" comparison → stay in original tense.</li>
+        <li>"As if / as though / wish / if only" → past tense for present.</li>
+        <li>"It is high time" → past tense.</li>
+        <li>After "when/if/until" referring to future + main present/future → use simple present.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "He told me that he is busy."</p>
+      <p><b>Solution:</b><br>Main past ("told") → subordinate past.<br>Correct: "He told me that he <b>was</b> busy."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "He told me that the earth was round."</p>
+      <p><b>Solution:</b><br>Universal truth — stays in present.<br>Correct: "...the earth <b>is</b> round."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "I knew that he will come."</p>
+      <p><b>Solution:</b><br>Will → would.<br>Correct: "I knew that he <b>would</b> come."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Spot the error</b>: "He behaves as if he is a king."</p>
+      <p><b>Solution:</b><br>"As if" + past subjunctive.<br>Correct: "...as if he <b>were</b> a king."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Spot the error</b>: "It is high time you go to bed."</p>
+      <p><b>Solution:</b><br>"High time" + past tense.<br>Correct: "...you <b>went</b> to bed."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Spot the error</b>: "I wish I have a car."</p>
+      <p><b>Solution:</b><br>"Wish" (present hypothetical) + past.<br>Correct: "I wish I <b>had</b> a car."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Spot the error</b>: "He said that he can do it."</p>
+      <p><b>Solution:</b><br>Can → could.<br>Correct: "He said that he <b>could</b> do it."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Spot the error</b>: "He said that he had gone there last year."</p>
+      <p><b>Solution:</b><br>Correct as is. (Past simple → past perfect when reported.)</p>
+
+      <h4>Example 9</h4>
+      <p><b>Spot the error</b>: "He worked harder than he is working now."</p>
+      <p><b>Solution:</b><br>"Than" — keep original tense.<br>Correct: "...harder than he <b>works</b> now."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "She said that she has finished her work."</p>
+      <p><b>Solution:</b><br>Has → had.<br>Correct: "She said that she <b>had finished</b>."</p>
+
+      <h4>Example 11</h4>
+      <p><b>Spot the error</b>: "The teacher said that water boils at 100°C."</p>
+      <p><b>Solution:</b><br>Scientific fact — present.<br>Correct as is.</p>
+
+      <h4>Example 12</h4>
+      <p><b>Spot the error</b>: "He asked if I am going."</p>
+      <p><b>Solution:</b><br>Past → past.<br>Correct: "...if I <b>was</b> going."</p>
+
+      <h4>Example 13</h4>
+      <p><b>Spot the error</b>: "I told him that I will help him."</p>
+      <p><b>Solution:</b><br>Will → would.<br>Correct: "...that I <b>would</b> help him."</p>
+
+      <h4>Example 14</h4>
+      <p><b>Spot the error</b>: "He said that honesty was the best policy."</p>
+      <p><b>Solution:</b><br>Universal/proverbial truth — present.<br>Correct: "...honesty <b>is</b> the best policy."</p>
+
+      <h4>Example 15</h4>
+      <p><b>Spot the error</b>: "It is high time we start the project."</p>
+      <p><b>Solution:</b><br>High time + past.<br>Correct: "...we <b>started</b> the project."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Main past → subordinate past (default rule).</li>
+        <li>Exceptions: universal truth, habit, "than" comparison, "must" — stay in original tense.</li>
+        <li>"As if / wish / if only / high time" → past tense always (for present hypothetical).</li>
+        <li>Will/Shall → Would; Can → Could; May → Might; Have/Has → Had.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'He told me that he is going home.'", opts: ["He told", "that he is going", "home", "No error"], a: 1, ex: "Past → past: was going." },
+      { q: "Choose: 'I wish I ___ a millionaire.'", opts: ["am", "were", "have been", "was"], a: 1, ex: "Wish + were (subjunctive)." },
+      { q: "Spot the error: 'He behaves as if he is a king.'", opts: ["He behaves", "as if", "he is", "No error"], a: 2, ex: "As if + past: 'were a king'." },
+      { q: "Choose: 'She said that she ___ studying.'", opts: ["is", "was", "has been", "had been"], a: 1, ex: "Past → past." },
+      { q: "Spot the error: 'It is high time you study seriously.'", opts: ["It is", "high time", "you study", "No error"], a: 2, ex: "High time + past: studied." },
+      { q: "Choose: 'The teacher said that water ___ at 100°C.'", opts: ["boils", "boiled", "is boiling", "was boiling"], a: 0, ex: "Universal truth → present." },
+      { q: "Spot the error: 'I knew he will come.'", opts: ["I knew", "he will come", "No error", "knew"], a: 1, ex: "Will → would." },
+      { q: "Choose: 'He spoke as if he ___ the matter.'", opts: ["knows", "knew", "has known", "had known"], a: 1, ex: "As if + past." },
+      { q: "Spot the error: 'He said that honesty was the best policy.'", opts: ["He said", "honesty was", "best policy", "No error"], a: 1, ex: "Universal truth — present: 'is'." },
+      { q: "Choose: 'I told him I ___ help him.'", opts: ["will", "would", "shall", "must"], a: 1, ex: "Will → would." },
+      { q: "Spot the error: 'He told that he had been ill.'", opts: ["He told", "that he had been", "ill", "No error"], a: 3, ex: "Correct sequence." },
+      { q: "Choose: 'She wished she ___ taller.'", opts: ["is", "was", "were", "had been"], a: 2, ex: "Wish + were." },
+      { q: "Spot the error: 'I knew she has finished the work.'", opts: ["I knew", "she has finished", "No error", "knew"], a: 1, ex: "Has → had." },
+      { q: "Choose: 'He acted as though he ___ angry.'", opts: ["is", "was", "were", "had been"], a: 2, ex: "Subjunctive after 'as though'." },
+      { q: "Spot the error: 'It is high time we will leave.'", opts: ["It is", "high time", "we will leave", "No error"], a: 2, ex: "High time + past simple: 'we left'." },
+      { q: "Choose: 'He said he ___ his work.'", opts: ["completed", "had completed", "has completed", "Both A and B"], a: 3, ex: "Either works depending on emphasis." },
+      { q: "Spot the error: 'The boy worked harder than he is doing now.'", opts: ["worked harder", "is doing now", "than", "No error"], a: 1, ex: "'Than' keeps original: 'does'." },
+      { q: "Choose: 'I asked him if he ___ ready.'", opts: ["is", "was", "are", "were"], a: 1, ex: "Past → was." },
+      { q: "Spot the error: 'He said that he must go.'", opts: ["He said", "that he must go", "No error", "go"], a: 2, ex: "Must has no past — stays." },
+      { q: "Choose: 'He spoke as if he ___ everything.'", opts: ["knows", "knew", "has known", "had known"], a: 1, ex: "As if + past." },
+      { q: "Spot the error: 'She wishes she has met him earlier.'", opts: ["She wishes", "she has met", "earlier", "No error"], a: 1, ex: "Wish + past perfect for past: 'had met'." },
+      { q: "Choose: 'I knew that the earth ___ around the sun.'", opts: ["moved", "moves", "is moving", "has moved"], a: 1, ex: "Universal truth." },
+      { q: "Spot the error: 'It is high time you stop smoking.'", opts: ["It is", "high time", "you stop", "No error"], a: 2, ex: "Past: 'you stopped'." },
+      { q: "Choose: 'He told me that he ___ ill since morning.'", opts: ["has been", "had been", "was being", "is"], a: 1, ex: "Has been → had been." },
+      { q: "Spot the error: 'She said that she will come tomorrow.'", opts: ["She said", "she will come", "tomorrow", "No error"], a: 1, ex: "Will → would." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 13. SUBJECT-VERB AGREEMENT
+  // ───────────────────────────────────────────────────────────────
+  T["eng-sva"] = {
+    body: `
+      <h2>Subject-Verb Agreement</h2>
+      <p>The verb must agree with its subject in <b>number</b> and <b>person</b>. SSC asks 3-4 questions on SVA — one of the most heavily tested topics.</p>
+
+      <h3>1. Basic Rule</h3>
+      <p>Singular subject → singular verb. Plural subject → plural verb.</p>
+      <ul>
+        <li>✓ He <b>writes</b>. They <b>write</b>.</li>
+        <li>✓ The boy <b>is</b> playing. The boys <b>are</b> playing.</li>
+      </ul>
+
+      <h3>2. Important Rules</h3>
+
+      <h4>Rule 1: Two singular subjects joined by AND → plural verb</h4>
+      <ul>
+        <li>✓ Ram and Shyam <b>are</b> friends.</li>
+        <li>BUT if "and" joins items referring to same person/thing → singular: ✓ The poet and philosopher (one person) <b>has</b> come.</li>
+        <li>"Bread and butter" / "Time and tide" — singular: ✓ Bread and butter <b>is</b> my favourite.</li>
+      </ul>
+
+      <h4>Rule 2: Two subjects joined by OR / NOR / EITHER...OR / NEITHER...NOR → verb agrees with NEAREST subject</h4>
+      <ul>
+        <li>✓ Either he or I <b>am</b> wrong.</li>
+        <li>✓ Either I or he <b>is</b> wrong.</li>
+        <li>✓ Neither she nor her brothers <b>are</b> here.</li>
+      </ul>
+
+      <h4>Rule 3: "Each / Every / Either / Neither / Anyone / Everyone / No one / Nobody / Anybody / Somebody / Each one" → singular verb</h4>
+      <ul>
+        <li>✓ Each of them <b>has</b> a book.</li>
+        <li>✓ Every boy and girl <b>is</b> present.</li>
+        <li>✓ Neither of the answers <b>is</b> correct.</li>
+        <li>✓ Everyone <b>knows</b> this.</li>
+      </ul>
+
+      <h4>Rule 4: Indefinite numerical pronouns</h4>
+      <ul>
+        <li><b>Few / Many / Several / Both</b> → plural verb: Many <b>were</b> absent.</li>
+        <li><b>None</b> → can be singular or plural (modern: plural).</li>
+        <li><b>All / Some / Most</b> → depend on noun. With uncountable: singular. With countable plural: plural.<br>
+          ✓ All <b>is</b> well. (uncountable)<br>
+          ✓ All <b>are</b> coming. (countable people)</li>
+      </ul>
+
+      <h4>Rule 5: Collective nouns (team, committee, class, jury, family) — usually singular</h4>
+      <ul>
+        <li>✓ The team <b>is</b> winning. (as one unit)</li>
+        <li>✓ The team <b>are</b> arguing among themselves. (members acting individually)</li>
+        <li><b>Always plural</b>: police, cattle, people, gentry, vermin, poultry, infantry, swine</li>
+      </ul>
+
+      <h4>Rule 6: Plural-form but Singular-meaning nouns → singular verb</h4>
+      <ul>
+        <li>News, Mathematics, Physics, Politics, Economics, Statistics, Ethics, Mumps, Measles, Athletics</li>
+        <li>✓ The news <b>is</b> bad.</li>
+        <li>✓ Mathematics <b>is</b> my favourite.</li>
+      </ul>
+
+      <h4>Rule 7: A pair of / A series of / A team of + (plural noun) → singular verb</h4>
+      <ul>
+        <li>✓ A pair of shoes <b>is</b> on the table.</li>
+        <li>✓ A series of accidents <b>has</b> occurred.</li>
+      </ul>
+
+      <h4>Rule 8: "Number" — depends on form</h4>
+      <ul>
+        <li><b>The number</b> + plural noun → singular verb: The number of students <b>is</b> 50.</li>
+        <li><b>A number of</b> + plural noun → plural verb: A number of students <b>are</b> absent.</li>
+      </ul>
+
+      <h4>Rule 9: Phrases with "as well as / along with / together with / besides / accompanied by / including / no less than" — only the SUBJECT counts; intervening phrase doesn't change verb number</h4>
+      <ul>
+        <li>✓ Ram, as well as his brothers, <b>is</b> here. (subject: Ram = singular)</li>
+        <li>✓ The teacher, along with the students, <b>has</b> gone.</li>
+      </ul>
+
+      <h4>Rule 10: Time / Distance / Money / Weight (single unit) → singular verb</h4>
+      <ul>
+        <li>✓ Ten years <b>is</b> a long time.</li>
+        <li>✓ Five kilometres <b>is</b> not far.</li>
+        <li>✓ Two hundred rupees <b>is</b> a lot.</li>
+      </ul>
+
+      <h4>Rule 11: Some words always plural — scissors, trousers, pants, glasses, jeans, etc.</h4>
+      <ul>
+        <li>✓ My scissors <b>are</b> sharp.</li>
+        <li>✓ His glasses <b>are</b> on the table.</li>
+      </ul>
+
+      <h4>Rule 12: "There is / There are" — based on subject after the verb</h4>
+      <ul>
+        <li>✓ There <b>is</b> a book. (book is singular)</li>
+        <li>✓ There <b>are</b> many books.</li>
+      </ul>
+
+      <h4>Rule 13: One of + plural noun + relative clause</h4>
+      <ul>
+        <li>"He is one of those students <b>who study</b> hard." — "who" refers to "students" (plural)</li>
+        <li>"He is the <b>only one</b> of the students <b>who studies</b> hard." — "who" refers to "only one" (singular)</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>"As well as / along with / together with" don't add to subject.</li>
+        <li>"Each / Every / Either / Neither / Anyone" — singular.</li>
+        <li>News, Mathematics, Physics, etc. — singular.</li>
+        <li>"A pair of / A series of / A team of" — singular.</li>
+        <li>Distance/Time/Money as unit — singular.</li>
+        <li>"Police / Cattle / People" — always plural.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "Each of the boys have done his work."</p>
+      <p><b>Solution:</b><br>"Each" → singular.<br>Correct: "Each of the boys <b>has</b> done his work."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "Neither of the two answers are correct."</p>
+      <p><b>Solution:</b><br>"Neither" → singular.<br>Correct: "Neither of the two answers <b>is</b> correct."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "Mathematics are an interesting subject."</p>
+      <p><b>Solution:</b><br>Mathematics → singular.<br>Correct: "Mathematics <b>is</b> an interesting subject."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Spot the error</b>: "The news are very disturbing."</p>
+      <p><b>Solution:</b><br>News → singular.<br>Correct: "The news <b>is</b> very disturbing."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Spot the error</b>: "Ram, with his friends, are going."</p>
+      <p><b>Solution:</b><br>"With his friends" — intervening phrase; subject is Ram.<br>Correct: "Ram, with his friends, <b>is</b> going."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Spot the error</b>: "The number of students are increasing."</p>
+      <p><b>Solution:</b><br>"The number" → singular.<br>Correct: "The number of students <b>is</b> increasing."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Spot the error</b>: "A number of students is absent today."</p>
+      <p><b>Solution:</b><br>"A number of" → plural.<br>Correct: "A number of students <b>are</b> absent."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Spot the error</b>: "Either he or his friends is wrong."</p>
+      <p><b>Solution:</b><br>Verb agrees with nearer subject (friends = plural).<br>Correct: "Either he or his friends <b>are</b> wrong."</p>
+
+      <h4>Example 9</h4>
+      <p><b>Spot the error</b>: "Bread and butter are my favourite breakfast."</p>
+      <p><b>Solution:</b><br>Joint expression — singular.<br>Correct: "Bread and butter <b>is</b> my favourite breakfast."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "Cattle is grazing in the field."</p>
+      <p><b>Solution:</b><br>Cattle is plural.<br>Correct: "Cattle <b>are</b> grazing."</p>
+
+      <h4>Example 11</h4>
+      <p><b>Spot the error</b>: "Ten kilometres are not far."</p>
+      <p><b>Solution:</b><br>Distance as unit → singular.<br>Correct: "Ten kilometres <b>is</b> not far."</p>
+
+      <h4>Example 12</h4>
+      <p><b>Spot the error</b>: "The committee have decided."</p>
+      <p><b>Solution:</b><br>Committee as one unit → singular.<br>Correct: "The committee <b>has</b> decided." (Acceptable plural if members acting individually.)</p>
+
+      <h4>Example 13</h4>
+      <p><b>Spot the error</b>: "She is one of those women who is always cheerful."</p>
+      <p><b>Solution:</b><br>"Who" refers to "women" (plural).<br>Correct: "...who <b>are</b> always cheerful."</p>
+
+      <h4>Example 14</h4>
+      <p><b>Spot the error</b>: "Police is investigating the case."</p>
+      <p><b>Solution:</b><br>Police → plural.<br>Correct: "Police <b>are</b> investigating."</p>
+
+      <h4>Example 15</h4>
+      <p><b>Spot the error</b>: "A pair of shoes are on the floor."</p>
+      <p><b>Solution:</b><br>"A pair of" → singular.<br>Correct: "A pair of shoes <b>is</b> on the floor."</p>
+
+      <h4>Example 16</h4>
+      <p><b>Spot the error</b>: "Every man and woman are responsible."</p>
+      <p><b>Solution:</b><br>"Every" → singular.<br>Correct: "Every man and woman <b>is</b> responsible."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Each / Every / Either / Neither / Anyone / Someone / Nobody — SINGULAR.</li>
+        <li>News / Mathematics / Physics / Politics — SINGULAR.</li>
+        <li>Cattle / Police / People — PLURAL.</li>
+        <li>"As well as / along with / together with" — don't affect verb agreement.</li>
+        <li>"A number of" → plural; "The number of" → singular.</li>
+        <li>Distance/Time/Money as unit → singular.</li>
+        <li>"Either A or B" / "Neither A nor B" — verb agrees with nearest.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'Each of the boys have a book.'", opts: ["Each", "of the boys", "have", "a book"], a: 2, ex: "Each → has." },
+      { q: "Choose: 'The news ___ very surprising.'", opts: ["are", "is", "have", "were"], a: 1, ex: "News is singular." },
+      { q: "Spot the error: 'Neither of the two boys are present.'", opts: ["Neither", "of the two", "are", "present"], a: 2, ex: "Neither → is." },
+      { q: "Choose: 'Mathematics ___ my favourite.'", opts: ["are", "have been", "is", "were"], a: 2, ex: "Mathematics is singular." },
+      { q: "Spot the error: 'Either he or I am responsible.'", opts: ["Either he", "or I", "am", "responsible"], a: 3, ex: "Correct — verb agrees with nearer 'I'." },
+      { q: "Choose: 'The team ___ winning the match.'", opts: ["is", "are", "have", "were"], a: 0, ex: "Team as unit → is." },
+      { q: "Spot the error: 'Police is searching for him.'", opts: ["Police", "is", "searching for", "him"], a: 1, ex: "Police → are." },
+      { q: "Choose: 'A number of students ___ absent.'", opts: ["is", "are", "has", "have been"], a: 1, ex: "A number of → plural." },
+      { q: "Spot the error: 'The number of accidents are increasing.'", opts: ["The number", "of accidents", "are", "increasing"], a: 2, ex: "Number of → is." },
+      { q: "Choose: 'Cattle ___ grazing in the field.'", opts: ["is", "are", "was", "has been"], a: 1, ex: "Cattle → plural." },
+      { q: "Spot the error: 'Each man and woman are equal.'", opts: ["Each", "man and woman", "are", "equal"], a: 2, ex: "Each → is." },
+      { q: "Choose: 'Five hundred rupees ___ a fair price.'", opts: ["are", "is", "have", "were"], a: 1, ex: "Money as unit → singular." },
+      { q: "Spot the error: 'A pair of trousers are missing.'", opts: ["A pair", "of trousers", "are", "missing"], a: 2, ex: "A pair → is." },
+      { q: "Choose: 'Ram, along with his friends, ___ going.'", opts: ["are", "is", "have", "were"], a: 1, ex: "Subject Ram (singular)." },
+      { q: "Spot the error: 'Bread and butter are nutritious.'", opts: ["Bread", "and butter", "are", "nutritious"], a: 2, ex: "Joint dish → is." },
+      { q: "Choose: 'Every boy and every girl ___ been awarded.'", opts: ["have", "has", "were", "are"], a: 1, ex: "Every → has." },
+      { q: "Spot the error: 'Neither he nor his brothers is present.'", opts: ["Neither", "his brothers", "is", "present"], a: 2, ex: "Verb agrees with nearer (brothers) → are." },
+      { q: "Choose: 'Five years ___ a long time.'", opts: ["is", "are", "have been", "were"], a: 0, ex: "Period as unit → singular." },
+      { q: "Spot the error: 'The committee have decided unanimously.'", opts: ["The committee", "have decided", "unanimously", "No error"], a: 1, ex: "Unit acting as one → has decided." },
+      { q: "Choose: 'A series of accidents ___ happened.'", opts: ["have", "has", "are", "were"], a: 1, ex: "A series of → singular." },
+      { q: "Spot the error: 'People is angry about the rise.'", opts: ["People", "is angry", "about the rise", "No error"], a: 1, ex: "People → are." },
+      { q: "Choose: 'She is one of those students who ___ studied well.'", opts: ["has", "have", "is", "was"], a: 1, ex: "'Who' refers to plural students." },
+      { q: "Spot the error: 'Each of the candidates have to pay a fee.'", opts: ["Each", "of the candidates", "have to pay", "a fee"], a: 2, ex: "Each → has." },
+      { q: "Choose: 'A team of doctors ___ formed to investigate.'", opts: ["have been", "has been", "are", "is"], a: 1, ex: "A team of → singular." },
+      { q: "Spot the error: 'The audience were enjoying the show.'", opts: ["The audience", "were enjoying", "the show", "No error"], a: 3, ex: "Plural acceptable when audience members reacting individually." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 14. VOICE (Active/Passive)
+  // ───────────────────────────────────────────────────────────────
+  T["eng-voice"] = {
+    body: `
+      <h2>Voice (Active / Passive)</h2>
+      <p>SSC asks 2 questions on Voice in Tier-1. Either change active → passive or vice versa.</p>
+
+      <h3>1. Active vs Passive — Concept</h3>
+      <ul>
+        <li><b>Active</b>: Subject DOES the action. <i>Ram <b>wrote</b> a letter.</i> (Ram = doer)</li>
+        <li><b>Passive</b>: Subject RECEIVES the action. <i>A letter <b>was written</b> by Ram.</i> (letter = receiver)</li>
+      </ul>
+
+      <h3>2. General Rules for Conversion</h3>
+      <ol>
+        <li>Object of active becomes Subject of passive.</li>
+        <li>Subject of active becomes Object of preposition "by" (often optional).</li>
+        <li>Verb form changes: use appropriate "be" form + V3.</li>
+        <li>Pronoun cases: I→me, he→him, she→her, we→us, they→them, who→whom.</li>
+      </ol>
+
+      <h3>3. Tense-wise Conversion (Active → Passive)</h3>
+      <table>
+        <tr><th>Tense</th><th>Active</th><th>Passive</th></tr>
+        <tr><td>Pres. Simple</td><td>He writes a letter</td><td>A letter <b>is written</b> by him</td></tr>
+        <tr><td>Pres. Cont.</td><td>He is writing a letter</td><td>A letter <b>is being written</b> by him</td></tr>
+        <tr><td>Pres. Perfect</td><td>He has written a letter</td><td>A letter <b>has been written</b> by him</td></tr>
+        <tr><td>Past Simple</td><td>He wrote a letter</td><td>A letter <b>was written</b> by him</td></tr>
+        <tr><td>Past Cont.</td><td>He was writing a letter</td><td>A letter <b>was being written</b> by him</td></tr>
+        <tr><td>Past Perfect</td><td>He had written a letter</td><td>A letter <b>had been written</b> by him</td></tr>
+        <tr><td>Future Simple</td><td>He will write a letter</td><td>A letter <b>will be written</b> by him</td></tr>
+        <tr><td>Future Perfect</td><td>He will have written</td><td>It <b>will have been written</b> by him</td></tr>
+        <tr><td>Modals</td><td>He can/may/must write</td><td>It <b>can/may/must be written</b> by him</td></tr>
+      </table>
+
+      <p><b>Note:</b> Present/Past Perfect Continuous and Future Continuous don't have passive forms (rarely used).</p>
+
+      <h3>4. Special Voice Conversions</h3>
+
+      <h4>Imperative Sentences</h4>
+      <ul>
+        <li>Active: <b>Open</b> the door.</li>
+        <li>Passive: Let the door <b>be opened</b>.</li>
+        <li>Active: <b>Don't disturb</b> me.</li>
+        <li>Passive: Let me <b>not be disturbed</b>.</li>
+        <li>Polite request: Active "Please close the door." → Passive "You are requested to close the door."</li>
+      </ul>
+
+      <h4>Interrogative Sentences (Yes/No)</h4>
+      <ul>
+        <li>Active: Did he write a letter?</li>
+        <li>Passive: Was a letter written by him?</li>
+        <li>Active: Has she finished her work?</li>
+        <li>Passive: Has her work been finished by her?</li>
+      </ul>
+
+      <h4>Interrogative (Wh-)</h4>
+      <ul>
+        <li>Active: Who broke the window?</li>
+        <li>Passive: By whom was the window broken?</li>
+        <li>Active: What does he want?</li>
+        <li>Passive: What is wanted by him?</li>
+        <li>Active: Why are you laughing at her?</li>
+        <li>Passive: Why is she being laughed at by you?</li>
+      </ul>
+
+      <h4>Sentences with Indirect Object</h4>
+      <p>The man gave me a book → Two passives possible:</p>
+      <ul>
+        <li>I was given a book by the man. (indirect obj → subject)</li>
+        <li>A book was given to me by the man. (direct obj → subject)</li>
+      </ul>
+
+      <h4>"Let" sentences</h4>
+      <ul>
+        <li>Active: Let him write.</li>
+        <li>Passive: Let it be written by him.</li>
+      </ul>
+
+      <h3>5. Voice with Prepositional Verbs</h3>
+      <p>Keep the preposition in passive too:</p>
+      <ul>
+        <li>Active: They laughed <b>at</b> him.</li>
+        <li>Passive: He was laughed <b>at</b> by them. (don't drop "at")</li>
+      </ul>
+
+      <h3>6. When "By" is Omitted</h3>
+      <p>If agent is obvious, unimportant, or unknown — drop "by + agent":</p>
+      <ul>
+        <li>The thief was caught. (by police — obvious, dropped)</li>
+        <li>English is spoken all over the world. (people in general)</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li><b>Step 1</b>: Identify tense. <b>Step 2</b>: Object → Subject. <b>Step 3</b>: Use be-form + V3.</li>
+        <li>I → me; he → him; she → her; we → us; they → them; who → whom.</li>
+        <li>Pres. Perf. Cont., Past Perf. Cont., Future Cont. → no passive form.</li>
+        <li>For modals: keep modal + "be" + V3.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1 — Simple Present</h4>
+      <p><b>Active</b>: She writes a letter.</p>
+      <p><b>Solution:</b><br>Tense: present simple → "is/are + V3".<br>Passive: "A letter <b>is written</b> by her."</p>
+
+      <h4>Example 2 — Present Continuous</h4>
+      <p><b>Active</b>: He is repairing the car.</p>
+      <p><b>Solution:</b><br>Tense: pres cont → "is/are being + V3".<br>Passive: "The car <b>is being repaired</b> by him."</p>
+
+      <h4>Example 3 — Present Perfect</h4>
+      <p><b>Active</b>: They have completed the project.</p>
+      <p><b>Solution:</b><br>Passive: "The project <b>has been completed</b> by them."</p>
+
+      <h4>Example 4 — Past Simple</h4>
+      <p><b>Active</b>: Columbus discovered America.</p>
+      <p><b>Solution:</b><br>Passive: "America <b>was discovered</b> by Columbus."</p>
+
+      <h4>Example 5 — Past Continuous</h4>
+      <p><b>Active</b>: The children were watching TV.</p>
+      <p><b>Solution:</b><br>Passive: "TV <b>was being watched</b> by the children."</p>
+
+      <h4>Example 6 — Past Perfect</h4>
+      <p><b>Active</b>: He had completed his work before the bell rang.</p>
+      <p><b>Solution:</b><br>Passive: "His work <b>had been completed</b> by him before the bell rang."</p>
+
+      <h4>Example 7 — Future Simple</h4>
+      <p><b>Active</b>: She will paint the house.</p>
+      <p><b>Solution:</b><br>Passive: "The house <b>will be painted</b> by her."</p>
+
+      <h4>Example 8 — Modal</h4>
+      <p><b>Active</b>: You must obey the rules.</p>
+      <p><b>Solution:</b><br>Passive: "The rules <b>must be obeyed</b> by you."</p>
+
+      <h4>Example 9 — Imperative</h4>
+      <p><b>Active</b>: Open the window.</p>
+      <p><b>Solution:</b><br>Passive: "Let the window <b>be opened</b>."</p>
+
+      <h4>Example 10 — Imperative (negative)</h4>
+      <p><b>Active</b>: Don't waste time.</p>
+      <p><b>Solution:</b><br>Passive: "Let time <b>not be wasted</b>." / "You are requested not to waste time."</p>
+
+      <h4>Example 11 — Yes/No Question</h4>
+      <p><b>Active</b>: Did she sing a song?</p>
+      <p><b>Solution:</b><br>Passive: "<b>Was</b> a song <b>sung</b> by her?"</p>
+
+      <h4>Example 12 — Wh-Question</h4>
+      <p><b>Active</b>: Who killed the rat?</p>
+      <p><b>Solution:</b><br>Passive: "<b>By whom was</b> the rat <b>killed</b>?"</p>
+
+      <h4>Example 13 — Two Objects</h4>
+      <p><b>Active</b>: My father gave me a watch.</p>
+      <p><b>Solution:</b><br>Passive: "I <b>was given</b> a watch by my father." or "A watch <b>was given</b> to me by my father."</p>
+
+      <h4>Example 14 — Prepositional verb</h4>
+      <p><b>Active</b>: They laughed at the joker.</p>
+      <p><b>Solution:</b><br>Passive: "The joker <b>was laughed at</b> by them." (keep 'at')</p>
+
+      <h4>Example 15 — "Let"</h4>
+      <p><b>Active</b>: Let him paint the wall.</p>
+      <p><b>Solution:</b><br>Passive: "Let the wall <b>be painted</b> by him."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Don't drop prepositions ("laughed at", "looked after", "spoken to").</li>
+        <li>Change pronoun case: I→me; he→him; etc.</li>
+        <li>Identify tense first — picks the right "be" form.</li>
+        <li>Imperative → "Let + obj + be + V3".</li>
+        <li>Questions: "By whom" goes to front.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Passive of 'He writes a letter':", opts: ["A letter is wrote by him", "A letter is written by him", "A letter was written by him", "A letter has written by him"], a: 1, ex: "Pres simple passive: is/are + V3." },
+      { q: "Passive of 'They are building a house':", opts: ["A house is being built", "A house is built", "A house has built", "A house was built"], a: 0, ex: "Pres cont: is/are being + V3." },
+      { q: "Passive of 'She has won the prize':", opts: ["The prize is won by her", "The prize has been won by her", "The prize was won by her", "The prize had won by her"], a: 1, ex: "Pres perfect: has/have been + V3." },
+      { q: "Passive of 'Did he break the window?':", opts: ["Was the window break", "Was the window broken by him?", "Did the window break by him?", "Has the window been broken?"], a: 1, ex: "Yes/no question + past." },
+      { q: "Passive of 'Open the door':", opts: ["Let the door be opened", "The door is opened", "The door must open", "Open is the door"], a: 0, ex: "Imperative → Let + obj + be + V3." },
+      { q: "Active of 'A book is being read by him':", opts: ["He read a book", "He is reading a book", "He has read a book", "He reads a book"], a: 1, ex: "Is being + V3 → present continuous." },
+      { q: "Passive of 'Who taught you English?':", opts: ["By whom were you taught English?", "By whom you were taught?", "By whom did you teach English?", "Whom were you teach?"], a: 0, ex: "By whom + auxiliary + obj + V3." },
+      { q: "Passive of 'They will complete the work':", opts: ["The work will complete", "The work will be completed", "The work has been completed", "The work is being completed"], a: 1, ex: "Will be + V3." },
+      { q: "Passive of 'Children love sweets':", opts: ["Sweets loves children", "Sweets are loved by children", "Sweets is loved by children", "Sweets has been loved"], a: 1, ex: "Plural subj 'sweets' → are." },
+      { q: "Active of 'A letter was being written by Ram':", opts: ["Ram wrote a letter", "Ram is writing a letter", "Ram was writing a letter", "Ram had written"], a: 2, ex: "Was being + V3 → past continuous." },
+      { q: "Passive of 'He must finish his work':", opts: ["His work must finish", "His work must be finished", "His work is being finished", "His work had been finished"], a: 1, ex: "Modal + be + V3." },
+      { q: "Passive of 'Don't hurt the bird':", opts: ["The bird should not hurt", "Let the bird not be hurt", "Don't be hurting the bird", "Hurt not the bird"], a: 1, ex: "Negative imperative: Let + not be + V3." },
+      { q: "Passive of 'He gave me a pen':", opts: ["A pen was given to me by him", "Me was given a pen by him", "Both A and 'I was given a pen by him'", "Only A"], a: 2, ex: "Two passives possible." },
+      { q: "Passive of 'They laughed at him':", opts: ["He was laughed by them", "He was laughed at by them", "He laughed at by them", "He had been laughed"], a: 1, ex: "Keep preposition." },
+      { q: "Passive of 'Has he finished the work?':", opts: ["Was the work finished?", "Has the work been finished by him?", "Is the work finished?", "Did the work finish?"], a: 1, ex: "Has + obj + been + V3?" },
+      { q: "Passive of 'Bring me a glass of water':", opts: ["A glass of water is brought", "Let a glass of water be brought to me", "Let me bring a glass", "Bring a glass to me"], a: 1, ex: "Imperative with indirect obj." },
+      { q: "Active of 'The letter is being typed':", opts: ["Someone types the letter", "Someone is typing the letter", "Someone has typed", "Someone typed"], a: 1, ex: "Is being + V3 → pres cont." },
+      { q: "Passive of 'She was singing a song':", opts: ["A song was being sung", "A song was sung", "A song was singing", "A song has been sung"], a: 0, ex: "Past cont: was being + V3." },
+      { q: "Passive of 'I shall finish the work':", opts: ["The work shall finish by me", "The work shall be finished by me", "The work is finished by me", "The work was finished"], a: 1, ex: "Will/shall be + V3." },
+      { q: "Passive of 'Let him do this':", opts: ["This is done by him", "Let this be done by him", "This must be done", "This let be done"], a: 1, ex: "Let + obj + be + V3." },
+      { q: "Active of 'Why was he being punished?':", opts: ["Why he punished?", "Why someone punished him?", "Why were they punishing him?", "Why is he being punished?"], a: 2, ex: "Was being + V3 → past cont." },
+      { q: "Passive of 'They are repairing the road':", opts: ["The road is repaired", "The road is being repaired", "The road has been repaired", "The road was repaired"], a: 1, ex: "Pres cont passive." },
+      { q: "Passive of 'Who broke the window?':", opts: ["By whom the window was broken?", "By whom was the window broken?", "The window was broken by whom?", "Whom did break the window?"], a: 1, ex: "By whom + was + obj + V3?" },
+      { q: "Passive of 'Take care of your books':", opts: ["Your books should take care", "Let your books be taken care of", "Care should take", "Your books are taken care"], a: 1, ex: "Imperative with prepositional verb." },
+      { q: "Passive of 'They have been doing this':", opts: ["This has been being done", "This has been done by them", "This is being done", "(No clean passive — pres perf cont)"], a: 3, ex: "Pres perf cont rarely has passive — usually rephrased." }
+    ]
+  };
+
 })();
