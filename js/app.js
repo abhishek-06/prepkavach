@@ -125,11 +125,18 @@
       nav.appendChild(wrap);
     });
 
-    // Expand first subject by default
-    const first = nav.querySelector(".subject");
-    if (first) first.classList.add("open");
-    const firstSection = first && first.querySelector(".subject");
-    if (firstSection) firstSection.classList.add("open");
+    // Auto-open path to current topic (if hash present)
+    const currentId = location.hash.replace("#", "");
+    if (currentId) {
+      const link = nav.querySelector(`[data-topic-id="${currentId}"]`);
+      if (link) {
+        let p = link.parentElement;
+        while (p && p !== nav) {
+          if (p.classList.contains("subject")) p.classList.add("open");
+          p = p.parentElement;
+        }
+      }
+    }
   }
 
   function findTopic(id) {
