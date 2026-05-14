@@ -239,7 +239,62 @@ window.SUBJECTS = [
       }
     ]
   },
-  { id: "english", name: "English Language", sections: [] },
+  {
+    id: "english",
+    name: "English",
+    sections: [
+      {
+        id: "grammar",
+        name: "Grammar",
+        topics: [
+          { id: "eng-intro", name: "How to Use This Section" },
+          { id: "eng-parts-of-speech", name: "Parts of Speech (Overview)" },
+          { id: "eng-noun", name: "Noun" },
+          { id: "eng-pronoun", name: "Pronoun" },
+          { id: "eng-adjective", name: "Adjective" },
+          { id: "eng-verb", name: "Verb" },
+          { id: "eng-modals", name: "Modals" },
+          { id: "eng-adverb", name: "Adverb" },
+          { id: "eng-preposition", name: "Preposition" },
+          { id: "eng-conjunction", name: "Conjunction" },
+          { id: "eng-articles", name: "Articles (A, An, The)" },
+          { id: "eng-tense", name: "Time and Tense" },
+          { id: "eng-sequence-tense", name: "Sequence of Tense" },
+          { id: "eng-sva", name: "Subject-Verb Agreement" },
+          { id: "eng-voice", name: "Voice (Active/Passive)" },
+          { id: "eng-narration", name: "Narration (Direct/Indirect)" },
+          { id: "eng-conditional", name: "Conditional Sentences" },
+          { id: "eng-question-tag", name: "Question Tag" },
+          { id: "eng-mood", name: "Mood" },
+          { id: "eng-inversion", name: "Inversion" },
+          { id: "eng-parallelism", name: "Parallelism" },
+          { id: "eng-superfluous", name: "Superfluous Expressions" },
+          { id: "eng-analysis", name: "Analysis of Sentences" },
+          { id: "eng-transformation", name: "Transformation of Sentences" },
+          { id: "eng-synthesis", name: "Synthesis of Sentences" },
+          { id: "eng-rearrangement", name: "Sentence Rearrangement" },
+          { id: "eng-error-detection", name: "Error Detection" },
+          { id: "eng-cloze", name: "Cloze Test" },
+          { id: "eng-comprehension", name: "Reading Comprehension" }
+        ]
+      },
+      {
+        id: "vocabulary",
+        name: "Vocabulary",
+        topics: [
+          { id: "eng-synonyms", name: "Synonyms" },
+          { id: "eng-antonyms", name: "Antonyms" },
+          { id: "eng-phrasal-verb", name: "Phrasal Verbs" },
+          { id: "eng-one-word", name: "One Word Substitution" },
+          { id: "eng-idioms", name: "Idioms and Phrases" },
+          { id: "eng-root-words", name: "Root Words" },
+          { id: "eng-important-words", name: "Important Words & Meanings" },
+          { id: "eng-homonyms", name: "Homonyms (Confusing Words)" },
+          { id: "eng-misspelt", name: "Misspelt Words / Spelling" }
+        ]
+      }
+    ]
+  },
   { id: "reasoning", name: "Reasoning", sections: [] }
 ];
 
