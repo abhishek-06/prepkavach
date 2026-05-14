@@ -908,4 +908,1063 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 9. SOUND WAVE
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-sound"] = {
+    body: `
+      <h2>Sound Wave</h2>
+      <p>Sound is a <b>longitudinal mechanical wave</b> produced by vibrating objects. It needs a material medium (cannot travel in vacuum).</p>
+
+      <h3>1. Properties of Sound</h3>
+      <ul>
+        <li><b>Pitch</b>: depends on frequency. Higher frequency → higher pitch (female voice higher than male).</li>
+        <li><b>Loudness</b>: depends on amplitude. Higher amplitude → louder. Measured in <b>decibels (dB)</b>.</li>
+        <li><b>Timbre/Quality</b>: distinguishes two sounds of same pitch and loudness (why guitar and piano playing same note sound different).</li>
+        <li><b>Speed</b>: depends on medium and temperature.</li>
+      </ul>
+
+      <h3>2. Speed of Sound in Different Media</h3>
+      <table>
+        <tr><th>Medium</th><th>Speed (m/s)</th></tr>
+        <tr><td>Air at 20°C</td><td>343</td></tr>
+        <tr><td>Air at 0°C</td><td>331</td></tr>
+        <tr><td>Water</td><td>1480</td></tr>
+        <tr><td>Sea water</td><td>1530</td></tr>
+        <tr><td>Iron / Steel</td><td>5000+</td></tr>
+        <tr><td>Vacuum</td><td>0 (sound can't travel)</td></tr>
+      </table>
+      <p>Sound speed increases with temperature (~0.6 m/s per °C in air).</p>
+      <p>Sound is faster in solids > liquids > gases (opposite of light).</p>
+
+      <h3>3. Frequency Ranges</h3>
+      <ul>
+        <li><b>Infrasonic</b>: < 20 Hz. Elephants, whales communicate this way. Caused by earthquakes.</li>
+        <li><b>Audible</b>: 20 Hz – 20,000 Hz (20 kHz). Human hearing range.</li>
+        <li><b>Ultrasonic</b>: > 20,000 Hz. Used in:
+          <ul>
+            <li>Bats, dolphins (echolocation).</li>
+            <li>Sonar (Sound Navigation And Ranging) — measure ocean depth.</li>
+            <li>Medical: ultrasound imaging, kidney stone breaking (lithotripsy).</li>
+            <li>Cleaning small parts (ultrasonic baths).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>4. Phenomena</h3>
+
+      <h4>(a) Reflection of Sound — Echo</h4>
+      <ul>
+        <li>Echo is the reflection of sound from a distant surface.</li>
+        <li>Echo heard only if sound reflects back after at least 0.1 second (human persistence of hearing).</li>
+        <li>Minimum distance for echo: ~17 m (1/2 × 340 × 0.1).</li>
+        <li>Used in: sonar, ultrasound, stethoscope.</li>
+      </ul>
+
+      <h4>(b) Reverberation</h4>
+      <p>Persistence of sound due to multiple reflections in an enclosed space. Concert halls use absorbing materials to reduce reverberation.</p>
+
+      <h4>(c) Resonance</h4>
+      <p>When external frequency matches natural frequency, vibration amplitude increases dramatically.</p>
+      <ul>
+        <li>Tuning forks resonance.</li>
+        <li>Soldiers break step on bridge to avoid resonance collapse.</li>
+        <li>Glass shattering due to singer's voice at resonant frequency.</li>
+      </ul>
+
+      <h3>5. Sonic Boom</h3>
+      <p>Shock wave produced when an object moves faster than speed of sound (supersonic). Causes a loud "boom" — heard from jets.</p>
+      <ul>
+        <li>Mach 1 = speed of sound.</li>
+        <li>Mach 2 = twice speed of sound.</li>
+      </ul>
+
+      <h3>6. Decibel Scale</h3>
+      <table>
+        <tr><th>Sound</th><th>Decibels (dB)</th></tr>
+        <tr><td>Whisper</td><td>30</td></tr>
+        <tr><td>Normal conversation</td><td>60</td></tr>
+        <tr><td>Heavy traffic</td><td>80</td></tr>
+        <tr><td>Loud music / motorcycle</td><td>100</td></tr>
+        <tr><td>Rock concert</td><td>120</td></tr>
+        <tr><td>Threshold of pain</td><td>130</td></tr>
+        <tr><td>Jet engine</td><td>140</td></tr>
+      </table>
+      <p>Sounds above 85 dB can damage hearing over time.</p>
+
+      <h3>7. Doppler Effect (Sound)</h3>
+      <p>Apparent change in frequency due to relative motion.</p>
+      <ul>
+        <li>Ambulance approaching: pitch increases.</li>
+        <li>Ambulance moving away: pitch decreases.</li>
+        <li>Used in radar guns to detect speeding cars.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Bats and dolphins use ultrasound for echolocation.</li>
+        <li>Whales use infrasound for long-distance communication.</li>
+        <li>Speed of sound in air ≈ 340 m/s (at room temperature).</li>
+        <li>Lightning seen before thunder because light is much faster.</li>
+        <li>Pitch depends on frequency, loudness on amplitude — easy to confuse!</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Sound is what type of wave?", opts: ["Transverse", "Longitudinal", "EM", "Matter"], a: 1, ex: "Longitudinal." },
+      { q: "Sound cannot travel through:", opts: ["Air", "Water", "Vacuum", "Steel"], a: 2, ex: "No medium → no sound." },
+      { q: "Human audible range:", opts: ["10-1000 Hz", "20-20000 Hz", "100-100000 Hz", "1-100 Hz"], a: 1, ex: "20-20000 Hz." },
+      { q: "Frequency above 20000 Hz:", opts: ["Infrasonic", "Audible", "Ultrasonic", "Supersonic"], a: 2, ex: "Ultrasonic." },
+      { q: "Pitch depends on:", opts: ["Amplitude", "Frequency", "Speed", "Wavelength only"], a: 1, ex: "Higher f = higher pitch." },
+      { q: "Sound is fastest in:", opts: ["Air", "Water", "Iron", "Vacuum"], a: 2, ex: "Solids > Liquids > Gases." },
+      { q: "Speed of sound in air at 20°C:", opts: ["340 m/s", "1000 m/s", "5000 m/s", "300 m/s"], a: 0, ex: "~343 m/s." },
+      { q: "Echo requires minimum distance:", opts: ["1.7 m", "17 m", "170 m", "1.7 km"], a: 1, ex: "~17 m for 0.1 sec delay." },
+      { q: "Bats use:", opts: ["Infrasound", "Audible sound", "Ultrasound", "X-rays"], a: 2, ex: "Echolocation with ultrasound." },
+      { q: "Ultrasound is used in:", opts: ["Sonar", "Medical imaging", "Cleaning", "All correct"], a: 3, ex: "All applications." },
+      { q: "Decibel measures:", opts: ["Pitch", "Loudness", "Speed", "Quality"], a: 1, ex: "Loudness/intensity." },
+      { q: "Loud sound that damages hearing above:", opts: ["50 dB", "85 dB", "150 dB", "200 dB"], a: 1, ex: "85 dB threshold." },
+      { q: "Reverberation is:", opts: ["Single echo", "Multiple reflections", "Doppler effect", "Resonance"], a: 1, ex: "Multiple reflections." },
+      { q: "Faster than sound speed:", opts: ["Subsonic", "Sonic", "Supersonic", "Hypersonic"], a: 2, ex: "Supersonic (Mach > 1)." },
+      { q: "Sonic boom is caused by:", opts: ["Echo", "Object moving faster than sound", "Resonance", "Beats"], a: 1, ex: "Shock wave." },
+      { q: "Speed of sound vs light:", opts: ["Sound faster", "Light faster", "Same", "Depends"], a: 1, ex: "Light ~10⁶ times faster." },
+      { q: "Doppler effect: source moving away gives:", opts: ["Higher pitch", "Lower pitch", "Same pitch", "No sound"], a: 1, ex: "Frequency decreases." },
+      { q: "Sonar is used for:", opts: ["Air navigation", "Underwater depth/distance", "Mountain height", "Light measurement"], a: 1, ex: "Ocean depth measurement." },
+      { q: "Resonance occurs when:", opts: ["No matching frequency", "Frequencies match natural frequency", "Random vibration", "No vibration"], a: 1, ex: "Drive frequency = natural frequency." },
+      { q: "Elephants communicate using:", opts: ["Ultrasound", "Infrasound", "Visible light", "Radio waves"], a: 1, ex: "Low frequency (<20 Hz)." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 10. HEAT
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-heat"] = {
+    body: `
+      <h2>Heat</h2>
+      <p><b>Heat</b> is a form of energy that flows from a hotter body to a colder body. SI unit: Joule (J). Other: Calorie (1 cal = 4.184 J).</p>
+
+      <h3>1. Temperature</h3>
+      <ul>
+        <li>Measure of how hot or cold an object is. Average KE of molecules.</li>
+        <li>Scales:
+          <ul>
+            <li>Celsius (°C): water freezes 0, boils 100.</li>
+            <li>Fahrenheit (°F): water freezes 32, boils 212.</li>
+            <li>Kelvin (K): absolute scale, 0 K = −273.15°C.</li>
+          </ul>
+        </li>
+        <li>Conversion: °F = (9/5)°C + 32; K = °C + 273.15.</li>
+        <li>−40°C = −40°F (only point where they meet).</li>
+      </ul>
+
+      <h3>2. Heat vs Temperature</h3>
+      <table>
+        <tr><th>Heat</th><th>Temperature</th></tr>
+        <tr><td>Total energy (depends on mass)</td><td>Average energy per molecule</td></tr>
+        <tr><td>Unit: Joule</td><td>Unit: Kelvin / °C</td></tr>
+        <tr><td>Cause</td><td>Effect</td></tr>
+      </table>
+
+      <h3>3. Thermal Expansion</h3>
+      <p>Most substances expand on heating.</p>
+      <ul>
+        <li>Solids: linear, area, volume expansion.</li>
+        <li>Liquids: only volume expansion.</li>
+        <li>Gases: largest expansion.</li>
+        <li><b>Anomalous expansion of water</b>: water contracts from 0°C to 4°C, then expands. Max density at 4°C.</li>
+      </ul>
+      <p>Examples: railway tracks have gaps; bimetallic strips used in thermostats; balloon expands when warmed.</p>
+
+      <h3>4. Modes of Heat Transfer</h3>
+
+      <h4>(a) Conduction</h4>
+      <p>Heat transfer through direct contact (mostly in solids). Metals are good conductors; wood, plastic, air are bad conductors (insulators).</p>
+      <p>Best conductor: Silver (then Copper, Gold). Best insulator (solid): Wood, plastic; (gas): Air; (liquid): pure water moderately.</p>
+
+      <h4>(b) Convection</h4>
+      <p>Heat transfer through bulk movement of fluid. Hot fluid rises (less dense), cold fluid sinks.</p>
+      <p>Examples: sea breeze, monsoon winds, hot air balloon, boiling water, room heaters, ocean currents.</p>
+
+      <h4>(c) Radiation</h4>
+      <p>Heat transfer through electromagnetic waves (infrared). No medium needed.</p>
+      <p>Examples: heat from Sun, fire, heater. Vacuum flask (thermos) prevents all three modes.</p>
+
+      <h3>5. Specific Heat Capacity</h3>
+      <ul>
+        <li>Heat needed to raise 1 kg of substance by 1°C.</li>
+        <li>Water has very high specific heat (4186 J/kg·°C) — moderates climate.</li>
+        <li>Q = m × c × ΔT.</li>
+        <li>That's why oceans don't freeze easily; sand on beach heats fast but water stays cooler.</li>
+      </ul>
+
+      <h3>6. Latent Heat</h3>
+      <p>Heat absorbed/released during phase change at constant temperature.</p>
+      <ul>
+        <li><b>Latent heat of fusion</b>: solid ↔ liquid. Ice → water: 334 J/g (absorbs).</li>
+        <li><b>Latent heat of vaporization</b>: liquid ↔ gas. Water → steam: 2260 J/g (absorbs).</li>
+        <li>That's why steam burns are worse than boiling water burns (extra 2260 J/g released).</li>
+        <li>That's why sweating cools us (water absorbs heat to evaporate).</li>
+      </ul>
+
+      <h3>7. Change of State</h3>
+      <ul>
+        <li>Melting: solid → liquid.</li>
+        <li>Freezing: liquid → solid.</li>
+        <li>Vaporization/Evaporation: liquid → gas.</li>
+        <li>Condensation: gas → liquid.</li>
+        <li>Sublimation: solid → gas directly (camphor, naphthalene, dry ice).</li>
+        <li>Deposition: gas → solid (frost formation).</li>
+      </ul>
+
+      <h3>8. Boiling Point at Higher Altitude</h3>
+      <p>Lower pressure → lower boiling point. Water boils at ~70°C at Mt. Everest top. That's why food takes longer to cook in hills, and why pressure cookers work (high pressure → high BP → faster cooking).</p>
+
+      <h3>9. Thermometers</h3>
+      <ul>
+        <li>Clinical thermometer: 35-42°C; uses mercury.</li>
+        <li>Laboratory thermometer: −10 to 110°C.</li>
+        <li>Pyrometer: very high temperatures.</li>
+        <li>Galileo thermometer: based on floating globes.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>0 K is absolute zero — lowest possible temperature (molecules stop).</li>
+        <li>Steam at 100°C has more energy than water at 100°C (latent heat).</li>
+        <li>Earthen pot keeps water cool because of evaporation (latent heat absorbed).</li>
+        <li>Pressure cooker raises boiling point of water by increasing pressure.</li>
+        <li>Mercury used in thermometers because: uniform expansion, doesn't wet glass, visible.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "SI unit of heat:", opts: ["Calorie", "Joule", "Newton", "Watt"], a: 1, ex: "Joule (energy unit)." },
+      { q: "Water freezes at:", opts: ["0°C", "32°C", "0 K", "100°C"], a: 0, ex: "0°C = 32°F." },
+      { q: "Absolute zero:", opts: ["0°C", "0°F", "0 K = −273.15°C", "−100°C"], a: 2, ex: "Coldest possible." },
+      { q: "Conversion: K = ?", opts: ["°C × 9/5 + 32", "°C + 273.15", "°C − 273", "°C × 1.8"], a: 1, ex: "K = °C + 273.15." },
+      { q: "Heat transfer in solids (mainly):", opts: ["Convection", "Conduction", "Radiation", "All equal"], a: 1, ex: "Conduction." },
+      { q: "Heat from Sun reaches us by:", opts: ["Conduction", "Convection", "Radiation", "All three"], a: 2, ex: "Radiation (no medium in space)." },
+      { q: "Best metal conductor:", opts: ["Iron", "Silver", "Aluminium", "Copper"], a: 1, ex: "Silver > Copper > Gold > Al > Fe." },
+      { q: "Water has high:", opts: ["Density only", "Specific heat capacity", "Latent heat", "Both B and C"], a: 3, ex: "High specific heat AND latent heat." },
+      { q: "Steam burn more severe than boiling water because:", opts: ["Steam is hotter", "Steam releases extra latent heat", "Steam is gas", "Air pressure"], a: 1, ex: "+2260 J/g extra energy." },
+      { q: "Sweating cools us because:", opts: ["Body is hot", "Evaporation absorbs heat", "Magnet effect", "Cooling chemistry"], a: 1, ex: "Latent heat of vaporization absorbed." },
+      { q: "Camphor solid → gas directly:", opts: ["Melting", "Sublimation", "Evaporation", "Condensation"], a: 1, ex: "Sublimation." },
+      { q: "Boiling point of water on top of mountain:", opts: ["Higher", "Lower", "Same", "Doesn't boil"], a: 1, ex: "Lower pressure → lower BP." },
+      { q: "Pressure cooker cooks faster because:", opts: ["Higher temperature", "Higher pressure raises BP", "Less heat needed", "Magic"], a: 1, ex: "BP higher = faster cooking." },
+      { q: "Anomalous expansion of water:", opts: ["Expands always", "Contracts 0-4°C then expands", "Always contracts", "No expansion"], a: 1, ex: "Max density at 4°C." },
+      { q: "Mercury used in thermometers because:", opts: ["Uniform expansion", "Doesn't wet glass", "Visible", "All correct"], a: 3, ex: "All reasons." },
+      { q: "Thermos flask works by minimizing:", opts: ["Conduction", "Convection", "Radiation", "All three"], a: 3, ex: "Double wall, vacuum, silvered." },
+      { q: "Sea breeze is example of:", opts: ["Conduction", "Convection", "Radiation", "All"], a: 1, ex: "Air movement = convection." },
+      { q: "1 calorie =", opts: ["4.184 J", "100 J", "1000 J", "10 J"], a: 0, ex: "4.184 J." },
+      { q: "Earthen pot cools water by:", opts: ["Conduction", "Evaporation", "Radiation", "Refrigeration"], a: 1, ex: "Water seeps and evaporates → cools." },
+      { q: "Convection occurs in:", opts: ["Solids", "Fluids (liquids/gases)", "Vacuum", "Wood"], a: 1, ex: "Bulk fluid motion." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 11. LIGHT
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-light"] = {
+    body: `
+      <h2>Light</h2>
+      <p><b>Light</b> is a form of electromagnetic radiation visible to the human eye. It's a <b>transverse EM wave</b>.</p>
+
+      <h3>1. Properties of Light</h3>
+      <ul>
+        <li>Travels in straight lines (rectilinear propagation).</li>
+        <li>Speed in vacuum: <b>c = 3 × 10⁸ m/s</b> (universal constant).</li>
+        <li>Speed in medium = c/n (n = refractive index).</li>
+        <li>Wavelength: 400-700 nm (visible range).</li>
+        <li>Dual nature: behaves as wave AND particle (photon).</li>
+      </ul>
+
+      <h3>2. VIBGYOR — Visible Spectrum</h3>
+      <p><b>V</b>iolet, <b>I</b>ndigo, <b>B</b>lue, <b>G</b>reen, <b>Y</b>ellow, <b>O</b>range, <b>R</b>ed.</p>
+      <ul>
+        <li>Red: longest wavelength (~700 nm), lowest frequency, bends least.</li>
+        <li>Violet: shortest wavelength (~400 nm), highest frequency, bends most.</li>
+        <li>Beyond Red: Infrared (heat); Beyond Violet: Ultraviolet.</li>
+      </ul>
+
+      <h3>3. Reflection of Light</h3>
+      <p>Light bouncing off a surface.</p>
+      <ul>
+        <li>Angle of incidence = Angle of reflection.</li>
+        <li>Both lie in same plane with normal.</li>
+        <li>Types of mirror:
+          <ul>
+            <li><b>Plane mirror</b>: image is virtual, erect, same size, laterally inverted, behind mirror.</li>
+            <li><b>Concave (converging) mirror</b>: can form real or virtual images. Used in: shaving mirror, dentist mirror, headlights, telescope.</li>
+            <li><b>Convex (diverging) mirror</b>: always virtual, erect, diminished image. Wider field of view. Used in: car side mirrors, security mirrors.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>4. Refraction of Light</h3>
+      <p>Bending of light when it passes from one medium to another (because speed changes).</p>
+      <ul>
+        <li>Light bends <b>toward normal</b> entering denser medium (slower).</li>
+        <li>Light bends <b>away from normal</b> entering rarer medium.</li>
+        <li><b>Refractive index</b> (n) = speed in vacuum / speed in medium.</li>
+        <li>n_water ≈ 1.33; n_glass ≈ 1.5; n_diamond ≈ 2.42.</li>
+      </ul>
+      <p>Examples: stick in water looks bent; mirages in desert; twinkling of stars; sun visible before actual sunrise.</p>
+
+      <h3>5. Total Internal Reflection</h3>
+      <p>When light passes from denser to rarer medium at angle greater than critical angle, it reflects entirely back.</p>
+      <ul>
+        <li>Used in: optical fibres (communication, endoscope), diamonds sparkle, prism binoculars.</li>
+        <li>Critical angle for water-air: 48.6°; for diamond-air: 24.4°.</li>
+      </ul>
+
+      <h3>6. Dispersion of Light</h3>
+      <p>White light splits into VIBGYOR through a prism. Each colour has different speed in glass → different bending.</p>
+      <ul>
+        <li>Rainbow formed by dispersion + total internal reflection in water droplets.</li>
+        <li>Primary rainbow: violet inside, red outside.</li>
+      </ul>
+
+      <h3>7. Scattering of Light</h3>
+      <ul>
+        <li><b>Sky is blue</b>: blue light scatters more (Rayleigh scattering, λ⁻⁴).</li>
+        <li><b>Sunset is red</b>: low sun → light travels long path → blue scattered away → only red reaches us.</li>
+        <li><b>Clouds white</b>: large droplets scatter all colours equally.</li>
+      </ul>
+
+      <h3>8. Lenses</h3>
+      <ul>
+        <li><b>Convex (converging)</b>: thick middle, converges parallel rays. Used in magnifying glass, eye, telescope, microscope, cameras.</li>
+        <li><b>Concave (diverging)</b>: thick edges, diverges parallel rays. Used to correct myopia (near-sightedness).</li>
+        <li>Power of lens = 1/f (in metres). Unit: Dioptre (D).</li>
+      </ul>
+
+      <h3>9. Human Eye</h3>
+      <ul>
+        <li>Cornea + Lens focus light on Retina.</li>
+        <li>Retina has Rod cells (low light) and Cone cells (colour).</li>
+        <li>Three types of cones: Red, Green, Blue (RGB).</li>
+        <li>Iris: colored part, controls light entry.</li>
+        <li>Pupil: opening in iris.</li>
+        <li>Defects:
+          <ul>
+            <li><b>Myopia</b> (short-sighted): can't see far. Use concave lens.</li>
+            <li><b>Hypermetropia</b> (long-sighted): can't see near. Use convex lens.</li>
+            <li><b>Astigmatism</b>: irregular cornea. Use cylindrical lens.</li>
+            <li><b>Presbyopia</b>: age-related; need bifocal lens.</li>
+            <li><b>Cataract</b>: clouding of lens.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>10. Optical Instruments</h3>
+      <ul>
+        <li>Camera: convex lens; image on film/sensor.</li>
+        <li>Microscope: high magnification, small near objects.</li>
+        <li>Telescope (refracting): two convex lenses; distant objects.</li>
+        <li>Periscope: 2 plane mirrors at 45° (submarines).</li>
+        <li>Optical fibre: total internal reflection.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Light travels in straight line — confirmed by sharp shadows.</li>
+        <li>Sky is blue due to scattering of blue light by atmosphere.</li>
+        <li>Star twinkles, planet doesn't — because stars are point sources affected by atmosphere.</li>
+        <li>Newton's prism experiment proved white light = mixture of 7 colours.</li>
+        <li>Primary colours of light: Red, Green, Blue (RGB).</li>
+        <li>Primary colours of pigment: Cyan, Magenta, Yellow (CMY).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Speed of light in vacuum:", opts: ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "300 m/s"], a: 1, ex: "c = 3 × 10⁸ m/s." },
+      { q: "Light is what kind of wave:", opts: ["Mechanical", "Sound", "Electromagnetic", "Matter"], a: 2, ex: "EM transverse wave." },
+      { q: "VIBGYOR — longest wavelength:", opts: ["Violet", "Blue", "Green", "Red"], a: 3, ex: "Red ~700 nm." },
+      { q: "Sky is blue due to:", opts: ["Reflection", "Refraction", "Scattering", "Dispersion"], a: 2, ex: "Blue scatters more (Rayleigh)." },
+      { q: "Sun appears red at sunset because:", opts: ["Sun is hotter", "Blue scattered away, red reaches", "Atmosphere is red", "Mirage"], a: 1, ex: "Long path → blue scattered." },
+      { q: "Rainbow forms by:", opts: ["Refraction only", "Dispersion + total reflection in droplets", "Reflection only", "Scattering"], a: 1, ex: "Combined effect." },
+      { q: "Concave mirror used in:", opts: ["Car side mirror", "Shaving mirror", "Periscope", "Window"], a: 1, ex: "Concave gives magnified erect image." },
+      { q: "Convex mirror in cars:", opts: ["Wider field of view", "Magnification", "Real image", "Larger image"], a: 0, ex: "Diverging → wider view." },
+      { q: "Myopia is corrected by:", opts: ["Concave lens", "Convex lens", "Cylindrical lens", "Plane glass"], a: 0, ex: "Diverging lens corrects." },
+      { q: "Hypermetropia corrected by:", opts: ["Concave", "Convex", "Cylindrical", "Bifocal"], a: 1, ex: "Convex lens." },
+      { q: "Refractive index of water:", opts: ["1", "1.33", "1.5", "2.4"], a: 1, ex: "~1.33." },
+      { q: "Refractive index of diamond:", opts: ["1.0", "1.5", "2.42", "3.0"], a: 2, ex: "~2.42 (high → sparkles)." },
+      { q: "Total internal reflection used in:", opts: ["Optical fibre", "Mirror", "Camera", "Telescope"], a: 0, ex: "Light trapped inside fibre." },
+      { q: "Primary colours of light:", opts: ["RGB", "CMY", "RYB", "VIBGYOR"], a: 0, ex: "Red, Green, Blue (additive)." },
+      { q: "Power of lens unit:", opts: ["Watt", "Dioptre", "Joule", "Hertz"], a: 1, ex: "Dioptre = 1/m." },
+      { q: "Image in plane mirror is:", opts: ["Real, erect", "Virtual, erect, same size", "Real, inverted", "Virtual, diminished"], a: 1, ex: "Virtual, erect, equidistant." },
+      { q: "Twinkling of stars due to:", opts: ["Their colour", "Atmospheric refraction", "Magnetism", "Distance"], a: 1, ex: "Light bent by varying atmosphere." },
+      { q: "Periscope uses:", opts: ["Lens", "Two plane mirrors", "Prism", "Optical fibre"], a: 1, ex: "Two mirrors at 45°." },
+      { q: "Retina rod cells detect:", opts: ["Colour", "Low light/intensity", "Heat", "UV"], a: 1, ex: "Rods → low light vision." },
+      { q: "Power of lens of focal length 0.5 m:", opts: ["0.5 D", "1 D", "2 D", "5 D"], a: 2, ex: "P = 1/f = 1/0.5 = 2 D." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 12. ELECTRICITY
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-electricity"] = {
+    body: `
+      <h2>Electricity</h2>
+
+      <h3>1. Electric Charge</h3>
+      <ul>
+        <li>Two types: positive (+) and negative (−).</li>
+        <li>Like charges repel; unlike attract.</li>
+        <li>SI unit: <b>Coulomb (C)</b>.</li>
+        <li>Charge on one electron = −1.6 × 10⁻¹⁹ C.</li>
+        <li>Charge is conserved and quantized (multiple of e).</li>
+      </ul>
+
+      <h3>2. Electric Current</h3>
+      <ul>
+        <li>Flow of charge per unit time. <b>I = Q/t</b>.</li>
+        <li>SI unit: <b>Ampere (A)</b>.</li>
+        <li>Conventional current: positive to negative; electron flow: opposite.</li>
+        <li>DC (Direct Current): unidirectional (batteries).</li>
+        <li>AC (Alternating Current): reverses periodically (50 Hz in India).</li>
+      </ul>
+
+      <h3>3. Voltage (Potential Difference)</h3>
+      <ul>
+        <li>Work done per unit charge. V = W/Q.</li>
+        <li>SI unit: <b>Volt (V)</b>.</li>
+        <li>1 V = 1 J/C.</li>
+        <li>Like water pressure pushes water, voltage pushes electrons.</li>
+        <li>India: AC supply at 230 V; US: 110-120 V.</li>
+      </ul>
+
+      <h3>4. Ohm's Law</h3>
+      <p><b>V = IR</b></p>
+      <ul>
+        <li>V = voltage, I = current, R = resistance.</li>
+        <li>Resistance unit: <b>Ohm (Ω)</b>.</li>
+        <li>R = ρ × L/A; ρ = resistivity, L = length, A = cross-sectional area.</li>
+        <li>Resistance increases with length, decreases with area, increases with temperature (for metals).</li>
+      </ul>
+
+      <h3>5. Series vs Parallel Circuits</h3>
+      <table>
+        <tr><th>Property</th><th>Series</th><th>Parallel</th></tr>
+        <tr><td>Current</td><td>Same in all</td><td>Different in each</td></tr>
+        <tr><td>Voltage</td><td>Different across each</td><td>Same across all</td></tr>
+        <tr><td>Resistance</td><td>R = R₁ + R₂ + R₃</td><td>1/R = 1/R₁ + 1/R₂ + 1/R₃</td></tr>
+        <tr><td>If one fails</td><td>Whole circuit stops</td><td>Others keep working</td></tr>
+      </table>
+      <p>Household wiring is parallel (so that one bulb failure doesn't affect others).</p>
+
+      <h3>6. Electric Power & Energy</h3>
+      <ul>
+        <li>Power P = V × I = I²R = V²/R. Unit: Watt.</li>
+        <li>Energy = Power × time. Unit: kWh (Unit of electric billing).</li>
+        <li>1 kWh = 3.6 × 10⁶ J.</li>
+        <li>60 W bulb in 10 hours = 60 × 10 = 600 Wh = 0.6 kWh.</li>
+      </ul>
+
+      <h3>7. Conductors, Insulators, Semiconductors</h3>
+      <ul>
+        <li><b>Conductors</b>: allow current. Metals (Cu, Al, Ag), graphite, salt solutions, human body.</li>
+        <li><b>Insulators</b>: block current. Wood, rubber, plastic, glass, mica.</li>
+        <li><b>Semiconductors</b>: in between. Si, Ge. Used in chips, diodes, transistors.</li>
+        <li><b>Superconductors</b>: zero resistance at very low temperature.</li>
+      </ul>
+
+      <h3>8. Heating Effect of Current</h3>
+      <p>H = I²Rt (Joule's law). Used in: electric heater, iron, geyser, bulb, fuse, toaster, oven.</p>
+
+      <h3>9. Fuses and MCBs</h3>
+      <ul>
+        <li><b>Fuse</b>: thin wire that melts when current exceeds safe limit, breaking circuit.</li>
+        <li><b>MCB</b> (Miniature Circuit Breaker): modern equivalent, reusable.</li>
+        <li>Fuse and MCB are safety devices.</li>
+      </ul>
+
+      <h3>10. Indian Electrical Supply</h3>
+      <ul>
+        <li>AC at 50 Hz.</li>
+        <li>Voltage: 220-240 V (single phase), 400 V (3-phase).</li>
+        <li>Wiring colours: Live = Red/Brown, Neutral = Black/Blue, Earth = Green.</li>
+        <li>Earth wire: safety, connects appliance body to ground.</li>
+      </ul>
+
+      <h3>11. Important Facts</h3>
+      <ul>
+        <li>Distilled water doesn't conduct (no ions); salt water does.</li>
+        <li>Lightning is electric discharge between cloud and ground.</li>
+        <li>Lightning conductor: metal rod that conducts lightning to ground safely.</li>
+        <li>EMF (Electromotive Force) = energy supplied per unit charge by source.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>V = IR (Ohm's law).</li>
+        <li>Parallel circuit: 1/R formula.</li>
+        <li>Power = V × I.</li>
+        <li>Filament bulbs work on heating effect (filament made of tungsten).</li>
+        <li>Earthing prevents shock — current flows to earth if there's a fault.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "SI unit of current:", opts: ["Ampere", "Volt", "Ohm", "Watt"], a: 0, ex: "Ampere (A)." },
+      { q: "Charge unit:", opts: ["Volt", "Ampere", "Coulomb", "Ohm"], a: 2, ex: "Coulomb." },
+      { q: "Ohm's law:", opts: ["V = IR", "P = IV", "Q = It", "F = ma"], a: 0, ex: "V = IR." },
+      { q: "Voltage unit:", opts: ["Ampere", "Volt", "Ohm", "Joule"], a: 1, ex: "Volt." },
+      { q: "Indian household supply:", opts: ["110 V, 60 Hz", "230 V, 50 Hz", "12 V DC", "440 V"], a: 1, ex: "230 V AC at 50 Hz." },
+      { q: "Best conductor of electricity:", opts: ["Iron", "Silver", "Aluminium", "Copper"], a: 1, ex: "Silver (then Cu, Au, Al)." },
+      { q: "Insulator:", opts: ["Copper", "Iron", "Rubber", "Aluminium"], a: 2, ex: "Rubber blocks current." },
+      { q: "Semiconductor:", opts: ["Cu", "Si", "Fe", "Al"], a: 1, ex: "Silicon." },
+      { q: "Household wiring is:", opts: ["Series", "Parallel", "Both", "Neither"], a: 1, ex: "Parallel (one bulb failure doesn't affect others)." },
+      { q: "Fuse wire is made of:", opts: ["Steel", "Tin-Lead alloy with low MP", "Copper", "Iron"], a: 1, ex: "Low melting point alloy." },
+      { q: "Filament of bulb made of:", opts: ["Iron", "Aluminium", "Tungsten", "Carbon"], a: 2, ex: "High MP tungsten." },
+      { q: "Earth wire colour in India:", opts: ["Red", "Blue", "Green", "Yellow"], a: 2, ex: "Green." },
+      { q: "Power P = ?", opts: ["VI", "IR", "V/R", "V²I"], a: 0, ex: "P = VI = I²R = V²/R." },
+      { q: "Distilled water:", opts: ["Conducts well", "Does not conduct (no ions)", "Same as salt water", "Solid"], a: 1, ex: "Pure water lacks ions." },
+      { q: "1 kWh =", opts: ["1000 J", "3.6 × 10⁶ J", "60 W", "1 V"], a: 1, ex: "Energy = kW × 3600 s." },
+      { q: "Conventional current direction:", opts: ["Same as electron flow", "Opposite to electrons", "Random", "No direction"], a: 1, ex: "Positive to negative (opposite to electron)." },
+      { q: "Lightning conductor:", opts: ["Stops lightning", "Conducts lightning safely to earth", "Reflects lightning", "Magic"], a: 1, ex: "Safe ground path." },
+      { q: "AC frequency in India:", opts: ["50 Hz", "60 Hz", "100 Hz", "25 Hz"], a: 0, ex: "50 Hz." },
+      { q: "Series circuit: if one bulb fails:", opts: ["Others work", "All fail", "Half work", "Brightness increases"], a: 1, ex: "Whole circuit breaks." },
+      { q: "Resistance increases with:", opts: ["Length", "Area", "Higher temperature for metals", "Both A and C"], a: 3, ex: "Both factors." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 13. MAGNETS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-magnets"] = {
+    body: `
+      <h2>Magnets</h2>
+
+      <h3>1. Basic Properties of Magnets</h3>
+      <ul>
+        <li>Every magnet has two poles: North (N) and South (S).</li>
+        <li>Like poles repel; unlike poles attract.</li>
+        <li>Cannot have a single magnetic pole (cutting a magnet gives two new dipoles).</li>
+        <li>Free-suspended magnet aligns N-S due to Earth's magnetic field.</li>
+        <li>SI unit of magnetic field: <b>Tesla (T)</b>; CGS: Gauss (1 T = 10⁴ G).</li>
+      </ul>
+
+      <h3>2. Materials</h3>
+      <ul>
+        <li><b>Ferromagnetic</b>: strongly attracted. Iron, cobalt, nickel.</li>
+        <li><b>Paramagnetic</b>: weakly attracted. Aluminium, platinum, oxygen.</li>
+        <li><b>Diamagnetic</b>: weakly repelled. Copper, bismuth, water, gold.</li>
+      </ul>
+
+      <h3>3. Earth as a Magnet</h3>
+      <ul>
+        <li>Earth behaves like a huge bar magnet.</li>
+        <li>Geographic north ≈ magnetic south, and vice versa (that's why compass N points to geographic N).</li>
+        <li>Earth's magnetic field varies from 25-65 μT.</li>
+        <li>Aurora (Northern/Southern Lights): charged particles guided by Earth's magnetic field.</li>
+      </ul>
+
+      <h3>4. Electromagnetism</h3>
+      <p><b>Oersted's Discovery (1820)</b>: a current-carrying wire produces a magnetic field around it.</p>
+      <ul>
+        <li>Right-hand rule: thumb = current direction, fingers curl = field direction.</li>
+        <li>Solenoid: a coil of wire acts like a bar magnet when current flows.</li>
+        <li><b>Electromagnet</b>: solenoid with iron core; very strong and switchable.</li>
+        <li>Used in: electric bell, motors, generators, MRI, cranes lifting scrap, doorbell, loudspeaker.</li>
+      </ul>
+
+      <h3>5. Electromagnetic Induction</h3>
+      <p><b>Faraday's Law (1831)</b>: a changing magnetic field induces an EMF (voltage) in a conductor.</p>
+      <ul>
+        <li>Lenz's Law: induced current opposes the change causing it.</li>
+        <li>Basis of: <b>electric generator</b> (motion → electricity), transformer, induction cooktop.</li>
+      </ul>
+
+      <h3>6. Devices Based on Magnetism</h3>
+      <ul>
+        <li><b>Electric Motor</b>: converts electrical energy to mechanical energy.</li>
+        <li><b>Generator/Dynamo</b>: converts mechanical to electrical energy.</li>
+        <li><b>Transformer</b>: changes AC voltage; works on electromagnetic induction. Can only step up or step down AC.</li>
+        <li><b>Loudspeaker</b>: current in coil produces vibration in cone.</li>
+        <li><b>Microphone</b>: sound waves move coil in field, inducing current.</li>
+        <li><b>Mag-lev train</b>: levitates using powerful magnets, near-frictionless.</li>
+      </ul>
+
+      <h3>7. Magnetic Properties</h3>
+      <ul>
+        <li>Magnetism due to alignment of atomic magnetic moments (spinning electrons).</li>
+        <li>Heating a magnet above Curie temperature destroys its magnetism (iron: 770°C).</li>
+        <li>Striking or dropping a magnet weakens it.</li>
+        <li>Storing two bar magnets together (N-S, N-S) preserves magnetism.</li>
+      </ul>
+
+      <h3>8. Magnetic Field Lines</h3>
+      <ul>
+        <li>Go from N pole to S pole externally; S to N internally.</li>
+        <li>Never intersect.</li>
+        <li>Density of lines = strength of field.</li>
+        <li>Form closed loops.</li>
+      </ul>
+
+      <h3>9. Compass</h3>
+      <p>A small freely-pivoting magnet. Used for navigation. Aligned by Earth's magnetic field.</p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Iron, Nickel, Cobalt are ferromagnetic (mnemonic: "Magnets like Indian Nawabs Carrying iron").</li>
+        <li>Electromagnet = wire + iron core + current.</li>
+        <li>SI unit of magnetic field B = Tesla.</li>
+        <li>Transformer works on AC only (needs changing magnetic field).</li>
+        <li>Step-up transformer: more turns in secondary; step-down: fewer turns.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Pole that repels north pole:", opts: ["North", "South", "Both", "Neither"], a: 0, ex: "Like poles repel." },
+      { q: "Ferromagnetic material:", opts: ["Aluminium", "Iron", "Copper", "Water"], a: 1, ex: "Fe, Co, Ni." },
+      { q: "Diamagnetic material:", opts: ["Iron", "Copper", "Nickel", "Cobalt"], a: 1, ex: "Cu is weakly repelled." },
+      { q: "Unit of magnetic field:", opts: ["Tesla", "Newton", "Pascal", "Watt"], a: 0, ex: "Tesla (T)." },
+      { q: "Compass needle aligns:", opts: ["East-West", "North-South", "Up-Down", "Random"], a: 1, ex: "Earth's magnetic field N-S." },
+      { q: "Oersted showed:", opts: ["Light is wave", "Current produces magnetic field", "Heat is energy", "Friction"], a: 1, ex: "Current → magnetic field." },
+      { q: "Faraday's law deals with:", opts: ["Electromagnetic induction", "Reflection", "Refraction", "Sound"], a: 0, ex: "Changing field induces EMF." },
+      { q: "Electric motor converts:", opts: ["Mechanical to electrical", "Electrical to mechanical", "Heat to mech", "Sound to elec"], a: 1, ex: "Motor: E → M." },
+      { q: "Generator/dynamo converts:", opts: ["Electrical to mechanical", "Mechanical to electrical", "Heat to elec", "Sound to elec"], a: 1, ex: "Generator: M → E." },
+      { q: "Transformer works on:", opts: ["DC only", "AC only", "Both", "Neither"], a: 1, ex: "Needs changing field." },
+      { q: "Heating magnet above Curie point:", opts: ["Makes stronger", "Destroys magnetism", "No effect", "Reverses poles"], a: 1, ex: "Magnetism lost above Curie temp." },
+      { q: "Cutting a bar magnet:", opts: ["Single N pole", "Single S pole", "Two new dipoles", "No magnetism"], a: 2, ex: "Each piece becomes a dipole." },
+      { q: "Electromagnet has core of:", opts: ["Wood", "Iron", "Copper", "Plastic"], a: 1, ex: "Soft iron." },
+      { q: "Field lines go externally from:", opts: ["S to N", "N to S", "No direction", "Random"], a: 1, ex: "External: N→S; internal: S→N." },
+      { q: "MRI machine uses:", opts: ["X-rays", "Strong magnetic field", "Sound", "Heat"], a: 1, ex: "Magnetic Resonance." },
+      { q: "Aurora (Northern Lights) caused by:", opts: ["Wind", "Charged particles guided by magnetic field", "Sun's heat", "Light reflection"], a: 1, ex: "Earth's field traps solar particles." },
+      { q: "Mag-lev train uses:", opts: ["Wheels only", "Magnetic levitation", "Hovercraft", "Steam"], a: 1, ex: "Frictionless via magnets." },
+      { q: "Loudspeaker works on:", opts: ["Optical effect", "Electromagnetic interaction in coil", "Sound only", "Static"], a: 1, ex: "Current in coil moves cone." },
+      { q: "Geographic N is approximately:", opts: ["Magnetic N", "Magnetic S", "Same", "Mathematical"], a: 1, ex: "Magnetic S pole near geographic N." },
+      { q: "Right-hand rule gives:", opts: ["Force direction", "Magnetic field direction around current", "Velocity", "Acceleration"], a: 1, ex: "Thumb = current, fingers = field." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 14. ATOMIC & NUCLEAR PHYSICS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-atomic"] = {
+    body: `
+      <h2>Atomic & Nuclear Physics</h2>
+
+      <h3>1. Atom — Basic Structure</h3>
+      <ul>
+        <li>Atom = smallest unit of element retaining its properties.</li>
+        <li>Three particles: <b>Proton (+)</b>, <b>Neutron (neutral)</b>, <b>Electron (−)</b>.</li>
+        <li>Protons + Neutrons in nucleus; Electrons in shells around nucleus.</li>
+        <li>Atom is electrically neutral: #protons = #electrons.</li>
+      </ul>
+
+      <h3>2. Subatomic Particles</h3>
+      <table>
+        <tr><th>Particle</th><th>Charge</th><th>Mass</th><th>Discoverer</th></tr>
+        <tr><td>Electron</td><td>−1 (−1.6 × 10⁻¹⁹ C)</td><td>9.1 × 10⁻³¹ kg</td><td>J.J. Thomson (1897)</td></tr>
+        <tr><td>Proton</td><td>+1</td><td>1.67 × 10⁻²⁷ kg (1 amu)</td><td>Rutherford (1919)</td></tr>
+        <tr><td>Neutron</td><td>0</td><td>~1 amu</td><td>James Chadwick (1932)</td></tr>
+      </table>
+
+      <h3>3. Atomic Models (Evolution)</h3>
+      <ul>
+        <li><b>Dalton (1808)</b>: atom is indivisible, like a solid ball.</li>
+        <li><b>J.J. Thomson (1898)</b>: plum pudding model — sphere of positive charge with electrons embedded.</li>
+        <li><b>Rutherford (1911)</b>: nuclear model — small dense nucleus with electrons orbiting (gold foil experiment).</li>
+        <li><b>Bohr (1913)</b>: electrons in fixed orbits with quantized energy. Explained hydrogen spectrum.</li>
+        <li><b>Modern (Quantum)</b>: electrons exist in orbitals (probability clouds), not fixed paths.</li>
+      </ul>
+
+      <h3>4. Atomic Number & Mass Number</h3>
+      <ul>
+        <li><b>Atomic Number (Z)</b> = number of protons = number of electrons.</li>
+        <li><b>Mass Number (A)</b> = protons + neutrons.</li>
+        <li>Number of neutrons = A − Z.</li>
+      </ul>
+
+      <h3>5. Isotopes, Isobars, Isotones</h3>
+      <ul>
+        <li><b>Isotopes</b>: same Z, different A. Same element. Example: ¹H, ²H, ³H (hydrogen).</li>
+        <li><b>Isobars</b>: same A, different Z. Different elements. Example: ⁴⁰Ca and ⁴⁰Ar.</li>
+        <li><b>Isotones</b>: same number of neutrons.</li>
+      </ul>
+
+      <h3>6. Nuclear Forces</h3>
+      <ul>
+        <li>Strong nuclear force holds protons and neutrons together against electric repulsion.</li>
+        <li>Strongest of 4 fundamental forces but very short range (~10⁻¹⁵ m).</li>
+        <li>Weak nuclear force responsible for radioactive beta decay.</li>
+      </ul>
+
+      <h3>7. Nuclear Fission</h3>
+      <ul>
+        <li>Splitting of heavy nucleus (e.g., U-235) into lighter ones, releasing energy and neutrons.</li>
+        <li>Used in: <b>nuclear power plants</b> (controlled), <b>atomic bomb</b> (uncontrolled chain reaction).</li>
+        <li>Discovered by Otto Hahn (1938).</li>
+        <li>Sustains chain reaction: each fission releases neutrons that trigger more fission.</li>
+        <li>India's nuclear plants: Tarapur, Kudankulam, Kaiga, Kakrapar, Narora, Rawatbhata.</li>
+      </ul>
+
+      <h3>8. Nuclear Fusion</h3>
+      <ul>
+        <li>Joining of light nuclei (hydrogen → helium) to form heavier, releasing huge energy.</li>
+        <li>Occurs in the <b>Sun and stars</b>.</li>
+        <li>Requires extreme temperature (millions of degrees).</li>
+        <li>Used in: <b>hydrogen bomb</b>.</li>
+        <li>Researchers working on controlled fusion (ITER, etc.) — clean energy future.</li>
+      </ul>
+
+      <h3>9. E = mc² (Mass-Energy Equivalence)</h3>
+      <p>Einstein's famous equation: a small amount of mass can be converted to enormous energy.</p>
+      <ul>
+        <li>c = speed of light = 3 × 10⁸ m/s.</li>
+        <li>1 gram of mass → 9 × 10¹³ J (huge!).</li>
+        <li>Basis of all nuclear energy.</li>
+      </ul>
+
+      <h3>10. Quantum & Modern Physics Basics</h3>
+      <ul>
+        <li><b>Planck's quantum theory</b>: energy is emitted/absorbed in discrete packets (quanta) of energy E = hν.</li>
+        <li><b>Photoelectric effect</b>: Einstein explained — light is also particle (photon). Earned him Nobel.</li>
+        <li><b>de Broglie waves</b>: every moving particle has wave nature. Confirms wave-particle duality.</li>
+        <li><b>Heisenberg's Uncertainty Principle</b>: cannot know both position and momentum exactly.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Atom: protons in nucleus, electrons in shells.</li>
+        <li>Isotopes: same Z, different A.</li>
+        <li>Fission: heavy → light (nuclear plants, A-bomb).</li>
+        <li>Fusion: light → heavy (Sun, H-bomb).</li>
+        <li>E = mc² explains nuclear energy.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Discoverer of electron:", opts: ["Rutherford", "J.J. Thomson", "Bohr", "Chadwick"], a: 1, ex: "Thomson 1897." },
+      { q: "Discoverer of neutron:", opts: ["Rutherford", "Bohr", "Chadwick", "Thomson"], a: 2, ex: "Chadwick 1932." },
+      { q: "Charge of proton:", opts: ["Negative", "Positive", "Zero", "Variable"], a: 1, ex: "+1.6 × 10⁻¹⁹ C." },
+      { q: "Atomic number =", opts: ["Protons", "Protons + neutrons", "Electrons - protons", "Mass"], a: 0, ex: "Z = #protons." },
+      { q: "Mass number =", opts: ["Protons", "Neutrons", "Protons + neutrons", "Electrons"], a: 2, ex: "A = p + n." },
+      { q: "Isotopes have same:", opts: ["Mass number", "Atomic number", "Number of neutrons", "All"], a: 1, ex: "Same Z, different A." },
+      { q: "Energy of sun comes from:", opts: ["Fission", "Fusion", "Combustion", "Chemical"], a: 1, ex: "H → He fusion." },
+      { q: "Nuclear power plant uses:", opts: ["Fission", "Fusion", "Combustion", "Solar"], a: 0, ex: "Uranium-235 fission." },
+      { q: "Atomic bomb uses:", opts: ["Fusion", "Fission", "Combustion", "Both"], a: 1, ex: "Uncontrolled fission." },
+      { q: "Hydrogen bomb uses:", opts: ["Fission", "Fusion", "Both", "Neither"], a: 1, ex: "Thermonuclear fusion." },
+      { q: "E = mc² is by:", opts: ["Newton", "Einstein", "Bohr", "Planck"], a: 1, ex: "Einstein." },
+      { q: "Rutherford's experiment:", opts: ["Cathode ray", "Gold foil", "Photoelectric", "Double slit"], a: 1, ex: "Gold foil — discovered nucleus." },
+      { q: "Strongest fundamental force:", opts: ["Gravity", "Electromagnetic", "Strong nuclear", "Weak nuclear"], a: 2, ex: "Strong nuclear." },
+      { q: "Bohr's model proposed:", opts: ["Indivisible atom", "Plum pudding", "Quantized orbits", "Solar system exactly"], a: 2, ex: "Discrete energy levels." },
+      { q: "1 amu equals approximately:", opts: ["Mass of electron", "Mass of proton", "Mass of atom", "Mass of nucleus"], a: 1, ex: "1 amu = mass of proton ≈ 1.66 × 10⁻²⁷ kg." },
+      { q: "Photoelectric effect explained by:", opts: ["Newton", "Einstein", "Bohr", "Maxwell"], a: 1, ex: "Einstein got Nobel for this." },
+      { q: "Quantum theory founder:", opts: ["Planck", "Einstein", "Bohr", "Heisenberg"], a: 0, ex: "Max Planck 1900." },
+      { q: "Tarapur nuclear plant in:", opts: ["UP", "Maharashtra", "Tamil Nadu", "Karnataka"], a: 1, ex: "Maharashtra." },
+      { q: "Most abundant element in universe:", opts: ["Hydrogen", "Helium", "Oxygen", "Carbon"], a: 0, ex: "Hydrogen." },
+      { q: "Heisenberg's principle relates to:", opts: ["Mass", "Energy", "Position-momentum uncertainty", "Time"], a: 2, ex: "Cannot measure both exactly." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 15. RADIOACTIVITY
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-radioactivity"] = {
+    body: `
+      <h2>Radioactivity</h2>
+      <p><b>Radioactivity</b> is the spontaneous emission of radiation from unstable atomic nuclei. Discovered by <b>Henri Becquerel (1896)</b>.</p>
+
+      <h3>1. Key Scientists</h3>
+      <ul>
+        <li><b>Henri Becquerel</b> — discovered radioactivity in uranium (1896).</li>
+        <li><b>Marie & Pierre Curie</b> — discovered polonium and radium. Marie got Nobel in Physics (1903) and Chemistry (1911).</li>
+        <li><b>Rutherford</b> — identified alpha, beta, gamma radiation types.</li>
+      </ul>
+
+      <h3>2. Types of Radioactive Radiation</h3>
+
+      <h4>(a) Alpha (α) Particles</h4>
+      <ul>
+        <li>Helium nucleus (2 protons + 2 neutrons).</li>
+        <li>Charge: +2.</li>
+        <li>Heavy, slow, low penetration. Stopped by paper or a few cm of air.</li>
+        <li>Most ionizing.</li>
+      </ul>
+
+      <h4>(b) Beta (β) Particles</h4>
+      <ul>
+        <li>High-speed electrons (β⁻) or positrons (β⁺).</li>
+        <li>Charge: −1 (β⁻) or +1 (β⁺).</li>
+        <li>Moderate penetration. Stopped by aluminium sheet.</li>
+        <li>Moderately ionizing.</li>
+      </ul>
+
+      <h4>(c) Gamma (γ) Rays</h4>
+      <ul>
+        <li>Electromagnetic waves of very high frequency.</li>
+        <li>No charge, no mass.</li>
+        <li>Highest penetration. Need thick lead or concrete to stop.</li>
+        <li>Least ionizing but most dangerous due to penetration.</li>
+      </ul>
+
+      <h4>Order of Penetration: γ > β > α</h4>
+      <h4>Order of Ionization: α > β > γ</h4>
+
+      <h3>3. Radioactive Decay & Half-Life</h3>
+      <ul>
+        <li><b>Half-life (T½)</b>: time for half the radioactive nuclei to decay.</li>
+        <li>Examples:
+          <ul>
+            <li>Uranium-238: 4.5 billion years.</li>
+            <li>Carbon-14: 5,730 years (used in carbon dating).</li>
+            <li>Radon-222: 3.8 days.</li>
+            <li>Iodine-131: 8 days (medical).</li>
+          </ul>
+        </li>
+        <li>After n half-lives, 1/2ⁿ of original remains.</li>
+      </ul>
+
+      <h3>4. Uses of Radioactivity</h3>
+
+      <h4>Medical</h4>
+      <ul>
+        <li>Cancer treatment (radiotherapy with cobalt-60, radium).</li>
+        <li>Diagnosis (thyroid: I-131; PET scan: F-18).</li>
+        <li>Sterilization of medical instruments.</li>
+      </ul>
+
+      <h4>Industrial</h4>
+      <ul>
+        <li>Detecting flaws in metal castings (radiography).</li>
+        <li>Measuring thickness of paper, steel sheets.</li>
+        <li>Food preservation (kills bacteria without heating).</li>
+      </ul>
+
+      <h4>Energy</h4>
+      <ul>
+        <li>Nuclear power plants (U-235, Pu-239).</li>
+        <li>RTG (radioisotope thermoelectric generator) for spacecraft.</li>
+      </ul>
+
+      <h4>Archaeology</h4>
+      <ul>
+        <li><b>Carbon-14 dating</b>: age of organic remains up to ~50,000 years.</li>
+        <li>Uranium-lead dating: age of rocks up to billions of years.</li>
+      </ul>
+
+      <h4>Research</h4>
+      <ul>
+        <li>Tracer studies in biology (radioactive isotopes follow biological pathways).</li>
+        <li>Agriculture (pest control, mutation breeding).</li>
+      </ul>
+
+      <h3>5. Hazards of Radiation</h3>
+      <ul>
+        <li>Cell damage, mutation.</li>
+        <li>Cancer.</li>
+        <li>Radiation sickness (acute exposure).</li>
+        <li>Genetic effects.</li>
+        <li>Measured in: Sievert (Sv) — biological effect; Gray (Gy) — absorbed dose; Becquerel (Bq) — activity.</li>
+      </ul>
+
+      <h3>6. Major Nuclear Incidents</h3>
+      <ul>
+        <li>Hiroshima & Nagasaki (1945): atomic bombs.</li>
+        <li>Three Mile Island (1979): USA partial meltdown.</li>
+        <li>Chernobyl (1986): worst civilian nuclear accident.</li>
+        <li>Fukushima (2011): Japan, triggered by tsunami.</li>
+      </ul>
+
+      <h3>7. Radioactive Elements (Important)</h3>
+      <table>
+        <tr><th>Element</th><th>Use</th></tr>
+        <tr><td>Uranium-235</td><td>Nuclear fuel</td></tr>
+        <tr><td>Uranium-238</td><td>Source of Plutonium</td></tr>
+        <tr><td>Plutonium-239</td><td>Nuclear weapons, fuel</td></tr>
+        <tr><td>Cobalt-60</td><td>Cancer treatment, sterilization</td></tr>
+        <tr><td>Iodine-131</td><td>Thyroid diagnosis/treatment</td></tr>
+        <tr><td>Carbon-14</td><td>Carbon dating</td></tr>
+        <tr><td>Radium</td><td>Older cancer therapy</td></tr>
+        <tr><td>Polonium</td><td>Static eliminator</td></tr>
+        <tr><td>Tritium (H-3)</td><td>Glow signs, fusion research</td></tr>
+        <tr><td>Americium-241</td><td>Smoke detectors</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Discoverer: Henri Becquerel; Curies discovered radium/polonium.</li>
+        <li>α: helium nucleus; β: electron; γ: EM wave.</li>
+        <li>Order of penetration: γ > β > α.</li>
+        <li>Carbon-14 dating: organic remains up to 50,000 years.</li>
+        <li>Half-life is constant — temperature, pressure don't affect it.</li>
+        <li>Nuclear shield: lead is best, then concrete.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Discoverer of radioactivity:", opts: ["Curie", "Becquerel", "Rutherford", "Einstein"], a: 1, ex: "Henri Becquerel 1896." },
+      { q: "Alpha particle is:", opts: ["Helium nucleus", "Electron", "Proton", "EM wave"], a: 0, ex: "2p + 2n." },
+      { q: "Beta particle is:", opts: ["Helium nucleus", "Electron/positron", "Photon", "Neutron"], a: 1, ex: "High-speed electron." },
+      { q: "Gamma ray is:", opts: ["Charged particle", "EM wave", "Helium", "Electron"], a: 1, ex: "EM wave, no charge." },
+      { q: "Most penetrating radiation:", opts: ["Alpha", "Beta", "Gamma", "All same"], a: 2, ex: "γ > β > α." },
+      { q: "Most ionizing:", opts: ["Alpha", "Beta", "Gamma", "All same"], a: 0, ex: "Alpha (slow, heavy)." },
+      { q: "Element used in carbon dating:", opts: ["U-235", "C-14", "I-131", "Co-60"], a: 1, ex: "Carbon-14." },
+      { q: "Half-life of C-14:", opts: ["100 years", "1000 years", "5,730 years", "50,000 years"], a: 2, ex: "~5,730 years." },
+      { q: "Cobalt-60 used for:", opts: ["Heating", "Cancer treatment", "Telephone", "Astronomy"], a: 1, ex: "Radiotherapy." },
+      { q: "Marie Curie discovered:", opts: ["X-rays", "Polonium and Radium", "Uranium", "Plutonium"], a: 1, ex: "Po and Ra." },
+      { q: "Nuclear fuel:", opts: ["U-235", "C-14", "Na-24", "I-131"], a: 0, ex: "Uranium-235." },
+      { q: "Worst nuclear accident:", opts: ["Three Mile Island", "Chernobyl", "Fukushima", "Hiroshima"], a: 1, ex: "Chernobyl 1986." },
+      { q: "Atomic bombs at:", opts: ["Hiroshima", "Nagasaki", "Both", "Tokyo"], a: 2, ex: "Hiroshima + Nagasaki." },
+      { q: "Half-life is affected by:", opts: ["Temperature", "Pressure", "Chemical state", "None of these"], a: 3, ex: "Constant; nature of nucleus only." },
+      { q: "Stops alpha particles:", opts: ["Paper", "Aluminium", "Lead", "All"], a: 0, ex: "Paper is sufficient." },
+      { q: "Smoke detectors use:", opts: ["Cobalt", "Americium-241", "Uranium", "Iodine"], a: 1, ex: "Am-241." },
+      { q: "Radiation dose unit:", opts: ["Sievert (Sv)", "Newton", "Tesla", "Watt"], a: 0, ex: "Sievert for bio effect." },
+      { q: "Plutonium-239:", opts: ["Natural", "Man-made", "Stable", "Non-radioactive"], a: 1, ex: "From U-238 in reactors." },
+      { q: "Radioactive decay involves:", opts: ["Electron shells", "Nucleus only", "Molecular bonds", "Charge transfer"], a: 1, ex: "Nuclear process." },
+      { q: "Iodine-131 medical use:", opts: ["Heart", "Thyroid", "Liver", "Brain"], a: 1, ex: "Thyroid diagnosis/treatment." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 16. NANOTECHNOLOGY
+  // ───────────────────────────────────────────────────────────────
+  T["sci-phy-nano"] = {
+    body: `
+      <h2>Nanotechnology</h2>
+      <p><b>Nanotechnology</b> = science of structures at nanoscale (1-100 nanometres). 1 nm = 10⁻⁹ m. A human hair is ~80,000 nm thick!</p>
+
+      <h3>1. Key Concepts</h3>
+      <ul>
+        <li>At nano scale, materials show unique properties different from bulk.</li>
+        <li>Gold is yellow in bulk, but red/purple at nano scale.</li>
+        <li>Higher surface area to volume ratio → more reactive.</li>
+        <li>Quantum effects become significant.</li>
+      </ul>
+
+      <h3>2. Nobel & Pioneers</h3>
+      <ul>
+        <li><b>Richard Feynman (1959)</b>: famous lecture "There's Plenty of Room at the Bottom" — pioneered idea.</li>
+        <li><b>Norio Taniguchi (1974)</b>: coined the term "Nanotechnology".</li>
+        <li><b>STM (Scanning Tunneling Microscope) 1981</b>: by Binnig and Rohrer — Nobel 1986.</li>
+        <li><b>Buckminsterfullerene (C₆₀) 1985</b>: discovered by Kroto, Curl, Smalley — Nobel 1996.</li>
+        <li><b>Graphene (2004)</b>: by Geim and Novoselov — Nobel 2010.</li>
+      </ul>
+
+      <h3>3. Important Nanomaterials</h3>
+
+      <h4>(a) Carbon Nanotubes (CNTs)</h4>
+      <ul>
+        <li>Rolled graphene sheets.</li>
+        <li>100x stronger than steel, 1/6 weight.</li>
+        <li>Excellent electrical/thermal conductors.</li>
+        <li>Uses: composites, electronics, batteries, space elevator concept.</li>
+      </ul>
+
+      <h4>(b) Graphene</h4>
+      <ul>
+        <li>Single layer of carbon atoms in hexagonal lattice.</li>
+        <li>Thinnest, strongest known material.</li>
+        <li>Conducts electricity better than copper.</li>
+        <li>Uses: transistors, batteries, solar cells, sensors.</li>
+      </ul>
+
+      <h4>(c) Fullerenes (C₆₀ "Buckyball")</h4>
+      <ul>
+        <li>Spherical carbon molecules.</li>
+        <li>Soccer ball shape (60 carbon atoms).</li>
+        <li>Uses: drug delivery, lubricants, photovoltaics.</li>
+      </ul>
+
+      <h4>(d) Quantum Dots</h4>
+      <ul>
+        <li>Semiconductor nanoparticles.</li>
+        <li>Emit specific colour depending on size.</li>
+        <li>Uses: QLED displays, solar cells, medical imaging.</li>
+      </ul>
+
+      <h4>(e) Nano Silver, Nano Gold</h4>
+      <ul>
+        <li>Silver: antibacterial — used in fabric, wound dressing.</li>
+        <li>Gold: drug delivery, cancer therapy, electronics.</li>
+      </ul>
+
+      <h3>4. Applications</h3>
+
+      <h4>Electronics</h4>
+      <ul>
+        <li>Faster, smaller chips.</li>
+        <li>Higher storage in nano-scale memory.</li>
+        <li>Flexible electronics.</li>
+      </ul>
+
+      <h4>Medicine</h4>
+      <ul>
+        <li>Targeted drug delivery (e.g., to cancer cells only).</li>
+        <li>Nanoparticles for imaging (MRI contrast).</li>
+        <li>Nanocoatings on implants.</li>
+        <li>Cancer hyperthermia (gold nanoparticles heat tumours).</li>
+      </ul>
+
+      <h4>Energy</h4>
+      <ul>
+        <li>Better batteries and fuel cells.</li>
+        <li>More efficient solar cells.</li>
+        <li>Hydrogen storage.</li>
+      </ul>
+
+      <h4>Textile & Cosmetics</h4>
+      <ul>
+        <li>Stain-resistant, water-repellent fabrics.</li>
+        <li>Sunscreens (nano titanium dioxide / zinc oxide).</li>
+        <li>Anti-aging creams.</li>
+      </ul>
+
+      <h4>Environment</h4>
+      <ul>
+        <li>Water purification (nanofilters).</li>
+        <li>Air filtration.</li>
+        <li>Catalysts for pollution reduction.</li>
+      </ul>
+
+      <h4>Construction</h4>
+      <ul>
+        <li>Stronger concrete with nano additives.</li>
+        <li>Self-cleaning glass coatings.</li>
+        <li>Scratch-resistant paints.</li>
+      </ul>
+
+      <h3>5. Concerns</h3>
+      <ul>
+        <li>Health: inhalation of nanoparticles may cause lung issues.</li>
+        <li>Environmental: nano-pollution effects unknown.</li>
+        <li>Cost: production still expensive.</li>
+        <li>Ethics: privacy issues with nano-sensors.</li>
+      </ul>
+
+      <h3>6. India in Nanotechnology</h3>
+      <ul>
+        <li>Nano Mission (2007): government initiative.</li>
+        <li>INST (Institute of Nano Science and Technology), Mohali.</li>
+        <li>Major research at IISc Bangalore, IITs, JNCASR.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>1 nanometre = 10⁻⁹ m.</li>
+        <li>Feynman: "Plenty of room at the bottom".</li>
+        <li>Carbon nanotubes are stronger than steel.</li>
+        <li>Graphene: single layer of carbon, super conductor + super strong.</li>
+        <li>Fullerene (C₆₀): "buckyball", 60 carbon atoms.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "1 nanometre =", opts: ["10⁻⁶ m", "10⁻⁹ m", "10⁻¹² m", "10⁻³ m"], a: 1, ex: "Nano = 10⁻⁹." },
+      { q: "Father of nanotechnology vision:", opts: ["Feynman", "Einstein", "Newton", "Curie"], a: 0, ex: "Richard Feynman 1959." },
+      { q: "Graphene is made of:", opts: ["Iron", "Carbon (single layer)", "Silicon", "Aluminium"], a: 1, ex: "Carbon hexagonal lattice." },
+      { q: "C₆₀ (buckyball) is form of:", opts: ["Diamond", "Carbon (fullerene)", "Graphite", "Silicon"], a: 1, ex: "60-carbon sphere." },
+      { q: "Carbon nanotubes are stronger than:", opts: ["Plastic", "Steel", "Wood", "All"], a: 3, ex: "100× stronger than steel." },
+      { q: "Sunscreen uses nano:", opts: ["Iron oxide", "Titanium / Zinc oxide", "Silver", "Carbon"], a: 1, ex: "TiO₂ / ZnO blocks UV." },
+      { q: "Nano silver in clothing:", opts: ["Looks shiny", "Antibacterial", "Heat resistant", "All"], a: 1, ex: "Antimicrobial property." },
+      { q: "Quantum dots used in:", opts: ["QLED displays", "Cooking", "Iron melting", "Walking"], a: 0, ex: "Colour-tunable LEDs." },
+      { q: "Nano size range:", opts: ["1-100 m", "1-100 mm", "1-100 μm", "1-100 nm"], a: 3, ex: "1-100 nanometres." },
+      { q: "Targeted cancer drug delivery uses:", opts: ["Macro particles", "Nanoparticles", "Wires", "Solid blocks"], a: 1, ex: "Nano can target cells." },
+      { q: "Term 'Nanotechnology' coined by:", opts: ["Feynman", "Taniguchi", "Drexler", "Smalley"], a: 1, ex: "Norio Taniguchi 1974." },
+      { q: "Graphene conducts electricity:", opts: ["Worse than copper", "Better than copper", "Same as wood", "Doesn't conduct"], a: 1, ex: "Better than copper." },
+      { q: "STM (Scanning Tunneling Microscope) developed in:", opts: ["1981", "1971", "1991", "2001"], a: 0, ex: "1981, Nobel 1986." },
+      { q: "Nano gold colour:", opts: ["Always yellow", "Red/purple", "Black", "Green"], a: 1, ex: "Nano scale → different colour." },
+      { q: "Nanotech in water:", opts: ["Makes water dirty", "Filtration", "Cannot be used", "Heats water"], a: 1, ex: "Nano-filters remove impurities." },
+      { q: "INST stands for:", opts: ["Indian Nano Society", "Institute of Nano Science and Technology", "Indian National Standard", "Industrial Nano System"], a: 1, ex: "INST Mohali." },
+      { q: "Discoverers of graphene won Nobel in:", opts: ["2004", "2010", "2015", "2020"], a: 1, ex: "Geim & Novoselov 2010." },
+      { q: "Higher surface area to volume ratio at nano scale means:", opts: ["Less reactive", "More reactive", "No change", "Smaller"], a: 1, ex: "More surface for reactions." },
+      { q: "Carbon nanotubes are:", opts: ["Solid carbon balls", "Hollow rolled graphene", "Plastic", "Metal sheets"], a: 1, ex: "Rolled-up graphene sheets." },
+      { q: "Indian nano initiative:", opts: ["Made in India", "Nano Mission", "Digital India", "Make in India"], a: 1, ex: "Nano Mission 2007." }
+    ]
+  };
+
 })();
