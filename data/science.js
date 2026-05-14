@@ -1967,4 +1967,883 @@
     ]
   };
 
+  // ═══════════════════════════════════════════════════════════════
+  // CHEMISTRY (14 topics)
+  // ═══════════════════════════════════════════════════════════════
+
+  // ───────────────────────────────────────────────────────────────
+  // 17. MATTER & ITS STATES
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-matter"] = {
+    body: `
+      <h2>Matter & Its States</h2>
+      <p><b>Matter</b> is anything that has mass and occupies space.</p>
+
+      <h3>1. Three Common States of Matter</h3>
+      <table>
+        <tr><th>Property</th><th>Solid</th><th>Liquid</th><th>Gas</th></tr>
+        <tr><td>Shape</td><td>Fixed</td><td>Takes shape of container</td><td>Fills container</td></tr>
+        <tr><td>Volume</td><td>Fixed</td><td>Fixed</td><td>Not fixed</td></tr>
+        <tr><td>Compressibility</td><td>Negligible</td><td>Slight</td><td>High</td></tr>
+        <tr><td>Density</td><td>Highest</td><td>Medium</td><td>Lowest</td></tr>
+        <tr><td>Intermolecular force</td><td>Strongest</td><td>Moderate</td><td>Weakest</td></tr>
+        <tr><td>Molecular motion</td><td>Vibrate in place</td><td>Move past each other</td><td>Free random motion</td></tr>
+      </table>
+
+      <h3>2. Other States</h3>
+      <ul>
+        <li><b>Plasma</b>: ionized gas — found in sun, stars, lightning, neon signs.</li>
+        <li><b>Bose-Einstein Condensate (BEC)</b>: at near absolute zero, atoms collapse into one quantum state. Predicted by Einstein, made in lab 1995.</li>
+      </ul>
+
+      <h3>3. Classification of Matter (Chemical)</h3>
+      <ul>
+        <li><b>Pure substances</b>: fixed composition.
+          <ul>
+            <li><b>Elements</b>: cannot be broken down (e.g., O, H, Fe). 118 known.</li>
+            <li><b>Compounds</b>: two or more elements chemically combined in fixed ratio (e.g., H₂O, CO₂).</li>
+          </ul>
+        </li>
+        <li><b>Mixtures</b>: physically combined.
+          <ul>
+            <li><b>Homogeneous</b>: uniform — solutions (salt water, air).</li>
+            <li><b>Heterogeneous</b>: non-uniform — sand+water, oil+water.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>4. Element vs Compound vs Mixture</h3>
+      <table>
+        <tr><th>Element</th><th>Compound</th><th>Mixture</th></tr>
+        <tr><td>One type of atom</td><td>Atoms of different elements bonded</td><td>Substances physically mixed</td></tr>
+        <tr><td>Cannot be broken (chemically)</td><td>Can be broken into elements</td><td>Can be separated physically</td></tr>
+        <tr><td>Fixed composition</td><td>Fixed composition</td><td>Variable composition</td></tr>
+        <tr><td>Iron, Oxygen</td><td>Water, CO₂</td><td>Air, Salt+sand</td></tr>
+      </table>
+
+      <h3>5. Physical vs Chemical Changes</h3>
+      <ul>
+        <li><b>Physical</b>: reversible, no new substance. Examples: melting ice, dissolving salt, cutting paper, evaporation.</li>
+        <li><b>Chemical</b>: new substance formed, often irreversible. Examples: burning paper, rusting iron, cooking food, digestion.</li>
+      </ul>
+
+      <h3>6. Separation Techniques</h3>
+      <ul>
+        <li><b>Filtration</b>: insoluble solid from liquid (sand + water).</li>
+        <li><b>Evaporation</b>: dissolved solid from liquid (salt from sea water).</li>
+        <li><b>Distillation</b>: liquids with different boiling points.</li>
+        <li><b>Sublimation</b>: solids that sublime from non-subliming (camphor from sand).</li>
+        <li><b>Chromatography</b>: separating components of a mixture (ink colours).</li>
+        <li><b>Magnetic separation</b>: iron from other materials.</li>
+        <li><b>Decantation</b>: pouring off liquid from settled solid.</li>
+        <li><b>Centrifugation</b>: dense from less dense (blood plasma from cells).</li>
+      </ul>
+
+      <h3>7. Properties of Matter</h3>
+      <ul>
+        <li><b>Mass</b>: amount of matter (constant).</li>
+        <li><b>Weight</b>: force of gravity (varies).</li>
+        <li><b>Volume</b>: space occupied.</li>
+        <li><b>Density</b>: mass per unit volume.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Plasma is most abundant state in universe (sun, stars).</li>
+        <li>Air is a homogeneous mixture (not compound).</li>
+        <li>Water is a compound (H + O bonded).</li>
+        <li>Ice, water, steam are 3 states of same compound (H₂O).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Matter has:", opts: ["Only mass", "Only volume", "Mass and volume", "Charge"], a: 2, ex: "Both mass and space." },
+      { q: "Most compressible state:", opts: ["Solid", "Liquid", "Gas", "Plasma"], a: 2, ex: "Gas — large gaps." },
+      { q: "State found in sun:", opts: ["Solid", "Liquid", "Gas", "Plasma"], a: 3, ex: "Plasma — ionized gas." },
+      { q: "Element:", opts: ["Water", "Salt", "Iron", "Air"], a: 2, ex: "Iron is element." },
+      { q: "Compound:", opts: ["Air", "Water", "Iron", "Brass"], a: 1, ex: "H₂O is compound." },
+      { q: "Mixture:", opts: ["Air", "H₂O", "NaCl", "Fe"], a: 0, ex: "Air = N₂ + O₂ + … mixed." },
+      { q: "Homogeneous mixture:", opts: ["Salt water", "Sand + water", "Oil + water", "Mud"], a: 0, ex: "Uniform." },
+      { q: "Physical change:", opts: ["Burning paper", "Rusting iron", "Melting ice", "Cooking"], a: 2, ex: "No new substance." },
+      { q: "Chemical change:", opts: ["Boiling water", "Tearing paper", "Burning wood", "Magnetizing"], a: 2, ex: "New substance formed." },
+      { q: "Separation of salt from sea water:", opts: ["Filtration", "Evaporation", "Distillation", "Sublimation"], a: 1, ex: "Boil off water." },
+      { q: "Separating ink colours:", opts: ["Distillation", "Chromatography", "Decantation", "Filtration"], a: 1, ex: "Chromatography." },
+      { q: "Iron from mixture:", opts: ["Magnetic separation", "Evaporation", "Filtration", "Sublimation"], a: 0, ex: "Magnetic." },
+      { q: "Camphor from sand:", opts: ["Filtration", "Sublimation", "Distillation", "Decantation"], a: 1, ex: "Camphor sublimes." },
+      { q: "BEC state at:", opts: ["High temperature", "Near absolute zero", "100°C", "Room temp"], a: 1, ex: "Near 0 K." },
+      { q: "Water is a:", opts: ["Element", "Compound", "Mixture", "Solution"], a: 1, ex: "H + O chemically bonded." },
+      { q: "Number of known elements:", opts: ["50", "92", "118", "200"], a: 2, ex: "118 in periodic table." },
+      { q: "Brass is:", opts: ["Element", "Compound", "Alloy/mixture", "Solid only"], a: 2, ex: "Cu + Zn alloy." },
+      { q: "Mass is:", opts: ["Force", "Amount of matter", "Volume", "Energy"], a: 1, ex: "Quantity of matter." },
+      { q: "Heterogeneous mixture:", opts: ["Air", "Salt water", "Oil + water", "Vinegar"], a: 2, ex: "Visible separate layers." },
+      { q: "Sublimation example:", opts: ["Ice melting", "Camphor → vapor", "Boiling", "Freezing"], a: 1, ex: "Solid → gas directly." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 18. CONCEPT OF CHANGE IN STATES
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-change-states"] = {
+    body: `
+      <h2>Concept of Change in States</h2>
+
+      <h3>1. Phase Transitions</h3>
+      <table>
+        <tr><th>Process</th><th>Direction</th></tr>
+        <tr><td>Melting / Fusion</td><td>Solid → Liquid</td></tr>
+        <tr><td>Freezing / Solidification</td><td>Liquid → Solid</td></tr>
+        <tr><td>Vaporization / Evaporation / Boiling</td><td>Liquid → Gas</td></tr>
+        <tr><td>Condensation</td><td>Gas → Liquid</td></tr>
+        <tr><td>Sublimation</td><td>Solid → Gas directly</td></tr>
+        <tr><td>Deposition</td><td>Gas → Solid directly</td></tr>
+        <tr><td>Ionization</td><td>Gas → Plasma</td></tr>
+        <tr><td>Recombination</td><td>Plasma → Gas</td></tr>
+      </table>
+
+      <h3>2. Melting & Freezing</h3>
+      <ul>
+        <li><b>Melting point</b>: temperature at which solid changes to liquid at 1 atm.</li>
+        <li>Pure ice melts at 0°C. Adding salt to ice lowers MP (used in ice cream makers).</li>
+        <li>Pressure decreases MP of ice (anomalous; usually pressure raises MP).</li>
+        <li>Pure substances have sharp MP. Mixtures have range.</li>
+      </ul>
+
+      <h3>3. Boiling & Condensation</h3>
+      <ul>
+        <li><b>Boiling point</b>: temperature at which vapor pressure of liquid equals atmospheric pressure.</li>
+        <li>Pure water boils at 100°C at sea level.</li>
+        <li>Lower atmospheric pressure → lower BP (Mt. Everest: ~70°C).</li>
+        <li>Pressure cooker increases BP → faster cooking.</li>
+        <li>Adding salt or impurity raises BP (elevation of BP).</li>
+      </ul>
+
+      <h3>4. Evaporation vs Boiling</h3>
+      <table>
+        <tr><th>Evaporation</th><th>Boiling</th></tr>
+        <tr><td>Surface phenomenon</td><td>Throughout liquid</td></tr>
+        <tr><td>At any temperature</td><td>Only at BP</td></tr>
+        <tr><td>Slow, no bubbles</td><td>Fast, bubbles</td></tr>
+        <tr><td>Cooling effect</td><td>Requires heat</td></tr>
+      </table>
+      <p>Factors affecting evaporation rate:</p>
+      <ul>
+        <li>Surface area (more area → faster).</li>
+        <li>Temperature (higher → faster).</li>
+        <li>Humidity (lower → faster).</li>
+        <li>Wind speed (more → faster).</li>
+      </ul>
+
+      <h3>5. Latent Heat</h3>
+      <ul>
+        <li>Heat absorbed/released during phase change at constant temperature.</li>
+        <li><b>Latent heat of fusion</b> (ice → water at 0°C): 334 J/g.</li>
+        <li><b>Latent heat of vaporization</b> (water → steam at 100°C): 2260 J/g.</li>
+        <li>That's why steam at 100°C burns more than boiling water at 100°C — extra 2260 J/g released when steam condenses on skin.</li>
+        <li>Sweating cools us: evaporation absorbs latent heat from body.</li>
+      </ul>
+
+      <h3>6. Sublimation</h3>
+      <ul>
+        <li>Direct transition solid → gas (skipping liquid).</li>
+        <li>Examples: dry ice (solid CO₂), camphor, naphthalene (mothballs), iodine, ammonium chloride.</li>
+        <li>Used in freeze-drying food.</li>
+      </ul>
+
+      <h3>7. Deposition</h3>
+      <ul>
+        <li>Direct gas → solid (frost formation on cold glass).</li>
+        <li>Used in semiconductor manufacturing (CVD).</li>
+      </ul>
+
+      <h3>8. Triple Point and Critical Point</h3>
+      <ul>
+        <li><b>Triple point</b>: unique T and P where all 3 states coexist. Water: 0.01°C and 0.006 atm.</li>
+        <li><b>Critical point</b>: beyond which liquid and gas become indistinguishable.</li>
+      </ul>
+
+      <h3>9. Anomalous Expansion of Water</h3>
+      <ul>
+        <li>Water expands from 4°C downward (instead of contracting).</li>
+        <li>Maximum density at 4°C.</li>
+        <li>Ice (920 kg/m³) less dense than water → floats.</li>
+        <li>Saves aquatic life in winter (water at 4°C at bottom).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Heat absorbed = latent heat (no temperature change during phase transition).</li>
+        <li>Sublimation: solid → gas. Examples: camphor, dry ice, naphthalene.</li>
+        <li>Adding salt: lowers melting point of ice (used in roads), raises boiling point.</li>
+        <li>Pressure cooker: more pressure → higher BP → faster cooking.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Solid → liquid is:", opts: ["Melting", "Freezing", "Vaporization", "Sublimation"], a: 0, ex: "Melting." },
+      { q: "Solid → gas directly:", opts: ["Melting", "Sublimation", "Condensation", "Deposition"], a: 1, ex: "Sublimation." },
+      { q: "Gas → solid directly:", opts: ["Sublimation", "Deposition", "Condensation", "Freezing"], a: 1, ex: "Deposition." },
+      { q: "Water boils at sea level:", opts: ["50°C", "75°C", "100°C", "150°C"], a: 2, ex: "100°C at 1 atm." },
+      { q: "Ice melts at:", opts: ["−10°C", "0°C", "10°C", "100°C"], a: 1, ex: "0°C." },
+      { q: "Sublimation example:", opts: ["Ice", "Camphor", "Salt", "Sugar"], a: 1, ex: "Camphor sublimes." },
+      { q: "Evaporation occurs:", opts: ["Only at boiling", "At all temperatures from surface", "Below freezing only", "In solids"], a: 1, ex: "Surface phenomenon." },
+      { q: "Steam burns worse than boiling water because:", opts: ["Steam hotter", "Latent heat released", "Steam is liquid", "Magic"], a: 1, ex: "2260 J/g extra energy." },
+      { q: "Sweating cools us by:", opts: ["Magic", "Evaporation absorbs heat", "Air conditioning", "Skin reflex"], a: 1, ex: "Latent heat absorbed." },
+      { q: "Dry ice is solid:", opts: ["Water", "CO₂", "N₂", "O₂"], a: 1, ex: "Solid carbon dioxide." },
+      { q: "Pressure cooker cooks faster because:", opts: ["More heat", "Higher pressure raises BP", "Magic", "Steam"], a: 1, ex: "BP higher → faster cooking." },
+      { q: "Water density max at:", opts: ["0°C", "4°C", "100°C", "−4°C"], a: 1, ex: "Anomalous; max at 4°C." },
+      { q: "Adding salt to ice:", opts: ["Raises MP", "Lowers MP", "No effect", "Vaporizes"], a: 1, ex: "Salt lowers MP." },
+      { q: "Naphthalene balls disappear by:", opts: ["Melting", "Evaporation", "Sublimation", "Deposition"], a: 2, ex: "Solid → gas." },
+      { q: "Frost on cold glass is:", opts: ["Sublimation", "Deposition", "Condensation", "Freezing"], a: 1, ex: "Gas → solid directly." },
+      { q: "Ice floats on water because:", opts: ["Lighter", "Ice less dense than water", "Surface tension", "Magic"], a: 1, ex: "Density ice < water." },
+      { q: "Latent heat of vaporization of water:", opts: ["100 J/g", "334 J/g", "2260 J/g", "4186 J/g"], a: 2, ex: "2260 J/g (high)." },
+      { q: "Evaporation faster when:", opts: ["Humid", "High wind", "Cold", "Closed"], a: 1, ex: "Wind carries away vapour." },
+      { q: "On Mt. Everest, water boils at:", opts: ["100°C", "70°C approx", "150°C", "Doesn't boil"], a: 1, ex: "Lower pressure → lower BP." },
+      { q: "Plasma is formed by:", opts: ["Cooling gas", "Ionizing gas", "Freezing liquid", "Compressing solid"], a: 1, ex: "High energy ionization." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 19. GAS LAWS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-gas-laws"] = {
+    body: `
+      <h2>Gas Laws</h2>
+      <p>Gas laws describe how gases respond to changes in pressure (P), volume (V), and temperature (T).</p>
+
+      <h3>1. Boyle's Law (1662)</h3>
+      <p>At constant temperature, volume of gas is inversely proportional to pressure.</p>
+      <p><b>PV = constant</b> (or P₁V₁ = P₂V₂)</p>
+      <p>Example: squeezing a balloon (V decreases, P increases).</p>
+
+      <h3>2. Charles's Law (1787)</h3>
+      <p>At constant pressure, volume of gas is directly proportional to absolute temperature.</p>
+      <p><b>V/T = constant</b> (or V₁/T₁ = V₂/T₂)</p>
+      <p>Example: hot air balloon rises because gas expands when heated.</p>
+
+      <h3>3. Gay-Lussac's Law</h3>
+      <p>At constant volume, pressure is directly proportional to absolute temperature.</p>
+      <p><b>P/T = constant</b></p>
+      <p>Example: tyre pressure increases on a hot day.</p>
+
+      <h3>4. Combined Gas Law</h3>
+      <p><b>PV/T = constant</b></p>
+
+      <h3>5. Avogadro's Law (1811)</h3>
+      <p>Equal volumes of all gases at same T and P contain equal number of molecules.</p>
+      <ul>
+        <li>At STP (0°C, 1 atm), 1 mole of any gas occupies <b>22.4 litres</b>.</li>
+        <li>Avogadro's number = 6.022 × 10²³ particles per mole.</li>
+      </ul>
+
+      <h3>6. Ideal Gas Law</h3>
+      <p><b>PV = nRT</b></p>
+      <ul>
+        <li>n = number of moles.</li>
+        <li>R = universal gas constant = 8.314 J/(mol·K).</li>
+        <li>T must be in Kelvin.</li>
+      </ul>
+
+      <h3>7. Standard Conditions</h3>
+      <ul>
+        <li><b>STP</b> (Standard Temperature and Pressure): 0°C (273.15 K) and 1 atm.</li>
+        <li><b>NTP</b> (Normal Temperature and Pressure): 20°C and 1 atm.</li>
+      </ul>
+
+      <h3>8. Dalton's Law of Partial Pressures</h3>
+      <p>Total pressure of a gas mixture = sum of partial pressures.</p>
+      <p>P_total = P₁ + P₂ + P₃ + …</p>
+      <p>Used in scuba diving (mixture of N₂ and O₂).</p>
+
+      <h3>9. Graham's Law of Diffusion</h3>
+      <p>Rate of diffusion of a gas is inversely proportional to square root of its molar mass.</p>
+      <p>rate ∝ 1/√M</p>
+      <p>Lighter gases (H₂, He) diffuse faster than heavier ones.</p>
+
+      <h3>10. Real vs Ideal Gas</h3>
+      <ul>
+        <li>Ideal gas: no intermolecular forces, point particles, perfectly elastic collisions.</li>
+        <li>Real gases deviate at high pressure and low temperature.</li>
+        <li>Van der Waals equation corrects for real gas behavior.</li>
+      </ul>
+
+      <h3>11. Kinetic Molecular Theory of Gases</h3>
+      <ul>
+        <li>Gas particles in constant random motion.</li>
+        <li>Particles have negligible volume.</li>
+        <li>No intermolecular forces.</li>
+        <li>Average KE proportional to absolute temperature.</li>
+        <li>Collisions are elastic.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Boyle's: P↑ → V↓ (constant T).</li>
+        <li>Charles's: T↑ → V↑ (constant P).</li>
+        <li>Gay-Lussac: T↑ → P↑ (constant V).</li>
+        <li>Always use Kelvin for temperature in gas laws.</li>
+        <li>1 mole gas at STP = 22.4 L.</li>
+        <li>Avogadro's number = 6.022 × 10²³.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Boyle's law: at constant T, V ∝ ?", opts: ["P", "1/P", "T", "1/T"], a: 1, ex: "V inversely proportional to P." },
+      { q: "Charles's law: at constant P, V ∝ ?", opts: ["P", "T", "1/T", "1/P"], a: 1, ex: "V directly proportional to T." },
+      { q: "Volume of 1 mole gas at STP:", opts: ["10 L", "22.4 L", "44 L", "1 L"], a: 1, ex: "22.4 litres." },
+      { q: "Avogadro's number:", opts: ["6.022 × 10²³", "9.8", "10²", "10⁻²³"], a: 0, ex: "6.022 × 10²³ /mol." },
+      { q: "Ideal gas equation:", opts: ["PV=nRT", "V=IR", "F=ma", "P=ρgh"], a: 0, ex: "PV = nRT." },
+      { q: "STP temperature:", opts: ["0°C", "20°C", "100°C", "25°C"], a: 0, ex: "0°C = 273.15 K." },
+      { q: "Lighter gas diffuses:", opts: ["Slower", "Faster", "Same", "None"], a: 1, ex: "Graham's law: rate ∝ 1/√M." },
+      { q: "Hot air rises because:", opts: ["Heat goes up", "Hot air less dense (Charles)", "Magic", "Wind"], a: 1, ex: "Volume increases → density decreases." },
+      { q: "Universal gas constant R:", opts: ["8.314 J/mol·K", "9.8 m/s²", "1.6×10⁻¹⁹ C", "6.6×10⁻¹¹"], a: 0, ex: "R = 8.314 J/(mol·K)." },
+      { q: "Tyre pressure increases on hot day due to:", opts: ["Boyle's", "Charles's", "Gay-Lussac's", "None"], a: 2, ex: "Constant V, T↑ → P↑." },
+      { q: "Equal volumes of all gases at same T,P contain:", opts: ["Different molecules", "Same number of molecules", "Same mass", "No molecules"], a: 1, ex: "Avogadro's law." },
+      { q: "1 mole CO₂ mass:", opts: ["28 g", "44 g", "16 g", "32 g"], a: 1, ex: "C(12)+O(16×2) = 44." },
+      { q: "Graham's law deals with:", opts: ["Pressure", "Diffusion", "Temperature", "Mass"], a: 1, ex: "Diffusion rate ∝ 1/√M." },
+      { q: "Dalton's law of partial pressures:", opts: ["Total = sum of partial", "Pressure constant", "Temp dependent", "Volume sum"], a: 0, ex: "P_total = ΣP_i." },
+      { q: "Kinetic theory: gas KE proportional to:", opts: ["Pressure", "Absolute temperature", "Volume", "Mass"], a: 1, ex: "KE_avg ∝ T (in K)." },
+      { q: "If P doubles at constant T, V:", opts: ["Doubles", "Halves", "Same", "Quadruples"], a: 1, ex: "Boyle's: PV = constant." },
+      { q: "If T doubles at constant P, V:", opts: ["Doubles", "Halves", "Same", "Quadruples"], a: 0, ex: "Charles's law." },
+      { q: "Real gas deviates from ideal at:", opts: ["High P, low T", "Low P, high T", "STP", "All same"], a: 0, ex: "Forces become significant." },
+      { q: "Mass of 1 mole H₂:", opts: ["1 g", "2 g", "16 g", "18 g"], a: 1, ex: "H = 1, H₂ = 2." },
+      { q: "Scuba divers use Dalton's law for:", opts: ["Heat", "Gas mixtures (N₂, O₂)", "Pressure", "Diffusion"], a: 1, ex: "Air mixture partial pressures." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 20. ATOMIC STRUCTURE
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-atomic-structure"] = {
+    body: `
+      <h2>Atomic Structure</h2>
+
+      <h3>1. Subatomic Particles</h3>
+      <table>
+        <tr><th>Particle</th><th>Charge</th><th>Mass</th><th>Location</th></tr>
+        <tr><td>Proton</td><td>+1</td><td>1 amu</td><td>Nucleus</td></tr>
+        <tr><td>Neutron</td><td>0</td><td>1 amu</td><td>Nucleus</td></tr>
+        <tr><td>Electron</td><td>−1</td><td>1/1836 amu</td><td>Shells around nucleus</td></tr>
+      </table>
+
+      <h3>2. Atomic Number, Mass Number, Isotopes</h3>
+      <ul>
+        <li><b>Atomic Number (Z)</b> = number of protons.</li>
+        <li><b>Mass Number (A)</b> = protons + neutrons.</li>
+        <li>Number of neutrons = A − Z.</li>
+        <li><b>Isotopes</b>: same Z, different A (same element, different mass).
+          <ul>
+            <li>Hydrogen: ¹H (Protium), ²H (Deuterium), ³H (Tritium).</li>
+            <li>Carbon: ¹²C (98.9%), ¹³C, ¹⁴C (radioactive).</li>
+            <li>Uranium: U-235, U-238.</li>
+          </ul>
+        </li>
+        <li><b>Isobars</b>: same A, different Z. Example: ⁴⁰K, ⁴⁰Ca, ⁴⁰Ar.</li>
+        <li><b>Isotones</b>: same number of neutrons.</li>
+      </ul>
+
+      <h3>3. Electron Configuration</h3>
+      <ul>
+        <li>Electrons in shells (K, L, M, N, …) and subshells (s, p, d, f).</li>
+        <li>Maximum electrons in nth shell: 2n².
+          <ul>
+            <li>K (n=1): 2</li>
+            <li>L (n=2): 8</li>
+            <li>M (n=3): 18</li>
+            <li>N (n=4): 32</li>
+          </ul>
+        </li>
+        <li>Outermost shell electrons = valence electrons → determine chemical properties.</li>
+      </ul>
+
+      <h3>4. Bohr's Atomic Model (1913)</h3>
+      <ul>
+        <li>Electrons revolve in fixed orbits with quantized energy.</li>
+        <li>No energy emitted in an orbit.</li>
+        <li>Energy absorbed/emitted only during transitions between orbits.</li>
+        <li>E_n = −13.6/n² eV for hydrogen.</li>
+        <li>Successful in explaining hydrogen spectrum.</li>
+      </ul>
+
+      <h3>5. Modern Quantum Mechanical Model</h3>
+      <ul>
+        <li>Electrons are in orbitals (probability clouds), not fixed paths.</li>
+        <li>Heisenberg's uncertainty: cannot know both position and momentum exactly.</li>
+        <li>Schrödinger wave equation describes electron behavior.</li>
+        <li>Four quantum numbers describe each electron:
+          <ul>
+            <li>Principal (n): shell.</li>
+            <li>Azimuthal (l): subshell s, p, d, f.</li>
+            <li>Magnetic (m): orientation.</li>
+            <li>Spin (s): ±½.</li>
+          </ul>
+        </li>
+        <li>Pauli's exclusion principle: no two electrons in an atom can have same set of 4 quantum numbers.</li>
+        <li>Hund's rule: electrons fill orbitals singly before pairing.</li>
+        <li>Aufbau principle: lower energy orbitals filled first.</li>
+      </ul>
+
+      <h3>6. Order of Filling (Aufbau)</h3>
+      <p>1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d</p>
+
+      <h3>7. Important Subshells</h3>
+      <table>
+        <tr><th>Subshell</th><th>Max electrons</th></tr>
+        <tr><td>s</td><td>2</td></tr>
+        <tr><td>p</td><td>6</td></tr>
+        <tr><td>d</td><td>10</td></tr>
+        <tr><td>f</td><td>14</td></tr>
+      </table>
+
+      <h3>8. Valence Electrons and Reactivity</h3>
+      <ul>
+        <li>Atoms gain/lose/share electrons to attain stable configuration (usually 8 outer electrons — octet rule).</li>
+        <li>Metals lose electrons → cations.</li>
+        <li>Non-metals gain electrons → anions.</li>
+        <li>Noble gases (group 18): full outer shell → very stable, mostly unreactive.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Atomic number = protons = electrons (in neutral atom).</li>
+        <li>Mass mostly in nucleus (electrons are very light).</li>
+        <li>Isotopes have same chemical properties but different physical (mass).</li>
+        <li>Carbon-14: used in carbon dating; half-life ~5730 years.</li>
+        <li>Noble gases have full outer shell — very stable.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Protons + neutrons = ?", opts: ["Atomic number", "Mass number", "Valence", "Electron count"], a: 1, ex: "Mass number A." },
+      { q: "Maximum electrons in L shell:", opts: ["2", "8", "18", "32"], a: 1, ex: "2n² = 2×4 = 8." },
+      { q: "Maximum electrons in M shell:", opts: ["2", "8", "18", "32"], a: 2, ex: "2×9 = 18." },
+      { q: "Maximum electrons in p subshell:", opts: ["2", "6", "10", "14"], a: 1, ex: "p holds 6." },
+      { q: "Discoverer of nucleus:", opts: ["Bohr", "Rutherford", "Thomson", "Chadwick"], a: 1, ex: "Gold foil experiment." },
+      { q: "Isotopes have same:", opts: ["Mass", "Protons (Z)", "Neutrons", "Electrons charge"], a: 1, ex: "Same Z." },
+      { q: "Deuterium is isotope of:", opts: ["Helium", "Carbon", "Hydrogen", "Oxygen"], a: 2, ex: "²H." },
+      { q: "Bohr's model explained:", opts: ["Hydrogen spectrum", "Photoelectric effect", "Diffraction", "Friction"], a: 0, ex: "Quantized orbits." },
+      { q: "Pauli's exclusion:", opts: ["No 2 electrons same quantum numbers", "Same atom", "Same mass", "Same charge"], a: 0, ex: "Unique state." },
+      { q: "Aufbau principle:", opts: ["Fill highest first", "Fill lowest energy first", "Random fill", "Fill outer first"], a: 1, ex: "Build up bottom-up." },
+      { q: "Hund's rule:", opts: ["Pair first", "Fill singly first", "No pairing", "Highest first"], a: 1, ex: "Singly fill orbital, then pair." },
+      { q: "Valence electrons of Sodium (Na):", opts: ["1", "2", "7", "8"], a: 0, ex: "Na = 2, 8, 1." },
+      { q: "Noble gases have:", opts: ["Full outer shell", "Empty shell", "1 electron", "Odd"], a: 0, ex: "Stable octet (or duet for He)." },
+      { q: "U-235 and U-238:", opts: ["Isotopes", "Isobars", "Isotones", "Same atom"], a: 0, ex: "Isotopes of U." },
+      { q: "Heisenberg's uncertainty:", opts: ["Position and momentum", "Energy and time", "Both A and B", "Mass and energy"], a: 2, ex: "Two pairs." },
+      { q: "Bohr's energy formula for H:", opts: ["E_n = −13.6/n²", "E = mc²", "E = h", "E = mgh"], a: 0, ex: "−13.6/n² eV." },
+      { q: "C-14 used in:", opts: ["Energy", "Carbon dating", "Photosynthesis", "Calorimetry"], a: 1, ex: "Dating organic remains." },
+      { q: "Electron in 2s subshell:", opts: ["Max 2", "Max 6", "Max 8", "Max 10"], a: 0, ex: "s holds 2." },
+      { q: "Maximum f subshell electrons:", opts: ["6", "10", "14", "18"], a: 2, ex: "f holds 14." },
+      { q: "Schrödinger equation describes:", opts: ["Light", "Electron wave function", "Heat", "Sound"], a: 1, ex: "Wave nature of electron." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 21. PERIODIC TABLE
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-periodic"] = {
+    body: `
+      <h2>Periodic Table</h2>
+
+      <h3>1. History</h3>
+      <ul>
+        <li><b>Mendeleev (1869)</b>: arranged elements by atomic mass; left gaps for undiscovered elements (predicted gallium, germanium correctly).</li>
+        <li><b>Modern (Moseley 1913)</b>: arranged by atomic number, not mass. Periodic law: properties of elements are periodic function of atomic number.</li>
+      </ul>
+
+      <h3>2. Structure</h3>
+      <ul>
+        <li><b>Periods (rows)</b>: 7 periods. Number = number of shells.</li>
+        <li><b>Groups (columns)</b>: 18 groups (or families).</li>
+        <li>Elements in same group have similar chemical properties (same valence electrons).</li>
+      </ul>
+
+      <h3>3. Major Groups (Families)</h3>
+      <table>
+        <tr><th>Group</th><th>Name</th><th>Examples</th></tr>
+        <tr><td>1</td><td>Alkali metals</td><td>Li, Na, K, Rb, Cs, Fr</td></tr>
+        <tr><td>2</td><td>Alkaline earth metals</td><td>Be, Mg, Ca, Sr, Ba, Ra</td></tr>
+        <tr><td>3-12</td><td>Transition metals</td><td>Fe, Cu, Zn, Au, Ag, Pt</td></tr>
+        <tr><td>13</td><td>Boron family</td><td>B, Al, Ga, In, Tl</td></tr>
+        <tr><td>14</td><td>Carbon family</td><td>C, Si, Ge, Sn, Pb</td></tr>
+        <tr><td>15</td><td>Nitrogen family / Pnictogens</td><td>N, P, As, Sb, Bi</td></tr>
+        <tr><td>16</td><td>Chalcogens / Oxygen family</td><td>O, S, Se, Te, Po</td></tr>
+        <tr><td>17</td><td>Halogens</td><td>F, Cl, Br, I, At</td></tr>
+        <tr><td>18</td><td>Noble gases</td><td>He, Ne, Ar, Kr, Xe, Rn</td></tr>
+      </table>
+
+      <h3>4. Other Important Sets</h3>
+      <ul>
+        <li><b>Lanthanides</b>: 57-71 (rare earth metals).</li>
+        <li><b>Actinides</b>: 89-103 (all radioactive).</li>
+        <li><b>Metalloids</b>: B, Si, Ge, As, Sb, Te, Po — properties between metals and non-metals.</li>
+        <li><b>Radioactive natural</b>: Tc, Pm, all actinides, also Po, Ra, Rn.</li>
+      </ul>
+
+      <h3>5. Periodic Trends</h3>
+
+      <h4>Atomic Radius</h4>
+      <ul>
+        <li>Decreases <b>left to right</b> in a period (more protons pull electrons in).</li>
+        <li>Increases <b>top to bottom</b> in a group (more shells).</li>
+      </ul>
+
+      <h4>Ionization Energy</h4>
+      <ul>
+        <li>Energy to remove an electron from gaseous atom.</li>
+        <li>Increases left to right.</li>
+        <li>Decreases top to bottom.</li>
+        <li>Highest: F, He; Lowest: Cs (or Fr).</li>
+      </ul>
+
+      <h4>Electronegativity</h4>
+      <ul>
+        <li>Tendency to attract shared electrons.</li>
+        <li>Highest: Fluorine (4.0 on Pauling scale).</li>
+        <li>Increases left to right; decreases top to bottom.</li>
+      </ul>
+
+      <h4>Metallic Character</h4>
+      <ul>
+        <li>Decreases left to right.</li>
+        <li>Increases top to bottom.</li>
+        <li>Cs is most metallic; F is least.</li>
+      </ul>
+
+      <h4>Non-metallic Character</h4>
+      <ul>
+        <li>Opposite of metallic.</li>
+        <li>F is most non-metallic.</li>
+      </ul>
+
+      <h3>6. Key Element Trivia</h3>
+      <ul>
+        <li><b>Hydrogen</b>: only element placed alone (unique). Symbol H, lightest element.</li>
+        <li><b>Helium</b>: 2nd most abundant in universe.</li>
+        <li><b>Carbon</b>: basis of all life; many allotropes (diamond, graphite, fullerene, graphene).</li>
+        <li><b>Nitrogen</b>: most abundant in air (78%).</li>
+        <li><b>Oxygen</b>: ~21% of air; vital for respiration.</li>
+        <li><b>Sodium</b>: most reactive alkali metal in common use (reacts violently with water).</li>
+        <li><b>Mercury</b>: only metal liquid at room temperature.</li>
+        <li><b>Bromine</b>: only non-metal liquid at room temperature.</li>
+        <li><b>Gold</b>: most malleable and ductile metal.</li>
+        <li><b>Iron</b>: most-used metal; magnetic.</li>
+        <li><b>Silver</b>: best electrical conductor.</li>
+        <li><b>Aluminium</b>: most abundant metal in earth's crust.</li>
+        <li><b>Oxygen</b>: most abundant element in earth's crust.</li>
+        <li><b>Diamond</b>: hardest natural substance.</li>
+        <li><b>Tungsten</b>: highest melting point (3422°C) — used in bulb filaments.</li>
+        <li><b>Osmium</b>: densest natural element.</li>
+        <li><b>Caesium</b>: most reactive metal; ignites in air.</li>
+        <li><b>Fluorine</b>: most reactive non-metal.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Mendeleev arranged by mass; modern table by atomic number.</li>
+        <li>Group 1 = alkali metals; Group 17 = halogens; Group 18 = noble gases.</li>
+        <li>F (fluorine) is most electronegative.</li>
+        <li>Mercury and Bromine are only elements liquid at room temp.</li>
+        <li>Carbon has most allotropes.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Modern periodic table arranged by:", opts: ["Atomic mass", "Atomic number", "Density", "Alphabetical"], a: 1, ex: "Moseley." },
+      { q: "Number of periods:", opts: ["5", "6", "7", "8"], a: 2, ex: "7 periods." },
+      { q: "Number of groups:", opts: ["7", "8", "18", "32"], a: 2, ex: "18 groups." },
+      { q: "Group 17 elements:", opts: ["Alkali metals", "Halogens", "Noble gases", "Transition"], a: 1, ex: "Halogens (F, Cl, Br, I)." },
+      { q: "Group 18 elements:", opts: ["Alkali", "Halogens", "Noble gases", "Transition"], a: 2, ex: "Noble gases." },
+      { q: "Most electronegative element:", opts: ["F", "O", "Cl", "N"], a: 0, ex: "Fluorine = 4.0." },
+      { q: "Most abundant gas in air:", opts: ["O₂", "N₂", "CO₂", "Ar"], a: 1, ex: "N₂ ~78%." },
+      { q: "Most abundant element in earth's crust:", opts: ["Iron", "Oxygen", "Silicon", "Aluminium"], a: 1, ex: "O ~46%." },
+      { q: "Most abundant metal in earth's crust:", opts: ["Iron", "Aluminium", "Copper", "Zinc"], a: 1, ex: "Al ~8%." },
+      { q: "Only liquid metal at room temp:", opts: ["Hg", "Br", "Na", "K"], a: 0, ex: "Mercury." },
+      { q: "Only liquid non-metal at room temp:", opts: ["Hg", "Br", "Cl", "I"], a: 1, ex: "Bromine." },
+      { q: "Hardest natural substance:", opts: ["Iron", "Diamond", "Steel", "Quartz"], a: 1, ex: "Diamond." },
+      { q: "Highest melting point:", opts: ["Tungsten", "Iron", "Carbon", "Platinum"], a: 0, ex: "W = 3422°C." },
+      { q: "Most reactive non-metal:", opts: ["O", "F", "Cl", "N"], a: 1, ex: "Fluorine." },
+      { q: "Most reactive metal:", opts: ["Na", "K", "Cs", "Li"], a: 2, ex: "Caesium (most among practical)." },
+      { q: "Best electrical conductor:", opts: ["Cu", "Ag", "Au", "Al"], a: 1, ex: "Silver (then Cu)." },
+      { q: "Mendeleev arranged by:", opts: ["Atomic number", "Atomic mass", "Density", "Color"], a: 1, ex: "Mass; Moseley fixed to number." },
+      { q: "Group 1 metals:", opts: ["Alkali", "Alkaline earth", "Transition", "Halogen"], a: 0, ex: "Na, K, etc." },
+      { q: "Lanthanides + actinides are:", opts: ["Rare earths", "Noble gases", "Halogens", "Alkali"], a: 0, ex: "Rare earth elements." },
+      { q: "Hydrogen position is:", opts: ["Group 1", "Group 17", "Both / unique", "Group 18"], a: 2, ex: "Unique; shares properties of both." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 22. METALS & NON-METALS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-metals"] = {
+    body: `
+      <h2>Metals & Non-Metals</h2>
+
+      <h3>1. Properties Comparison</h3>
+      <table>
+        <tr><th>Property</th><th>Metals</th><th>Non-Metals</th></tr>
+        <tr><td>Physical state</td><td>Solid (except Hg)</td><td>Solid, liquid, or gas</td></tr>
+        <tr><td>Lustre</td><td>Shiny</td><td>Dull (except I₂, graphite)</td></tr>
+        <tr><td>Conductivity</td><td>Good (heat, electricity)</td><td>Poor (except graphite)</td></tr>
+        <tr><td>Malleability</td><td>Malleable (can be hammered)</td><td>Brittle</td></tr>
+        <tr><td>Ductility</td><td>Ductile (drawn into wires)</td><td>Non-ductile</td></tr>
+        <tr><td>Density</td><td>Generally high (except Li, Na)</td><td>Low</td></tr>
+        <tr><td>Melting point</td><td>High (except Hg, Ga, Cs)</td><td>Low (except C, B, Si)</td></tr>
+        <tr><td>Sonority</td><td>Sonorous (rings when struck)</td><td>Not sonorous</td></tr>
+        <tr><td>Reaction with O₂</td><td>Form basic oxides</td><td>Form acidic oxides</td></tr>
+        <tr><td>Electron behavior</td><td>Lose electrons (cations)</td><td>Gain electrons (anions)</td></tr>
+      </table>
+
+      <h3>2. Reactivity Series of Metals</h3>
+      <p>Most reactive to least: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au</p>
+      <p>Mnemonic: "<b>P</b>otatoes <b>S</b>hould <b>C</b>ome <b>M</b>ashed <b>A</b>nd <b>Z</b>esty, <b>F</b>or <b>L</b>ittle <b>H</b>ungry <b>C</b>hildren <b>M</b>ay <b>S</b>avor <b>A</b>nd <b>P</b>raise."</p>
+      <ul>
+        <li>Metals above H react with dilute acids to release H₂.</li>
+        <li>Metals below H don't react with dilute acids.</li>
+        <li>Gold and platinum don't even react with concentrated acids alone (need aqua regia).</li>
+      </ul>
+
+      <h3>3. Important Metals</h3>
+      <ul>
+        <li><b>Iron (Fe)</b>: most-used metal; rusts; used in construction, machinery.</li>
+        <li><b>Aluminium (Al)</b>: light, corrosion-resistant; cans, aircraft, foil.</li>
+        <li><b>Copper (Cu)</b>: excellent conductor; wires, coins.</li>
+        <li><b>Gold (Au)</b>: jewellery; most malleable.</li>
+        <li><b>Silver (Ag)</b>: jewellery, photography, best conductor.</li>
+        <li><b>Mercury (Hg)</b>: liquid metal; thermometers (being phased out).</li>
+        <li><b>Sodium (Na)</b>: stored in kerosene (reacts violently with water).</li>
+        <li><b>Potassium (K)</b>: stored in kerosene.</li>
+        <li><b>Tungsten (W)</b>: highest MP; bulb filaments.</li>
+        <li><b>Lead (Pb)</b>: dense, soft; battery, X-ray shielding.</li>
+        <li><b>Zinc (Zn)</b>: galvanizing iron (prevents rust).</li>
+        <li><b>Calcium (Ca)</b>: bones, teeth, cement.</li>
+        <li><b>Platinum (Pt)</b>: catalyst, jewellery.</li>
+      </ul>
+
+      <h3>4. Important Non-Metals</h3>
+      <ul>
+        <li><b>Carbon (C)</b>: basis of organic chemistry; allotropes: diamond, graphite, fullerene, graphene.</li>
+        <li><b>Hydrogen (H)</b>: lightest element; rocket fuel, refining.</li>
+        <li><b>Oxygen (O)</b>: respiration, combustion.</li>
+        <li><b>Nitrogen (N)</b>: 78% of air; fertilizers, food preservation.</li>
+        <li><b>Sulfur (S)</b>: gunpowder, vulcanization of rubber, fertilizer.</li>
+        <li><b>Phosphorus (P)</b>: matches, fertilizers; DNA/RNA backbone.</li>
+        <li><b>Chlorine (Cl)</b>: bleach, water purification.</li>
+        <li><b>Iodine (I)</b>: antiseptic, thyroid; only sublimable halogen.</li>
+        <li><b>Silicon (Si)</b>: chips, glass, sand.</li>
+      </ul>
+
+      <h3>5. Alloys (Mixtures of Metals)</h3>
+      <table>
+        <tr><th>Alloy</th><th>Composition</th><th>Use</th></tr>
+        <tr><td>Brass</td><td>Cu + Zn</td><td>Decoration, instruments</td></tr>
+        <tr><td>Bronze</td><td>Cu + Sn</td><td>Statues, coins</td></tr>
+        <tr><td>Steel</td><td>Fe + C</td><td>Construction</td></tr>
+        <tr><td>Stainless Steel</td><td>Fe + Cr + Ni + C</td><td>Utensils, surgical</td></tr>
+        <tr><td>Solder</td><td>Pb + Sn</td><td>Joining wires</td></tr>
+        <tr><td>Duralumin</td><td>Al + Cu + Mg</td><td>Aircraft</td></tr>
+        <tr><td>Magnalium</td><td>Al + Mg</td><td>Aircraft, optical</td></tr>
+        <tr><td>German Silver</td><td>Cu + Zn + Ni</td><td>Coins, utensils (no silver!)</td></tr>
+        <tr><td>Amalgam</td><td>Hg + other metal</td><td>Dental fillings</td></tr>
+        <tr><td>Gunmetal</td><td>Cu + Sn + Zn</td><td>Bearings</td></tr>
+        <tr><td>22 carat gold</td><td>Au + Cu (small)</td><td>Jewellery</td></tr>
+        <tr><td>Constantan</td><td>Cu + Ni</td><td>Resistors</td></tr>
+        <tr><td>Nichrome</td><td>Ni + Cr + Fe</td><td>Heating elements</td></tr>
+      </table>
+
+      <h3>6. Corrosion</h3>
+      <ul>
+        <li><b>Rusting</b> of iron: Fe + O₂ + H₂O → Fe₂O₃·xH₂O (hydrated iron oxide).</li>
+        <li>Prevented by: galvanizing (Zn coating), painting, oiling, electroplating.</li>
+        <li>Aluminium: forms thin Al₂O₃ layer → corrosion-resistant naturally.</li>
+        <li>Copper: green patina (basic copper carbonate).</li>
+        <li>Silver: black tarnish (Ag₂S from air sulfur).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Hg is only liquid metal at room temp.</li>
+        <li>Iron rusts → galvanize with zinc.</li>
+        <li>Aqua regia: 3 HCl + 1 HNO₃ — dissolves gold and platinum.</li>
+        <li>Mendeleev predicted gallium (eka-aluminium) and germanium accurately.</li>
+        <li>Brass = Cu + Zn; Bronze = Cu + Sn.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Only liquid metal:", opts: ["Hg", "Br", "Ga", "Cs"], a: 0, ex: "Mercury." },
+      { q: "Most ductile metal:", opts: ["Cu", "Au", "Ag", "Pt"], a: 1, ex: "Gold." },
+      { q: "Best electrical conductor:", opts: ["Cu", "Ag", "Au", "Al"], a: 1, ex: "Silver." },
+      { q: "Aqua regia is mixture of:", opts: ["HCl + H₂SO₄", "HNO₃ + HCl (1:3)", "Water + HCl", "Acid + base"], a: 1, ex: "3 HCl + 1 HNO₃." },
+      { q: "Rusting needs:", opts: ["Only water", "Only oxygen", "Water + oxygen", "Only sun"], a: 2, ex: "Both required." },
+      { q: "Brass is alloy of:", opts: ["Cu + Sn", "Cu + Zn", "Fe + C", "Ni + Cr"], a: 1, ex: "Cu + Zn." },
+      { q: "Bronze is alloy of:", opts: ["Cu + Sn", "Cu + Zn", "Fe + C", "Cu + Ni"], a: 0, ex: "Cu + Sn." },
+      { q: "Stainless steel contains:", opts: ["Fe + C only", "Fe + Cr + Ni", "Cu + Ni", "Ni alone"], a: 1, ex: "Cr makes it stainless." },
+      { q: "Most reactive metal:", opts: ["Na", "K", "Cs", "Li"], a: 2, ex: "Caesium." },
+      { q: "Least reactive metal:", opts: ["Fe", "Cu", "Au", "Hg"], a: 2, ex: "Gold (noble metal)." },
+      { q: "Sodium is stored in:", opts: ["Water", "Air", "Kerosene", "Acid"], a: 2, ex: "Reacts violently with air/water." },
+      { q: "Galvanization is coating of:", opts: ["Iron with zinc", "Iron with copper", "Iron with gold", "Zinc with iron"], a: 0, ex: "Zn on Fe prevents rust." },
+      { q: "Allotrope of carbon:", opts: ["Diamond", "Graphite", "Fullerene", "All correct"], a: 3, ex: "All forms of C." },
+      { q: "Bulb filament made of:", opts: ["Cu", "Fe", "Tungsten", "Aluminium"], a: 2, ex: "W = high MP." },
+      { q: "Silver tarnishes due to:", opts: ["Oxygen", "Sulfur in air → Ag₂S", "Water", "Carbon"], a: 1, ex: "Black silver sulfide." },
+      { q: "Iodine is which group:", opts: ["Halogen", "Alkali", "Noble gas", "Transition"], a: 0, ex: "Group 17." },
+      { q: "Most malleable metal:", opts: ["Au", "Ag", "Cu", "Fe"], a: 0, ex: "Gold." },
+      { q: "Nichrome (heating element) contains:", opts: ["Ni + Cr + Fe", "Cu + Sn", "Ni only", "Fe + C"], a: 0, ex: "Resistive alloy." },
+      { q: "German silver contains:", opts: ["Silver", "Cu + Zn + Ni (no Ag)", "Only Ni", "Ag + Cu"], a: 1, ex: "Misnomer — no silver." },
+      { q: "Aluminium doesn't corrode because:", opts: ["Pure", "Forms Al₂O₃ layer", "Hard", "Light"], a: 1, ex: "Oxide layer protects." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 23. ACIDS, BASES & SALTS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-acids-bases"] = {
+    body: `
+      <h2>Acids, Bases & Salts</h2>
+
+      <h3>1. Acids</h3>
+      <ul>
+        <li>Substance that releases H⁺ ions in water.</li>
+        <li>Sour in taste (lemon, vinegar).</li>
+        <li>Turn blue litmus red.</li>
+        <li>pH < 7.</li>
+        <li>React with metals to release H₂ gas.</li>
+        <li>React with carbonates to release CO₂.</li>
+      </ul>
+
+      <h4>Common Acids</h4>
+      <table>
+        <tr><th>Acid</th><th>Formula</th><th>Source/Use</th></tr>
+        <tr><td>Hydrochloric acid</td><td>HCl</td><td>Gastric juice, cleaning</td></tr>
+        <tr><td>Sulfuric acid</td><td>H₂SO₄</td><td>"King of chemicals"; batteries, fertilizers</td></tr>
+        <tr><td>Nitric acid</td><td>HNO₃</td><td>Fertilizers, explosives</td></tr>
+        <tr><td>Carbonic acid</td><td>H₂CO₃</td><td>Soft drinks, rain</td></tr>
+        <tr><td>Acetic acid</td><td>CH₃COOH</td><td>Vinegar (5-8% in water)</td></tr>
+        <tr><td>Citric acid</td><td>C₆H₈O₇</td><td>Citrus fruits</td></tr>
+        <tr><td>Lactic acid</td><td>—</td><td>Curd, sour milk</td></tr>
+        <tr><td>Tartaric acid</td><td>—</td><td>Tamarind, grapes</td></tr>
+        <tr><td>Oxalic acid</td><td>—</td><td>Spinach, tomato, rhubarb</td></tr>
+        <tr><td>Formic acid</td><td>HCOOH</td><td>Ant sting, nettle sting</td></tr>
+        <tr><td>Malic acid</td><td>—</td><td>Apple</td></tr>
+        <tr><td>Phosphoric acid</td><td>H₃PO₄</td><td>Cola drinks</td></tr>
+      </table>
+
+      <h3>2. Bases</h3>
+      <ul>
+        <li>Substance that releases OH⁻ ions in water.</li>
+        <li>Bitter, soapy feel.</li>
+        <li>Turn red litmus blue.</li>
+        <li>pH > 7.</li>
+        <li><b>Alkali</b> = water-soluble base.</li>
+      </ul>
+
+      <h4>Common Bases</h4>
+      <table>
+        <tr><th>Base</th><th>Formula</th><th>Use</th></tr>
+        <tr><td>Sodium hydroxide (Caustic soda)</td><td>NaOH</td><td>Soap, paper, drain cleaner</td></tr>
+        <tr><td>Potassium hydroxide</td><td>KOH</td><td>Soaps, batteries</td></tr>
+        <tr><td>Calcium hydroxide (Slaked lime)</td><td>Ca(OH)₂</td><td>Whitewash, plaster</td></tr>
+        <tr><td>Magnesium hydroxide (Milk of magnesia)</td><td>Mg(OH)₂</td><td>Antacid</td></tr>
+        <tr><td>Ammonium hydroxide</td><td>NH₄OH</td><td>Cleaning, fertilizers</td></tr>
+      </table>
+
+      <h3>3. pH Scale (0 to 14)</h3>
+      <ul>
+        <li>pH = −log[H⁺].</li>
+        <li>pH 7 = neutral (pure water).</li>
+        <li>pH < 7 = acidic (lower = stronger).</li>
+        <li>pH > 7 = basic.</li>
+        <li>Each unit = 10x change.</li>
+      </ul>
+
+      <h4>pH of Common Substances</h4>
+      <table>
+        <tr><th>Substance</th><th>pH</th></tr>
+        <tr><td>Battery acid</td><td>0-1</td></tr>
+        <tr><td>Gastric juice</td><td>1.5</td></tr>
+        <tr><td>Lemon juice</td><td>2</td></tr>
+        <tr><td>Vinegar</td><td>2.5-3.5</td></tr>
+        <tr><td>Coffee, tomato</td><td>4-5</td></tr>
+        <tr><td>Milk</td><td>6.5</td></tr>
+        <tr><td>Pure water, blood</td><td>7 / 7.4</td></tr>
+        <tr><td>Baking soda solution</td><td>9</td></tr>
+        <tr><td>Soap</td><td>9-10</td></tr>
+        <tr><td>Milk of magnesia</td><td>10</td></tr>
+        <tr><td>Ammonia</td><td>11-12</td></tr>
+        <tr><td>Bleach</td><td>13</td></tr>
+        <tr><td>Lye (NaOH)</td><td>14</td></tr>
+      </table>
+
+      <h3>4. Neutralization</h3>
+      <p>Acid + Base → Salt + Water (heat released).</p>
+      <p>HCl + NaOH → NaCl + H₂O</p>
+      <p>Applications:</p>
+      <ul>
+        <li>Antacid (Mg(OH)₂) neutralizes excess stomach acid.</li>
+        <li>Bee sting (acidic) treated with baking soda.</li>
+        <li>Wasp sting (alkaline) treated with vinegar.</li>
+        <li>Acidic soil treated with lime.</li>
+        <li>Toothpaste (basic) neutralizes acids from food.</li>
+      </ul>
+
+      <h3>5. Salts</h3>
+      <ul>
+        <li>Compounds formed when acid reacts with base.</li>
+        <li>Examples:
+          <ul>
+            <li>NaCl (sodium chloride): common table salt.</li>
+            <li>KNO₃ (potassium nitrate): gunpowder, saltpeter.</li>
+            <li>NaHCO₃: baking soda.</li>
+            <li>Na₂CO₃: washing soda.</li>
+            <li>CaSO₄·2H₂O: gypsum.</li>
+            <li>CaOCl₂: bleaching powder.</li>
+            <li>CuSO₄·5H₂O: blue vitriol.</li>
+            <li>FeSO₄·7H₂O: green vitriol.</li>
+            <li>(NH₄)₂SO₄: ammonium sulfate (fertilizer).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>6. Indicators</h3>
+      <ul>
+        <li><b>Litmus</b>: red ↔ blue.</li>
+        <li><b>Phenolphthalein</b>: colorless in acid; pink in base.</li>
+        <li><b>Methyl orange</b>: red in acid; yellow in base.</li>
+        <li><b>Turmeric</b>: yellow → red in base (like in haldi).</li>
+        <li><b>Red cabbage</b>: natural indicator with many colours.</li>
+      </ul>
+
+      <h3>7. Strong vs Weak</h3>
+      <ul>
+        <li>Strong acid: fully dissociates (HCl, H₂SO₄, HNO₃).</li>
+        <li>Weak acid: partial dissociation (CH₃COOH, citric).</li>
+        <li>Strong base: NaOH, KOH.</li>
+        <li>Weak base: NH₄OH.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>H₂SO₄ called "King of Chemicals".</li>
+        <li>Vinegar = acetic acid; Curd = lactic acid; Ant sting = formic acid.</li>
+        <li>Blood pH = 7.35-7.45 (slightly basic).</li>
+        <li>Baking soda (NaHCO₃) is weakly basic — neutralizes stomach acid.</li>
+        <li>Antacids contain Mg(OH)₂ or Al(OH)₃.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "pH 7 means:", opts: ["Acidic", "Basic", "Neutral", "Salt"], a: 2, ex: "Neutral." },
+      { q: "Acid in vinegar:", opts: ["Citric", "Acetic", "Lactic", "Tartaric"], a: 1, ex: "Acetic (CH₃COOH)." },
+      { q: "Acid in lemon:", opts: ["Citric", "Acetic", "Lactic", "Formic"], a: 0, ex: "Citric acid." },
+      { q: "Acid in curd:", opts: ["Acetic", "Lactic", "Citric", "Oxalic"], a: 1, ex: "Lactic acid." },
+      { q: "Acid in ant sting:", opts: ["Acetic", "Formic", "Citric", "Lactic"], a: 1, ex: "Formic acid." },
+      { q: "Strong acid:", opts: ["CH₃COOH", "HCl", "Citric", "Lactic"], a: 1, ex: "HCl fully dissociates." },
+      { q: "Litmus turns:", opts: ["Red in acid", "Blue in acid", "Green in base", "Yellow in acid"], a: 0, ex: "Blue litmus → red in acid." },
+      { q: "Baking soda is:", opts: ["NaOH", "NaHCO₃", "Na₂CO₃", "NaCl"], a: 1, ex: "Sodium bicarbonate." },
+      { q: "Washing soda is:", opts: ["NaHCO₃", "Na₂CO₃", "NaCl", "NaOH"], a: 1, ex: "Sodium carbonate." },
+      { q: "King of chemicals:", opts: ["HCl", "H₂SO₄", "HNO₃", "Aqua regia"], a: 1, ex: "Sulfuric acid." },
+      { q: "Antacid uses:", opts: ["HCl", "NaCl", "Mg(OH)₂", "Sugar"], a: 2, ex: "Milk of magnesia." },
+      { q: "Phenolphthalein in base:", opts: ["Colorless", "Pink", "Yellow", "Blue"], a: 1, ex: "Pink." },
+      { q: "pH of pure water:", opts: ["0", "7", "14", "10"], a: 1, ex: "Neutral." },
+      { q: "pH of blood:", opts: ["6", "7.4", "9", "12"], a: 1, ex: "Slightly basic." },
+      { q: "Plaster of Paris:", opts: ["CaSO₄·½H₂O", "CaCO₃", "Ca(OH)₂", "CaO"], a: 0, ex: "Calcium sulfate hemihydrate." },
+      { q: "Bleaching powder:", opts: ["CaOCl₂", "NaOCl", "Ca(OH)₂", "NaCl"], a: 0, ex: "Calcium hypochlorite." },
+      { q: "Caustic soda:", opts: ["NaOH", "Na₂CO₃", "NaCl", "NaHCO₃"], a: 0, ex: "NaOH." },
+      { q: "Bee sting treated with:", opts: ["Vinegar", "Baking soda", "Lemon", "Salt"], a: 1, ex: "Basic neutralizes acidic sting." },
+      { q: "Acidic soil treated with:", opts: ["More acid", "Lime (Ca(OH)₂)", "Salt", "Sugar"], a: 1, ex: "Base neutralizes acid." },
+      { q: "Common salt:", opts: ["KCl", "NaCl", "CaCl₂", "MgCl₂"], a: 1, ex: "Sodium chloride." }
+    ]
+  };
+
 })();
