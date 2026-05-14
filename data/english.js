@@ -5430,4 +5430,813 @@
     ]
   };
 
+  // ═══════════════════════════════════════════════════════════════
+  // VOCABULARY SECTION
+  // ═══════════════════════════════════════════════════════════════
+
+  // ───────────────────────────────────────────────────────────────
+  // 29. SYNONYMS
+  // ───────────────────────────────────────────────────────────────
+  T["eng-synonyms"] = {
+    body: `
+      <h2>Synonyms</h2>
+      <p>A <b>synonym</b> is a word that has the same or nearly the same meaning as another word. SSC asks 2-3 synonym questions in CGL Tier 1.</p>
+
+      <h3>Approach</h3>
+      <ol>
+        <li>Read the word carefully — sometimes it's misleading.</li>
+        <li>Try to form a sentence with the word; that helps recall meaning.</li>
+        <li>Use word roots / prefixes / suffixes to guess meaning.</li>
+        <li>Eliminate options that clearly don't fit.</li>
+      </ol>
+
+      <h3>🔥 Top 150 SSC Synonyms (Most Frequent)</h3>
+
+      <h3>A-D</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th><th>Meaning</th></tr>
+        <tr><td>Abate</td><td>Reduce, Diminish</td><td>To lessen</td></tr>
+        <tr><td>Abdicate</td><td>Renounce, Resign</td><td>Give up office</td></tr>
+        <tr><td>Abhor</td><td>Detest, Loathe</td><td>Hate strongly</td></tr>
+        <tr><td>Abridge</td><td>Shorten, Condense</td><td>Make shorter</td></tr>
+        <tr><td>Abundant</td><td>Plentiful, Ample</td><td>More than enough</td></tr>
+        <tr><td>Acclaim</td><td>Praise, Applaud</td><td>Public approval</td></tr>
+        <tr><td>Adamant</td><td>Stubborn, Inflexible</td><td>Refusing to change</td></tr>
+        <tr><td>Adept</td><td>Expert, Skilled</td><td>Highly proficient</td></tr>
+        <tr><td>Adversity</td><td>Hardship, Misfortune</td><td>Difficulty</td></tr>
+        <tr><td>Affable</td><td>Friendly, Genial</td><td>Pleasant</td></tr>
+        <tr><td>Alleviate</td><td>Relieve, Ease</td><td>Reduce pain</td></tr>
+        <tr><td>Altruistic</td><td>Selfless, Generous</td><td>Caring for others</td></tr>
+        <tr><td>Ambiguous</td><td>Vague, Unclear</td><td>Open to interpretation</td></tr>
+        <tr><td>Amicable</td><td>Friendly, Cordial</td><td>Peaceful</td></tr>
+        <tr><td>Apathy</td><td>Indifference, Disinterest</td><td>Lack of feeling</td></tr>
+        <tr><td>Arduous</td><td>Difficult, Strenuous</td><td>Requires effort</td></tr>
+        <tr><td>Astute</td><td>Shrewd, Sharp</td><td>Clever</td></tr>
+        <tr><td>Audacious</td><td>Bold, Daring</td><td>Risk-taking</td></tr>
+        <tr><td>Augment</td><td>Increase, Expand</td><td>Make greater</td></tr>
+        <tr><td>Banal</td><td>Trite, Commonplace</td><td>Boring, unoriginal</td></tr>
+        <tr><td>Belligerent</td><td>Hostile, Aggressive</td><td>Eager to fight</td></tr>
+        <tr><td>Benevolent</td><td>Kind, Generous</td><td>Well-meaning</td></tr>
+        <tr><td>Brevity</td><td>Conciseness, Shortness</td><td>Use of few words</td></tr>
+        <tr><td>Cajole</td><td>Coax, Persuade</td><td>Persuade by flattery</td></tr>
+        <tr><td>Candid</td><td>Frank, Honest</td><td>Truthful, open</td></tr>
+        <tr><td>Capricious</td><td>Fickle, Whimsical</td><td>Unpredictable</td></tr>
+        <tr><td>Censure</td><td>Criticize, Condemn</td><td>Express disapproval</td></tr>
+        <tr><td>Coerce</td><td>Force, Compel</td><td>Make by force</td></tr>
+        <tr><td>Conceal</td><td>Hide, Cover</td><td>Keep secret</td></tr>
+        <tr><td>Concur</td><td>Agree, Approve</td><td>Have same opinion</td></tr>
+        <tr><td>Cordial</td><td>Friendly, Warm</td><td>Sincere</td></tr>
+        <tr><td>Daunt</td><td>Intimidate, Discourage</td><td>Make afraid</td></tr>
+        <tr><td>Deceitful</td><td>Dishonest, Misleading</td><td>Behaving dishonestly</td></tr>
+        <tr><td>Defunct</td><td>Extinct, Dead</td><td>No longer existing</td></tr>
+        <tr><td>Delicate</td><td>Fragile, Subtle</td><td>Easily damaged</td></tr>
+        <tr><td>Demolish</td><td>Destroy, Wreck</td><td>Pull down</td></tr>
+        <tr><td>Despondent</td><td>Dejected, Discouraged</td><td>Sad</td></tr>
+        <tr><td>Dexterous</td><td>Skilful, Adroit</td><td>Skilled with hands</td></tr>
+        <tr><td>Diligent</td><td>Hardworking, Industrious</td><td>Persistent</td></tr>
+      </table>
+
+      <h3>E-L</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th></tr>
+        <tr><td>Eccentric</td><td>Peculiar, Odd</td></tr>
+        <tr><td>Elated</td><td>Joyful, Thrilled</td></tr>
+        <tr><td>Elucidate</td><td>Explain, Clarify</td></tr>
+        <tr><td>Eminent</td><td>Famous, Distinguished</td></tr>
+        <tr><td>Empathy</td><td>Understanding, Compassion</td></tr>
+        <tr><td>Endeavor</td><td>Attempt, Effort</td></tr>
+        <tr><td>Endure</td><td>Bear, Tolerate</td></tr>
+        <tr><td>Enhance</td><td>Improve, Augment</td></tr>
+        <tr><td>Enigma</td><td>Mystery, Puzzle</td></tr>
+        <tr><td>Ephemeral</td><td>Transient, Short-lived</td></tr>
+        <tr><td>Eradicate</td><td>Eliminate, Destroy</td></tr>
+        <tr><td>Erratic</td><td>Unpredictable, Irregular</td></tr>
+        <tr><td>Escalate</td><td>Intensify, Increase</td></tr>
+        <tr><td>Eulogy</td><td>Praise, Tribute</td></tr>
+        <tr><td>Evade</td><td>Avoid, Dodge</td></tr>
+        <tr><td>Exonerate</td><td>Absolve, Clear</td></tr>
+        <tr><td>Extol</td><td>Praise, Glorify</td></tr>
+        <tr><td>Fallacious</td><td>False, Misleading</td></tr>
+        <tr><td>Fastidious</td><td>Meticulous, Fussy</td></tr>
+        <tr><td>Feeble</td><td>Weak, Frail</td></tr>
+        <tr><td>Felicity</td><td>Happiness, Bliss</td></tr>
+        <tr><td>Fortitude</td><td>Courage, Strength</td></tr>
+        <tr><td>Frivolous</td><td>Trivial, Silly</td></tr>
+        <tr><td>Frugal</td><td>Thrifty, Economical</td></tr>
+        <tr><td>Furtive</td><td>Secret, Sneaky</td></tr>
+        <tr><td>Garrulous</td><td>Talkative, Chatty</td></tr>
+        <tr><td>Gregarious</td><td>Sociable, Outgoing</td></tr>
+        <tr><td>Harbinger</td><td>Forerunner, Herald</td></tr>
+        <tr><td>Haughty</td><td>Arrogant, Proud</td></tr>
+        <tr><td>Heinous</td><td>Wicked, Atrocious</td></tr>
+        <tr><td>Hostile</td><td>Unfriendly, Antagonistic</td></tr>
+        <tr><td>Impeccable</td><td>Flawless, Perfect</td></tr>
+        <tr><td>Impede</td><td>Hinder, Obstruct</td></tr>
+        <tr><td>Indolent</td><td>Lazy, Idle</td></tr>
+        <tr><td>Infallible</td><td>Foolproof, Unfailing</td></tr>
+        <tr><td>Iniquity</td><td>Wickedness, Injustice</td></tr>
+        <tr><td>Innate</td><td>Inherent, Natural</td></tr>
+        <tr><td>Insipid</td><td>Bland, Dull</td></tr>
+        <tr><td>Intrepid</td><td>Fearless, Bold</td></tr>
+        <tr><td>Inundate</td><td>Flood, Overwhelm</td></tr>
+        <tr><td>Lethargic</td><td>Sluggish, Lazy</td></tr>
+        <tr><td>Loquacious</td><td>Talkative, Garrulous</td></tr>
+        <tr><td>Lucid</td><td>Clear, Comprehensible</td></tr>
+      </table>
+
+      <h3>M-R</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th></tr>
+        <tr><td>Magnanimous</td><td>Generous, Noble</td></tr>
+        <tr><td>Malevolent</td><td>Malicious, Spiteful</td></tr>
+        <tr><td>Meticulous</td><td>Careful, Thorough</td></tr>
+        <tr><td>Mitigate</td><td>Alleviate, Lessen</td></tr>
+        <tr><td>Munificent</td><td>Generous, Liberal</td></tr>
+        <tr><td>Naive</td><td>Innocent, Unsophisticated</td></tr>
+        <tr><td>Nefarious</td><td>Evil, Wicked</td></tr>
+        <tr><td>Notorious</td><td>Infamous, Disreputable</td></tr>
+        <tr><td>Obscure</td><td>Unclear, Vague</td></tr>
+        <tr><td>Obsolete</td><td>Outdated, Antiquated</td></tr>
+        <tr><td>Obstinate</td><td>Stubborn, Inflexible</td></tr>
+        <tr><td>Ominous</td><td>Threatening, Foreboding</td></tr>
+        <tr><td>Opulent</td><td>Wealthy, Luxurious</td></tr>
+        <tr><td>Ostentatious</td><td>Showy, Flashy</td></tr>
+        <tr><td>Paramount</td><td>Supreme, Foremost</td></tr>
+        <tr><td>Pernicious</td><td>Harmful, Destructive</td></tr>
+        <tr><td>Perplex</td><td>Confuse, Bewilder</td></tr>
+        <tr><td>Pertinent</td><td>Relevant, Applicable</td></tr>
+        <tr><td>Pessimist</td><td>Cynic, Defeatist</td></tr>
+        <tr><td>Placid</td><td>Calm, Peaceful</td></tr>
+        <tr><td>Pragmatic</td><td>Practical, Realistic</td></tr>
+        <tr><td>Precarious</td><td>Risky, Unstable</td></tr>
+        <tr><td>Prevalent</td><td>Widespread, Common</td></tr>
+        <tr><td>Prodigal</td><td>Wasteful, Extravagant</td></tr>
+        <tr><td>Profound</td><td>Deep, Intense</td></tr>
+        <tr><td>Prolific</td><td>Productive, Fruitful</td></tr>
+        <tr><td>Provoke</td><td>Incite, Stimulate</td></tr>
+        <tr><td>Prudent</td><td>Wise, Sensible</td></tr>
+        <tr><td>Rampant</td><td>Widespread, Unchecked</td></tr>
+        <tr><td>Recalcitrant</td><td>Defiant, Disobedient</td></tr>
+        <tr><td>Redundant</td><td>Superfluous, Unnecessary</td></tr>
+        <tr><td>Relinquish</td><td>Give up, Abandon</td></tr>
+        <tr><td>Reluctant</td><td>Hesitant, Unwilling</td></tr>
+        <tr><td>Remorse</td><td>Regret, Guilt</td></tr>
+        <tr><td>Resilient</td><td>Tough, Flexible</td></tr>
+        <tr><td>Reticent</td><td>Reserved, Quiet</td></tr>
+      </table>
+
+      <h3>S-Z</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th></tr>
+        <tr><td>Sagacious</td><td>Wise, Shrewd</td></tr>
+        <tr><td>Sanguine</td><td>Optimistic, Hopeful</td></tr>
+        <tr><td>Scrutinize</td><td>Examine, Inspect</td></tr>
+        <tr><td>Serene</td><td>Calm, Peaceful</td></tr>
+        <tr><td>Slander</td><td>Defame, Malign</td></tr>
+        <tr><td>Somber</td><td>Gloomy, Serious</td></tr>
+        <tr><td>Spurious</td><td>Fake, False</td></tr>
+        <tr><td>Stagnant</td><td>Inactive, Sluggish</td></tr>
+        <tr><td>Stoic</td><td>Impassive, Unemotional</td></tr>
+        <tr><td>Strenuous</td><td>Demanding, Arduous</td></tr>
+        <tr><td>Submissive</td><td>Obedient, Compliant</td></tr>
+        <tr><td>Subtle</td><td>Delicate, Slight</td></tr>
+        <tr><td>Sumptuous</td><td>Lavish, Luxurious</td></tr>
+        <tr><td>Superficial</td><td>Shallow, Surface-level</td></tr>
+        <tr><td>Sycophant</td><td>Flatterer, Yes-man</td></tr>
+        <tr><td>Tedious</td><td>Boring, Tiresome</td></tr>
+        <tr><td>Terse</td><td>Concise, Brief</td></tr>
+        <tr><td>Timid</td><td>Shy, Fearful</td></tr>
+        <tr><td>Tranquil</td><td>Calm, Peaceful</td></tr>
+        <tr><td>Transient</td><td>Temporary, Brief</td></tr>
+        <tr><td>Ubiquitous</td><td>Omnipresent, Universal</td></tr>
+        <tr><td>Unanimous</td><td>Agreeing, United</td></tr>
+        <tr><td>Vacillate</td><td>Waver, Hesitate</td></tr>
+        <tr><td>Vehement</td><td>Forceful, Passionate</td></tr>
+        <tr><td>Venerable</td><td>Respected, Esteemed</td></tr>
+        <tr><td>Verbose</td><td>Wordy, Long-winded</td></tr>
+        <tr><td>Vex</td><td>Annoy, Irritate</td></tr>
+        <tr><td>Vibrant</td><td>Lively, Dynamic</td></tr>
+        <tr><td>Vigilant</td><td>Watchful, Alert</td></tr>
+        <tr><td>Vindicate</td><td>Justify, Absolve</td></tr>
+        <tr><td>Vociferous</td><td>Loud, Clamorous</td></tr>
+        <tr><td>Wary</td><td>Cautious, Careful</td></tr>
+        <tr><td>Wily</td><td>Cunning, Crafty</td></tr>
+        <tr><td>Zealous</td><td>Enthusiastic, Fervent</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Learn 10-15 new words daily; revise weekly.</li>
+        <li>Notice prefixes/suffixes: "bene-" = good, "mal-" = bad.</li>
+        <li>Form mental images with the word.</li>
+        <li>Use words in sentences — recall is easier.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Synonym of ABATE", opts: ["Reduce", "Increase", "Repeat", "Avoid"], a: 0, ex: "Abate = lessen." },
+      { q: "Synonym of CANDID", opts: ["Frank", "Sweet", "Lazy", "Quiet"], a: 0, ex: "Candid = honest, frank." },
+      { q: "Synonym of DILIGENT", opts: ["Hardworking", "Lazy", "Slow", "Stupid"], a: 0, ex: "Diligent = hardworking." },
+      { q: "Synonym of EMINENT", opts: ["Famous", "Unknown", "Imminent", "Hidden"], a: 0, ex: "Eminent = distinguished." },
+      { q: "Synonym of FRUGAL", opts: ["Thrifty", "Wasteful", "Empty", "Big"], a: 0, ex: "Frugal = economical." },
+      { q: "Synonym of GREGARIOUS", opts: ["Sociable", "Solitary", "Sad", "Strong"], a: 0, ex: "Gregarious = enjoys company." },
+      { q: "Synonym of HAUGHTY", opts: ["Arrogant", "Humble", "Tall", "Heavy"], a: 0, ex: "Haughty = proud." },
+      { q: "Synonym of IMPEDE", opts: ["Hinder", "Help", "Speed up", "Encourage"], a: 0, ex: "Impede = obstruct." },
+      { q: "Synonym of LUCID", opts: ["Clear", "Bright", "Vague", "Lucky"], a: 0, ex: "Lucid = clear." },
+      { q: "Synonym of MUNDANE", opts: ["Ordinary", "Heavenly", "Exciting", "Mysterious"], a: 0, ex: "Mundane = commonplace." },
+      { q: "Synonym of NEFARIOUS", opts: ["Wicked", "Holy", "New", "Famous"], a: 0, ex: "Nefarious = evil." },
+      { q: "Synonym of OPULENT", opts: ["Wealthy", "Poor", "Hungry", "Empty"], a: 0, ex: "Opulent = rich." },
+      { q: "Synonym of PRUDENT", opts: ["Wise", "Foolish", "Quick", "Lazy"], a: 0, ex: "Prudent = sensible." },
+      { q: "Synonym of QUERULOUS", opts: ["Complaining", "Friendly", "Quiet", "Loud"], a: 0, ex: "Querulous = whining." },
+      { q: "Synonym of RAMPANT", opts: ["Widespread", "Rare", "Hidden", "Slow"], a: 0, ex: "Rampant = unchecked." },
+      { q: "Synonym of SAGACIOUS", opts: ["Wise", "Foolish", "Sad", "Sweet"], a: 0, ex: "Sagacious = shrewd." },
+      { q: "Synonym of TRANQUIL", opts: ["Calm", "Wild", "Stormy", "Loud"], a: 0, ex: "Tranquil = peaceful." },
+      { q: "Synonym of UBIQUITOUS", opts: ["Omnipresent", "Rare", "Hidden", "Distant"], a: 0, ex: "Ubiquitous = everywhere." },
+      { q: "Synonym of VERBOSE", opts: ["Wordy", "Silent", "Brief", "Quick"], a: 0, ex: "Verbose = using too many words." },
+      { q: "Synonym of WARY", opts: ["Cautious", "Bold", "Tired", "Happy"], a: 0, ex: "Wary = careful." },
+      { q: "Synonym of ZEALOUS", opts: ["Enthusiastic", "Lazy", "Sad", "Sleepy"], a: 0, ex: "Zealous = passionate." },
+      { q: "Synonym of ALLEVIATE", opts: ["Relieve", "Increase", "Cause", "Carry"], a: 0, ex: "Alleviate = lessen." },
+      { q: "Synonym of BENEVOLENT", opts: ["Kind", "Cruel", "Stingy", "Sad"], a: 0, ex: "Benevolent = generous." },
+      { q: "Synonym of COERCE", opts: ["Force", "Persuade gently", "Allow", "Forget"], a: 0, ex: "Coerce = compel." },
+      { q: "Synonym of EPHEMERAL", opts: ["Short-lived", "Permanent", "Heavy", "Soft"], a: 0, ex: "Ephemeral = temporary." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 30. ANTONYMS
+  // ───────────────────────────────────────────────────────────────
+  T["eng-antonyms"] = {
+    body: `
+      <h2>Antonyms</h2>
+      <p>An <b>antonym</b> is a word with the opposite meaning. SSC asks 2-3 antonym questions in CGL.</p>
+
+      <h3>Approach</h3>
+      <ol>
+        <li>Understand the word first (use prefix, root, suffix).</li>
+        <li>Find option with OPPOSITE meaning, not just unrelated.</li>
+        <li>Watch for "near synonym" trap options that LOOK opposite.</li>
+        <li>Eliminate clearly wrong options.</li>
+      </ol>
+
+      <h3>🔥 Top 100 SSC Antonym Pairs</h3>
+      <table>
+        <tr><th>Word</th><th>Antonym</th></tr>
+        <tr><td>Abundant</td><td>Scarce / Sparse</td></tr>
+        <tr><td>Accept</td><td>Reject / Refuse</td></tr>
+        <tr><td>Acquit</td><td>Convict / Condemn</td></tr>
+        <tr><td>Affluent</td><td>Poor / Destitute</td></tr>
+        <tr><td>Agile</td><td>Sluggish / Slow</td></tr>
+        <tr><td>Alien</td><td>Native / Local</td></tr>
+        <tr><td>Allow</td><td>Forbid / Prohibit</td></tr>
+        <tr><td>Ally</td><td>Enemy / Foe</td></tr>
+        <tr><td>Amateur</td><td>Professional / Expert</td></tr>
+        <tr><td>Amiable</td><td>Hostile / Unfriendly</td></tr>
+        <tr><td>Ample</td><td>Insufficient / Meager</td></tr>
+        <tr><td>Antique</td><td>Modern / Contemporary</td></tr>
+        <tr><td>Apathy</td><td>Concern / Interest</td></tr>
+        <tr><td>Arrogant</td><td>Humble / Modest</td></tr>
+        <tr><td>Artificial</td><td>Natural / Genuine</td></tr>
+        <tr><td>Ascend</td><td>Descend / Drop</td></tr>
+        <tr><td>Assemble</td><td>Disperse / Scatter</td></tr>
+        <tr><td>Authentic</td><td>Fake / Spurious</td></tr>
+        <tr><td>Barren</td><td>Fertile / Productive</td></tr>
+        <tr><td>Beautiful</td><td>Ugly / Hideous</td></tr>
+        <tr><td>Begin</td><td>End / Conclude</td></tr>
+        <tr><td>Benign</td><td>Malignant / Harmful</td></tr>
+        <tr><td>Bold</td><td>Timid / Cowardly</td></tr>
+        <tr><td>Brave</td><td>Coward / Fearful</td></tr>
+        <tr><td>Bright</td><td>Dull / Dim</td></tr>
+        <tr><td>Brief</td><td>Lengthy / Long</td></tr>
+        <tr><td>Calm</td><td>Agitated / Disturbed</td></tr>
+        <tr><td>Captive</td><td>Free / Liberated</td></tr>
+        <tr><td>Cautious</td><td>Reckless / Careless</td></tr>
+        <tr><td>Cease</td><td>Begin / Start</td></tr>
+        <tr><td>Civilized</td><td>Barbaric / Savage</td></tr>
+        <tr><td>Clean</td><td>Dirty / Filthy</td></tr>
+        <tr><td>Clear</td><td>Vague / Obscure</td></tr>
+        <tr><td>Combine</td><td>Separate / Divide</td></tr>
+        <tr><td>Comfort</td><td>Discomfort / Distress</td></tr>
+        <tr><td>Common</td><td>Rare / Unusual</td></tr>
+        <tr><td>Competent</td><td>Incompetent / Unable</td></tr>
+        <tr><td>Compulsory</td><td>Optional / Voluntary</td></tr>
+        <tr><td>Concrete</td><td>Abstract / Vague</td></tr>
+        <tr><td>Condemn</td><td>Praise / Approve</td></tr>
+        <tr><td>Confident</td><td>Doubtful / Uncertain</td></tr>
+        <tr><td>Conscious</td><td>Unconscious / Unaware</td></tr>
+        <tr><td>Contract</td><td>Expand / Stretch</td></tr>
+        <tr><td>Courage</td><td>Cowardice / Fear</td></tr>
+        <tr><td>Cruel</td><td>Kind / Merciful</td></tr>
+        <tr><td>Dangerous</td><td>Safe / Secure</td></tr>
+        <tr><td>Dawn</td><td>Dusk / Twilight</td></tr>
+        <tr><td>Decline</td><td>Accept / Rise</td></tr>
+        <tr><td>Defeat</td><td>Victory / Win</td></tr>
+        <tr><td>Defend</td><td>Attack / Assault</td></tr>
+        <tr><td>Deliberate</td><td>Accidental / Spontaneous</td></tr>
+        <tr><td>Demand</td><td>Supply / Offer</td></tr>
+        <tr><td>Deny</td><td>Affirm / Confirm</td></tr>
+        <tr><td>Depart</td><td>Arrive / Reach</td></tr>
+        <tr><td>Despair</td><td>Hope / Confidence</td></tr>
+        <tr><td>Diligent</td><td>Lazy / Idle</td></tr>
+        <tr><td>Diminish</td><td>Increase / Augment</td></tr>
+        <tr><td>Disclose</td><td>Conceal / Hide</td></tr>
+        <tr><td>Distant</td><td>Near / Close</td></tr>
+        <tr><td>Doubtful</td><td>Certain / Sure</td></tr>
+        <tr><td>Eager</td><td>Reluctant / Apathetic</td></tr>
+        <tr><td>Easy</td><td>Difficult / Hard</td></tr>
+        <tr><td>Economical</td><td>Extravagant / Wasteful</td></tr>
+        <tr><td>Empty</td><td>Full / Filled</td></tr>
+        <tr><td>Encourage</td><td>Discourage / Dissuade</td></tr>
+        <tr><td>Equal</td><td>Unequal / Different</td></tr>
+        <tr><td>Eternal</td><td>Temporary / Transient</td></tr>
+        <tr><td>Exclude</td><td>Include / Comprise</td></tr>
+        <tr><td>Expand</td><td>Contract / Shrink</td></tr>
+        <tr><td>External</td><td>Internal / Inside</td></tr>
+        <tr><td>Failure</td><td>Success / Triumph</td></tr>
+        <tr><td>False</td><td>True / Genuine</td></tr>
+        <tr><td>Famous</td><td>Obscure / Unknown</td></tr>
+        <tr><td>Fierce</td><td>Gentle / Mild</td></tr>
+        <tr><td>Flexible</td><td>Rigid / Stiff</td></tr>
+        <tr><td>Forbid</td><td>Permit / Allow</td></tr>
+        <tr><td>Forget</td><td>Remember / Recall</td></tr>
+        <tr><td>Forward</td><td>Backward / Reverse</td></tr>
+        <tr><td>Freedom</td><td>Slavery / Captivity</td></tr>
+        <tr><td>Friend</td><td>Foe / Enemy</td></tr>
+        <tr><td>Frugal</td><td>Wasteful / Extravagant</td></tr>
+        <tr><td>Generous</td><td>Selfish / Miserly</td></tr>
+        <tr><td>Gentle</td><td>Rough / Harsh</td></tr>
+        <tr><td>Genuine</td><td>Fake / Spurious</td></tr>
+        <tr><td>Glad</td><td>Sad / Sorrowful</td></tr>
+        <tr><td>Glory</td><td>Shame / Disgrace</td></tr>
+        <tr><td>Good</td><td>Bad / Evil</td></tr>
+        <tr><td>Grateful</td><td>Ungrateful / Thankless</td></tr>
+        <tr><td>Hard</td><td>Soft / Easy</td></tr>
+        <tr><td>Hate</td><td>Love / Adore</td></tr>
+        <tr><td>Healthy</td><td>Sick / Ill</td></tr>
+        <tr><td>Heavy</td><td>Light / Feathery</td></tr>
+        <tr><td>Honest</td><td>Dishonest / Deceitful</td></tr>
+        <tr><td>Hope</td><td>Despair / Hopelessness</td></tr>
+        <tr><td>Humble</td><td>Arrogant / Proud</td></tr>
+        <tr><td>Ignore</td><td>Notice / Heed</td></tr>
+        <tr><td>Imitate</td><td>Originate / Create</td></tr>
+        <tr><td>Immortal</td><td>Mortal / Perishable</td></tr>
+        <tr><td>Important</td><td>Trivial / Insignificant</td></tr>
+        <tr><td>Increase</td><td>Decrease / Reduce</td></tr>
+        <tr><td>Innocent</td><td>Guilty / Culpable</td></tr>
+        <tr><td>Joyful</td><td>Sorrowful / Sad</td></tr>
+        <tr><td>Just</td><td>Unjust / Unfair</td></tr>
+        <tr><td>Kind</td><td>Cruel / Harsh</td></tr>
+        <tr><td>Knowledge</td><td>Ignorance / Illiteracy</td></tr>
+        <tr><td>Lavish</td><td>Frugal / Sparing</td></tr>
+        <tr><td>Lenient</td><td>Strict / Severe</td></tr>
+        <tr><td>Liberal</td><td>Conservative / Strict</td></tr>
+        <tr><td>Liberty</td><td>Slavery / Captivity</td></tr>
+        <tr><td>Love</td><td>Hate / Loathe</td></tr>
+        <tr><td>Major</td><td>Minor / Trivial</td></tr>
+        <tr><td>Mighty</td><td>Weak / Feeble</td></tr>
+        <tr><td>Modest</td><td>Boastful / Arrogant</td></tr>
+        <tr><td>Negligent</td><td>Careful / Attentive</td></tr>
+        <tr><td>Novice</td><td>Expert / Veteran</td></tr>
+        <tr><td>Obedient</td><td>Disobedient / Rebellious</td></tr>
+        <tr><td>Optimist</td><td>Pessimist / Cynic</td></tr>
+        <tr><td>Pleasant</td><td>Unpleasant / Disagreeable</td></tr>
+        <tr><td>Praise</td><td>Criticize / Condemn</td></tr>
+        <tr><td>Prevent</td><td>Allow / Permit</td></tr>
+        <tr><td>Public</td><td>Private / Personal</td></tr>
+        <tr><td>Quick</td><td>Slow / Sluggish</td></tr>
+        <tr><td>Rare</td><td>Common / Frequent</td></tr>
+        <tr><td>Reveal</td><td>Conceal / Hide</td></tr>
+        <tr><td>Rich</td><td>Poor / Destitute</td></tr>
+        <tr><td>Sacred</td><td>Profane / Worldly</td></tr>
+        <tr><td>Safe</td><td>Dangerous / Risky</td></tr>
+        <tr><td>Sharp</td><td>Blunt / Dull</td></tr>
+        <tr><td>Simple</td><td>Complex / Difficult</td></tr>
+        <tr><td>Sincere</td><td>Insincere / False</td></tr>
+        <tr><td>Strong</td><td>Weak / Feeble</td></tr>
+        <tr><td>Success</td><td>Failure / Defeat</td></tr>
+        <tr><td>Superior</td><td>Inferior / Subordinate</td></tr>
+        <tr><td>Temporary</td><td>Permanent / Lasting</td></tr>
+        <tr><td>Tame</td><td>Wild / Savage</td></tr>
+        <tr><td>Tight</td><td>Loose / Slack</td></tr>
+        <tr><td>Tolerant</td><td>Intolerant / Bigoted</td></tr>
+        <tr><td>True</td><td>False / Untrue</td></tr>
+        <tr><td>Unique</td><td>Common / Ordinary</td></tr>
+        <tr><td>Useful</td><td>Useless / Futile</td></tr>
+        <tr><td>Vague</td><td>Clear / Definite</td></tr>
+        <tr><td>Valid</td><td>Invalid / Void</td></tr>
+        <tr><td>Vice</td><td>Virtue / Goodness</td></tr>
+        <tr><td>Victory</td><td>Defeat / Loss</td></tr>
+        <tr><td>Wealth</td><td>Poverty / Penury</td></tr>
+        <tr><td>Wise</td><td>Foolish / Stupid</td></tr>
+        <tr><td>Wonderful</td><td>Awful / Terrible</td></tr>
+        <tr><td>Worthy</td><td>Unworthy / Undeserving</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Learn antonyms in pairs.</li>
+        <li>Watch prefixes: "un-", "in-", "dis-", "non-", "mis-", "anti-".</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Antonym of ARROGANT", opts: ["Humble", "Proud", "Bold", "Sad"], a: 0, ex: "Arrogant ↔ Humble." },
+      { q: "Antonym of TRANSIENT", opts: ["Permanent", "Brief", "Quick", "Slow"], a: 0, ex: "Transient ↔ Permanent." },
+      { q: "Antonym of CONCEAL", opts: ["Reveal", "Cover", "Hide", "Bury"], a: 0, ex: "Conceal ↔ Reveal." },
+      { q: "Antonym of DILIGENT", opts: ["Lazy", "Quick", "Smart", "Honest"], a: 0, ex: "Diligent ↔ Lazy." },
+      { q: "Antonym of GENUINE", opts: ["Fake", "Real", "Honest", "Pure"], a: 0, ex: "Genuine ↔ Fake." },
+      { q: "Antonym of FRUGAL", opts: ["Extravagant", "Cheap", "Economical", "Mean"], a: 0, ex: "Frugal ↔ Extravagant." },
+      { q: "Antonym of OBSCURE", opts: ["Famous", "Hidden", "Dark", "Strange"], a: 0, ex: "Obscure ↔ Famous." },
+      { q: "Antonym of TIMID", opts: ["Bold", "Shy", "Afraid", "Weak"], a: 0, ex: "Timid ↔ Bold." },
+      { q: "Antonym of ABUNDANT", opts: ["Scarce", "Plentiful", "Heavy", "Full"], a: 0, ex: "Abundant ↔ Scarce." },
+      { q: "Antonym of EXPAND", opts: ["Contract", "Stretch", "Grow", "Inflate"], a: 0, ex: "Expand ↔ Contract." },
+      { q: "Antonym of TEMPORARY", opts: ["Permanent", "Brief", "Short", "Quick"], a: 0, ex: "Temporary ↔ Permanent." },
+      { q: "Antonym of INCREASE", opts: ["Decrease", "Rise", "Grow", "Multiply"], a: 0, ex: "Increase ↔ Decrease." },
+      { q: "Antonym of OPTIMIST", opts: ["Pessimist", "Realist", "Idealist", "Atheist"], a: 0, ex: "Optimist ↔ Pessimist." },
+      { q: "Antonym of CRUEL", opts: ["Kind", "Harsh", "Mean", "Wild"], a: 0, ex: "Cruel ↔ Kind." },
+      { q: "Antonym of INNOCENT", opts: ["Guilty", "Pure", "Naive", "Honest"], a: 0, ex: "Innocent ↔ Guilty." },
+      { q: "Antonym of NOVICE", opts: ["Expert", "Beginner", "Student", "Amateur"], a: 0, ex: "Novice ↔ Expert." },
+      { q: "Antonym of LIBERAL", opts: ["Conservative", "Open", "Free", "Generous"], a: 0, ex: "Liberal ↔ Conservative." },
+      { q: "Antonym of WEALTHY", opts: ["Poor", "Rich", "Greedy", "Generous"], a: 0, ex: "Wealthy ↔ Poor." },
+      { q: "Antonym of VICTORY", opts: ["Defeat", "Triumph", "Success", "Win"], a: 0, ex: "Victory ↔ Defeat." },
+      { q: "Antonym of ASCEND", opts: ["Descend", "Climb", "Rise", "Soar"], a: 0, ex: "Ascend ↔ Descend." },
+      { q: "Antonym of HUMBLE", opts: ["Arrogant", "Modest", "Quiet", "Kind"], a: 0, ex: "Humble ↔ Arrogant." },
+      { q: "Antonym of DENY", opts: ["Affirm", "Refuse", "Reject", "Decline"], a: 0, ex: "Deny ↔ Affirm." },
+      { q: "Antonym of MAJOR", opts: ["Minor", "Big", "Important", "Vast"], a: 0, ex: "Major ↔ Minor." },
+      { q: "Antonym of SACRED", opts: ["Profane", "Holy", "Pure", "Divine"], a: 0, ex: "Sacred ↔ Profane." },
+      { q: "Antonym of FLEXIBLE", opts: ["Rigid", "Bendable", "Soft", "Weak"], a: 0, ex: "Flexible ↔ Rigid." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 31. PHRASAL VERBS
+  // ───────────────────────────────────────────────────────────────
+  T["eng-phrasal-verb"] = {
+    body: `
+      <h2>Phrasal Verbs</h2>
+      <p>A <b>phrasal verb</b> = verb + particle (preposition/adverb) that has a meaning different from the verb alone. SSC asks 2-3 questions on phrasal verbs.</p>
+
+      <h3>🔥 Top 100 SSC Phrasal Verbs</h3>
+
+      <h3>BREAK</h3>
+      <ul>
+        <li><b>Break down</b>: stop working / collapse emotionally. ("The car broke down.")</li>
+        <li><b>Break into</b>: enter forcibly. ("Thieves broke into the house.")</li>
+        <li><b>Break out</b>: start suddenly. ("War broke out.")</li>
+        <li><b>Break up</b>: end relationship. ("They broke up last week.")</li>
+        <li><b>Break off</b>: stop suddenly. ("Negotiations broke off.")</li>
+      </ul>
+
+      <h3>BRING</h3>
+      <ul>
+        <li><b>Bring about</b>: cause to happen.</li>
+        <li><b>Bring up</b>: raise (a child) / mention.</li>
+        <li><b>Bring down</b>: reduce / overthrow.</li>
+        <li><b>Bring out</b>: publish / make obvious.</li>
+        <li><b>Bring back</b>: return / revive.</li>
+      </ul>
+
+      <h3>CALL</h3>
+      <ul>
+        <li><b>Call off</b>: cancel.</li>
+        <li><b>Call on</b>: visit briefly.</li>
+        <li><b>Call up</b>: telephone / recruit.</li>
+        <li><b>Call for</b>: require / demand.</li>
+        <li><b>Call out</b>: shout / summon.</li>
+      </ul>
+
+      <h3>CARRY</h3>
+      <ul>
+        <li><b>Carry on</b>: continue.</li>
+        <li><b>Carry out</b>: execute / perform.</li>
+        <li><b>Carry away</b>: get overly excited.</li>
+        <li><b>Carry off</b>: succeed at.</li>
+      </ul>
+
+      <h3>COME</h3>
+      <ul>
+        <li><b>Come across</b>: find by chance.</li>
+        <li><b>Come along</b>: progress / accompany.</li>
+        <li><b>Come by</b>: obtain.</li>
+        <li><b>Come down with</b>: become ill.</li>
+        <li><b>Come up with</b>: think of / produce.</li>
+        <li><b>Come round</b>: regain consciousness / visit.</li>
+      </ul>
+
+      <h3>GET</h3>
+      <ul>
+        <li><b>Get along with</b>: have good relationship.</li>
+        <li><b>Get away with</b>: escape punishment.</li>
+        <li><b>Get over</b>: recover from.</li>
+        <li><b>Get through</b>: finish / pass exam.</li>
+        <li><b>Get up</b>: rise.</li>
+        <li><b>Get off</b>: leave (a vehicle).</li>
+        <li><b>Get on</b>: progress / board vehicle.</li>
+      </ul>
+
+      <h3>GIVE</h3>
+      <ul>
+        <li><b>Give away</b>: distribute free / reveal.</li>
+        <li><b>Give in</b>: surrender / submit.</li>
+        <li><b>Give out</b>: distribute / stop functioning.</li>
+        <li><b>Give up</b>: quit.</li>
+        <li><b>Give off</b>: emit.</li>
+      </ul>
+
+      <h3>GO</h3>
+      <ul>
+        <li><b>Go ahead</b>: proceed.</li>
+        <li><b>Go on</b>: continue.</li>
+        <li><b>Go through</b>: experience / examine.</li>
+        <li><b>Go off</b>: explode / sound (alarm).</li>
+        <li><b>Go over</b>: review carefully.</li>
+        <li><b>Go without</b>: do without.</li>
+      </ul>
+
+      <h3>LOOK</h3>
+      <ul>
+        <li><b>Look after</b>: take care of.</li>
+        <li><b>Look down on</b>: despise.</li>
+        <li><b>Look forward to</b>: anticipate eagerly.</li>
+        <li><b>Look into</b>: investigate.</li>
+        <li><b>Look up</b>: search (in book) / improve.</li>
+        <li><b>Look up to</b>: respect, admire.</li>
+        <li><b>Look out for</b>: be vigilant.</li>
+        <li><b>Look over</b>: examine briefly.</li>
+      </ul>
+
+      <h3>PUT</h3>
+      <ul>
+        <li><b>Put off</b>: postpone.</li>
+        <li><b>Put on</b>: wear / gain weight.</li>
+        <li><b>Put up with</b>: tolerate.</li>
+        <li><b>Put down</b>: insult / suppress.</li>
+        <li><b>Put out</b>: extinguish.</li>
+        <li><b>Put aside</b>: save / set apart.</li>
+        <li><b>Put forward</b>: propose.</li>
+      </ul>
+
+      <h3>TAKE</h3>
+      <ul>
+        <li><b>Take after</b>: resemble (family).</li>
+        <li><b>Take off</b>: leave ground / remove.</li>
+        <li><b>Take on</b>: undertake.</li>
+        <li><b>Take over</b>: assume control.</li>
+        <li><b>Take up</b>: begin (hobby).</li>
+        <li><b>Take in</b>: deceive / understand.</li>
+        <li><b>Take out</b>: remove.</li>
+      </ul>
+
+      <h3>TURN</h3>
+      <ul>
+        <li><b>Turn down</b>: refuse / lower.</li>
+        <li><b>Turn up</b>: appear / increase.</li>
+        <li><b>Turn off</b>: switch off.</li>
+        <li><b>Turn on</b>: switch on / attack.</li>
+        <li><b>Turn out</b>: prove to be.</li>
+        <li><b>Turn into</b>: become.</li>
+      </ul>
+
+      <h3>OTHER COMMON ONES</h3>
+      <ul>
+        <li><b>Account for</b>: explain.</li>
+        <li><b>Back up</b>: support.</li>
+        <li><b>Catch up with</b>: reach the level.</li>
+        <li><b>Cut down on</b>: reduce.</li>
+        <li><b>Do away with</b>: abolish.</li>
+        <li><b>Drop in</b>: visit unexpectedly.</li>
+        <li><b>Fall apart</b>: break, collapse.</li>
+        <li><b>Fall back on</b>: rely on as backup.</li>
+        <li><b>Find out</b>: discover.</li>
+        <li><b>Hand in</b>: submit.</li>
+        <li><b>Hold on</b>: wait.</li>
+        <li><b>Hold up</b>: delay / rob.</li>
+        <li><b>Keep up with</b>: maintain pace.</li>
+        <li><b>Pass away</b>: die.</li>
+        <li><b>Pull off</b>: succeed at difficult task.</li>
+        <li><b>Run into</b>: meet by chance.</li>
+        <li><b>Run out of</b>: exhaust supply.</li>
+        <li><b>Set up</b>: establish.</li>
+        <li><b>Show off</b>: display arrogantly.</li>
+        <li><b>Stand by</b>: support.</li>
+        <li><b>Stand up for</b>: defend.</li>
+        <li><b>Wear out</b>: become unusable.</li>
+        <li><b>Work out</b>: exercise / solve / succeed.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Learn in clusters: all "look + particle", all "put + particle", etc.</li>
+        <li>Make sentences for context-based recall.</li>
+        <li>Particles change meaning entirely.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "The fire __ in the warehouse last night.", opts: ["broke out", "broke down", "broke into", "broke up"], a: 0, ex: "Broke out = started suddenly." },
+      { q: "I'll __ you __ later. (Telephone)", opts: ["call on", "call up", "call off", "call out"], a: 1, ex: "Call up = phone." },
+      { q: "Please __ smoking; it's bad for health.", opts: ["give up", "give in", "give away", "give out"], a: 0, ex: "Give up = quit." },
+      { q: "I came __ an old photo while cleaning.", opts: ["across", "over", "by", "out"], a: 0, ex: "Come across = find by chance." },
+      { q: "She really __ her mother in looks.", opts: ["takes after", "takes off", "takes over", "takes up"], a: 0, ex: "Take after = resemble." },
+      { q: "He cannot __ his colleagues' rude behavior.", opts: ["put up with", "put off", "put on", "put down"], a: 0, ex: "Put up with = tolerate." },
+      { q: "The meeting was __ due to rain.", opts: ["called off", "called up", "called on", "called for"], a: 0, ex: "Called off = cancelled." },
+      { q: "I'm looking __ to seeing you next week.", opts: ["forward", "after", "into", "up"], a: 0, ex: "Look forward to." },
+      { q: "Children, please look __ your siblings.", opts: ["after", "down on", "up", "into"], a: 0, ex: "Look after = take care." },
+      { q: "We must __ pollution in our city.", opts: ["do away with", "do up", "do without", "do over"], a: 0, ex: "Do away with = abolish." },
+      { q: "My car __ on the way to office.", opts: ["broke down", "broke up", "broke into", "broke out"], a: 0, ex: "Broke down = stopped working." },
+      { q: "Please __ your shoes before entering.", opts: ["take off", "take on", "take in", "take out"], a: 0, ex: "Take off = remove." },
+      { q: "The plane will __ in 10 minutes.", opts: ["take off", "take in", "take out", "take after"], a: 0, ex: "Take off = leave ground." },
+      { q: "I'll __ on you next Sunday.", opts: ["call", "ring", "phone", "speak"], a: 0, ex: "Call on = visit." },
+      { q: "He __ a great fortune from his uncle.", opts: ["came into", "came across", "came over", "came up"], a: 0, ex: "Came into = inherited." },
+      { q: "The committee will __ the matter.", opts: ["look into", "look after", "look up", "look on"], a: 0, ex: "Look into = investigate." },
+      { q: "Please __ your homework tomorrow.", opts: ["hand in", "hand over", "hand out", "hand off"], a: 0, ex: "Hand in = submit." },
+      { q: "She __ her job to start a business.", opts: ["gave up", "gave in", "gave away", "gave out"], a: 0, ex: "Gave up = quit." },
+      { q: "I __ my old friend in the market.", opts: ["ran into", "ran out", "ran over", "ran after"], a: 0, ex: "Ran into = met by chance." },
+      { q: "We ran __ milk this morning.", opts: ["out of", "off with", "into", "over"], a: 0, ex: "Ran out of = exhausted." },
+      { q: "He __ the responsibilities easily.", opts: ["took on", "took off", "took up", "took in"], a: 0, ex: "Took on = accepted." },
+      { q: "Don't __ in to peer pressure.", opts: ["give", "go", "fall", "come"], a: 0, ex: "Give in = surrender." },
+      { q: "The thief was __ for stealing.", opts: ["picked up", "looked up", "called up", "made up"], a: 0, ex: "Picked up = arrested." },
+      { q: "Things will __ for the best.", opts: ["work out", "work up", "work in", "work over"], a: 0, ex: "Work out = succeed." },
+      { q: "She __ early today.", opts: ["got up", "got on", "got off", "got out"], a: 0, ex: "Got up = woke up." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 32. ONE WORD SUBSTITUTION
+  // ───────────────────────────────────────────────────────────────
+  T["eng-one-word"] = {
+    body: `
+      <h2>One Word Substitution</h2>
+      <p>A long phrase or description is replaced by a single word. SSC asks 2-3 such questions, often involving fairly obscure vocabulary.</p>
+
+      <h3>🔥 Top 150 SSC One Word Substitutions</h3>
+
+      <h3>People (by Profession / Trait)</h3>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>One who eats everything</td><td><b>Omnivorous</b></td></tr>
+        <tr><td>One who eats only vegetables</td><td><b>Herbivorous / Vegetarian</b></td></tr>
+        <tr><td>One who eats only flesh</td><td><b>Carnivorous</b></td></tr>
+        <tr><td>One who eats human flesh</td><td><b>Cannibal</b></td></tr>
+        <tr><td>One who studies birds</td><td><b>Ornithologist</b></td></tr>
+        <tr><td>One who studies stars / planets</td><td><b>Astronomer</b></td></tr>
+        <tr><td>One who studies coins</td><td><b>Numismatist</b></td></tr>
+        <tr><td>One who studies stamps</td><td><b>Philatelist</b></td></tr>
+        <tr><td>One who studies plants</td><td><b>Botanist</b></td></tr>
+        <tr><td>One who studies rocks</td><td><b>Geologist</b></td></tr>
+        <tr><td>One who studies handwriting</td><td><b>Graphologist</b></td></tr>
+        <tr><td>One who studies insects</td><td><b>Entomologist</b></td></tr>
+        <tr><td>One who studies bones</td><td><b>Osteologist</b></td></tr>
+        <tr><td>One who studies elections</td><td><b>Psephologist</b></td></tr>
+        <tr><td>One who walks in sleep</td><td><b>Somnambulist</b></td></tr>
+        <tr><td>One who talks in sleep</td><td><b>Somniloquist</b></td></tr>
+        <tr><td>One who can use both hands</td><td><b>Ambidextrous</b></td></tr>
+        <tr><td>One who can speak many languages</td><td><b>Polyglot / Linguist</b></td></tr>
+        <tr><td>One who hates mankind</td><td><b>Misanthrope</b></td></tr>
+        <tr><td>One who loves mankind</td><td><b>Philanthropist</b></td></tr>
+        <tr><td>One who hates women</td><td><b>Misogynist</b></td></tr>
+        <tr><td>One who hates marriage</td><td><b>Misogamist</b></td></tr>
+        <tr><td>One who believes in fate</td><td><b>Fatalist</b></td></tr>
+        <tr><td>One who is in opposition</td><td><b>Dissident</b></td></tr>
+        <tr><td>One who doesn't believe in God</td><td><b>Atheist</b></td></tr>
+        <tr><td>One who believes in God</td><td><b>Theist</b></td></tr>
+        <tr><td>One who is undecided about God</td><td><b>Agnostic</b></td></tr>
+        <tr><td>One who is new to a profession</td><td><b>Novice / Tyro</b></td></tr>
+        <tr><td>One who travels widely</td><td><b>Globetrotter</b></td></tr>
+        <tr><td>One who is well-versed in many subjects</td><td><b>Versatile</b></td></tr>
+        <tr><td>One who studies the universe</td><td><b>Cosmologist</b></td></tr>
+        <tr><td>One who looks on the bright side</td><td><b>Optimist</b></td></tr>
+        <tr><td>One who looks on the dark side</td><td><b>Pessimist</b></td></tr>
+        <tr><td>One who is hard to please</td><td><b>Fastidious</b></td></tr>
+        <tr><td>One who shares views of another</td><td><b>Concur</b></td></tr>
+        <tr><td>One who collects books</td><td><b>Bibliophile</b></td></tr>
+        <tr><td>One who fears books</td><td><b>Bibliophobe</b></td></tr>
+        <tr><td>One who is between two ages</td><td><b>Teenager</b></td></tr>
+        <tr><td>One who lives on others' work</td><td><b>Parasite</b></td></tr>
+        <tr><td>One who hides on a ship</td><td><b>Stowaway</b></td></tr>
+        <tr><td>One who deliberately destroys property</td><td><b>Vandal</b></td></tr>
+        <tr><td>One who is greedy for money</td><td><b>Miser / Avaricious</b></td></tr>
+        <tr><td>One who is a lover of beauty</td><td><b>Aesthete</b></td></tr>
+        <tr><td>One who indulges in pleasure</td><td><b>Hedonist / Epicurean</b></td></tr>
+        <tr><td>One who tells fortunes</td><td><b>Astrologer / Soothsayer</b></td></tr>
+        <tr><td>One who lives off others</td><td><b>Sycophant</b></td></tr>
+        <tr><td>One who walks for pleasure</td><td><b>Pedestrian</b></td></tr>
+      </table>
+
+      <h3>Things / Concepts</h3>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>Government by the people</td><td><b>Democracy</b></td></tr>
+        <tr><td>Government by the few</td><td><b>Oligarchy</b></td></tr>
+        <tr><td>Government by the rich</td><td><b>Plutocracy</b></td></tr>
+        <tr><td>Government by religious leaders</td><td><b>Theocracy</b></td></tr>
+        <tr><td>Government by a king/queen</td><td><b>Monarchy</b></td></tr>
+        <tr><td>Government by nobles</td><td><b>Aristocracy</b></td></tr>
+        <tr><td>Rule by a dictator</td><td><b>Autocracy</b></td></tr>
+        <tr><td>Rule by no one</td><td><b>Anarchy</b></td></tr>
+        <tr><td>Speech delivered without preparation</td><td><b>Extempore / Impromptu</b></td></tr>
+        <tr><td>Speech made to oneself</td><td><b>Soliloquy / Monologue</b></td></tr>
+        <tr><td>One who can read or write</td><td><b>Literate</b></td></tr>
+        <tr><td>One who cannot read or write</td><td><b>Illiterate</b></td></tr>
+        <tr><td>List of books</td><td><b>Catalogue</b></td></tr>
+        <tr><td>List of dishes in a restaurant</td><td><b>Menu</b></td></tr>
+        <tr><td>List of items to discuss</td><td><b>Agenda</b></td></tr>
+        <tr><td>A house for animals (wild)</td><td><b>Zoo</b></td></tr>
+        <tr><td>A house for cattle</td><td><b>Byre</b></td></tr>
+        <tr><td>A house for horses</td><td><b>Stable</b></td></tr>
+        <tr><td>A house for birds</td><td><b>Aviary</b></td></tr>
+        <tr><td>A place where bees are kept</td><td><b>Apiary</b></td></tr>
+        <tr><td>A place where fish are kept</td><td><b>Aquarium</b></td></tr>
+        <tr><td>A place where dead bodies are kept</td><td><b>Morgue / Mortuary</b></td></tr>
+        <tr><td>Place where coins are made</td><td><b>Mint</b></td></tr>
+        <tr><td>Place where pottery is made</td><td><b>Kiln</b></td></tr>
+        <tr><td>Place where movies are shown</td><td><b>Cinema</b></td></tr>
+        <tr><td>Place for keeping books</td><td><b>Library</b></td></tr>
+        <tr><td>Place for displaying art</td><td><b>Gallery / Museum</b></td></tr>
+        <tr><td>Words that have same meaning</td><td><b>Synonyms</b></td></tr>
+        <tr><td>Words with opposite meanings</td><td><b>Antonyms</b></td></tr>
+        <tr><td>Words that sound alike</td><td><b>Homonyms</b></td></tr>
+        <tr><td>A general pardon</td><td><b>Amnesty</b></td></tr>
+        <tr><td>Murder of one's parent</td><td><b>Parricide</b></td></tr>
+        <tr><td>Murder of father</td><td><b>Patricide</b></td></tr>
+        <tr><td>Murder of mother</td><td><b>Matricide</b></td></tr>
+        <tr><td>Murder of brother</td><td><b>Fratricide</b></td></tr>
+        <tr><td>Murder of king</td><td><b>Regicide</b></td></tr>
+        <tr><td>Murder of self</td><td><b>Suicide</b></td></tr>
+        <tr><td>Murder of infant</td><td><b>Infanticide</b></td></tr>
+        <tr><td>Murder of race/group</td><td><b>Genocide</b></td></tr>
+      </table>
+
+      <h3>Qualities / Characteristics</h3>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>Something that cannot be heard</td><td><b>Inaudible</b></td></tr>
+        <tr><td>Something that cannot be seen</td><td><b>Invisible</b></td></tr>
+        <tr><td>Something that cannot be expressed in words</td><td><b>Ineffable / Indescribable</b></td></tr>
+        <tr><td>Something that cannot be cured</td><td><b>Incurable</b></td></tr>
+        <tr><td>Something that cannot be defeated</td><td><b>Invincible / Indomitable</b></td></tr>
+        <tr><td>Something that cannot be destroyed</td><td><b>Indestructible</b></td></tr>
+        <tr><td>Something that cannot be moved</td><td><b>Immovable</b></td></tr>
+        <tr><td>Something that cannot be doubted</td><td><b>Indubitable</b></td></tr>
+        <tr><td>Something easy to read</td><td><b>Legible</b></td></tr>
+        <tr><td>Something difficult to read</td><td><b>Illegible</b></td></tr>
+        <tr><td>Something that can be done</td><td><b>Feasible</b></td></tr>
+        <tr><td>Something that lasts only briefly</td><td><b>Ephemeral / Transient</b></td></tr>
+        <tr><td>Something that lasts forever</td><td><b>Eternal / Perpetual</b></td></tr>
+        <tr><td>Animal that lives in both land and water</td><td><b>Amphibian</b></td></tr>
+        <tr><td>Animal active at night</td><td><b>Nocturnal</b></td></tr>
+        <tr><td>Animal active during day</td><td><b>Diurnal</b></td></tr>
+        <tr><td>One occurring every year</td><td><b>Annual</b></td></tr>
+        <tr><td>One occurring every 2 years</td><td><b>Biennial</b></td></tr>
+        <tr><td>Occurring every 3 years</td><td><b>Triennial</b></td></tr>
+        <tr><td>Twice a year</td><td><b>Biannual / Semiannual</b></td></tr>
+        <tr><td>100-year anniversary</td><td><b>Centenary</b></td></tr>
+        <tr><td>1000-year anniversary</td><td><b>Millennium</b></td></tr>
+        <tr><td>50-year anniversary</td><td><b>Golden Jubilee</b></td></tr>
+        <tr><td>25-year anniversary</td><td><b>Silver Jubilee</b></td></tr>
+        <tr><td>60-year anniversary</td><td><b>Diamond Jubilee</b></td></tr>
+      </table>
+
+      <h3>Sayings / Speech</h3>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>A speech delivered in praise of a person</td><td><b>Eulogy</b></td></tr>
+        <tr><td>A speech delivered at a funeral</td><td><b>Elegy</b></td></tr>
+        <tr><td>A talk between two people</td><td><b>Dialogue</b></td></tr>
+        <tr><td>A confused mixture of sounds</td><td><b>Cacophony</b></td></tr>
+        <tr><td>A pleasing sound</td><td><b>Euphony</b></td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Learn by category — easier to recall.</li>
+        <li>Watch for Greek/Latin roots: bio = life, geo = earth, hydro = water.</li>
+        <li>"-cide" = killing; "-phile" = lover; "-phobe" = hater; "-ology" = study of; "-cracy" = government.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "One who walks in sleep:", opts: ["Somnambulist", "Insomniac", "Sleeper", "Lunatic"], a: 0, ex: "Somnambulist = sleepwalker." },
+      { q: "One who eats human flesh:", opts: ["Carnivore", "Cannibal", "Omnivore", "Herbivore"], a: 1, ex: "Cannibal." },
+      { q: "One who studies stars:", opts: ["Astronomer", "Astrologer", "Geologist", "Cosmonaut"], a: 0, ex: "Astronomer." },
+      { q: "One who studies coins:", opts: ["Numismatist", "Philatelist", "Botanist", "Geologist"], a: 0, ex: "Numismatist." },
+      { q: "One who collects stamps:", opts: ["Numismatist", "Philatelist", "Cartographer", "Philosopher"], a: 1, ex: "Philatelist." },
+      { q: "One who hates marriage:", opts: ["Misanthrope", "Misogynist", "Misogamist", "Bachelor"], a: 2, ex: "Misogamist." },
+      { q: "Government by religious leaders:", opts: ["Theocracy", "Democracy", "Plutocracy", "Aristocracy"], a: 0, ex: "Theocracy." },
+      { q: "A place where bees are kept:", opts: ["Apiary", "Aviary", "Aquarium", "Zoo"], a: 0, ex: "Apiary." },
+      { q: "Murder of one's father:", opts: ["Patricide", "Matricide", "Fratricide", "Suicide"], a: 0, ex: "Patricide." },
+      { q: "Speech without preparation:", opts: ["Extempore", "Soliloquy", "Eulogy", "Anecdote"], a: 0, ex: "Extempore." },
+      { q: "One who can speak many languages:", opts: ["Polyglot", "Bilingual", "Multilingual", "All correct"], a: 0, ex: "Polyglot." },
+      { q: "Something that cannot be seen:", opts: ["Invisible", "Inaudible", "Inevitable", "Indelible"], a: 0, ex: "Invisible." },
+      { q: "Something that cannot be cured:", opts: ["Incurable", "Inevitable", "Inaudible", "Indelible"], a: 0, ex: "Incurable." },
+      { q: "Animal that lives on land and water:", opts: ["Amphibian", "Reptile", "Mammal", "Carnivore"], a: 0, ex: "Amphibian." },
+      { q: "Active at night:", opts: ["Nocturnal", "Diurnal", "Eternal", "Sleepy"], a: 0, ex: "Nocturnal." },
+      { q: "Twice a year:", opts: ["Biannual", "Biennial", "Triennial", "Annual"], a: 0, ex: "Biannual." },
+      { q: "Once in two years:", opts: ["Biennial", "Biannual", "Triennial", "Annual"], a: 0, ex: "Biennial." },
+      { q: "List of books:", opts: ["Catalogue", "Menu", "Agenda", "Directory"], a: 0, ex: "Catalogue." },
+      { q: "Place where pottery is made:", opts: ["Kiln", "Mint", "Apiary", "Smithy"], a: 0, ex: "Kiln." },
+      { q: "Place where coins are made:", opts: ["Mint", "Smithy", "Kiln", "Apiary"], a: 0, ex: "Mint." },
+      { q: "One who lives off others' work:", opts: ["Parasite", "Hermit", "Recluse", "Misanthrope"], a: 0, ex: "Parasite." },
+      { q: "100-year anniversary:", opts: ["Centenary", "Millennium", "Decade", "Jubilee"], a: 0, ex: "Centenary." },
+      { q: "Killing of an infant:", opts: ["Infanticide", "Genocide", "Suicide", "Homicide"], a: 0, ex: "Infanticide." },
+      { q: "One who is greedy for money:", opts: ["Miser", "Spendthrift", "Philanthropist", "Generous"], a: 0, ex: "Miser." },
+      { q: "One who hates mankind:", opts: ["Misanthrope", "Philanthropist", "Atheist", "Misogynist"], a: 0, ex: "Misanthrope." }
+    ]
+  };
+
 })();
