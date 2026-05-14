@@ -3777,138 +3777,240 @@ $(c_2 - m)$ : $(m - c_1)$
   // ───────────────────────────────────────────────────────────────
   T["math-trigonometry"] = {
     body: `
-      <h2>Trigonometry</h2>
-      <p>SSC Tier-2 has 5-7 trig questions. Master ratios, identities, max-min.</p>
+      <h2>Trigonometry — Complete Reference</h2>
+      <p>SSC Tier-2 has 5-7 trig questions. This is one of the heaviest topics — covers ratios, identities, complementary/supplementary angles, sum-diff formulas, double/half angles, max-min, conditional identities.</p>
 
-      <h3>1. Basic Ratios (right triangle)</h3>
-      <p>For angle $\\theta$ in right triangle with opposite $O$, adjacent $A$, hypotenuse $H$:</p>
-      <p>$\\sin\\theta = O/H, \\cos\\theta = A/H, \\tan\\theta = O/A = \\sin/\\cos$.</p>
-      <p>Reciprocals: $\\csc=1/\\sin, \\sec=1/\\cos, \\cot=1/\\tan$.</p>
+      <h3>1. Basic Ratios in Right Triangle</h3>
+      <p>For an angle $\\theta$ in a right triangle with opposite (perpendicular) $P$, adjacent (base) $B$, and hypotenuse $H$:</p>
+      <p>$$\\sin\\theta = \\frac{P}{H}, \\quad \\cos\\theta = \\frac{B}{H}, \\quad \\tan\\theta = \\frac{P}{B} = \\frac{\\sin\\theta}{\\cos\\theta}$$</p>
+      <p>$$\\csc\\theta = \\frac{1}{\\sin\\theta}, \\quad \\sec\\theta = \\frac{1}{\\cos\\theta}, \\quad \\cot\\theta = \\frac{1}{\\tan\\theta}$$</p>
 
-      <h3>2. Standard Values</h3>
+      <h3>2. Standard Angle Values (MUST memorize)</h3>
       <table>
-        <tr><th>Angle</th><th>0°</th><th>30°</th><th>45°</th><th>60°</th><th>90°</th></tr>
-        <tr><td>$\\sin$</td><td>0</td><td>1/2</td><td>$\\frac{1}{\\sqrt{2}}$</td><td>$\\frac{\\sqrt{3}}{2}$</td><td>1</td></tr>
-        <tr><td>$\\cos$</td><td>1</td><td>$\\frac{\\sqrt{3}}{2}$</td><td>$\\frac{1}{\\sqrt{2}}$</td><td>1/2</td><td>0</td></tr>
+        <tr><th>Function</th><th>0°</th><th>30°</th><th>45°</th><th>60°</th><th>90°</th></tr>
+        <tr><td>$\\sin$</td><td>0</td><td>$\\frac{1}{2}$</td><td>$\\frac{1}{\\sqrt{2}}$</td><td>$\\frac{\\sqrt{3}}{2}$</td><td>1</td></tr>
+        <tr><td>$\\cos$</td><td>1</td><td>$\\frac{\\sqrt{3}}{2}$</td><td>$\\frac{1}{\\sqrt{2}}$</td><td>$\\frac{1}{2}$</td><td>0</td></tr>
         <tr><td>$\\tan$</td><td>0</td><td>$\\frac{1}{\\sqrt{3}}$</td><td>1</td><td>$\\sqrt{3}$</td><td>∞</td></tr>
+        <tr><td>$\\cot$</td><td>∞</td><td>$\\sqrt{3}$</td><td>1</td><td>$\\frac{1}{\\sqrt{3}}$</td><td>0</td></tr>
+        <tr><td>$\\sec$</td><td>1</td><td>$\\frac{2}{\\sqrt{3}}$</td><td>$\\sqrt{2}$</td><td>2</td><td>∞</td></tr>
+        <tr><td>$\\csc$</td><td>∞</td><td>2</td><td>$\\sqrt{2}$</td><td>$\\frac{2}{\\sqrt{3}}$</td><td>1</td></tr>
       </table>
 
-      <h3>3. Fundamental Identities</h3>
-      <p>$\\sin^2\\theta + \\cos^2\\theta = 1$.</p>
-      <p>$1 + \\tan^2\\theta = \\sec^2\\theta$.</p>
-      <p>$1 + \\cot^2\\theta = \\csc^2\\theta$.</p>
+      <h3>3. Pythagorean Identities</h3>
+      <p>$$\\sin^2\\theta + \\cos^2\\theta = 1$$</p>
+      <p>$$1 + \\tan^2\\theta = \\sec^2\\theta$$</p>
+      <p>$$1 + \\cot^2\\theta = \\csc^2\\theta$$</p>
 
-      <h3>4. Complementary Angles</h3>
-      <p>$\\sin(90°-\\theta) = \\cos\\theta, \\cos(90°-\\theta) = \\sin\\theta$.</p>
-      <p>$\\tan(90°-\\theta) = \\cot\\theta$.</p>
+      <h3>4. Complementary Angles (sum 90°)</h3>
+      <p>$$\\sin(90°-\\theta) = \\cos\\theta, \\;\\; \\cos(90°-\\theta) = \\sin\\theta$$</p>
+      <p>$$\\tan(90°-\\theta) = \\cot\\theta, \\;\\; \\cot(90°-\\theta) = \\tan\\theta$$</p>
+      <p>$$\\sec(90°-\\theta) = \\csc\\theta, \\;\\; \\csc(90°-\\theta) = \\sec\\theta$$</p>
 
-      <h3>5. Sum/Difference Formulas</h3>
-      <p>$\\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B$.</p>
-      <p>$\\cos(A+B) = \\cos A \\cos B - \\sin A \\sin B$.</p>
-      <p>$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$.</p>
-      <p>$\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta = 1 - 2\\sin^2\\theta = 2\\cos^2\\theta - 1$.</p>
+      <h3>5. Supplementary Angles (sum 180°)</h3>
+      <p>$$\\sin(180°-\\theta) = \\sin\\theta, \\;\\; \\cos(180°-\\theta) = -\\cos\\theta$$</p>
+      <p>$$\\tan(180°-\\theta) = -\\tan\\theta$$</p>
+
+      <h3>6. Allied Angles — Sign Rules by Quadrant ("A-S-T-C")</h3>
+      <p>"<b>A</b>ll Students Take Coffee" — all positive in Q1; only sin (and csc) positive in Q2; only tan (and cot) positive in Q3; only cos (and sec) positive in Q4.</p>
+      <table>
+        <tr><th>Angle</th><th>Q (range)</th><th>Positive functions</th></tr>
+        <tr><td>$\\theta$</td><td>Q1: 0°-90°</td><td>All</td></tr>
+        <tr><td>$180°-\\theta$</td><td>Q2: 90°-180°</td><td>sin, csc</td></tr>
+        <tr><td>$180°+\\theta$</td><td>Q3: 180°-270°</td><td>tan, cot</td></tr>
+        <tr><td>$360°-\\theta$ or $-\\theta$</td><td>Q4: 270°-360°</td><td>cos, sec</td></tr>
+      </table>
+
+      <h3>7. Sum & Difference Formulas</h3>
+      <p>$$\\sin(A \\pm B) = \\sin A \\cos B \\pm \\cos A \\sin B$$</p>
+      <p>$$\\cos(A \\pm B) = \\cos A \\cos B \\mp \\sin A \\sin B$$</p>
+      <p>$$\\tan(A \\pm B) = \\frac{\\tan A \\pm \\tan B}{1 \\mp \\tan A \\tan B}$$</p>
+
+      <h3>8. Double Angle Formulas</h3>
+      <p>$$\\sin 2\\theta = 2\\sin\\theta \\cos\\theta = \\frac{2\\tan\\theta}{1+\\tan^2\\theta}$$</p>
+      <p>$$\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta = 2\\cos^2\\theta - 1 = 1 - 2\\sin^2\\theta = \\frac{1-\\tan^2\\theta}{1+\\tan^2\\theta}$$</p>
+      <p>$$\\tan 2\\theta = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}$$</p>
+
+      <h3>9. Triple Angle Formulas</h3>
+      <p>$$\\sin 3\\theta = 3\\sin\\theta - 4\\sin^3\\theta$$</p>
+      <p>$$\\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta$$</p>
+      <p>$$\\tan 3\\theta = \\frac{3\\tan\\theta - \\tan^3\\theta}{1 - 3\\tan^2\\theta}$$</p>
+
+      <h3>10. Half-Angle Formulas</h3>
+      <p>$$\\sin(\\theta/2) = \\pm\\sqrt{\\frac{1-\\cos\\theta}{2}}, \\;\\; \\cos(\\theta/2) = \\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}$$</p>
+      <p>$$\\tan(\\theta/2) = \\frac{1-\\cos\\theta}{\\sin\\theta} = \\frac{\\sin\\theta}{1+\\cos\\theta}$$</p>
+
+      <h3>11. Product-to-Sum Formulas</h3>
+      <p>$$2\\sin A \\cos B = \\sin(A+B) + \\sin(A-B)$$</p>
+      <p>$$2\\cos A \\sin B = \\sin(A+B) - \\sin(A-B)$$</p>
+      <p>$$2\\cos A \\cos B = \\cos(A+B) + \\cos(A-B)$$</p>
+      <p>$$2\\sin A \\sin B = \\cos(A-B) - \\cos(A+B)$$</p>
+
+      <h3>12. Sum-to-Product Formulas</h3>
+      <p>$$\\sin A + \\sin B = 2 \\sin\\frac{A+B}{2} \\cos\\frac{A-B}{2}$$</p>
+      <p>$$\\sin A - \\sin B = 2 \\cos\\frac{A+B}{2} \\sin\\frac{A-B}{2}$$</p>
+      <p>$$\\cos A + \\cos B = 2 \\cos\\frac{A+B}{2} \\cos\\frac{A-B}{2}$$</p>
+      <p>$$\\cos A - \\cos B = -2 \\sin\\frac{A+B}{2} \\sin\\frac{A-B}{2}$$</p>
+
+      <h3>13. Special Angle Values</h3>
+      <p>$\\sin 15° = \\frac{\\sqrt{6}-\\sqrt{2}}{4}, \\;\\; \\cos 15° = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$.</p>
+      <p>$\\sin 75° = \\cos 15°, \\;\\; \\cos 75° = \\sin 15°$.</p>
+      <p>$\\tan 15° = 2 - \\sqrt{3}, \\;\\; \\tan 75° = 2 + \\sqrt{3}$.</p>
+
+      <hr>
 
       <h3>🔥 Tricks</h3>
 
-      <h4>Trick 1: Max/Min</h4>
-      <p>$a\\sin\\theta + b\\cos\\theta$ has max $= \\sqrt{a^2+b^2}$ and min $= -\\sqrt{a^2+b^2}$.</p>
+      <h4>Trick 1: Max/Min of $a\\sin\\theta + b\\cos\\theta$</h4>
+      <p>Maximum value $= \\sqrt{a^2+b^2}$. Minimum value $= -\\sqrt{a^2+b^2}$.</p>
 
-      <h4>Trick 2: Pythagorean Triples</h4>
-      <p>3-4-5, 5-12-13, 7-24-25, 8-15-17, 9-40-41, 20-21-29. Recognize these to get ratios fast.</p>
+      <h4>Trick 2: Pythagorean Triples (memorize)</h4>
+      <p>3-4-5, 5-12-13, 7-24-25, 8-15-17, 9-40-41, 11-60-61, 20-21-29. Use to find ratios quickly.</p>
 
-      <h4>Trick 3: Common Substitutions</h4>
-      <p>If $\\tan\\theta = a/b$, then $\\sin\\theta = a/\\sqrt{a^2+b^2}$, $\\cos\\theta = b/\\sqrt{a^2+b^2}$.</p>
+      <h4>Trick 3: If $\\tan\\theta = p/q$, then</h4>
+      <p>$\\sin\\theta = p/\\sqrt{p^2+q^2}$, $\\cos\\theta = q/\\sqrt{p^2+q^2}$.</p>
+
+      <h4>Trick 4: $\\sin\\theta + \\cos\\theta$ shortcuts</h4>
+      <p>If $\\sin\\theta + \\cos\\theta = a$, then $\\sin\\theta\\cos\\theta = (a^2-1)/2$. Max = $\\sqrt{2}$ (at $\\theta=45°$).</p>
+
+      <h4>Trick 5: $\\tan\\theta + \\cot\\theta$</h4>
+      <p>$\\tan\\theta + \\cot\\theta = \\frac{1}{\\sin\\theta\\cos\\theta}$. Minimum value = 2 (at $\\theta = 45°$).</p>
+
+      <h4>Trick 6: $\\sin^4 + \\cos^4$</h4>
+      <p>$\\sin^4\\theta + \\cos^4\\theta = 1 - 2\\sin^2\\theta\\cos^2\\theta$.</p>
+      <p>$\\sin^6\\theta + \\cos^6\\theta = 1 - 3\\sin^2\\theta\\cos^2\\theta$.</p>
+
+      <hr>
 
       <h3>Solved Examples</h3>
-      <h4>Example 1</h4>
+
+      <h4>Example 1: Basic Value</h4>
       <p>$\\sin 30° + \\cos 60° = ?$</p>
-      <p><b>Sol</b>: $1/2 + 1/2 = 1$.</p>
+      <p><b>Sol</b>: $\\frac{1}{2} + \\frac{1}{2} = 1$.</p>
 
-      <h4>Example 2</h4>
-      <p>Simplify $\\sin^2 30° + \\cos^2 30°$.</p>
-      <p><b>Sol</b>: $1/4 + 3/4 = 1$.</p>
+      <h4>Example 2: Identity Check</h4>
+      <p>$\\sin^2 45° + \\cos^2 45° = ?$</p>
+      <p><b>Sol</b>: $\\frac{1}{2} + \\frac{1}{2} = 1$ (Pythagorean identity).</p>
 
-      <h4>Example 3</h4>
-      <p>If $\\sin\\theta = 3/5$, find $\\cos\\theta$.</p>
-      <p><b>Sol</b>: $\\cos^2 = 1-9/25=16/25 \\Rightarrow \\cos = 4/5$.</p>
+      <h4>Example 3: Find $\\cos$ from $\\sin$</h4>
+      <p>If $\\sin\\theta = \\frac{3}{5}$ and $\\theta$ acute, find $\\cos\\theta$.</p>
+      <p><b>Sol</b>: $\\cos\\theta = \\sqrt{1 - 9/25} = \\sqrt{16/25} = \\frac{4}{5}$ (3-4-5 triple).</p>
 
-      <h4>Example 4</h4>
+      <h4>Example 4: Find all ratios from $\\tan$</h4>
+      <p>If $\\tan\\theta = \\frac{5}{12}$, find $\\sin\\theta + \\cos\\theta$.</p>
+      <p><b>Sol</b>: 5-12-13 triple. $\\sin = 5/13, \\cos = 12/13$. Sum = $17/13$.</p>
+
+      <h4>Example 5: Product of Ratios</h4>
       <p>$\\tan 45° \\cdot \\sin 60° \\cdot \\cos 30° = ?$</p>
-      <p><b>Sol</b>: $1 \\cdot \\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{3}}{2} = 3/4$.</p>
+      <p><b>Sol</b>: $1 \\cdot \\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{3}}{2} = \\frac{3}{4}$.</p>
 
-      <h4>Example 5</h4>
-      <p>If $\\tan\\theta = 1$, find $\\theta$.</p>
-      <p><b>Sol</b>: $\\theta = 45°$.</p>
+      <h4>Example 6: Complementary</h4>
+      <p>Find $\\sin 75° \\cos 15° - \\cos 75° \\sin 15°$.</p>
+      <p><b>Sol</b>: $\\sin(75°-15°) = \\sin 60° = \\frac{\\sqrt{3}}{2}$.</p>
 
-      <h4>Example 6</h4>
-      <p>$\\sec^2 60° - \\tan^2 60° = ?$</p>
-      <p><b>Sol</b>: $1$ (identity).</p>
+      <h4>Example 7: Sum Formula</h4>
+      <p>$\\sin 75°$ = ?</p>
+      <p><b>Sol</b>: $\\sin(45°+30°) = \\sin 45°\\cos 30° + \\cos 45°\\sin 30° = \\frac{1}{\\sqrt{2}}(\\frac{\\sqrt{3}}{2}) + \\frac{1}{\\sqrt{2}}(\\frac{1}{2}) = \\frac{\\sqrt{3}+1}{2\\sqrt{2}} = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$.</p>
 
-      <h4>Example 7</h4>
-      <p>Max value of $3\\sin\\theta + 4\\cos\\theta$?</p>
+      <h4>Example 8: Double Angle</h4>
+      <p>If $\\sin\\theta = \\frac{3}{5}$, find $\\sin 2\\theta$.</p>
+      <p><b>Sol</b>: $\\cos\\theta = 4/5$. $\\sin 2\\theta = 2 \\cdot \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{24}{25}$.</p>
+
+      <h4>Example 9: Double Angle (cos)</h4>
+      <p>If $\\cos\\theta = \\frac{4}{5}$, find $\\cos 2\\theta$.</p>
+      <p><b>Sol</b>: $\\cos 2\\theta = 2\\cos^2\\theta - 1 = 2(16/25) - 1 = \\frac{32-25}{25} = \\frac{7}{25}$.</p>
+
+      <h4>Example 10: Max-Min</h4>
+      <p>Maximum of $3\\sin\\theta + 4\\cos\\theta$?</p>
       <p><b>Sol</b>: $\\sqrt{9+16} = 5$.</p>
 
-      <h4>Example 8</h4>
-      <p>If $\\sin\\theta + \\cos\\theta = \\sqrt{2}$, find $\\sin\\theta \\cos\\theta$.</p>
-      <p><b>Sol</b>: Square: $1+2\\sin\\theta\\cos\\theta = 2 \\Rightarrow \\sin\\theta\\cos\\theta = 1/2$.</p>
+      <h4>Example 11: Max-Min Minimum</h4>
+      <p>Minimum value of $\\sin^2\\theta + \\csc^2\\theta$?</p>
+      <p><b>Sol</b>: By AM-GM: $x + 1/x \\geq 2$ when $x &gt; 0$. So minimum = 2 (at $\\sin\\theta = 1$).</p>
 
-      <h4>Example 9</h4>
-      <p>$\\sin 75° \\cos 15° + \\cos 75° \\sin 15° = ?$</p>
-      <p><b>Sol</b>: $\\sin(75°+15°) = \\sin 90° = 1$.</p>
+      <h4>Example 12: $\\sin + \\cos$ given</h4>
+      <p>If $\\sin\\theta + \\cos\\theta = \\sqrt{2}$, find $\\theta$.</p>
+      <p><b>Sol</b>: Max of $\\sin+\\cos$ is $\\sqrt{2}$ at $\\theta = 45°$. So $\\theta = 45°$.</p>
 
-      <h4>Example 10</h4>
-      <p>If $\\cot\\theta = 12/5$, $\\sin\\theta = ?$</p>
-      <p><b>Sol</b>: 5-12-13 triple. $\\sin = 5/13$.</p>
+      <h4>Example 13: $\\sin - \\cos$ given</h4>
+      <p>If $\\sin\\theta - \\cos\\theta = 0$, find $\\theta$.</p>
+      <p><b>Sol</b>: $\\sin\\theta = \\cos\\theta \\Rightarrow \\tan\\theta = 1 \\Rightarrow \\theta = 45°$.</p>
 
-      <h4>Example 11</h4>
-      <p>$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$. If $\\sin\\theta = 4/5$, $\\sin 2\\theta=?$</p>
-      <p><b>Sol</b>: $\\cos = 3/5$. So $\\sin 2\\theta = 2 \\cdot 4/5 \\cdot 3/5 = 24/25$.</p>
+      <h4>Example 14: Squared Sum</h4>
+      <p>If $\\sin\\theta + \\cos\\theta = a$, find $\\sin\\theta\\cos\\theta$.</p>
+      <p><b>Sol</b>: Square: $\\sin^2 + 2\\sin\\cos + \\cos^2 = a^2 \\Rightarrow 1 + 2\\sin\\cos = a^2 \\Rightarrow \\sin\\cos = (a^2-1)/2$.</p>
 
-      <h4>Example 12</h4>
-      <p>$\\frac{1-\\cos\\theta}{\\sin\\theta} = ?$</p>
-      <p><b>Sol</b>: $= \\tan(\\theta/2)$.</p>
+      <h4>Example 15: $\\sin^4 + \\cos^4$</h4>
+      <p>If $\\sin\\theta + \\cos\\theta = \\frac{1}{2}$, find $\\sin^4\\theta + \\cos^4\\theta$.</p>
+      <p><b>Sol</b>: $\\sin\\theta\\cos\\theta = (1/4 - 1)/2 = -3/8$. $\\sin^4+\\cos^4 = 1 - 2(\\sin\\cos)^2 = 1 - 2 \\cdot 9/64 = 1 - 9/32 = 23/32$.</p>
 
-      <h4>Example 13</h4>
-      <p>If $\\sin\\theta + \\cos\\theta = 1$, find $\\sin^4\\theta + \\cos^4\\theta$.</p>
-      <p><b>Sol</b>: Square: $1+2\\sin\\theta\\cos\\theta=1 \\Rightarrow \\sin\\theta\\cos\\theta=0$. So $\\sin\\theta = 0$ or $\\cos\\theta = 0$. So $\\sin^4+\\cos^4 = 1$.</p>
+      <h4>Example 16: $\\tan + \\cot$</h4>
+      <p>If $\\tan\\theta + \\cot\\theta = 2$, find $\\tan^4\\theta + \\cot^4\\theta$.</p>
+      <p><b>Sol</b>: $\\tan+\\cot=2 \\Rightarrow \\tan^2+\\cot^2 = 4-2 = 2$. $\\tan^4+\\cot^4 = (\\tan^2+\\cot^2)^2 - 2 = 4-2 = 2$.</p>
 
-      <h4>Example 14</h4>
-      <p>If $\\tan\\theta+\\cot\\theta = 2$, find $\\tan\\theta-\\cot\\theta$.</p>
-      <p><b>Sol</b>: Square: $4 = \\tan^2+\\cot^2+2 \\Rightarrow \\tan^2+\\cot^2=2$. $(\\tan-\\cot)^2 = \\tan^2+\\cot^2 - 2 = 0$. So $0$.</p>
+      <h4>Example 17: Conditional</h4>
+      <p>If $\\sec\\theta + \\tan\\theta = \\frac{5}{2}$, find $\\sec\\theta - \\tan\\theta$.</p>
+      <p><b>Sol</b>: $\\sec^2 - \\tan^2 = 1 \\Rightarrow (\\sec+\\tan)(\\sec-\\tan) = 1 \\Rightarrow \\sec-\\tan = 2/5$.</p>
 
-      <h4>Example 15</h4>
-      <p>Find $\\sin 75°$.</p>
-      <p><b>Sol</b>: $\\sin(45+30) = \\sin 45 \\cos 30 + \\cos 45 \\sin 30 = \\frac{1}{\\sqrt{2}}(\\frac{\\sqrt{3}+1}{2}) = \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$.</p>
+      <h4>Example 18: $\\sin^6 + \\cos^6$</h4>
+      <p>Find $\\sin^6\\theta + \\cos^6\\theta$ if $\\sin\\theta\\cos\\theta = \\frac{1}{2}$.</p>
+      <p><b>Sol</b>: $= 1 - 3(\\sin\\cos)^2 = 1 - 3/4 = 1/4$.</p>
 
-      <h4>Example 16: $\sin\theta + \cos\theta = a$</h4>
-      <p>If $\sin\theta+\cos\theta = \frac{1}{2}$, find $\sin\theta \cos\theta$.</p>
-      <p><b>Sol</b>: Square: $1+2\sin\theta\cos\theta = 1/4 \Rightarrow \sin\theta\cos\theta = -3/8$.</p>
+      <h4>Example 19: Sum-to-Product</h4>
+      <p>$\\sin 80° + \\sin 40°$ = ?</p>
+      <p><b>Sol</b>: $2\\sin 60° \\cos 20° = \\sqrt{3}\\cos 20°$.</p>
 
-      <h4>Example 17: $\tan\theta + \cot\theta$</h4>
-      <p>If $\tan\theta = 3/4$, find $\sin\theta + \cos\theta$.</p>
-      <p><b>Sol</b>: 3-4-5 triple. $\sin = 3/5, \cos=4/5$. Sum = $7/5$.</p>
+      <h4>Example 20: Product Formula</h4>
+      <p>$\\sin 75° \\cdot \\sin 15°$ = ?</p>
+      <p><b>Sol</b>: $\\frac{1}{2}[\\cos(75°-15°) - \\cos(75°+15°)] = \\frac{1}{2}[\\cos 60° - \\cos 90°] = \\frac{1}{4}$.</p>
 
-      <h4>Example 18: Complementary</h4>
-      <p>$\frac{\sin 30°}{\cos 60°} + \frac{\cos 30°}{\sin 60°}$?</p>
-      <p><b>Sol</b>: $\frac{1/2}{1/2} + \frac{\sqrt{3}/2}{\sqrt{3}/2} = 1+1 = 2$.</p>
+      <h4>Example 21: $\\tan(A+B)$ Application</h4>
+      <p>If $\\tan A = \\frac{1}{2}, \\tan B = \\frac{1}{3}$, find $\\tan(A+B)$.</p>
+      <p><b>Sol</b>: $\\frac{1/2 + 1/3}{1 - 1/6} = \\frac{5/6}{5/6} = 1$. So $A+B = 45°$.</p>
 
-      <h4>Example 19: Angle Substitution</h4>
-      <p>If $\sin\theta = a$, find $\sec\theta - \tan\theta$.</p>
-      <p><b>Sol</b>: $\cos\theta = \sqrt{1-a^2}$. $\sec - \tan = (1-\sin)/\cos = (1-a)/\sqrt{1-a^2} = \sqrt{(1-a)/(1+a)}$.</p>
+      <h4>Example 22: Identity Simplification</h4>
+      <p>Simplify $\\frac{1+\\sin\\theta}{\\cos\\theta} + \\frac{\\cos\\theta}{1+\\sin\\theta}$.</p>
+      <p><b>Sol</b>: Common denom: $\\frac{(1+\\sin\\theta)^2 + \\cos^2\\theta}{\\cos\\theta(1+\\sin\\theta)} = \\frac{1+2\\sin\\theta+\\sin^2\\theta+\\cos^2\\theta}{\\cos\\theta(1+\\sin\\theta)} = \\frac{2+2\\sin\\theta}{\\cos\\theta(1+\\sin\\theta)} = \\frac{2}{\\cos\\theta} = 2\\sec\\theta$.</p>
 
-      <h4>Example 20: Double-Angle</h4>
-      <p>If $\sin\theta = 0.6$, find $\cos 2\theta$.</p>
-      <p><b>Sol</b>: $\cos 2\theta = 1 - 2\sin^2 = 1-0.72 = 0.28$.</p>
+      <h4>Example 23: Triangle Application</h4>
+      <p>In $\\triangle ABC$, $A+B+C = 180°$. Find $\\sin(A+B)$ in terms of C.</p>
+      <p><b>Sol</b>: $A+B = 180°-C$. $\\sin(180°-C) = \\sin C$.</p>
 
-      <h4>Example 21: Max-Min</h4>
-      <p>Minimum of $3\sin\theta - 4\cos\theta$?</p>
-      <p><b>Sol</b>: $-\sqrt{9+16} = -5$.</p>
+      <h4>Example 24: $\\cos$ Value</h4>
+      <p>$\\cos 1° \\cdot \\cos 2° \\cdot \\cos 3° \\cdots \\cos 179°$ = ?</p>
+      <p><b>Sol</b>: $\\cos 90° = 0$, so entire product = <b>0</b>.</p>
+
+      <h4>Example 25: Special Identity</h4>
+      <p>If $\\sin\\theta = a$ and $\\cos\\theta = b$, find $\\sin^2\\theta - \\cos^2\\theta$ in terms of $a, b$.</p>
+      <p><b>Sol</b>: $a^2 - b^2$.</p>
+
+      <h4>Example 26: Trig in Equations</h4>
+      <p>Solve $2\\sin\\theta = 1$ for $\\theta \\in [0°, 360°]$.</p>
+      <p><b>Sol</b>: $\\sin\\theta = 1/2 \\Rightarrow \\theta = 30°$ or $150°$.</p>
+
+      <h4>Example 27: Max of Product</h4>
+      <p>Maximum of $\\sin\\theta\\cos\\theta$?</p>
+      <p><b>Sol</b>: $= \\frac{\\sin 2\\theta}{2}$. Max when $\\sin 2\\theta = 1$, value = $1/2$.</p>
+
+      <h4>Example 28: Allied Angle</h4>
+      <p>$\\sin 210° = ?$</p>
+      <p><b>Sol</b>: Q3, sin negative. $\\sin 210° = -\\sin 30° = -1/2$.</p>
+
+      <h4>Example 29: $\\cos$ in Q2</h4>
+      <p>$\\cos 120° = ?$</p>
+      <p><b>Sol</b>: Q2, cos negative. $\\cos 120° = -\\cos 60° = -1/2$.</p>
+
+      <h4>Example 30: Triple Angle</h4>
+      <p>$\\sin 3\\theta = ?$ if $\\sin\\theta = 1/2$.</p>
+      <p><b>Sol</b>: $3(1/2) - 4(1/2)^3 = 3/2 - 1/2 = 1$. So $\\sin 3\\theta = 1 \\Rightarrow 3\\theta = 90° \\Rightarrow \\theta = 30°$ ✓.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
-        <li>$\\sin^2\\theta + \\cos^2\\theta = 1$ — always! ($\\sin 2\\theta \\ne 2\\sin\\theta$ — distinguish 2θ from 2×sin.)</li>
-        <li>$\\sin(A+B) \\ne \\sin A + \\sin B$.</li>
-        <li>For max/min: use $\\sqrt{a^2+b^2}$ formula.</li>
+        <li>$\\sin^2\\theta + \\cos^2\\theta = 1$ — NEVER $\\sin\\theta + \\cos\\theta = 1$.</li>
+        <li>$\\sin(A+B) \\ne \\sin A + \\sin B$. Use the sum formula.</li>
+        <li>$\\tan 90°$ is <b>undefined</b> (not infinity in formal sense).</li>
+        <li>Quadrant sign matters — check ASTC rule for non-acute angles.</li>
+        <li>$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$, NOT $2\\sin\\theta$.</li>
+        <li>Max of $a\\sin\\theta + b\\cos\\theta$ = $\\sqrt{a^2+b^2}$, NOT $a+b$.</li>
       </ul>
     `,
     mcq: [
@@ -4037,6 +4139,38 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 17: Cliff and Ship</h4>
       <p>From cliff 60m, depression of ship = 45°. Ship distance?</p>
       <p><b>Sol</b>: $\tan 45° = 60/d \Rightarrow d = 60$ m.</p>
+
+      <h4>Example 18: Two Towers Different Bases</h4>
+      <p>From the foot of a tower 30 m high, angle of elevation of top of another tower is 60°. From top of the first tower, angle of elevation is 30°. Height of second tower?</p>
+      <p><b>Sol</b>: Let distance between bases = $d$, height of 2nd = $h$. From foot of 1st: $\tan 60° = h/d \Rightarrow d = h/\sqrt{3}$. From top of 1st: $\tan 30° = (h-30)/d \Rightarrow d = (h-30)\sqrt{3}$. Equate: $h/\sqrt{3} = (h-30)\sqrt{3} \Rightarrow h = 3(h-30) \Rightarrow 2h = 90 \Rightarrow h = 45$m.</p>
+
+      <h4>Example 19: Plane Above Ground</h4>
+      <p>From point on ground, angle of elevation of plane = 60°. After plane flies 1 km horizontally at same height, angle becomes 30°. Find height of plane.</p>
+      <p><b>Sol</b>: Let height = $h$, first dist = $x$. $\tan 60° = h/x \Rightarrow x = h/\sqrt{3}$. $\tan 30° = h/(x+1000) \Rightarrow x+1000 = h\sqrt{3}$. So $h\sqrt{3} - h/\sqrt{3} = 1000 \Rightarrow h \cdot 2/\sqrt{3} = 1000 \Rightarrow h = 500\sqrt{3} ≈ 866$ m.</p>
+
+      <h4>Example 20: Building from Multiple Points</h4>
+      <p>From two points on opposite sides of a tower, angles of elevation to top are 30° and 60°. If the points are 100 m apart and on the same horizontal line through the foot, height of tower?</p>
+      <p><b>Sol</b>: Let tower height = $h$, distances = $a$ and $b$, $a+b = 100$. $h = a\tan 30° = a/\sqrt{3}$ and $h = b\tan 60° = b\sqrt{3}$. So $a/\sqrt{3} = b\sqrt{3} \Rightarrow a = 3b$. With $a+b=100$: $b = 25, a = 75$. $h = 75/\sqrt{3} = 25\sqrt{3}$ m.</p>
+
+      <h4>Example 21: Pole Casting Shadow as Sun Moves</h4>
+      <p>A pole 10 m casts shadow of length 10√3 m. Sun's elevation?</p>
+      <p><b>Sol</b>: $\tan\theta = 10/(10\sqrt{3}) = 1/\sqrt{3} \Rightarrow \theta = 30°$.</p>
+
+      <h4>Example 22: Pole + Tower</h4>
+      <p>A pole 6 m stands on top of a tower. From a point on ground 50 m from base of tower, angle of elevation to top of pole is 45°. Tower height?</p>
+      <p><b>Sol</b>: Pole top is at height $T+6$. $\tan 45° = (T+6)/50 \Rightarrow T+6 = 50 \Rightarrow T = 44$ m.</p>
+
+      <h4>Example 23: Angle of Depression to Two Cars</h4>
+      <p>From top of tower 100 m, depression to two cars on same side are 30° and 45°. Distance between cars?</p>
+      <p><b>Sol</b>: Far car: $\tan 30° = 100/d_1 \Rightarrow d_1 = 100\sqrt{3}$. Near car: $\tan 45° = 100/d_2 \Rightarrow d_2 = 100$. Distance = $100\sqrt{3} - 100 = 100(\sqrt{3}-1) ≈ 73.2$ m.</p>
+
+      <h4>Example 24: Ladder Against Wall</h4>
+      <p>A 13 m ladder leans against a wall, foot is 5 m from wall. How high does it reach?</p>
+      <p><b>Sol</b>: $\sqrt{13^2-5^2} = \sqrt{144} = 12$ m.</p>
+
+      <h4>Example 25: River Width</h4>
+      <p>From top of a 30 m cliff overlooking a river, the angle of depression to the opposite bank is 45°. Width of river?</p>
+      <p><b>Sol</b>: $\tan 45° = 30/w \Rightarrow w = 30$ m.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4532,6 +4666,50 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>Distance from (2,3) to line $3x+4y-12=0$?</p>
       <p><b>Sol</b>: $|3 \cdot 2+4 \cdot 3 - 12|/\sqrt{25} = 6/5 = 1.2$.</p>
 
+      <h4>Example 18: Section Formula Internal</h4>
+      <p>Find point dividing line joining $(3,2)$ and $(-1,4)$ internally in ratio 3:1.</p>
+      <p><b>Sol</b>: $\left(\frac{3 \cdot (-1)+1 \cdot 3}{4}, \frac{3 \cdot 4+1 \cdot 2}{4}\right) = (0, 7/2)$.</p>
+
+      <h4>Example 19: External Division</h4>
+      <p>Find point dividing $(2,3)$ and $(6,7)$ externally in ratio 1:2.</p>
+      <p><b>Sol</b>: $\left(\frac{1 \cdot 6 - 2 \cdot 2}{1-2}, \frac{1 \cdot 7 - 2 \cdot 3}{1-2}\right) = (2/-1, 1/-1) = (-2, -1)$.</p>
+
+      <h4>Example 20: Area of Quadrilateral</h4>
+      <p>Vertices $(1,1), (4,1), (4,5), (1,5)$. Area?</p>
+      <p><b>Sol</b>: Rectangle, sides 3 and 4. Area = 12.</p>
+
+      <h4>Example 21: Centroid of Triangle</h4>
+      <p>Vertices $(0,0), (6,0), (0,9)$. Centroid?</p>
+      <p><b>Sol</b>: $\left(\frac{0+6+0}{3}, \frac{0+0+9}{3}\right) = (2, 3)$.</p>
+
+      <h4>Example 22: Slope-Intercept</h4>
+      <p>Convert $3x - 4y + 12 = 0$ to slope-intercept form.</p>
+      <p><b>Sol</b>: $y = (3/4)x + 3$. Slope = 3/4, y-int = 3.</p>
+
+      <h4>Example 23: Equation Through Two Points</h4>
+      <p>Line through $(1, 2)$ and $(5, 8)$?</p>
+      <p><b>Sol</b>: Slope = $6/4 = 3/2$. $y - 2 = (3/2)(x-1) \Rightarrow 2y - 4 = 3x - 3 \Rightarrow 3x - 2y + 1 = 0$.</p>
+
+      <h4>Example 24: Distance Between Parallel Lines</h4>
+      <p>Distance between $3x+4y = 6$ and $3x+4y = 16$?</p>
+      <p><b>Sol</b>: $|16-6|/\sqrt{9+16} = 10/5 = 2$.</p>
+
+      <h4>Example 25: Image of Point</h4>
+      <p>Image of $(3, 4)$ under reflection in y-axis?</p>
+      <p><b>Sol</b>: $(-3, 4)$.</p>
+
+      <h4>Example 26: Image about y=x</h4>
+      <p>Image of $(2,5)$ in line $y=x$?</p>
+      <p><b>Sol</b>: Swap coordinates: $(5, 2)$.</p>
+
+      <h4>Example 27: Slope from Angle</h4>
+      <p>Slope of line inclined 60° with x-axis?</p>
+      <p><b>Sol</b>: $\tan 60° = \sqrt{3}$.</p>
+
+      <h4>Example 28: Angle Between Lines</h4>
+      <p>Angle between $y=2x$ and $y=3x$?</p>
+      <p><b>Sol</b>: $\tan\theta = |(m_1-m_2)/(1+m_1 m_2)| = |1/7|$. So $\theta = \arctan(1/7) ≈ 8.13°$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Distance formula squares the differences.</li>
@@ -4671,6 +4849,46 @@ $(c_2 - m)$ : $(m - c_1)$
       <p>From 7 men and 4 women, choose committee of 3 with at least 1 woman.</p>
       <p><b>Sol</b>: Total - all men = $^{11}C_3 - ^7C_3 = 165 - 35 = 130$.</p>
 
+      <h4>Example 16: Words from Word</h4>
+      <p>Number of ways to arrange letters of TRIANGLE such that vowels are together?</p>
+      <p><b>Sol</b>: 8 letters, 3 vowels (I, A, E). Group vowels: 6 units. $6! \times 3! = 720 \times 6 = 4320$.</p>
+
+      <h4>Example 17: Restricted Arrangements</h4>
+      <p>How many 4-digit numbers can be formed using 1, 2, 3, 4, 5 with no digit repeated and number divisible by 5?</p>
+      <p><b>Sol</b>: Last digit must be 5. First 3: $^4P_3 = 24$. Total = 24.</p>
+
+      <h4>Example 18: Choosing from Two Types</h4>
+      <p>How many ways to choose 5 books from 10 different books with at least 2 specific books always included?</p>
+      <p><b>Sol</b>: Include both: choose 3 from remaining 8 = $^8C_3 = 56$.</p>
+
+      <h4>Example 19: Circular with Restriction</h4>
+      <p>10 people sit at round table. 2 specific persons want to sit together. Number of ways?</p>
+      <p><b>Sol</b>: Treat as 9 units in circular = $8!$. Internal arrangement = $2!$. Total = $8! \cdot 2 = 40320 \cdot 2 = 80640$.</p>
+
+      <h4>Example 20: Number of Diagonals</h4>
+      <p>Diagonals in 10-sided polygon?</p>
+      <p><b>Sol</b>: $^{10}C_2 - 10 = 45 - 10 = 35$.</p>
+
+      <h4>Example 21: Selection with Conditions</h4>
+      <p>From 5 men and 6 women, choose committee of 4 with exactly 2 women?</p>
+      <p><b>Sol</b>: $^6C_2 \cdot ^5C_2 = 15 \cdot 10 = 150$.</p>
+
+      <h4>Example 22: Words from Word with Repetition</h4>
+      <p>Arrangements of ALLAHABAD?</p>
+      <p><b>Sol</b>: 9 letters: A×4, L×2, H×1, B×1, D×1. $\frac{9!}{4! \cdot 2!} = \frac{362880}{48} = 7560$.</p>
+
+      <h4>Example 23: Forming Numbers</h4>
+      <p>Number of 5-digit even numbers using 0-9 without repetition?</p>
+      <p><b>Sol</b>: Last digit: 5 choices (0,2,4,6,8). If last=0, first 4 from {1-9}: $9 \cdot 8 \cdot 7 \cdot 6 = 3024$. If last in {2,4,6,8} (4 choices), first ≠ 0: 8 × 8 × 7 × 6 = 2688. Total per such last: 2688. So total = 3024 + 4(2688) = 3024 + 10752 = 13776.</p>
+
+      <h4>Example 24: Pascal's Identity</h4>
+      <p>$^{n}C_r + ^{n}C_{r-1}$ = ?</p>
+      <p><b>Sol</b>: $= ^{n+1}C_r$ (Pascal's identity).</p>
+
+      <h4>Example 25: Selecting Officers</h4>
+      <p>From 10 candidates, select President, VP, Secretary (3 distinct posts)?</p>
+      <p><b>Sol</b>: Order matters: $^{10}P_3 = 720$.</p>
+
       <h3>🎯 Common Traps</h3>
       <ul>
         <li>Arrangement vs Selection: ask if order matters.</li>
@@ -4808,6 +5026,50 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 17: Without Replacement</h4>
       <p>Bag: 5R + 3B balls. P(both red on 2 draws without replacement)?</p>
       <p><b>Sol</b>: $\frac{5}{8} \cdot \frac{4}{7} = 20/56 = 5/14$.</p>
+
+      <h4>Example 16: Coin Sequence</h4>
+      <p>Toss 3 coins. P(exactly 2 heads)?</p>
+      <p><b>Sol</b>: Outcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT. Exactly 2H: HHT, HTH, THH = 3. P = 3/8.</p>
+
+      <h4>Example 17: Card from Deck — Heart or Face</h4>
+      <p>P(heart or face card)?</p>
+      <p><b>Sol</b>: Hearts = 13, faces = 12, hearts AND face = 3. By inclusion-exclusion: 13+12-3 = 22. P = 22/52 = 11/26.</p>
+
+      <h4>Example 18: Conditional Probability</h4>
+      <p>If a card drawn is red, P(it is a king)?</p>
+      <p><b>Sol</b>: 2 red kings out of 26 reds. P = 2/26 = 1/13.</p>
+
+      <h4>Example 19: Two Dice Sum > 9</h4>
+      <p>P(sum > 9 on two dice)?</p>
+      <p><b>Sol</b>: Sums 10, 11, 12: (4,6),(5,5),(6,4),(5,6),(6,5),(6,6) = 6 cases. P = 6/36 = 1/6.</p>
+
+      <h4>Example 20: Probability of At Least One</h4>
+      <p>P(at least one head in 4 coin tosses)?</p>
+      <p><b>Sol</b>: $1 - (1/2)^4 = 15/16$.</p>
+
+      <h4>Example 21: Independent Events</h4>
+      <p>If P(A) = 0.4, P(B) = 0.7, independent. P(both)?</p>
+      <p><b>Sol</b>: $0.4 \times 0.7 = 0.28$.</p>
+
+      <h4>Example 22: Selecting from Bags</h4>
+      <p>Bag 1: 3R + 2W. Bag 2: 4R + 5W. Pick 1 from each. P(both red)?</p>
+      <p><b>Sol</b>: $(3/5)(4/9) = 12/45 = 4/15$.</p>
+
+      <h4>Example 23: Without Replacement</h4>
+      <p>Bag: 4R + 6B. Draw 2 without replacement. P(1 red, 1 black)?</p>
+      <p><b>Sol</b>: $(4/10)(6/9) + (6/10)(4/9) = 24/90 + 24/90 = 48/90 = 8/15$.</p>
+
+      <h4>Example 24: Cards — Drawing 2</h4>
+      <p>P(both aces in 2-card draw without replacement)?</p>
+      <p><b>Sol</b>: $(4/52)(3/51) = 12/2652 = 1/221$.</p>
+
+      <h4>Example 25: Either A or B</h4>
+      <p>$P(A) = 0.3, P(B) = 0.5, P(A \cap B) = 0.2$. $P(A \cup B) = ?$</p>
+      <p><b>Sol</b>: $0.3 + 0.5 - 0.2 = 0.6$.</p>
+
+      <h4>Example 26: Mutually Exclusive</h4>
+      <p>If A and B are mutually exclusive with P(A)=0.4 and P(B)=0.3, P(A or B)?</p>
+      <p><b>Sol</b>: $0.4+0.3 = 0.7$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4953,6 +5215,45 @@ $(c_2 - m)$ : $(m - c_1)$
       <h4>Example 17: Mean of Grouped Data</h4>
       <p>For class intervals 0-10, 10-20, 20-30 with frequencies 5, 8, 3 respectively, find mean.</p>
       <p><b>Sol</b>: Midpoints 5, 15, 25. Sum = $25+120+75 = 220$. Mean = $220/16 = 13.75$.</p>
+
+      <h4>Example 16: Median of Grouped Data</h4>
+      <p>Class: 0-10, 10-20, 20-30; Frequencies: 8, 12, 10. Median?</p>
+      <p><b>Sol</b>: $n/2 = 15$. Cumulative: 8, 20, 30. Median class: 10-20. Median = $L + \frac{n/2 - F}{f} \cdot h = 10 + \frac{15-8}{12} \cdot 10 = 10 + 5.83 = 15.83$.</p>
+
+      <h4>Example 17: Mode of Grouped</h4>
+      <p>For frequencies 5, 10, 12, 8, 6: max freq is 12 (modal class). Use mode formula $L + \frac{f_1-f_0}{2f_1-f_0-f_2} \cdot h$. Example needs specific class bounds.</p>
+
+      <h4>Example 18: Mean Deviation</h4>
+      <p>Find MD about mean for 5, 7, 9, 11, 13.</p>
+      <p><b>Sol</b>: Mean = 9. $|d| = 4, 2, 0, 2, 4$. Sum = 12. MD = 12/5 = 2.4.</p>
+
+      <h4>Example 19: Variance from Raw</h4>
+      <p>Variance of 2, 4, 6, 8, 10?</p>
+      <p><b>Sol</b>: Mean = 6. Deviations²: 16, 4, 0, 4, 16. Sum = 40. Var = 40/5 = 8.</p>
+
+      <h4>Example 20: Standard Deviation</h4>
+      <p>From above: SD?</p>
+      <p><b>Sol</b>: $\sqrt{8} = 2\sqrt{2} \approx 2.83$.</p>
+
+      <h4>Example 21: Effect of Adding Constant</h4>
+      <p>If 5 added to each obs, what changes?</p>
+      <p><b>Sol</b>: Mean increases by 5. Variance, SD: <b>unchanged</b>.</p>
+
+      <h4>Example 22: Effect of Multiplying</h4>
+      <p>If each obs multiplied by 3, SD changes by?</p>
+      <p><b>Sol</b>: SD also multiplies by 3.</p>
+
+      <h4>Example 23: Combined Mean</h4>
+      <p>Group 1: 5 obs avg 10. Group 2: 10 obs avg 20. Combined avg?</p>
+      <p><b>Sol</b>: Total = 50 + 200 = 250. Combined = 250/15 = 16.67.</p>
+
+      <h4>Example 24: Skewed Distribution</h4>
+      <p>Mean = 25, Median = 27. Distribution skew?</p>
+      <p><b>Sol</b>: Mean &lt; Median → left/negative skew.</p>
+
+      <h4>Example 25: Coefficient of Variation</h4>
+      <p>Mean = 40, SD = 8. CV?</p>
+      <p><b>Sol</b>: $8/40 \times 100 = 20\%$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
