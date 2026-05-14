@@ -972,4 +972,586 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 8. PARLIAMENTS OF COUNTRIES
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-parliaments"] = {
+    body: `
+      <h2>Parliaments of Countries</h2>
+      <p>Names of national legislative bodies (parliaments) around the world.</p>
+
+      <table>
+        <tr><th>Country</th><th>Parliament Name</th></tr>
+        <tr><td>India</td><td>Sansad (Parliament) — Lok Sabha + Rajya Sabha</td></tr>
+        <tr><td>Pakistan</td><td>Majlis-e-Shoora — National Assembly + Senate</td></tr>
+        <tr><td>Bangladesh</td><td>Jatiya Sangsad</td></tr>
+        <tr><td>Nepal</td><td>Sansad (Federal Parliament)</td></tr>
+        <tr><td>Bhutan</td><td>Tshogdu</td></tr>
+        <tr><td>Sri Lanka</td><td>Parliament</td></tr>
+        <tr><td>Maldives</td><td>Majlis</td></tr>
+        <tr><td>Afghanistan</td><td>Loya Jirga / Shora</td></tr>
+        <tr><td>China</td><td>National People's Congress</td></tr>
+        <tr><td>Japan</td><td>Diet (Kokkai)</td></tr>
+        <tr><td>North Korea</td><td>Supreme People's Assembly</td></tr>
+        <tr><td>South Korea</td><td>National Assembly (Gukhoe)</td></tr>
+        <tr><td>Mongolia</td><td>Great Khural</td></tr>
+        <tr><td>Russia</td><td>Federal Assembly (Duma + Federation Council)</td></tr>
+        <tr><td>Israel</td><td>Knesset</td></tr>
+        <tr><td>Iran</td><td>Majles (Islamic Consultative Assembly)</td></tr>
+        <tr><td>Turkey</td><td>Grand National Assembly</td></tr>
+        <tr><td>Saudi Arabia</td><td>Majlis al-Shura (Consultative Assembly)</td></tr>
+        <tr><td>UAE</td><td>Federal National Council</td></tr>
+        <tr><td>Egypt</td><td>House of Representatives</td></tr>
+        <tr><td>UK</td><td>Parliament — House of Commons + House of Lords</td></tr>
+        <tr><td>France</td><td>Parlement — Assemblée Nationale + Sénat</td></tr>
+        <tr><td>Germany</td><td>Bundestag + Bundesrat</td></tr>
+        <tr><td>Italy</td><td>Parliament — Chamber of Deputies + Senate</td></tr>
+        <tr><td>Spain</td><td>Cortes Generales</td></tr>
+        <tr><td>Switzerland</td><td>Federal Assembly</td></tr>
+        <tr><td>Netherlands</td><td>States General (Staten-Generaal)</td></tr>
+        <tr><td>Norway</td><td>Storting</td></tr>
+        <tr><td>Sweden</td><td>Riksdag</td></tr>
+        <tr><td>Denmark</td><td>Folketing</td></tr>
+        <tr><td>Iceland</td><td>Althing (one of oldest, 930 CE)</td></tr>
+        <tr><td>Finland</td><td>Eduskunta</td></tr>
+        <tr><td>Poland</td><td>Sejm + Senate</td></tr>
+        <tr><td>Ireland</td><td>Oireachtas (Dáil + Seanad)</td></tr>
+        <tr><td>Ukraine</td><td>Verkhovna Rada</td></tr>
+        <tr><td>Romania</td><td>Parlamentul</td></tr>
+        <tr><td>USA</td><td>Congress — House of Representatives + Senate</td></tr>
+        <tr><td>Canada</td><td>Parliament — House of Commons + Senate</td></tr>
+        <tr><td>Mexico</td><td>Congreso de la Unión</td></tr>
+        <tr><td>Brazil</td><td>National Congress</td></tr>
+        <tr><td>Argentina</td><td>National Congress</td></tr>
+        <tr><td>Australia</td><td>Parliament — House of Representatives + Senate</td></tr>
+        <tr><td>New Zealand</td><td>Parliament (House of Representatives only)</td></tr>
+        <tr><td>South Africa</td><td>Parliament — National Assembly + National Council of Provinces</td></tr>
+        <tr><td>Kenya</td><td>National Assembly + Senate</td></tr>
+        <tr><td>Nigeria</td><td>National Assembly</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>India: Sansad.</li>
+        <li>Japan: Diet (Kokkai).</li>
+        <li>Israel: Knesset.</li>
+        <li>Iceland: Althing (one of oldest parliaments, 930 CE).</li>
+        <li>USA: Congress.</li>
+        <li>UK: Parliament (Commons + Lords).</li>
+        <li>Russia: Duma (lower house).</li>
+        <li>Germany: Bundestag.</li>
+        <li>Iran: Majles.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Parliament of Japan:", opts: ["Knesset", "Diet", "Majles", "Duma"], a: 1, ex: "Kokkai / Diet." },
+      { q: "Parliament of Israel:", opts: ["Knesset", "Majles", "Diet", "Duma"], a: 0, ex: "Knesset." },
+      { q: "Parliament of Iran:", opts: ["Knesset", "Majles", "Diet", "Duma"], a: 1, ex: "Islamic Consultative Assembly." },
+      { q: "Parliament of Russia (lower):", opts: ["Knesset", "Duma", "Majles", "Khural"], a: 1, ex: "State Duma." },
+      { q: "Parliament of USA:", opts: ["Congress", "Parliament", "Diet", "Senate only"], a: 0, ex: "House + Senate = Congress." },
+      { q: "Parliament of UK:", opts: ["Parliament", "Congress", "Senate", "Diet"], a: 0, ex: "Commons + Lords." },
+      { q: "Parliament of India:", opts: ["Sansad", "Lok Sabha only", "Congress", "Vidhan Sabha"], a: 0, ex: "Sansad." },
+      { q: "Parliament of China:", opts: ["NPC", "Diet", "Sansad", "Duma"], a: 0, ex: "National People's Congress." },
+      { q: "Parliament of Germany (lower):", opts: ["Bundestag", "Bundesrat", "Reichstag", "Kongress"], a: 0, ex: "Bundestag." },
+      { q: "Parliament of Mongolia:", opts: ["Great Khural", "Diet", "Majles", "Knesset"], a: 0, ex: "Mongolian parliament." },
+      { q: "Parliament of Pakistan:", opts: ["Sansad", "Majlis-e-Shoora", "Diet", "Knesset"], a: 1, ex: "National Assembly + Senate." },
+      { q: "Parliament of Sweden:", opts: ["Riksdag", "Storting", "Folketing", "Eduskunta"], a: 0, ex: "Sweden = Riksdag." },
+      { q: "Parliament of Norway:", opts: ["Riksdag", "Storting", "Folketing", "Eduskunta"], a: 1, ex: "Norway = Storting." },
+      { q: "Parliament of Denmark:", opts: ["Riksdag", "Storting", "Folketing", "Eduskunta"], a: 2, ex: "Denmark = Folketing." },
+      { q: "Parliament of Finland:", opts: ["Riksdag", "Storting", "Folketing", "Eduskunta"], a: 3, ex: "Finland = Eduskunta." },
+      { q: "Oldest parliament:", opts: ["Althing (Iceland)", "Westminster", "Diet", "Congress"], a: 0, ex: "Althing 930 CE." },
+      { q: "Parliament of France:", opts: ["Parlement", "Congress", "Knesset", "Duma"], a: 0, ex: "Assemblée + Sénat." },
+      { q: "Parliament of South Korea:", opts: ["National Assembly", "Knesset", "Diet", "Duma"], a: 0, ex: "Gukhoe." },
+      { q: "Parliament of Maldives:", opts: ["Majlis", "Diet", "Senate", "Sansad"], a: 0, ex: "Majlis." },
+      { q: "Parliament of Bangladesh:", opts: ["Jatiya Sangsad", "Sansad", "Majlis", "Lok Sabha"], a: 0, ex: "Bangladesh national parliament." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 9. INTELLIGENCE AGENCIES
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-intel-agencies"] = {
+    body: `
+      <h2>Intelligence Agencies of the World</h2>
+
+      <table>
+        <tr><th>Country</th><th>Agency</th><th>Full Name</th></tr>
+        <tr><td>India</td><td><b>RAW</b></td><td>Research and Analysis Wing (external)</td></tr>
+        <tr><td>India</td><td><b>IB</b></td><td>Intelligence Bureau (internal)</td></tr>
+        <tr><td>India</td><td><b>NIA</b></td><td>National Investigation Agency</td></tr>
+        <tr><td>India</td><td><b>CBI</b></td><td>Central Bureau of Investigation</td></tr>
+        <tr><td>USA</td><td><b>CIA</b></td><td>Central Intelligence Agency (external)</td></tr>
+        <tr><td>USA</td><td><b>FBI</b></td><td>Federal Bureau of Investigation (internal)</td></tr>
+        <tr><td>USA</td><td><b>NSA</b></td><td>National Security Agency (signals)</td></tr>
+        <tr><td>UK</td><td><b>MI5</b></td><td>Military Intelligence Section 5 (domestic)</td></tr>
+        <tr><td>UK</td><td><b>MI6 / SIS</b></td><td>Secret Intelligence Service (foreign)</td></tr>
+        <tr><td>UK</td><td><b>GCHQ</b></td><td>Government Communications Headquarters</td></tr>
+        <tr><td>Russia</td><td><b>FSB</b></td><td>Federal Security Service (domestic, former KGB)</td></tr>
+        <tr><td>Russia</td><td><b>SVR</b></td><td>Foreign Intelligence Service</td></tr>
+        <tr><td>Russia</td><td><b>GRU</b></td><td>Main Intelligence Directorate (military)</td></tr>
+        <tr><td>Soviet Union (former)</td><td><b>KGB</b></td><td>Committee for State Security (Cold War era)</td></tr>
+        <tr><td>Pakistan</td><td><b>ISI</b></td><td>Inter-Services Intelligence</td></tr>
+        <tr><td>Israel</td><td><b>Mossad</b></td><td>Foreign intelligence</td></tr>
+        <tr><td>Israel</td><td><b>Shin Bet / Shabak</b></td><td>Internal security</td></tr>
+        <tr><td>Israel</td><td><b>Aman</b></td><td>Military intelligence</td></tr>
+        <tr><td>China</td><td><b>MSS</b></td><td>Ministry of State Security</td></tr>
+        <tr><td>Germany</td><td><b>BND</b></td><td>Federal Intelligence Service</td></tr>
+        <tr><td>France</td><td><b>DGSE</b></td><td>Directorate-General for External Security</td></tr>
+        <tr><td>France</td><td><b>DGSI</b></td><td>Internal Security</td></tr>
+        <tr><td>Australia</td><td><b>ASIS</b></td><td>Australian Secret Intelligence Service</td></tr>
+        <tr><td>Australia</td><td><b>ASIO</b></td><td>Australian Security Intelligence Organisation</td></tr>
+        <tr><td>Canada</td><td><b>CSIS</b></td><td>Canadian Security Intelligence Service</td></tr>
+        <tr><td>Iran</td><td><b>MOIS / VAJA</b></td><td>Ministry of Intelligence</td></tr>
+        <tr><td>Saudi Arabia</td><td><b>GIP</b></td><td>General Intelligence Presidency</td></tr>
+        <tr><td>Bangladesh</td><td><b>DGFI</b></td><td>Directorate General of Forces Intelligence</td></tr>
+        <tr><td>Bangladesh</td><td><b>NSI</b></td><td>National Security Intelligence</td></tr>
+        <tr><td>Sri Lanka</td><td><b>SIS</b></td><td>State Intelligence Service</td></tr>
+        <tr><td>Bhutan</td><td><b>RBP Intel</b></td><td>Royal Bhutan Police</td></tr>
+        <tr><td>Afghanistan</td><td><b>NDS</b></td><td>National Directorate of Security (former)</td></tr>
+        <tr><td>South Africa</td><td><b>SSA</b></td><td>State Security Agency</td></tr>
+        <tr><td>Japan</td><td><b>PSIA</b></td><td>Public Security Intelligence Agency</td></tr>
+        <tr><td>South Korea</td><td><b>NIS</b></td><td>National Intelligence Service</td></tr>
+        <tr><td>North Korea</td><td><b>RGB</b></td><td>Reconnaissance General Bureau</td></tr>
+        <tr><td>Spain</td><td><b>CNI</b></td><td>National Intelligence Centre</td></tr>
+        <tr><td>Italy</td><td><b>AISE / AISI</b></td><td>External and Internal</td></tr>
+        <tr><td>Egypt</td><td><b>GIS</b></td><td>General Intelligence Service</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>India: RAW (external), IB (internal).</li>
+        <li>USA: CIA (foreign), FBI (domestic), NSA (signals).</li>
+        <li>UK: MI6 (foreign), MI5 (domestic).</li>
+        <li>Russia: FSB (current internal), GRU (military), former KGB.</li>
+        <li>Pakistan: ISI.</li>
+        <li>Israel: Mossad (foreign), Shin Bet (domestic).</li>
+        <li>China: MSS.</li>
+        <li>Germany: BND.</li>
+        <li>France: DGSE.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "India's external intelligence:", opts: ["IB", "RAW", "CBI", "NIA"], a: 1, ex: "Research and Analysis Wing." },
+      { q: "USA's foreign intelligence:", opts: ["FBI", "CIA", "NSA", "DEA"], a: 1, ex: "CIA." },
+      { q: "UK's foreign intelligence:", opts: ["MI5", "MI6", "GCHQ", "Scotland Yard"], a: 1, ex: "MI6 / SIS." },
+      { q: "Pakistan's intelligence:", opts: ["IB", "RAW", "ISI", "FSB"], a: 2, ex: "Inter-Services Intelligence." },
+      { q: "Israel's foreign intelligence:", opts: ["Shin Bet", "Mossad", "Aman", "ISI"], a: 1, ex: "Mossad." },
+      { q: "Soviet Union's intelligence (Cold War):", opts: ["FSB", "KGB", "GRU", "SVR"], a: 1, ex: "KGB." },
+      { q: "Russia's current internal agency:", opts: ["KGB", "FSB", "CIA", "RAW"], a: 1, ex: "FSB succeeded KGB." },
+      { q: "China's intelligence:", opts: ["MSS", "PLA", "PRC", "MIA"], a: 0, ex: "Ministry of State Security." },
+      { q: "Germany's intelligence:", opts: ["BND", "DGSE", "BfV", "CIA"], a: 0, ex: "BND for foreign." },
+      { q: "France's foreign intelligence:", opts: ["BND", "DGSE", "DGSI", "DGS"], a: 1, ex: "DGSE." },
+      { q: "India's internal intelligence:", opts: ["RAW", "IB", "NIA", "CBI"], a: 1, ex: "Intelligence Bureau." },
+      { q: "USA's signals intelligence:", opts: ["CIA", "FBI", "NSA", "DOJ"], a: 2, ex: "NSA." },
+      { q: "UK's domestic intelligence:", opts: ["MI5", "MI6", "GCHQ", "FBI"], a: 0, ex: "MI5." },
+      { q: "Australia's internal:", opts: ["ASIS", "ASIO", "CSIS", "NZSIS"], a: 1, ex: "ASIO." },
+      { q: "Canada's intelligence:", opts: ["CSIS", "MI6", "CIA", "NSA"], a: 0, ex: "CSIS." },
+      { q: "Israel's internal:", opts: ["Mossad", "Shin Bet", "Aman", "IDF"], a: 1, ex: "Shabak / Shin Bet." },
+      { q: "NSA stands for:", opts: ["National Security Agency", "New Security Authority", "Nation State Agency", "Network Spy Agency"], a: 0, ex: "Signals intelligence." },
+      { q: "FBI is:", opts: ["Foreign Intel USA", "Domestic Intel USA", "Military Intel", "Private"], a: 1, ex: "Federal Bureau of Investigation." },
+      { q: "Bangladesh agency:", opts: ["RAW", "DGFI", "NIA", "MOIS"], a: 1, ex: "Directorate General of Forces Intelligence." },
+      { q: "India's anti-terror investigation:", opts: ["CBI", "RAW", "NIA", "IB"], a: 2, ex: "National Investigation Agency." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 10. ORGANISATIONS & THEIR HEADQUARTERS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-organisations"] = {
+    body: `
+      <h2>Organisations and Their Headquarters</h2>
+
+      <h3>1. United Nations & Agencies</h3>
+      <table>
+        <tr><th>Organisation</th><th>HQ</th><th>Established</th></tr>
+        <tr><td>United Nations (UN)</td><td>New York, USA</td><td>1945</td></tr>
+        <tr><td>UN General Assembly</td><td>New York</td><td>1945</td></tr>
+        <tr><td>UN Security Council</td><td>New York</td><td>1945</td></tr>
+        <tr><td>International Court of Justice (ICJ)</td><td>The Hague, Netherlands</td><td>1945</td></tr>
+        <tr><td>UNESCO</td><td>Paris, France</td><td>1945</td></tr>
+        <tr><td>UNICEF</td><td>New York</td><td>1946</td></tr>
+        <tr><td>WHO (World Health Organisation)</td><td>Geneva, Switzerland</td><td>1948</td></tr>
+        <tr><td>ILO (International Labour Organisation)</td><td>Geneva</td><td>1919</td></tr>
+        <tr><td>FAO (Food and Agriculture Organisation)</td><td>Rome, Italy</td><td>1945</td></tr>
+        <tr><td>WFP (World Food Programme)</td><td>Rome</td><td>1961</td></tr>
+        <tr><td>WIPO (Intellectual Property)</td><td>Geneva</td><td>1967</td></tr>
+        <tr><td>WMO (Meteorological)</td><td>Geneva</td><td>1950</td></tr>
+        <tr><td>IAEA (Atomic Energy)</td><td>Vienna, Austria</td><td>1957</td></tr>
+        <tr><td>IMO (International Maritime)</td><td>London</td><td>1948</td></tr>
+        <tr><td>ICAO (Civil Aviation)</td><td>Montreal, Canada</td><td>1944</td></tr>
+        <tr><td>UNHCR (Refugees)</td><td>Geneva</td><td>1950</td></tr>
+        <tr><td>UNFPA (Population)</td><td>New York</td><td>1969</td></tr>
+        <tr><td>UNDP (Development)</td><td>New York</td><td>1965</td></tr>
+        <tr><td>UNEP (Environment)</td><td>Nairobi, Kenya</td><td>1972</td></tr>
+        <tr><td>UNCTAD (Trade and Development)</td><td>Geneva</td><td>1964</td></tr>
+        <tr><td>UN Women</td><td>New York</td><td>2010</td></tr>
+      </table>
+
+      <h3>2. Financial Organisations</h3>
+      <table>
+        <tr><th>Organisation</th><th>HQ</th></tr>
+        <tr><td>IMF (International Monetary Fund)</td><td>Washington D.C., USA</td></tr>
+        <tr><td>World Bank</td><td>Washington D.C.</td></tr>
+        <tr><td>WTO (World Trade Organisation)</td><td>Geneva, Switzerland</td></tr>
+        <tr><td>BIS (Bank for International Settlements)</td><td>Basel, Switzerland</td></tr>
+        <tr><td>ADB (Asian Development Bank)</td><td>Manila, Philippines</td></tr>
+        <tr><td>AIIB (Asian Infrastructure Investment Bank)</td><td>Beijing, China</td></tr>
+        <tr><td>NDB (New Development Bank, BRICS)</td><td>Shanghai, China</td></tr>
+        <tr><td>African Development Bank</td><td>Abidjan, Ivory Coast</td></tr>
+        <tr><td>European Central Bank (ECB)</td><td>Frankfurt, Germany</td></tr>
+        <tr><td>European Investment Bank</td><td>Luxembourg</td></tr>
+      </table>
+
+      <h3>3. Regional & Political Organisations</h3>
+      <table>
+        <tr><th>Organisation</th><th>HQ</th></tr>
+        <tr><td>SAARC</td><td>Kathmandu, Nepal</td></tr>
+        <tr><td>ASEAN</td><td>Jakarta, Indonesia</td></tr>
+        <tr><td>European Union (EU)</td><td>Brussels, Belgium</td></tr>
+        <tr><td>African Union (AU)</td><td>Addis Ababa, Ethiopia</td></tr>
+        <tr><td>Arab League</td><td>Cairo, Egypt</td></tr>
+        <tr><td>OPEC (Oil Exporting Countries)</td><td>Vienna, Austria</td></tr>
+        <tr><td>NATO</td><td>Brussels, Belgium</td></tr>
+        <tr><td>Commonwealth of Nations</td><td>London</td></tr>
+        <tr><td>OAS (Organisation of American States)</td><td>Washington D.C.</td></tr>
+        <tr><td>OIC (Islamic Cooperation)</td><td>Jeddah, Saudi Arabia</td></tr>
+        <tr><td>BRICS</td><td>No fixed HQ; rotational summit</td></tr>
+        <tr><td>G20</td><td>No permanent secretariat</td></tr>
+        <tr><td>G7</td><td>No HQ</td></tr>
+        <tr><td>SCO (Shanghai Cooperation)</td><td>Beijing</td></tr>
+      </table>
+
+      <h3>4. Sports Organisations</h3>
+      <table>
+        <tr><th>Organisation</th><th>HQ</th></tr>
+        <tr><td>IOC (International Olympic Committee)</td><td>Lausanne, Switzerland</td></tr>
+        <tr><td>FIFA</td><td>Zurich, Switzerland</td></tr>
+        <tr><td>ICC (International Cricket Council)</td><td>Dubai, UAE</td></tr>
+        <tr><td>FIH (Hockey)</td><td>Lausanne</td></tr>
+        <tr><td>FIBA (Basketball)</td><td>Mies, Switzerland</td></tr>
+        <tr><td>BWF (Badminton)</td><td>Kuala Lumpur, Malaysia</td></tr>
+        <tr><td>ITTF (Table Tennis)</td><td>Lausanne</td></tr>
+        <tr><td>WADA (Anti-Doping)</td><td>Montreal, Canada</td></tr>
+      </table>
+
+      <h3>5. Humanitarian & Others</h3>
+      <table>
+        <tr><th>Organisation</th><th>HQ</th></tr>
+        <tr><td>ICRC (Red Cross)</td><td>Geneva</td></tr>
+        <tr><td>Amnesty International</td><td>London</td></tr>
+        <tr><td>Greenpeace</td><td>Amsterdam, Netherlands</td></tr>
+        <tr><td>Doctors Without Borders (MSF)</td><td>Geneva</td></tr>
+        <tr><td>WWF (World Wildlife Fund)</td><td>Gland, Switzerland</td></tr>
+        <tr><td>Transparency International</td><td>Berlin, Germany</td></tr>
+        <tr><td>Interpol</td><td>Lyon, France</td></tr>
+        <tr><td>Europol</td><td>The Hague, Netherlands</td></tr>
+        <tr><td>OPCW (Chemical Weapons)</td><td>The Hague</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>UN: New York.</li>
+        <li>ICJ: The Hague.</li>
+        <li>WHO, ILO, WTO, UNHCR: Geneva.</li>
+        <li>FAO: Rome.</li>
+        <li>UNESCO: Paris.</li>
+        <li>IAEA: Vienna.</li>
+        <li>IMF and World Bank: Washington D.C.</li>
+        <li>SAARC: Kathmandu; ASEAN: Jakarta.</li>
+        <li>EU and NATO: Brussels.</li>
+        <li>IOC and FIFA: Switzerland.</li>
+        <li>ICC: Dubai.</li>
+        <li>Interpol: Lyon.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "UN HQ:", opts: ["Geneva", "New York", "Paris", "London"], a: 1, ex: "New York." },
+      { q: "WHO HQ:", opts: ["New York", "Geneva", "Paris", "Brussels"], a: 1, ex: "Geneva." },
+      { q: "UNESCO HQ:", opts: ["Paris", "Geneva", "Rome", "Vienna"], a: 0, ex: "Paris, France." },
+      { q: "FAO HQ:", opts: ["Geneva", "Rome", "Vienna", "Paris"], a: 1, ex: "Rome, Italy." },
+      { q: "IMF HQ:", opts: ["New York", "Washington D.C.", "Geneva", "Paris"], a: 1, ex: "Washington D.C." },
+      { q: "World Bank HQ:", opts: ["New York", "Washington D.C.", "London", "Geneva"], a: 1, ex: "DC." },
+      { q: "WTO HQ:", opts: ["New York", "Geneva", "Brussels", "Paris"], a: 1, ex: "Geneva." },
+      { q: "SAARC HQ:", opts: ["Kathmandu", "Delhi", "Dhaka", "Colombo"], a: 0, ex: "Nepal." },
+      { q: "ASEAN HQ:", opts: ["Bangkok", "Jakarta", "Manila", "Singapore"], a: 1, ex: "Indonesia." },
+      { q: "EU HQ:", opts: ["Paris", "Berlin", "Brussels", "Geneva"], a: 2, ex: "Brussels." },
+      { q: "NATO HQ:", opts: ["Brussels", "Washington", "London", "Geneva"], a: 0, ex: "Brussels." },
+      { q: "OPEC HQ:", opts: ["Vienna", "Riyadh", "Tehran", "Dubai"], a: 0, ex: "Vienna." },
+      { q: "IAEA HQ:", opts: ["Vienna", "Geneva", "New York", "Paris"], a: 0, ex: "Atomic energy agency." },
+      { q: "African Union HQ:", opts: ["Cairo", "Addis Ababa", "Lagos", "Nairobi"], a: 1, ex: "Ethiopia." },
+      { q: "ICJ HQ:", opts: ["Geneva", "The Hague", "New York", "Paris"], a: 1, ex: "Netherlands." },
+      { q: "FIFA HQ:", opts: ["Zurich", "Lausanne", "Paris", "London"], a: 0, ex: "Switzerland." },
+      { q: "IOC HQ:", opts: ["Zurich", "Lausanne", "Athens", "Paris"], a: 1, ex: "Switzerland." },
+      { q: "ICC (Cricket) HQ:", opts: ["London", "Mumbai", "Dubai", "Sydney"], a: 2, ex: "UAE." },
+      { q: "Interpol HQ:", opts: ["Paris", "Lyon", "Geneva", "London"], a: 1, ex: "France." },
+      { q: "Red Cross HQ:", opts: ["Geneva", "New York", "London", "Brussels"], a: 0, ex: "ICRC Geneva." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 11. FAMOUS NEWSPAPERS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-newspapers"] = {
+    body: `
+      <h2>Famous Newspapers of the World</h2>
+
+      <h3>1. Major International Newspapers</h3>
+      <table>
+        <tr><th>Newspaper</th><th>Country</th></tr>
+        <tr><td>The New York Times</td><td>USA</td></tr>
+        <tr><td>The Washington Post</td><td>USA</td></tr>
+        <tr><td>The Wall Street Journal</td><td>USA</td></tr>
+        <tr><td>USA Today</td><td>USA</td></tr>
+        <tr><td>Los Angeles Times</td><td>USA</td></tr>
+        <tr><td>The Guardian</td><td>UK</td></tr>
+        <tr><td>The Times (London)</td><td>UK</td></tr>
+        <tr><td>The Daily Telegraph</td><td>UK</td></tr>
+        <tr><td>Financial Times</td><td>UK</td></tr>
+        <tr><td>Le Monde</td><td>France</td></tr>
+        <tr><td>Le Figaro</td><td>France</td></tr>
+        <tr><td>Liberation</td><td>France</td></tr>
+        <tr><td>Bild</td><td>Germany</td></tr>
+        <tr><td>Die Welt</td><td>Germany</td></tr>
+        <tr><td>Frankfurter Allgemeine</td><td>Germany</td></tr>
+        <tr><td>La Repubblica</td><td>Italy</td></tr>
+        <tr><td>El Pais</td><td>Spain</td></tr>
+        <tr><td>Pravda</td><td>Russia (Soviet era; "Truth")</td></tr>
+        <tr><td>Izvestia</td><td>Russia ("News")</td></tr>
+        <tr><td>People's Daily</td><td>China (official CPC)</td></tr>
+        <tr><td>South China Morning Post</td><td>Hong Kong</td></tr>
+        <tr><td>Asahi Shimbun</td><td>Japan</td></tr>
+        <tr><td>Yomiuri Shimbun</td><td>Japan (largest by circulation)</td></tr>
+        <tr><td>The Sydney Morning Herald</td><td>Australia</td></tr>
+        <tr><td>The Australian</td><td>Australia</td></tr>
+        <tr><td>The Globe and Mail</td><td>Canada</td></tr>
+        <tr><td>Dawn</td><td>Pakistan</td></tr>
+        <tr><td>The News International</td><td>Pakistan</td></tr>
+        <tr><td>Jang</td><td>Pakistan (Urdu)</td></tr>
+        <tr><td>The Daily Star</td><td>Bangladesh</td></tr>
+        <tr><td>Prothom Alo</td><td>Bangladesh (Bengali)</td></tr>
+        <tr><td>Daily News (Lanka)</td><td>Sri Lanka</td></tr>
+        <tr><td>Kathmandu Post</td><td>Nepal</td></tr>
+        <tr><td>Haaretz</td><td>Israel</td></tr>
+        <tr><td>Jerusalem Post</td><td>Israel</td></tr>
+        <tr><td>Al Ahram</td><td>Egypt</td></tr>
+        <tr><td>Gulf News</td><td>UAE</td></tr>
+        <tr><td>Khaleej Times</td><td>UAE</td></tr>
+        <tr><td>Arab News</td><td>Saudi Arabia</td></tr>
+      </table>
+
+      <h3>2. Largest Newspapers (by circulation)</h3>
+      <ol>
+        <li>Yomiuri Shimbun (Japan) — ~10 million.</li>
+        <li>Asahi Shimbun (Japan) — ~5 million.</li>
+        <li>Times of India (India) — ~3.5 million.</li>
+        <li>Dainik Jagran (India, Hindi).</li>
+        <li>Daily Mail (UK).</li>
+        <li>Bild (Germany).</li>
+        <li>USA Today.</li>
+      </ol>
+
+      <h3>3. Famous Magazines</h3>
+      <table>
+        <tr><th>Magazine</th><th>Country</th></tr>
+        <tr><td>Time</td><td>USA</td></tr>
+        <tr><td>Newsweek</td><td>USA</td></tr>
+        <tr><td>The Economist</td><td>UK</td></tr>
+        <tr><td>National Geographic</td><td>USA</td></tr>
+        <tr><td>Vogue</td><td>USA</td></tr>
+        <tr><td>Forbes</td><td>USA</td></tr>
+        <tr><td>Fortune</td><td>USA</td></tr>
+        <tr><td>The New Yorker</td><td>USA</td></tr>
+        <tr><td>Reader's Digest</td><td>USA</td></tr>
+        <tr><td>Der Spiegel</td><td>Germany</td></tr>
+        <tr><td>Stern</td><td>Germany</td></tr>
+        <tr><td>L'Express</td><td>France</td></tr>
+      </table>
+
+      <h3>4. Famous News Agencies</h3>
+      <table>
+        <tr><th>Agency</th><th>Country</th></tr>
+        <tr><td>Reuters</td><td>UK</td></tr>
+        <tr><td>Associated Press (AP)</td><td>USA</td></tr>
+        <tr><td>Agence France-Presse (AFP)</td><td>France</td></tr>
+        <tr><td>Bloomberg</td><td>USA</td></tr>
+        <tr><td>TASS</td><td>Russia</td></tr>
+        <tr><td>RIA Novosti</td><td>Russia</td></tr>
+        <tr><td>Xinhua</td><td>China</td></tr>
+        <tr><td>Kyodo News</td><td>Japan</td></tr>
+        <tr><td>PTI (Press Trust of India)</td><td>India</td></tr>
+        <tr><td>UNI (United News of India)</td><td>India</td></tr>
+        <tr><td>ANI (Asian News International)</td><td>India</td></tr>
+        <tr><td>Al Jazeera</td><td>Qatar</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Yomiuri Shimbun: largest circulation in world.</li>
+        <li>Pravda: Russian, means "truth".</li>
+        <li>Asahi Shimbun, Yomiuri: Japan.</li>
+        <li>People's Daily: China official.</li>
+        <li>Reuters: UK news agency.</li>
+        <li>AP: USA.</li>
+        <li>Al Jazeera: Qatar.</li>
+        <li>The Economist: UK.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Pravda is from:", opts: ["China", "Russia", "France", "Germany"], a: 1, ex: "Soviet-era; means 'truth'." },
+      { q: "Asahi Shimbun from:", opts: ["China", "Japan", "Korea", "Singapore"], a: 1, ex: "Japan." },
+      { q: "People's Daily from:", opts: ["USA", "UK", "China", "Vietnam"], a: 2, ex: "CPC official." },
+      { q: "Dawn is from:", opts: ["India", "Pakistan", "Bangladesh", "Sri Lanka"], a: 1, ex: "English daily." },
+      { q: "Al Ahram from:", opts: ["Saudi", "UAE", "Egypt", "Israel"], a: 2, ex: "Egypt." },
+      { q: "Largest newspaper (circulation):", opts: ["NYT", "Yomiuri Shimbun", "Times of India", "Daily Mail"], a: 1, ex: "Japan." },
+      { q: "The Guardian from:", opts: ["USA", "UK", "Australia", "Ireland"], a: 1, ex: "UK." },
+      { q: "Le Monde from:", opts: ["France", "Belgium", "Switzerland", "Canada"], a: 0, ex: "France." },
+      { q: "Bild from:", opts: ["UK", "Germany", "Austria", "Switzerland"], a: 1, ex: "Tabloid." },
+      { q: "Reuters news agency from:", opts: ["USA", "UK", "France", "Germany"], a: 1, ex: "UK." },
+      { q: "AP news agency:", opts: ["USA", "UK", "France", "Russia"], a: 0, ex: "Associated Press." },
+      { q: "AFP from:", opts: ["Australia", "USA", "France", "Africa"], a: 2, ex: "Agence France-Presse." },
+      { q: "Al Jazeera from:", opts: ["Saudi", "Qatar", "UAE", "Egypt"], a: 1, ex: "Doha." },
+      { q: "Xinhua from:", opts: ["Japan", "Korea", "China", "Taiwan"], a: 2, ex: "China." },
+      { q: "TASS from:", opts: ["USA", "Russia", "Ukraine", "Belarus"], a: 1, ex: "Russian agency." },
+      { q: "PTI from:", opts: ["UK", "India", "Pakistan", "USA"], a: 1, ex: "Press Trust of India." },
+      { q: "The Economist from:", opts: ["USA", "UK", "Germany", "France"], a: 1, ex: "UK." },
+      { q: "Haaretz from:", opts: ["Iran", "Israel", "Egypt", "Saudi"], a: 1, ex: "Israel." },
+      { q: "Yomiuri Shimbun:", opts: ["Italy", "Korea", "Japan", "China"], a: 2, ex: "Japan, largest circ." },
+      { q: "Prothom Alo from:", opts: ["Nepal", "Bangladesh", "India", "Sri Lanka"], a: 1, ex: "Bangladesh (Bengali)." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 12. POLITICAL PARTIES
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-political-parties"] = {
+    body: `
+      <h2>Important Political Parties</h2>
+
+      <h3>1. India — Major Political Parties</h3>
+      <table>
+        <tr><th>Party</th><th>Abbreviation</th><th>Founded</th><th>Founder/Notes</th></tr>
+        <tr><td>Indian National Congress</td><td>INC / Congress</td><td>1885</td><td>A.O. Hume</td></tr>
+        <tr><td>Bharatiya Janata Party</td><td>BJP</td><td>1980</td><td>From Jana Sangh; founder LK Advani, AB Vajpayee</td></tr>
+        <tr><td>Communist Party of India</td><td>CPI</td><td>1925</td><td>M.N. Roy</td></tr>
+        <tr><td>Communist Party of India (Marxist)</td><td>CPI(M)</td><td>1964</td><td>Split from CPI</td></tr>
+        <tr><td>Aam Aadmi Party</td><td>AAP</td><td>2012</td><td>Arvind Kejriwal</td></tr>
+        <tr><td>Bahujan Samaj Party</td><td>BSP</td><td>1984</td><td>Kanshi Ram</td></tr>
+        <tr><td>Samajwadi Party</td><td>SP</td><td>1992</td><td>Mulayam Singh Yadav</td></tr>
+        <tr><td>Trinamool Congress</td><td>TMC</td><td>1998</td><td>Mamata Banerjee</td></tr>
+        <tr><td>Telugu Desam Party</td><td>TDP</td><td>1982</td><td>N.T. Rama Rao</td></tr>
+        <tr><td>YSR Congress Party</td><td>YSRCP</td><td>2011</td><td>Y.S. Jagan Reddy</td></tr>
+        <tr><td>Janata Dal (United)</td><td>JD(U)</td><td>2003</td><td>Bihar based</td></tr>
+        <tr><td>Janata Dal (Secular)</td><td>JD(S)</td><td>1999</td><td>H.D. Deve Gowda</td></tr>
+        <tr><td>DMK</td><td>DMK</td><td>1949</td><td>C.N. Annadurai</td></tr>
+        <tr><td>AIADMK</td><td>AIADMK</td><td>1972</td><td>M.G. Ramachandran</td></tr>
+        <tr><td>Shiv Sena</td><td>SHS</td><td>1966</td><td>Bal Thackeray</td></tr>
+        <tr><td>Nationalist Congress Party</td><td>NCP</td><td>1999</td><td>Sharad Pawar</td></tr>
+        <tr><td>BJD (Biju Janata Dal)</td><td>BJD</td><td>1997</td><td>Naveen Patnaik (Odisha)</td></tr>
+        <tr><td>TRS / BRS (Bharat Rashtra Samithi)</td><td>BRS</td><td>2001</td><td>K. Chandrashekhar Rao</td></tr>
+        <tr><td>Akali Dal</td><td>SAD</td><td>1920</td><td>Punjab Sikh-based</td></tr>
+        <tr><td>RLD (Rashtriya Lok Dal)</td><td>RLD</td><td>1996</td><td>Western UP based</td></tr>
+        <tr><td>National Conference</td><td>JKNC</td><td>1932</td><td>Sheikh Abdullah</td></tr>
+        <tr><td>PDP</td><td>JKPDP</td><td>1999</td><td>Mufti Mohammad Sayeed</td></tr>
+      </table>
+
+      <h3>2. India — National vs Regional Parties</h3>
+      <ul>
+        <li><b>National parties (2024)</b> (6): BJP, Congress, BSP, CPI(M), AAP, NPP.</li>
+        <li>Recognition by Election Commission based on vote share.</li>
+        <li>Recently: TMC, NCP, CPI lost national status; AAP gained.</li>
+      </ul>
+
+      <h3>3. World — Major Political Parties</h3>
+
+      <h4>USA</h4>
+      <ul>
+        <li>Democratic Party (1828).</li>
+        <li>Republican Party (1854).</li>
+        <li>Two-party system.</li>
+      </ul>
+
+      <h4>UK</h4>
+      <ul>
+        <li>Conservative Party.</li>
+        <li>Labour Party.</li>
+        <li>Liberal Democrats.</li>
+        <li>Scottish National Party (SNP).</li>
+      </ul>
+
+      <h4>Russia</h4>
+      <ul>
+        <li>United Russia (ruling).</li>
+        <li>Communist Party of Russian Federation.</li>
+      </ul>
+
+      <h4>China</h4>
+      <ul>
+        <li>Communist Party of China (CPC) — one-party state.</li>
+        <li>Founded 1921.</li>
+      </ul>
+
+      <h4>Other</h4>
+      <ul>
+        <li>Pakistan: PTI (Imran Khan), PMLN (Sharif), PPP (Bhutto family).</li>
+        <li>Bangladesh: Awami League, BNP.</li>
+        <li>Japan: LDP (Liberal Democratic Party) — long ruling.</li>
+        <li>Germany: CDU, SPD, Greens, AfD.</li>
+        <li>France: La République En Marche!, Republicans, Socialists.</li>
+        <li>Israel: Likud, Labor, Yesh Atid.</li>
+        <li>Iran: Reformist and Principlist factions.</li>
+        <li>South Africa: ANC (African National Congress) — Mandela's party.</li>
+        <li>Sri Lanka: SLFP, UNP.</li>
+        <li>Nepal: NCP, Nepali Congress, Maoist.</li>
+      </ul>
+
+      <h3>4. Famous Election Symbols (India)</h3>
+      <table>
+        <tr><th>Party</th><th>Symbol</th></tr>
+        <tr><td>BJP</td><td>Lotus</td></tr>
+        <tr><td>Congress</td><td>Hand</td></tr>
+        <tr><td>BSP</td><td>Elephant</td></tr>
+        <tr><td>AAP</td><td>Broom</td></tr>
+        <tr><td>SP</td><td>Bicycle</td></tr>
+        <tr><td>TMC</td><td>Flowers and Grass</td></tr>
+        <tr><td>CPI(M)</td><td>Hammer, Sickle and Star</td></tr>
+        <tr><td>NCP</td><td>Clock</td></tr>
+        <tr><td>DMK</td><td>Rising Sun</td></tr>
+        <tr><td>AIADMK</td><td>Two Leaves</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Congress founded 1885 by A.O. Hume.</li>
+        <li>BJP founded 1980; from Jana Sangh.</li>
+        <li>CPC founded 1921 in Shanghai.</li>
+        <li>Republican and Democratic: USA.</li>
+        <li>Conservative and Labour: UK.</li>
+        <li>ANC: South Africa, Mandela's party.</li>
+        <li>BJP symbol: Lotus; Congress: Hand.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "BJP founded in:", opts: ["1947", "1980", "1990", "1985"], a: 1, ex: "1980." },
+      { q: "INC founded in:", opts: ["1885", "1947", "1900", "1920"], a: 0, ex: "By A.O. Hume." },
+      { q: "AAP founder:", opts: ["Modi", "Kejriwal", "Rahul", "Mamata"], a: 1, ex: "Arvind Kejriwal." },
+      { q: "BSP founder:", opts: ["Kanshi Ram", "Mayawati", "Ambedkar", "Lalu"], a: 0, ex: "Kanshi Ram." },
+      { q: "TMC founder:", opts: ["Mamata Banerjee", "Buddhadev", "Jyoti Basu", "Suvendu"], a: 0, ex: "Mamata 1998." },
+      { q: "Shiv Sena founder:", opts: ["Uddhav", "Bal Thackeray", "Aaditya", "Raj"], a: 1, ex: "Bal Thackeray 1966." },
+      { q: "BJD founder:", opts: ["Naveen Patnaik", "Biju Patnaik", "Both", "Mamata"], a: 0, ex: "Naveen (named after father Biju)." },
+      { q: "DMK was founded by:", opts: ["MGR", "Annadurai", "Karunanidhi", "Stalin"], a: 1, ex: "C.N. Annadurai 1949." },
+      { q: "Election symbol of BJP:", opts: ["Hand", "Lotus", "Bicycle", "Elephant"], a: 1, ex: "Lotus." },
+      { q: "Election symbol of Congress:", opts: ["Lotus", "Hand", "Elephant", "Sun"], a: 1, ex: "Hand." },
+      { q: "Election symbol of BSP:", opts: ["Elephant", "Lotus", "Cycle", "Bow"], a: 0, ex: "Elephant." },
+      { q: "Election symbol of AAP:", opts: ["Broom", "Lotus", "Sun", "Tree"], a: 0, ex: "Broom." },
+      { q: "Communist Party of China founded:", opts: ["1911", "1921", "1949", "1976"], a: 1, ex: "1921 Shanghai." },
+      { q: "ANC is in:", opts: ["India", "South Africa", "Egypt", "Kenya"], a: 1, ex: "Mandela's party." },
+      { q: "LDP rules:", opts: ["Pakistan", "Japan", "Korea", "China"], a: 1, ex: "Liberal Democratic Party, Japan." },
+      { q: "PTI is in:", opts: ["India", "Pakistan", "Bangladesh", "Sri Lanka"], a: 1, ex: "Pakistan Tehreek-e-Insaf." },
+      { q: "AAP founded in:", opts: ["2010", "2012", "2014", "2008"], a: 1, ex: "2012." },
+      { q: "Democratic and Republican in:", opts: ["UK", "USA", "France", "Canada"], a: 1, ex: "USA two-party." },
+      { q: "Conservative and Labour in:", opts: ["USA", "UK", "Canada", "Australia"], a: 1, ex: "UK." },
+      { q: "Awami League in:", opts: ["Pakistan", "Bangladesh", "Sri Lanka", "Nepal"], a: 1, ex: "Bangladesh ruling party." }
+    ]
+  };
+
 })();
