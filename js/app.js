@@ -72,47 +72,63 @@
             p.textContent = "Topics coming soon";
             tlist.appendChild(p);
           } else {
-            // group topics by `group` — make each group collapsible
-            const groups = {};
-            section.topics.forEach(t => {
-              const g = t.group || section.name;
-              (groups[g] = groups[g] || []).push(t);
-            });
-            Object.entries(groups).forEach(([gName, topics]) => {
-              const groupWrap = document.createElement("div");
-              groupWrap.className = "subject group-wrap";
+            // Group topics by `group` field. If a topic has no group, it's flat under the section.
+            const hasAnyGroup = section.topics.some(t => t.group);
 
-              const groupHeader = document.createElement("div");
-              groupHeader.className = "subject-header";
-              groupHeader.style.fontSize = "0.85rem";
-              groupHeader.style.paddingLeft = "1rem";
-              groupHeader.style.color = "var(--accent)";
-              groupHeader.style.fontWeight = "600";
-              groupHeader.innerHTML = `<span>${gName}</span><span class="arrow">&#9654;</span>`;
-              groupHeader.addEventListener("click", (e) => {
-                e.stopPropagation();
-                groupWrap.classList.toggle("open");
+            const renderTopicLink = (t, parent) => {
+              const a = document.createElement("a");
+              a.className = "topic-link" + (progress[t.id] ? " read" : "");
+              a.href = "#" + t.id;
+              a.textContent = t.name;
+              a.dataset.topicId = t.id;
+              a.addEventListener("click", () => {
+                if (window.innerWidth <= 768) {
+                  document.getElementById("sidebar").classList.add("hidden");
+                }
               });
-              groupWrap.appendChild(groupHeader);
+              parent.appendChild(a);
+            };
 
-              const groupTopics = document.createElement("div");
-              groupTopics.className = "topics";
-              topics.forEach(t => {
-                const a = document.createElement("a");
-                a.className = "topic-link" + (progress[t.id] ? " read" : "");
-                a.href = "#" + t.id;
-                a.textContent = t.name;
-                a.dataset.topicId = t.id;
-                a.addEventListener("click", () => {
-                  if (window.innerWidth <= 768) {
-                    document.getElementById("sidebar").classList.add("hidden");
-                  }
+            if (!hasAnyGroup) {
+              // No groups — render topics directly under section
+              section.topics.forEach(t => renderTopicLink(t, tlist));
+            } else {
+              // Mixed/grouped: build groups
+              const groups = {};
+              const groupOrder = [];
+              section.topics.forEach(t => {
+                const g = t.group || "__ungrouped__";
+                if (!groups[g]) { groups[g] = []; groupOrder.push(g); }
+                groups[g].push(t);
+              });
+              groupOrder.forEach(gName => {
+                const topics = groups[gName];
+                if (gName === "__ungrouped__") {
+                  topics.forEach(t => renderTopicLink(t, tlist));
+                  return;
+                }
+                const groupWrap = document.createElement("div");
+                groupWrap.className = "subject group-wrap";
+                const groupHeader = document.createElement("div");
+                groupHeader.className = "subject-header";
+                groupHeader.style.fontSize = "0.85rem";
+                groupHeader.style.paddingLeft = "1rem";
+                groupHeader.style.color = "var(--accent)";
+                groupHeader.style.fontWeight = "600";
+                groupHeader.innerHTML = `<span>${gName}</span><span class="arrow">&#9654;</span>`;
+                groupHeader.addEventListener("click", (e) => {
+                  e.stopPropagation();
+                  groupWrap.classList.toggle("open");
                 });
-                groupTopics.appendChild(a);
+                groupWrap.appendChild(groupHeader);
+
+                const groupTopics = document.createElement("div");
+                groupTopics.className = "topics";
+                topics.forEach(t => renderTopicLink(t, groupTopics));
+                groupWrap.appendChild(groupTopics);
+                tlist.appendChild(groupWrap);
               });
-              groupWrap.appendChild(groupTopics);
-              tlist.appendChild(groupWrap);
-            });
+            }
           }
 
           sectionLabel.addEventListener("click", () => sectionWrap.classList.toggle("open"));
