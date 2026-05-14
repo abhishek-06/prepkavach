@@ -223,46 +223,10 @@ body {
   background: transparent;
 }
 
-/* Subject color palettes */
-.subject-root[data-subject-id="general-awareness"] {
-  --subject-color: #d97706;
-  --subject-soft: #fef3c7;
-}
-
-.subject-root[data-subject-id="quant"] {
-  --subject-color: #2563eb;
-  --subject-soft: #dbeafe;
-}
-
-.subject-root[data-subject-id="english"] {
-  --subject-color: #16a34a;
-  --subject-soft: #dcfce7;
-}
-
-.subject-root[data-subject-id="reasoning"] {
-  --subject-color: #9333ea;
-  --subject-soft: #f3e8ff;
-}
-
-/* Dark theme overrides — soft backgrounds need to be darker */
-[data-theme="dark"] .subject-root[data-subject-id="general-awareness"] {
-  --subject-color: #fbbf24;
-  --subject-soft: #422006;
-}
-
-[data-theme="dark"] .subject-root[data-subject-id="quant"] {
-  --subject-color: #60a5fa;
-  --subject-soft: #1e3a8a;
-}
-
-[data-theme="dark"] .subject-root[data-subject-id="english"] {
-  --subject-color: #4ade80;
-  --subject-soft: #14532d;
-}
-
-[data-theme="dark"] .subject-root[data-subject-id="reasoning"] {
-  --subject-color: #c084fc;
-  --subject-soft: #4a148c;
+/* All subjects use the default accent color */
+.subject-root {
+  --subject-color: var(--accent);
+  --subject-soft: var(--accent-soft);
 }
 
 .placeholder {
