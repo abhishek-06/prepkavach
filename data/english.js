@@ -3855,4 +3855,913 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 20. PARALLELISM
+  // ───────────────────────────────────────────────────────────────
+  T["eng-parallelism"] = {
+    body: `
+      <h2>Parallelism</h2>
+      <p><b>Parallelism</b> means using same grammatical structure for two or more items joined by conjunctions. SSC asks 1-2 questions on parallel structure.</p>
+
+      <h3>1. Core Rule</h3>
+      <p>When listing or contrasting items, they must be of the <b>same grammatical form</b> — all nouns, all verbs of same tense, all infinitives, all gerunds, etc.</p>
+      <ul>
+        <li>❌ She likes <b>swimming</b>, <b>hiking</b>, and <b>to ride</b> bikes.</li>
+        <li>✓ She likes <b>swimming</b>, <b>hiking</b>, and <b>riding</b> bikes. (all gerunds)</li>
+        <li>OR ✓ She likes <b>to swim</b>, <b>to hike</b>, and <b>to ride</b> bikes. (all infinitives)</li>
+      </ul>
+
+      <h3>2. Parallelism After Coordinating Conjunctions (and, or, but)</h3>
+      <ul>
+        <li>❌ He is intelligent and a hard worker. (adj + noun)</li>
+        <li>✓ He is intelligent and hard-working. (both adj)</li>
+        <li>OR ✓ He is an intelligent person and a hard worker. (both noun phrases)</li>
+      </ul>
+
+      <h3>3. Parallelism with Correlative Conjunctions</h3>
+      <p>Items after each pair must be parallel:</p>
+      <ul>
+        <li><b>Not only ... but also</b>: She not only <b>sings</b> but also <b>dances</b>. (both verbs)</li>
+        <li><b>Either ... or</b>: Either <b>tell</b> the truth or <b>leave</b>. (both verbs)</li>
+        <li><b>Neither ... nor</b>: He is neither <b>rude</b> nor <b>rough</b>. (both adj)</li>
+        <li><b>Both ... and</b>: She is both <b>kind</b> and <b>generous</b>.</li>
+        <li><b>Whether ... or</b>: I don't know whether to <b>go</b> or to <b>stay</b>.</li>
+      </ul>
+
+      <h3>4. Parallelism in Comparisons</h3>
+      <p>What you compare must be of the same type.</p>
+      <ul>
+        <li>❌ <b>To act</b> is better than <b>thinking</b>. (mixed)</li>
+        <li>✓ <b>To act</b> is better than <b>to think</b>. / <b>Acting</b> is better than <b>thinking</b>.</li>
+        <li>❌ His writing is better than <b>his brother</b>. (compares writing to brother)</li>
+        <li>✓ His writing is better than <b>his brother's</b>. (writing vs brother's writing)</li>
+      </ul>
+
+      <h3>5. Parallelism in Lists / Series</h3>
+      <ul>
+        <li>❌ The job requires <b>creativity</b>, <b>energy</b>, and being able to <b>work hard</b>.</li>
+        <li>✓ The job requires <b>creativity</b>, <b>energy</b>, and <b>hard work</b>. (all nouns)</li>
+      </ul>
+
+      <h3>6. Parallelism in Infinitives</h3>
+      <ul>
+        <li>When using a series of infinitives, can omit "to" after the first, but be consistent:</li>
+        <li>✓ I want to swim, run, and jump. (omitted)</li>
+        <li>✓ I want to swim, to run, and to jump. (all kept)</li>
+        <li>❌ I want to swim, run, and to jump. (mixed)</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>List items in a series → all same grammatical category.</li>
+        <li>After correlatives (not only...but also, either...or, neither...nor) → parallel forms.</li>
+        <li>"Like" compares nouns; "as" compares clauses/verbs.</li>
+        <li>"Prefer X to Y" — X and Y must be parallel.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "She enjoys swimming, dancing, and to read."</p>
+      <p><b>Solution:</b><br>Mix of gerunds and infinitive.<br>Correct: "swimming, dancing, and <b>reading</b>."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "He is not only a singer but also dances well."</p>
+      <p><b>Solution:</b><br>"Not only + noun" should pair with "but also + noun".<br>Correct: "He is not only <b>a singer</b> but also <b>a dancer</b>." / "He not only <b>sings</b> but also <b>dances</b> well."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "His behaviour is better than his brother."</p>
+      <p><b>Solution:</b><br>Compare behaviour to behaviour, not to brother.<br>Correct: "...than <b>his brother's</b>." / "than that of his brother."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Spot the error</b>: "She would rather sing than to dance."</p>
+      <p><b>Solution:</b><br>"Would rather + V1 + than + V1".<br>Correct: "...rather <b>sing</b> than <b>dance</b>."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Spot the error</b>: "He likes neither tea nor he likes coffee."</p>
+      <p><b>Solution:</b><br>After "neither" + after "nor" — parallel.<br>Correct: "He likes neither <b>tea</b> nor <b>coffee</b>."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Spot the error</b>: "He is interested in playing chess and to read books."</p>
+      <p><b>Solution:</b><br>"In + V-ing" — should be parallel.<br>Correct: "...playing chess and <b>reading</b> books."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Spot the error</b>: "The teacher praised the student for being punctual and his diligence."</p>
+      <p><b>Solution:</b><br>Need parallel forms.<br>Correct: "...for <b>his punctuality and diligence</b>." / "for <b>being punctual and diligent</b>."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Spot the error</b>: "He prefers reading to write."</p>
+      <p><b>Solution:</b><br>Prefer X to Y — parallel.<br>Correct: "He prefers <b>reading</b> to <b>writing</b>."</p>
+
+      <h4>Example 9</h4>
+      <p><b>Spot the error</b>: "She is not only beautiful but also kindness."</p>
+      <p><b>Solution:</b><br>Adj + adj.<br>Correct: "not only <b>beautiful</b> but also <b>kind</b>."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "He told me to come early and that I should bring my book."</p>
+      <p><b>Solution:</b><br>Same structure both clauses.<br>Correct: "He told me to come early and <b>to bring</b> my book." / "told me that I should come early and bring my book."</p>
+
+      <h4>Example 11</h4>
+      <p><b>Spot the error</b>: "The task was difficult and a challenge."</p>
+      <p><b>Solution:</b><br>Adj and noun mixed.<br>Correct: "difficult and <b>challenging</b>." / "<b>a difficult task</b> and <b>a challenge</b>."</p>
+
+      <h4>Example 12</h4>
+      <p><b>Spot the error</b>: "He likes both painting and to sing."</p>
+      <p><b>Solution:</b><br>Both + V-ing and + V-ing.<br>Correct: "both <b>painting and singing</b>."</p>
+
+      <h4>Example 13</h4>
+      <p><b>Spot the error</b>: "His way of speaking is different from how his sister speaks."</p>
+      <p><b>Solution:</b><br>Parallel structure.<br>Correct: "His way of speaking is different from <b>his sister's</b>." / "different from how his sister speaks." (this is OK if structures match).</p>
+
+      <h4>Example 14</h4>
+      <p><b>Spot the error</b>: "Either you should pay the fine or face the punishment."</p>
+      <p><b>Solution:</b><br>Either + V1, or + V1.<br>Correct: "Either <b>pay the fine</b> or <b>face the punishment</b>." / "Either you should pay the fine or <b>(you should) face</b>..."</p>
+
+      <h4>Example 15</h4>
+      <p><b>Spot the error</b>: "She is taller than her sister is intelligent."</p>
+      <p><b>Solution:</b><br>Mixed comparison — compares height to intelligence.<br>Should compare comparable things: "She is taller than her sister."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Items in a list → all same form (noun/V-ing/V1).</li>
+        <li>After correlatives — match forms on both sides.</li>
+        <li>"Prefer X to Y" / "Better than" — X and Y must be of same kind.</li>
+        <li>"Not only ... but also" — what comes after each must be parallel.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'I like swimming, dancing and to read.'", opts: ["swimming", "dancing", "to read", "No error"], a: 2, ex: "Parallelism: 'reading'." },
+      { q: "Spot the error: 'He is not only a great teacher but also teaches well.'", opts: ["not only a great teacher", "but also teaches well", "No error", "(none)"], a: 1, ex: "Should be 'but also a great teacher who teaches well' or restructure." },
+      { q: "Choose: 'He prefers reading ___ writing.'", opts: ["than", "to", "over", "from"], a: 1, ex: "Prefer X to Y." },
+      { q: "Spot the error: 'She loves cooking, painting, and to sing.'", opts: ["cooking", "painting", "to sing", "No error"], a: 2, ex: "'singing' for parallelism." },
+      { q: "Spot the error: 'Either you eat or going to school.'", opts: ["Either", "eat", "going", "No error"], a: 2, ex: "Match form: 'go to school'." },
+      { q: "Choose: 'Neither rude ___ aggressive.'", opts: ["nor", "or", "and", "but"], a: 0, ex: "Neither... nor." },
+      { q: "Spot the error: 'His writing is better than his brother.'", opts: ["His writing", "is better than", "his brother", "No error"], a: 2, ex: "His brother's (writing)." },
+      { q: "Spot the error: 'I want to swim, to run and play.'", opts: ["to swim", "to run", "play", "No error"], a: 2, ex: "Either all 'to' or none: 'to play' or 'swim, run and play'." },
+      { q: "Spot the error: 'He is brave and a leader.'", opts: ["He is brave", "and a leader", "No error", "(none)"], a: 1, ex: "Mixed adj and noun." },
+      { q: "Choose: 'She is both wise ___ kind.'", opts: ["or", "and", "but", "nor"], a: 1, ex: "Both ... and." },
+      { q: "Spot the error: 'He likes either tea or to drink coffee.'", opts: ["either tea", "or to drink coffee", "No error", "either"], a: 1, ex: "Parallel: 'or coffee'." },
+      { q: "Spot the error: 'She is taller than her brother is intelligent.'", opts: ["She is taller", "than her brother is intelligent", "No error", "(none)"], a: 1, ex: "Comparing different traits." },
+      { q: "Choose: 'I love cooking and ___.'", opts: ["to eat", "eating", "ate", "eats"], a: 1, ex: "Parallelism with gerund." },
+      { q: "Spot the error: 'She enjoys to swim and dancing.'", opts: ["to swim", "and dancing", "No error", "(none)"], a: 0, ex: "Mismatch: should be 'swimming'." },
+      { q: "Choose: 'I would rather walk ___ run.'", opts: ["than to", "than", "but to", "but"], a: 1, ex: "Would rather + V1 than + V1." },
+      { q: "Spot the error: 'He is interested not only in music but in dance also.'", opts: ["not only in music", "but in dance also", "No error", "(none)"], a: 1, ex: "But also in dance." },
+      { q: "Choose: 'The exam was difficult, long, and ___.'", opts: ["had stress", "stressful", "stress", "to stress"], a: 1, ex: "All adjectives." },
+      { q: "Spot the error: 'I told him to come early and that he should bring his book.'", opts: ["I told him", "to come early", "and that he should bring", "No error"], a: 2, ex: "Parallel: 'and to bring'." },
+      { q: "Spot the error: 'He came to study, to write and rest.'", opts: ["to study", "to write", "and rest", "No error"], a: 2, ex: "'to rest' or omit all 'to'." },
+      { q: "Choose: 'He is more intelligent than ___.'", opts: ["she", "her", "she is", "Both A and C"], a: 3, ex: "Either 'than she' or 'than she is'." },
+      { q: "Spot the error: 'She is neither beautiful nor talent.'", opts: ["She is neither", "beautiful", "nor talent", "No error"], a: 2, ex: "Parallel: 'nor talented'." },
+      { q: "Spot the error: 'My job involves typing, filing, and to greet visitors.'", opts: ["typing", "filing", "and to greet visitors", "No error"], a: 2, ex: "Should be 'greeting visitors'." },
+      { q: "Choose: 'Better late ___ never.'", opts: ["then", "than", "but", "or"], a: 1, ex: "Standard idiom." },
+      { q: "Spot the error: 'Her speech is more interesting than her teacher.'", opts: ["Her speech", "more interesting", "than her teacher", "No error"], a: 2, ex: "Should be 'than her teacher's'." },
+      { q: "Choose: 'Either he comes ___ I go.'", opts: ["or", "nor", "and", "but"], a: 0, ex: "Either ... or." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 21. SUPERFLUOUS EXPRESSIONS (Redundancy / Pleonasm)
+  // ───────────────────────────────────────────────────────────────
+  T["eng-superfluous"] = {
+    body: `
+      <h2>Superfluous Expressions (Redundancy)</h2>
+      <p>Superfluous = unnecessary words that mean the same thing as another word already used. SSC asks 1-2 questions on identifying redundant words.</p>
+
+      <h3>1. The Concept</h3>
+      <p>Each word should add meaning. If two words mean the same, one is redundant.</p>
+      <p>Example: "Return back" — "return" already means "go back". So "back" is redundant.</p>
+
+      <h3>2. Common Redundant Pairs (MEMORIZE!)</h3>
+      <table>
+        <tr><th>Redundant</th><th>Correct</th><th>Why?</th></tr>
+        <tr><td>Return back</td><td>Return</td><td>Return = come back</td></tr>
+        <tr><td>Repeat again</td><td>Repeat</td><td>Repeat = do again</td></tr>
+        <tr><td>Revert back</td><td>Revert</td><td>Revert = go back</td></tr>
+        <tr><td>Reply back</td><td>Reply</td><td>Reply = respond back</td></tr>
+        <tr><td>Mutual cooperation</td><td>Cooperation</td><td>Cooperation already implies mutual</td></tr>
+        <tr><td>Each and every</td><td>Each / Every</td><td>Both mean same</td></tr>
+        <tr><td>End result</td><td>Result</td><td>Result is always at the end</td></tr>
+        <tr><td>Free gift</td><td>Gift</td><td>Gift is always free</td></tr>
+        <tr><td>Final outcome</td><td>Outcome</td><td>Outcome is always final</td></tr>
+        <tr><td>New innovation</td><td>Innovation</td><td>Innovation is always new</td></tr>
+        <tr><td>Past history</td><td>History</td><td>History is always past</td></tr>
+        <tr><td>Past experience</td><td>Experience</td><td>Experience is from past</td></tr>
+        <tr><td>True facts</td><td>Facts</td><td>Facts are always true</td></tr>
+        <tr><td>Joint cooperation</td><td>Cooperation</td><td>Co- already means joint</td></tr>
+        <tr><td>Sufficient enough</td><td>Sufficient / Enough</td><td>Same meaning</td></tr>
+        <tr><td>Cancel out</td><td>Cancel</td><td>Out is redundant</td></tr>
+        <tr><td>Postponed to later</td><td>Postponed</td><td>Postpone = to later</td></tr>
+        <tr><td>Reason is because</td><td>Reason is that / Because</td><td>Either, not both</td></tr>
+        <tr><td>Ask a question</td><td>Ask</td><td>Ask = put a question (in some contexts)</td></tr>
+        <tr><td>Discuss about</td><td>Discuss</td><td>Discuss = talk about</td></tr>
+        <tr><td>Comment about</td><td>Comment on</td><td>Use 'on'</td></tr>
+        <tr><td>Approach to</td><td>Approach</td><td>Approach = come towards</td></tr>
+        <tr><td>Climb up</td><td>Climb</td><td>Up is implied</td></tr>
+        <tr><td>Descend down</td><td>Descend</td><td>Down is implied</td></tr>
+        <tr><td>Cooperate together</td><td>Cooperate</td><td>Together is implied</td></tr>
+        <tr><td>Two equal halves</td><td>Two halves / Equal halves</td><td>Halves are equal</td></tr>
+        <tr><td>Hurry up quickly</td><td>Hurry</td><td>Hurry = move quickly</td></tr>
+        <tr><td>Open up</td><td>Open</td><td>Up is redundant (in most cases)</td></tr>
+        <tr><td>Continue on</td><td>Continue</td><td>On is redundant</td></tr>
+        <tr><td>Connect up</td><td>Connect</td><td>Up is redundant</td></tr>
+        <tr><td>Empty space</td><td>Space (or Empty)</td><td>Same idea</td></tr>
+        <tr><td>Foreign import</td><td>Import</td><td>Import = from foreign</td></tr>
+        <tr><td>Local resident</td><td>Resident</td><td>Resident = local</td></tr>
+        <tr><td>Visible to the eye</td><td>Visible</td><td>Visible = seen by eye</td></tr>
+        <tr><td>Audible to the ear</td><td>Audible</td><td>Heard by ear</td></tr>
+      </table>
+
+      <h3>3. Redundant Prepositions / Adverbs (Often Tested)</h3>
+      <ul>
+        <li>"Discuss <s>about</s>" → "Discuss"</li>
+        <li>"Order <s>to</s> me" → "Order me"</li>
+        <li>"Request <s>to</s> him" → "Request him"</li>
+        <li>"Marry <s>with</s>" → "Marry"</li>
+        <li>"Resemble <s>to</s>" → "Resemble"</li>
+        <li>"Reach <s>at</s>" → "Reach"</li>
+        <li>"Enter <s>into</s>" the room → "Enter the room" (but "enter into agreement" OK)</li>
+        <li>"Investigate <s>into</s>" → "Investigate"</li>
+        <li>"Emphasize <s>on</s>" → "Emphasize" (but "lay emphasis on" OK)</li>
+      </ul>
+
+      <h3>4. Redundant Adjectives</h3>
+      <ul>
+        <li>"Future plans" → "Plans" (plans are always for future)</li>
+        <li>"Personal opinion" → "Opinion"</li>
+        <li>"Honest truth" → "Truth"</li>
+        <li>"Advance warning" → "Warning"</li>
+        <li>"Necessary requirement" → "Requirement"</li>
+        <li>"Brief summary" → "Summary"</li>
+        <li>"Frozen ice" → "Ice"</li>
+        <li>"Boiling hot" → "Hot" or "Boiling"</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>If a verb already implies direction/manner, don't add it again (return back ❌).</li>
+        <li>If a noun is inherently of a type, don't qualify (free gift ❌).</li>
+        <li>"Each and every" — pick ONE.</li>
+        <li>"Sufficient" = "enough" — don't use both.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Spot the error</b>: "Please return back the book by Friday."</p>
+      <p><b>Solution:</b><br>"Return" already means "give back".<br>Correct: "Please <b>return</b> the book."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Spot the error</b>: "We discussed about the matter."</p>
+      <p><b>Solution:</b><br>"Discuss" takes no preposition.<br>Correct: "We <b>discussed</b> the matter."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Spot the error</b>: "He repeated the question again."</p>
+      <p><b>Solution:</b><br>"Repeat" = do again.<br>Correct: "He <b>repeated</b> the question."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Spot the error</b>: "The end result was disappointing."</p>
+      <p><b>Solution:</b><br>Result is always at end.<br>Correct: "The <b>result</b> was disappointing."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Spot the error</b>: "She received a free gift."</p>
+      <p><b>Solution:</b><br>Gift is always free.<br>Correct: "She received <b>a gift</b>."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Spot the error</b>: "She married with a doctor."</p>
+      <p><b>Solution:</b><br>Marry takes no preposition.<br>Correct: "She <b>married</b> a doctor."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Spot the error</b>: "Each and every student must attend."</p>
+      <p><b>Solution:</b><br>Pick one.<br>Correct: "<b>Each</b> student..." / "<b>Every</b> student..."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Spot the error</b>: "It is the same identical book."</p>
+      <p><b>Solution:</b><br>Same = identical.<br>Correct: "It is the <b>same</b> book."</p>
+
+      <h4>Example 9</h4>
+      <p><b>Spot the error</b>: "He has had past experience in this field."</p>
+      <p><b>Solution:</b><br>Experience is from past.<br>Correct: "He has had <b>experience</b>."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Spot the error</b>: "He requested to me to come."</p>
+      <p><b>Solution:</b><br>Request takes no preposition.<br>Correct: "He <b>requested me</b>..."</p>
+
+      <h4>Example 11</h4>
+      <p><b>Spot the error</b>: "The bus was completely full."</p>
+      <p><b>Solution:</b><br>"Full" is absolute.<br>Correct: "The bus was <b>full</b>."</p>
+
+      <h4>Example 12</h4>
+      <p><b>Spot the error</b>: "We are mutually cooperating."</p>
+      <p><b>Solution:</b><br>Cooperation already mutual.<br>Correct: "We are <b>cooperating</b>."</p>
+
+      <h4>Example 13</h4>
+      <p><b>Spot the error</b>: "He climbed up the mountain."</p>
+      <p><b>Solution:</b><br>Climb usually implies up.<br>Correct: "He <b>climbed</b> the mountain." (acceptable in some contexts to add "up" for emphasis)</p>
+
+      <h4>Example 14</h4>
+      <p><b>Spot the error</b>: "The reason for his failure is because he was lazy."</p>
+      <p><b>Solution:</b><br>"Reason ... because" redundant.<br>Correct: "The reason for his failure is <b>that</b> he was lazy." / "He failed because he was lazy."</p>
+
+      <h4>Example 15</h4>
+      <p><b>Spot the error</b>: "Cancel out the booking."</p>
+      <p><b>Solution:</b><br>"Out" is redundant.<br>Correct: "<b>Cancel</b> the booking."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Verbs that imply direction: return, revert, repeat, reply — don't add "back/again".</li>
+        <li>Nouns with inherent qualities: gift (free), result (end), history (past) — don't double-qualify.</li>
+        <li>Verbs that take no preposition: discuss, marry, reach, resemble, request, order.</li>
+        <li>Don't use "reason ... because" — pick one.</li>
+        <li>"Each and every" — pick one.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Spot the error: 'Please return back my book.'", opts: ["Please", "return back", "my book", "No error"], a: 1, ex: "Return = give back." },
+      { q: "Spot the error: 'We discussed about the issue.'", opts: ["We", "discussed about", "the issue", "No error"], a: 1, ex: "Discuss takes no preposition." },
+      { q: "Spot the error: 'She repeated the same thing again.'", opts: ["She repeated", "the same thing", "again", "No error"], a: 2, ex: "Repeat = do again." },
+      { q: "Spot the error: 'The end result was excellent.'", opts: ["The end result", "was", "excellent", "No error"], a: 0, ex: "End result is redundant." },
+      { q: "Spot the error: 'He received a free gift.'", opts: ["He received", "a free gift", "No error", "(none)"], a: 1, ex: "Gift is always free." },
+      { q: "Spot the error: 'Each and every member must pay.'", opts: ["Each and every", "member must pay", "No error", "(none)"], a: 0, ex: "Pick one." },
+      { q: "Spot the error: 'She is married with a doctor.'", opts: ["She is", "married with", "a doctor", "No error"], a: 1, ex: "Married to / no prep." },
+      { q: "Spot the error: 'He reached at the station.'", opts: ["He reached", "at", "the station", "No error"], a: 1, ex: "Reach takes no preposition." },
+      { q: "Spot the error: 'It is the same identical pen.'", opts: ["It is", "same identical", "pen", "No error"], a: 1, ex: "Same = identical." },
+      { q: "Spot the error: 'He has past experience.'", opts: ["He has", "past experience", "No error", "(none)"], a: 1, ex: "Experience is from past." },
+      { q: "Spot the error: 'Mutual cooperation is needed.'", opts: ["Mutual cooperation", "is needed", "No error", "(none)"], a: 0, ex: "Cooperation already mutual." },
+      { q: "Spot the error: 'The reason of his absence is because he was sick.'", opts: ["The reason of his absence", "is because", "he was sick", "No error"], a: 1, ex: "Reason ... because redundant." },
+      { q: "Spot the error: 'Please write down the answers.'", opts: ["Please", "write down", "the answers", "No error"], a: 3, ex: "'Write down' is OK." },
+      { q: "Spot the error: 'Two equal halves of the cake.'", opts: ["Two equal halves", "of the cake", "No error", "(none)"], a: 0, ex: "Halves are equal." },
+      { q: "Spot the error: 'Final outcome is awaited.'", opts: ["Final outcome", "is awaited", "No error", "(none)"], a: 0, ex: "Outcome = final result." },
+      { q: "Spot the error: 'He climbed up the ladder.'", opts: ["He climbed", "up the ladder", "No error", "(none)"], a: 3, ex: "Acceptable; 'climbed up' often used for clarity." },
+      { q: "Spot the error: 'New innovation amazed all.'", opts: ["New innovation", "amazed", "all", "No error"], a: 0, ex: "Innovation = new thing." },
+      { q: "Spot the error: 'He cancelled out the meeting.'", opts: ["He cancelled", "out", "the meeting", "No error"], a: 1, ex: "'Out' is redundant after 'cancel'." },
+      { q: "Spot the error: 'I'll revert back to you soon.'", opts: ["I'll revert", "back", "to you soon", "No error"], a: 1, ex: "Revert = go back." },
+      { q: "Spot the error: 'He requested to me to come.'", opts: ["He requested", "to me", "to come", "No error"], a: 1, ex: "Request takes no preposition." },
+      { q: "Spot the error: 'The temperature was boiling hot.'", opts: ["The temperature", "was boiling hot", "No error", "(none)"], a: 1, ex: "Boiling = very hot — redundant." },
+      { q: "Spot the error: 'It is sufficient enough food.'", opts: ["It is", "sufficient enough", "food", "No error"], a: 1, ex: "Pick one: sufficient OR enough." },
+      { q: "Spot the error: 'Please reply back soon.'", opts: ["Please", "reply back", "soon", "No error"], a: 1, ex: "Reply = answer back." },
+      { q: "Spot the error: 'Foreign imports flooded the market.'", opts: ["Foreign imports", "flooded the market", "No error", "(none)"], a: 0, ex: "Imports are by definition foreign." },
+      { q: "Spot the error: 'The advance warning saved many.'", opts: ["The advance warning", "saved many", "No error", "(none)"], a: 0, ex: "Warning is always in advance." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 22. ANALYSIS OF SENTENCES
+  // ───────────────────────────────────────────────────────────────
+  T["eng-analysis"] = {
+    body: `
+      <h2>Analysis of Sentences</h2>
+      <p>Analysis = breaking a sentence into its parts (Subject, Predicate, Object, Complement, etc.) and identifying clauses. Foundation for understanding sentence transformation.</p>
+
+      <h3>1. Two Basic Parts of a Sentence</h3>
+      <ul>
+        <li><b>Subject</b>: who/what is performing the action or being described. (often a noun/pronoun)</li>
+        <li><b>Predicate</b>: what is said about the subject (everything except the subject).</li>
+      </ul>
+      <p>Example: "The boy / is playing in the garden."<br>
+      Subject = The boy; Predicate = is playing in the garden.</p>
+
+      <h3>2. Inside the Predicate</h3>
+      <ul>
+        <li><b>Verb</b>: the action or state.</li>
+        <li><b>Object</b>: who/what receives the action.
+          <ul>
+            <li><b>Direct Object</b>: directly receives action (he gave <b>a book</b>).</li>
+            <li><b>Indirect Object</b>: who receives the direct object (he gave <b>me</b> a book).</li>
+          </ul>
+        </li>
+        <li><b>Complement</b>: completes the meaning, esp. with linking verbs.
+          <ul>
+            <li><b>Subject Complement</b>: describes subject (He is <b>a doctor</b>.).</li>
+            <li><b>Object Complement</b>: describes object (We elected him <b>president</b>.).</li>
+          </ul>
+        </li>
+        <li><b>Adverbial</b>: tells when, where, why, how (in the garden, slowly, yesterday).</li>
+      </ul>
+
+      <h3>3. Sentence Types (Structure)</h3>
+
+      <h4>(a) Simple Sentence — One Clause</h4>
+      <ul>
+        <li>One subject + one finite verb.</li>
+        <li>"The cat sat on the mat."</li>
+      </ul>
+
+      <h4>(b) Compound Sentence — Two or More Independent Clauses joined by FANBOYS</h4>
+      <ul>
+        <li>Each clause can stand alone.</li>
+        <li>"I came, and he left." (two independent clauses joined by "and")</li>
+        <li>"He ran fast, but he missed the bus."</li>
+      </ul>
+
+      <h4>(c) Complex Sentence — One Independent + One or More Dependent Clauses</h4>
+      <ul>
+        <li>Dependent clause introduced by subordinating conjunction (because, when, if, although, since, while, that, who, which...).</li>
+        <li>"I went home <b>because I was tired</b>." (main + subordinate)</li>
+        <li>"The boy <b>who is wearing red</b> is my brother." (main + relative)</li>
+      </ul>
+
+      <h4>(d) Compound-Complex — Two+ Independent + One+ Dependent</h4>
+      <ul>
+        <li>"I went home and slept <b>because I was tired</b>." (two independent + one dependent)</li>
+      </ul>
+
+      <h3>4. Types of Clauses</h3>
+
+      <h4>(a) Independent (Main) Clause</h4>
+      <p>Can stand alone as a sentence. "She is smart."</p>
+
+      <h4>(b) Dependent (Subordinate) Clause</h4>
+      <p>Cannot stand alone — depends on main clause. Three types:</p>
+      <ul>
+        <li><b>Noun Clause</b>: functions as a noun. Often starts with "that, what, who, why, how".<br>
+          "<b>What he said</b> was interesting." (subject)<br>
+          "I don't know <b>where he lives</b>." (object)</li>
+        <li><b>Adjective (Relative) Clause</b>: modifies a noun. Starts with "who, whom, whose, which, that".<br>
+          "The man <b>who came</b> is my uncle."</li>
+        <li><b>Adverb Clause</b>: modifies the verb. Tells when/where/why/how/condition.<br>
+          "I'll come <b>when I can</b>." (time)<br>
+          "<b>If you ask</b>, I'll help." (condition)<br>
+          "She left <b>because she was tired</b>." (reason)</li>
+      </ul>
+
+      <h3>5. Functions in a Sentence</h3>
+      <table>
+        <tr><th>Function</th><th>Example</th></tr>
+        <tr><td>Subject</td><td><b>The boy</b> kicked the ball.</td></tr>
+        <tr><td>Verb</td><td>The boy <b>kicked</b> the ball.</td></tr>
+        <tr><td>Object</td><td>The boy kicked <b>the ball</b>.</td></tr>
+        <tr><td>Indirect Object</td><td>He gave <b>me</b> a gift.</td></tr>
+        <tr><td>Direct Object</td><td>He gave me <b>a gift</b>.</td></tr>
+        <tr><td>Subject Complement</td><td>She is <b>a teacher</b>.</td></tr>
+        <tr><td>Object Complement</td><td>They made him <b>captain</b>.</td></tr>
+        <tr><td>Adverbial</td><td>He runs <b>fast</b>. / She came <b>yesterday</b>.</td></tr>
+      </table>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Find the verb first. Subject is what does/is the action. Object is who/what receives it.</li>
+        <li>Independent clause has subject + finite verb and makes complete sense.</li>
+        <li>Dependent clause has subject + verb but doesn't make sense alone.</li>
+        <li>Number of finite verbs (excluding helpers) ≈ number of clauses.</li>
+        <li>Subordinator (because, if, when, that, who, which) → start of dependent clause.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Identify subject and predicate</b>: "The children are playing in the park."</p>
+      <p><b>Solution:</b><br>Subject: "The children".<br>Predicate: "are playing in the park".</p>
+
+      <h4>Example 2</h4>
+      <p><b>Identify direct + indirect object</b>: "She gave him a book."</p>
+      <p><b>Solution:</b><br>Direct object: "a book" (what was given).<br>Indirect object: "him" (to whom).</p>
+
+      <h4>Example 3</h4>
+      <p><b>What type of sentence?</b> "I went home and slept."</p>
+      <p><b>Solution:</b><br>Two independent clauses joined by "and" → <b>Compound</b>.</p>
+
+      <h4>Example 4</h4>
+      <p><b>What type of sentence?</b> "Because it was raining, I stayed home."</p>
+      <p><b>Solution:</b><br>One independent ("I stayed home") + one dependent ("Because it was raining") → <b>Complex</b>.</p>
+
+      <h4>Example 5</h4>
+      <p><b>Identify the clause type</b>: "I don't know <i>what he wants</i>."</p>
+      <p><b>Solution:</b><br>"what he wants" — functions as object → <b>Noun clause</b>.</p>
+
+      <h4>Example 6</h4>
+      <p><b>Identify clause type</b>: "The man <i>who lives next door</i> is a doctor."</p>
+      <p><b>Solution:</b><br>"who lives next door" describes "the man" → <b>Adjective (Relative) clause</b>.</p>
+
+      <h4>Example 7</h4>
+      <p><b>Identify clause type</b>: "I will come <i>when I am free</i>."</p>
+      <p><b>Solution:</b><br>"when I am free" tells when → <b>Adverb clause of time</b>.</p>
+
+      <h4>Example 8</h4>
+      <p><b>Find object complement</b>: "They elected him <i>captain</i>."</p>
+      <p><b>Solution:</b><br>"captain" completes the meaning of "him" → object complement.</p>
+
+      <h4>Example 9</h4>
+      <p><b>Find subject complement</b>: "The soup tastes <i>good</i>."</p>
+      <p><b>Solution:</b><br>"good" describes the subject "soup" via linking verb "tastes".</p>
+
+      <h4>Example 10</h4>
+      <p><b>Sentence type</b>: "Although it was late, he kept working, and his sister joined him."</p>
+      <p><b>Solution:</b><br>Two independent (he kept working / his sister joined) + one dependent (Although it was late) → <b>Compound-Complex</b>.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Direct object answers "what?"; Indirect object answers "to whom?".</li>
+        <li>Number of subordinators ≈ number of dependent clauses.</li>
+        <li>FANBOYS (for, and, nor, but, or, yet, so) join independent clauses → Compound.</li>
+        <li>Subordinator at start (because, when, if, although...) → Complex.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Identify subject: 'The girl with red hair sang beautifully.'", opts: ["The girl", "The girl with red hair", "sang", "beautifully"], a: 1, ex: "Complete subject includes modifiers." },
+      { q: "Identify object: 'She wrote a long letter.'", opts: ["She", "wrote", "a long letter", "long"], a: 2, ex: "What did she write? Letter." },
+      { q: "Type of sentence: 'I will go if you come.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 2, ex: "Main + dependent (if)." },
+      { q: "Type of sentence: 'He left, but she stayed.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 1, ex: "Two independent + but." },
+      { q: "Type of clause: 'I know <b>what he did</b>.'", opts: ["Noun", "Adjective", "Adverb", "Main"], a: 0, ex: "Acts as object → noun clause." },
+      { q: "Type of clause: 'The book <b>that I bought</b> is interesting.'", opts: ["Noun", "Adjective", "Adverb", "Main"], a: 1, ex: "Modifies 'book' → adjective." },
+      { q: "Type of clause: 'I'll come <b>when I'm ready</b>.'", opts: ["Noun", "Adjective", "Adverb", "Main"], a: 2, ex: "Tells when → adverb." },
+      { q: "Subject of: 'Running is good exercise.'", opts: ["Running", "is", "good", "exercise"], a: 0, ex: "Gerund as subject." },
+      { q: "Object of: 'He gave the children some sweets.'", opts: ["the children", "some sweets", "Both A and B", "gave"], a: 2, ex: "Children = indirect, sweets = direct." },
+      { q: "Sentence type: 'He sings well.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 0, ex: "One clause." },
+      { q: "Identify predicate: 'Mary read a fascinating book.'", opts: ["Mary", "read a fascinating book", "a fascinating book", "fascinating"], a: 1, ex: "Everything after subject." },
+      { q: "Sentence type: 'I will go to school and study.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 0, ex: "Two verbs, one subject — simple." },
+      { q: "Subject complement: 'She is a singer.'", opts: ["She", "is", "a singer", "singer"], a: 2, ex: "Renames subject." },
+      { q: "Object complement: 'We made him the leader.'", opts: ["him", "the leader", "made", "We"], a: 1, ex: "Describes 'him' (the object)." },
+      { q: "Sentence type: 'The book that I read was good, but the movie was bad.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 3, ex: "2 independent + 1 dependent." },
+      { q: "Type of clause: 'Whoever wins will be honoured.'", opts: ["Noun", "Adjective", "Adverb", "Independent"], a: 0, ex: "Subject = whoever wins; functions as noun." },
+      { q: "Identify direct object: 'I told him a secret.'", opts: ["him", "a secret", "told", "I"], a: 1, ex: "Direct object = what was told." },
+      { q: "Sentence type: 'Because I was tired, I slept.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 2, ex: "Main + because-clause." },
+      { q: "Type of clause: 'I asked her where she lives.'", opts: ["Noun", "Adjective", "Adverb", "Main"], a: 0, ex: "Object of 'asked'." },
+      { q: "Subject of: 'In the garden was a beautiful fountain.'", opts: ["the garden", "a beautiful fountain", "was", "In"], a: 1, ex: "Subject (inverted sentence)." },
+      { q: "Sentence type: 'She came, saw, and conquered.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 0, ex: "Same subject, three verbs — still simple." },
+      { q: "Type of clause: 'He is the boy who won.'", opts: ["Noun", "Adjective", "Adverb", "Main"], a: 1, ex: "Modifies 'boy'." },
+      { q: "Indirect object: 'She baked her son a cake.'", opts: ["her son", "a cake", "baked", "She"], a: 0, ex: "To whom = her son." },
+      { q: "Type of sentence: 'He went home; she stayed.'", opts: ["Simple", "Compound", "Complex", "Compound-complex"], a: 1, ex: "Two independent (joined by ;)." },
+      { q: "Type of clause: 'Tell me what you want.'", opts: ["Noun", "Adjective", "Adverb", "Main"], a: 0, ex: "What you want = object." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 23. TRANSFORMATION OF SENTENCES
+  // ───────────────────────────────────────────────────────────────
+  T["eng-transformation"] = {
+    body: `
+      <h2>Transformation of Sentences</h2>
+      <p>Transformation = converting a sentence from one form to another <b>without changing the meaning</b>. Common types tested in SSC.</p>
+
+      <h3>Common Transformation Types</h3>
+
+      <h3>1. Affirmative ↔ Negative</h3>
+      <ul>
+        <li>"Everyone must die." → "<b>No one can</b> escape death."</li>
+        <li>"He is rich." → "He is <b>not poor</b>."</li>
+        <li>"He is honest." → "He is <b>not dishonest</b>."</li>
+        <li>"Only / Alone..." → use negative: "He alone can do it" → "<b>None but he</b> can do it."</li>
+        <li>"As soon as..." → "<b>No sooner did... than</b>"</li>
+        <li>Use opposite + "not": rich ↔ not poor; remember ↔ not forget</li>
+      </ul>
+
+      <h3>2. Assertive ↔ Interrogative (Rhetorical Questions)</h3>
+      <p>A rhetorical question implies the opposite answer.</p>
+      <ul>
+        <li>"Everyone loves freedom." → "<b>Who doesn't love</b> freedom?"</li>
+        <li>"No one wants to fail." → "<b>Who wants</b> to fail?"</li>
+        <li>"It is useless to cry." → "<b>What is the use of</b> crying?" / "<b>Is it not useless to cry?</b>"</li>
+        <li>Affirmative → Negative interrogative (and vice versa).</li>
+      </ul>
+
+      <h3>3. Exclamatory ↔ Assertive</h3>
+      <ul>
+        <li>"How beautiful the flower is!" → "The flower is <b>very beautiful</b>."</li>
+        <li>"What a fool he is!" → "He is <b>a great fool</b>."</li>
+        <li>"Hurrah! We won!" → "It is a matter of great joy that we won."</li>
+        <li>"Alas! He is no more." → "It is sad that he is no more."</li>
+      </ul>
+
+      <h3>4. Degrees of Comparison</h3>
+
+      <h4>(a) Positive → Comparative → Superlative</h4>
+      <ul>
+        <li>Positive: "No other city is as big as Mumbai."<br>
+          Comparative: "Mumbai is <b>bigger than any other</b> city."<br>
+          Superlative: "Mumbai is <b>the biggest</b> city."</li>
+        <li>Positive: "Very few cities are as beautiful as Paris."<br>
+          Comparative: "Paris is <b>more beautiful than most other</b> cities."<br>
+          Superlative: "Paris is <b>one of the most beautiful</b> cities."</li>
+      </ul>
+
+      <h3>5. Active ↔ Passive Voice</h3>
+      <ul>
+        <li>"He wrote a letter." → "A letter <b>was written by him</b>."</li>
+        <li>(See Voice topic for details.)</li>
+      </ul>
+
+      <h3>6. Direct ↔ Indirect Speech</h3>
+      <ul>
+        <li>He said, "I am happy." → He said that he <b>was happy</b>.</li>
+        <li>(See Narration topic for details.)</li>
+      </ul>
+
+      <h3>7. Simple ↔ Complex ↔ Compound</h3>
+
+      <h4>(a) Simple → Complex</h4>
+      <ul>
+        <li>Simple: "On reaching home, I called her."<br>
+          Complex: "<b>When I reached home</b>, I called her."</li>
+        <li>Simple: "He confessed his guilt."<br>
+          Complex: "He confessed <b>that he was guilty</b>."</li>
+      </ul>
+
+      <h4>(b) Simple → Compound</h4>
+      <ul>
+        <li>Simple: "Despite being poor, he is honest."<br>
+          Compound: "He is poor <b>but he is honest</b>."</li>
+        <li>Simple: "Besides being intelligent, he is hardworking."<br>
+          Compound: "He is intelligent <b>and hardworking</b>."</li>
+      </ul>
+
+      <h4>(c) Complex → Simple</h4>
+      <ul>
+        <li>Complex: "When the sun rose, we set out."<br>
+          Simple: "<b>At sunrise</b>, we set out."</li>
+        <li>Complex: "I know that he is honest."<br>
+          Simple: "I know <b>about his honesty</b>." / "I know him to be honest."</li>
+      </ul>
+
+      <h4>(d) Compound → Complex</h4>
+      <ul>
+        <li>Compound: "He worked hard and (so) he succeeded."<br>
+          Complex: "<b>Because</b> he worked hard, he succeeded." / "He succeeded <b>because</b> he worked hard."</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li><b>Universal affirmation → Negative rhetorical question</b>.</li>
+        <li><b>"Only/Alone"</b> → "None but" / "Nothing but" for negative.</li>
+        <li><b>Exclamatory → Assertive</b>: "How X!" / "What X!" → "very X".</li>
+        <li><b>Positive comparison</b> with "as ... as": "No other X is so Y as Z" → Comparative "Z is more Y than any other X" → Superlative "Z is the most Y".</li>
+        <li>Use synonyms with "not" to flip affirmative ↔ negative.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1 — Affirmative to Negative</h4>
+      <p><b>Sentence</b>: "Everyone praises virtue."</p>
+      <p><b>Negative</b>: "<b>No one fails to praise</b> virtue."</p>
+
+      <h4>Example 2 — Assertive to Interrogative</h4>
+      <p><b>Sentence</b>: "Nobody loves cruelty."</p>
+      <p><b>Interrogative</b>: "<b>Who loves</b> cruelty?"</p>
+
+      <h4>Example 3 — Exclamatory to Assertive</h4>
+      <p><b>Sentence</b>: "How wonderful the view is!"</p>
+      <p><b>Assertive</b>: "The view is <b>very wonderful</b>."</p>
+
+      <h4>Example 4 — Positive to Superlative</h4>
+      <p><b>Sentence</b>: "No other boy in the class is as tall as Ram."</p>
+      <p><b>Superlative</b>: "Ram is <b>the tallest boy</b> in the class."</p>
+
+      <h4>Example 5 — Comparative to Positive</h4>
+      <p><b>Sentence</b>: "Iron is more useful than any other metal."</p>
+      <p><b>Positive</b>: "<b>No other metal is as useful as iron</b>."</p>
+
+      <h4>Example 6 — Simple to Complex</h4>
+      <p><b>Sentence</b>: "On hearing the news, she fainted."</p>
+      <p><b>Complex</b>: "<b>When she heard the news</b>, she fainted." / "As soon as she heard the news..."</p>
+
+      <h4>Example 7 — Compound to Complex</h4>
+      <p><b>Sentence</b>: "He is poor but he is honest."</p>
+      <p><b>Complex</b>: "<b>Although</b> he is poor, he is honest."</p>
+
+      <h4>Example 8 — Complex to Simple</h4>
+      <p><b>Sentence</b>: "Because of his honesty, everybody loves him." / "Because he is honest, everybody loves him."</p>
+      <p><b>Simple</b>: "<b>Being honest</b>, everybody loves him." / "Everybody loves him for his honesty."</p>
+
+      <h4>Example 9 — Affirmative to Negative</h4>
+      <p><b>Sentence</b>: "He is too weak to walk."</p>
+      <p><b>Negative</b>: "He is <b>so weak that he cannot walk</b>."</p>
+
+      <h4>Example 10 — Assertive to Exclamatory</h4>
+      <p><b>Sentence</b>: "It is a very beautiful day."</p>
+      <p><b>Exclamatory</b>: "<b>What a beautiful day it is!</b>"</p>
+
+      <h4>Example 11 — Universal Affirmative to Question</h4>
+      <p><b>Sentence</b>: "All know honesty is the best policy."</p>
+      <p><b>Interrogative</b>: "<b>Who does not know</b> honesty is the best policy?"</p>
+
+      <h4>Example 12 — Positive to Comparative</h4>
+      <p><b>Sentence</b>: "Very few rivers are as long as the Ganges."</p>
+      <p><b>Comparative</b>: "The Ganges is <b>longer than most other rivers</b>."</p>
+
+      <h4>Example 13 — Compound to Simple</h4>
+      <p><b>Sentence</b>: "He must work hard or he will fail."</p>
+      <p><b>Simple</b>: "He must work hard <b>to avoid failure</b>." / "He must work hard <b>in order to succeed</b>."</p>
+
+      <h4>Example 14 — Affirmative to Negative with "Too"</h4>
+      <p><b>Sentence</b>: "He is too tired to walk."</p>
+      <p><b>Negative</b>: "He is <b>so tired that he cannot walk</b>."</p>
+
+      <h4>Example 15 — Exclamatory to Assertive (with "What")</h4>
+      <p><b>Sentence</b>: "What a beautiful sight it is!"</p>
+      <p><b>Assertive</b>: "It is <b>a very beautiful sight</b>."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Affirmative → Negative: use antonym + "not".</li>
+        <li>Universal "everyone/all" → "no one ... not" or "Who ... not?"</li>
+        <li>"Only/Alone" → "None but" or "Nothing but" or "No one except".</li>
+        <li>Exclamatory → Assertive: "How/What X!" → "very X" or "a great X".</li>
+        <li>Compound (FANBOYS) → Complex: use because/although/when.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Negative of 'Everyone hates lies.'", opts: ["No one likes lies.", "No one does not hate lies.", "Who hates lies?", "All love lies."], a: 1, ex: "No one ... not." },
+      { q: "Assertive of 'How beautiful she is!'", opts: ["She is beautiful", "She is very beautiful", "Is she beautiful?", "Is she not beautiful?"], a: 1, ex: "How X! → very X." },
+      { q: "Simple of 'When he came, he found me studying.'", opts: ["His coming found me studying", "On his coming, he found me studying", "He came to find me studying", "Both A and B"], a: 3, ex: "Use 'on coming' or 'his coming'." },
+      { q: "Complex of 'He confessed his guilt.'", opts: ["He confessed about his guilt", "He confessed that he was guilty", "He was guilty", "He admitted guilt"], a: 1, ex: "Subordinate clause with 'that'." },
+      { q: "Positive of 'Ram is the tallest in his class.'", opts: ["No other boy is as tall as Ram", "Ram is taller than any other", "Ram is tall", "Few are tall like Ram"], a: 0, ex: "Positive form." },
+      { q: "Comparative of 'No one is as wise as Solomon.'", opts: ["Solomon is wiser than any other", "Solomon is the wisest", "Few are wise", "Solomon is wise"], a: 0, ex: "Comparative form." },
+      { q: "Negative of 'He is too poor to buy a car.'", opts: ["He is so poor that he cannot buy a car", "He is not rich enough to buy a car", "He cannot buy a car because he is poor", "All correct"], a: 3, ex: "Multiple valid forms." },
+      { q: "Compound of 'Despite being poor, he is honest.'", opts: ["He is poor but honest", "He is poor yet honest", "Both A and B", "He is honest because of poverty"], a: 2, ex: "Use 'but' or 'yet'." },
+      { q: "Complex of 'I know him to be honest.'", opts: ["I know that he is honest", "I know about his honesty", "He is honest, I know", "Both A and C"], a: 0, ex: "Complex needs subordinate clause." },
+      { q: "Simple of 'Because he was lazy, he failed.'", opts: ["He failed due to laziness", "He was lazy and failed", "Being lazy, he failed", "Both A and C"], a: 3, ex: "Simple forms." },
+      { q: "Exclamatory of 'The mountain is very high.'", opts: ["How high the mountain is!", "What a high mountain!", "How is the mountain?", "Both A and B"], a: 3, ex: "Both work." },
+      { q: "Interrogative of 'Honesty is the best policy.'", opts: ["Is honesty the best policy?", "What is honesty?", "Isn't honesty the best policy?", "How honest?"], a: 2, ex: "Rhetorical negative question." },
+      { q: "Assertive of 'Who would not love freedom?'", opts: ["Everyone loves freedom", "No one loves freedom", "Some love freedom", "Who loves?"], a: 0, ex: "Rhetorical = everyone." },
+      { q: "Simple of 'As soon as he reached, the bell rang.'", opts: ["On his reaching, the bell rang", "He reached at the bell rang time", "Just at his arrival, the bell rang", "Both A and C"], a: 3, ex: "Simple forms." },
+      { q: "Comparative of 'Very few cities are as beautiful as Paris.'", opts: ["Paris is more beautiful than many other cities", "Paris is the most beautiful", "Paris is beautiful", "All correct"], a: 0, ex: "Comparative form." },
+      { q: "Negative of 'Always tell the truth.'", opts: ["Never tell a lie", "Don't tell the truth", "Always lie", "Truth is good"], a: 0, ex: "Use 'never + opposite'." },
+      { q: "Complex of 'Tell me the way to the station.'", opts: ["Tell me how I can reach the station", "Tell me where the station is", "Tell me about the station", "Both A and B"], a: 3, ex: "Complex needs subordinate clause." },
+      { q: "Simple of 'When he heard the news, he was shocked.'", opts: ["On hearing the news, he was shocked", "He heard the news and was shocked", "Hearing the news, he was shocked", "Both A and C"], a: 3, ex: "Use participle." },
+      { q: "Superlative of 'No other man is as wise as he.'", opts: ["He is the wisest", "He is wiser than others", "He is wise", "Many are wise"], a: 0, ex: "Superlative." },
+      { q: "Affirmative of 'No one but God knows the truth.'", opts: ["Only God knows the truth", "All know the truth", "No one knows", "God doesn't know"], a: 0, ex: "Only = none but." },
+      { q: "Compound of 'In spite of his poverty, he is happy.'", opts: ["He is poor but happy", "He is poor and happy", "He is happy because of poverty", "He is poor so happy"], a: 0, ex: "But/yet for contrast." },
+      { q: "Complex of 'He came too late to find anyone.'", opts: ["He came so late that he found no one", "He came so late that he could not find anyone", "He came late and found no one", "Both A and B"], a: 3, ex: "Both forms." },
+      { q: "Exclamatory of 'It is a very pleasant evening.'", opts: ["What a pleasant evening it is!", "How pleasant the evening is!", "Both A and B", "Pleasant evening!"], a: 2, ex: "Both work." },
+      { q: "Assertive of 'Why waste time?'", opts: ["It is useless to waste time", "Don't waste time", "Time is precious", "All correct"], a: 0, ex: "Rhetorical → assertive." },
+      { q: "Comparative of 'Iron is the most useful metal.'", opts: ["Iron is more useful than any other metal", "Iron is useful", "Iron is more useful", "No other metal is useful"], a: 0, ex: "Comparative form." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 24. SYNTHESIS OF SENTENCES
+  // ───────────────────────────────────────────────────────────────
+  T["eng-synthesis"] = {
+    body: `
+      <h2>Synthesis of Sentences</h2>
+      <p><b>Synthesis</b> = combining two or more simple sentences into one compact sentence (without losing meaning).</p>
+
+      <h3>Methods of Synthesis</h3>
+
+      <h3>1. Using a Participle</h3>
+      <ul>
+        <li>"He took his pen. He started writing." → "<b>Taking</b> his pen, he started writing."</li>
+        <li>"She heard the news. She was shocked." → "<b>Hearing</b> the news, she was shocked."</li>
+        <li>Use Present Participle (V-ing) for simultaneous action, Past Participle (V3) for completed action.</li>
+      </ul>
+
+      <h3>2. Using a Noun or Phrase in Apposition</h3>
+      <ul>
+        <li>"Rajesh is my friend. He lives in Delhi." → "Rajesh, <b>my friend</b>, lives in Delhi."</li>
+        <li>"Akbar was a great emperor. He built many monuments." → "Akbar, <b>a great emperor</b>, built many monuments."</li>
+      </ul>
+
+      <h3>3. Using a Preposition with a Noun or Gerund</h3>
+      <ul>
+        <li>"He worked hard. He passed the exam." → "<b>By</b> working hard, he passed the exam."</li>
+        <li>"He bought a car. He spent a lot of money." → "He spent a lot of money <b>on</b> buying a car."</li>
+      </ul>
+
+      <h3>4. Using a Nominative Absolute</h3>
+      <ul>
+        <li>"The sun rose. We set out." → "<b>The sun having risen</b>, we set out."</li>
+        <li>"The work was done. I left." → "<b>The work being done</b>, I left."</li>
+      </ul>
+
+      <h3>5. Using an Infinitive</h3>
+      <ul>
+        <li>"He has many books. He should read them." → "He has many books <b>to read</b>."</li>
+        <li>"I have a duty. I must perform it." → "I have a duty <b>to perform</b>."</li>
+      </ul>
+
+      <h3>6. Using a Relative Clause (Adjective Clause)</h3>
+      <ul>
+        <li>"That is the man. He helped me." → "That is the man <b>who helped me</b>."</li>
+        <li>"This is the book. I bought it yesterday." → "This is the book <b>which I bought yesterday</b>."</li>
+      </ul>
+
+      <h3>7. Using a Conjunction (Compound Sentence)</h3>
+      <ul>
+        <li>"He is rich. He is unhappy." → "He is rich <b>but</b> unhappy."</li>
+        <li>"Work hard. You will succeed." → "Work hard <b>and</b> you will succeed."</li>
+      </ul>
+
+      <h3>8. Using a Subordinate Conjunction (Complex Sentence)</h3>
+      <ul>
+        <li>"He is poor. He is honest." → "<b>Although</b> he is poor, he is honest."</li>
+        <li>"You work hard. You will succeed." → "<b>If</b> you work hard, you will succeed."</li>
+      </ul>
+
+      <h3>9. Using "Too ... to" / "So ... that"</h3>
+      <ul>
+        <li>"He is very weak. He cannot walk." → "He is <b>too weak to walk</b>." / "He is <b>so weak that</b> he cannot walk."</li>
+      </ul>
+
+      <h3>10. Using "Both ... and / Either ... or / Neither ... nor / Not only ... but also"</h3>
+      <ul>
+        <li>"Ram is intelligent. He is hardworking." → "Ram is <b>both</b> intelligent <b>and</b> hardworking."</li>
+        <li>"He doesn't drink. He doesn't smoke." → "He <b>neither</b> drinks <b>nor</b> smokes."</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Use participle (V-ing / V3) for connecting two actions.</li>
+        <li>Use relative pronoun (who/which/that) for noun + descriptive clause.</li>
+        <li>Use "if/because/although/when" to connect with cause/condition/contrast/time.</li>
+        <li>Use "too...to" / "so...that" for excessive degree.</li>
+        <li>Use correlatives (both/and, either/or, neither/nor) for paired items.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Combine</b>: "He saw the danger. He ran away."</p>
+      <p><b>Solution:</b><br>Using participle: "<b>Seeing</b> the danger, he ran away."<br>OR Using complex: "<b>When he saw</b> the danger, he ran away."</p>
+
+      <h4>Example 2</h4>
+      <p><b>Combine</b>: "He is poor. He is honest."</p>
+      <p><b>Solution:</b><br>Using "although": "<b>Although</b> he is poor, he is honest."<br>OR using "but": "He is poor <b>but</b> honest."</p>
+
+      <h4>Example 3</h4>
+      <p><b>Combine</b>: "She finished her work. She went home."</p>
+      <p><b>Solution:</b><br>"<b>Having finished</b> her work, she went home."<br>OR "<b>After finishing</b> her work, she went home."</p>
+
+      <h4>Example 4</h4>
+      <p><b>Combine</b>: "The boy is my brother. He is wearing red."</p>
+      <p><b>Solution:</b><br>"The boy <b>who is wearing red</b> is my brother."</p>
+
+      <h4>Example 5</h4>
+      <p><b>Combine</b>: "Ravi is a doctor. Ravi lives next door."</p>
+      <p><b>Solution:</b><br>"Ravi, <b>a doctor</b>, lives next door." (apposition)<br>OR "Ravi, <b>who is a doctor</b>, lives next door."</p>
+
+      <h4>Example 6</h4>
+      <p><b>Combine</b>: "He worked very hard. He fell ill."</p>
+      <p><b>Solution:</b><br>"He worked <b>so</b> hard <b>that</b> he fell ill."<br>OR "<b>By</b> working too hard, he fell ill."</p>
+
+      <h4>Example 7</h4>
+      <p><b>Combine</b>: "He is rich. He has many cars."</p>
+      <p><b>Solution:</b><br>"<b>Being</b> rich, he has many cars."<br>OR "<b>Because</b> he is rich, he has many cars."</p>
+
+      <h4>Example 8</h4>
+      <p><b>Combine</b>: "Open the book. Start reading."</p>
+      <p><b>Solution:</b><br>"<b>Open</b> the book <b>and start reading</b>." (compound)</p>
+
+      <h4>Example 9</h4>
+      <p><b>Combine</b>: "He came in. He sat down."</p>
+      <p><b>Solution:</b><br>"<b>Coming in</b>, he sat down."<br>OR "He came in <b>and sat down</b>."</p>
+
+      <h4>Example 10</h4>
+      <p><b>Combine</b>: "The sun rose. The fog cleared."</p>
+      <p><b>Solution:</b><br>"<b>The sun having risen</b>, the fog cleared." (nominative absolute)<br>OR "<b>When the sun rose</b>, the fog cleared."</p>
+
+      <h4>Example 11</h4>
+      <p><b>Combine</b>: "He took out his wallet. He paid the bill."</p>
+      <p><b>Solution:</b><br>"<b>Taking out</b> his wallet, he paid the bill."</p>
+
+      <h4>Example 12</h4>
+      <p><b>Combine</b>: "He is too weak. He cannot walk."</p>
+      <p><b>Solution:</b><br>"He is <b>too weak to walk</b>."</p>
+
+      <h4>Example 13</h4>
+      <p><b>Combine</b>: "He passed the exam. He worked hard."</p>
+      <p><b>Solution:</b><br>"<b>Because</b> he worked hard, he passed the exam."<br>OR "He worked hard <b>and</b> passed the exam."</p>
+
+      <h4>Example 14</h4>
+      <p><b>Combine</b>: "Ram is brave. Shyam is brave."</p>
+      <p><b>Solution:</b><br>"<b>Both</b> Ram <b>and</b> Shyam are brave."</p>
+
+      <h4>Example 15</h4>
+      <p><b>Combine</b>: "He doesn't sing. He doesn't dance."</p>
+      <p><b>Solution:</b><br>"He <b>neither sings nor dances</b>."</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Use participle (V-ing / having + V3) for connecting actions of the same subject.</li>
+        <li>Use relative clauses for describing nouns.</li>
+        <li>"Too ... to" = excessive negative; "So ... that ... not" = same meaning.</li>
+        <li>Conjunction choice depends on the relationship: addition (and), contrast (but/although), cause (because/since), time (when/after), condition (if).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Combine: 'He took a pen. He wrote a letter.'", opts: ["He took a pen and a letter", "Taking a pen, he wrote a letter", "He took to write", "Letter, he wrote"], a: 1, ex: "Participle for connected actions." },
+      { q: "Combine: 'He is poor. He is honest.'", opts: ["He is poor and honest", "Although he is poor, he is honest", "Both A and B", "He is poor because honest"], a: 2, ex: "Both work." },
+      { q: "Combine: 'He is my friend. He lives in Mumbai.'", opts: ["He is my friend who lives in Mumbai", "My friend, he lives in Mumbai", "He is my friend, my friend lives in Mumbai", "Both A and 'My friend lives in Mumbai'"], a: 3, ex: "Relative clause or apposition." },
+      { q: "Combine: 'He is too tired. He cannot walk.'", opts: ["He is too tired to walk", "He is so tired he cannot walk", "He is tired walking", "Both A and B"], a: 3, ex: "Too...to / So...that." },
+      { q: "Combine: 'Tell the truth. You will be respected.'", opts: ["Tell the truth and you will be respected", "If you tell the truth, you will be respected", "Both A and B", "Telling truth makes respected"], a: 2, ex: "Both work." },
+      { q: "Combine: 'She likes coffee. She likes tea.'", opts: ["She likes both coffee and tea", "She likes coffee or tea", "Both A correct", "She likes coffee and also tea"], a: 0, ex: "Both...and." },
+      { q: "Combine: 'He worked hard. He passed the exam.'", opts: ["By working hard, he passed", "He worked hard so passed", "Because he worked hard, he passed", "All correct"], a: 3, ex: "Multiple methods." },
+      { q: "Combine: 'She heard the news. She fainted.'", opts: ["Hearing the news, she fainted", "On hearing the news, she fainted", "She heard the news and fainted", "All correct"], a: 3, ex: "Multiple options." },
+      { q: "Combine: 'He doesn't read. He doesn't write.'", opts: ["He neither reads nor writes", "He doesn't read or write", "He neither read nor written", "Both A and B work"], a: 3, ex: "Both forms valid." },
+      { q: "Combine: 'He came. He saw. He conquered.'", opts: ["He came saw and conquered", "He came, saw, and conquered", "After coming and seeing, he conquered", "All correct"], a: 3, ex: "Multiple methods." },
+      { q: "Combine: 'The sun set. We went home.'", opts: ["The sun having set, we went home", "When the sun set, we went home", "Both correct", "After the sun setting we went"], a: 2, ex: "Both forms valid." },
+      { q: "Combine: 'He is a doctor. He is competent.'", opts: ["He is a competent doctor", "He, a doctor, is competent", "He is a doctor and competent", "All correct"], a: 3, ex: "Multiple synthesis methods." },
+      { q: "Combine: 'She has work. She must finish it.'", opts: ["She has work to finish", "She has work and must finish", "Both A and B", "She finishes work to her"], a: 2, ex: "Infinitive or compound." },
+      { q: "Combine: 'I saw him. He was crying.'", opts: ["I saw him crying", "I saw he was crying", "Both A and B", "I and he were crying"], a: 2, ex: "Both work." },
+      { q: "Combine: 'He is very intelligent. He is very dutiful.'", opts: ["He is very intelligent and dutiful", "He is both intelligent and dutiful", "He is intelligent as well as dutiful", "All correct"], a: 3, ex: "Multiple forms." },
+      { q: "Combine: 'He confessed. He had done wrong.'", opts: ["He confessed he had done wrong", "He confessed that he had done wrong", "Confessing, he done wrong", "Both A and B"], a: 3, ex: "Both work." },
+      { q: "Combine: 'I'll go. I'll meet him.'", opts: ["I'll go to meet him", "I'll go and meet him", "I will go meeting him", "Both A and B"], a: 3, ex: "Infinitive or compound." },
+      { q: "Combine: 'It rained. The match was cancelled.'", opts: ["It rained and the match was cancelled", "Because it rained, the match was cancelled", "The match was cancelled because of rain", "All correct"], a: 3, ex: "Multiple forms." },
+      { q: "Combine: 'The boy is sick. He is in the hospital.'", opts: ["The boy who is sick is in the hospital", "The sick boy is in the hospital", "Both A and B", "Boy sick hospital"], a: 2, ex: "Multiple forms." },
+      { q: "Combine: 'He worked hard. He failed.'", opts: ["He worked hard but failed", "Although he worked hard, he failed", "Despite working hard, he failed", "All correct"], a: 3, ex: "Contrast — multiple methods." },
+      { q: "Combine: 'He saw a snake. He killed it.'", opts: ["Seeing a snake, he killed it", "On seeing a snake, he killed it", "He saw a snake and killed it", "All correct"], a: 3, ex: "Multiple methods." },
+      { q: "Combine: 'He is the man. I saw him yesterday.'", opts: ["He is the man whom I saw yesterday", "He is the man I saw yesterday", "Both A and B", "He, the man, saw yesterday"], a: 2, ex: "Relative clause." },
+      { q: "Combine: 'The dog barked. The thief ran away.'", opts: ["When the dog barked, the thief ran away", "The dog barking, the thief ran away", "The dog barked and the thief ran away", "All correct"], a: 3, ex: "Multiple forms." },
+      { q: "Combine: 'Children love sweets. Adults love sweets too.'", opts: ["Both children and adults love sweets", "Children, as well as adults, love sweets", "Not only children but also adults love sweets", "All correct"], a: 3, ex: "Correlative options." },
+      { q: "Combine: 'He is rich. He is happy.'", opts: ["He is rich and happy", "He is both rich and happy", "Being rich, he is happy", "All correct"], a: 3, ex: "Multiple forms work." }
+    ]
+  };
+
 })();
