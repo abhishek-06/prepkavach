@@ -3718,4 +3718,442 @@ $(c_2 - m)$ : $(m - c_1)$
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 28. MENSURATION (2D & 3D)
+  // ───────────────────────────────────────────────────────────────
+  T["math-mensuration"] = {
+    body: `
+      <h2>Mensuration (2D & 3D)</h2>
+      <p>SSC Tier-2 has 4-6 questions. Memorize all formulas.</p>
+
+      <h3>2D Shapes — Area & Perimeter</h3>
+      <table>
+        <tr><th>Shape</th><th>Area</th><th>Perimeter</th></tr>
+        <tr><td>Square (side $a$)</td><td>$a^2$</td><td>$4a$</td></tr>
+        <tr><td>Rectangle ($l \\times b$)</td><td>$lb$</td><td>$2(l+b)$</td></tr>
+        <tr><td>Triangle (base $b$, ht $h$)</td><td>$\\frac{1}{2}bh$</td><td>$a+b+c$</td></tr>
+        <tr><td>Equilateral $\\triangle$ (side $a$)</td><td>$\\frac{\\sqrt{3}}{4}a^2$</td><td>$3a$</td></tr>
+        <tr><td>Right $\\triangle$ ($b, h$)</td><td>$\\frac{1}{2}bh$</td><td>$b+h+\\sqrt{b^2+h^2}$</td></tr>
+        <tr><td>Parallelogram (base $b$, ht $h$)</td><td>$bh$</td><td>$2(a+b)$</td></tr>
+        <tr><td>Rhombus (diag $d_1, d_2$)</td><td>$\\frac{1}{2}d_1 d_2$</td><td>$4a$</td></tr>
+        <tr><td>Trapezium</td><td>$\\frac{1}{2}(a+b)h$</td><td>sum of 4 sides</td></tr>
+        <tr><td>Circle (radius $r$)</td><td>$\\pi r^2$</td><td>$2\\pi r$ (circumference)</td></tr>
+        <tr><td>Sector (radius $r$, angle $\\theta$ in degrees)</td><td>$\\frac{\\theta}{360}\\pi r^2$</td><td>$2r + \\frac{\\theta}{360}(2\\pi r)$</td></tr>
+      </table>
+
+      <h3>Heron's Formula (Any Triangle)</h3>
+      <p>$$\\text{Area} = \\sqrt{s(s-a)(s-b)(s-c)}, \\;\\; s = \\frac{a+b+c}{2}$$</p>
+
+      <h3>3D Shapes — Volume & Surface Area</h3>
+      <table>
+        <tr><th>Shape</th><th>Volume</th><th>Total Surface Area (TSA)</th><th>Curved/Lateral SA</th></tr>
+        <tr><td>Cube (side $a$)</td><td>$a^3$</td><td>$6a^2$</td><td>$4a^2$</td></tr>
+        <tr><td>Cuboid ($l \\times b \\times h$)</td><td>$lbh$</td><td>$2(lb+bh+hl)$</td><td>$2h(l+b)$</td></tr>
+        <tr><td>Cylinder ($r, h$)</td><td>$\\pi r^2 h$</td><td>$2\\pi r(r+h)$</td><td>$2\\pi rh$</td></tr>
+        <tr><td>Cone ($r, h, l = \\sqrt{r^2+h^2}$)</td><td>$\\frac{1}{3}\\pi r^2 h$</td><td>$\\pi r(r+l)$</td><td>$\\pi rl$</td></tr>
+        <tr><td>Sphere ($r$)</td><td>$\\frac{4}{3}\\pi r^3$</td><td>$4\\pi r^2$</td><td>—</td></tr>
+        <tr><td>Hemisphere ($r$)</td><td>$\\frac{2}{3}\\pi r^3$</td><td>$3\\pi r^2$</td><td>$2\\pi r^2$ (curved)</td></tr>
+      </table>
+
+      <h3>Diagonal Formulas</h3>
+      <ul>
+        <li>Square: $a\\sqrt{2}$.</li>
+        <li>Rectangle: $\\sqrt{l^2+b^2}$.</li>
+        <li>Cube: $a\\sqrt{3}$.</li>
+        <li>Cuboid: $\\sqrt{l^2+b^2+h^2}$.</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Use $\\pi = 22/7$ for clean numbers; $\\pi = 3.14$ for decimals.</li>
+        <li>For mixed-shape problems, split into known shapes; add/subtract areas.</li>
+        <li>Surface area painting/wrapping problems: TSA or CSA depending on context.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Area of square side 7 cm.</p>
+      <p><b>Sol</b>: $49$ cm².</p>
+
+      <h4>Example 2</h4>
+      <p>Circumference of circle radius 14. Use $\\pi=22/7$.</p>
+      <p><b>Sol</b>: $2 \\cdot 22/7 \\cdot 14 = 88$.</p>
+
+      <h4>Example 3</h4>
+      <p>Volume of cube side 5 cm?</p>
+      <p><b>Sol</b>: 125 cm³.</p>
+
+      <h4>Example 4</h4>
+      <p>Curved surface area of cylinder $r=7, h=10$?</p>
+      <p><b>Sol</b>: $2\\pi r h = 2 \\cdot 22/7 \\cdot 7 \\cdot 10 = 440$ cm².</p>
+
+      <h4>Example 5</h4>
+      <p>Volume of sphere radius 7?</p>
+      <p><b>Sol</b>: $4/3 \\cdot 22/7 \\cdot 343 = 4312/3 \\approx 1437.33$.</p>
+
+      <h4>Example 6 (Heron's)</h4>
+      <p>Triangle sides 6, 8, 10. Area?</p>
+      <p><b>Sol</b>: It's right triangle (3-4-5 scaled). Area = $1/2 \\cdot 6 \\cdot 8 = 24$.</p>
+
+      <h4>Example 7</h4>
+      <p>Diagonal of cube side 6.</p>
+      <p><b>Sol</b>: $6\\sqrt{3}$.</p>
+
+      <h4>Example 8</h4>
+      <p>Slant height of cone $r=3, h=4$.</p>
+      <p><b>Sol</b>: $l=5$. TSA $=\\pi r(r+l)=\\pi \\cdot 3 \\cdot 8 = 24\\pi$.</p>
+
+      <h4>Example 9</h4>
+      <p>Area of equilateral triangle side 10?</p>
+      <p><b>Sol</b>: $\\frac{\\sqrt{3}}{4} \\cdot 100 = 25\\sqrt{3} \\approx 43.3$.</p>
+
+      <h4>Example 10</h4>
+      <p>Volume of cone $r=6, h=14$? ($\\pi=22/7$)</p>
+      <p><b>Sol</b>: $\\frac{1}{3} \\cdot 22/7 \\cdot 36 \\cdot 14 = \\frac{22 \\cdot 36 \\cdot 14}{21} = \\frac{11088}{21} = 528$.</p>
+
+      <h4>Example 11</h4>
+      <p>Area of trapezium parallel sides 5 and 9, height 4.</p>
+      <p><b>Sol</b>: $\\frac{1}{2}(5+9)(4) = 28$.</p>
+
+      <h4>Example 12</h4>
+      <p>If radius of sphere doubles, surface area becomes?</p>
+      <p><b>Sol</b>: $4 \\pi r^2 \\to 4\\pi(2r)^2 = 16 \\pi r^2$. So $4$ times.</p>
+
+      <h4>Example 13</h4>
+      <p>If a sphere is melted to make small spheres of radius 1/3 the original, how many?</p>
+      <p><b>Sol</b>: Volume ratio $1 : (1/3)^3 = 1 : 1/27$. So 27 small spheres.</p>
+
+      <h4>Example 14</h4>
+      <p>Hollow cylinder of inner $r_1=5$, outer $r_2=7$, height 10. Volume of material?</p>
+      <p><b>Sol</b>: $\\pi h(r_2^2 - r_1^2) = \\pi \\cdot 10 \\cdot (49-25) = 240\\pi$.</p>
+
+      <h4>Example 15</h4>
+      <p>Surface area of a sphere = surface area of cube. Ratio of volumes?</p>
+      <p><b>Sol</b>: $4\\pi r^2 = 6a^2 \\Rightarrow r/a = \\sqrt{6/(4\\pi)}$. Volume ratio $\\frac{4/3 \\pi r^3}{a^3}$. Skip exact; trick is to derive.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Distinguish TSA vs CSA (for cone/cylinder).</li>
+        <li>For combined shapes: add VOLUMES, but for SA, subtract overlapping faces.</li>
+        <li>Watch units: cm vs m vs cm² vs cm³.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Area of square side 12?", opts: ["48", "120", "144", "256"], a: 2, ex: "$12^2=144$." },
+      { q: "Circumference of circle r=7 ($\\pi=22/7$)?", opts: ["22", "44", "88", "154"], a: 1, ex: "$2 \\cdot 22/7 \\cdot 7=44$." },
+      { q: "Area of circle r=14 ($\\pi=22/7$)?", opts: ["44", "88", "616", "154"], a: 2, ex: "$22/7 \\cdot 196=616$." },
+      { q: "Volume of cube side 10?", opts: ["100", "300", "600", "1000"], a: 3, ex: "$10^3$." },
+      { q: "Surface area of sphere r=7 ($\\pi=22/7$)?", opts: ["176", "616", "1232", "2156"], a: 1, ex: "$4 \\cdot 22/7 \\cdot 49=616$." },
+      { q: "Diagonal of cube side 4?", opts: ["$4\\sqrt{2}$", "$4\\sqrt{3}$", "$\\sqrt{12}$", "8"], a: 1, ex: "Standard." },
+      { q: "TSA of cylinder r=7, h=10?", opts: ["440", "660", "748", "1100"], a: 2, ex: "$2 \\cdot 22/7 \\cdot 7 \\cdot 17=748$." },
+      { q: "Heron's formula uses?", opts: ["base × height/2", "$\\sqrt{s(s-a)(s-b)(s-c)}$", "$1/2 ab \\sin C$", "All can be used"], a: 1, ex: "Definition." },
+      { q: "Area of equilateral triangle side 8?", opts: ["$8\\sqrt{3}$", "$16\\sqrt{3}$", "$24$", "$32$"], a: 1, ex: "$\\frac{\\sqrt{3}}{4} \\cdot 64=16\\sqrt{3}$." },
+      { q: "Volume of cone r=3, h=4?", opts: ["$9\\pi$", "$12\\pi$", "$18\\pi$", "$36\\pi$"], a: 1, ex: "$\\frac{1}{3}\\pi \\cdot 9 \\cdot 4=12\\pi$." },
+      { q: "Curved SA of hemisphere r=7?", opts: ["$98\\pi$", "$154$", "$308$", "$616$"], a: 2, ex: "$2\\pi r^2=2 \\cdot 22/7 \\cdot 49=308$." },
+      { q: "If radius doubled, area circle?", opts: ["2x", "4x", "8x", "16x"], a: 1, ex: "Proportional to $r^2$." },
+      { q: "Area of rhombus with diagonals 8 and 6?", opts: ["24", "48", "14", "12"], a: 0, ex: "$\\frac{1}{2} \\cdot 8 \\cdot 6=24$." },
+      { q: "Volume of cylinder r=7, h=10?", opts: ["$70\\pi$", "$140\\pi$", "$490\\pi$", "$1540$"], a: 3, ex: "$\\pi r^2 h = 22/7 \\cdot 49 \\cdot 10=1540$." },
+      { q: "Sphere of radius 6. SA?", opts: ["$144\\pi$", "$216\\pi$", "$288\\pi$", "$72\\pi$"], a: 0, ex: "$4\\pi \\cdot 36 = 144\\pi$." },
+      { q: "Surface area of cube side 5?", opts: ["75", "150", "100", "125"], a: 1, ex: "$6 \\cdot 25=150$." },
+      { q: "Volume of hemisphere r=21 ($\\pi=22/7$)?", opts: ["19404", "9702", "29106", "38808"], a: 0, ex: "$\\frac{2}{3} \\cdot 22/7 \\cdot 21^3 = \\frac{2 \\cdot 22 \\cdot 9261}{21}=19404$." },
+      { q: "Area of trapezium 6, 10, height 4?", opts: ["32", "60", "80", "120"], a: 0, ex: "$\\frac{1}{2}(6+10)(4)=32$." },
+      { q: "If radius of cylinder same as height and r=7, volume = ?", opts: ["$343\\pi$", "$\\pi \\cdot 49 \\cdot 7=343\\pi$", "$1078$", "Both A,B,C correct"], a: 3, ex: "$1078$ if $\\pi=22/7$." },
+      { q: "Diagonal of cuboid 3×4×12?", opts: ["13", "$\\sqrt{169}=13$", "169", "Both A,B same"], a: 3, ex: "$\\sqrt{9+16+144}=13$." },
+      { q: "Slant ht of cone r=6,h=8?", opts: ["10", "12", "14", "$\\sqrt{100}$"], a: 0, ex: "$\\sqrt{36+64}=10$." },
+      { q: "Area of square inscribed in circle r=7?", opts: ["49", "98", "196", "$49\\sqrt{2}$"], a: 1, ex: "Diagonal = 2r = 14. Area = $14^2/2 = 98$." },
+      { q: "Volume of sphere r=3 ($\\pi=22/7$)?", opts: ["$\\frac{4}{3} \\cdot 22/7 \\cdot 27$", "$36 \\cdot 22/21 = 113$", "Both A,B same", "Cannot say"], a: 2, ex: "$113.14$." },
+      { q: "Ratio of surface areas of two spheres if their radii are 2:3?", opts: ["2:3", "4:9", "8:27", "Cannot say"], a: 1, ex: "$r^2$ ratio = 4:9." },
+      { q: "If volume of cube doubles, side increases by factor?", opts: ["$\\sqrt{2}$", "$\\sqrt[3]{2}$", "2", "4"], a: 1, ex: "Cube root." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 29. GEOMETRY
+  // ───────────────────────────────────────────────────────────────
+  T["math-geometry"] = {
+    body: `
+      <h2>Geometry</h2>
+      <p>SSC Tier-2 has 5-7 geometry questions. Master triangles, circles, theorems.</p>
+
+      <h3>1. Triangles</h3>
+      <ul>
+        <li>Sum of angles = 180°.</li>
+        <li>Exterior angle = sum of 2 opposite interior angles.</li>
+        <li><b>Triangle Inequality</b>: sum of any 2 sides > 3rd side.</li>
+        <li><b>Pythagorean Theorem</b>: in right triangle, $a^2+b^2=c^2$.</li>
+      </ul>
+
+      <h3>2. Triangle Centers</h3>
+      <ul>
+        <li><b>Centroid (G)</b>: intersection of medians. Divides median in 2:1.</li>
+        <li><b>Incentre (I)</b>: intersection of angle bisectors. Inside triangle.</li>
+        <li><b>Circumcentre (O)</b>: intersection of perpendicular bisectors of sides.</li>
+        <li><b>Orthocentre (H)</b>: intersection of altitudes.</li>
+      </ul>
+
+      <h3>3. Similar Triangles</h3>
+      <p>If $\\triangle ABC \\sim \\triangle DEF$: corresponding sides in same ratio; corresponding angles equal. Areas ratio = (side ratio)².</p>
+
+      <h3>4. Congruence (SAS, SSS, ASA, RHS)</h3>
+
+      <h3>5. Circles</h3>
+      <ul>
+        <li>Equal chords subtend equal angles at centre.</li>
+        <li>Perpendicular from centre bisects chord.</li>
+        <li>Angle subtended at centre = 2 × angle at circumference.</li>
+        <li>Angle in semicircle = 90°.</li>
+        <li>Cyclic quadrilateral: opposite angles sum to 180°.</li>
+        <li>Tangent perpendicular to radius at point of contact.</li>
+        <li>Two tangents from external point are equal in length.</li>
+      </ul>
+
+      <h3>6. Polygon Angle Sums</h3>
+      <p>Sum of interior angles of $n$-sided polygon: $(n-2) \\cdot 180°$.</p>
+      <p>Each interior of regular $n$-gon: $\\frac{(n-2) \\cdot 180°}{n}$.</p>
+      <p>Sum of exterior angles = 360° (any polygon).</p>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Centroid divides median 2:1 from vertex.</li>
+        <li>Right triangle hypotenuse = $2 \\times$ median to hypotenuse.</li>
+        <li>For regular hexagon side $a$: area = $\\frac{3\\sqrt{3}}{2}a^2$.</li>
+        <li>Sum of angles in any quadrilateral = 360°.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>In triangle, two angles 60° and 70°. Third?</p>
+      <p><b>Sol</b>: $180-130=50°$.</p>
+
+      <h4>Example 2</h4>
+      <p>Triangle sides 5, 12, 13. Area?</p>
+      <p><b>Sol</b>: Right triangle (5-12-13). Area = $1/2 \\cdot 5 \\cdot 12 = 30$.</p>
+
+      <h4>Example 3</h4>
+      <p>If radius of circle 7 and chord at distance 5 from centre, length of chord?</p>
+      <p><b>Sol</b>: Half chord = $\\sqrt{49-25}=\\sqrt{24}=2\\sqrt{6}$. Full = $4\\sqrt{6}$.</p>
+
+      <h4>Example 4</h4>
+      <p>Sum of interior angles of octagon?</p>
+      <p><b>Sol</b>: $(8-2) \\cdot 180 = 1080°$.</p>
+
+      <h4>Example 5</h4>
+      <p>In right triangle, hypotenuse 10. Length of median to hypotenuse?</p>
+      <p><b>Sol</b>: Half of hypotenuse = 5.</p>
+
+      <h4>Example 6</h4>
+      <p>Two parallel chords on opposite sides of centre 6 and 8 cm long. Radius 5. Distance between chords?</p>
+      <p><b>Sol</b>: For chord 6: $d_1 = \\sqrt{25-9}=4$. For chord 8: $d_2 = \\sqrt{25-16}=3$. Total = $4+3=7$.</p>
+
+      <h4>Example 7</h4>
+      <p>Centroid divides median in ratio?</p>
+      <p><b>Sol</b>: 2:1 from vertex.</p>
+
+      <h4>Example 8</h4>
+      <p>In cyclic quad, three angles 70°, 110°, 90°. Fourth?</p>
+      <p><b>Sol</b>: Opposites sum 180°. $70+110=180$ ✓. So 4th + 90 = 180 → 4th = 90°.</p>
+
+      <h4>Example 9</h4>
+      <p>Each interior angle of a regular polygon is 144°. Sides?</p>
+      <p><b>Sol</b>: Exterior = 36°. $n=360/36=10$.</p>
+
+      <h4>Example 10</h4>
+      <p>From external point distance 10 from centre of circle radius 6, length of tangent?</p>
+      <p><b>Sol</b>: $\\sqrt{100-36}=8$.</p>
+
+      <h4>Example 11</h4>
+      <p>If altitude of equilateral triangle is $\\sqrt{3}$, side?</p>
+      <p><b>Sol</b>: Altitude $= \\frac{\\sqrt{3}}{2}a \\Rightarrow a=2$.</p>
+
+      <h4>Example 12</h4>
+      <p>Two similar triangles, areas ratio 4:9. Sides ratio?</p>
+      <p><b>Sol</b>: $\\sqrt{4}:\\sqrt{9} = 2:3$.</p>
+
+      <h4>Example 13</h4>
+      <p>In $\\triangle ABC$, AD is median, AG = 6. Find GD.</p>
+      <p><b>Sol</b>: Centroid divides 2:1. $AG:GD = 2:1$, so GD = 3.</p>
+
+      <h4>Example 14</h4>
+      <p>Sum of all exterior angles of polygon?</p>
+      <p><b>Sol</b>: $360°$ always.</p>
+
+      <h4>Example 15</h4>
+      <p>If two angles of triangle are 50° and 60°, exterior angle adjacent to 70° angle is?</p>
+      <p><b>Sol</b>: Third angle = $180-110=70$. Exterior at 70° = $180-70=110°$. Also equals sum of opposite = $50+60=110$ ✓.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Don't assume right triangle without proof.</li>
+        <li>For similar triangles, areas ratio = (side ratio)², not just side ratio.</li>
+        <li>For cyclic quad: opposite angles sum to 180°, not adjacent.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Sum of angles in triangle?", opts: ["90", "180", "270", "360"], a: 1, ex: "Standard." },
+      { q: "Sides 5, 12, 13. Type of triangle?", opts: ["Equilateral", "Isosceles", "Right", "Scalene"], a: 2, ex: "$5^2+12^2=13^2$." },
+      { q: "Sum of interior angles of pentagon?", opts: ["360", "540", "720", "900"], a: 1, ex: "$(5-2) \\cdot 180=540$." },
+      { q: "Each interior angle of regular hexagon?", opts: ["100", "108", "120", "135"], a: 2, ex: "$(6-2) \\cdot 180/6=120$." },
+      { q: "Centroid divides median in ratio?", opts: ["1:1", "1:2", "2:1", "3:1"], a: 2, ex: "2:1 from vertex." },
+      { q: "Two similar triangles. Sides 3:5. Areas ratio?", opts: ["3:5", "9:25", "27:125", "$\\sqrt{15}$"], a: 1, ex: "$(3:5)^2=9:25$." },
+      { q: "Angle in semicircle?", opts: ["60", "90", "120", "180"], a: 1, ex: "Standard." },
+      { q: "Diagonals of rhombus?", opts: ["Equal", "Bisect at 90°", "Equal and bisect", "Bisect but not 90°"], a: 1, ex: "Standard." },
+      { q: "Triangle inequality: 3, 5, 9. Valid?", opts: ["Yes", "No", "Sometimes", "Cannot say"], a: 1, ex: "$3+5=8 < 9$. Invalid." },
+      { q: "Cyclic quad with angles 80°, x, 100°, y. x+y?", opts: ["180", "150", "120", "100"], a: 0, ex: "$80+100=180 ✓$. $x+y=180$." },
+      { q: "Triangle right at C. AC=3, BC=4. Find AB.", opts: ["3", "4", "5", "12"], a: 2, ex: "$\\sqrt{9+16}=5$." },
+      { q: "Tangent from external point to circle. Length = ?", opts: ["radius", "$\\sqrt{d^2-r^2}$ (d=dist to centre)", "diameter", "Cannot say"], a: 1, ex: "Pythagoras." },
+      { q: "Sum of exterior angles of any polygon?", opts: ["180", "360", "$(n-2) \\cdot 180$", "depends"], a: 1, ex: "Always 360°." },
+      { q: "Regular polygon with each exterior 30°. Sides?", opts: ["6", "9", "12", "15"], a: 2, ex: "$360/30=12$." },
+      { q: "Equilateral triangle side 6. Altitude?", opts: ["$3\\sqrt{2}$", "$3\\sqrt{3}$", "$6$", "$\\sqrt{27}$"], a: 1, ex: "$\\frac{\\sqrt{3}}{2} \\cdot 6=3\\sqrt{3}$." },
+      { q: "In a triangle, median is also altitude. Type?", opts: ["Right", "Scalene", "Isosceles", "Equilateral"], a: 2, ex: "Isosceles (or equilateral, special case)." },
+      { q: "Each angle of equilateral?", opts: ["30", "45", "60", "90"], a: 2, ex: "Standard." },
+      { q: "If circle radius 5 and chord 8, distance from centre?", opts: ["2", "3", "4", "5"], a: 1, ex: "$\\sqrt{25-16}=3$." },
+      { q: "Number of diagonals in n-gon?", opts: ["n", "$n-2$", "$\\frac{n(n-3)}{2}$", "$n-3$"], a: 2, ex: "Formula." },
+      { q: "Sum of all angles around a point?", opts: ["90", "180", "360", "$2\\pi$ rad"], a: 2, ex: "Both 360° and $2\\pi$. Option C." },
+      { q: "If similar triangles areas 16:81, perimeter ratio?", opts: ["4:9", "16:81", "$\\sqrt{16}:\\sqrt{81}=4:9$", "Both A,C same"], a: 3, ex: "$\\sqrt{16:81}=4:9$." },
+      { q: "Pythagorean triple. 8-15-?", opts: ["13", "17", "20", "21"], a: 1, ex: "$8^2+15^2=64+225=289=17^2$." },
+      { q: "In a parallelogram, diagonals?", opts: ["Equal", "Bisect each other", "Bisect at 90°", "All equal"], a: 1, ex: "Bisect each other." },
+      { q: "Maximum diagonals in convex polygon?", opts: ["n", "$2n$", "$\\frac{n(n-3)}{2}$", "Depends"], a: 2, ex: "Same formula." },
+      { q: "Two parallel lines cut by transversal. Alt int angles?", opts: ["Equal", "Supplementary", "Complementary", "180"], a: 0, ex: "Theorem." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 30. COORDINATE GEOMETRY
+  // ───────────────────────────────────────────────────────────────
+  T["math-coord-geometry"] = {
+    body: `
+      <h2>Coordinate Geometry</h2>
+      <p>SSC Tier-2 has 2-3 questions. Master distance, section, area, slope.</p>
+
+      <h3>1. Distance Formula</h3>
+      <p>$$d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$$</p>
+
+      <h3>2. Section Formula</h3>
+      <p>Internal: point dividing $(x_1,y_1)$ and $(x_2,y_2)$ in ratio $m:n$:</p>
+      <p>$$\\left(\\frac{mx_2+nx_1}{m+n}, \\frac{my_2+ny_1}{m+n}\\right)$$</p>
+      <p>Midpoint: ratio 1:1 → $\\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$.</p>
+
+      <h3>3. Area of Triangle</h3>
+      <p>$$\\text{Area} = \\frac{1}{2}|x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|$$</p>
+
+      <h3>4. Slope</h3>
+      <p>$m = \\frac{y_2-y_1}{x_2-x_1}$. Parallel lines: equal slopes. Perpendicular: $m_1 m_2 = -1$.</p>
+
+      <h3>5. Equation of Line</h3>
+      <ul>
+        <li><b>Point-slope</b>: $y - y_1 = m(x - x_1)$.</li>
+        <li><b>Two-point</b>: $\\frac{y-y_1}{y_2-y_1} = \\frac{x-x_1}{x_2-x_1}$.</li>
+        <li><b>Slope-intercept</b>: $y = mx + c$.</li>
+        <li><b>Intercept form</b>: $\\frac{x}{a} + \\frac{y}{b} = 1$.</li>
+        <li><b>Standard</b>: $ax + by + c = 0$.</li>
+      </ul>
+
+      <h3>6. Distance from Point to Line</h3>
+      <p>For point $(x_0, y_0)$ and line $ax+by+c=0$:</p>
+      <p>$$d = \\frac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}$$</p>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Collinear points: triangle area = 0.</li>
+        <li>Three points collinear iff slope between any 2 pairs are equal.</li>
+        <li>For perpendicular: slope product = $-1$.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Distance between $(2,3)$ and $(5,7)$.</p>
+      <p><b>Sol</b>: $\\sqrt{9+16}=5$.</p>
+
+      <h4>Example 2</h4>
+      <p>Midpoint of $(2,3)$ and $(4,5)$?</p>
+      <p><b>Sol</b>: $(3, 4)$.</p>
+
+      <h4>Example 3</h4>
+      <p>Point dividing $(1,1)$ and $(4,7)$ in ratio 2:1.</p>
+      <p><b>Sol</b>: $\\left(\\frac{2 \\cdot 4+1 \\cdot 1}{3}, \\frac{2 \\cdot 7+1 \\cdot 1}{3}\\right) = (3, 5)$.</p>
+
+      <h4>Example 4</h4>
+      <p>Area of triangle $(0,0), (4,0), (0,3)$.</p>
+      <p><b>Sol</b>: Right triangle. $1/2 \\cdot 4 \\cdot 3 = 6$.</p>
+
+      <h4>Example 5</h4>
+      <p>Slope of line through $(1,2)$ and $(3,8)$.</p>
+      <p><b>Sol</b>: $(8-2)/(3-1) = 3$.</p>
+
+      <h4>Example 6</h4>
+      <p>Line perpendicular to $y=2x+1$ has slope?</p>
+      <p><b>Sol</b>: $-1/2$.</p>
+
+      <h4>Example 7</h4>
+      <p>Are $(1,1), (3,3), (5,5)$ collinear?</p>
+      <p><b>Sol</b>: All on line $y=x$. Yes.</p>
+
+      <h4>Example 8</h4>
+      <p>Equation of line through $(2,3)$ with slope 4?</p>
+      <p><b>Sol</b>: $y-3=4(x-2) \\Rightarrow y=4x-5$.</p>
+
+      <h4>Example 9</h4>
+      <p>Distance from $(1,2)$ to line $3x+4y-12=0$.</p>
+      <p><b>Sol</b>: $\\frac{|3+8-12|}{5} = \\frac{1}{5}$.</p>
+
+      <h4>Example 10</h4>
+      <p>If $(2, k)$ is on line $y = 3x-1$, find $k$.</p>
+      <p><b>Sol</b>: $k = 3(2)-1=5$.</p>
+
+      <h4>Example 11</h4>
+      <p>If $A(2,1), B(6,4)$, length AB?</p>
+      <p><b>Sol</b>: $\\sqrt{16+9}=5$.</p>
+
+      <h4>Example 12</h4>
+      <p>Slope of line $2x+3y=6$.</p>
+      <p><b>Sol</b>: $y=(-2/3)x+2$. Slope = $-2/3$.</p>
+
+      <h4>Example 13</h4>
+      <p>Find $k$ if $(1,2), (3,k), (5,6)$ are collinear.</p>
+      <p><b>Sol</b>: Slopes equal: $(k-2)/(3-1) = (6-2)/(5-1) = 1$. So $k=4$.</p>
+
+      <h4>Example 14</h4>
+      <p>x-intercept of $2x+3y=6$.</p>
+      <p><b>Sol</b>: Set $y=0$: $x=3$.</p>
+
+      <h4>Example 15</h4>
+      <p>Area of triangle $(1,1), (4,1), (1,5)$.</p>
+      <p><b>Sol</b>: Right triangle, legs 3 and 4. Area = 6.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Distance formula squares the differences.</li>
+        <li>Section formula: order matters! ratio $m:n$ from $(x_1, y_1)$ to $(x_2, y_2)$.</li>
+        <li>Slope of vertical line undefined; horizontal = 0.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Distance between (0,0) and (3,4)?", opts: ["5", "7", "12", "25"], a: 0, ex: "$\\sqrt{9+16}=5$." },
+      { q: "Midpoint of (1,2) and (5,8)?", opts: ["(3,5)", "(2,3)", "(6,10)", "(4,3)"], a: 0, ex: "Avg." },
+      { q: "Slope of line through (1,1) and (3,5)?", opts: ["1", "2", "3", "4"], a: 1, ex: "$(5-1)/(3-1)=2$." },
+      { q: "Slope of $y=3x+2$?", opts: ["1", "2", "3", "4"], a: 2, ex: "Coefficient of x." },
+      { q: "Slope of perpendicular to $y=4x$?", opts: ["4", "$-4$", "$-1/4$", "$1/4$"], a: 2, ex: "Product = -1." },
+      { q: "Line $y = -x+5$. y-intercept?", opts: ["1", "5", "$-1$", "$-5$"], a: 1, ex: "Standard form." },
+      { q: "Area of triangle $(0,0), (3,0), (0,4)$?", opts: ["6", "12", "5", "10"], a: 0, ex: "$\\frac{1}{2} \\cdot 3 \\cdot 4=6$." },
+      { q: "Section formula: divide (2,4) and (6,8) in 1:1 (midpoint)?", opts: ["(4,6)", "(3,5)", "(2,5)", "(5,6)"], a: 0, ex: "Avg." },
+      { q: "Are $(1,2), (2,4), (3,6)$ collinear?", opts: ["Yes", "No", "Cannot say", "Only first 2"], a: 0, ex: "All on $y=2x$." },
+      { q: "Slope of horizontal line?", opts: ["0", "1", "Undefined", "Infinity"], a: 0, ex: "Standard." },
+      { q: "Distance from (0,0) to $3x+4y-12=0$?", opts: ["2.4", "3", "4", "5"], a: 0, ex: "$|-12|/\\sqrt{9+16}=12/5=2.4$." },
+      { q: "Equation of x-axis?", opts: ["$x=0$", "$y=0$", "$x=y$", "$xy=0$"], a: 1, ex: "$y=0$." },
+      { q: "Equation of line through (0,0) and (1,1)?", opts: ["$y=x$", "$y=-x$", "$x=1$", "$y=1$"], a: 0, ex: "Slope 1, passes origin." },
+      { q: "Two parallel lines have slopes?", opts: ["Equal", "Negative reciprocal", "Sum 0", "Product 1"], a: 0, ex: "Equal." },
+      { q: "Find x-intercept of $2x+y=6$.", opts: ["2", "3", "6", "0"], a: 1, ex: "Set y=0, $x=3$." },
+      { q: "If A(1,1), B(4,5), C(7,9) collinear?", opts: ["Yes", "No", "Cannot say", "Only 2"], a: 0, ex: "Slope AB = AC = 4/3." },
+      { q: "Distance between (a,b) and origin?", opts: ["$a+b$", "$\\sqrt{a^2+b^2}$", "$ab$", "$\\sqrt{a+b}$"], a: 1, ex: "Standard." },
+      { q: "Centroid of triangle with vertices (0,0),(3,0),(0,3)?", opts: ["(1,1)", "(1.5,1.5)", "(1,1.5)", "(1.5,1)"], a: 0, ex: "Avg: (1,1)." },
+      { q: "Line $5x-12y=0$. Slope?", opts: ["$5/12$", "$12/5$", "$-5/12$", "$-12/5$"], a: 0, ex: "$y = (5/12)x$." },
+      { q: "Perpendicular distance from origin to $y=2x+5$?", opts: ["$5/\\sqrt{5}$", "$\\sqrt{5}$", "$2$", "$\\sqrt{20}$"], a: 1, ex: "$2x-y+5=0$. Dist = $5/\\sqrt{5}=\\sqrt{5}$." },
+      { q: "If A=(0,0) and B=(6,8), the point dividing AB in 1:2 internally?", opts: ["(2, 8/3)", "(3,4)", "(4, 16/3)", "(2, 4)"], a: 0, ex: "$(1 \\cdot 6+2 \\cdot 0)/3, (1 \\cdot 8+2 \\cdot 0)/3 = (2, 8/3)$." },
+      { q: "If line passes through (1,1) and (3,5), eqn?", opts: ["$y=2x-1$", "$y=x+2$", "$y=2x$", "$y-1=2(x-1)$"], a: 3, ex: "Point-slope." },
+      { q: "Vertices (1,1),(4,1),(1,4). Triangle area?", opts: ["4.5", "6", "9", "12"], a: 0, ex: "Right triangle legs 3,3. Area=4.5." },
+      { q: "Reflection of (3,4) about x-axis?", opts: ["(3,-4)", "(-3,4)", "(-3,-4)", "(4,3)"], a: 0, ex: "Flip y." },
+      { q: "If (a,b) on y=x, then?", opts: ["a=b", "a=-b", "$a+b=0$", "Cannot say"], a: 0, ex: "Definition." }
+    ]
+  };
+
 })();
