@@ -4764,4 +4764,670 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 25. SENTENCE REARRANGEMENT (Para Jumbles)
+  // ───────────────────────────────────────────────────────────────
+  T["eng-rearrangement"] = {
+    body: `
+      <h2>Sentence Rearrangement (Para Jumbles)</h2>
+      <p>SSC presents jumbled sentences (labelled S1, S2, S3... or P, Q, R, S) — you arrange them into a logical paragraph. <b>5-7 questions in CGL Tier 1.</b></p>
+
+      <h3>Approach (THE 5-STEP METHOD)</h3>
+
+      <h4>Step 1: Read All Sentences</h4>
+      <p>Get the gist of the paragraph — what's the topic? Don't rearrange yet.</p>
+
+      <h4>Step 2: Find the Opening Sentence</h4>
+      <p>Opening sentence:</p>
+      <ul>
+        <li>Introduces a topic / character / event with full names or definite reference.</li>
+        <li>Uses indefinite articles (a, an) for new things.</li>
+        <li>Doesn't begin with pronouns (he, she, it, they) because there's no antecedent yet.</li>
+        <li>Doesn't begin with linking words (however, therefore, so, but, thus, also).</li>
+      </ul>
+
+      <h4>Step 3: Find the Closing Sentence</h4>
+      <p>Closing sentence:</p>
+      <ul>
+        <li>Often has a conclusion, summary, or consequence.</li>
+        <li>Words like "thus", "therefore", "hence", "finally", "in conclusion", "as a result".</li>
+        <li>May give the moral / final outcome.</li>
+      </ul>
+
+      <h4>Step 4: Connect Sentences Using Clues</h4>
+
+      <h5>(a) Pronoun References</h5>
+      <p>"He, she, it, they, this, these, those" refer to something mentioned BEFORE.</p>
+      <ul>
+        <li>"<b>The man</b> was tired. <b>He</b> went home."<br>(Sentence with "He" comes AFTER the one introducing "The man".)</li>
+      </ul>
+
+      <h5>(b) Articles</h5>
+      <ul>
+        <li><b>a/an</b> = introducing new noun → earlier sentence.</li>
+        <li><b>the</b> = referring back to known noun → later sentence.</li>
+        <li>"<b>A</b> boy entered the room. <b>The</b> boy was crying." (1st intro, 2nd refer back)</li>
+      </ul>
+
+      <h5>(c) Time / Sequence Markers</h5>
+      <ul>
+        <li>"First, then, next, after that, finally" — give clear order.</li>
+        <li>"Earlier, later, before, after" — give relative order.</li>
+        <li>"Yesterday, today, tomorrow" — chronological.</li>
+      </ul>
+
+      <h5>(d) Connecting Words / Conjunctions</h5>
+      <table>
+        <tr><th>Word</th><th>Function</th><th>What it tells you</th></tr>
+        <tr><td>However, but, yet</td><td>Contrast</td><td>Previous statement is being opposed</td></tr>
+        <tr><td>Therefore, hence, thus, so</td><td>Result</td><td>Previous gives the cause</td></tr>
+        <tr><td>Moreover, furthermore, also</td><td>Addition</td><td>Adds to previous point</td></tr>
+        <tr><td>For example, for instance</td><td>Illustration</td><td>Illustrates previous statement</td></tr>
+        <tr><td>In contrast, on the other hand</td><td>Opposite view</td><td>Switching to other side</td></tr>
+        <tr><td>In short, in conclusion, to sum up</td><td>Summary</td><td>Likely the LAST sentence</td></tr>
+        <tr><td>Indeed, in fact</td><td>Emphasis / clarification</td><td>Reinforces previous point</td></tr>
+      </table>
+
+      <h5>(e) Repeated Words / Topic Continuity</h5>
+      <p>If sentence A talks about "X" and sentence B continues "X", they're likely adjacent.</p>
+
+      <h5>(f) Cause-Effect Chains</h5>
+      <p>If P talks about cause and Q about effect → P before Q.</p>
+
+      <h4>Step 5: Verify by Reading</h4>
+      <p>Read your final order aloud — it should flow naturally without abrupt jumps.</p>
+
+      <h3>🔥 Master Tricks</h3>
+      <ul>
+        <li><b>Identify pairs first</b>: which 2 sentences MUST go together? (e.g., one introduces X, another uses "he"/"the X")</li>
+        <li><b>Eliminate options</b>: even if not sure of full order, eliminate wrong choices to narrow down.</li>
+        <li><b>Acronyms / Full forms</b>: full form comes before acronym usage.</li>
+        <li><b>Q-A logic</b>: question sentence comes before its answer/explanation.</li>
+        <li>Beware of "But/However" — they connect contrasting ideas; check what goes before.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p>Arrange P, Q, R, S:<br>
+      P. He saw a beautiful garden.<br>
+      Q. The boy went for a walk.<br>
+      R. He decided to enter.<br>
+      S. The garden was full of flowers.</p>
+      <p><b>Solution:</b><br>Q introduces "the boy" → first.<br>"He saw..." (P) — refers to the boy → second.<br>"The garden was full of flowers" (S) — refers to garden in P → third.<br>"He decided to enter" (R) — concludes → fourth.<br><b>Order: Q-P-S-R</b></p>
+
+      <h4>Example 2</h4>
+      <p>Arrange P, Q, R, S:<br>
+      P. It was a sunny day.<br>
+      Q. So I decided to go to the beach.<br>
+      R. I had been planning this for weeks.<br>
+      S. The sand was warm and the water clear.</p>
+      <p><b>Solution:</b><br>R sets context → first.<br>P (sunny day) → second.<br>Q ("So" = consequence) → third.<br>S (description of beach) → fourth.<br><b>Order: R-P-Q-S</b></p>
+
+      <h4>Example 3</h4>
+      <p>Arrange:<br>
+      P. They first appeared in the early 1900s.<br>
+      Q. Cars have transformed modern transportation.<br>
+      R. Today, they are essential in daily life.<br>
+      S. Initially, only the rich could afford them.</p>
+      <p><b>Solution:</b><br>Q introduces topic "Cars".<br>P uses "They" (cars).<br>S (Initially) follows the historical narrative.<br>R (Today) is the conclusion.<br><b>Order: Q-P-S-R</b></p>
+
+      <h4>Example 4</h4>
+      <p>Arrange:<br>
+      P. However, exercise is equally important.<br>
+      Q. Diet is the most important factor.<br>
+      R. A balanced lifestyle includes both.<br>
+      S. Most people focus only on food.</p>
+      <p><b>Solution:</b><br>S introduces the context (most people).<br>Q makes a claim (diet most important).<br>P contrasts ("However").<br>R concludes (lifestyle includes both).<br><b>Order: S-Q-P-R</b></p>
+
+      <h4>Example 5</h4>
+      <p>Arrange:<br>
+      P. The teacher praised him.<br>
+      Q. Ram was a hardworking student.<br>
+      R. He topped the exam.<br>
+      S. He studied for hours daily.</p>
+      <p><b>Solution:</b><br>Q introduces Ram.<br>S describes his work.<br>R is the result.<br>P is the consequence.<br><b>Order: Q-S-R-P</b></p>
+
+      <h4>Example 6</h4>
+      <p>Arrange:<br>
+      P. It hovered for a moment.<br>
+      Q. A small bird flew into the room.<br>
+      R. Then it flew out through the open window.<br>
+      S. We were all surprised.</p>
+      <p><b>Solution:</b><br>Q introduces (a small bird).<br>P uses "It".<br>R follows ("Then").<br>S concludes.<br><b>Order: Q-P-R-S</b></p>
+
+      <h4>Example 7</h4>
+      <p>Arrange:<br>
+      P. In conclusion, success requires both.<br>
+      Q. Hard work is essential.<br>
+      R. But luck also plays a role.<br>
+      S. Many believe talent is everything.</p>
+      <p><b>Solution:</b><br>S introduces a view.<br>Q states main idea.<br>R contrasts ("But").<br>P concludes.<br><b>Order: S-Q-R-P</b></p>
+
+      <h4>Example 8</h4>
+      <p>Arrange:<br>
+      P. He took a deep breath.<br>
+      Q. The students entered the exam hall.<br>
+      R. The clock struck nine.<br>
+      S. Then the bell rang for them to begin.</p>
+      <p><b>Solution:</b><br>R is opening time.<br>Q follows.<br>P after.<br>S concludes ("Then bell rang").<br><b>Order: R-Q-P-S</b></p>
+
+      <h4>Example 9</h4>
+      <p>Arrange:<br>
+      P. Trees give us oxygen.<br>
+      Q. We must therefore protect them.<br>
+      R. They are vital for life.<br>
+      S. Without them, life is impossible.</p>
+      <p><b>Solution:</b><br>P introduces trees.<br>R adds ("They").<br>S elaborates.<br>Q concludes ("therefore").<br><b>Order: P-R-S-Q</b></p>
+
+      <h4>Example 10</h4>
+      <p>Arrange:<br>
+      P. He decided to ask his father.<br>
+      Q. He was confused about his career.<br>
+      R. His father listened patiently.<br>
+      S. Ravi had just finished college.</p>
+      <p><b>Solution:</b><br>S introduces Ravi.<br>Q follows ("He").<br>P is decision.<br>R is response.<br><b>Order: S-Q-P-R</b></p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Pronouns can't appear without antecedent → check who/what they refer to.</li>
+        <li>Connectors (however, therefore, but) need a clear previous idea.</li>
+        <li>Articles: a/an introduces; the refers back.</li>
+        <li>Time markers (first, then, finally) give explicit order.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "P: He took the bag. Q: The boy entered. R: He left. S: Then he opened it. Order?", opts: ["QPSR", "QPRS", "PQRS", "QPSR"], a: 0, ex: "Q intro, P action, S then, R end." },
+      { q: "P: It was raining. Q: I took an umbrella. R: I went out. S: I returned wet. Order?", opts: ["PQRS", "PRQS", "RPQS", "QRPS"], a: 0, ex: "Weather → umbrella → went → wet." },
+      { q: "P: But she refused. Q: They asked her to sing. R: A beautiful singer was at the party. S: The host insisted. Order?", opts: ["RQPS", "RQSP", "RPQS", "PQRS"], a: 0, ex: "R intro, Q request, P refusal, S insist." },
+      { q: "P: He was a good leader. Q: Gandhi led the freedom movement. R: He inspired millions. S: His ideals are remembered today. Order?", opts: ["QPRS", "QRPS", "PQRS", "QPSR"], a: 0, ex: "Intro → trait → impact → legacy." },
+      { q: "P: Trees give oxygen. Q: We need them. R: They are essential. S: Save trees. Order?", opts: ["PRQS", "PRSQ", "QPRS", "PQRS"], a: 0, ex: "Fact → essential → need → action." },
+      { q: "P: The phone rang. Q: It was urgent. R: He picked it up. S: He listened carefully. Order?", opts: ["PRQS", "PRSQ", "PQRS", "PSRQ"], a: 0, ex: "Ring → pick → urgent → listen." },
+      { q: "P: They built houses. Q: Early humans lived in caves. R: Then they learned farming. S: Civilization grew. Order?", opts: ["QRPS", "QPRS", "QRSP", "PQRS"], a: 0, ex: "Caves → farming → houses → civilization." },
+      { q: "P: She arrived early. Q: But the train was late. R: Mary had a meeting. S: So she had to wait. Order?", opts: ["RPQS", "RPSQ", "RQPS", "PQRS"], a: 0, ex: "Mary → arrived → train late → wait." },
+      { q: "P: Therefore practice is key. Q: Skills need practice. R: Mastery takes years. S: Without it, no growth. Order?", opts: ["QRSP", "QSRP", "QRPS", "RPQS"], a: 0, ex: "Skills → years → without → therefore." },
+      { q: "P: He felt happy. Q: His hard work paid off. R: He topped the class. S: He had studied for months. Order?", opts: ["SRPQ", "SRQP", "RSPQ", "PSQR"], a: 0, ex: "Studied → topped → happy → paid off." },
+      { q: "P: He bought a ticket. Q: He boarded the train. R: He reached the station. S: He arrived home. Order?", opts: ["RPQS", "PRQS", "RPSQ", "PQRS"], a: 0, ex: "Station → ticket → board → home." },
+      { q: "P: Books are companions. Q: They never leave us. R: They teach us. S: We must read more. Order?", opts: ["PRQS", "PQRS", "PRSQ", "RPQS"], a: 0, ex: "Companions → teach → never leave → read." },
+      { q: "P: A man entered. Q: He was wearing black. R: Everyone stared at him. S: The room fell silent. Order?", opts: ["PQRS", "PQSR", "SPQR", "PRQS"], a: 0, ex: "Man → wearing → stared → silent." },
+      { q: "P: They went out. Q: It was raining. R: They got wet. S: They forgot umbrellas. Order?", opts: ["QPSR", "QPRS", "QSPR", "PQRS"], a: 2, ex: "Rain → forgot → went → wet." },
+      { q: "P: She studies hard. Q: She wants to become a doctor. R: It is her dream. S: She helps people. Order?", opts: ["QRPS", "QPRS", "RQPS", "PQRS"], a: 0, ex: "Wants → dream → studies → helps." },
+      { q: "P: Music soothes. Q: It can heal pain. R: It brings joy. S: Music is therapy. Order?", opts: ["SPRQ", "SPQR", "PSRQ", "PQRS"], a: 0, ex: "Music therapy → soothes → joy → heal." },
+      { q: "P: The fire spread. Q: A spark fell. R: Trees burned. S: Forest was destroyed. Order?", opts: ["QPRS", "QPSR", "QRPS", "PQRS"], a: 0, ex: "Spark → spread → burned → destroyed." },
+      { q: "P: I called for help. Q: Help arrived soon. R: I was relieved. S: I was in trouble. Order?", opts: ["SPQR", "SPRQ", "PSQR", "PSRQ"], a: 0, ex: "Trouble → called → arrived → relieved." },
+      { q: "P: He is rich. Q: But he is unhappy. R: Money cannot buy happiness. S: He has everything. Order?", opts: ["PSQR", "SPQR", "PQRS", "PSRQ"], a: 0, ex: "Rich → has everything → unhappy → money can't." },
+      { q: "P: We celebrated. Q: We won the match. R: Our team practised hard. S: The trophy was ours. Order?", opts: ["RQSP", "RQPS", "QRPS", "RSQP"], a: 0, ex: "Practised → won → trophy → celebrated." },
+      { q: "P: She prepared dinner. Q: Guests were arriving. R: She set the table. S: She greeted them warmly. Order?", opts: ["QPRS", "QPRS", "PQRS", "QPRS"], a: 0, ex: "Guests coming → prepared → set → greeted." },
+      { q: "P: The bell rang. Q: Students rushed out. R: The school day ended. S: It was 3 PM. Order?", opts: ["SPRQ", "SPQR", "SRPQ", "PSRQ"], a: 0, ex: "3PM → bell → ended → rushed." },
+      { q: "P: She passed with honours. Q: Her parents were proud. R: She worked tirelessly. S: She prepared for the exam. Order?", opts: ["SRPQ", "SRQP", "RSPQ", "SPQR"], a: 0, ex: "Prepared → tirelessly → passed → proud." },
+      { q: "P: Pollution harms health. Q: Many people are falling sick. R: We must act. S: Air pollution is rising. Order?", opts: ["SPQR", "SPRQ", "PSQR", "SQPR"], a: 0, ex: "Rising → harms → sick → act." },
+      { q: "P: The mango is ripe. Q: It is sweet. R: I picked it. S: I ate it. Order?", opts: ["PRQS", "PRSQ", "PQRS", "RPQS"], a: 1, ex: "Ripe → picked → ate → sweet." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 26. ERROR DETECTION (Spotting Errors)
+  // ───────────────────────────────────────────────────────────────
+  T["eng-error-detection"] = {
+    body: `
+      <h2>Error Detection (Spotting Errors)</h2>
+      <p>Sentence is divided into 3-4 parts. You identify the part with an error. <b>SSC asks 4-5 questions of this type</b>. This is a SUMMARY of all grammar rules.</p>
+
+      <h3>Top 30 Error Patterns in SSC (HIGH FREQUENCY)</h3>
+
+      <h3>1. Subject-Verb Agreement (SVA)</h3>
+      <ul>
+        <li>Each, every, none + singular: "Each of the boys <b>is</b> here" not "are".</li>
+        <li>Either/Neither + singular: "Neither of them <b>has</b> come".</li>
+        <li>"A number of" + plural; "The number of" + singular.</li>
+        <li>Collective nouns: team, family, jury — usually singular.</li>
+        <li>Two subjects joined by "and" → plural. Joined by "or/nor" → verb agrees with nearer.</li>
+        <li>"News, mathematics, physics, politics" — singular despite -s.</li>
+      </ul>
+
+      <h3>2. Pronoun Errors</h3>
+      <ul>
+        <li>Wrong case: "Between you and <b>me</b>" (not I); "Let <b>him</b> go" (not he).</li>
+        <li>Reflexive misuse: "He hurt <b>himself</b>" not "his self".</li>
+        <li>"One should keep <b>one's</b> word" (not his).</li>
+        <li>"Whose" (poss) vs "who's" (who is).</li>
+        <li>Wrong pronoun number: each/every/-body/-one → singular pronoun (his/her, his).</li>
+      </ul>
+
+      <h3>3. Article Errors</h3>
+      <ul>
+        <li>"A" before consonant sound; "an" before vowel sound.</li>
+        <li>"A university" (you-niversity), "an hour" (silent h).</li>
+        <li>"The" with superlatives, unique things, ordinals.</li>
+        <li>No article with abstract / uncountable / proper nouns.</li>
+        <li>"Play the piano" (the with instruments), "play football" (no the with sports).</li>
+      </ul>
+
+      <h3>4. Preposition Errors</h3>
+      <ul>
+        <li>"Different from" not "different than".</li>
+        <li>"Married to" not "married with".</li>
+        <li>"Discuss" no preposition; "investigate" no preposition; "reach" no preposition.</li>
+        <li>"On" Sunday, "in" January, "at" 5 PM.</li>
+        <li>"In" 2024, "on" 21st June, "at" night.</li>
+        <li>"Suffer from" disease; "Compare with" / "Compare to".</li>
+      </ul>
+
+      <h3>5. Tense Errors</h3>
+      <ul>
+        <li>"Since" + Perfect tense (Have/Has/Had).</li>
+        <li>"For" + duration.</li>
+        <li>"Yesterday, ago, last week" + Simple Past.</li>
+        <li>"Already, ever, never, just" + Present Perfect.</li>
+        <li>Reported speech: shift tense back.</li>
+      </ul>
+
+      <h3>6. Adjective/Adverb Errors</h3>
+      <ul>
+        <li>"Fast, hard, late" — same form for adj and adv.</li>
+        <li>"Hardly/scarcely" mean "almost not".</li>
+        <li>Comparative for 2; Superlative for 3+.</li>
+        <li>"Less" for uncountable; "fewer" for countable.</li>
+        <li>"Much" for uncountable; "many" for countable.</li>
+      </ul>
+
+      <h3>7. Conjunction Errors</h3>
+      <ul>
+        <li>"Either ... or" / "Neither ... nor" — paired correctly.</li>
+        <li>"No sooner ... than" (not "no sooner ... when").</li>
+        <li>"Scarcely ... when" / "Hardly ... when".</li>
+        <li>"Not only ... but also" — parallel structure.</li>
+        <li>"Although/though" cannot pair with "but".</li>
+        <li>"Lest" + should + V1 (negative purpose).</li>
+      </ul>
+
+      <h3>8. Confused Words (Frequent)</h3>
+      <table>
+        <tr><th>Word 1</th><th>Word 2</th><th>Difference</th></tr>
+        <tr><td>Affect (verb)</td><td>Effect (noun)</td><td>To influence vs result</td></tr>
+        <tr><td>Among</td><td>Between</td><td>Many vs two</td></tr>
+        <tr><td>Less</td><td>Fewer</td><td>Uncountable vs countable</td></tr>
+        <tr><td>Beside</td><td>Besides</td><td>Next to vs in addition</td></tr>
+        <tr><td>Farther</td><td>Further</td><td>Distance vs extent</td></tr>
+        <tr><td>Lay</td><td>Lie</td><td>Place vs recline</td></tr>
+        <tr><td>Borrow</td><td>Lend</td><td>Take vs give</td></tr>
+        <tr><td>Bring</td><td>Take</td><td>Towards speaker vs away</td></tr>
+        <tr><td>Each other</td><td>One another</td><td>Two vs more than two</td></tr>
+        <tr><td>Practice (n)</td><td>Practise (v)</td><td>British spelling</td></tr>
+      </table>
+
+      <h3>9. Order of Adjectives</h3>
+      <p>OSASCOMP: Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose.</p>
+
+      <h3>10. Redundancy</h3>
+      <p>Return back ❌, repeat again ❌, free gift ❌, each and every ❌.</p>
+
+      <h3>🔥 Spotting Approach</h3>
+      <ol>
+        <li>Read whole sentence first to get meaning.</li>
+        <li>Check verb-subject agreement (singular/plural).</li>
+        <li>Check tense consistency.</li>
+        <li>Check articles (a/an/the).</li>
+        <li>Check prepositions.</li>
+        <li>Check pronoun case and reference.</li>
+        <li>Check word choice (affect/effect etc).</li>
+      </ol>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p>"<u>Each of the boys</u> (a) <u>are present</u> (b) <u>in class</u> (c) <u>today</u> (d). No error (e)."</p>
+      <p><b>Solution:</b><br>"Each + singular verb".<br>Error in (b): should be "<b>is</b> present".</p>
+
+      <h4>Example 2</h4>
+      <p>"<u>She is</u> (a) <u>more better</u> (b) <u>than her sister</u> (c) <u>in maths</u> (d)."</p>
+      <p><b>Solution:</b><br>"Better" already comparative.<br>Error in (b): "<b>better</b>" (remove "more").</p>
+
+      <h4>Example 3</h4>
+      <p>"<u>He has</u> (a) <u>been working</u> (b) <u>since</u> (c) <u>three hours</u> (d)."</p>
+      <p><b>Solution:</b><br>"Since" + point of time; "for" + duration.<br>Error in (d): "<b>for three hours</b>".</p>
+
+      <h4>Example 4</h4>
+      <p>"<u>The Ramayana</u> (a) <u>is</u> (b) <u>great epic</u> (c) <u>of India</u> (d)."</p>
+      <p><b>Solution:</b><br>Missing "a".<br>Error in (c): "<b>a great epic</b>".</p>
+
+      <h4>Example 5</h4>
+      <p>"<u>One should</u> (a) <u>respect</u> (b) <u>his parents</u> (c) <u>always</u> (d)."</p>
+      <p><b>Solution:</b><br>"One" → "one's", not "his".<br>Error in (c): "<b>one's parents</b>".</p>
+
+      <h4>Example 6</h4>
+      <p>"<u>The jury</u> (a) <u>were divided</u> (b) <u>in their opinion</u> (c) <u>about the case</u> (d)."</p>
+      <p><b>Solution:</b><br>When jury is divided, treat as plural — "were" is correct. NO ERROR.</p>
+
+      <h4>Example 7</h4>
+      <p>"<u>He is</u> (a) <u>junior than</u> (b) <u>me</u> (c) <u>by two years</u> (d)."</p>
+      <p><b>Solution:</b><br>"Junior to" not "junior than".<br>Error in (b): "<b>junior to</b>".</p>
+
+      <h4>Example 8</h4>
+      <p>"<u>I have been</u> (a) <u>knowing him</u> (b) <u>since 2010</u> (c) <u>and we are friends</u> (d)."</p>
+      <p><b>Solution:</b><br>"Know" is stative — no continuous.<br>Error in (b): "<b>known him</b>".</p>
+
+      <h4>Example 9</h4>
+      <p>"<u>If I was</u> (a) <u>rich</u> (b) <u>I would buy</u> (c) <u>a car</u> (d)."</p>
+      <p><b>Solution:</b><br>Type 2 conditional → "If I <b>were</b>".<br>Error in (a): "<b>If I were</b>".</p>
+
+      <h4>Example 10</h4>
+      <p>"<u>Neither he</u> (a) <u>nor his friends</u> (b) <u>has come</u> (c) <u>to the party</u> (d)."</p>
+      <p><b>Solution:</b><br>Verb agrees with nearer subject "friends" → plural.<br>Error in (c): "<b>have come</b>".</p>
+
+      <h4>Example 11</h4>
+      <p>"<u>The number</u> (a) <u>of students</u> (b) <u>are</u> (c) <u>increasing</u> (d)."</p>
+      <p><b>Solution:</b><br>"The number" → singular.<br>Error in (c): "<b>is</b>".</p>
+
+      <h4>Example 12</h4>
+      <p>"<u>He returned back</u> (a) <u>from office</u> (b) <u>and slept</u> (c) <u>immediately</u> (d)."</p>
+      <p><b>Solution:</b><br>"Return back" is redundant.<br>Error in (a): "<b>He returned</b>".</p>
+
+      <h4>Example 13</h4>
+      <p>"<u>He is</u> (a) <u>one of</u> (b) <u>the boys</u> (c) <u>who has come</u> (d)."</p>
+      <p><b>Solution:</b><br>"One of the boys who" → plural verb (who refers to boys).<br>Error in (d): "<b>who have come</b>".</p>
+
+      <h4>Example 14</h4>
+      <p>"<u>He scarcely</u> (a) <u>finished</u> (b) <u>writing</u> (c) <u>than the bell rang</u> (d)."</p>
+      <p><b>Solution:</b><br>"Scarcely ... when" pair.<br>Error in (d): "<b>when the bell rang</b>".</p>
+
+      <h4>Example 15</h4>
+      <p>"<u>She is taller</u> (a) <u>than</u> (b) <u>any girl</u> (c) <u>in her class</u> (d)."</p>
+      <p><b>Solution:</b><br>"Than any other" — must exclude herself.<br>Error in (c): "<b>any other girl</b>".</p>
+
+      <h3>🎯 Top Tips</h3>
+      <ul>
+        <li>Memorize verb forms: borrow-lent-lent, lie-lay-lain, lay-laid-laid.</li>
+        <li>Check the sentence grammatically AS A WHOLE before marking error.</li>
+        <li>If unsure, look for the MOST OBVIOUS error.</li>
+        <li>"No error" is sometimes the answer — don't force.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "'(a) Each of the students (b) have submitted (c) their assignments (d) on time. No error (e)'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "Each + has." },
+      { q: "'(a) He is (b) more taller (c) than his brother (d). No error (e)'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "More + comparative is wrong." },
+      { q: "'(a) I have known (b) him (c) for ten years (d). No error (e)'", opts: ["(a)", "(b)", "(c)", "(d)", "No error"], a: 4, ex: "Sentence is correct." },
+      { q: "'(a) She is one (b) of the girls (c) who has come (d) early.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "Who have come." },
+      { q: "'(a) Neither Ram (b) nor his friends (c) was present (d) at the party.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "Were (nearer subject plural)." },
+      { q: "'(a) I am suffering (b) with fever (c) since (d) yesterday.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "Suffering from fever." },
+      { q: "'(a) The number (b) of books (c) are increasing (d) daily.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "Is increasing." },
+      { q: "'(a) He is (b) senior than (c) me (d) by 5 years.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "Senior to." },
+      { q: "'(a) Each of the four boys (b) have got (c) a medal (d) yesterday.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "Each + has got." },
+      { q: "'(a) Returning back from school, (b) the boy was tired (c) and slept (d) immediately.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 0, ex: "Return back redundant." },
+      { q: "'(a) She is most (b) intelligent than (c) any of her sisters (d).'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 0, ex: "More intelligent." },
+      { q: "'(a) If I was rich, (b) I would (c) buy a car (d) for my father.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 0, ex: "Were (subjunctive)." },
+      { q: "'(a) No sooner did he reach (b) the station (c) when the train (d) left.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "Than the train left." },
+      { q: "'(a) He as well as (b) his brothers (c) are coming (d) tomorrow.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "Is coming (verb agrees with He)." },
+      { q: "'(a) Hardly had I (b) finished my work (c) than the (d) bell rang.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "When the bell rang." },
+      { q: "'(a) She has been (b) working hard (c) since five hours (d).'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "For five hours." },
+      { q: "'(a) Each one of (b) the boys (c) were present (d) today.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "Was present." },
+      { q: "'(a) I prefer (b) tea (c) than coffee (d) any day.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 2, ex: "Prefer X to Y." },
+      { q: "'(a) Between you and (b) I, (c) this matter is (d) confidential.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "Between you and me." },
+      { q: "'(a) The cattle (b) is grazing (c) in the (d) field.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "Cattle are." },
+      { q: "'(a) One should (b) keep his (c) word (d) always.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "One's word." },
+      { q: "'(a) She is (b) junior than (c) me (d) in office.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "Junior to." },
+      { q: "'(a) He went (b) to the (c) abroad (d) last year.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "No 'the' with abroad." },
+      { q: "'(a) The jury (b) was divided (c) in their opinions (d).'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "When divided → 'were'." },
+      { q: "'(a) Ten miles (b) are (c) a long (d) distance.'", opts: ["(a)", "(b)", "(c)", "(d)"], a: 1, ex: "'Is' (distance is single concept)." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 27. CLOZE TEST
+  // ───────────────────────────────────────────────────────────────
+  T["eng-cloze"] = {
+    body: `
+      <h2>Cloze Test</h2>
+      <p>A passage with blanks. You select the best word for each blank from 4 options. <b>SSC asks 5 cloze blanks (one passage)</b>.</p>
+
+      <h3>Approach</h3>
+
+      <h4>Step 1: Read the Whole Passage First</h4>
+      <p>Understand the topic, tone (formal/informal), and overall message. Don't just look at blanks.</p>
+
+      <h4>Step 2: For Each Blank, Identify What Part of Speech is Needed</h4>
+      <ul>
+        <li>Before noun → article / adjective.</li>
+        <li>After "to" → verb (V1) or noun.</li>
+        <li>After "the" → noun or adjective.</li>
+        <li>Between subject and object → verb.</li>
+        <li>Between two clauses → conjunction.</li>
+      </ul>
+
+      <h4>Step 3: Check Collocations / Common Pairings</h4>
+      <p>Some words go together naturally:</p>
+      <ul>
+        <li>Make / do / take / give / pay → which verb fits?</li>
+        <li>"<b>Take</b> a decision", "<b>Make</b> a difference", "<b>Pay</b> attention", "<b>Do</b> homework".</li>
+        <li>"Heavy rain", "strong tea", "fast asleep".</li>
+      </ul>
+
+      <h4>Step 4: Look at Context Clues</h4>
+      <ul>
+        <li>Words after blanks: prepositions can hint at the verb (e.g., "rely <b>on</b>", "consist <b>of</b>").</li>
+        <li>Words before: articles + adjectives hint at noun coming up.</li>
+        <li>Connecting words: but/however hint at contrast; therefore/so hint at result.</li>
+      </ul>
+
+      <h4>Step 5: Eliminate Wrong Options</h4>
+      <ul>
+        <li>Cross out options that don't fit grammatically.</li>
+        <li>Cross out options that don't fit the meaning/tone.</li>
+        <li>From remaining, choose the most natural-sounding word.</li>
+      </ul>
+
+      <h3>🔥 Common Cloze Categories</h3>
+
+      <h4>(a) Prepositions</h4>
+      <p>"depends <b>on</b>, rely <b>on</b>, suffer <b>from</b>, consist <b>of</b>, refer <b>to</b>, succeed <b>in</b>"</p>
+
+      <h4>(b) Articles</h4>
+      <p>"a/an/the" — based on countable/uncountable, definite/indefinite</p>
+
+      <h4>(c) Tense / Verb Forms</h4>
+      <p>Past, present, future, passive — based on context</p>
+
+      <h4>(d) Conjunctions / Linkers</h4>
+      <p>"although, however, therefore, moreover, because, since, when"</p>
+
+      <h4>(e) Synonyms in Context</h4>
+      <p>Choose the synonym that fits the sentence best</p>
+
+      <h4>(f) Idioms / Phrasal Verbs</h4>
+      <p>"give up, look after, put off, take care of"</p>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example Passage 1</h4>
+      <p>Education plays a vital role in (1)__ society. It is not just (2)__ acquiring knowledge but also about developing personality. Children who attend school regularly tend to (3)__ better in life. Parents should (4)__ their children to study sincerely. (5)__, education is the foundation of success.</p>
+
+      <p><b>(1)</b> a) shaped b) shaping c) shape d) shapes<br>
+      <b>Solution:</b><br>After "in" → use V-ing form.<br>Answer: <b>(b) shaping</b></p>
+
+      <p><b>(2)</b> a) for b) about c) of d) with<br>
+      <b>Solution:</b><br>"about acquiring knowledge" — about is the natural choice.<br>Answer: <b>(b) about</b></p>
+
+      <p><b>(3)</b> a) do b) does c) doing d) did<br>
+      <b>Solution:</b><br>After "tend to" → base form V1.<br>Answer: <b>(a) do</b></p>
+
+      <p><b>(4)</b> a) make b) encourage c) tell d) ask<br>
+      <b>Solution:</b><br>"Encourage their children to study" — most natural.<br>Answer: <b>(b) encourage</b></p>
+
+      <p><b>(5)</b> a) Therefore b) However c) Although d) But<br>
+      <b>Solution:</b><br>Concluding statement → use "Therefore".<br>Answer: <b>(a) Therefore</b></p>
+
+      <h4>Example Passage 2</h4>
+      <p>Reading books is (1)__ valuable habit. It helps in (2)__ vocabulary and improving comprehension skills. Moreover, books are excellent (3)__ of knowledge. They (4)__ us about history, culture, and science. (5)__, everyone should cultivate the habit of reading.</p>
+
+      <p><b>(1) Answer:</b> <b>a</b> (consonant sound 'v')</p>
+      <p><b>(2) Answer:</b> <b>building</b> (after "in")</p>
+      <p><b>(3) Answer:</b> <b>sources</b> (plural after "are excellent")</p>
+      <p><b>(4) Answer:</b> <b>tell</b> (tell us about)</p>
+      <p><b>(5) Answer:</b> <b>Therefore</b> (conclusion)</p>
+
+      <h3>🎯 Strategy Tips</h3>
+      <ul>
+        <li>Read full passage first — understanding context beats guessing.</li>
+        <li>Make a mental list of common collocations.</li>
+        <li>Check options against grammar (POS, tense, agreement).</li>
+        <li>If 2 options seem possible, choose the one matching the tone.</li>
+        <li>Re-read with your answer filled — does it flow?</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Reading is a __ habit. Choose:", opts: ["good", "well", "best", "better"], a: 0, ex: "Adjective 'good'." },
+      { q: "He depends __ his parents. Choose:", opts: ["of", "on", "in", "at"], a: 1, ex: "Depends on." },
+      { q: "We must take __ of nature. Choose:", opts: ["care", "caring", "cared", "carer"], a: 0, ex: "Take care of." },
+      { q: "The children went __ school. Choose:", opts: ["at", "to", "in", "for"], a: 1, ex: "Went to school." },
+      { q: "She is interested __ painting. Choose:", opts: ["of", "with", "in", "for"], a: 2, ex: "Interested in." },
+      { q: "It has been raining __ morning. Choose:", opts: ["from", "for", "since", "in"], a: 2, ex: "Since morning (point of time)." },
+      { q: "He is good __ mathematics. Choose:", opts: ["in", "at", "for", "with"], a: 1, ex: "Good at." },
+      { q: "I'll be there __ a few minutes. Choose:", opts: ["at", "for", "in", "on"], a: 2, ex: "In (future time)." },
+      { q: "The price has gone __ recently. Choose:", opts: ["up", "down", "off", "on"], a: 0, ex: "Gone up = increased." },
+      { q: "He __ in playing chess. Choose:", opts: ["excels", "excel", "excelling", "excelled"], a: 0, ex: "Present simple." },
+      { q: "She wrote a __ letter. Choose:", opts: ["beautifully", "beauty", "beautiful", "beautify"], a: 2, ex: "Adjective + noun." },
+      { q: "He works hard __ pass the exam. Choose:", opts: ["to", "for", "by", "with"], a: 0, ex: "Infinitive of purpose." },
+      { q: "We must __ honesty. Choose:", opts: ["practice", "practise", "practised", "practising"], a: 1, ex: "Practise (verb, BrE)." },
+      { q: "Despite __ tired, he worked. Choose:", opts: ["been", "be", "being", "to be"], a: 2, ex: "Despite + V-ing." },
+      { q: "Either he __ his sister will come. Choose:", opts: ["or", "and", "nor", "but"], a: 0, ex: "Either ... or." },
+      { q: "Neither rain __ snow will stop us. Choose:", opts: ["or", "nor", "and", "but"], a: 1, ex: "Neither ... nor." },
+      { q: "He runs __ than his brother. Choose:", opts: ["faster", "fast", "fastly", "fastest"], a: 0, ex: "Comparative." },
+      { q: "She is __ intelligent girl. Choose:", opts: ["a", "an", "the", "no article"], a: 1, ex: "An (vowel sound)." },
+      { q: "We were going __ home when it rained. Choose:", opts: ["to", "for", "no preposition", "at"], a: 2, ex: "'Home' takes no prep." },
+      { q: "I am tired __ waiting. Choose:", opts: ["of", "for", "by", "with"], a: 0, ex: "Tired of." },
+      { q: "The book was written __ Shakespeare. Choose:", opts: ["from", "of", "by", "with"], a: 2, ex: "Passive + by." },
+      { q: "She insisted __ paying the bill. Choose:", opts: ["on", "for", "to", "with"], a: 0, ex: "Insist on." },
+      { q: "He is fond __ chocolate. Choose:", opts: ["with", "of", "for", "about"], a: 1, ex: "Fond of." },
+      { q: "We must __ this matter seriously. Choose:", opts: ["take", "have", "make", "do"], a: 0, ex: "Take seriously." },
+      { q: "He arrived __ the airport at 9. Choose:", opts: ["in", "at", "on", "to"], a: 1, ex: "At (place point)." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 28. READING COMPREHENSION
+  // ───────────────────────────────────────────────────────────────
+  T["eng-comprehension"] = {
+    body: `
+      <h2>Reading Comprehension</h2>
+      <p>A passage is given, followed by 5 questions. You read the passage and answer based on what's given. <b>SSC asks 5 comprehension questions</b>.</p>
+
+      <h3>Approach</h3>
+
+      <h4>Step 1: Skim the Passage</h4>
+      <p>Read quickly to get the gist. Don't worry about details. What is the main topic? What's the author's tone?</p>
+
+      <h4>Step 2: Read the Questions</h4>
+      <p>Before re-reading, glance at the questions. This tells you what to look for in the passage.</p>
+
+      <h4>Step 3: Re-read the Passage Carefully</h4>
+      <p>Now read carefully, marking phrases/keywords related to the questions.</p>
+
+      <h4>Step 4: Answer Each Question</h4>
+      <p>For each question, locate the relevant part of the passage. Don't bring in outside information — base your answer ONLY on the passage.</p>
+
+      <h3>Types of Comprehension Questions</h3>
+
+      <h4>1. Direct/Factual Questions</h4>
+      <p>Information explicitly stated in passage. Look for keywords from question in passage.</p>
+
+      <h4>2. Vocabulary in Context</h4>
+      <p>"What does the word X mean in the passage?" Read the surrounding context to figure out meaning.</p>
+
+      <h4>3. Inference Questions</h4>
+      <p>Answer is NOT directly stated but implied. Use logic.</p>
+
+      <h4>4. Main Idea / Theme</h4>
+      <p>What is the passage about? Look at the topic sentence (usually first or last sentence of paragraphs).</p>
+
+      <h4>5. Author's Tone / Attitude</h4>
+      <p>How does the author feel about the topic? Positive, negative, neutral, critical, sympathetic, sarcastic?</p>
+
+      <h4>6. Title Selection</h4>
+      <p>Best title captures the main idea — not too narrow, not too broad.</p>
+
+      <h3>🔥 Master Tricks</h3>
+      <ul>
+        <li>Don't bring outside knowledge — answer ONLY from the passage.</li>
+        <li>For factual questions, find the exact line that contains the answer.</li>
+        <li>For inference, the answer is supported by but not stated in the passage.</li>
+        <li>Eliminate extreme options (always, never, completely) unless passage supports them.</li>
+        <li>Watch for trap options: factually true but irrelevant to passage.</li>
+      </ul>
+
+      <h3>Sample Passage & Solved Questions</h3>
+
+      <p><b>Passage</b>: "The honeybee is one of nature's most fascinating creatures. A single bee can produce only about one-twelfth of a teaspoon of honey in its lifetime, yet a hive of bees produces several pounds annually. Bees work tirelessly, collecting nectar from flowers and converting it into honey through enzymes in their saliva. This honey serves as food for the colony during winter. Beyond honey production, bees play a critical role in pollinating plants. Without bees, many of our crops would fail. Sadly, bee populations are declining worldwide due to pesticides, habitat loss, and climate change. Scientists are urgently working to find solutions."</p>
+
+      <h4>Q1: How much honey does a single bee produce in its lifetime?</h4>
+      <p><b>Solution:</b><br>Direct factual question. Look for "single bee" + "honey".<br>Answer: <b>About one-twelfth of a teaspoon</b>.</p>
+
+      <h4>Q2: What does "tirelessly" mean in the passage?</h4>
+      <p><b>Solution:</b><br>Without getting tired; continuously.<br>Answer: <b>Continuously/Without rest</b>.</p>
+
+      <h4>Q3: Why is the decline of bees a concern beyond losing honey?</h4>
+      <p><b>Solution:</b><br>Inference from "bees play a critical role in pollinating plants" + "many of our crops would fail".<br>Answer: <b>They are essential for pollination, without which crops would fail</b>.</p>
+
+      <h4>Q4: What is the main idea of the passage?</h4>
+      <p><b>Solution:</b><br>The passage talks about bees, their importance, and the threat they face.<br>Answer: <b>The importance of bees and the threat to their populations</b>.</p>
+
+      <h4>Q5: What is the author's tone?</h4>
+      <p><b>Solution:</b><br>Words like "fascinating", "sadly", "urgently" indicate appreciation + concern.<br>Answer: <b>Informative and concerned</b>.</p>
+
+      <h3>Another Sample Passage</h3>
+
+      <p><b>Passage</b>: "Reading habits among the youth have declined significantly in the digital age. Smartphones, social media, and instant entertainment compete for attention. Yet, reading remains essential for cognitive development, vocabulary growth, and critical thinking. Studies show that children who read regularly perform better academically. Libraries are reinventing themselves with digital resources and community programs. Parents and educators must encourage reading from an early age, not as a chore, but as an enjoyable activity. Only then can we preserve this vital habit."</p>
+
+      <h4>Q1: What has caused the decline in reading?</h4>
+      <p><b>Answer:</b> Smartphones, social media, instant entertainment.</p>
+
+      <h4>Q2: What benefits does reading provide? (3 listed)</h4>
+      <p><b>Answer:</b> Cognitive development, vocabulary growth, critical thinking.</p>
+
+      <h4>Q3: How are libraries adapting?</h4>
+      <p><b>Answer:</b> Digital resources and community programs.</p>
+
+      <h4>Q4: What does the author want parents and teachers to do?</h4>
+      <p><b>Answer:</b> Encourage reading as enjoyable, not as a chore.</p>
+
+      <h4>Q5: A suitable title for the passage:</h4>
+      <p><b>Answer:</b> "Reviving the Reading Habit in the Digital Age".</p>
+
+      <h3>🎯 Strategy Tips</h3>
+      <ul>
+        <li>Time management: ~5 min for one passage (1 min skim, 4 min questions).</li>
+        <li>Mark / underline key sentences as you read.</li>
+        <li>For "according to passage" — answer must be findable in text.</li>
+        <li>Look for paraphrasing: option may say the same thing in different words.</li>
+        <li>Beware of extreme options (always, never, all, none) unless passage supports.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Best title for: 'Yoga improves health and reduces stress, suitable for all ages.'", opts: ["Yoga: A Universal Health Practice", "Yoga in India", "Stress in Modern Life", "Ages and Exercise"], a: 0, ex: "Captures both points." },
+      { q: "If passage says 'Many believe that..' — what is implied?", opts: ["Author agrees", "Author disagrees", "It's a common belief, not necessarily true", "Definitively true"], a: 2, ex: "Distancing language." },
+      { q: "'The river meanders through the valley.' Meaning of meanders?", opts: ["Flows fast", "Flows in winding path", "Floods", "Dries up"], a: 1, ex: "Meander = wind." },
+      { q: "Passage on global warming: best tone?", opts: ["Joyful", "Concerned", "Sarcastic", "Indifferent"], a: 1, ex: "Concerned tone for serious issue." },
+      { q: "'Few people are aware.' This means:", opts: ["Many people know", "Most don't know", "All know", "None know"], a: 1, ex: "Few = not many." },
+      { q: "Passage mentions 'flora and fauna' — refers to:", opts: ["Plants and animals", "Cities", "Foods", "Drinks"], a: 0, ex: "Standard biology terms." },
+      { q: "'The book was a bestseller.' Implies:", opts: ["It was a bad book", "Many copies sold", "It was free", "It was hidden"], a: 1, ex: "Sold well." },
+      { q: "Author writes 'Unfortunately...' — tone is:", opts: ["Happy", "Regretful", "Excited", "Neutral"], a: 1, ex: "Regretful." },
+      { q: "Reading helps in: (per passage saying 'improves vocabulary')", opts: ["Vocabulary growth", "Weight loss", "Muscle gain", "Driving"], a: 0, ex: "Direct from passage." },
+      { q: "'Children should not be deprived of education.' Means:", opts: ["Children must get education", "Education is harmful", "Avoid education", "Education is private"], a: 0, ex: "Deprived = denied; not denied = should get." },
+      { q: "Inference type question requires:", opts: ["Direct quote", "Logical deduction from text", "Outside knowledge", "Random guessing"], a: 1, ex: "Inference = logic from passage." },
+      { q: "'Their efforts proved futile.' Futile means:", opts: ["Successful", "Useless", "Quick", "Slow"], a: 1, ex: "Futile = in vain." },
+      { q: "Best practice for RC: read what FIRST?", opts: ["Questions", "Answers", "Passage", "Title"], a: 2, ex: "Read passage first for gist." },
+      { q: "'The river is the lifeline of the village.' Lifeline means:", opts: ["Source of life", "Boundary", "Highway", "Danger"], a: 0, ex: "Lifeline = essential support." },
+      { q: "Author says 'one cannot deny that...' Tone:", opts: ["Skeptical", "Affirmative/Strong claim", "Hesitant", "Sarcastic"], a: 1, ex: "Strong affirmative." },
+      { q: "Word meaning: 'The proposal was rejected outright.' Outright?", opts: ["Slowly", "Completely", "Possibly", "Reluctantly"], a: 1, ex: "Outright = completely." },
+      { q: "When passage says 'numerous benefits':", opts: ["Few", "Many", "Some", "None"], a: 1, ex: "Numerous = many." },
+      { q: "If passage discusses pros AND cons, the author is:", opts: ["Biased", "Balanced", "Negative", "Positive"], a: 1, ex: "Both sides → balanced." },
+      { q: "'In conclusion' signals:", opts: ["Beginning", "Middle", "Summary/End", "Diversion"], a: 2, ex: "Concluding signal." },
+      { q: "'Bees pollinate crops.' Crops depend on bees for:", opts: ["Honey", "Pollination", "Light", "Water"], a: 1, ex: "Direct claim." },
+      { q: "If author uses many statistics, tone is:", opts: ["Emotional", "Objective/factual", "Sarcastic", "Hesitant"], a: 1, ex: "Statistics = objective." },
+      { q: "'The decline is alarming.' Alarming suggests:", opts: ["Good news", "Cause for concern", "Slow change", "No change"], a: 1, ex: "Alarming = worrying." },
+      { q: "Best title rule: not too narrow, not too:", opts: ["Specific", "Broad", "Long", "Catchy"], a: 1, ex: "Broad/narrow balance." },
+      { q: "Vocabulary in context: read what to figure out meaning?", opts: ["Dictionary", "Surrounding sentences", "Word itself only", "Title"], a: 1, ex: "Use context clues." },
+      { q: "'Author is sympathetic' means:", opts: ["Critical", "Showing compassion", "Indifferent", "Hostile"], a: 1, ex: "Sympathetic = caring." }
+    ]
+  };
+
 })();
