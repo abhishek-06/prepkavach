@@ -1554,4 +1554,1561 @@
     ]
   };
 
+  // ═══════════════════════════════════════════════════════════════
+  // INDIA GK
+  // ═══════════════════════════════════════════════════════════════
+
+  // ───────────────────────────────────────────────────────────────
+  // 13. FIRST IN INDIA
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-first-india"] = {
+    body: `
+      <h2>First in India</h2>
+
+      <h3>1. Political Firsts</h3>
+      <table>
+        <tr><th>Position</th><th>Name</th></tr>
+        <tr><td>1st President of India</td><td>Dr. Rajendra Prasad</td></tr>
+        <tr><td>1st Vice-President</td><td>Dr. S. Radhakrishnan</td></tr>
+        <tr><td>1st Prime Minister</td><td>Jawaharlal Nehru</td></tr>
+        <tr><td>1st Woman PM</td><td>Indira Gandhi</td></tr>
+        <tr><td>1st Woman President</td><td>Pratibha Patil (2007)</td></tr>
+        <tr><td>1st Muslim President</td><td>Dr. Zakir Husain</td></tr>
+        <tr><td>1st Sikh PM</td><td>Manmohan Singh</td></tr>
+        <tr><td>1st Dalit President</td><td>K.R. Narayanan</td></tr>
+        <tr><td>1st Tribal President</td><td>Droupadi Murmu (2022)</td></tr>
+        <tr><td>1st PM not to face Parliament</td><td>Charan Singh</td></tr>
+        <tr><td>1st Deputy PM</td><td>Sardar Vallabhbhai Patel</td></tr>
+        <tr><td>1st Home Minister</td><td>Sardar Vallabhbhai Patel</td></tr>
+        <tr><td>1st Finance Minister</td><td>R.K. Shanmukham Chetty</td></tr>
+        <tr><td>1st Foreign Minister</td><td>Jawaharlal Nehru</td></tr>
+        <tr><td>1st Speaker of Lok Sabha</td><td>G.V. Mavalankar</td></tr>
+        <tr><td>1st Woman Speaker (LS)</td><td>Meira Kumar</td></tr>
+        <tr><td>1st CJI</td><td>H.J. Kania</td></tr>
+        <tr><td>1st Woman CJI</td><td>(none yet)</td></tr>
+        <tr><td>1st CEC (Chief Election Commissioner)</td><td>Sukumar Sen</td></tr>
+        <tr><td>1st Governor-General after Independence</td><td>Lord Mountbatten</td></tr>
+        <tr><td>1st Indian Governor-General</td><td>C. Rajagopalachari</td></tr>
+      </table>
+
+      <h3>2. Other Political Firsts</h3>
+      <ul>
+        <li>1st elected woman CM of Indian state: Sucheta Kripalani (UP, 1963).</li>
+        <li>1st CM of an Indian state: Pt. Govind Ballabh Pant (UP).</li>
+        <li>1st woman Governor: Sarojini Naidu (UP).</li>
+        <li>1st woman judge of Supreme Court: M. Fathima Beevi.</li>
+        <li>1st woman IPS officer: Kiran Bedi.</li>
+        <li>1st woman IAS officer: Anna George (Anna Rajam Malhotra) (1951).</li>
+        <li>1st woman IFS: C.B. Muthamma.</li>
+      </ul>
+
+      <h3>3. Military / Defence Firsts</h3>
+      <ul>
+        <li>1st Field Marshal of India: Sam Manekshaw.</li>
+        <li>1st CDS (Chief of Defence Staff): General Bipin Rawat (2019).</li>
+        <li>1st Marshal of Air Force: Arjan Singh.</li>
+        <li>1st Admiral of Indian Navy: R.D. Katari (Chief of Naval Staff).</li>
+        <li>1st PVC awardee: Major Somnath Sharma (posthumous, 1947).</li>
+        <li>1st woman PVC: (none).</li>
+        <li>1st Indian woman to fly fighter aircraft: Avani Chaturvedi.</li>
+        <li>1st Indian woman pilot of Indian Air Force: Harita Kaur Deol.</li>
+        <li>1st woman air marshal: Padmavathy Bandopadhyay.</li>
+      </ul>
+
+      <h3>4. Sports Firsts</h3>
+      <ul>
+        <li>1st Olympic Gold (Hockey team): 1928 Amsterdam.</li>
+        <li>1st Individual Olympic Gold: Abhinav Bindra (Shooting, Beijing 2008).</li>
+        <li>1st Olympic Medal: Norman Pritchard (Athletics, 1900).</li>
+        <li>1st Indian to win Khel Ratna: Vishwanathan Anand (1991-92).</li>
+        <li>1st Indian woman Olympic medal: Karnam Malleswari (Bronze, Weightlifting, Sydney 2000).</li>
+        <li>1st Indian Test cricket captain: CK Nayudu (1932).</li>
+        <li>1st cricketer to score 100 international centuries: Sachin Tendulkar.</li>
+        <li>1st Indian woman boxer Olympic medal: Mary Kom (Bronze 2012).</li>
+        <li>1st Indian woman to win Wimbledon (junior): Sania Mirza.</li>
+        <li>1st Indian Olympic gold in Athletics: Neeraj Chopra (Javelin, Tokyo 2020).</li>
+      </ul>
+
+      <h3>5. Space & Science Firsts</h3>
+      <ul>
+        <li>1st Indian astronaut: Rakesh Sharma (1984, Soyuz).</li>
+        <li>1st Indian woman astronaut: Kalpana Chawla (1997, NASA; Indian-origin American).</li>
+        <li>1st Indian-origin in space (Indian citizen): Rakesh Sharma.</li>
+        <li>1st satellite: Aryabhata (1975).</li>
+        <li>1st Indian-built satellite: Aryabhata.</li>
+        <li>1st Indian satellite launched from India: Rohini (1980, by SLV-3).</li>
+        <li>Chandrayaan-1: First Indian moon mission (2008).</li>
+        <li>Mangalyaan: First India Mars mission (2013).</li>
+        <li>Chandrayaan-3: Soft landing on Moon's south pole (2023).</li>
+        <li>1st Indian Nobel laureate: Rabindranath Tagore (Literature 1913).</li>
+        <li>1st Indian Nobel in Physics: C.V. Raman (1930).</li>
+        <li>1st Indian Nobel in Peace: Mother Teresa (1979).</li>
+        <li>1st Indian Nobel in Economics: Amartya Sen (1998).</li>
+        <li>1st Indian Nobel in Medicine: Har Gobind Khorana (1968).</li>
+      </ul>
+
+      <h3>6. Travel / Adventure Firsts</h3>
+      <ul>
+        <li>1st Indian on Everest: Tenzing Norgay (1953).</li>
+        <li>1st Indian woman on Everest: Bachendri Pal (1984).</li>
+        <li>1st Indian to swim across English Channel: Mihir Sen.</li>
+        <li>1st Indian to circumnavigate world solo by sailboat: Dilip Donde (2010).</li>
+        <li>1st Indian woman to circumnavigate solo: Aarohi Pandit (aviation, 2019).</li>
+      </ul>
+
+      <h3>7. Banking & Finance Firsts</h3>
+      <ul>
+        <li>1st Bank of India: Bank of Hindustan (1770).</li>
+        <li>Oldest existing bank: SBI (1806 as Bank of Calcutta).</li>
+        <li>1st Indian Bank with only Indian capital: Punjab National Bank (1894).</li>
+        <li>1st RBI Governor: Sir Osborne Smith.</li>
+        <li>1st Indian RBI Governor: C.D. Deshmukh.</li>
+        <li>1st SEBI chairman: Dr S.A. Dave.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>1st President: Dr. Rajendra Prasad.</li>
+        <li>1st PM: Nehru.</li>
+        <li>1st woman PM: Indira Gandhi.</li>
+        <li>1st woman President: Pratibha Patil (2007).</li>
+        <li>1st tribal President: Droupadi Murmu (2022).</li>
+        <li>1st CJI: H.J. Kania.</li>
+        <li>1st Indian Nobel: Tagore 1913.</li>
+        <li>1st Indian astronaut: Rakesh Sharma 1984.</li>
+        <li>1st Individual Olympic Gold: Abhinav Bindra 2008.</li>
+        <li>1st Field Marshal: Sam Manekshaw.</li>
+        <li>1st Indian PNB.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "1st President of India:", opts: ["Nehru", "Rajendra Prasad", "Radhakrishnan", "Patel"], a: 1, ex: "Dr. Rajendra Prasad." },
+      { q: "1st PM:", opts: ["Patel", "Nehru", "Shastri", "Indira"], a: 1, ex: "Nehru." },
+      { q: "1st Woman PM:", opts: ["Indira Gandhi", "Sonia Gandhi", "Sushma Swaraj", "Pratibha"], a: 0, ex: "Indira Gandhi." },
+      { q: "1st Woman President:", opts: ["Indira", "Pratibha Patil", "Sonia", "Droupadi Murmu"], a: 1, ex: "2007." },
+      { q: "1st Tribal President:", opts: ["Kovind", "Murmu", "Kalam", "Narayanan"], a: 1, ex: "Droupadi Murmu 2022." },
+      { q: "1st Indian Nobel:", opts: ["C.V. Raman", "Tagore", "Mother Teresa", "Sen"], a: 1, ex: "Literature 1913." },
+      { q: "1st Indian Nobel in Physics:", opts: ["Raman", "Bose", "Khorana", "Sen"], a: 0, ex: "C.V. Raman 1930." },
+      { q: "1st Indian astronaut:", opts: ["Rakesh Sharma", "Kalpana Chawla", "Sunita Williams", "Sirisha Bandla"], a: 0, ex: "1984." },
+      { q: "1st individual Olympic gold:", opts: ["Bindra", "Anand", "Bolt", "Phelps"], a: 0, ex: "Abhinav Bindra 2008." },
+      { q: "1st Field Marshal:", opts: ["Manekshaw", "Cariappa", "Thimayya", "Rawat"], a: 0, ex: "Sam Manekshaw." },
+      { q: "1st CDS:", opts: ["Manekshaw", "Rawat", "Naravane", "Anil Chauhan"], a: 1, ex: "Bipin Rawat 2019." },
+      { q: "1st Indian woman IPS:", opts: ["Kiran Bedi", "Anna Rajam", "Roshni Nadar", "Indira"], a: 0, ex: "Kiran Bedi." },
+      { q: "1st CJI:", opts: ["H.J. Kania", "Patanjali Shastri", "B.K. Mukherjee", "M. Sastri"], a: 0, ex: "Harilal Kania." },
+      { q: "1st Indian Olympic medal in Hockey gold:", opts: ["1928", "1932", "1936", "1948"], a: 0, ex: "Amsterdam 1928." },
+      { q: "1st Indian satellite:", opts: ["INSAT", "Aryabhata", "Rohini", "GSAT"], a: 1, ex: "1975." },
+      { q: "1st woman Speaker of Lok Sabha:", opts: ["Sumitra Mahajan", "Meira Kumar", "Sushma Swaraj", "Sonia"], a: 1, ex: "Meira Kumar." },
+      { q: "1st Olympic gold in athletics:", opts: ["Milkha", "Neeraj Chopra", "PT Usha", "Anju Bobby"], a: 1, ex: "Tokyo 2020 javelin." },
+      { q: "1st Indian to climb Everest:", opts: ["Tenzing Norgay", "Bachendri", "Junko", "Hillary"], a: 0, ex: "1953." },
+      { q: "1st Sikh PM:", opts: ["Patel", "Manmohan Singh", "Singh", "Kalam"], a: 1, ex: "Manmohan Singh." },
+      { q: "1st Indian RBI Governor:", opts: ["Smith", "C.D. Deshmukh", "Reddy", "Subbarao"], a: 1, ex: "Deshmukh." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 14. SUPERLATIVES IN INDIA
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-superlatives-india"] = {
+    body: `
+      <h2>Superlatives in India (Largest, Highest, Longest)</h2>
+
+      <h3>1. Geography</h3>
+      <ul>
+        <li><b>Largest state (area)</b>: Rajasthan.</li>
+        <li><b>Smallest state (area)</b>: Goa.</li>
+        <li><b>Most populous state</b>: Uttar Pradesh.</li>
+        <li><b>Least populous state</b>: Sikkim.</li>
+        <li><b>Largest UT (area)</b>: Ladakh.</li>
+        <li><b>Smallest UT (area)</b>: Lakshadweep.</li>
+        <li><b>Most populous UT</b>: Delhi.</li>
+        <li><b>Highest peak (in India)</b>: Kanchenjunga (8,586 m); 3rd in world. (K2 is in PoK.)</li>
+        <li><b>Highest peak entirely in India</b>: Nanda Devi.</li>
+        <li><b>Longest river</b>: Ganga (2,525 km).</li>
+        <li><b>Longest river entirely in India</b>: Godavari.</li>
+        <li><b>Largest lake (natural, freshwater)</b>: Wular Lake (J&K).</li>
+        <li><b>Largest saltwater lake</b>: Chilika (Odisha).</li>
+        <li><b>Largest artificial lake</b>: Govind Sagar (Bhakra Dam).</li>
+        <li><b>Highest lake</b>: Tsomgo (Sikkim).</li>
+        <li><b>Largest delta</b>: Sundarbans (Ganga-Brahmaputra).</li>
+        <li><b>Largest desert</b>: Thar.</li>
+        <li><b>Wettest place</b>: Mawsynram (earlier Cherrapunji).</li>
+        <li><b>Driest place</b>: Jaisalmer.</li>
+        <li><b>Highest waterfall</b>: Kunchikal (Karnataka).</li>
+      </ul>
+
+      <h3>2. Demographic</h3>
+      <ul>
+        <li>Most densely populated state: Bihar.</li>
+        <li>Least densely populated state: Arunachal Pradesh.</li>
+        <li>Highest literacy state: Kerala.</li>
+        <li>Lowest literacy state: Bihar.</li>
+        <li>State with highest sex ratio: Kerala.</li>
+        <li>State with lowest sex ratio: Haryana.</li>
+      </ul>
+
+      <h3>3. Cities</h3>
+      <ul>
+        <li><b>Largest city (population)</b>: Mumbai.</li>
+        <li><b>Largest city (area)</b>: Delhi.</li>
+        <li><b>Most populous metropolitan</b>: Mumbai metro.</li>
+        <li><b>Highest city</b>: Leh.</li>
+        <li><b>Oldest city</b>: Varanasi (continuously inhabited).</li>
+      </ul>
+
+      <h3>4. Buildings & Structures</h3>
+      <ul>
+        <li><b>Tallest building</b>: Palais Royale, Mumbai (320 m).</li>
+        <li><b>Tallest statue</b>: Statue of Unity, Gujarat (Sardar Patel, 182 m) — tallest in world.</li>
+        <li><b>Tallest tower</b>: Pitampura TV Tower, Delhi.</li>
+        <li><b>Largest stadium</b>: Narendra Modi Stadium, Ahmedabad (1,32,000).</li>
+        <li><b>Largest dome</b>: Gol Gumbaz, Bijapur.</li>
+        <li><b>Tallest minar</b>: Qutub Minar (73 m).</li>
+        <li><b>Largest railway station</b>: Howrah / Sealdah (most platforms).</li>
+        <li><b>Longest platform</b>: Hubballi (Karnataka, ~1.5 km).</li>
+        <li><b>Highest airport</b>: Daulat Beg Oldie (army), commercial Leh.</li>
+        <li><b>Largest port</b>: Mumbai (Jawaharlal Nehru Port).</li>
+        <li><b>Busiest airport</b>: Indira Gandhi International, Delhi.</li>
+      </ul>
+
+      <h3>5. Bridges & Roads</h3>
+      <ul>
+        <li><b>Longest road bridge</b>: Atal Setu (Mumbai Trans Harbour, 2024, 21.8 km).</li>
+        <li><b>Longest rail bridge</b>: Bogibeel (Assam, 4.94 km).</li>
+        <li><b>Highest rail bridge</b>: Chenab Bridge (J&K, 359 m).</li>
+        <li><b>Longest road tunnel</b>: Atal Tunnel (Rohtang, 9 km).</li>
+        <li><b>Longest national highway</b>: NH-44 (Srinagar to Kanyakumari).</li>
+      </ul>
+
+      <h3>6. Religious Sites</h3>
+      <ul>
+        <li><b>Largest temple complex</b>: Akshardham (Delhi).</li>
+        <li><b>Largest mosque</b>: Jama Masjid, Delhi.</li>
+        <li><b>Largest church</b>: Sé Cathedral, Goa.</li>
+        <li><b>Largest cave temple</b>: Kailasa Temple, Ellora.</li>
+        <li><b>Holiest river</b>: Ganga.</li>
+        <li><b>Largest gurudwara</b>: Golden Temple, Amritsar.</li>
+      </ul>
+
+      <h3>7. Forests & Wildlife</h3>
+      <ul>
+        <li><b>Largest forest cover state</b>: Madhya Pradesh.</li>
+        <li><b>Highest forest % state</b>: Mizoram.</li>
+        <li><b>1st National Park</b>: Jim Corbett (Uttarakhand, 1936).</li>
+        <li><b>Largest National Park</b>: Hemis (Ladakh).</li>
+        <li><b>National animal</b>: Tiger.</li>
+        <li><b>National bird</b>: Peacock.</li>
+        <li><b>National flower</b>: Lotus.</li>
+        <li><b>National tree</b>: Banyan.</li>
+        <li><b>National fruit</b>: Mango.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Largest state: Rajasthan; Smallest: Goa.</li>
+        <li>Most populous: UP; Least: Sikkim.</li>
+        <li>Highest literacy: Kerala; Lowest: Bihar.</li>
+        <li>Largest delta: Sundarbans.</li>
+        <li>Statue of Unity: tallest in world.</li>
+        <li>NH-44: longest highway.</li>
+        <li>Atal Setu: longest road bridge (2024).</li>
+        <li>Mawsynram: wettest place.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Largest Indian state by area:", opts: ["MP", "Rajasthan", "Maharashtra", "UP"], a: 1, ex: "Rajasthan." },
+      { q: "Smallest Indian state by area:", opts: ["Goa", "Sikkim", "Tripura", "Manipur"], a: 0, ex: "Goa." },
+      { q: "Most populous state:", opts: ["Bihar", "Maharashtra", "UP", "WB"], a: 2, ex: "Uttar Pradesh." },
+      { q: "Least populous state:", opts: ["Tripura", "Sikkim", "Mizoram", "Goa"], a: 1, ex: "Sikkim." },
+      { q: "Largest UT:", opts: ["Delhi", "Ladakh", "Andaman", "J&K"], a: 1, ex: "Ladakh." },
+      { q: "Highest peak in India:", opts: ["K2", "Kanchenjunga", "Nanda Devi", "Everest"], a: 1, ex: "K2 is in PoK." },
+      { q: "Longest river:", opts: ["Ganga", "Godavari", "Brahmaputra", "Krishna"], a: 0, ex: "2525 km." },
+      { q: "Largest delta:", opts: ["Krishna", "Godavari", "Sundarbans (Ganga-Brahmaputra)", "Cauvery"], a: 2, ex: "Sundarbans." },
+      { q: "Highest literacy state:", opts: ["TN", "Kerala", "Goa", "Mizoram"], a: 1, ex: "Kerala >95%." },
+      { q: "Wettest place:", opts: ["Cherrapunji", "Mawsynram", "Shillong", "Darjeeling"], a: 1, ex: "Meghalaya." },
+      { q: "Largest desert:", opts: ["Thar", "Gobi", "Kachchh", "Rann"], a: 0, ex: "Thar." },
+      { q: "1st National Park:", opts: ["Kanha", "Jim Corbett", "Bandhavgarh", "Gir"], a: 1, ex: "1936." },
+      { q: "Statue of Unity height:", opts: ["100 m", "182 m", "250 m", "200 m"], a: 1, ex: "Tallest statue in world." },
+      { q: "Tallest statue is of:", opts: ["Gandhi", "Sardar Patel", "Nehru", "Shivaji"], a: 1, ex: "Statue of Unity, Gujarat." },
+      { q: "National bird:", opts: ["Eagle", "Peacock", "Crow", "Parrot"], a: 1, ex: "Peacock." },
+      { q: "National tree:", opts: ["Banyan", "Neem", "Peepal", "Mango"], a: 0, ex: "Banyan." },
+      { q: "Largest natural lake:", opts: ["Wular", "Dal", "Chilika", "Loktak"], a: 0, ex: "Wular J&K (freshwater); Chilika is largest saltwater coastal." },
+      { q: "Longest road bridge:", opts: ["Atal Setu", "Bogibeel", "Mahatma Gandhi Setu", "Bandra-Worli"], a: 0, ex: "21.8 km Mumbai." },
+      { q: "Highest rail bridge:", opts: ["Chenab", "Bogibeel", "Pamban", "Atal"], a: 0, ex: "359 m above river." },
+      { q: "NH-44 runs from:", opts: ["Srinagar to Kanyakumari", "Mumbai to Chennai", "Delhi to Kolkata", "Delhi to Mumbai"], a: 0, ex: "Longest highway." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 15. UNESCO WORLD HERITAGE SITES IN INDIA
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-unesco-india"] = {
+    body: `
+      <h2>UNESCO World Heritage Sites in India</h2>
+      <p>India has 42 UNESCO World Heritage Sites (as of 2023): 34 cultural, 7 natural, 1 mixed.</p>
+
+      <h3>1. Cultural Sites (34) — Major Ones</h3>
+      <table>
+        <tr><th>Site</th><th>State</th><th>Year</th></tr>
+        <tr><td>Agra Fort</td><td>Uttar Pradesh</td><td>1983</td></tr>
+        <tr><td>Ajanta Caves</td><td>Maharashtra</td><td>1983</td></tr>
+        <tr><td>Ellora Caves</td><td>Maharashtra</td><td>1983</td></tr>
+        <tr><td>Taj Mahal</td><td>Uttar Pradesh</td><td>1983</td></tr>
+        <tr><td>Sun Temple Konark</td><td>Odisha</td><td>1984</td></tr>
+        <tr><td>Mahabalipuram Group of Monuments</td><td>Tamil Nadu</td><td>1984</td></tr>
+        <tr><td>Churches and Convents of Goa</td><td>Goa</td><td>1986</td></tr>
+        <tr><td>Khajuraho Group of Monuments</td><td>Madhya Pradesh</td><td>1986</td></tr>
+        <tr><td>Group of Monuments at Hampi</td><td>Karnataka</td><td>1986</td></tr>
+        <tr><td>Fatehpur Sikri</td><td>Uttar Pradesh</td><td>1986</td></tr>
+        <tr><td>Group of Monuments at Pattadakal</td><td>Karnataka</td><td>1987</td></tr>
+        <tr><td>Elephanta Caves</td><td>Maharashtra</td><td>1987</td></tr>
+        <tr><td>Great Living Chola Temples</td><td>Tamil Nadu</td><td>1987</td></tr>
+        <tr><td>Buddhist Monuments at Sanchi</td><td>Madhya Pradesh</td><td>1989</td></tr>
+        <tr><td>Humayun's Tomb</td><td>Delhi</td><td>1993</td></tr>
+        <tr><td>Qutub Minar and its Monuments</td><td>Delhi</td><td>1993</td></tr>
+        <tr><td>Mountain Railways of India</td><td>Multiple (Darjeeling, Nilgiri, Kalka-Shimla)</td><td>1999, 2005, 2008</td></tr>
+        <tr><td>Mahabodhi Temple Complex, Bodh Gaya</td><td>Bihar</td><td>2002</td></tr>
+        <tr><td>Rock Shelters of Bhimbetka</td><td>Madhya Pradesh</td><td>2003</td></tr>
+        <tr><td>Champaner-Pavagadh Archaeological Park</td><td>Gujarat</td><td>2004</td></tr>
+        <tr><td>Chhatrapati Shivaji Terminus (CST)</td><td>Maharashtra (Mumbai)</td><td>2004</td></tr>
+        <tr><td>Red Fort Complex</td><td>Delhi</td><td>2007</td></tr>
+        <tr><td>Jantar Mantar, Jaipur</td><td>Rajasthan</td><td>2010</td></tr>
+        <tr><td>Hill Forts of Rajasthan</td><td>Rajasthan</td><td>2013</td></tr>
+        <tr><td>Rani-ki-Vav (The Queen's Stepwell)</td><td>Gujarat (Patan)</td><td>2014</td></tr>
+        <tr><td>Archaeological Site of Nalanda Mahavihara</td><td>Bihar</td><td>2016</td></tr>
+        <tr><td>The Architectural Work of Le Corbusier</td><td>Chandigarh (Capitol Complex)</td><td>2016</td></tr>
+        <tr><td>Historic City of Ahmedabad</td><td>Gujarat</td><td>2017</td></tr>
+        <tr><td>Victorian Gothic and Art Deco Ensembles of Mumbai</td><td>Maharashtra</td><td>2018</td></tr>
+        <tr><td>Jaipur City</td><td>Rajasthan</td><td>2019</td></tr>
+        <tr><td>Kakatiya Rudreshwara (Ramappa) Temple</td><td>Telangana</td><td>2021</td></tr>
+        <tr><td>Dholavira (Harappan City)</td><td>Gujarat</td><td>2021</td></tr>
+        <tr><td>Hoysala Temples</td><td>Karnataka</td><td>2023</td></tr>
+        <tr><td>Shantiniketan</td><td>West Bengal</td><td>2023</td></tr>
+      </table>
+
+      <h3>2. Natural Sites (7)</h3>
+      <table>
+        <tr><th>Site</th><th>State</th><th>Year</th></tr>
+        <tr><td>Kaziranga National Park</td><td>Assam</td><td>1985 (one-horned rhino)</td></tr>
+        <tr><td>Keoladeo National Park</td><td>Rajasthan</td><td>1985 (bird sanctuary)</td></tr>
+        <tr><td>Manas Wildlife Sanctuary</td><td>Assam</td><td>1985</td></tr>
+        <tr><td>Sundarbans National Park</td><td>West Bengal</td><td>1987 (tigers, mangroves)</td></tr>
+        <tr><td>Nanda Devi and Valley of Flowers</td><td>Uttarakhand</td><td>1988, 2005</td></tr>
+        <tr><td>Western Ghats</td><td>Multiple</td><td>2012</td></tr>
+        <tr><td>Great Himalayan National Park</td><td>Himachal Pradesh</td><td>2014</td></tr>
+      </table>
+
+      <h3>3. Mixed Site (1)</h3>
+      <table>
+        <tr><th>Site</th><th>State</th><th>Year</th></tr>
+        <tr><td>Khangchendzonga National Park</td><td>Sikkim</td><td>2016 (both natural and cultural)</td></tr>
+      </table>
+
+      <h3>4. Key Highlights</h3>
+      <ul>
+        <li>India: <b>6th most</b> UNESCO sites globally.</li>
+        <li>Italy and China have most (~58 each).</li>
+        <li>Most sites in: Maharashtra (4-5), Karnataka (4), Tamil Nadu (3), Rajasthan, MP.</li>
+        <li>Most recent (2023): Hoysala Temples, Shantiniketan.</li>
+        <li>First Indian site (1983): Taj Mahal, Agra Fort, Ajanta, Ellora.</li>
+      </ul>
+
+      <h3>5. Famous UNESCO Cultural Sites Worldwide</h3>
+      <ul>
+        <li>Pyramids of Giza (Egypt).</li>
+        <li>Great Wall of China.</li>
+        <li>Machu Picchu (Peru).</li>
+        <li>Petra (Jordan).</li>
+        <li>Stonehenge (UK).</li>
+        <li>Acropolis (Greece).</li>
+        <li>Angkor (Cambodia).</li>
+        <li>Versailles (France).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>India has 42 UNESCO sites (34 cultural, 7 natural, 1 mixed).</li>
+        <li>1st Indian sites (1983): Taj Mahal, Agra Fort, Ajanta, Ellora.</li>
+        <li>Mahabodhi: Bodh Gaya, Bihar.</li>
+        <li>Sun Temple: Konark, Odisha.</li>
+        <li>Nalanda: 2016.</li>
+        <li>Jaipur: 2019.</li>
+        <li>Dholavira (Harappan): 2021.</li>
+        <li>Western Ghats: natural site.</li>
+        <li>Sundarbans: mangrove forest, tigers.</li>
+        <li>Khangchendzonga: only mixed site in India.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Total UNESCO sites in India (2023):", opts: ["35", "40", "42", "50"], a: 2, ex: "42 sites." },
+      { q: "First Indian site (1983):", opts: ["Taj Mahal", "Red Fort", "Hampi", "Khajuraho"], a: 0, ex: "Among first 4." },
+      { q: "Sun Temple Konark in:", opts: ["WB", "Odisha", "Bihar", "AP"], a: 1, ex: "Odisha." },
+      { q: "Khajuraho is in:", opts: ["UP", "MP", "Rajasthan", "Gujarat"], a: 1, ex: "Madhya Pradesh." },
+      { q: "Hampi is in:", opts: ["Karnataka", "AP", "TN", "Telangana"], a: 0, ex: "Karnataka (Vijayanagar)." },
+      { q: "Ajanta and Ellora in:", opts: ["MP", "Maharashtra", "Telangana", "Karnataka"], a: 1, ex: "Aurangabad." },
+      { q: "Mahabodhi Temple in:", opts: ["UP", "Bihar (Bodh Gaya)", "MP", "Odisha"], a: 1, ex: "Buddha enlightenment." },
+      { q: "Mountain Railways UNESCO heritage:", opts: ["Darjeeling", "Nilgiri", "Kalka-Shimla", "All correct"], a: 3, ex: "All three." },
+      { q: "Kaziranga famous for:", opts: ["Tiger", "Rhino", "Elephant", "Bird"], a: 1, ex: "One-horned rhino." },
+      { q: "Keoladeo National Park is:", opts: ["Tiger reserve", "Bird sanctuary", "Marine", "Mountain"], a: 1, ex: "Rajasthan, birds." },
+      { q: "Sundarbans famous for:", opts: ["Lions", "Tigers (Royal Bengal)", "Deer", "Elephants"], a: 1, ex: "Mangrove + tigers." },
+      { q: "Nalanda site UNESCO heritage in:", opts: ["UP", "Bihar", "WB", "MP"], a: 1, ex: "2016." },
+      { q: "Dholavira in:", opts: ["Gujarat", "MP", "Rajasthan", "UP"], a: 0, ex: "Harappan city 2021." },
+      { q: "Jaipur city UNESCO heritage in:", opts: ["2015", "2017", "2019", "2021"], a: 2, ex: "2019." },
+      { q: "Hoysala temples in:", opts: ["TN", "Kerala", "Karnataka", "AP"], a: 2, ex: "2023." },
+      { q: "Mixed natural+cultural site:", opts: ["Sundarbans", "Khangchendzonga", "Western Ghats", "Kaziranga"], a: 1, ex: "Sikkim 2016." },
+      { q: "Indian rank in UNESCO sites:", opts: ["3rd", "5th", "6th", "10th"], a: 2, ex: "6th globally." },
+      { q: "Champaner-Pavagadh in:", opts: ["Gujarat", "MP", "Maharashtra", "Rajasthan"], a: 0, ex: "Gujarat." },
+      { q: "Le Corbusier work UNESCO heritage:", opts: ["Delhi", "Chandigarh", "Mumbai", "Bangalore"], a: 1, ex: "Capitol Complex." },
+      { q: "Shantiniketan UNESCO heritage year:", opts: ["2019", "2021", "2023", "2024"], a: 2, ex: "2023." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 16. INDIAN RESEARCH CENTRES & INSTITUTES
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-research-centres"] = {
+    body: `
+      <h2>Indian Research Centres & Institutes</h2>
+
+      <h3>1. Space & Atomic</h3>
+      <ul>
+        <li><b>ISRO HQ</b>: Bengaluru.</li>
+        <li><b>VSSC</b> (Vikram Sarabhai Space Centre): Thiruvananthapuram.</li>
+        <li><b>SDSC SHAR</b> (Satish Dhawan Space Centre): Sriharikota, AP (launch site).</li>
+        <li><b>URSC</b> (UR Rao Satellite Centre): Bengaluru.</li>
+        <li><b>LPSC</b> (Liquid Propulsion): Thiruvananthapuram + Bengaluru.</li>
+        <li><b>SAC</b> (Space Applications): Ahmedabad.</li>
+        <li><b>MCF</b> (Master Control Facility): Hassan, Karnataka.</li>
+        <li><b>BARC</b> (Bhabha Atomic Research Centre): Trombay, Mumbai.</li>
+        <li><b>AERB</b> (Atomic Energy Regulatory Board): Mumbai.</li>
+        <li><b>IGCAR</b> (Indira Gandhi Centre for Atomic Research): Kalpakkam.</li>
+        <li><b>RRCAT</b> (Raja Ramanna Centre for Advanced Tech): Indore.</li>
+        <li><b>VECC</b> (Variable Energy Cyclotron Centre): Kolkata.</li>
+      </ul>
+
+      <h3>2. Defence Research</h3>
+      <ul>
+        <li><b>DRDO HQ</b>: Delhi.</li>
+        <li><b>DRDL</b> (Defence Research Lab): Hyderabad.</li>
+        <li><b>RCI</b> (Research Centre Imarat): Hyderabad.</li>
+        <li><b>ADE</b> (Aeronautical Development Estab.): Bengaluru.</li>
+        <li><b>HAL</b> (Hindustan Aeronautics Ltd.): Bengaluru.</li>
+        <li><b>BEL</b> (Bharat Electronics Ltd.): Bengaluru.</li>
+        <li><b>OFB</b> (Ordnance Factory Board): Kolkata.</li>
+      </ul>
+
+      <h3>3. CSIR Laboratories (Council of Scientific & Industrial Research)</h3>
+      <ul>
+        <li><b>CSIR HQ</b>: Delhi.</li>
+        <li><b>NPL</b> (National Physical Laboratory): Delhi.</li>
+        <li><b>CDRI</b> (Central Drug Research Institute): Lucknow.</li>
+        <li><b>NCL</b> (National Chemical Laboratory): Pune.</li>
+        <li><b>NEERI</b> (Environmental Engineering): Nagpur.</li>
+        <li><b>IICT</b> (Indian Institute of Chemical Tech): Hyderabad.</li>
+        <li><b>CEERI</b> (Electronics): Pilani.</li>
+        <li><b>NIO</b> (National Institute of Oceanography): Goa.</li>
+        <li><b>IIIM</b> (Integrative Medicine): Jammu.</li>
+        <li><b>CFTRI</b> (Central Food Tech Research Institute): Mysore.</li>
+        <li><b>CMERI</b> (Mechanical): Durgapur.</li>
+        <li><b>NAL</b> (National Aerospace Lab): Bengaluru.</li>
+        <li><b>CGCRI</b> (Glass and Ceramic): Kolkata.</li>
+        <li><b>IGIB</b> (Integrative Biology): Delhi.</li>
+        <li><b>CCMB</b> (Cellular and Molecular Biology): Hyderabad.</li>
+      </ul>
+
+      <h3>4. ICAR (Agriculture)</h3>
+      <ul>
+        <li><b>IARI</b> (Indian Agricultural Research Institute): Pusa, Delhi.</li>
+        <li><b>NDRI</b> (National Dairy Research Institute): Karnal.</li>
+        <li><b>IIHR</b> (Horticultural Research): Bengaluru.</li>
+        <li><b>CIFRI</b> (Inland Fisheries): Barrackpore.</li>
+        <li><b>CMFRI</b> (Marine Fisheries): Kochi.</li>
+        <li><b>CRRI</b> (Rice): Cuttack.</li>
+        <li><b>CICR</b> (Cotton): Nagpur.</li>
+        <li><b>CRIDA</b> (Dryland Agriculture): Hyderabad.</li>
+      </ul>
+
+      <h3>5. ICMR (Medical)</h3>
+      <ul>
+        <li><b>NIV</b> (National Institute of Virology): Pune.</li>
+        <li><b>NIMHANS</b> (Mental Health): Bengaluru.</li>
+        <li><b>AIIMS</b> (All India Institute of Medical Sciences): Delhi (and others).</li>
+        <li><b>JIPMER</b>: Puducherry.</li>
+        <li><b>PGIMER</b>: Chandigarh.</li>
+        <li><b>NIPER</b> (Pharmaceutical Education): Mohali.</li>
+      </ul>
+
+      <h3>6. Education / Premier Institutes</h3>
+      <ul>
+        <li><b>IISc</b> (Indian Institute of Science): Bengaluru — top research institute.</li>
+        <li><b>TIFR</b> (Tata Institute of Fundamental Research): Mumbai.</li>
+        <li><b>IISERs</b>: Pune, Mohali, Kolkata, Bhopal, etc.</li>
+        <li><b>IITs</b>: 23 across India (Madras, Bombay, Delhi, Kanpur, Kharagpur top old ones).</li>
+        <li><b>NITs</b>: 31 across India.</li>
+        <li><b>IIMs</b>: 20+ business schools.</li>
+        <li><b>IISc Bengaluru</b>: India's top science institute.</li>
+        <li><b>JNCASR</b>: Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru.</li>
+        <li><b>RRI</b> (Raman Research Institute): Bengaluru.</li>
+        <li><b>IUCAA</b> (Inter-University Centre for Astronomy and Astrophysics): Pune.</li>
+        <li><b>NCRA</b> (Centre for Radio Astrophysics): Pune (GMRT operator).</li>
+      </ul>
+
+      <h3>7. Statistical / Economic</h3>
+      <ul>
+        <li><b>ISI</b> (Indian Statistical Institute): Kolkata.</li>
+        <li><b>NCAER</b> (Applied Economic Research): Delhi.</li>
+        <li><b>NIPFP</b> (Public Finance and Policy): Delhi.</li>
+      </ul>
+
+      <h3>8. National Bureaux</h3>
+      <ul>
+        <li><b>NBPGR</b> (Plant Genetic Resources): Delhi.</li>
+        <li><b>NBAGR</b> (Animal Genetic): Karnal.</li>
+        <li><b>NBSS&LUP</b> (Soil Survey): Nagpur.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>ISRO HQ: Bengaluru.</li>
+        <li>Sriharikota: launch site.</li>
+        <li>BARC: Trombay, Mumbai.</li>
+        <li>NPL: Delhi.</li>
+        <li>NIV: Pune (COVID studies).</li>
+        <li>IARI: Pusa, Delhi.</li>
+        <li>NDRI: Karnal.</li>
+        <li>CFTRI: Mysore.</li>
+        <li>IISc: Bengaluru.</li>
+        <li>TIFR: Mumbai.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "ISRO HQ:", opts: ["Mumbai", "Bengaluru", "Delhi", "Chennai"], a: 1, ex: "Bengaluru." },
+      { q: "Satish Dhawan Space Centre is in:", opts: ["Bengaluru", "Sriharikota", "Trombay", "Chennai"], a: 1, ex: "AP launch site." },
+      { q: "BARC HQ:", opts: ["Mumbai (Trombay)", "Delhi", "Hyderabad", "Bengaluru"], a: 0, ex: "Trombay." },
+      { q: "VSSC is in:", opts: ["Bengaluru", "Thiruvananthapuram", "Hyderabad", "Mumbai"], a: 1, ex: "Kerala." },
+      { q: "IARI is in:", opts: ["Pune", "Delhi (Pusa)", "Bengaluru", "Mumbai"], a: 1, ex: "Delhi." },
+      { q: "NDRI is in:", opts: ["Karnal", "Bengaluru", "Pune", "Anand"], a: 0, ex: "Haryana." },
+      { q: "NIV (virology) in:", opts: ["Delhi", "Pune", "Bengaluru", "Hyderabad"], a: 1, ex: "Pune, ICMR." },
+      { q: "DRDO HQ:", opts: ["Mumbai", "Delhi", "Bengaluru", "Hyderabad"], a: 1, ex: "Delhi." },
+      { q: "TIFR is in:", opts: ["Mumbai", "Pune", "Delhi", "Bengaluru"], a: 0, ex: "Mumbai." },
+      { q: "IISc is in:", opts: ["Mumbai", "Bengaluru", "Delhi", "Hyderabad"], a: 1, ex: "Top science institute." },
+      { q: "CFTRI is in:", opts: ["Mumbai", "Mysore", "Pune", "Hyderabad"], a: 1, ex: "Food tech research." },
+      { q: "NIMHANS is in:", opts: ["Delhi", "Bengaluru", "Mumbai", "Chennai"], a: 1, ex: "Mental health." },
+      { q: "IUCAA is in:", opts: ["Pune", "Mumbai", "Delhi", "Bengaluru"], a: 0, ex: "Astronomy and Astrophysics." },
+      { q: "ISI is in:", opts: ["Delhi", "Kolkata", "Mumbai", "Hyderabad"], a: 1, ex: "Indian Statistical Institute." },
+      { q: "Master Control Facility (ISRO):", opts: ["Hassan", "Sriharikota", "Trivandrum", "Bengaluru"], a: 0, ex: "Karnataka." },
+      { q: "IGCAR is in:", opts: ["Trombay", "Kalpakkam", "Hyderabad", "Mumbai"], a: 1, ex: "Tamil Nadu." },
+      { q: "NEERI is in:", opts: ["Nagpur", "Pune", "Mumbai", "Delhi"], a: 0, ex: "Environmental research." },
+      { q: "CMFRI is in:", opts: ["Mumbai", "Cochin", "Chennai", "Goa"], a: 1, ex: "Marine fisheries." },
+      { q: "JIPMER is in:", opts: ["Puducherry", "Delhi", "Mumbai", "Chennai"], a: 0, ex: "Medical." },
+      { q: "NCL is in:", opts: ["Pune", "Mumbai", "Delhi", "Hyderabad"], a: 0, ex: "National Chemical Lab." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 17. PRINCIPAL LANGUAGES OF INDIA
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-languages"] = {
+    body: `
+      <h2>Principal Languages of India</h2>
+
+      <h3>1. The 22 Scheduled Languages (8th Schedule of Constitution)</h3>
+      <ol>
+        <li>Assamese</li>
+        <li>Bengali</li>
+        <li>Bodo</li>
+        <li>Dogri</li>
+        <li>Gujarati</li>
+        <li>Hindi</li>
+        <li>Kannada</li>
+        <li>Kashmiri</li>
+        <li>Konkani</li>
+        <li>Maithili</li>
+        <li>Malayalam</li>
+        <li>Manipuri (Meitei)</li>
+        <li>Marathi</li>
+        <li>Nepali</li>
+        <li>Odia</li>
+        <li>Punjabi</li>
+        <li>Sanskrit</li>
+        <li>Santali</li>
+        <li>Sindhi</li>
+        <li>Tamil</li>
+        <li>Telugu</li>
+        <li>Urdu</li>
+      </ol>
+
+      <h3>2. Classical Languages (currently 6)</h3>
+      <ul>
+        <li>Tamil (declared 2004).</li>
+        <li>Sanskrit (2005).</li>
+        <li>Telugu (2008).</li>
+        <li>Kannada (2008).</li>
+        <li>Malayalam (2013).</li>
+        <li>Odia (2014).</li>
+      </ul>
+      <p>Criteria: high antiquity (1,500-2,000 years), original literary tradition, independent linguistic body.</p>
+
+      <h3>3. Most Spoken Languages</h3>
+      <table>
+        <tr><th>Rank</th><th>Language</th><th>Speakers (approx)</th></tr>
+        <tr><td>1</td><td>Hindi</td><td>~528 million</td></tr>
+        <tr><td>2</td><td>Bengali</td><td>~97 million</td></tr>
+        <tr><td>3</td><td>Marathi</td><td>~83 million</td></tr>
+        <tr><td>4</td><td>Telugu</td><td>~81 million</td></tr>
+        <tr><td>5</td><td>Tamil</td><td>~69 million</td></tr>
+        <tr><td>6</td><td>Gujarati</td><td>~55 million</td></tr>
+        <tr><td>7</td><td>Urdu</td><td>~51 million</td></tr>
+        <tr><td>8</td><td>Kannada</td><td>~44 million</td></tr>
+        <tr><td>9</td><td>Odia</td><td>~38 million</td></tr>
+        <tr><td>10</td><td>Malayalam</td><td>~35 million</td></tr>
+      </table>
+
+      <h3>4. Official Languages</h3>
+      <ul>
+        <li>Official languages of Union of India: <b>Hindi (Devanagari script)</b> and <b>English</b>.</li>
+        <li>Each state has its own official language(s).</li>
+      </ul>
+
+      <h3>5. State Official Languages (Major)</h3>
+      <table>
+        <tr><th>State</th><th>Official Language</th></tr>
+        <tr><td>UP, Bihar, MP, Rajasthan, Haryana, Uttarakhand, HP, Jharkhand, Chhattisgarh, Delhi</td><td>Hindi</td></tr>
+        <tr><td>West Bengal</td><td>Bengali</td></tr>
+        <tr><td>Maharashtra</td><td>Marathi</td></tr>
+        <tr><td>Andhra Pradesh, Telangana</td><td>Telugu</td></tr>
+        <tr><td>Tamil Nadu, Puducherry</td><td>Tamil</td></tr>
+        <tr><td>Karnataka</td><td>Kannada</td></tr>
+        <tr><td>Kerala</td><td>Malayalam</td></tr>
+        <tr><td>Odisha</td><td>Odia</td></tr>
+        <tr><td>Gujarat</td><td>Gujarati</td></tr>
+        <tr><td>Punjab</td><td>Punjabi</td></tr>
+        <tr><td>Assam</td><td>Assamese</td></tr>
+        <tr><td>Nagaland</td><td>English</td></tr>
+        <tr><td>Sikkim</td><td>Nepali, Bhutia, Lepcha</td></tr>
+        <tr><td>Goa</td><td>Konkani</td></tr>
+        <tr><td>Manipur</td><td>Manipuri (Meitei)</td></tr>
+        <tr><td>Mizoram</td><td>Mizo (Lushai)</td></tr>
+        <tr><td>Arunachal Pradesh</td><td>English</td></tr>
+        <tr><td>Meghalaya</td><td>English, Khasi, Garo</td></tr>
+        <tr><td>Tripura</td><td>Bengali, Kokborok</td></tr>
+        <tr><td>J&K</td><td>Hindi, Urdu, Kashmiri, Dogri, English</td></tr>
+        <tr><td>Ladakh</td><td>Hindi, English</td></tr>
+      </table>
+
+      <h3>6. Language Family</h3>
+      <ul>
+        <li><b>Indo-Aryan family</b>: Hindi, Bengali, Marathi, Gujarati, Punjabi, Odia, Assamese, Urdu, Kashmiri, Sindhi, Sanskrit, Nepali, Konkani, Maithili, Dogri.</li>
+        <li><b>Dravidian family</b>: Tamil, Telugu, Kannada, Malayalam.</li>
+        <li><b>Tibeto-Burman</b>: Bodo, Manipuri.</li>
+        <li><b>Austro-Asiatic</b>: Santali, Khasi.</li>
+      </ul>
+
+      <h3>7. Scripts</h3>
+      <ul>
+        <li>Devanagari: Hindi, Marathi, Sanskrit, Nepali, Konkani.</li>
+        <li>Bengali script: Bengali, Assamese.</li>
+        <li>Gurmukhi: Punjabi.</li>
+        <li>Tamil script: Tamil.</li>
+        <li>Telugu script: Telugu.</li>
+        <li>Kannada script: Kannada.</li>
+        <li>Malayalam script: Malayalam.</li>
+        <li>Odia script: Odia.</li>
+        <li>Gujarati script: Gujarati.</li>
+        <li>Urdu script: Perso-Arabic (Nastaliq).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>22 scheduled languages.</li>
+        <li>6 classical languages (Tamil first, 2004).</li>
+        <li>Hindi: most-spoken in India and 3rd most in world.</li>
+        <li>Sanskrit: oldest classical.</li>
+        <li>Santali added in 92nd Amendment.</li>
+        <li>Sindhi: added in 21st Amendment (1967).</li>
+        <li>Konkani, Manipuri, Nepali: added in 71st Amendment (1992).</li>
+        <li>Bodo, Dogri, Maithili, Santali: 92nd (2003).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Number of scheduled languages:", opts: ["18", "20", "22", "24"], a: 2, ex: "22 in 8th Schedule." },
+      { q: "1st classical language declared:", opts: ["Sanskrit", "Tamil", "Telugu", "Kannada"], a: 1, ex: "Tamil 2004." },
+      { q: "Total classical languages:", opts: ["4", "5", "6", "7"], a: 2, ex: "6 currently." },
+      { q: "Most spoken Indian language:", opts: ["Bengali", "Hindi", "Tamil", "Marathi"], a: 1, ex: "Hindi." },
+      { q: "Official languages of Union:", opts: ["Hindi", "English", "Both A and B", "Sanskrit"], a: 2, ex: "Hindi + English." },
+      { q: "Official language of Goa:", opts: ["Konkani", "Marathi", "Portuguese", "Gujarati"], a: 0, ex: "Konkani." },
+      { q: "Official language of Sikkim:", opts: ["Hindi", "Nepali", "Bengali", "Bhutia"], a: 1, ex: "Plus Bhutia, Lepcha." },
+      { q: "Bengali script also used for:", opts: ["Assamese", "Odia", "Urdu", "Punjabi"], a: 0, ex: "Assamese." },
+      { q: "Gurmukhi script for:", opts: ["Tamil", "Punjabi", "Kashmiri", "Sindhi"], a: 1, ex: "Punjabi." },
+      { q: "Dravidian language:", opts: ["Hindi", "Bengali", "Telugu", "Marathi"], a: 2, ex: "Tamil/Telugu/Kannada/Malayalam." },
+      { q: "Sindhi added in 8th Schedule by:", opts: ["21st Amendment", "71st", "92nd", "100th"], a: 0, ex: "1967." },
+      { q: "Konkani added by:", opts: ["21st", "71st", "92nd", "44th"], a: 1, ex: "1992." },
+      { q: "Santali added by:", opts: ["21st", "71st", "92nd", "44th"], a: 2, ex: "2003." },
+      { q: "Devanagari script for:", opts: ["Hindi", "Sanskrit", "Marathi", "All correct"], a: 3, ex: "Multiple languages." },
+      { q: "Urdu script:", opts: ["Devanagari", "Perso-Arabic", "Roman", "Bengali"], a: 1, ex: "Nastaliq." },
+      { q: "Bodo language belongs to:", opts: ["Indo-Aryan", "Dravidian", "Tibeto-Burman", "Austro-Asiatic"], a: 2, ex: "Tibeto-Burman." },
+      { q: "Manipuri official language of:", opts: ["Manipur", "Mizoram", "Tripura", "Nagaland"], a: 0, ex: "Meitei." },
+      { q: "Nagaland's official language:", opts: ["Naga", "English", "Hindi", "Manipuri"], a: 1, ex: "English." },
+      { q: "Tamil declared classical in:", opts: ["2000", "2004", "2008", "2014"], a: 1, ex: "2004." },
+      { q: "Odia declared classical in:", opts: ["2008", "2013", "2014", "2016"], a: 2, ex: "2014." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 18. FAMOUS TOURIST PLACES OF INDIA
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-tourist-places"] = {
+    body: `
+      <h2>Famous Tourist Places of India</h2>
+
+      <h3>1. Heritage Sites (Monuments)</h3>
+      <ul>
+        <li><b>Taj Mahal</b>: Agra (Mughal mausoleum, UNESCO).</li>
+        <li><b>Red Fort, India Gate, Qutub Minar, Humayun's Tomb, Jama Masjid, Lotus Temple, Akshardham</b>: Delhi.</li>
+        <li><b>Fatehpur Sikri</b>: Akbar's capital.</li>
+        <li><b>Hampi</b>: Karnataka — Vijayanagar ruins.</li>
+        <li><b>Khajuraho</b>: Madhya Pradesh — temples.</li>
+        <li><b>Sun Temple Konark</b>: Odisha.</li>
+        <li><b>Ajanta and Ellora Caves</b>: Maharashtra.</li>
+        <li><b>Hawa Mahal, City Palace, Amber Fort, Jantar Mantar</b>: Jaipur.</li>
+        <li><b>Mehrangarh Fort</b>: Jodhpur.</li>
+        <li><b>Lake Palace, City Palace</b>: Udaipur.</li>
+        <li><b>Sanchi Stupa</b>: MP — Buddhist.</li>
+        <li><b>Mahabodhi Temple</b>: Bodh Gaya.</li>
+        <li><b>Nalanda</b>: Bihar.</li>
+        <li><b>Sanchi, Bhimbetka</b>: MP.</li>
+        <li><b>Charminar, Golconda Fort</b>: Hyderabad.</li>
+        <li><b>Mysore Palace</b>: Karnataka.</li>
+        <li><b>Gateway of India</b>: Mumbai.</li>
+        <li><b>Victoria Memorial</b>: Kolkata.</li>
+        <li><b>Golden Temple</b>: Amritsar.</li>
+        <li><b>Cellular Jail</b>: Port Blair (Kala Pani).</li>
+      </ul>
+
+      <h3>2. Beaches</h3>
+      <ul>
+        <li>Goa beaches: Calangute, Anjuna, Baga, Palolem.</li>
+        <li>Kerala: Kovalam, Varkala, Marari.</li>
+        <li>Tamil Nadu: Marina (longest), Mahabalipuram, Kanyakumari.</li>
+        <li>Andaman: Radhanagar (Asia's best), Havelock.</li>
+        <li>Maharashtra: Alibaug, Tarkarli.</li>
+        <li>Karnataka: Gokarna.</li>
+        <li>Odisha: Puri.</li>
+      </ul>
+
+      <h3>3. Hill Stations</h3>
+      <ul>
+        <li><b>Shimla, Manali, Dharamshala, Dalhousie</b>: HP.</li>
+        <li><b>Mussoorie, Nainital, Auli, Almora</b>: Uttarakhand.</li>
+        <li><b>Darjeeling, Kalimpong</b>: WB.</li>
+        <li><b>Gangtok</b>: Sikkim.</li>
+        <li><b>Ooty, Kodaikanal</b>: TN.</li>
+        <li><b>Munnar, Wayanad, Thekkady</b>: Kerala.</li>
+        <li><b>Coorg, Chikmagalur</b>: Karnataka.</li>
+        <li><b>Mahabaleshwar, Lonavala</b>: Maharashtra.</li>
+        <li><b>Mt. Abu</b>: Rajasthan.</li>
+        <li><b>Tawang, Bomdila</b>: Arunachal.</li>
+        <li><b>Cherrapunji, Shillong</b>: Meghalaya.</li>
+        <li><b>Pahalgam, Gulmarg, Sonamarg</b>: Kashmir.</li>
+        <li><b>Leh, Nubra Valley</b>: Ladakh.</li>
+      </ul>
+
+      <h3>4. Religious / Pilgrim Sites</h3>
+      <ul>
+        <li><b>Char Dham</b> (Hindu): Badrinath (UK), Dwarka (Guj), Puri (Odisha), Rameshwaram (TN).</li>
+        <li><b>Char Dham Uttarakhand</b>: Yamunotri, Gangotri, Kedarnath, Badrinath.</li>
+        <li><b>Kashi (Varanasi)</b>: oldest living city; Vishwanath Temple.</li>
+        <li><b>Mathura, Vrindavan</b>: Krishna birthplace.</li>
+        <li><b>Ayodhya</b>: Ram Janmabhoomi.</li>
+        <li><b>Tirupati</b>: AP, Venkateswara.</li>
+        <li><b>Vaishno Devi</b>: J&K.</li>
+        <li><b>Shirdi, Shani Shingnapur</b>: Maharashtra.</li>
+        <li><b>Haridwar, Rishikesh</b>: Ganga.</li>
+        <li><b>Amarnath, Vaishno Devi</b>: J&K.</li>
+        <li><b>Bodh Gaya, Sarnath, Kushinagar, Lumbini</b>: Buddhist sites.</li>
+        <li><b>Golden Temple</b>: Amritsar.</li>
+        <li><b>Velankanni</b>: TN (Christian).</li>
+        <li><b>Ajmer Sharif</b>: Rajasthan (Sufi shrine).</li>
+        <li><b>Sabarimala</b>: Kerala (Ayyappa).</li>
+      </ul>
+
+      <h3>5. Natural Wonders</h3>
+      <ul>
+        <li>Backwaters: Kerala (Alleppey, Kumarakom).</li>
+        <li>Valley of Flowers: UK.</li>
+        <li>Khajjiar: "mini Switzerland".</li>
+        <li>Lonar Lake: Maharashtra (meteor crater).</li>
+        <li>Living Root Bridges: Meghalaya.</li>
+        <li>Rann of Kutch: Gujarat.</li>
+        <li>Loktak Lake: Manipur.</li>
+        <li>Dudhsagar Falls: Goa.</li>
+        <li>Nohkalikai Falls: Meghalaya.</li>
+        <li>Jog Falls: Karnataka.</li>
+      </ul>
+
+      <h3>6. Wildlife Sanctuaries / National Parks</h3>
+      <ul>
+        <li>Jim Corbett (UK), Ranthambore (RJ), Kanha + Bandhavgarh (MP) — Tiger reserves.</li>
+        <li>Kaziranga (Assam) — Rhinos.</li>
+        <li>Gir (Gujarat) — Asiatic lions.</li>
+        <li>Sundarbans (WB) — Mangrove + tigers.</li>
+        <li>Periyar (Kerala) — Elephants.</li>
+        <li>Bandipur (Karnataka) — Tigers.</li>
+        <li>Manas (Assam).</li>
+        <li>Nanda Devi, Valley of Flowers (UK).</li>
+        <li>Hemis (Ladakh) — largest park.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Char Dham of India: Badrinath, Dwarka, Puri, Rameshwaram.</li>
+        <li>Kerala backwaters: Alleppey.</li>
+        <li>"Mini Switzerland": Khajjiar (HP).</li>
+        <li>Gir: only Asiatic lion habitat.</li>
+        <li>Kaziranga: one-horned rhino.</li>
+        <li>Cellular Jail: Andaman.</li>
+        <li>Charminar: Hyderabad.</li>
+        <li>Gateway of India: Mumbai.</li>
+        <li>Victoria Memorial: Kolkata.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Taj Mahal in:", opts: ["Delhi", "Agra", "Jaipur", "Lucknow"], a: 1, ex: "UP." },
+      { q: "Gateway of India in:", opts: ["Delhi", "Mumbai", "Goa", "Chennai"], a: 1, ex: "Mumbai." },
+      { q: "Charminar in:", opts: ["Hyderabad", "Mysore", "Bengaluru", "Chennai"], a: 0, ex: "Hyderabad." },
+      { q: "Hampi in:", opts: ["Karnataka", "AP", "TN", "Kerala"], a: 0, ex: "Vijayanagar." },
+      { q: "Khajjiar called:", opts: ["Mini Switzerland", "Heaven", "Paradise", "Hill Queen"], a: 0, ex: "HP." },
+      { q: "Backwaters in:", opts: ["Karnataka", "Goa", "Kerala", "TN"], a: 2, ex: "Alleppey, Kumarakom." },
+      { q: "Gir National Park famous for:", opts: ["Tiger", "Asiatic lion", "Rhino", "Elephant"], a: 1, ex: "Only Asiatic lions in world." },
+      { q: "Cellular Jail in:", opts: ["Andaman", "Lakshadweep", "Goa", "Daman"], a: 0, ex: "Port Blair." },
+      { q: "Char Dham includes:", opts: ["Badrinath", "Dwarka", "Puri, Rameshwaram", "All correct"], a: 3, ex: "4 Hindu sites." },
+      { q: "Ajmer Sharif:", opts: ["Hindu", "Muslim Sufi shrine", "Sikh", "Christian"], a: 1, ex: "Khwaja Moinuddin Chishti." },
+      { q: "Rann of Kutch in:", opts: ["Gujarat", "Rajasthan", "MP", "Maharashtra"], a: 0, ex: "Salt desert." },
+      { q: "Mahabalipuram in:", opts: ["Karnataka", "TN", "Kerala", "AP"], a: 1, ex: "Tamil Nadu, near Chennai." },
+      { q: "Sun Temple Konark in:", opts: ["WB", "Odisha", "Bihar", "Jharkhand"], a: 1, ex: "Odisha." },
+      { q: "Ranthambore famous for:", opts: ["Lion", "Tiger", "Elephant", "Rhino"], a: 1, ex: "Tiger reserve, RJ." },
+      { q: "Hawa Mahal in:", opts: ["Jaipur", "Udaipur", "Jodhpur", "Agra"], a: 0, ex: "Jaipur palace of winds." },
+      { q: "Marina Beach in:", opts: ["Mumbai", "Goa", "Chennai", "Kerala"], a: 2, ex: "Longest in India." },
+      { q: "Loktak Lake in:", opts: ["Manipur", "Assam", "Sikkim", "Meghalaya"], a: 0, ex: "Floating Phumdi." },
+      { q: "Ooty hill station in:", opts: ["Karnataka", "Kerala", "TN", "AP"], a: 2, ex: "Nilgiri." },
+      { q: "Lake Palace in:", opts: ["Jaipur", "Udaipur", "Jodhpur", "Bikaner"], a: 1, ex: "Udaipur." },
+      { q: "Living root bridges in:", opts: ["Assam", "Meghalaya", "Mizoram", "Nagaland"], a: 1, ex: "Cherrapunji area." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 19. INDIAN ART, DANCE & CULTURE
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-art-culture"] = {
+    body: `
+      <h2>Indian Art, Dance & Culture</h2>
+
+      <h3>1. Classical Dance Forms of India</h3>
+      <p>Officially 8 classical dances recognized by Sangeet Natak Akademi:</p>
+      <table>
+        <tr><th>Dance</th><th>State</th><th>Highlights</th></tr>
+        <tr><td><b>Bharatanatyam</b></td><td>Tamil Nadu</td><td>Oldest; based on Natya Shastra</td></tr>
+        <tr><td><b>Kathak</b></td><td>UP, North India</td><td>Storytelling, fast spins</td></tr>
+        <tr><td><b>Kathakali</b></td><td>Kerala</td><td>Elaborate makeup, mime, costumes</td></tr>
+        <tr><td><b>Kuchipudi</b></td><td>Andhra Pradesh</td><td>Devotional, narrative</td></tr>
+        <tr><td><b>Odissi</b></td><td>Odisha</td><td>Tribhanga (3-bend) posture</td></tr>
+        <tr><td><b>Manipuri</b></td><td>Manipur</td><td>Graceful, Vaishnavite themes</td></tr>
+        <tr><td><b>Mohiniyattam</b></td><td>Kerala</td><td>Female solo, "enchantress dance"</td></tr>
+        <tr><td><b>Sattriya</b></td><td>Assam</td><td>Vaishnavite, Sankardev's tradition</td></tr>
+      </table>
+
+      <h3>2. Folk Dances of India (by state)</h3>
+      <table>
+        <tr><th>State</th><th>Folk Dances</th></tr>
+        <tr><td>Punjab</td><td>Bhangra, Giddha</td></tr>
+        <tr><td>Haryana</td><td>Jhumar, Phag</td></tr>
+        <tr><td>Rajasthan</td><td>Ghoomar, Kalbeliya, Bhavai</td></tr>
+        <tr><td>Gujarat</td><td>Garba, Dandiya, Raas</td></tr>
+        <tr><td>Maharashtra</td><td>Lavani, Tamasha</td></tr>
+        <tr><td>Goa</td><td>Dekhni, Fugdi</td></tr>
+        <tr><td>UP</td><td>Raslila, Charkula, Nautanki</td></tr>
+        <tr><td>MP</td><td>Tertali, Maanch</td></tr>
+        <tr><td>Bihar</td><td>Jat-Jatin, Jhijhian</td></tr>
+        <tr><td>Jharkhand</td><td>Chhau, Karma</td></tr>
+        <tr><td>Bengal</td><td>Baul, Jhumar, Chhau</td></tr>
+        <tr><td>Odisha</td><td>Gotipua, Chhau</td></tr>
+        <tr><td>Assam</td><td>Bihu</td></tr>
+        <tr><td>Nagaland</td><td>Chang Lo</td></tr>
+        <tr><td>Manipur</td><td>Pung Cholom, Thang Ta</td></tr>
+        <tr><td>Karnataka</td><td>Yakshagana, Dollu Kunitha</td></tr>
+        <tr><td>Kerala</td><td>Theyyam, Padayani</td></tr>
+        <tr><td>Tamil Nadu</td><td>Kummi, Karagattam</td></tr>
+        <tr><td>Andhra/Telangana</td><td>Kolattam, Perini</td></tr>
+        <tr><td>Sikkim</td><td>Singhi Chham</td></tr>
+        <tr><td>Arunachal</td><td>Aji Lhamu, Khampti</td></tr>
+        <tr><td>Mizoram</td><td>Cheraw (Bamboo dance)</td></tr>
+        <tr><td>Meghalaya</td><td>Wangala</td></tr>
+        <tr><td>Tripura</td><td>Hojagiri</td></tr>
+        <tr><td>HP</td><td>Nati</td></tr>
+        <tr><td>J&K</td><td>Rouf, Dumhal</td></tr>
+        <tr><td>Ladakh</td><td>Cham (mask dance)</td></tr>
+      </table>
+
+      <h3>3. Classical Music</h3>
+      <ul>
+        <li><b>Hindustani classical</b> (North): Bhimsen Joshi, Bismillah Khan, Ravi Shankar, Zakir Hussain, Hariprasad Chaurasia, Pt. Jasraj, Ustad Amjad Ali Khan.</li>
+        <li><b>Carnatic classical</b> (South): M.S. Subbulakshmi, Mandolin Srinivas, Lalgudi Jayaraman, Balamurali Krishna.</li>
+        <li>Father of music: Tansen (Hindustani).</li>
+        <li>Trinity of Carnatic music: Tyagaraja, Muthuswami Dikshitar, Syama Sastri.</li>
+      </ul>
+
+      <h3>4. Instruments</h3>
+      <ul>
+        <li>Sitar: Ravi Shankar.</li>
+        <li>Sarod: Amjad Ali Khan, Ali Akbar Khan.</li>
+        <li>Shehnai: Bismillah Khan.</li>
+        <li>Tabla: Zakir Hussain, Alla Rakha.</li>
+        <li>Flute (Bansuri): Hariprasad Chaurasia.</li>
+        <li>Santoor: Shivkumar Sharma.</li>
+        <li>Mridangam: Palghat Mani Iyer.</li>
+        <li>Veena: Various Carnatic players.</li>
+        <li>Violin: L. Subramaniam, Lalgudi Jayaraman.</li>
+      </ul>
+
+      <h3>5. Paintings & Schools</h3>
+      <ul>
+        <li><b>Madhubani</b>: Bihar.</li>
+        <li><b>Warli</b>: Maharashtra (tribal).</li>
+        <li><b>Kalighat</b>: West Bengal.</li>
+        <li><b>Tanjore</b>: Tamil Nadu (gold-leaf).</li>
+        <li><b>Mysore</b>: Karnataka.</li>
+        <li><b>Pattachitra</b>: Odisha.</li>
+        <li><b>Kalamkari</b>: AP.</li>
+        <li><b>Kerala Mural</b>: Kerala.</li>
+        <li><b>Phad</b>: Rajasthan.</li>
+        <li><b>Pithora</b>: Gujarat tribal.</li>
+        <li><b>Pichwai</b>: Rajasthan (Krishna).</li>
+        <li><b>Gond</b>: MP tribal.</li>
+      </ul>
+
+      <h3>6. Festivals</h3>
+      <ul>
+        <li>Diwali, Holi, Dussehra, Navratri, Janmashtami, Raksha Bandhan.</li>
+        <li>Eid al-Fitr, Eid al-Adha, Muharram.</li>
+        <li>Christmas, Good Friday.</li>
+        <li>Guru Nanak Jayanti, Baisakhi.</li>
+        <li>Pongal (TN), Onam (Kerala), Bihu (Assam), Vishu (Kerala).</li>
+        <li>Durga Puja (WB), Ganesh Chaturthi (Maharashtra), Lohri (Punjab).</li>
+        <li>Chhath Puja (Bihar), Hornbill (Nagaland), Pushkar Fair (RJ).</li>
+        <li>Kumbh Mela: largest gathering (Haridwar, Allahabad, Nashik, Ujjain).</li>
+      </ul>
+
+      <h3>7. Major Awards</h3>
+      <ul>
+        <li>Sangeet Natak Akademi: classical music/dance/drama.</li>
+        <li>Sahitya Akademi: literature.</li>
+        <li>Jnanpith: highest literary award.</li>
+        <li>Bharat Ratna: highest civilian.</li>
+        <li>Padma Vibhushan, Padma Bhushan, Padma Shri.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>8 classical dances.</li>
+        <li>Bharatanatyam: TN (oldest).</li>
+        <li>Kathakali: Kerala (makeup-mime).</li>
+        <li>Garba: Gujarat.</li>
+        <li>Bhangra: Punjab.</li>
+        <li>Bihu: Assam.</li>
+        <li>Sattriya: Assam (newest classical).</li>
+        <li>Tansen: father of Hindustani music.</li>
+        <li>Madhubani: Bihar.</li>
+        <li>Warli: Maharashtra tribal.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Bharatanatyam from:", opts: ["TN", "Kerala", "AP", "Karnataka"], a: 0, ex: "Tamil Nadu." },
+      { q: "Kathakali from:", opts: ["TN", "Kerala", "Karnataka", "AP"], a: 1, ex: "Kerala." },
+      { q: "Kathak from:", opts: ["UP, North", "TN", "Kerala", "Karnataka"], a: 0, ex: "North India." },
+      { q: "Odissi from:", opts: ["Odisha", "WB", "Bihar", "Assam"], a: 0, ex: "Odisha." },
+      { q: "Sattriya from:", opts: ["Sikkim", "Assam", "Mizoram", "Nagaland"], a: 1, ex: "Assam." },
+      { q: "Mohiniyattam from:", opts: ["Kerala", "TN", "Karnataka", "AP"], a: 0, ex: "Kerala." },
+      { q: "Bhangra is from:", opts: ["Punjab", "Haryana", "Rajasthan", "UP"], a: 0, ex: "Punjab folk." },
+      { q: "Garba from:", opts: ["Rajasthan", "Gujarat", "Maharashtra", "Goa"], a: 1, ex: "Navratri dance." },
+      { q: "Bihu is festival/dance of:", opts: ["WB", "Assam", "Manipur", "Odisha"], a: 1, ex: "Assam." },
+      { q: "Madhubani painting from:", opts: ["Bihar", "Bengal", "Odisha", "AP"], a: 0, ex: "Mithila region." },
+      { q: "Warli painting from:", opts: ["Gujarat", "Maharashtra", "Rajasthan", "Goa"], a: 1, ex: "Tribal." },
+      { q: "Tanjore painting from:", opts: ["TN", "Karnataka", "Kerala", "AP"], a: 0, ex: "Tamil Nadu." },
+      { q: "Shehnai virtuoso:", opts: ["Ravi Shankar", "Bismillah Khan", "Amjad Ali", "Zakir Hussain"], a: 1, ex: "Bismillah Khan." },
+      { q: "Sitar maestro:", opts: ["Ravi Shankar", "Amjad Ali", "Zakir Hussain", "Hariprasad"], a: 0, ex: "Pandit Ravi Shankar." },
+      { q: "Tabla maestro:", opts: ["Ravi Shankar", "Zakir Hussain", "Hari Prasad", "Bismillah"], a: 1, ex: "Zakir Hussain." },
+      { q: "Bamboo dance (Cheraw) from:", opts: ["Manipur", "Mizoram", "Tripura", "Assam"], a: 1, ex: "Mizoram." },
+      { q: "Yakshagana from:", opts: ["Karnataka", "AP", "TN", "Kerala"], a: 0, ex: "Karnataka." },
+      { q: "Kumbh Mela held at how many places:", opts: ["2", "3", "4", "5"], a: 2, ex: "Haridwar, Allahabad, Nashik, Ujjain." },
+      { q: "Father of Hindustani music:", opts: ["Tansen", "Tyagaraja", "Tukaram", "Tulsidas"], a: 0, ex: "Tansen." },
+      { q: "Kalbeliya dance from:", opts: ["Gujarat", "Rajasthan", "Punjab", "MP"], a: 1, ex: "Rajasthan." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 20. INDIAN DEFENCE FORCES
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-defence"] = {
+    body: `
+      <h2>Indian Defence Forces</h2>
+
+      <h3>1. Three Services</h3>
+      <ul>
+        <li><b>Indian Army</b>: largest land army.</li>
+        <li><b>Indian Navy</b>: maritime defence.</li>
+        <li><b>Indian Air Force (IAF)</b>: aerial defence.</li>
+      </ul>
+
+      <h3>2. Chiefs (Current Heads)</h3>
+      <ul>
+        <li>Supreme Commander: <b>President of India</b>.</li>
+        <li><b>CDS</b> (Chief of Defence Staff): inter-services head; 1st CDS = General Bipin Rawat (2019); current = Gen. Anil Chauhan.</li>
+        <li><b>COAS</b> (Chief of Army Staff): General.</li>
+        <li><b>CNS</b> (Chief of Naval Staff): Admiral.</li>
+        <li><b>CAS</b> (Chief of Air Staff): Air Chief Marshal.</li>
+      </ul>
+
+      <h3>3. Indian Army</h3>
+      <ul>
+        <li>Founded: 1 April 1895 (as British Indian Army).</li>
+        <li>HQ: New Delhi.</li>
+        <li>Ranks: General (highest), Lt. Gen., Maj. Gen., Brigadier, Colonel, Lt. Colonel, Major, Captain, Lieutenant.</li>
+        <li>7 Commands: Northern, Western, South-Western, Southern, Central, Eastern, Training (Shimla).</li>
+        <li>Field Marshals (only 2 in history): Sam Manekshaw, K.M. Cariappa.</li>
+        <li>Highest gallantry award: Param Vir Chakra (PVC).</li>
+        <li>Day: <b>15 January</b> (Army Day).</li>
+      </ul>
+
+      <h3>4. Indian Navy</h3>
+      <ul>
+        <li>Founded: 1612 (Royal Indian Navy); rechristened 1950.</li>
+        <li>HQ: New Delhi.</li>
+        <li>Ranks: Admiral of the Fleet (only 1, Marshal-level), Admiral, Vice-Admiral, Rear Admiral, Commodore, Captain, Commander.</li>
+        <li>Major bases: Mumbai, Visakhapatnam, Karwar, Kochi, Port Blair.</li>
+        <li>Aircraft Carriers: INS Vikramaditya, INS Vikrant (indigenous).</li>
+        <li>Submarines: INS Arihant (nuclear).</li>
+        <li>Day: <b>4 December</b> (Navy Day; commemorates 1971 Karachi attack).</li>
+      </ul>
+
+      <h3>5. Indian Air Force</h3>
+      <ul>
+        <li>Founded: 8 October 1932.</li>
+        <li>HQ: New Delhi.</li>
+        <li>Ranks: Marshal of the Air Force (only 1, Arjan Singh), Air Chief Marshal, Air Marshal, Air Vice Marshal, Air Commodore, Group Captain, Wing Commander, Squadron Leader, Flight Lieutenant, Flying Officer.</li>
+        <li>Major aircraft: Rafale, Sukhoi Su-30MKI, MiG-29, Tejas (indigenous).</li>
+        <li>Day: <b>8 October</b> (Air Force Day).</li>
+      </ul>
+
+      <h3>6. Paramilitary Forces</h3>
+      <ul>
+        <li><b>CRPF</b> (Central Reserve Police Force): internal security, anti-insurgency.</li>
+        <li><b>BSF</b> (Border Security Force): borders with Pak, Bangladesh.</li>
+        <li><b>CISF</b> (Central Industrial Security): infrastructure/airports.</li>
+        <li><b>ITBP</b> (Indo-Tibetan Border Police): China border.</li>
+        <li><b>SSB</b> (Sashastra Seema Bal): Nepal, Bhutan borders.</li>
+        <li><b>NSG</b> (National Security Guard, "Black Cats"): counter-terrorism, VIP protection.</li>
+        <li><b>SPG</b> (Special Protection Group): PM and family.</li>
+        <li><b>Coast Guard</b>: maritime law enforcement.</li>
+        <li><b>Assam Rifles</b>: oldest paramilitary (1835); NE.</li>
+        <li><b>RAF</b> (Rapid Action Force): part of CRPF, riot control.</li>
+      </ul>
+
+      <h3>7. Gallantry Awards</h3>
+      <table>
+        <tr><th>Award</th><th>For</th></tr>
+        <tr><td>Param Vir Chakra (PVC)</td><td>Highest war-time gallantry</td></tr>
+        <tr><td>Maha Vir Chakra</td><td>2nd highest war</td></tr>
+        <tr><td>Vir Chakra</td><td>3rd highest war</td></tr>
+        <tr><td>Ashoka Chakra</td><td>Highest peacetime gallantry</td></tr>
+        <tr><td>Kirti Chakra</td><td>2nd peacetime</td></tr>
+        <tr><td>Shaurya Chakra</td><td>3rd peacetime</td></tr>
+      </table>
+      <p>First PVC: Major Somnath Sharma (posthumous, 1947, Kashmir).</p>
+
+      <h3>8. Wars Fought by India</h3>
+      <ul>
+        <li>1947-48: Kashmir war (Pakistan).</li>
+        <li>1962: China war (Sino-Indian).</li>
+        <li>1965: Pakistan war.</li>
+        <li>1971: Bangladesh Liberation (Pakistan); creation of Bangladesh.</li>
+        <li>1999: Kargil War (Pakistan); Operation Vijay.</li>
+      </ul>
+
+      <h3>9. Important Military Operations</h3>
+      <ul>
+        <li>Op Blue Star (1984): Golden Temple.</li>
+        <li>Op Vijay (1999): Kargil.</li>
+        <li>Op Cactus (1988): Maldives.</li>
+        <li>Op Brasstacks (1986-87): military exercise.</li>
+        <li>Op Pawan (1987): Sri Lanka IPKF.</li>
+        <li>Op All Out: Kashmir.</li>
+        <li>Surgical Strikes (2016): Uri response.</li>
+        <li>Balakot Strike (2019): Pulwama response.</li>
+      </ul>
+
+      <h3>10. Military Academies / Training</h3>
+      <ul>
+        <li><b>NDA</b> (National Defence Academy): Khadakwasla, Pune.</li>
+        <li><b>IMA</b> (Indian Military Academy): Dehradun.</li>
+        <li><b>OTA</b> (Officers Training Academy): Chennai.</li>
+        <li><b>INA</b> (Indian Naval Academy): Ezhimala, Kerala.</li>
+        <li><b>AFA</b> (Air Force Academy): Hyderabad (Dundigal).</li>
+        <li><b>DSSC</b> (Defence Services Staff College): Wellington (TN).</li>
+        <li><b>RIMC</b> (Rashtriya Indian Military College): Dehradun.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Supreme Commander: President.</li>
+        <li>1st CDS: Bipin Rawat.</li>
+        <li>1st Field Marshal: Manekshaw.</li>
+        <li>NDA: Pune; IMA: Dehradun.</li>
+        <li>Army Day: 15 Jan; Navy Day: 4 Dec; AF Day: 8 Oct.</li>
+        <li>Highest war award: PVC.</li>
+        <li>Highest peace award: Ashoka Chakra.</li>
+        <li>INS Vikrant: indigenous aircraft carrier.</li>
+        <li>Assam Rifles: oldest paramilitary.</li>
+        <li>NSG: Black Cats.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Supreme Commander of armed forces:", opts: ["PM", "President", "Defence Minister", "CDS"], a: 1, ex: "President." },
+      { q: "1st CDS:", opts: ["Manekshaw", "Bipin Rawat", "Naravane", "Chauhan"], a: 1, ex: "2019." },
+      { q: "Highest war-time gallantry:", opts: ["MVC", "Kirti Chakra", "PVC", "Vir Chakra"], a: 2, ex: "Param Vir Chakra." },
+      { q: "Highest peace-time gallantry:", opts: ["PVC", "Ashoka Chakra", "Vir Chakra", "Padma Shri"], a: 1, ex: "Ashoka Chakra." },
+      { q: "NDA is in:", opts: ["Dehradun", "Khadakwasla (Pune)", "Hyderabad", "Chennai"], a: 1, ex: "Pune." },
+      { q: "IMA in:", opts: ["Dehradun", "Pune", "Delhi", "Hyderabad"], a: 0, ex: "Dehradun." },
+      { q: "Air Force Academy at:", opts: ["Pune", "Bangalore", "Hyderabad", "Delhi"], a: 2, ex: "Dundigal, Hyderabad." },
+      { q: "Indian Naval Academy at:", opts: ["Kochi", "Ezhimala", "Vizag", "Mumbai"], a: 1, ex: "Kerala." },
+      { q: "Army Day:", opts: ["15 Jan", "4 Dec", "8 Oct", "26 Jan"], a: 0, ex: "Jan 15." },
+      { q: "Navy Day:", opts: ["15 Jan", "4 Dec", "8 Oct", "1 Apr"], a: 1, ex: "Dec 4." },
+      { q: "Air Force Day:", opts: ["15 Jan", "4 Dec", "8 Oct", "26 Jan"], a: 2, ex: "Oct 8." },
+      { q: "First Field Marshal:", opts: ["Cariappa", "Manekshaw", "Karpoori", "Rawat"], a: 1, ex: "Sam Manekshaw 1973." },
+      { q: "1st PVC awardee:", opts: ["Major Sharma", "Karam Singh", "Yadav", "Vikram Batra"], a: 0, ex: "Somnath Sharma, 1947." },
+      { q: "Kargil war year:", opts: ["1995", "1999", "2001", "2003"], a: 1, ex: "Op Vijay." },
+      { q: "Bangladesh war:", opts: ["1962", "1965", "1971", "1999"], a: 2, ex: "1971 creation of Bangladesh." },
+      { q: "China war:", opts: ["1962", "1965", "1971", "1999"], a: 0, ex: "Sino-Indian." },
+      { q: "BSF guards:", opts: ["China", "Pakistan/Bangladesh borders", "Nepal", "Inside"], a: 1, ex: "Border Security Force." },
+      { q: "ITBP guards:", opts: ["Pakistan", "China (Tibet)", "Nepal", "Bangladesh"], a: 1, ex: "Indo-Tibetan." },
+      { q: "Black Cats:", opts: ["CRPF", "BSF", "NSG", "ITBP"], a: 2, ex: "National Security Guard." },
+      { q: "Oldest paramilitary:", opts: ["BSF", "CRPF", "Assam Rifles", "NSG"], a: 2, ex: "1835." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 21. INDIA'S ATOMIC RESEARCH
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-atomic-research"] = {
+    body: `
+      <h2>India's Atomic Research</h2>
+
+      <h3>1. Department of Atomic Energy (DAE)</h3>
+      <ul>
+        <li>Established: 1954.</li>
+        <li>Reports directly to PM.</li>
+        <li>Headquartered in Mumbai.</li>
+        <li>Father of Indian Nuclear Programme: <b>Dr. Homi Jehangir Bhabha</b>.</li>
+      </ul>
+
+      <h3>2. Major Atomic Research Institutions</h3>
+      <ul>
+        <li><b>BARC</b> (Bhabha Atomic Research Centre): Trombay, Mumbai. Established 1954 as AEET, renamed 1967.</li>
+        <li><b>IGCAR</b> (Indira Gandhi Centre for Atomic Research): Kalpakkam, TN. Fast breeder reactor research.</li>
+        <li><b>RRCAT</b> (Raja Ramanna Centre for Advanced Technology): Indore.</li>
+        <li><b>VECC</b> (Variable Energy Cyclotron Centre): Kolkata.</li>
+        <li><b>AERB</b> (Atomic Energy Regulatory Board): Mumbai.</li>
+        <li><b>NPCIL</b> (Nuclear Power Corporation of India Ltd.): Mumbai.</li>
+        <li><b>UCIL</b> (Uranium Corporation of India): Jaduguda, Jharkhand.</li>
+        <li><b>IREL</b> (Indian Rare Earths Ltd.): Mumbai (rare earth processing).</li>
+        <li><b>HWB</b> (Heavy Water Board): Mumbai.</li>
+        <li><b>TIFR</b> (Tata Institute of Fundamental Research): Mumbai.</li>
+      </ul>
+
+      <h3>3. Nuclear Power Plants in India</h3>
+      <table>
+        <tr><th>Power Plant</th><th>State</th><th>Year</th></tr>
+        <tr><td>Tarapur</td><td>Maharashtra</td><td>1969 (1st)</td></tr>
+        <tr><td>Rawatbhata</td><td>Rajasthan</td><td>1973</td></tr>
+        <tr><td>Madras (Kalpakkam)</td><td>Tamil Nadu</td><td>1984</td></tr>
+        <tr><td>Narora</td><td>UP</td><td>1991</td></tr>
+        <tr><td>Kakrapar</td><td>Gujarat</td><td>1993</td></tr>
+        <tr><td>Kaiga</td><td>Karnataka</td><td>2000</td></tr>
+        <tr><td>Kudankulam</td><td>Tamil Nadu</td><td>2013 (Russian)</td></tr>
+      </table>
+      <p>Total installed nuclear capacity: ~6,780 MW (2023). 3-stage nuclear program planned.</p>
+
+      <h3>4. India's Nuclear Tests</h3>
+      <ul>
+        <li><b>Pokhran-I (Smiling Buddha)</b>: 18 May 1974 — first nuclear test by India.</li>
+        <li><b>Pokhran-II</b>: 11-13 May 1998 — 5 nuclear tests. Declared India a nuclear weapon state. <b>Operation Shakti</b>.</li>
+        <li>Site: Pokhran, Rajasthan.</li>
+        <li>India observes <b>National Technology Day on 11 May</b> commemorating 1998 test.</li>
+      </ul>
+
+      <h3>5. Three-Stage Nuclear Programme (by Homi Bhabha)</h3>
+      <ol>
+        <li>Stage 1: Pressurized Heavy Water Reactors (PHWR) using natural uranium.</li>
+        <li>Stage 2: Fast Breeder Reactors using plutonium.</li>
+        <li>Stage 3: Advanced reactors using thorium (India has world's largest thorium reserves).</li>
+      </ol>
+
+      <h3>6. Important Personalities</h3>
+      <ul>
+        <li><b>Homi Jehangir Bhabha</b>: father of Indian nuclear programme; died 1966.</li>
+        <li><b>Vikram Sarabhai</b>: oversaw transition after Bhabha; also space.</li>
+        <li><b>Raja Ramanna</b>: led Pokhran-I (1974).</li>
+        <li><b>R. Chidambaram</b>: scientific lead Pokhran-II.</li>
+        <li><b>Dr APJ Abdul Kalam</b>: missile man; supervised Pokhran-II.</li>
+        <li><b>Anil Kakodkar</b>: BARC director, chairman AEC.</li>
+        <li><b>Mahatma Gandhi</b> opposed atomic weapons.</li>
+      </ul>
+
+      <h3>7. India and Nuclear Treaties</h3>
+      <ul>
+        <li>India is NOT signatory to NPT (Non-Proliferation Treaty).</li>
+        <li>India-US Civil Nuclear Agreement (2005, 123 Agreement).</li>
+        <li>NSG (Nuclear Suppliers Group): India seeks membership.</li>
+        <li>India committed to no-first-use policy.</li>
+      </ul>
+
+      <h3>8. Uranium and Thorium</h3>
+      <ul>
+        <li>Major uranium mine: <b>Jaduguda</b>, Jharkhand.</li>
+        <li>Thorium: India has world's largest reserves (~25-30%) in Kerala beach sands (monazite).</li>
+        <li>Tummalapalle (AP): largest uranium reserve in India.</li>
+      </ul>
+
+      <h3>9. Defence-Related Nuclear</h3>
+      <ul>
+        <li>India has nuclear triad: land (Agni missiles), air (fighter jets), sea (INS Arihant submarine).</li>
+        <li>Agni-V: range >5,000 km, ICBM.</li>
+        <li>BrahMos: supersonic cruise missile (with Russia).</li>
+        <li>Prithvi missile series.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Father of Indian nuclear programme: Homi Bhabha.</li>
+        <li>Pokhran-I: 1974.</li>
+        <li>Pokhran-II: 1998 (Operation Shakti).</li>
+        <li>National Technology Day: 11 May.</li>
+        <li>1st nuclear plant: Tarapur (1969).</li>
+        <li>India NOT signatory to NPT.</li>
+        <li>Thorium: India has largest reserves.</li>
+        <li>Jaduguda: uranium mine.</li>
+        <li>BARC: Trombay, Mumbai.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Father of Indian nuclear programme:", opts: ["Vikram Sarabhai", "Homi Bhabha", "Kalam", "Raja Ramanna"], a: 1, ex: "Homi Bhabha." },
+      { q: "1st Indian nuclear test:", opts: ["1974", "1980", "1998", "2000"], a: 0, ex: "Pokhran-I." },
+      { q: "1st nuclear test codename:", opts: ["Operation Shakti", "Smiling Buddha", "Brahma", "Pokhran"], a: 1, ex: "1974." },
+      { q: "Pokhran-II year:", opts: ["1995", "1998", "2000", "2005"], a: 1, ex: "May 1998." },
+      { q: "Pokhran-II codename:", opts: ["Operation Vijay", "Operation Shakti", "Operation Cactus", "Operation Blue"], a: 1, ex: "Operation Shakti." },
+      { q: "National Technology Day:", opts: ["1 May", "11 May", "15 May", "26 May"], a: 1, ex: "May 11." },
+      { q: "BARC HQ:", opts: ["Delhi", "Mumbai (Trombay)", "Hyderabad", "Bengaluru"], a: 1, ex: "Trombay." },
+      { q: "1st nuclear plant:", opts: ["Tarapur", "Kudankulam", "Kakrapar", "Kaiga"], a: 0, ex: "1969." },
+      { q: "Uranium mine in India:", opts: ["Khetri", "Jaduguda", "Kolar", "Korba"], a: 1, ex: "Jharkhand." },
+      { q: "Largest thorium reserves in:", opts: ["USA", "Russia", "India", "China"], a: 2, ex: "Kerala beach sands." },
+      { q: "Kudankulam plant in:", opts: ["TN", "AP", "Maharashtra", "Karnataka"], a: 0, ex: "Tamil Nadu (Russian)." },
+      { q: "Kaiga plant in:", opts: ["Karnataka", "Kerala", "TN", "AP"], a: 0, ex: "Karnataka." },
+      { q: "DAE established:", opts: ["1948", "1954", "1962", "1971"], a: 1, ex: "1954." },
+      { q: "India signed NPT?", opts: ["Yes", "No", "Partial", "Pending"], a: 1, ex: "India NOT signatory." },
+      { q: "Agni-V is:", opts: ["Cruise missile", "ICBM", "Submarine", "Drone"], a: 1, ex: ">5000 km range." },
+      { q: "INS Arihant is:", opts: ["Carrier", "Nuclear submarine", "Destroyer", "Frigate"], a: 1, ex: "Nuclear ballistic submarine." },
+      { q: "IGCAR is in:", opts: ["Trombay", "Kalpakkam", "Indore", "Hyderabad"], a: 1, ex: "Fast breeder research." },
+      { q: "Pokhran is in:", opts: ["Gujarat", "Rajasthan", "Punjab", "MP"], a: 1, ex: "Rajasthan." },
+      { q: "BrahMos developed with:", opts: ["USA", "Russia", "France", "Israel"], a: 1, ex: "India-Russia." },
+      { q: "Indian Nuclear Doctrine:", opts: ["First use", "No first use", "Random", "Mixed"], a: 1, ex: "No first use." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 22. SPACE PROGRAMME IN INDIA + 23. ISRO ESTABLISHMENTS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-space"] = {
+    body: `
+      <h2>Space Programme in India</h2>
+
+      <h3>1. ISRO — Overview</h3>
+      <ul>
+        <li>Indian Space Research Organisation.</li>
+        <li>Founded: <b>15 August 1969</b>.</li>
+        <li>HQ: <b>Bengaluru</b>.</li>
+        <li>Father of Indian Space Programme: <b>Dr. Vikram Sarabhai</b>.</li>
+        <li>Reports to Department of Space (DOS).</li>
+        <li>Chairperson reports to PM.</li>
+      </ul>
+
+      <h3>2. Major ISRO Missions</h3>
+
+      <h4>Satellites</h4>
+      <ul>
+        <li><b>Aryabhata</b> (1975): 1st Indian satellite, launched from USSR.</li>
+        <li><b>Bhaskara, Rohini</b>: early experiments.</li>
+        <li><b>Rohini RS-1</b> (1980): 1st satellite launched from Indian soil (SLV-3).</li>
+        <li><b>INSAT series</b>: communication satellites.</li>
+        <li><b>IRS series</b>: remote sensing.</li>
+        <li><b>GSAT series</b>: geostationary communication.</li>
+        <li><b>NavIC (IRNSS)</b>: India's GPS (regional).</li>
+      </ul>
+
+      <h4>Launch Vehicles</h4>
+      <ul>
+        <li><b>SLV (Satellite Launch Vehicle)</b>: 1980s.</li>
+        <li><b>ASLV</b>: 1990s.</li>
+        <li><b>PSLV (Polar)</b>: workhorse of ISRO; 2nd most reliable rocket.</li>
+        <li><b>GSLV (Geosynchronous)</b>: for heavier payloads, geostationary orbit.</li>
+        <li><b>GSLV Mk III / LVM3</b>: heaviest, for Chandrayaan, Gaganyaan.</li>
+        <li><b>SSLV (Small Satellite)</b>: 2022 onwards.</li>
+      </ul>
+
+      <h4>Interplanetary Missions</h4>
+      <ul>
+        <li><b>Chandrayaan-1</b> (2008): 1st Indian Moon mission. Found water on Moon.</li>
+        <li><b>Mangalyaan (MOM)</b> (2013-14): 1st Mars mission; success in 1st attempt; cheapest Mars mission.</li>
+        <li><b>Chandrayaan-2</b> (2019): Orbiter success; lander Vikram crashed.</li>
+        <li><b>Chandrayaan-3</b> (2023): Successful soft landing near Moon's south pole (1st country to do so).</li>
+        <li><b>Aditya-L1</b> (2023): Solar observatory mission.</li>
+        <li><b>Gaganyaan</b> (planned): India's first human spaceflight.</li>
+      </ul>
+
+      <h3>3. World Records</h3>
+      <ul>
+        <li><b>104 satellites in single launch</b>: PSLV-C37, 2017 (broke previous record).</li>
+        <li>1st country to reach Mars in maiden attempt.</li>
+        <li>Cheapest Mars mission ($74 million).</li>
+        <li>1st soft landing on Moon's south pole (Chandrayaan-3, 2023).</li>
+      </ul>
+
+      <h3>4. ISRO Establishments / Centres</h3>
+
+      <h4>Launch / Operations</h4>
+      <ul>
+        <li><b>SDSC SHAR</b> (Satish Dhawan Space Centre): <b>Sriharikota, AP</b> — launch site.</li>
+        <li><b>MCF</b> (Master Control Facility): <b>Hassan, Karnataka</b> — geostationary control.</li>
+        <li><b>ISTRAC</b> (Telemetry, Tracking and Command): Bengaluru.</li>
+      </ul>
+
+      <h4>R&D Centres</h4>
+      <ul>
+        <li><b>VSSC</b> (Vikram Sarabhai Space Centre): <b>Thiruvananthapuram</b> — launch vehicles.</li>
+        <li><b>URSC</b> (UR Rao Satellite Centre): <b>Bengaluru</b> — satellite design/development.</li>
+        <li><b>LPSC</b> (Liquid Propulsion Systems Centre): Thiruvananthapuram + Bengaluru.</li>
+        <li><b>SAC</b> (Space Applications Centre): <b>Ahmedabad</b> — applications.</li>
+        <li><b>NRSC</b> (National Remote Sensing Centre): <b>Hyderabad</b>.</li>
+        <li><b>PRL</b> (Physical Research Laboratory): <b>Ahmedabad</b>.</li>
+        <li><b>NE-SAC</b> (North Eastern Space Applications Centre): Shillong.</li>
+        <li><b>IIRS</b> (Indian Institute of Remote Sensing): Dehradun.</li>
+        <li><b>IIST</b> (Indian Institute of Space Science and Technology): Thiruvananthapuram.</li>
+      </ul>
+
+      <h4>Commercial Arm</h4>
+      <ul>
+        <li><b>NSIL</b> (NewSpace India Limited): commercial arm of ISRO.</li>
+        <li><b>Antrix Corporation</b>: earlier commercial arm.</li>
+        <li><b>IN-SPACe</b>: regulator for private space companies.</li>
+      </ul>
+
+      <h3>5. ISRO Chairpersons (recent)</h3>
+      <ul>
+        <li>Dr Vikram Sarabhai (1963-1971).</li>
+        <li>Prof Satish Dhawan (1972-1984).</li>
+        <li>Prof UR Rao (1984-1994).</li>
+        <li>Dr K Kasturirangan (1994-2003).</li>
+        <li>Dr G Madhavan Nair (2003-2009).</li>
+        <li>Dr K Radhakrishnan (2009-2014).</li>
+        <li>Dr AS Kiran Kumar (2015-2018).</li>
+        <li>Dr K Sivan (2018-2022).</li>
+        <li>Dr S Somanath (2022-present).</li>
+      </ul>
+
+      <h3>6. Indian Astronauts</h3>
+      <ul>
+        <li><b>Rakesh Sharma</b>: 1st Indian in space (1984, Soyuz; said "Saare Jahan Se Achha").</li>
+        <li><b>Kalpana Chawla</b>: 1st Indian-origin woman astronaut (1997 NASA; died in 2003 Columbia disaster).</li>
+        <li><b>Sunita Williams</b>: Indian-origin American, record spacewalks.</li>
+        <li><b>Sirisha Bandla</b>: Indian-origin, Virgin Galactic 2021.</li>
+        <li><b>Gaganyaan astronauts</b> announced: Group Captains Prashanth Nair, Ajit Krishnan, Angad Pratap, Shubhanshu Shukla.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>ISRO founded: 15 Aug 1969.</li>
+        <li>Father: Vikram Sarabhai.</li>
+        <li>HQ: Bengaluru.</li>
+        <li>SHAR launch site: Sriharikota.</li>
+        <li>1st satellite: Aryabhata 1975.</li>
+        <li>Chandrayaan-1: water on Moon.</li>
+        <li>Mangalyaan: 1st Mars in maiden attempt.</li>
+        <li>Chandrayaan-3: south pole moon landing.</li>
+        <li>104 satellites: 2017 record.</li>
+        <li>Rakesh Sharma: 1st Indian in space.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "ISRO founded:", opts: ["1962", "1969", "1975", "1980"], a: 1, ex: "Aug 15, 1969." },
+      { q: "Father of Indian space programme:", opts: ["Kalam", "Bhabha", "Vikram Sarabhai", "Rao"], a: 2, ex: "Vikram Sarabhai." },
+      { q: "ISRO HQ:", opts: ["Mumbai", "Delhi", "Bengaluru", "Chennai"], a: 2, ex: "Bengaluru." },
+      { q: "1st Indian satellite:", opts: ["INSAT", "Aryabhata", "Bhaskara", "Rohini"], a: 1, ex: "1975." },
+      { q: "ISRO launch site:", opts: ["Sriharikota", "Trivandrum", "Hassan", "Bangalore"], a: 0, ex: "SDSC SHAR." },
+      { q: "1st Indian in space:", opts: ["Kalpana", "Rakesh Sharma", "Sunita Williams", "Sirisha"], a: 1, ex: "1984." },
+      { q: "Chandrayaan-1 launched:", opts: ["2007", "2008", "2013", "2019"], a: 1, ex: "Oct 2008." },
+      { q: "Mangalyaan launched:", opts: ["2008", "2013", "2014", "2018"], a: 1, ex: "Nov 2013." },
+      { q: "Chandrayaan-3 success:", opts: ["2019", "2022", "2023", "2024"], a: 2, ex: "23 Aug 2023." },
+      { q: "Workhorse rocket of ISRO:", opts: ["SLV", "PSLV", "GSLV", "SSLV"], a: 1, ex: "PSLV." },
+      { q: "104 satellites in one launch:", opts: ["PSLV-C37", "GSLV", "SLV", "GSLV Mk III"], a: 0, ex: "2017 record." },
+      { q: "ISRO commercial arm:", opts: ["NSIL", "Antrix", "Both A and B", "ISRO direct"], a: 2, ex: "Both." },
+      { q: "Current ISRO chairman (2023):", opts: ["Sivan", "Somanath", "Kiran", "Radha"], a: 1, ex: "S Somanath." },
+      { q: "VSSC is in:", opts: ["Bengaluru", "Trivandrum", "Hyderabad", "Mumbai"], a: 1, ex: "Kerala." },
+      { q: "NRSC is in:", opts: ["Hyderabad", "Bengaluru", "Mumbai", "Delhi"], a: 0, ex: "Remote sensing." },
+      { q: "Aditya-L1 mission to:", opts: ["Moon", "Mars", "Sun", "Venus"], a: 2, ex: "Solar observatory." },
+      { q: "Gaganyaan is:", opts: ["Lunar mission", "Mars mission", "First Indian human spaceflight", "Satellite"], a: 2, ex: "Manned mission." },
+      { q: "Master Control Facility at:", opts: ["Hassan", "Sriharikota", "Bengaluru", "Hyderabad"], a: 0, ex: "Karnataka." },
+      { q: "PRL is in:", opts: ["Ahmedabad", "Hyderabad", "Bengaluru", "Mumbai"], a: 0, ex: "Physical Research Lab." },
+      { q: "IIST is in:", opts: ["Bengaluru", "Thiruvananthapuram", "Hyderabad", "Pune"], a: 1, ex: "Space education." }
+    ]
+  };
+
+  // sgk-isro placeholder — content covered above
+  T["sgk-isro"] = T["sgk-space"];
+
+  // ───────────────────────────────────────────────────────────────
+  // 24. NATIONAL SYMBOLS OF INDIA
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-national-symbols"] = {
+    body: `
+      <h2>National Symbols of India</h2>
+
+      <h3>1. State Symbols</h3>
+      <table>
+        <tr><th>Symbol</th><th>Name</th><th>Adopted</th></tr>
+        <tr><td>National Flag</td><td>Tiranga (Tricolour) — saffron, white, green, with Ashoka Chakra (24 spokes)</td><td>22 July 1947</td></tr>
+        <tr><td>National Emblem</td><td>Adapted from Lion Capital of Ashoka at Sarnath</td><td>26 Jan 1950</td></tr>
+        <tr><td>National Anthem</td><td>Jana Gana Mana (by Rabindranath Tagore)</td><td>24 Jan 1950</td></tr>
+        <tr><td>National Song</td><td>Vande Mataram (by Bankim Chandra Chattopadhyay)</td><td>24 Jan 1950</td></tr>
+        <tr><td>National Pledge</td><td>"India is my country, all Indians are my brothers and sisters..."</td><td>1962</td></tr>
+        <tr><td>National Motto</td><td>Satyameva Jayate (Truth alone triumphs)</td><td>26 Jan 1950</td></tr>
+      </table>
+
+      <h3>2. National Anthem Details</h3>
+      <ul>
+        <li>Written by: <b>Rabindranath Tagore</b>.</li>
+        <li>Adopted: 24 Jan 1950.</li>
+        <li>First sung at: Calcutta session of INC, 27 Dec 1911.</li>
+        <li>Duration: 52 seconds (full); 20 seconds (short version).</li>
+        <li>Language: Sanskritized Bengali.</li>
+        <li>5 stanzas, only 1st sung as anthem.</li>
+        <li>Tagore also wrote Bangladesh anthem (Amar Sonar Bangla).</li>
+      </ul>
+
+      <h3>3. National Song</h3>
+      <ul>
+        <li>Vande Mataram by <b>Bankim Chandra Chattopadhyay</b>.</li>
+        <li>From novel "Anandamath" (1882).</li>
+        <li>Set to music by Rabindranath Tagore.</li>
+        <li>Sung at INC Calcutta session 1896.</li>
+        <li>Equal status with anthem.</li>
+      </ul>
+
+      <h3>4. National Emblem (Lion Capital)</h3>
+      <ul>
+        <li>Adapted from Ashoka's pillar at Sarnath (Buddhist).</li>
+        <li>4 lions back-to-back; only 3 visible.</li>
+        <li>Below: a horse (west), a bull (east), a lion (north), an elephant (south), separated by wheels (Dharma Chakras).</li>
+        <li>Inscription: "Satyameva Jayate" (from Mundaka Upanishad).</li>
+        <li>Adopted: 26 Jan 1950.</li>
+      </ul>
+
+      <h3>5. National Flag Details</h3>
+      <ul>
+        <li>Designed by: <b>Pingali Venkayya</b>.</li>
+        <li>Adopted: <b>22 July 1947</b>.</li>
+        <li>Ratio: 2:3.</li>
+        <li>Saffron (top): courage and sacrifice.</li>
+        <li>White (middle): peace, truth.</li>
+        <li>Green (bottom): faith, prosperity.</li>
+        <li>Ashoka Chakra (navy blue, 24 spokes): from Sarnath; signifies wheel of law.</li>
+      </ul>
+
+      <h3>6. National Symbols (Living)</h3>
+      <table>
+        <tr><th>Symbol</th><th>Name</th></tr>
+        <tr><td>National Animal</td><td>Tiger (Royal Bengal)</td></tr>
+        <tr><td>National Bird</td><td>Peacock (Indian Peafowl)</td></tr>
+        <tr><td>National Aquatic Animal</td><td>Ganges Dolphin</td></tr>
+        <tr><td>National Heritage Animal</td><td>Asian Elephant</td></tr>
+        <tr><td>National Reptile</td><td>King Cobra</td></tr>
+        <tr><td>National Flower</td><td>Lotus</td></tr>
+        <tr><td>National Tree</td><td>Banyan</td></tr>
+        <tr><td>National Fruit</td><td>Mango</td></tr>
+        <tr><td>National River</td><td>Ganga</td></tr>
+        <tr><td>National Microbe</td><td>Lactobacillus delbrueckii (curd)</td></tr>
+      </table>
+
+      <h3>7. Other National</h3>
+      <ul>
+        <li>National Game (de facto): Hockey (though not officially declared).</li>
+        <li>National Currency: Indian Rupee (₹).</li>
+        <li>Rupee symbol designed by D. Udaya Kumar (2010).</li>
+        <li>National Days:
+          <ul>
+            <li>Republic Day: 26 January.</li>
+            <li>Independence Day: 15 August.</li>
+            <li>Gandhi Jayanti: 2 October.</li>
+          </ul>
+        </li>
+        <li>National Calendar: Saka calendar (adopted 22 March 1957).</li>
+      </ul>
+
+      <h3>8. Important Slogans</h3>
+      <ul>
+        <li>"Jai Hind" — Subhash Chandra Bose.</li>
+        <li>"Jai Jawan Jai Kisan" — Lal Bahadur Shastri.</li>
+        <li>"Inquilab Zindabad" — Bhagat Singh / Maulana Hasrat Mohani.</li>
+        <li>"Do or Die" — Gandhi (Quit India 1942).</li>
+        <li>"Vande Mataram" — Bankim Chandra.</li>
+        <li>"Saare Jahan Se Achha" — Iqbal.</li>
+        <li>"Sare Jahan Se Achha" sung from space by Rakesh Sharma.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>National flag designer: Pingali Venkayya.</li>
+        <li>National anthem: Tagore.</li>
+        <li>National song: Bankim Chandra.</li>
+        <li>National emblem from Sarnath Lion Capital.</li>
+        <li>National motto: Satyameva Jayate (Mundaka Upanishad).</li>
+        <li>National animal: Tiger.</li>
+        <li>National bird: Peacock.</li>
+        <li>National flower: Lotus.</li>
+        <li>National tree: Banyan.</li>
+        <li>National fruit: Mango.</li>
+        <li>National river: Ganga.</li>
+        <li>Rupee symbol: D. Udaya Kumar 2010.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "National flag designer:", opts: ["Pingali Venkayya", "Tagore", "Nehru", "Gandhi"], a: 0, ex: "Pingali Venkayya." },
+      { q: "National anthem by:", opts: ["Tagore", "Bankim", "Iqbal", "Gandhi"], a: 0, ex: "Rabindranath Tagore." },
+      { q: "National song by:", opts: ["Tagore", "Bankim Chandra", "Iqbal", "Nehru"], a: 1, ex: "Bankim Chandra Chattopadhyay." },
+      { q: "National motto source:", opts: ["Gita", "Mundaka Upanishad", "Vedas", "Manusmriti"], a: 1, ex: "Satyameva Jayate." },
+      { q: "National emblem from:", opts: ["Bodh Gaya", "Sarnath Lion Capital", "Sanchi", "Ellora"], a: 1, ex: "Ashoka's pillar." },
+      { q: "National animal:", opts: ["Lion", "Tiger", "Elephant", "Peacock"], a: 1, ex: "Royal Bengal Tiger." },
+      { q: "National bird:", opts: ["Eagle", "Peacock", "Parrot", "Crow"], a: 1, ex: "Indian Peafowl." },
+      { q: "National flower:", opts: ["Rose", "Lotus", "Marigold", "Jasmine"], a: 1, ex: "Lotus." },
+      { q: "National tree:", opts: ["Neem", "Banyan", "Peepal", "Mango"], a: 1, ex: "Banyan." },
+      { q: "National fruit:", opts: ["Apple", "Mango", "Banana", "Orange"], a: 1, ex: "Mango." },
+      { q: "National aquatic animal:", opts: ["Whale", "Ganges Dolphin", "Shark", "Crocodile"], a: 1, ex: "Ganges River Dolphin." },
+      { q: "National reptile:", opts: ["Snake", "King Cobra", "Crocodile", "Tortoise"], a: 1, ex: "King Cobra." },
+      { q: "Ashoka Chakra spokes:", opts: ["12", "16", "24", "32"], a: 2, ex: "24 spokes." },
+      { q: "Flag adopted:", opts: ["15 Aug 1947", "22 July 1947", "26 Jan 1950", "1949"], a: 1, ex: "Just before independence." },
+      { q: "Republic Day:", opts: ["15 Aug", "26 Jan", "2 Oct", "26 Nov"], a: 1, ex: "26 January." },
+      { q: "National anthem duration:", opts: ["30 sec", "52 sec", "1 min", "2 min"], a: 1, ex: "~52 seconds." },
+      { q: "Vande Mataram from novel:", opts: ["Devi", "Anandamath", "Durgesh", "Krishnakanta"], a: 1, ex: "Bankim's novel 1882." },
+      { q: "Slogan 'Jai Jawan Jai Kisan':", opts: ["Nehru", "Shastri", "Patel", "Indira"], a: 1, ex: "Lal Bahadur Shastri." },
+      { q: "Rupee symbol designer:", opts: ["D. Udaya Kumar", "Pingali", "Tagore", "Sarabhai"], a: 0, ex: "2010." },
+      { q: "National river:", opts: ["Ganga", "Yamuna", "Brahmaputra", "Godavari"], a: 0, ex: "Ganga." }
+    ]
+  };
+
 })();
