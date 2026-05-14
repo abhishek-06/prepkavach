@@ -4156,4 +4156,402 @@ $(c_2 - m)$ : $(m - c_1)$
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 31. PERMUTATION & COMBINATION
+  // ───────────────────────────────────────────────────────────────
+  T["math-permutation-combination"] = {
+    body: `
+      <h2>Permutation & Combination</h2>
+      <p>SSC asks 1-2 questions. Distinguish ARRANGEMENT (order matters) from SELECTION (order doesn't).</p>
+
+      <h3>1. Factorial</h3>
+      <p>$n! = n \\cdot (n-1) \\cdot (n-2) \\cdots 2 \\cdot 1$. $0! = 1$.</p>
+
+      <h3>2. Permutation (order matters)</h3>
+      <p>$$P(n, r) = \\,^nP_r = \\frac{n!}{(n-r)!}$$</p>
+
+      <h3>3. Combination (order doesn't matter)</h3>
+      <p>$$C(n, r) = \\,^nC_r = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$$</p>
+
+      <h3>4. Key Properties</h3>
+      <ul>
+        <li>$^nC_r = \\,^nC_{n-r}$.</li>
+        <li>$^nC_0 = \\,^nC_n = 1$.</li>
+        <li>$^nC_1 = n$.</li>
+        <li>$^nC_r + \\,^nC_{r-1} = \\,^{n+1}C_r$.</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li><b>Arrangement of $n$ different things</b>: $n!$.</li>
+        <li><b>Arrangement when 2 items are identical</b>: $\\frac{n!}{2!}$.</li>
+        <li><b>Circular arrangement of $n$ things</b>: $(n-1)!$.</li>
+        <li><b>If beads in necklace</b>: $(n-1)!/2$ (because flip also same).</li>
+        <li><b>Selecting at least one</b>: $2^n - 1$.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>How many ways to arrange letters of WORD?</p>
+      <p><b>Sol</b>: 4 distinct letters. $4! = 24$.</p>
+
+      <h4>Example 2</h4>
+      <p>How many ways to choose 3 students from 10?</p>
+      <p><b>Sol</b>: $^{10}C_3 = 120$.</p>
+
+      <h4>Example 3</h4>
+      <p>How many 4-digit numbers from digits 1,2,3,4,5 without repetition?</p>
+      <p><b>Sol</b>: $^5P_4 = 5 \\cdot 4 \\cdot 3 \\cdot 2 = 120$.</p>
+
+      <h4>Example 4</h4>
+      <p>How many ways to arrange letters of MISSISSIPPI?</p>
+      <p><b>Sol</b>: 11 letters: M(1), I(4), S(4), P(2). $\\frac{11!}{4! \\cdot 4! \\cdot 2!} = 34650$.</p>
+
+      <h4>Example 5</h4>
+      <p>Circular arrangement of 6 people at round table?</p>
+      <p><b>Sol</b>: $(6-1)! = 120$.</p>
+
+      <h4>Example 6</h4>
+      <p>How many ways to pick 2 from 5 books?</p>
+      <p><b>Sol</b>: $^5C_2 = 10$.</p>
+
+      <h4>Example 7</h4>
+      <p>How many 3-digit numbers with no repetition using 0-9? (First digit non-zero.)</p>
+      <p><b>Sol</b>: First: 9 choices (1-9). Second: 9. Third: 8. Total = $9 \\cdot 9 \\cdot 8 = 648$.</p>
+
+      <h4>Example 8</h4>
+      <p>How many 4-letter words from ENGLISH (7 letters, all distinct) without repetition?</p>
+      <p><b>Sol</b>: $^7P_4 = 7 \\cdot 6 \\cdot 5 \\cdot 4 = 840$.</p>
+
+      <h4>Example 9</h4>
+      <p>Number of ways to seat 5 people in a row?</p>
+      <p><b>Sol</b>: $5! = 120$.</p>
+
+      <h4>Example 10</h4>
+      <p>Number of triangles formed using 6 points (no 3 collinear)?</p>
+      <p><b>Sol</b>: $^6C_3 = 20$.</p>
+
+      <h4>Example 11</h4>
+      <p>Number of words from MOTHER using all letters?</p>
+      <p><b>Sol</b>: $6! = 720$.</p>
+
+      <h4>Example 12</h4>
+      <p>How many committees of 5 from 8 men and 6 women with at least 3 women?</p>
+      <p><b>Sol</b>: Cases: 3W+2M, 4W+1M, 5W+0M. $^6C_3 \\cdot ^8C_2 + ^6C_4 \\cdot ^8C_1 + ^6C_5 \\cdot ^8C_0 = 20 \\cdot 28 + 15 \\cdot 8 + 6 = 560+120+6=686$.</p>
+
+      <h4>Example 13</h4>
+      <p>Number of ways to arrange 5 boys + 3 girls in a row with all girls together?</p>
+      <p><b>Sol</b>: Treat 3 girls as 1 unit. Arrangements: $6! = 720$. Within girls: $3! = 6$. Total = $720 \\cdot 6 = 4320$.</p>
+
+      <h4>Example 14</h4>
+      <p>Number of straight lines from 6 points (no 3 collinear)?</p>
+      <p><b>Sol</b>: $^6C_2 = 15$.</p>
+
+      <h4>Example 15</h4>
+      <p>Number of subsets of a set with 4 elements?</p>
+      <p><b>Sol</b>: $2^4 = 16$ (including empty and itself).</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Arrangement vs Selection: ask if order matters.</li>
+        <li>Word problems with repeated letters: divide by factorial of repeats.</li>
+        <li>Circular arrangement: fix one item, arrange rest.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "$5! = ?$", opts: ["20", "60", "120", "240"], a: 2, ex: "$5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1=120$." },
+      { q: "$^7C_3$?", opts: ["21", "35", "42", "210"], a: 1, ex: "$7!/(3!4!)=35$." },
+      { q: "$^6P_2$?", opts: ["12", "15", "30", "36"], a: 2, ex: "$6 \\cdot 5=30$." },
+      { q: "Arrangements of word DELHI (all letters distinct)?", opts: ["60", "120", "240", "720"], a: 1, ex: "$5!=120$." },
+      { q: "Arrangements of word INDIA?", opts: ["60", "120", "240", "720"], a: 0, ex: "5 letters, I repeats 2x: $5!/2!=60$." },
+      { q: "Circular arrangement of 7 children?", opts: ["$6!$", "$7!$", "$7$", "$\\frac{6!}{2}$"], a: 0, ex: "$(n-1)!$." },
+      { q: "Subsets of {a,b,c,d}?", opts: ["8", "12", "16", "24"], a: 2, ex: "$2^4=16$." },
+      { q: "3 boys + 2 girls; arrange with both girls together?", opts: ["24", "48", "120", "240"], a: 1, ex: "$4! \\cdot 2!=48$." },
+      { q: "Number of straight lines from 5 non-collinear points?", opts: ["5", "10", "20", "25"], a: 1, ex: "$^5C_2=10$." },
+      { q: "$^{10}C_3$?", opts: ["120", "240", "720", "60"], a: 0, ex: "$\\frac{10!}{3!7!}=120$." },
+      { q: "Words from 'COMPUTER' (8 letters distinct)?", opts: ["20160", "40320", "5040", "8!"], a: 1, ex: "$8!=40320$." },
+      { q: "If $n!= 720$, $n=?$", opts: ["5", "6", "7", "8"], a: 1, ex: "$6!=720$." },
+      { q: "Committees of 4 from 6 men 4 women, all women?", opts: ["1", "4", "5", "6"], a: 0, ex: "$^4C_4=1$." },
+      { q: "Ways to seat 4 people in a row?", opts: ["12", "16", "24", "32"], a: 2, ex: "$4!=24$." },
+      { q: "$^7C_4$?", opts: ["28", "35", "42", "210"], a: 1, ex: "$=^7C_3=35$." },
+      { q: "Number of diagonals in pentagon?", opts: ["5", "8", "10", "$^5C_2-5=5$"], a: 0, ex: "Total lines = $^5C_2=10$. Sides=5. Diagonals=5." },
+      { q: "Triangles from 8 points (no 3 collinear)?", opts: ["28", "56", "84", "112"], a: 1, ex: "$^8C_3=56$." },
+      { q: "Number of 5-digit numbers using 0-4 no rep, first not 0?", opts: ["24", "96", "100", "120"], a: 1, ex: "First: 4 choices (1-4). Rest: 4!. $4 \\cdot 24=96$." },
+      { q: "Permutations of LEVEL?", opts: ["30", "60", "120", "20"], a: 0, ex: "5 letters, L×2, E×2: $5!/(2!2!)=30$." },
+      { q: "Choose 3 from 6 = ?", opts: ["6", "10", "15", "20"], a: 3, ex: "$^6C_3=20$." },
+      { q: "Arrangements of 6 around round table = ?", opts: ["120", "720", "60", "$5!$"], a: 0, ex: "$(6-1)!=120$." },
+      { q: "Number of handshakes among 10 people?", opts: ["45", "55", "90", "100"], a: 0, ex: "$^{10}C_2=45$." },
+      { q: "From 4 vowels + 3 consonants, how many 2-letter words (1V+1C)?", opts: ["12", "24", "7", "21"], a: 1, ex: "$4 \\cdot 3 \\cdot 2! = 24$." },
+      { q: "$^nC_{n-1} = ?$", opts: ["1", "n", "$n-1$", "$\\frac{n}{2}$"], a: 1, ex: "$=^nC_1=n$." },
+      { q: "Ways to choose 2 cards from 52?", opts: ["52", "1326", "2652", "104"], a: 1, ex: "$^{52}C_2=52 \\cdot 51/2=1326$." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 32. PROBABILITY
+  // ───────────────────────────────────────────────────────────────
+  T["math-probability"] = {
+    body: `
+      <h2>Probability</h2>
+      <p>SSC asks 1-2 questions on basic probability.</p>
+
+      <h3>1. Definition</h3>
+      <p>$$P(E) = \\frac{\\text{Favourable outcomes}}{\\text{Total outcomes}}$$</p>
+      <p>$0 \\le P(E) \\le 1$. $P(\\bar{E}) = 1 - P(E)$.</p>
+
+      <h3>2. Sample Spaces</h3>
+      <ul>
+        <li>Coin: 2 outcomes (H, T).</li>
+        <li>Die: 6 (1-6).</li>
+        <li>2 coins: 4 (HH, HT, TH, TT).</li>
+        <li>2 dice: 36 ordered pairs.</li>
+        <li>Cards: 52 (4 suits × 13 each; 26 red, 26 black; 12 face cards: J, Q, K of each suit; 4 aces).</li>
+      </ul>
+
+      <h3>3. Key Formulas</h3>
+      <p>$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.</p>
+      <p>If $A$ and $B$ independent: $P(A \\cap B) = P(A) \\cdot P(B)$.</p>
+      <p>If mutually exclusive: $P(A \\cup B) = P(A) + P(B)$.</p>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>List sample space explicitly for small problems.</li>
+        <li>"At least one" → use complement: $1 - P(\\text{none})$.</li>
+        <li>For with-replacement, events independent; without-replacement, condition on prior.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Toss a coin. Prob of heads?</p>
+      <p><b>Sol</b>: 1/2.</p>
+
+      <h4>Example 2</h4>
+      <p>Roll a die. P(even)?</p>
+      <p><b>Sol</b>: 3/6 = 1/2.</p>
+
+      <h4>Example 3</h4>
+      <p>Two dice. P(sum = 7)?</p>
+      <p><b>Sol</b>: Pairs: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) — 6 cases. P = 6/36 = 1/6.</p>
+
+      <h4>Example 4</h4>
+      <p>Card from deck. P(red)?</p>
+      <p><b>Sol</b>: 26/52 = 1/2.</p>
+
+      <h4>Example 5</h4>
+      <p>P(face card)?</p>
+      <p><b>Sol</b>: 12/52 = 3/13.</p>
+
+      <h4>Example 6</h4>
+      <p>Two coins. P(at least one head)?</p>
+      <p><b>Sol</b>: $1 - P(\\text{both tails}) = 1 - 1/4 = 3/4$.</p>
+
+      <h4>Example 7</h4>
+      <p>Bag has 4 red + 6 blue marbles. Pick 1. P(red)?</p>
+      <p><b>Sol</b>: 4/10 = 2/5.</p>
+
+      <h4>Example 8</h4>
+      <p>From above bag, pick 2 without replacement. P(both red)?</p>
+      <p><b>Sol</b>: $\\frac{4}{10} \\cdot \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$.</p>
+
+      <h4>Example 9</h4>
+      <p>Die rolled. P(prime)?</p>
+      <p><b>Sol</b>: Primes ≤ 6: 2, 3, 5. P = 3/6 = 1/2.</p>
+
+      <h4>Example 10</h4>
+      <p>Card. P(king or queen)?</p>
+      <p><b>Sol</b>: $4+4 = 8$. P = 8/52 = 2/13.</p>
+
+      <h4>Example 11</h4>
+      <p>Two dice. P(doubles)?</p>
+      <p><b>Sol</b>: 6 doubles out of 36. P = 1/6.</p>
+
+      <h4>Example 12</h4>
+      <p>3 coins. P(exactly 2 heads)?</p>
+      <p><b>Sol</b>: $^3C_2/2^3 = 3/8$.</p>
+
+      <h4>Example 13</h4>
+      <p>Card. P(red king)?</p>
+      <p><b>Sol</b>: 2/52 = 1/26.</p>
+
+      <h4>Example 14</h4>
+      <p>Bag: 5 black + 4 white. Pick 2 without replacement. P(both white)?</p>
+      <p><b>Sol</b>: $\\frac{4}{9} \\cdot \\frac{3}{8} = \\frac{1}{6}$.</p>
+
+      <h4>Example 15</h4>
+      <p>P(getting at least one 6 in two dice rolls)?</p>
+      <p><b>Sol</b>: $1 - (5/6)^2 = 11/36$.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>"At least one" — almost always use complement.</li>
+        <li>With/without replacement matters! Probabilities change.</li>
+        <li>For independent events, multiply; for mutually exclusive, add.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Coin toss. P(head)?", opts: ["0", "1/2", "1", "1/4"], a: 1, ex: "Standard." },
+      { q: "Die. P(getting 6)?", opts: ["1/6", "1/3", "1/2", "1"], a: 0, ex: "1/6." },
+      { q: "Die. P(even)?", opts: ["1/6", "1/3", "1/2", "2/3"], a: 2, ex: "3/6." },
+      { q: "Card. P(spade)?", opts: ["1/13", "1/4", "1/52", "1/2"], a: 1, ex: "13/52." },
+      { q: "Card. P(king)?", opts: ["1/13", "1/4", "1/52", "1/26"], a: 0, ex: "4/52." },
+      { q: "2 dice. P(sum=7)?", opts: ["1/6", "1/12", "1/3", "5/36"], a: 0, ex: "6/36." },
+      { q: "Card. P(red ace)?", opts: ["1/13", "2/52", "1/26", "Both B,C"], a: 3, ex: "2/52=1/26." },
+      { q: "3 coins. P(all heads)?", opts: ["1/2", "1/4", "1/6", "1/8"], a: 3, ex: "$(1/2)^3=1/8$." },
+      { q: "2 coins. P(at least 1 H)?", opts: ["1/2", "3/4", "1/4", "1"], a: 1, ex: "$1-1/4=3/4$." },
+      { q: "Bag: 3 red, 7 blue. P(red)?", opts: ["3/10", "7/10", "3/7", "1/3"], a: 0, ex: "3/10." },
+      { q: "Bag 4 W + 6 B. Pick 2 without replacement. P(both W)?", opts: ["2/15", "1/3", "$\\frac{4}{10} \\cdot \\frac{3}{9}$", "Both A,C"], a: 3, ex: "$=2/15$." },
+      { q: "P(impossible event)?", opts: ["0", "1", "1/2", "Cannot say"], a: 0, ex: "Standard." },
+      { q: "P(getting a multiple of 3 on a die)?", opts: ["1/6", "1/3", "1/2", "2/3"], a: 1, ex: "{3,6}: 2/6." },
+      { q: "Card. P(face card)?", opts: ["3/13", "1/4", "1/13", "12/52"], a: 0, ex: "12/52=3/13. Both A,D." },
+      { q: "If $P(A)=0.3, P(B)=0.5, P(A \\cap B)=0.1$, $P(A \\cup B)?$", opts: ["0.6", "0.7", "0.8", "0.9"], a: 1, ex: "0.3+0.5-0.1=0.7." },
+      { q: "Box: 5 red, 3 green, 2 blue. P(blue)?", opts: ["1/5", "1/3", "1/2", "2/10"], a: 0, ex: "2/10=1/5." },
+      { q: "Two dice. P(both same)?", opts: ["1/6", "1/3", "1/12", "1/2"], a: 0, ex: "6/36=1/6." },
+      { q: "Two coins. P(both tails)?", opts: ["1/4", "1/2", "1/8", "3/4"], a: 0, ex: "1/4." },
+      { q: "Card. P(neither king nor queen)?", opts: ["11/13", "9/13", "1/13", "12/13"], a: 0, ex: "$1-8/52=44/52=11/13$." },
+      { q: "P(king AND queen in two consecutive draws with replacement)?", opts: ["$1/169$", "$2/169$", "$1/13$", "$\\frac{4}{52} \\cdot \\frac{4}{52}$"], a: 0, ex: "$\\frac{1}{13} \\cdot \\frac{1}{13}=1/169$. Both A,D." },
+      { q: "Die. P(odd)?", opts: ["1/3", "1/2", "2/3", "5/6"], a: 1, ex: "3/6." },
+      { q: "P(sample space) = ?", opts: ["0", "0.5", "1", "Depends"], a: 2, ex: "Always 1." },
+      { q: "Two dice. P(sum > 10)?", opts: ["1/12", "1/6", "1/18", "1/9"], a: 0, ex: "(5,6),(6,5),(6,6)=3 out of 36 = 1/12." },
+      { q: "If P(A)=0.4 and P(B)=0.6 and independent, P(A∩B)?", opts: ["0.10", "0.20", "0.24", "0.40"], a: 2, ex: "Multiply: 0.4 × 0.6 = 0.24." },
+      { q: "Card. P(red OR king)?", opts: ["28/52", "30/52", "1/2 + 1/13", "7/13"], a: 3, ex: "$26/52+4/52-2/52=28/52=7/13$." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 33. STATISTICS
+  // ───────────────────────────────────────────────────────────────
+  T["math-statistics"] = {
+    body: `
+      <h2>Statistics</h2>
+      <p>SSC Tier-2 has 1-2 questions on mean, median, mode, standard deviation.</p>
+
+      <h3>1. Measures of Central Tendency</h3>
+
+      <h4>Mean (Arithmetic Average)</h4>
+      <p>$$\\bar{x} = \\frac{\\sum x_i}{n}$$</p>
+      <p>Weighted: $\\frac{\\sum w_i x_i}{\\sum w_i}$.</p>
+
+      <h4>Median</h4>
+      <p>Middle value when sorted. If $n$ odd: $(n+1)/2$-th value. If $n$ even: average of $n/2$ and $(n/2+1)$-th values.</p>
+
+      <h4>Mode</h4>
+      <p>Most frequent value.</p>
+
+      <h3>2. Empirical Relation</h3>
+      <p>$$\\text{Mode} = 3 \\cdot \\text{Median} - 2 \\cdot \\text{Mean}$$</p>
+
+      <h3>3. Measures of Dispersion</h3>
+      <ul>
+        <li><b>Range</b>: Max − Min.</li>
+        <li><b>Mean Deviation</b>: $\\frac{\\sum |x_i - \\bar{x}|}{n}$.</li>
+        <li><b>Variance ($\\sigma^2$)</b>: $\\frac{\\sum (x_i - \\bar{x})^2}{n}$.</li>
+        <li><b>Standard Deviation ($\\sigma$)</b>: $\\sqrt{\\text{variance}}$.</li>
+        <li><b>Coefficient of variation</b>: $\\frac{\\sigma}{\\bar{x}} \\times 100\\%$.</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>If all data points shift by $c$, mean shifts by $c$ but SD unchanged.</li>
+        <li>If all data points multiplied by $k$, mean and SD both multiply by $k$.</li>
+        <li>For grouped data, use class midpoints.</li>
+        <li>$\\sigma^2 = \\overline{x^2} - (\\bar{x})^2$.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Mean of 2, 4, 6, 8, 10?</p>
+      <p><b>Sol</b>: 30/5 = 6.</p>
+
+      <h4>Example 2</h4>
+      <p>Median of 3, 5, 7, 9, 11?</p>
+      <p><b>Sol</b>: Middle = 7.</p>
+
+      <h4>Example 3</h4>
+      <p>Median of 2, 4, 6, 8?</p>
+      <p><b>Sol</b>: Average of 2 middle: (4+6)/2 = 5.</p>
+
+      <h4>Example 4</h4>
+      <p>Mode of 1, 2, 2, 3, 4?</p>
+      <p><b>Sol</b>: 2 (appears twice).</p>
+
+      <h4>Example 5</h4>
+      <p>Range of 5, 8, 3, 12, 7?</p>
+      <p><b>Sol</b>: 12-3 = 9.</p>
+
+      <h4>Example 6</h4>
+      <p>If mean of 4 numbers is 10, find sum.</p>
+      <p><b>Sol</b>: $4 \\times 10 = 40$.</p>
+
+      <h4>Example 7</h4>
+      <p>If mean of 5 obs is 12, what to add to make new mean 14?</p>
+      <p><b>Sol</b>: Old sum = 60. New sum needed = $14 \\times 6 = 84$. Add = 24.</p>
+
+      <h4>Example 8</h4>
+      <p>Find variance of 2, 4, 6, 8, 10.</p>
+      <p><b>Sol</b>: Mean = 6. Deviations: -4, -2, 0, 2, 4. Squares: 16, 4, 0, 4, 16. Sum = 40. Variance = 40/5 = 8.</p>
+
+      <h4>Example 9</h4>
+      <p>SD from above?</p>
+      <p><b>Sol</b>: $\\sqrt{8} = 2\\sqrt{2}$.</p>
+
+      <h4>Example 10</h4>
+      <p>If each value increased by 3, what changes?</p>
+      <p><b>Sol</b>: Mean +3, SD unchanged.</p>
+
+      <h4>Example 11</h4>
+      <p>If each value doubled, SD?</p>
+      <p><b>Sol</b>: SD doubles.</p>
+
+      <h4>Example 12</h4>
+      <p>Mean of 50 obs is 40. If one obs 30 misread as 50, correct mean?</p>
+      <p><b>Sol</b>: Sum was $50 \\times 40 = 2000$. Correct sum = $2000 - 50 + 30 = 1980$. Mean = 39.6.</p>
+
+      <h4>Example 13</h4>
+      <p>If Mean = 25, Median = 27. Mode by empirical?</p>
+      <p><b>Sol</b>: $3 \\cdot 27 - 2 \\cdot 25 = 81-50 = 31$.</p>
+
+      <h4>Example 14</h4>
+      <p>For data 6, 8, 10, 12, 14: SD?</p>
+      <p><b>Sol</b>: Mean = 10. Deviations²: 16, 4, 0, 4, 16. Sum = 40. Var = 8. SD = $2\\sqrt{2}$.</p>
+
+      <h4>Example 15</h4>
+      <p>Coefficient of variation if mean 50, SD 5?</p>
+      <p><b>Sol</b>: $5/50 \\times 100 = 10\\%$.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Sort data before finding median!</li>
+        <li>Mode can be more than one (bimodal/multimodal).</li>
+        <li>For even-count median: average of two middle values.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Mean of 10,20,30,40,50?", opts: ["20", "25", "30", "35"], a: 2, ex: "150/5=30." },
+      { q: "Median of 4,6,8,10?", opts: ["6", "7", "8", "9"], a: 1, ex: "(6+8)/2=7." },
+      { q: "Mode of 1,2,2,3,3,3,4?", opts: ["1", "2", "3", "4"], a: 2, ex: "3 most frequent." },
+      { q: "Range of 5,8,2,10,7?", opts: ["8", "9", "10", "7"], a: 0, ex: "10-2=8." },
+      { q: "Mean of first 5 natural numbers?", opts: ["2", "2.5", "3", "5"], a: 2, ex: "$(1+2+3+4+5)/5=3$." },
+      { q: "Median of 11,15,13,17,19?", opts: ["13", "15", "17", "19"], a: 1, ex: "Sorted: 11,13,15,17,19. Middle = 15." },
+      { q: "If $\\bar{x}=12$ for 4 obs, sum?", opts: ["12", "24", "48", "60"], a: 2, ex: "48." },
+      { q: "Find SD of 2,4,4,4,5,5,7,9.", opts: ["1", "2", "$\\sqrt{2}$", "$\\sqrt{4}=2$"], a: 1, ex: "Mean=5. Var=$(9+1+1+1+0+0+4+16)/8=4$. SD=2." },
+      { q: "If mean increases by 5, by how much do data shift?", opts: ["+5", "−5", "+10", "−10"], a: 0, ex: "Same as mean shift." },
+      { q: "If all data values doubled, mean doubles, SD?", opts: ["Same", "Doubles", "Halves", "Quadruples"], a: 1, ex: "SD also doubles." },
+      { q: "Mean of 25 obs = 30. If one obs 28 misread 38, correct mean?", opts: ["29.6", "30.4", "29.0", "30.0"], a: 0, ex: "Correct sum = 25×30-38+28 = 740. Mean=29.6." },
+      { q: "Mean=30, Median=32, Mode by empirical?", opts: ["34", "36", "38", "40"], a: 1, ex: "$3 \\cdot 32 - 2 \\cdot 30 = 36$." },
+      { q: "Median of 5,10,7,8,9?", opts: ["7", "8", "9", "10"], a: 1, ex: "Sorted: 5,7,8,9,10. Median=8." },
+      { q: "Variance of 1,2,3,4,5?", opts: ["1", "2", "$\\sqrt{2}$", "$\\sqrt{5}$"], a: 1, ex: "Mean=3. Vars: 4,1,0,1,4=10/5=2." },
+      { q: "CV if mean=80, SD=8?", opts: ["10%", "8%", "12%", "20%"], a: 0, ex: "8/80=10%." },
+      { q: "Median is least affected by?", opts: ["Mean changes", "Extreme values (outliers)", "Sample size", "All affect equally"], a: 1, ex: "Median robust to outliers." },
+      { q: "Range of 7,5,3,9,11,2?", opts: ["7", "8", "9", "10"], a: 2, ex: "11-2=9." },
+      { q: "Mode of 1,2,3?", opts: ["1", "2", "3", "No mode"], a: 3, ex: "All unique." },
+      { q: "Mean of 10 obs = 50. If one obs removed mean drops to 48. The removed?", opts: ["56", "60", "68", "72"], a: 2, ex: "$10 \\cdot 50 - 9 \\cdot 48 = 500-432=68$." },
+      { q: "If data: 4,4,5,5,5,6,7. Mode and median?", opts: ["mode=5, median=5", "mode=4, median=5", "mode=5, median=4", "mode=4, median=4"], a: 0, ex: "5 most freq. Median (4th of 7) = 5." },
+      { q: "Standard deviation cannot be?", opts: ["0", "positive", "1", "negative"], a: 3, ex: "SD ≥ 0." },
+      { q: "Weighted mean of 60 (weight 2), 80 (weight 3)?", opts: ["70", "72", "75", "76"], a: 1, ex: "$(120+240)/5=72$." },
+      { q: "If sum of 8 numbers = 200 and 4 of them are 20 each, find mean of rest 4.", opts: ["10", "20", "30", "40"], a: 2, ex: "Sum of 4 = 200-80=120. Mean=30." },
+      { q: "How to find median when n is even?", opts: ["Take middle value", "Avg of two middle", "Last value", "First value"], a: 1, ex: "Avg of two middle." },
+      { q: "Best measure of central tendency for skewed data?", opts: ["Mean", "Median", "Mode", "Range"], a: 1, ex: "Median robust to skew." }
+    ]
+  };
+
 })();
