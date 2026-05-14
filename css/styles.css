@@ -250,6 +250,30 @@ body {
   margin: 0;
 }
 
+/* Solution block styling — step-by-step layout */
+.content p:has(b:first-child) b:first-child:not(:only-child) {
+  /* nothing — handled per-element below */
+}
+
+.content h4 + p {
+  margin-top: 0.4rem;
+}
+
+.content p > b:first-child {
+  color: var(--accent);
+}
+
+/* Make <br> in Solution paragraphs feel like list spacing */
+.content p {
+  line-height: 1.7;
+}
+
+.content p > br {
+  display: block;
+  content: "";
+  margin-bottom: 0.2rem;
+}
+
 .topic-meta {
   display: flex;
   gap: 1rem;
