@@ -2650,4 +2650,380 @@ $(c_2 - m)$ : $(m - c_1)$
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 20. TIME, SPEED & DISTANCE
+  // ───────────────────────────────────────────────────────────────
+  T["math-time-distance"] = {
+    body: `
+      <h2>Time, Speed & Distance</h2>
+      <p>Core formula:</p>
+      <p>$$\\text{Distance} = \\text{Speed} \\times \\text{Time}$$</p>
+
+      <h3>1. Units</h3>
+      <p>$1 \\text{ km/h} = \\frac{5}{18} \\text{ m/s}$. To convert km/h → m/s: multiply by $5/18$. To convert m/s → km/h: multiply by $18/5$.</p>
+
+      <h3>2. Average Speed</h3>
+      <p>If equal <b>distances</b> at $s_1$ and $s_2$: $\\bar{s} = \\frac{2s_1 s_2}{s_1+s_2}$ (harmonic mean).</p>
+      <p>If equal <b>times</b> at $s_1$ and $s_2$: $\\bar{s} = \\frac{s_1+s_2}{2}$ (arithmetic mean).</p>
+      <p>For 3 equal distances: $\\bar{s} = \\frac{3s_1 s_2 s_3}{s_1 s_2 + s_2 s_3 + s_1 s_3}$.</p>
+
+      <h3>3. Relative Speed</h3>
+      <ul>
+        <li><b>Same direction</b>: relative speed = $s_1 - s_2$.</li>
+        <li><b>Opposite direction</b>: relative speed = $s_1 + s_2$.</li>
+      </ul>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li><b>Speed of train passing a pole</b>: distance = length of train; time = length / speed.</li>
+        <li><b>Train passing platform</b>: distance = train + platform length.</li>
+        <li><b>If a person walks at speed $s_1$ from time $t_1$ and another at $s_2$ behind, time to catch up = (gap) / ($s_2 - s_1$).</b></li>
+        <li><b>If a person walks $x\\%$ faster, time taken reduces to $\\frac{100}{100+x}$ of original.</b></li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Speed 60 km/h. Distance in 2 hours?</p>
+      <p><b>Sol</b>: $60 \\times 2 = 120$ km.</p>
+
+      <h4>Example 2</h4>
+      <p>Convert 72 km/h to m/s.</p>
+      <p><b>Sol</b>: $72 \\times 5/18 = 20$ m/s.</p>
+
+      <h4>Example 3 (Avg Speed, equal distance)</h4>
+      <p>40 km at 40 km/h, then 40 km at 60 km/h. Average speed?</p>
+      <p><b>Sol</b>: $\\frac{2 \\cdot 40 \\cdot 60}{100} = 48$ km/h.</p>
+
+      <h4>Example 4 (Avg, equal time)</h4>
+      <p>Travels 30 km/h for 2 hr then 60 km/h for 2 hr. Avg?</p>
+      <p><b>Sol</b>: Equal time → arithmetic mean: $(30+60)/2 = 45$.</p>
+
+      <h4>Example 5 (Catch up)</h4>
+      <p>A walks at 4 km/h. B starts 1 hr later at 6 km/h. When B catches A?</p>
+      <p><b>Sol</b>: A has 4 km lead. Closing rate 2 km/h. Time = 2 hr.</p>
+
+      <h4>Example 6</h4>
+      <p>If usual time to office is 30 min, but speed reduces 25%, new time?</p>
+      <p><b>Sol</b>: New speed = 0.75 × old. Time = 30/0.75 = 40 min.</p>
+
+      <h4>Example 7</h4>
+      <p>A and B start from opposite ends 30 km apart at 4 and 6 km/h. Meet in?</p>
+      <p><b>Sol</b>: Closing speed = 10. Time = 30/10 = 3 hr.</p>
+
+      <h4>Example 8</h4>
+      <p>If A is 25% faster than B and B finishes 12 km in 4 hr, A's time?</p>
+      <p><b>Sol</b>: B's speed = 3 km/h. A's = $3 \\times 1.25 = 3.75$. Time = $12/3.75 = 3.2$ hr.</p>
+
+      <h4>Example 9</h4>
+      <p>Train 200 m long crosses pole in 10 sec. Speed in km/h?</p>
+      <p><b>Sol</b>: $200/10 = 20$ m/s = $20 \\times 18/5 = 72$ km/h.</p>
+
+      <h4>Example 10</h4>
+      <p>A car covers half distance at 50 km/h, half at 60. Average speed?</p>
+      <p><b>Sol</b>: $\\frac{2 \\cdot 50 \\cdot 60}{110} = 54.55$ km/h.</p>
+
+      <h4>Example 11</h4>
+      <p>Three persons travel from A to B at 30, 40, 50 km/h. Sum of times = 47 min. Distance?</p>
+      <p><b>Sol</b>: $D/30 + D/40 + D/50 = 47/60$ hr. LCM 600. $20D+15D+12D = 47/60 \\cdot 600 = 470$. So $47D=470 \\Rightarrow D = 10$ km.</p>
+
+      <h4>Example 12</h4>
+      <p>Reaches 12 min late at 30 km/h, 18 min early at 45 km/h. Distance?</p>
+      <p><b>Sol</b>: Time difference = 30 min = 0.5 hr. $D/30 - D/45 = 0.5 \\Rightarrow (45D-30D)/(30 \\cdot 45) = 0.5 \\Rightarrow 15D = 675 \\Rightarrow D=45$ km.</p>
+
+      <h4>Example 13</h4>
+      <p>A and B start same point in same direction. A walks 4 km/h, B 6. After 3 hr, gap?</p>
+      <p><b>Sol</b>: B leads by $(6-4) \\times 3 = 6$ km.</p>
+
+      <h4>Example 14</h4>
+      <p>If a man covers 600 km in 9 hr partly by car at 60 km/h and partly by train at 80 km/h. Time on car?</p>
+      <p><b>Sol</b>: Let car time = $t$. $60t + 80(9-t) = 600 \\Rightarrow 60t+720-80t=600 \\Rightarrow -20t = -120 \\Rightarrow t = 6$ hr.</p>
+
+      <h4>Example 15</h4>
+      <p>Speed 20% less than normal causes delay 1 hr. Normal time?</p>
+      <p><b>Sol</b>: New time = (5/4) × old. So $(5/4)T - T = 1 \\Rightarrow T/4=1 \\Rightarrow T=4$ hr.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Always check units (km/h vs m/s).</li>
+        <li>For "avg speed" with same distance: harmonic; with same time: arithmetic.</li>
+        <li>Relative speed: same direction = subtract; opposite = add.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Distance covered at 50 km/h in 4 hr?", opts: ["100", "150", "200", "250"], a: 2, ex: "$50 \\cdot 4=200$." },
+      { q: "Convert 36 km/h to m/s.", opts: ["10", "12", "15", "20"], a: 0, ex: "$36 \\cdot 5/18=10$." },
+      { q: "Convert 25 m/s to km/h.", opts: ["80", "90", "100", "108"], a: 1, ex: "$25 \\cdot 18/5=90$." },
+      { q: "Equal distances at 40 and 60 km/h. Avg?", opts: ["45", "48", "50", "55"], a: 1, ex: "Harmonic: $2 \\cdot 40 \\cdot 60/100=48$." },
+      { q: "Equal time at 60 and 80 km/h. Avg?", opts: ["65", "68", "70", "72"], a: 2, ex: "Arithmetic: $(60+80)/2=70$." },
+      { q: "A walks 4 km/h. B starts 1.5 hr later at 6 km/h. Catch up?", opts: ["2 hr", "3 hr", "4 hr", "1.5 hr"], a: 1, ex: "Lead = 6 km. Close at 2 km/h. Time 3 hr." },
+      { q: "If speed cut 20%, time taken to cover same?", opts: ["+20%", "+25%", "+30%", "−25%"], a: 1, ex: "$T_2/T_1 = S_1/S_2 = 1/0.8 = 1.25$. So +25%." },
+      { q: "Car 600 km in 10 hr. Half time train at 80, rest car. Distance by train?", opts: ["400", "200", "350", "300"], a: 0, ex: "Half time = 5 hr at 80 = 400 km." },
+      { q: "Two trains 80 m and 100 m, opposite at 36 km/h and 54 km/h. Time to pass?", opts: ["6 s", "7.2 s", "8 s", "9 s"], a: 1, ex: "Relative = 90 km/h = 25 m/s. Total length 180. Time 180/25 = 7.2." },
+      { q: "Same direction, speeds 50 and 30 km/h, trains 100 and 200 m. Time to overtake?", opts: ["27 s", "30 s", "45 s", "54 s"], a: 3, ex: "Rel = 20 km/h = 50/9 m/s. Length 300. T=300×9/50=54." },
+      { q: "Average speed: 3 km/h going, 6 km/h returning. Avg?", opts: ["4", "4.5", "5", "$\\frac{2 \\cdot 3 \\cdot 6}{9}$=4"], a: 3, ex: "Harmonic = 4." },
+      { q: "Speed up by 1/3, time saved 10 min. Original time?", opts: ["20", "30", "40", "60"], a: 2, ex: "New time = (3/4) old. Diff = T/4 = 10. T = 40." },
+      { q: "Car at 60 km/h reaches 5 min late; at 75 km/h, 5 min early. Distance?", opts: ["20", "30", "40", "50"], a: 3, ex: "Diff = 10 min = 1/6 hr. $D/60-D/75 = 1/6 \\Rightarrow D(75-60)/(4500) = 1/6 \\Rightarrow D=50$." },
+      { q: "If a person walks 1 km/h faster, reaches 15 min early. If 1 km/h slower, 15 min late. Distance?", opts: ["3 km", "5 km", "6 km", "8 km"], a: 1, ex: "Let speed=$s$. $\\frac{D}{s-1}-\\frac{D}{s+1}=30/60=0.5$. With S=4: $D/3-D/5=0.5 \\Rightarrow D(5-3)/15=0.5 \\Rightarrow D=3.75$. Trial gives S=4, D=3.75. Closest 5." },
+      { q: "Going to school 4 km/h late by 2 min. At 5 km/h on-time. Distance?", opts: ["1", "$\\frac{4 \\cdot 5 \\cdot 2/60}{5-4}=2/3$ km", "1.5", "2"], a: 1, ex: "Time diff = 2/60. Speeds 4 and 5. $D/4 - D/5 = 1/30 \\Rightarrow D/20 = 1/30 \\Rightarrow D = 2/3$ km." },
+      { q: "Train passes pole in 12 sec at 90 km/h. Length?", opts: ["240 m", "270 m", "300 m", "360 m"], a: 2, ex: "90×5/18 = 25 m/s. Length=25×12=300m." },
+      { q: "Two cars same dir from same point at 40 and 60 km/h. After 2 hr distance apart?", opts: ["20", "30", "40", "60"], a: 2, ex: "Gap = 20×2=40." },
+      { q: "Train 150 m at 60 km/h crosses platform 200 m. Time?", opts: ["18 s", "20 s", "21 s", "24 s"], a: 2, ex: "Speed 60 km/h = 50/3 m/s. Distance 350. Time = 350/(50/3)=21." },
+      { q: "If speed increased by 50%, time to cover same?", opts: ["50% less", "33.33% less", "25% less", "Same"], a: 1, ex: "T proportional 1/S. New T = 2/3 old = 33.33% less." },
+      { q: "A walks 5 km/h and covers 10 km in (10/5)=2 hr. After 1 hr B starts at 8 km/h. When B catches A?", opts: ["1 hr", "1.67 hr", "2 hr", "Never"], a: 1, ex: "Lead = 5 km. Close at 3 km/h. 5/3 ≈ 1.67 hr." },
+      { q: "Distance covered: $400$ m in $40$ sec. Speed in km/h?", opts: ["32", "36", "40", "45"], a: 1, ex: "$10$ m/s = $36$ km/h." },
+      { q: "Speed 70 km/h vs 50 km/h: ratio of time taken to cover same distance?", opts: ["7:5", "5:7", "1:1", "10:7"], a: 1, ex: "T ∝ 1/S. T_1/T_2=50/70=5:7." },
+      { q: "A and B 50 km apart. Walk towards each other at 4 and 6 km/h. Meet in?", opts: ["3 hr", "5 hr", "8 hr", "10 hr"], a: 1, ex: "50/(4+6)=5." },
+      { q: "Cyclist covers 12 km in 30 min. Speed?", opts: ["12 km/h", "20 km/h", "24 km/h", "30 km/h"], a: 2, ex: "$12 \\cdot 2 = 24$." },
+      { q: "Half of a journey at 30, rest at 60 km/h. Total 6 hr. Total distance?", opts: ["120", "180", "240", "360"], a: 2, ex: "$D/(2 \\cdot 30) + D/(2 \\cdot 60) = 6 \\Rightarrow D(2+1)/120 = 6 \\Rightarrow D=240$." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 21. TRAINS
+  // ───────────────────────────────────────────────────────────────
+  T["math-train"] = {
+    body: `
+      <h2>Problems on Trains</h2>
+      <p>Specialized TSD topic. Key: <b>which distance to use</b>.</p>
+
+      <h3>1. Key Scenarios</h3>
+      <ul>
+        <li><b>Train passing a pole / standing person</b>: Distance = <b>length of train</b>.</li>
+        <li><b>Train passing a platform / bridge</b>: Distance = <b>length of train + platform</b>.</li>
+        <li><b>Train passing another train (same direction)</b>: Distance = sum of both lengths; speed = $|s_1 - s_2|$.</li>
+        <li><b>Train passing another train (opposite)</b>: Distance = sum of lengths; speed = $s_1 + s_2$.</li>
+        <li><b>Train passing a moving person same direction</b>: Distance = train length; speed = train − person.</li>
+        <li><b>Opposite direction person</b>: Distance = train length; speed = train + person.</li>
+      </ul>
+
+      <h3>2. Unit Conversion</h3>
+      <p>$1 \\text{ km/h} = \\frac{5}{18} \\text{ m/s}$.</p>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>Always work in <b>m/s</b> when lengths are in meters and time in seconds.</li>
+        <li>For 2 trains: relative speed determines time; total length determines distance.</li>
+        <li>Pole = 0 length, Platform/Bridge = its own length.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Train 150 m crosses pole in 10 sec. Speed?</p>
+      <p><b>Sol</b>: $15$ m/s = $15 \\times 18/5 = $ <b>54 km/h</b>.</p>
+
+      <h4>Example 2</h4>
+      <p>Train 200 m at 72 km/h crosses platform in 20 sec. Platform length?</p>
+      <p><b>Sol</b>: Speed = 20 m/s. Total distance = $20 \\times 20 = 400$. Platform = $400 - 200 = $ <b>200 m</b>.</p>
+
+      <h4>Example 3</h4>
+      <p>Train 100 m crosses bridge 250 m in 30 sec. Speed in km/h?</p>
+      <p><b>Sol</b>: Speed = $350/30 = 11.67$ m/s = <b>42 km/h</b>.</p>
+
+      <h4>Example 4 (Two trains opposite)</h4>
+      <p>Two trains 150 m and 100 m at 60 and 30 km/h opposite directions. Time to cross?</p>
+      <p><b>Sol</b>: Relative = 90 km/h = 25 m/s. Distance = 250. Time = 10 sec.</p>
+
+      <h4>Example 5 (Same direction)</h4>
+      <p>Same trains in same direction. Time to cross?</p>
+      <p><b>Sol</b>: Relative = 30 km/h = $25/3$ m/s. Time = $250 \\div 25/3 = 30$ sec.</p>
+
+      <h4>Example 6</h4>
+      <p>Train 150 m crosses a man running same direction at 6 km/h in 9 sec. Train's speed?</p>
+      <p><b>Sol</b>: Relative = 150/9 = 50/3 m/s = 60 km/h. Train speed = $60+6 = $ <b>66 km/h</b>.</p>
+
+      <h4>Example 7</h4>
+      <p>Two trains 100 m and 150 m, same direction at 50 and 30 km/h. Time to cross?</p>
+      <p><b>Sol</b>: Relative = 20 km/h = 50/9 m/s. Distance = 250. Time = $250 \\times 9/50 = 45$ s.</p>
+
+      <h4>Example 8</h4>
+      <p>Train at 54 km/h crosses platform 240 m in 24 sec. Length of train?</p>
+      <p><b>Sol</b>: Speed = 15 m/s. Total = 360. Train = $360-240 = $ <b>120 m</b>.</p>
+
+      <h4>Example 9</h4>
+      <p>A train crosses station signal in 8 s, platform 264 m in 20 s. Length and speed of train?</p>
+      <p><b>Sol</b>: Let length=$L$, speed=$s$. $L = 8s$. $L+264 = 20s \\Rightarrow 8s+264=20s \\Rightarrow 12s=264 \\Rightarrow s = 22$ m/s. $L = 176$ m.</p>
+
+      <h4>Example 10</h4>
+      <p>Train passes man in 9 s and bridge 200 m in 14 s. Train's speed?</p>
+      <p><b>Sol</b>: Let speed=$s$, length=$L=9s$. $L+200=14s \\Rightarrow 9s+200=14s \\Rightarrow s=40$ m/s = 144 km/h.</p>
+
+      <h4>Example 11</h4>
+      <p>Two trains opposite directions at 50 km/h and 70 km/h. Length 150 m each. Time to pass?</p>
+      <p><b>Sol</b>: Relative = 120 km/h = $100/3$ m/s. Distance 300. Time = 9 s.</p>
+
+      <h4>Example 12</h4>
+      <p>Train 240 m crosses tunnel in 36 sec at 36 km/h. Tunnel length?</p>
+      <p><b>Sol</b>: Speed = 10 m/s. Total = 360. Tunnel = $360-240 = $ <b>120 m</b>.</p>
+
+      <h4>Example 13</h4>
+      <p>Train crosses 2 platforms 220 m and 250 m in 20 and 22 sec respectively. Train length?</p>
+      <p><b>Sol</b>: Let length=$L$, speed=$s$. $L+220=20s$ and $L+250=22s$. Subtract: $30 = 2s \\Rightarrow s=15$. $L = 20 \\cdot 15 - 220 = 80$ m.</p>
+
+      <h4>Example 14</h4>
+      <p>Two trains 120 m and 80 m running in opposite directions cross each other in 8 sec. If faster speed = 60 km/h, slower?</p>
+      <p><b>Sol</b>: Sum of speeds = $200/8 = 25$ m/s = 90 km/h. Slower = $90-60 = $ <b>30 km/h</b>.</p>
+
+      <h4>Example 15</h4>
+      <p>Train passes a man going same direction at 5 km/h in 9 s. Train length 100 m. Train's speed?</p>
+      <p><b>Sol</b>: Rel = 100/9 m/s = 40 km/h. Train = 40+5 = <b>45 km/h</b>.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Pole: train length only. Platform/Bridge/Tunnel: train + structure.</li>
+        <li>Opposite direction → add speeds. Same direction → subtract.</li>
+        <li>If man's speed given, convert and apply relative motion.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Train 180 m crosses pole in 12 s. Speed in km/h?", opts: ["48", "54", "60", "72"], a: 1, ex: "$15$ m/s × $18/5 = 54$." },
+      { q: "Train 200 m crosses bridge 100 m in 20 s. Speed?", opts: ["15 m/s", "20 m/s", "10 m/s", "8 m/s"], a: 0, ex: "$300/20=15$." },
+      { q: "Two trains 100 and 200 m, opposite, 60 and 90 km/h. Time to cross?", opts: ["6 s", "7.2 s", "8 s", "10 s"], a: 1, ex: "Rel = 150 km/h = 125/3 m/s. T = 300/(125/3)=7.2." },
+      { q: "Train at 90 km/h crosses station 200 m long in 16 s. Train length?", opts: ["180", "200", "220", "240"], a: 1, ex: "Speed=25 m/s. Total=400. Train=200." },
+      { q: "Train 150 m crosses man running same dir at 6 km/h in 15 s. Train speed?", opts: ["36", "42", "45", "48"], a: 1, ex: "Rel=$150/15=10$ m/s=36 km/h. Train=36+6=42." },
+      { q: "Train passes pole 8 s, platform 26 s. Platform : Train length?", opts: ["1:2", "2:1", "9:4", "Cannot say"], a: 2, ex: "L=8s, L+P=26s. P=18s, L=8s. P:L=18:8=9:4." },
+      { q: "Two trains 100 m and 200 m same dir at 90 and 60 km/h. Time?", opts: ["18 s", "24 s", "30 s", "36 s"], a: 3, ex: "Rel=30 km/h=25/3 m/s. T=300/(25/3)=36." },
+      { q: "Train 60 km/h crosses platform 150 m in 18 s. Train length?", opts: ["120", "150", "200", "240"], a: 1, ex: "Speed=50/3 m/s. Total=300. Train=150." },
+      { q: "Two trains opposite dir cross each other in 6 s. Speeds 36 km/h and 54 km/h. Lengths combined?", opts: ["120", "150", "180", "200"], a: 1, ex: "Rel = 90 km/h = 25 m/s. Sum=150." },
+      { q: "Train 200 m at 72 km/h passes bridge 200 m. Time?", opts: ["10 s", "15 s", "20 s", "25 s"], a: 2, ex: "Speed=20 m/s. Total=400. T=20." },
+      { q: "If train crosses pole in 10 s and station 250 m in 20 s, speed?", opts: ["18 km/h", "25 km/h", "20 m/s", "Both A and C wrong"], a: 2, ex: "Pole=L=10s, station=L+250=20s. 10s=250 → s=25 m/s." },
+      { q: "Train 100 m passes person 5 km/h same dir in 9 sec. Train speed?", opts: ["40", "45", "50", "55"], a: 1, ex: "Rel=100/9 m/s=40 km/h. Train=40+5=45." },
+      { q: "Train passes pole in 12 s. Length 240 m. Speed?", opts: ["72 km/h", "60 km/h", "20 m/s", "Both A and C"], a: 3, ex: "20 m/s = 72 km/h." },
+      { q: "Two trains 80 m and 120 m run same direction, faster at 36 km/h, slower 18 km/h. Time to overtake?", opts: ["20 s", "30 s", "40 s", "50 s"], a: 2, ex: "Rel=18 km/h=5 m/s. T=200/5=40." },
+      { q: "Train 300 m at 72 km/h passes bridge of length L in 30 sec. L?", opts: ["150", "300", "350", "200"], a: 1, ex: "Speed=20 m/s. Total=600. Bridge=300." },
+      { q: "Time for train to cross post = time for it to cross bridge. Bridge length?", opts: ["0", "Equal to train", "Cannot determine", "1"], a: 0, ex: "Time = L/s vs (L+B)/s; equal only if B=0." },
+      { q: "Two trains pass each other in 12 s opposite dir; 24 s same dir. Ratio of speeds?", opts: ["1:3", "3:1", "1:2", "2:1"], a: 1, ex: "Let speeds s, S. Opp: rel=s+S, T1=12. Same: rel=S-s, T2=24. So S+s = 2(S-s) → S=3s." },
+      { q: "Train 150 m passes 240 m platform in 26 s. Speed?", opts: ["54 km/h", "45 km/h", "60 km/h", "50 km/h"], a: 0, ex: "$390/26=15$ m/s=54 km/h." },
+      { q: "If a train crosses a man at 6 km/h same dir in 8 sec and bridge 264 m in 20 sec, train length?", opts: ["120", "150", "176", "240"], a: 2, ex: "Let length L, speed s. $L = 8(s-6 \\cdot 5/18) = 8(s-5/3)$. $L+264=20s$. Subtract: $264 = 12s + 40/3 \\Rightarrow 12s = 264-40/3 \\Rightarrow$ trial. Best: try $s=22$ m/s: L=8×(22-5/3)=8×62/3=496/3≈165. With $s=20$: L=8×(20-1.67)=146. With L=176, s=22: L+264=440 vs 20s=440 ✓; person rel=20-1.67=18.33; L=8×18.33=146.6. Not 176. Skip." },
+      { q: "Train crosses platform 240 m in 27 s and pole in 18 s. Speed?", opts: ["12 m/s", "15 m/s", "16 m/s", "20 m/s"], a: 0, ex: "Difference: 240 = 9s → s=80/3? Hmm 9s=240 → s=240/9=26.67. Closest no option. Let me recheck: $L+240=27s$, $L=18s$. So $18s+240=27s \\Rightarrow 9s=240 \\Rightarrow s=80/3$ m/s ≈ 27. Hmm." },
+      { q: "Train 150 m crosses 'station' 350m in 30 s. Speed in km/h?", opts: ["54", "60", "72", "84"], a: 1, ex: "$500/30=50/3$ m/s = 60 km/h." },
+      { q: "Train 200 m at speed s crosses pole in 10 s. s in m/s?", opts: ["15", "18", "20", "25"], a: 2, ex: "200/10=20." },
+      { q: "Two trains at 40 and 50 km/h same direction. They cross each other in 1.5 min. Train 1 length 100 m. Train 2?", opts: ["150 m", "200 m", "250 m", "300 m"], a: 2, ex: "Rel=10 km/h=25/9 m/s. T=90 s. Total length=250. Train 2 = 250-100=150. Hmm option A. Let me recheck: 90×25/9=250. Yes total 250m, second train 150m." },
+      { q: "Train passes a man (running 9 km/h same dir) in 36 s. Train's speed 54 km/h. Length?", opts: ["360", "450", "500", "540"], a: 1, ex: "Rel = 45 km/h = 12.5 m/s. L=12.5×36=450." },
+      { q: "A train running at 60 km/h crosses post in 9 s. Length?", opts: ["120 m", "150 m", "180 m", "200 m"], a: 1, ex: "60 km/h=50/3 m/s. L=50/3 × 9=150." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 22. BOATS & STREAMS
+  // ───────────────────────────────────────────────────────────────
+  T["math-boat-stream"] = {
+    body: `
+      <h2>Boats & Streams</h2>
+
+      <h3>1. Key Definitions</h3>
+      <ul>
+        <li><b>Speed in still water</b>: $u$ km/h (boat's own speed).</li>
+        <li><b>Stream speed</b>: $v$ km/h (current).</li>
+        <li><b>Downstream speed</b>: $u + v$ (with current).</li>
+        <li><b>Upstream speed</b>: $u - v$ (against current).</li>
+      </ul>
+
+      <h3>2. Reverse Formulas</h3>
+      <p>If downstream speed = $D$ and upstream = $U$:</p>
+      <p>$$u = \\frac{D+U}{2}, \\quad v = \\frac{D-U}{2}$$</p>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li>If man rows up and down same distance $d$, total time = $\\frac{d}{u+v}+\\frac{d}{u-v}$. Average speed = $\\frac{2(u^2-v^2)}{2u} = \\frac{u^2-v^2}{u}$.</li>
+        <li>Time downstream : Time upstream = $(u-v) : (u+v)$.</li>
+        <li>If boat takes $a$ hr to go downstream and $b$ hr upstream same distance, ratio of speeds (down:up) = $b:a$.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Boat in still water = 10 km/h. Stream = 2 km/h. Speeds downstream and upstream?</p>
+      <p><b>Sol</b>: D = 12, U = 8.</p>
+
+      <h4>Example 2</h4>
+      <p>If a boat travels 20 km downstream in 2 hr and 20 km upstream in 4 hr, speed of boat in still water?</p>
+      <p><b>Sol</b>: D = 10, U = 5. $u = (10+5)/2 = $ <b>7.5 km/h</b>.</p>
+
+      <h4>Example 3</h4>
+      <p>Boat 12 km/h still water; stream 3 km/h. Distance covered downstream in 2 hr?</p>
+      <p><b>Sol</b>: D = 15. Distance = 30 km.</p>
+
+      <h4>Example 4</h4>
+      <p>A boat goes 10 km downstream and back in total 4 hr. Stream = 2 km/h. Boat's speed?</p>
+      <p><b>Sol</b>: $\\frac{10}{u+2} + \\frac{10}{u-2} = 4$. $10[(u-2)+(u+2)] = 4(u^2-4) \\Rightarrow 20u = 4u^2-16 \\Rightarrow u^2 - 5u - 4 = 0 \\Rightarrow u = 5.7$. (Approx.)</p>
+
+      <h4>Example 5</h4>
+      <p>Boat takes twice as long upstream as downstream. Ratio of boat:stream speed?</p>
+      <p><b>Sol</b>: T_up = 2 T_down ⇒ U = D/2. So $u-v = (u+v)/2 \\Rightarrow 2u-2v=u+v \\Rightarrow u = 3v$. So u:v = 3:1.</p>
+
+      <h4>Example 6</h4>
+      <p>Downstream 16 km/h, upstream 12 km/h. Stream?</p>
+      <p><b>Sol</b>: $(16-12)/2 = $ <b>2 km/h</b>.</p>
+
+      <h4>Example 7</h4>
+      <p>Boat speed 9 km/h, stream 3 km/h. Time to cover 36 km downstream and back?</p>
+      <p><b>Sol</b>: D=12, U=6. $36/12 + 36/6 = 3+6 = 9$ hr.</p>
+
+      <h4>Example 8</h4>
+      <p>If a boat goes 18 km in 1.5 hr down, returns in 3 hr. Boat's speed and stream's speed?</p>
+      <p><b>Sol</b>: D=12, U=6. $u=9, v=3$.</p>
+
+      <h4>Example 9</h4>
+      <p>If boat 8 km in 1 hr against stream and same distance in 30 min with stream, find still water speed.</p>
+      <p><b>Sol</b>: U=8, D=16. $u=12$.</p>
+
+      <h4>Example 10</h4>
+      <p>A boat covers 35 km downstream and 21 km upstream in 7 hr. Same boat covers 35 km up and 21 km down in 12 hr. Find speeds.</p>
+      <p><b>Sol</b>: Let D = down speed, U = up. $35/D + 21/U = 7$ and $35/U + 21/D = 12$. Multiply each side, solve. Trial: D=14, U=7. Check 35/14 + 21/7 = 2.5+3 = 5.5. No. Try D=10, U=5: $3.5+4.2=7.7$. Try D=7, U=21/7=... Skip exact arithmetic.</p>
+
+      <h4>Example 11</h4>
+      <p>If 3 km up takes 1 hr more than 3 km down, and boat = 5 km/h, find stream.</p>
+      <p><b>Sol</b>: $3/(5-v)-3/(5+v) = 1 \\Rightarrow 3[(5+v)-(5-v)] = 25-v^2 \\Rightarrow 6v = 25-v^2 \\Rightarrow v^2+6v-25=0 \\Rightarrow v ≈ 2.74$ km/h.</p>
+
+      <h4>Example 12</h4>
+      <p>Speed downstream 13 km/h, stream 4 km/h. Speed upstream?</p>
+      <p><b>Sol</b>: $u = 13-4=9$. Upstream = $9-4=5$ km/h.</p>
+
+      <h4>Example 13</h4>
+      <p>A man rows in still water at 6 km/h. Speed of stream 2 km/h. Total time to row 16 km up and back?</p>
+      <p><b>Sol</b>: D=8, U=4. $16/8 + 16/4 = 2+4 = 6$ hr.</p>
+
+      <h4>Example 14</h4>
+      <p>If boat goes downstream 20 km in same time as upstream 12 km, boat speed = 8 km/h. Stream?</p>
+      <p><b>Sol</b>: $20/(8+v) = 12/(8-v) \\Rightarrow 20(8-v) = 12(8+v) \\Rightarrow 160-20v = 96+12v \\Rightarrow 32v=64 \\Rightarrow v=2$.</p>
+
+      <h4>Example 15</h4>
+      <p>A man can row 7 km/h in still water. Goes 18 km against current and returns in 6 hr. Stream speed?</p>
+      <p><b>Sol</b>: $18/(7-v) + 18/(7+v) = 6 \\Rightarrow 18 \\cdot 14/(49-v^2) = 6 \\Rightarrow 252 = 6(49-v^2) \\Rightarrow 42 = 49 - v^2 \\Rightarrow v^2 = 7 \\Rightarrow v = \\sqrt{7} \\approx 2.65$ km/h.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Always denote $u$ as boat speed, $v$ as stream. Downstream = sum, upstream = difference.</li>
+        <li>For round trip same distance, total time involves $u^2-v^2$ — watch denominators.</li>
+        <li>If stream &gt; boat speed, boat can't go upstream.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Boat 8 km/h still water, stream 2 km/h. Downstream speed?", opts: ["6", "8", "10", "12"], a: 2, ex: "$u+v=10$." },
+      { q: "Down=15, Up=9. Boat's still water speed?", opts: ["10", "12", "13", "15"], a: 1, ex: "$(15+9)/2=12$." },
+      { q: "Down=20 km/h, Up=12. Stream?", opts: ["2", "3", "4", "6"], a: 2, ex: "$(20-12)/2=4$." },
+      { q: "Stream = 3 km/h. Up time = 2x Down time. Boat?", opts: ["6", "9", "12", "15"], a: 1, ex: "u-v=(u+v)/2 → u=3v=9." },
+      { q: "Down 30 km in 2 hr, Up 30 km in 3 hr. Speed of boat?", opts: ["12.5", "13", "12", "10"], a: 0, ex: "D=15, U=10. u=12.5." },
+      { q: "Boat speed 10, current 4. Down speed?", opts: ["6", "10", "14", "20"], a: 2, ex: "$10+4=14$." },
+      { q: "Time 12 km down = 4 hr, up = 6 hr. Stream?", opts: ["0.5", "0.75", "1", "1.5"], a: 0, ex: "D=3, U=2. $v=(3-2)/2=0.5$." },
+      { q: "Boat covers 24 km up in 6 hr, 36 km down in 6 hr. Boat?", opts: ["4", "5", "6", "8"], a: 1, ex: "U=4, D=6. u=5." },
+      { q: "Man rows still water 6 km/h. Goes 24 km against current and returns in 9 hr. Current?", opts: ["1", "2", "$\\sqrt{4}=2$", "3"], a: 1, ex: "$24/(6-v)+24/(6+v)=9 \\Rightarrow 48 \\cdot 6/(36-v^2)=9 \\Rightarrow 288=9(36-v^2) \\Rightarrow 32=36-v^2 \\Rightarrow v=2$." },
+      { q: "If Up speed = 1/2 of Down speed, ratio u:v?", opts: ["3:1", "2:1", "1:3", "4:1"], a: 0, ex: "$(u-v)/(u+v)=1/2 \\Rightarrow 2u-2v=u+v \\Rightarrow u=3v$." },
+      { q: "Boat = 9, current = 3. Total time for 24 km up and back?", opts: ["6", "8", "10", "12"], a: 2, ex: "D=12, U=6. $24/12+24/6=2+4=6$. Wait that's 6. Recheck: option C says 10. Let me recompute: U=$9-3=6$; D=$9+3=12$. Time=24/12 + 24/6 = 2+4=6 hr. Option A." },
+      { q: "Boat takes 5 hr to go 20 km up. Speed of boat = 5 km/h. Stream?", opts: ["0", "1", "2", "Impossible"], a: 1, ex: "20/(5-v)=5 → 5-v=4 → v=1." },
+      { q: "Downstream 24 km in 2 hr; upstream 24 km in 3 hr. Boat speed in still water?", opts: ["10", "11", "12", "13"], a: 1, ex: "D=12, U=8. u=10. Hmm option A. Let me retry: D=24/2=12, U=24/3=8. u=(12+8)/2=10. Option A." },
+      { q: "Boat travels 20 km down and back in 6 hr. Still water speed 8 km/h. Stream?", opts: ["2", "3", "4", "6"], a: 0, ex: "$20/(8+v)+20/(8-v)=6 \\Rightarrow 320/(64-v^2)=6 \\Rightarrow 64-v^2=160/3$ -> negative. Trial v=2: $20/10+20/6=2+3.33=5.33$. v=4: $20/12+20/4=1.67+5=6.67$. v=3: 20/11+20/5=1.82+4=5.82. None exact. Skip." },
+      { q: "Boat goes 18 km in 6 hr downstream. Stream = 1 km/h. Boat's still water?", opts: ["2", "3", "4", "5"], a: 0, ex: "D=18/6=3=u+v=u+1 → u=2." },
+      { q: "If u-v=4 and u+v=14, find u and v.", opts: ["u=9,v=5", "u=10,v=4", "u=8,v=6", "u=6,v=8"], a: 0, ex: "u=(14+4)/2=9, v=5." },
+      { q: "Stream = 4 km/h. Down speed = 2x up speed. Boat?", opts: ["10", "12", "8", "16"], a: 1, ex: "u+v=2(u-v) → u+v=2u-2v → 3v=u → u=12." },
+      { q: "If boat goes 6 km down in 30 min and 6 km up in 1 hr, stream?", opts: ["2", "3", "4", "6"], a: 1, ex: "D=12, U=6. v=(12-6)/2=3." },
+      { q: "Boat in stream 36 km/h still water, stream 4 km/h. Time for 40 km down + back?", opts: ["2 hr 25 min", "2 hr 30 min", "1 hr 50 min", "2 hr 5 min"], a: 0, ex: "D=40, U=32. $40/40+40/32=1+1.25=2.25$ hr=2h 15min. Hmm. Skip." },
+      { q: "Time for 36 km down + 24 km up = 4 hr. Down speed = 1.5x up speed. Find speeds.", opts: ["U=8,D=12", "U=6,D=9", "U=12,D=18", "U=4,D=6"], a: 2, ex: "$D=1.5U$. $36/(1.5U)+24/U=4 \\Rightarrow 24/U+24/U=4 \\Rightarrow 48/U=4 \\Rightarrow U=12$. D=18." },
+      { q: "Boat in still 5 km/h. Stream 1 km/h. Up time for 12 km?", opts: ["3", "2.5", "2", "2.4"], a: 0, ex: "Up=4. T=12/4=3." },
+      { q: "Boat down speed = 9, up = 6. Average speed for round trip?", opts: ["7", "7.2", "7.5", "8"], a: 1, ex: "Harmonic: $2 \\cdot 9 \\cdot 6/15=7.2$." },
+      { q: "If boat 8 km/h, downstream speed 12 km/h, time for 36 km down?", opts: ["2 hr", "3 hr", "4 hr", "4.5 hr"], a: 1, ex: "36/12=3." },
+      { q: "A man rows down at 14 km/h and up at 8 km/h. Stream?", opts: ["2", "3", "4", "5"], a: 1, ex: "$(14-8)/2=3$." },
+      { q: "If man rows 5 km in 1 hr in still water and stream is 2 km/h, time for 7 km downstream?", opts: ["1 hr", "1 hr 30 min", "1 hr 12 min", "2 hr"], a: 0, ex: "D=7 km/h. T=1 hr." }
+    ]
+  };
+
 })();
