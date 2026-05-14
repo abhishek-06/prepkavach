@@ -385,20 +385,20 @@
       <p><b>Solution:</b><br>$a^3+b^3 = (a+b)(a^2-ab+b^2)$.<br>So ratio = $a+b = $ <b>18</b>.</p>
 
       <h4>Example 16: Big Number Identity</h4>
-      <p>$(99)^2 - (98)^2 + (97)^2 - (96)^2 + \cdots + (1)^2$ = ?</p>
-      <p><b>Solution:</b><br>Pair: $$\\begin{aligned} (99^2-98^2) + (97^2-96^2) + \cdots &= 197+193+\cdots+3 \\\\ &=  \\end{aligned}$$ sum of AP with $a=3, d=4, n=50$.<br>$$\\begin{aligned} S &= 50/2 (6 + 49 \cdot 4) \\\\ &= 25 \cdot 202 \\\\ &=  \\end{aligned}$$ <b>5050</b>.</p>
+      <p>$(99)^2 - (98)^2 + (97)^2 - (96)^2 + \\cdots + (1)^2$ = ?</p>
+      <p><b>Solution:</b><br>Pair: $$\\begin{aligned} (99^2-98^2) + (97^2-96^2) + \\cdots &= 197+193+\\cdots+3 \\\\ &=  \\end{aligned}$$ sum of AP with $a=3, d=4, n=50$.<br>$$\\begin{aligned} S &= 50/2 (6 + 49 \\cdot 4) \\\\ &= 25 \\cdot 202 \\\\ &=  \\end{aligned}$$ <b>5050</b>.</p>
 
       <h4>Example 17: Identity Application</h4>
-      <p>If $\frac{x}{y}+\frac{y}{x}=3$, find $\frac{x^2}{y^2}+\frac{y^2}{x^2}$.</p>
-      <p><b>Solution:</b> Square: $\frac{x^2}{y^2}+2+\frac{y^2}{x^2}=9 \Rightarrow $ answer = 7.</p>
+      <p>If $\\frac{x}{y}+\\frac{y}{x}=3$, find $\\frac{x^2}{y^2}+\\frac{y^2}{x^2}$.</p>
+      <p><b>Solution:</b> Square: $\\frac{x^2}{y^2}+2+\\frac{y^2}{x^2}=9 \\Rightarrow $ answer = 7.</p>
 
       <h4>Example 18: Recurring Sum</h4>
-      <p>$\frac{1}{1\cdot 3}+\frac{1}{3\cdot 5}+\cdots+\frac{1}{19\cdot 21}$?</p>
-      <p><b>Solution:</b><br>Each term = $\frac{1}{2}(\frac{1}{n}-\frac{1}{n+2})$.<br>Telescopes to $\frac{1}{2}(1 - 1/21) = 10/21$.</p>
+      <p>$\\frac{1}{1\\cdot 3}+\\frac{1}{3\\cdot 5}+\\cdots+\\frac{1}{19\\cdot 21}$?</p>
+      <p><b>Solution:</b><br>Each term = $\\frac{1}{2}(\\frac{1}{n}-\\frac{1}{n+2})$.<br>Telescopes to $\\frac{1}{2}(1 - 1/21) = 10/21$.</p>
 
       <h4>Example 19: Surd Simplification</h4>
-      <p>$\sqrt{10+\sqrt{24}+\sqrt{60}+\sqrt{40}}$?</p>
-      <p><b>Solution:</b><br>Try $\sqrt{a}+\sqrt{b}+\sqrt{c}$.<br>Square: $a+b+c+2(\sqrt{ab}+\sqrt{bc}+\sqrt{ca}) = 10+\sqrt{24}+\sqrt{60}+\sqrt{40}$.<br>Match: $a+b+c=10$, $\sqrt{ab}=\sqrt{6}, \sqrt{bc}=\sqrt{15}, \sqrt{ca}=\sqrt{10}$.<br>So $ab=6, bc=15, ca=10 \Rightarrow a=2, b=3, c=5$.<br>Sum $\sqrt{2}+\sqrt{3}+\sqrt{5}$.</p>
+      <p>$\\sqrt{10+\\sqrt{24}+\\sqrt{60}+\\sqrt{40}}$?</p>
+      <p><b>Solution:</b><br>Try $\\sqrt{a}+\\sqrt{b}+\\sqrt{c}$.<br>Square: $a+b+c+2(\\sqrt{ab}+\\sqrt{bc}+\\sqrt{ca}) = 10+\\sqrt{24}+\\sqrt{60}+\\sqrt{40}$.<br>Match: $a+b+c=10$, $\\sqrt{ab}=\\sqrt{6}, \\sqrt{bc}=\\sqrt{15}, \\sqrt{ca}=\\sqrt{10}$.<br>So $ab=6, bc=15, ca=10 \\Rightarrow a=2, b=3, c=5$.<br>Sum $\\sqrt{2}+\\sqrt{3}+\\sqrt{5}$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -537,20 +537,20 @@
       <p><b>Solution:</b> Remaining $$\\begin{aligned}  &= \\frac{2}{3} \\times \\frac{3}{4} \\\\ &= \\frac{1}{2} \\end{aligned}$$.</p>
 
       <h4>Example 16: Order of Fractions</h4>
-      <p>Arrange in ascending: $\frac{2}{3}, \frac{3}{4}, \frac{5}{6}, \frac{7}{8}$.</p>
-      <p><b>Solution:</b><br>All $\frac{n}{n+1}$ pattern, increasing.<br>So order as listed (decimals 0.667, 0.75, 0.833, 0.875).</p>
+      <p>Arrange in ascending: $\\frac{2}{3}, \\frac{3}{4}, \\frac{5}{6}, \\frac{7}{8}$.</p>
+      <p><b>Solution:</b><br>All $\\frac{n}{n+1}$ pattern, increasing.<br>So order as listed (decimals 0.667, 0.75, 0.833, 0.875).</p>
 
       <h4>Example 17: Decimal Subtraction</h4>
       <p>$0.6789 - 0.4321 = ?$</p>
       <p><b>Solution:</b> 0.2468.</p>
 
       <h4>Example 18: Repeating Decimal Multiplied</h4>
-      <p>$0.\overline{3} \times 0.\overline{6} = ?$</p>
-      <p><b>Solution:</b> $$\\begin{aligned} (1/3)(2/3) &= 2/9 \\\\ &= 0.\overline{2} \\end{aligned}$$.</p>
+      <p>$0.\\overline{3} \\times 0.\\overline{6} = ?$</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (1/3)(2/3) &= 2/9 \\\\ &= 0.\\overline{2} \\end{aligned}$$.</p>
 
       <h4>Example 19: Mixed-Recurring to Fraction</h4>
-      <p>$0.2\overline{45}$ as fraction?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \frac{245-2}{990} &= \frac{243}{990} \\\\ &= \frac{27}{110} \\end{aligned}$$.</p>
+      <p>$0.2\\overline{45}$ as fraction?</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{245-2}{990} &= \\frac{243}{990} \\\\ &= \\frac{27}{110} \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -687,16 +687,16 @@
       <p><b>Solution:</b> $$\\begin{aligned} 5^{2x} &= 5^4 \\Rightarrow x \\\\ &=  \\end{aligned}$$ <b>2</b>.</p>
 
       <h4>Example 16: Combined Indices</h4>
-      <p>$\sqrt{x} \cdot \sqrt[3]{x^2} = ?$</p>
+      <p>$\\sqrt{x} \\cdot \\sqrt[3]{x^2} = ?$</p>
       <p><b>Solution:</b> $x^{1/2+2/3} = x^{7/6}$.</p>
 
       <h4>Example 17: Surd Equation</h4>
-      <p>If $\sqrt{x-1}+\sqrt{x+1} = 2$, find $x$.</p>
-      <p><b>Solution:</b><br>Square: $$\\begin{aligned} 2x + 2\sqrt{x^2-1} &= 4 \Rightarrow \sqrt{x^2-1} \\\\ &= 2-x \\end{aligned}$$.<br>Square again: $$\\begin{aligned} x^2-1 &= 4-4x+x^2 \Rightarrow 4x \\\\ &= 5 \Rightarrow x \\\\ &= 5/4 \\end{aligned}$$.</p>
+      <p>If $\\sqrt{x-1}+\\sqrt{x+1} = 2$, find $x$.</p>
+      <p><b>Solution:</b><br>Square: $$\\begin{aligned} 2x + 2\\sqrt{x^2-1} &= 4 \\Rightarrow \\sqrt{x^2-1} \\\\ &= 2-x \\end{aligned}$$.<br>Square again: $$\\begin{aligned} x^2-1 &= 4-4x+x^2 \\Rightarrow 4x \\\\ &= 5 \\Rightarrow x \\\\ &= 5/4 \\end{aligned}$$.</p>
 
       <h4>Example 18: Rationalize</h4>
-      <p>$\frac{1}{2-\sqrt{3}}$ rationalized?</p>
-      <p><b>Solution:</b> $\frac{2+\sqrt{3}}{4-3} = 2+\sqrt{3}$.</p>
+      <p>$\\frac{1}{2-\\sqrt{3}}$ rationalized?</p>
+      <p><b>Solution:</b> $\\frac{2+\\sqrt{3}}{4-3} = 2+\\sqrt{3}$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -849,17 +849,17 @@
       <p>If $\\sqrt{x} + \\sqrt{1/x} = 3$, find $x + 1/x$.</p>
       <p><b>Solution:</b> Square: $$\\begin{aligned} x + 2 + 1/x &= 9 \\Rightarrow x+1/x \\\\ &= 7 \\end{aligned}$$.</p>
 
-      <h4>Example 16: Estimate $\sqrt{N}$</h4>
-      <p>Estimate $\sqrt{4900}$.</p>
-      <p><b>Solution:</b> $$\\begin{aligned} 4900 &= 49 \cdot 100 \Rightarrow \sqrt{4900} \\\\ &= 70 \\end{aligned}$$.</p>
+      <h4>Example 16: Estimate $\\sqrt{N}$</h4>
+      <p>Estimate $\\sqrt{4900}$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 4900 &= 49 \\cdot 100 \\Rightarrow \\sqrt{4900} \\\\ &= 70 \\end{aligned}$$.</p>
 
-      <h4>Example 17: Find $x$ in $\sqrt{x}=...$</h4>
-      <p>If $\sqrt{x^2+9}=5$, $x$?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} x^2+9 &= 25 \Rightarrow x \\\\ &= \pm 4 \\end{aligned}$$.</p>
+      <h4>Example 17: Find $x$ in $\\sqrt{x}=...$</h4>
+      <p>If $\\sqrt{x^2+9}=5$, $x$?</p>
+      <p><b>Solution:</b> $$\\begin{aligned} x^2+9 &= 25 \\Rightarrow x \\\\ &= \\pm 4 \\end{aligned}$$.</p>
 
       <h4>Example 18: Cube Root Decimal</h4>
-      <p>$\sqrt[3]{0.064}$?</p>
-      <p><b>Solution:</b> $0.064 = 0.4^3 \Rightarrow 0.4$.</p>
+      <p>$\\sqrt[3]{0.064}$?</p>
+      <p><b>Solution:</b> $0.064 = 0.4^3 \\Rightarrow 0.4$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -994,7 +994,7 @@
 
       <h4>Example 16: 3 Numbers</h4>
       <p>HCF of 24, 36, 60?</p>
-      <p><b>Solution:</b><br>Factors: $24=2^3 \cdot 3, 36=2^2 \cdot 3^2, 60=2^2 \cdot 3 \cdot 5$.<br>HCF=$2^2 \cdot 3=12$.</p>
+      <p><b>Solution:</b><br>Factors: $24=2^3 \\cdot 3, 36=2^2 \\cdot 3^2, 60=2^2 \\cdot 3 \\cdot 5$.<br>HCF=$2^2 \\cdot 3=12$.</p>
 
       <h4>Example 17: Wheel Rotation</h4>
       <p>Two wheels of circumference 12 m and 18 m start together. When do they make the same number of complete rotations?</p>
@@ -1148,7 +1148,7 @@
 
       <h4>Example 16: Pass/Fail Marks</h4>
       <p>A student got 25% marks and failed by 30. Another got 40% and passed with 30 marks more than minimum. Find max marks.</p>
-      <p><b>Solution:</b><br>Let max = $M$, pass = $P$.<br>$0.25M = P - 30$ and $0.40M = P + 30$.<br>Subtract: $0.15M = 60 \Rightarrow M = $ <b>400</b>.</p>
+      <p><b>Solution:</b><br>Let max = $M$, pass = $P$.<br>$0.25M = P - 30$ and $0.40M = P + 30$.<br>Subtract: $0.15M = 60 \\Rightarrow M = $ <b>400</b>.</p>
 
       <h4>Example 17: Reduce/Increase to Original</h4>
       <p>A's salary increases 25%, decreases 20%. Net change?</p>
@@ -1160,11 +1160,11 @@
 
       <h4>Example 19: Two-Stage %</h4>
       <p>A number increases by 20%, then result decreases by 30%. Net?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} 1.20 \times 0.70 &= 0.84 \\\\ &= -16\% \\end{aligned}$$ (16% decrease).</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1.20 \\times 0.70 &= 0.84 \\\\ &= -16\% \\end{aligned}$$ (16% decrease).</p>
 
       <h4>Example 20: Population Backtrack</h4>
       <p>Population now = 12,100 after 2 years of 10% growth. Original?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} P(1.1)^2 &= 12100 \Rightarrow P \\\\ &= 12100/1.21 \\\\ &=  \\end{aligned}$$ <b>10,000</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} P(1.1)^2 &= 12100 \\Rightarrow P \\\\ &= 12100/1.21 \\\\ &=  \\end{aligned}$$ <b>10,000</b>.</p>
 
       <h4>Example 21: Marks Apportion</h4>
       <p>If a student scores 35% marks and gets 175, max marks?</p>
@@ -1172,7 +1172,7 @@
 
       <h4>Example 22: Income-Saving Linked</h4>
       <p>A's income is 25% more than B's. A's expenses 20% more than B's. If A and B save equal amounts, ratio of savings to income?</p>
-      <p><b>Solution:</b><br>Let B's income = 100, A's = 125.<br>Let B's expense = $e$.<br>A's expense = $1.2e$.<br>Saves: B = $100-e$, A = $125-1.2e$.<br>Equal: $$\\begin{aligned} 100-e &= 125-1.2e \Rightarrow 0.2e \\\\ &= 25 \Rightarrow e \\\\ &= 125 \\end{aligned}$$.<br>B savings = $-25$.<br>Negative — adjust assumptions or change interpretation.</p>
+      <p><b>Solution:</b><br>Let B's income = 100, A's = 125.<br>Let B's expense = $e$.<br>A's expense = $1.2e$.<br>Saves: B = $100-e$, A = $125-1.2e$.<br>Equal: $$\\begin{aligned} 100-e &= 125-1.2e \\Rightarrow 0.2e \\\\ &= 25 \\Rightarrow e \\\\ &= 125 \\end{aligned}$$.<br>B savings = $-25$.<br>Negative — adjust assumptions or change interpretation.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1315,23 +1315,23 @@
 
       <h4>Example 16: Discount + Profit</h4>
       <p>An article is marked 50% above CP. After 25% discount, find profit %.</p>
-      <p><b>Solution:</b><br>Let CP=100, MP=150, SP=$150 \times 0.75 = 112.5$.<br>Profit = <b>12.5%</b>.</p>
+      <p><b>Solution:</b><br>Let CP=100, MP=150, SP=$150 \\times 0.75 = 112.5$.<br>Profit = <b>12.5%</b>.</p>
 
       <h4>Example 17: Profit Equal to Loss</h4>
       <p>If selling at ₹200 gives 25% profit, at what price would there be 25% loss?</p>
-      <p><b>Solution:</b><br>CP = $200/1.25 = 160$.<br>For 25% loss: $160 \times 0.75 = $ <b>₹120</b>.</p>
+      <p><b>Solution:</b><br>CP = $200/1.25 = 160$.<br>For 25% loss: $160 \\times 0.75 = $ <b>₹120</b>.</p>
 
       <h4>Example 18: Two-Article Trade</h4>
       <p>If shop sold cycle at 20% loss and got 96, what was CP? If sold at 20% profit, SP would be?</p>
-      <p><b>Solution:</b><br>$CP = 96/0.8 = 120$.<br>SP at 20% profit = $120 \times 1.2 = $ <b>₹144</b>.</p>
+      <p><b>Solution:</b><br>$CP = 96/0.8 = 120$.<br>SP at 20% profit = $120 \\times 1.2 = $ <b>₹144</b>.</p>
 
       <h4>Example 19: Dishonest Dealer (False Weight)</h4>
       <p>A dealer uses 850g instead of 1000g and sells at CP. % gain?</p>
-      <p><b>Solution:</b> Gain = $\frac{150}{850} \times 100 = $ <b>17.65%</b>.</p>
+      <p><b>Solution:</b> Gain = $\\frac{150}{850} \\times 100 = $ <b>17.65%</b>.</p>
 
       <h4>Example 20: SP with multiple losses</h4>
       <p>Buying ₹100 articles 12 dozen and selling at ₹125 per dozen — profit % on whole?</p>
-      <p><b>Solution:</b><br>12 dozen = 144.<br>Total CP = $144 \times 100/12 = 1200$? Wait — buying at ₹100 per dozen → 12 dozen → ₹1200.<br>Selling at ₹125 per dozen × 12 = ₹1500.<br>Profit = ₹300 on ₹1200 = 25%.</p>
+      <p><b>Solution:</b><br>12 dozen = 144.<br>Total CP = $144 \\times 100/12 = 1200$? Wait — buying at ₹100 per dozen → 12 dozen → ₹1200.<br>Selling at ₹125 per dozen × 12 = ₹1500.<br>Profit = ₹300 on ₹1200 = 25%.</p>
 
       <h4>Example 21: Equal SP, profit one + loss other</h4>
       <p>Two articles sold each at ₹240. One gives 20% profit, other 20% loss. Net?</p>
@@ -1461,7 +1461,7 @@
 
       <h4>Example 16: Three Successive</h4>
       <p>Single discount equivalent to 10%, 20%, 25%?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} 1 - 0.9 \cdot 0.8 \cdot 0.75 &= 1 - 0.54 \\\\ &= 46\% \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 1 - 0.9 \\cdot 0.8 \\cdot 0.75 &= 1 - 0.54 \\\\ &= 46\% \\end{aligned}$$.</p>
 
       <h4>Example 17: Buy-N-Get-M-Free Equivalent</h4>
       <p>"Buy 5 get 1 free" — what % discount?</p>
@@ -1612,11 +1612,11 @@
 
       <h4>Example 17: Speed: 3 Equal-Distance Sections</h4>
       <p>If a car covers 3 equal sections at 30, 40, 60 km/h, avg speed?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \bar{s} &= 3/(1/30+1/40+1/60) \\\\ &= 3 \cdot 120/9 \\\\ &= 40 \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\bar{s} &= 3/(1/30+1/40+1/60) \\\\ &= 3 \\cdot 120/9 \\\\ &= 40 \\end{aligned}$$.</p>
 
       <h4>Example 18: Mean Income</h4>
       <p>Avg salary of 20 employees = ₹40,000. Owner's salary included makes avg ₹45,000. Owner's salary?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} 21 \cdot 45000 - 20 \cdot 40000 &= 945000 - 800000 \\\\ &=  \\end{aligned}$$ <b>₹1,45,000</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 21 \\cdot 45000 - 20 \\cdot 40000 &= 945000 - 800000 \\\\ &=  \\end{aligned}$$ <b>₹1,45,000</b>.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1741,11 +1741,11 @@
 
       <h4>Example 16: Same Person Age Compared</h4>
       <p>5 years ago, A's age was 1/3 of his father's. 5 years hence, A's age will be 1/2. A's present age?</p>
-      <p><b>Solution:</b><br>Let A=$a$, F=$f$.<br>$$\\begin{aligned} (a-5) &= (f-5)/3 \Rightarrow 3a-15 \\\\ &= f-5 \Rightarrow f \\\\ &= 3a-10 \\end{aligned}$$.<br>$$\\begin{aligned} (a+5) &= (f+5)/2 \Rightarrow 2a+10 \\\\ &= f+5 \Rightarrow f \\\\ &= 2a+5 \\end{aligned}$$.<br>Equate: $3a-10=2a+5 \Rightarrow a = 15$.</p>
+      <p><b>Solution:</b><br>Let A=$a$, F=$f$.<br>$$\\begin{aligned} (a-5) &= (f-5)/3 \\Rightarrow 3a-15 \\\\ &= f-5 \\Rightarrow f \\\\ &= 3a-10 \\end{aligned}$$.<br>$$\\begin{aligned} (a+5) &= (f+5)/2 \\Rightarrow 2a+10 \\\\ &= f+5 \\Rightarrow f \\\\ &= 2a+5 \\end{aligned}$$.<br>Equate: $3a-10=2a+5 \\Rightarrow a = 15$.</p>
 
       <h4>Example 17: Sum of Ages and Future Ratio</h4>
       <p>Sum of ages of A and B is 60. After 10 years, A:B = 7:5. Present ages?</p>
-      <p><b>Solution:</b><br>$$\\begin{aligned} \frac{a+10}{b+10} &= 7/5 \Rightarrow 5a+50 \\\\ &= 7b+70 \Rightarrow 5a-7b \\\\ &= 20 \\end{aligned}$$.<br>With $a+b=60$: solve.<br>$a=35, b=25$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\frac{a+10}{b+10} &= 7/5 \\Rightarrow 5a+50 \\\\ &= 7b+70 \\Rightarrow 5a-7b \\\\ &= 20 \\end{aligned}$$.<br>With $a+b=60$: solve.<br>$a=35, b=25$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -1884,7 +1884,7 @@
 
       <h4>Example 16: Compound Ratio</h4>
       <p>Combine 2:3, 4:5, 6:7. Compound?</p>
-      <p><b>Solution:</b><br>$2 \cdot 4 \cdot 6 : 3 \cdot 5 \cdot 7 = 48:105$.<br>Simplify: HCF=3, so 16:35.</p>
+      <p><b>Solution:</b><br>$2 \\cdot 4 \\cdot 6 : 3 \\cdot 5 \\cdot 7 = 48:105$.<br>Simplify: HCF=3, so 16:35.</p>
 
       <h4>Example 17: Coin Distribution</h4>
       <p>₹1, 50p, 25p coins in ratio 5:7:9. Total value ₹37. Number of each?</p>
@@ -2035,7 +2035,7 @@
 
       <h4>Example 17: Tie Race Setup</h4>
       <p>Speed ratio A:B = 5:4 in 100m race. What head start should A give B for tie?</p>
-      <p><b>Solution:</b><br>Tie if A runs 100, B runs $100 \cdot 4/5 = 80$.<br>So head start = 20m.</p>
+      <p><b>Solution:</b><br>Tie if A runs 100, B runs $100 \\cdot 4/5 = 80$.<br>So head start = 20m.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2168,11 +2168,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Adding Salt to Sea Water</h4>
       <p>5L of 10% salt solution. How much salt to add for 20%?</p>
-      <p><b>Solution:</b><br>Let add $x$ kg.<br>Salt total = $0.5 + x$.<br>Volume = $5 + x$.<br>$$\\begin{aligned} (0.5+x)/(5+x) &= 0.2 \Rightarrow 0.5+x \\\\ &= 1+0.2x \Rightarrow 0.8x \\\\ &= 0.5 \Rightarrow x \\\\ &= 0.625 \\end{aligned}$$ kg.</p>
+      <p><b>Solution:</b><br>Let add $x$ kg.<br>Salt total = $0.5 + x$.<br>Volume = $5 + x$.<br>$$\\begin{aligned} (0.5+x)/(5+x) &= 0.2 \\Rightarrow 0.5+x \\\\ &= 1+0.2x \\Rightarrow 0.8x \\\\ &= 0.5 \\Rightarrow x \\\\ &= 0.625 \\end{aligned}$$ kg.</p>
 
       <h4>Example 17: Replace Twice</h4>
       <p>50 L milk; 5L removed, replaced with water. Repeat once more. Pure milk now?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} 50 (1-5/50)^2 &= 50 \cdot 0.81 \\\\ &= 40.5 \\end{aligned}$$ L.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 50 (1-5/50)^2 &= 50 \\cdot 0.81 \\\\ &= 40.5 \\end{aligned}$$ L.</p>
 
       <h4>Example 18: Mixing Different Costs</h4>
       <p>Mix tea @ ₹100 with tea @ ₹150 in what ratio to get ₹120?</p>
@@ -2298,11 +2298,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Multiple Joining/Leaving</h4>
       <p>A invests ₹6000 for 1 year. B joins after 4 months with ₹4000 for rest of year. C joins after 7 months with ₹5000 for rest. Profit ₹3500. Share?</p>
-      <p><b>Solution:</b><br>A: $6000 \cdot 12 = 72000$.<br>B: $4000 \cdot 8 = 32000$.<br>C: $5000 \cdot 5 = 25000$.<br>Ratio 72:32:25 = total 129.<br>Shares: A=$72 \cdot 3500/129 \approx 1953$, B≈868, C≈679.</p>
+      <p><b>Solution:</b><br>A: $6000 \\cdot 12 = 72000$.<br>B: $4000 \\cdot 8 = 32000$.<br>C: $5000 \\cdot 5 = 25000$.<br>Ratio 72:32:25 = total 129.<br>Shares: A=$72 \\cdot 3500/129 \\approx 1953$, B≈868, C≈679.</p>
 
       <h4>Example 17: Withdrawal Mid-year</h4>
       <p>A invests ₹3000 for full year. B invests ₹2000 for 8 months. Profit ₹1700. A's share?</p>
-      <p><b>Solution:</b><br>$$\\begin{aligned} 3000 \cdot 12 : 2000 \cdot 8 &= 36000:16000 \\\\ &= 9:4 \\end{aligned}$$.<br>Total 13.<br>A = $9/13 \cdot 1700 = 1176$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 3000 \\cdot 12 : 2000 \\cdot 8 &= 36000:16000 \\\\ &= 9:4 \\end{aligned}$$.<br>Total 13.<br>A = $9/13 \\cdot 1700 = 1176$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2427,11 +2427,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Combined Investments</h4>
       <p>A man invests ₹5000 at 6% for 3 yrs and ₹4000 at 8% for 4 yrs. Total SI?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} 5000 \cdot 6 \cdot 3/100 + 4000 \cdot 8 \cdot 4/100 &= 900+1280 \\\\ &=  \\end{aligned}$$ <b>₹2180</b>.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} 5000 \\cdot 6 \\cdot 3/100 + 4000 \\cdot 8 \\cdot 4/100 &= 900+1280 \\\\ &=  \\end{aligned}$$ <b>₹2180</b>.</p>
 
       <h4>Example 17: Rate finding when amount given</h4>
       <p>Sum amounts to ₹2,400 in 4 yrs and ₹2,520 in 6 yrs at SI. Find P.</p>
-      <p><b>Solution:</b><br>SI for 2 yrs = $2520-2400 = 120 \Rightarrow $ SI/yr = 60.<br>SI for 4 yrs = 240.<br>So $P = 2400-240 = $ <b>₹2160</b>.</p>
+      <p><b>Solution:</b><br>SI for 2 yrs = $2520-2400 = 120 \\Rightarrow $ SI/yr = 60.<br>SI for 4 yrs = 240.<br>So $P = 2400-240 = $ <b>₹2160</b>.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2570,7 +2570,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 18: Money Becomes $n$ Times</h4>
       <p>If a sum doubles in 4 yrs at CI, in how many years it becomes 8 times?</p>
-      <p><b>Solution:</b> $2^3 = 8$, so $3 \cdot 4 = 12$ years.</p>
+      <p><b>Solution:</b> $2^3 = 8$, so $3 \\cdot 4 = 12$ years.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -2710,7 +2710,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Two Pipes Filling (Time-Work analog)</h4>
       <p>A fills tank in 6 hr. B in 8 hr. Both open, but after 2 hr A is closed. Time to fill?</p>
-      <p><b>Solution:</b><br>In 2 hr both: $2(1/6+1/8) = 7/12$.<br>B alone for rest 5/12: $5/12 \div 1/8 = 10/3$ hr ≈ 3 hr 20 min. Total = 5 hr 20 min.</p>
+      <p><b>Solution:</b><br>In 2 hr both: $2(1/6+1/8) = 7/12$.<br>B alone for rest 5/12: $5/12 \\div 1/8 = 10/3$ hr ≈ 3 hr 20 min. Total = 5 hr 20 min.</p>
 
       <h4>Example 18: Two-rate workers</h4>
       <p>A works 8 hr/day, finishes in 6 days. If B works 12 hr/day, finishes in 4 days. Combined working 6 hr/day?</p>
@@ -2718,11 +2718,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 19: Wage Distribution</h4>
       <p>A and B work in ratio 3:2 of efficiency. Total wage ₹500. A's share?</p>
-      <p><b>Solution:</b><br>Wage proportional to work done.<br>A:B = 3:2.<br>A = $3/5 \times 500 = ₹300$.</p>
+      <p><b>Solution:</b><br>Wage proportional to work done.<br>A:B = 3:2.<br>A = $3/5 \\times 500 = ₹300$.</p>
 
       <h4>Example 20: Variable Days</h4>
       <p>A man does work in $x$ days. If he worked twice as efficiently, he'd take 6 days less. Find $x$.</p>
-      <p><b>Solution:</b> Twice efficient → half time = $x/2 = x - 6 \Rightarrow x = $ <b>12</b>.</p>
+      <p><b>Solution:</b> Twice efficient → half time = $x/2 = x - 6 \\Rightarrow x = $ <b>12</b>.</p>
 
       <h4>Example 21: Group Work</h4>
       <p>20 men complete a work in 30 days. After 10 days, 5 men leave. Total days?</p>
@@ -2852,7 +2852,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: One Pipe Closed Midway</h4>
       <p>A fills in 12 hr, B in 18 hr. Both open, after 3 hr B closes. Total time?</p>
-      <p><b>Solution:</b><br>In 3 hr: $$\\begin{aligned} 3(1/12+1/18) &= 3 \cdot 5/36 \\\\ &= 5/12 \\end{aligned}$$.<br>Remaining = 7/12.<br>By A alone: $7/12 \cdot 12 = 7$ hr. Total = 10 hr.</p>
+      <p><b>Solution:</b><br>In 3 hr: $$\\begin{aligned} 3(1/12+1/18) &= 3 \\cdot 5/36 \\\\ &= 5/12 \\end{aligned}$$.<br>Remaining = 7/12.<br>By A alone: $7/12 \\cdot 12 = 7$ hr. Total = 10 hr.</p>
 
       <h4>Example 17: Two Inlets + One Outlet</h4>
       <p>A=6, B=8 hrs (inlets); C=12 hrs (outlet). Combined fill time?</p>
@@ -2992,11 +2992,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Late by X / Early by Y</h4>
       <p>A boy reaches school 5 min late at 4 km/h and 10 min early at 5 km/h. Distance to school?</p>
-      <p><b>Solution:</b> Time diff = 15 min = 1/4 hr. $$\\begin{aligned} D/4 - D/5 &= 1/4 \Rightarrow D/20 \\\\ &= 1/4 \Rightarrow D \\\\ &= 5 \\end{aligned}$$ km.</p>
+      <p><b>Solution:</b> Time diff = 15 min = 1/4 hr. $$\\begin{aligned} D/4 - D/5 &= 1/4 \\Rightarrow D/20 \\\\ &= 1/4 \\Rightarrow D \\\\ &= 5 \\end{aligned}$$ km.</p>
 
       <h4>Example 18: Round Trip with Different Speeds</h4>
       <p>A man goes at 10 km/h and returns at 15 km/h. Total time 5 hr. Distance one way?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} D/10 + D/15 &= 5 \Rightarrow D(3+2)/30 \\\\ &= 5 \Rightarrow D \\\\ &= 30 \\end{aligned}$$ km.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} D/10 + D/15 &= 5 \\Rightarrow D(3+2)/30 \\\\ &= 5 \\Rightarrow D \\\\ &= 30 \\end{aligned}$$ km.</p>
 
       <h4>Example 19: Speed Change Mid-Journey</h4>
       <p>A train covers 240 km in 4 hr. Half at 80 km/h, rest at X km/h. Find X.</p>
@@ -3004,11 +3004,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 20: Catching Train</h4>
       <p>A runs at 5 km/h. He misses train by 7 min. If he ran at 6 km/h he would catch it with 5 min to spare. Distance to station?</p>
-      <p><b>Solution:</b> Time diff = 12 min = 1/5 hr. $$\\begin{aligned} D/5 - D/6 &= 1/5 \Rightarrow D/30 \\\\ &= 1/5 \Rightarrow D \\\\ &= 6 \\end{aligned}$$ km.</p>
+      <p><b>Solution:</b> Time diff = 12 min = 1/5 hr. $$\\begin{aligned} D/5 - D/6 &= 1/5 \\Rightarrow D/30 \\\\ &= 1/5 \\Rightarrow D \\\\ &= 6 \\end{aligned}$$ km.</p>
 
       <h4>Example 21: Three Speeds Equal Distance</h4>
       <p>A covers same distance at 30, 40, 60 km/h sections in succession (each part equal). Average speed?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \bar{s} &= 3/(1/30+1/40+1/60) \\\\ &= 3/(4+3+2)/120 \\\\ &= 3 \cdot 120/9 \\\\ &= 40 \\end{aligned}$$ km/h.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\bar{s} &= 3/(1/30+1/40+1/60) \\\\ &= 3/(4+3+2)/120 \\\\ &= 3 \\cdot 120/9 \\\\ &= 40 \\end{aligned}$$ km/h.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3141,7 +3141,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Two Trains Same Direction Diff Speeds</h4>
       <p>Train A (200m) at 60 km/h overtakes Train B (300m) at 40 km/h. Time to fully pass?</p>
-      <p><b>Solution:</b><br>Relative = 20 km/h = 50/9 m/s.<br>Total length = 500.<br>Time = $500 \cdot 9/50 = 90$ sec.</p>
+      <p><b>Solution:</b><br>Relative = 20 km/h = 50/9 m/s.<br>Total length = 500.<br>Time = $500 \\cdot 9/50 = 90$ sec.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3413,12 +3413,12 @@ $(c_2 - m)$ : $(m - c_1)$
       <p><b>Solution:</b> Each $= 2 \\times \\text{prev} + 2$: $2 \\to 6 \\to 14 \\to 30 \\to 62 \\to $ <b>126</b>.</p>
 
       <h4>Example 16: Sum of n²</h4>
-      <p>$1^2+2^2+\cdots+15^2 = ?$</p>
-      <p><b>Solution:</b> $\frac{15 \cdot 16 \cdot 31}{6} = 1240$.</p>
+      <p>$1^2+2^2+\\cdots+15^2 = ?$</p>
+      <p><b>Solution:</b> $\\frac{15 \\cdot 16 \\cdot 31}{6} = 1240$.</p>
 
       <h4>Example 17: nth term of AP</h4>
       <p>AP: 5, 9, 13, ... Find 20th term.</p>
-      <p><b>Solution:</b><br>$a=5, d=4.<br>T_{20} = 5+19 \cdot 4 = 81$.</p>
+      <p><b>Solution:</b><br>$a=5, d=4.<br>T_{20} = 5+19 \\cdot 4 = 81$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -3566,7 +3566,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Percent Increase Across Years</h4>
       <p>Sales in 2020 = ₹500cr, 2021 = ₹600cr, 2022 = ₹750cr. % increase from 2021 to 2022?</p>
-      <p><b>Solution:</b> $\frac{150}{600} \times 100 = 25\%$.</p>
+      <p><b>Solution:</b> $\\frac{150}{600} \\times 100 = 25\%$.</p>
 
       <h4>Example 17: Total from Pie</h4>
       <p>If sector A (20%) = ₹400cr in pie, total revenue?</p>
@@ -3714,15 +3714,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Conditional with $x^2+1/x^2$</h4>
       <p>If $x^2 + 1/x^2 = 14$, find $x + 1/x$ (positive value).</p>
-      <p><b>Solution:</b> $$\\begin{aligned} (x+1/x)^2 &= x^2 + 1/x^2 + 2 \\\\ &= 16 \Rightarrow x+1/x \\\\ &= 4 \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} (x+1/x)^2 &= x^2 + 1/x^2 + 2 \\\\ &= 16 \\Rightarrow x+1/x \\\\ &= 4 \\end{aligned}$$.</p>
 
       <h4>Example 17: Quadratic Roots Relationship</h4>
-      <p>If $\alpha, \beta$ roots of $x^2 - 6x + 8 = 0$, find $\alpha^3 + \beta^3$.</p>
-      <p><b>Solution:</b><br>$\alpha+\beta=6, \alpha\beta=8$.<br>$$\\begin{aligned} \alpha^3+\beta^3 &= (\alpha+\beta)^3 - 3\alpha\beta(\alpha+\beta) \\\\ &= 216-144 \\\\ &= 72 \\end{aligned}$$.</p>
+      <p>If $\\alpha, \\beta$ roots of $x^2 - 6x + 8 = 0$, find $\\alpha^3 + \\beta^3$.</p>
+      <p><b>Solution:</b><br>$\\alpha+\\beta=6, \\alpha\\beta=8$.<br>$$\\begin{aligned} \\alpha^3+\\beta^3 &= (\\alpha+\\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta) \\\\ &= 216-144 \\\\ &= 72 \\end{aligned}$$.</p>
 
       <h4>Example 18: Symmetric Expression</h4>
       <p>If $a+b=5, a^2+b^2=13$, find $a^3+b^3$.</p>
-      <p><b>Solution:</b><br>$$\\begin{aligned} 2ab &= 25-13 \\\\ &= 12 \Rightarrow ab \\\\ &= 6 \\end{aligned}$$.<br>$$\\begin{aligned} a^3+b^3 &= (a+b)^3-3ab(a+b) \\\\ &= 125-90 \\\\ &= 35 \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} 2ab &= 25-13 \\\\ &= 12 \\Rightarrow ab \\\\ &= 6 \\end{aligned}$$.<br>$$\\begin{aligned} a^3+b^3 &= (a+b)^3-3ab(a+b) \\\\ &= 125-90 \\\\ &= 35 \\end{aligned}$$.</p>
 
       <h4>Example 19: $a^2+b^2+c^2 = ab+bc+ca$</h4>
       <p>If $a^2+b^2+c^2 = ab+bc+ca$ and $a=1$, find $b+c$.</p>
@@ -4134,43 +4134,43 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Top + Bottom of Tower from Same Point</h4>
       <p>Top elevation 60°, bottom of flagpole on tower 30° from same point 30m away. Flagpole height?</p>
-      <p><b>Solution:</b><br>Tower base height = $$\\begin{aligned} 30 \cdot \tan 30° &= 30/\sqrt{3} \\\\ &= 10\sqrt{3} \\end{aligned}$$.<br>Top height = $30\sqrt{3}$.<br>Flagpole = $30\sqrt{3} - 10\sqrt{3} = 20\sqrt{3}$.</p>
+      <p><b>Solution:</b><br>Tower base height = $$\\begin{aligned} 30 \\cdot \\tan 30° &= 30/\\sqrt{3} \\\\ &= 10\\sqrt{3} \\end{aligned}$$.<br>Top height = $30\\sqrt{3}$.<br>Flagpole = $30\\sqrt{3} - 10\\sqrt{3} = 20\\sqrt{3}$.</p>
 
       <h4>Example 17: Cliff and Ship</h4>
       <p>From cliff 60m, depression of ship = 45°. Ship distance?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \tan 45° &= 60/d \Rightarrow d \\\\ &= 60 \\end{aligned}$$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan 45° &= 60/d \\Rightarrow d \\\\ &= 60 \\end{aligned}$$ m.</p>
 
       <h4>Example 18: Two Towers Different Bases</h4>
       <p>From the foot of a tower 30 m high, angle of elevation of top of another tower is 60°. From top of the first tower, angle of elevation is 30°. Height of second tower?</p>
-      <p><b>Solution:</b><br>Let distance between bases = $d$, height of 2nd = $h$.<br>From foot of 1st: $$\\begin{aligned} \tan 60° &= h/d \Rightarrow d \\\\ &= h/\sqrt{3} \\end{aligned}$$.<br>From top of 1st: $$\\begin{aligned} \tan 30° &= (h-30)/d \Rightarrow d \\\\ &= (h-30)\sqrt{3} \\end{aligned}$$.<br>Equate: $$\\begin{aligned} h/\sqrt{3} &= (h-30)\sqrt{3} \Rightarrow h \\\\ &= 3(h-30) \Rightarrow 2h \\\\ &= 90 \Rightarrow h \\\\ &= 45 \\end{aligned}$$m.</p>
+      <p><b>Solution:</b><br>Let distance between bases = $d$, height of 2nd = $h$.<br>From foot of 1st: $$\\begin{aligned} \\tan 60° &= h/d \\Rightarrow d \\\\ &= h/\\sqrt{3} \\end{aligned}$$.<br>From top of 1st: $$\\begin{aligned} \\tan 30° &= (h-30)/d \\Rightarrow d \\\\ &= (h-30)\\sqrt{3} \\end{aligned}$$.<br>Equate: $$\\begin{aligned} h/\\sqrt{3} &= (h-30)\\sqrt{3} \\Rightarrow h \\\\ &= 3(h-30) \\Rightarrow 2h \\\\ &= 90 \\Rightarrow h \\\\ &= 45 \\end{aligned}$$m.</p>
 
       <h4>Example 19: Plane Above Ground</h4>
       <p>From point on ground, angle of elevation of plane = 60°. After plane flies 1 km horizontally at same height, angle becomes 30°. Find height of plane.</p>
-      <p><b>Solution:</b><br>Let height = $h$, first dist = $x$.<br>$$\\begin{aligned} \tan 60° &= h/x \Rightarrow x \\\\ &= h/\sqrt{3} \\end{aligned}$$.<br>$$\\begin{aligned} \tan 30° &= h/(x+1000) \Rightarrow x+1000 \\\\ &= h\sqrt{3} \\end{aligned}$$.<br>So $$\\begin{aligned} h\sqrt{3} - h/\sqrt{3} &= 1000 \Rightarrow h \cdot 2/\sqrt{3} \\\\ &= 1000 \Rightarrow h \\\\ &= 500\sqrt{3} ≈ 866 \\end{aligned}$$ m.</p>
+      <p><b>Solution:</b><br>Let height = $h$, first dist = $x$.<br>$$\\begin{aligned} \\tan 60° &= h/x \\Rightarrow x \\\\ &= h/\\sqrt{3} \\end{aligned}$$.<br>$$\\begin{aligned} \\tan 30° &= h/(x+1000) \\Rightarrow x+1000 \\\\ &= h\\sqrt{3} \\end{aligned}$$.<br>So $$\\begin{aligned} h\\sqrt{3} - h/\\sqrt{3} &= 1000 \\Rightarrow h \\cdot 2/\\sqrt{3} \\\\ &= 1000 \\Rightarrow h \\\\ &= 500\\sqrt{3} ≈ 866 \\end{aligned}$$ m.</p>
 
       <h4>Example 20: Building from Multiple Points</h4>
       <p>From two points on opposite sides of a tower, angles of elevation to top are 30° and 60°. If the points are 100 m apart and on the same horizontal line through the foot, height of tower?</p>
-      <p><b>Solution:</b><br>Let tower height = $h$, distances = $a$ and $b$, $a+b = 100$.<br>$h = a\tan 30° = a/\sqrt{3}$ and $h = b\tan 60° = b\sqrt{3}$.<br>So $$\\begin{aligned} a/\sqrt{3} &= b\sqrt{3} \Rightarrow a \\\\ &= 3b \\end{aligned}$$.<br>With $a+b=100$: $b = 25, a = 75$.<br>$h = 75/\sqrt{3} = 25\sqrt{3}$ m.</p>
+      <p><b>Solution:</b><br>Let tower height = $h$, distances = $a$ and $b$, $a+b = 100$.<br>$h = a\\tan 30° = a/\\sqrt{3}$ and $h = b\\tan 60° = b\\sqrt{3}$.<br>So $$\\begin{aligned} a/\\sqrt{3} &= b\\sqrt{3} \\Rightarrow a \\\\ &= 3b \\end{aligned}$$.<br>With $a+b=100$: $b = 25, a = 75$.<br>$h = 75/\\sqrt{3} = 25\\sqrt{3}$ m.</p>
 
       <h4>Example 21: Pole Casting Shadow as Sun Moves</h4>
       <p>A pole 10 m casts shadow of length 10√3 m. Sun's elevation?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \tan\theta &= 10/(10\sqrt{3}) \\\\ &= 1/\sqrt{3} \Rightarrow \theta \\\\ &= 30° \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan\\theta &= 10/(10\\sqrt{3}) \\\\ &= 1/\\sqrt{3} \\Rightarrow \\theta \\\\ &= 30° \\end{aligned}$$.</p>
 
       <h4>Example 22: Pole + Tower</h4>
       <p>A pole 6 m stands on top of a tower. From a point on ground 50 m from base of tower, angle of elevation to top of pole is 45°. Tower height?</p>
-      <p><b>Solution:</b><br>Pole top is at height $T+6$.<br>$$\\begin{aligned} \tan 45° &= (T+6)/50 \Rightarrow T+6 \\\\ &= 50 \Rightarrow T \\\\ &= 44 \\end{aligned}$$ m.</p>
+      <p><b>Solution:</b><br>Pole top is at height $T+6$.<br>$$\\begin{aligned} \\tan 45° &= (T+6)/50 \\Rightarrow T+6 \\\\ &= 50 \\Rightarrow T \\\\ &= 44 \\end{aligned}$$ m.</p>
 
       <h4>Example 23: Angle of Depression to Two Cars</h4>
       <p>From top of tower 100 m, depression to two cars on same side are 30° and 45°. Distance between cars?</p>
-      <p><b>Solution:</b><br>Far car: $$\\begin{aligned} \tan 30° &= 100/d_1 \Rightarrow d_1 \\\\ &= 100\sqrt{3} \\end{aligned}$$.<br>Near car: $$\\begin{aligned} \tan 45° &= 100/d_2 \Rightarrow d_2 \\\\ &= 100 \\end{aligned}$$.<br>Distance = $100\sqrt{3} - 100 = 100(\sqrt{3}-1) ≈ 73.2$ m.</p>
+      <p><b>Solution:</b><br>Far car: $$\\begin{aligned} \\tan 30° &= 100/d_1 \\Rightarrow d_1 \\\\ &= 100\\sqrt{3} \\end{aligned}$$.<br>Near car: $$\\begin{aligned} \\tan 45° &= 100/d_2 \\Rightarrow d_2 \\\\ &= 100 \\end{aligned}$$.<br>Distance = $100\\sqrt{3} - 100 = 100(\\sqrt{3}-1) ≈ 73.2$ m.</p>
 
       <h4>Example 24: Ladder Against Wall</h4>
       <p>A 13 m ladder leans against a wall, foot is 5 m from wall. How high does it reach?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \sqrt{13^2-5^2} &= \sqrt{144} \\\\ &= 12 \\end{aligned}$$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sqrt{13^2-5^2} &= \\sqrt{144} \\\\ &= 12 \\end{aligned}$$ m.</p>
 
       <h4>Example 25: River Width</h4>
       <p>From top of a 30 m cliff overlooking a river, the angle of depression to the opposite bank is 45°. Width of river?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \tan 45° &= 30/w \Rightarrow w \\\\ &= 30 \\end{aligned}$$ m.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\tan 45° &= 30/w \\Rightarrow w \\\\ &= 30 \\end{aligned}$$ m.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4322,28 +4322,28 @@ $(c_2 - m)$ : $(m - c_1)$
       <p><b>Solution:</b><br>$$\\begin{aligned} 4\\pi r^2 &= 6a^2 \\Rightarrow r/a \\\\ &= \\sqrt{6/(4\\pi)} \\end{aligned}$$.<br>Volume ratio $\\frac{4/3 \\pi r^3}{a^3}$.<br>Skip exact; trick is to derive.</p>
 
       <h4>Example 16: Cylinder Inscribed in Cube</h4>
-      <p>A cylinder is inscribed in a cube of side 14. Volume of cylinder ($\pi=22/7$)?</p>
-      <p><b>Solution:</b><br>Radius = 7, height = 14.<br>$$\\begin{aligned} V &= 22/7 \cdot 49 \cdot 14 \\\\ &= 2156 \\end{aligned}$$.</p>
+      <p>A cylinder is inscribed in a cube of side 14. Volume of cylinder ($\\pi=22/7$)?</p>
+      <p><b>Solution:</b><br>Radius = 7, height = 14.<br>$$\\begin{aligned} V &= 22/7 \\cdot 49 \\cdot 14 \\\\ &= 2156 \\end{aligned}$$.</p>
 
       <h4>Example 17: Sphere Inside Cylinder</h4>
       <p>Sphere of radius 7 inside cylinder of radius 7 height 14. Volume difference?</p>
-      <p><b>Solution:</b><br>Cyl = $2156$.<br>Sphere = $\frac{4}{3} \cdot 22/7 \cdot 343 \approx 1437.33$.<br>Diff ≈ 718.67. (Or = half of cylinder volume.)</p>
+      <p><b>Solution:</b><br>Cyl = $2156$.<br>Sphere = $\\frac{4}{3} \\cdot 22/7 \\cdot 343 \\approx 1437.33$.<br>Diff ≈ 718.67. (Or = half of cylinder volume.)</p>
 
       <h4>Example 18: Volume of Hemisphere on Cylinder</h4>
       <p>A solid is cylinder with hemisphere on top. Cylinder r=7, h=10. Find total volume.</p>
-      <p><b>Solution:</b><br>Cyl = $22/7 \cdot 49 \cdot 10 = 1540$.<br>Hemi = $2/3 \cdot 22/7 \cdot 343 = 718.67$.<br>Total ≈ 2258.67.</p>
+      <p><b>Solution:</b><br>Cyl = $22/7 \\cdot 49 \\cdot 10 = 1540$.<br>Hemi = $2/3 \\cdot 22/7 \\cdot 343 = 718.67$.<br>Total ≈ 2258.67.</p>
 
       <h4>Example 19: Surface Area Combined</h4>
       <p>For the above (hemisphere + cylinder on table): total surface area?</p>
-      <p><b>Solution:</b> Base circle (bottom) + curved cyl + curved hemi = $$\\begin{aligned} \pi r^2 + 2\pi r h + 2\pi r^2 &= \pi r(r + 2h + 2r) \\\\ &= \pi r(3r+2h) \\end{aligned}$$.</p>
+      <p><b>Solution:</b> Base circle (bottom) + curved cyl + curved hemi = $$\\begin{aligned} \\pi r^2 + 2\\pi r h + 2\\pi r^2 &= \\pi r(r + 2h + 2r) \\\\ &= \\pi r(3r+2h) \\end{aligned}$$.</p>
 
       <h4>Example 20: Cone Cut from Cylinder</h4>
       <p>Cylinder r=6 h=10. Cone of same r and h removed. Remaining volume?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \pi r^2 h - \frac{1}{3}\pi r^2 h &= \frac{2}{3}\pi r^2 h \\\\ &= \frac{2}{3} \cdot \pi \cdot 36 \cdot 10 \\\\ &= 240\pi \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\pi r^2 h - \\frac{1}{3}\\pi r^2 h &= \\frac{2}{3}\\pi r^2 h \\\\ &= \\frac{2}{3} \\cdot \\pi \\cdot 36 \\cdot 10 \\\\ &= 240\\pi \\end{aligned}$$.</p>
 
       <h4>Example 21: Frustum of Cone</h4>
       <p>Volume of frustum with radii 5 and 10, height 12?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} V &= \frac{\pi h}{3}(r_1^2 + r_2^2 + r_1 r_2) \\\\ &= \frac{\pi \cdot 12}{3}(25+100+50) \\\\ &= 4\pi \cdot 175 \\\\ &= 700\pi \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} V &= \\frac{\\pi h}{3}(r_1^2 + r_2^2 + r_1 r_2) \\\\ &= \\frac{\\pi \\cdot 12}{3}(25+100+50) \\\\ &= 4\\pi \\cdot 175 \\\\ &= 700\\pi \\end{aligned}$$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4513,7 +4513,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 20: Tangent Property</h4>
       <p>From point P outside circle, two tangents touch the circle. Distance from P to centre = 13. Radius = 5. Length of each tangent?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \sqrt{13^2 - 5^2} &= \sqrt{144} \\\\ &= 12 \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sqrt{13^2 - 5^2} &= \\sqrt{144} \\\\ &= 12 \\end{aligned}$$.</p>
 
       <h4>Example 21: Cyclic Quadrilateral</h4>
       <p>In cyclic quad ABCD, ∠A = 80°, ∠B = 70°. Find ∠C and ∠D.</p>
@@ -4660,19 +4660,19 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Find Equation of Line</h4>
       <p>Line through (1,2) and (3,6). Equation?</p>
-      <p><b>Solution:</b><br>Slope = $(6-2)/(3-1) = 2$.<br>$$\\begin{aligned} y-2 &= 2(x-1) \Rightarrow y \\\\ &= 2x \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>Slope = $(6-2)/(3-1) = 2$.<br>$$\\begin{aligned} y-2 &= 2(x-1) \\Rightarrow y \\\\ &= 2x \\end{aligned}$$.</p>
 
       <h4>Example 17: Distance to Line</h4>
       <p>Distance from (2,3) to line $3x+4y-12=0$?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} |3 \cdot 2+4 \cdot 3 - 12|/\sqrt{25} &= 6/5 \\\\ &= 1.2 \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} |3 \\cdot 2+4 \\cdot 3 - 12|/\\sqrt{25} &= 6/5 \\\\ &= 1.2 \\end{aligned}$$.</p>
 
       <h4>Example 18: Section Formula Internal</h4>
       <p>Find point dividing line joining $(3,2)$ and $(-1,4)$ internally in ratio 3:1.</p>
-      <p><b>Solution:</b> $\left(\frac{3 \cdot (-1)+1 \cdot 3}{4}, \frac{3 \cdot 4+1 \cdot 2}{4}\right) = (0, 7/2)$.</p>
+      <p><b>Solution:</b> $\\left(\\frac{3 \\cdot (-1)+1 \\cdot 3}{4}, \\frac{3 \\cdot 4+1 \\cdot 2}{4}\\right) = (0, 7/2)$.</p>
 
       <h4>Example 19: External Division</h4>
       <p>Find point dividing $(2,3)$ and $(6,7)$ externally in ratio 1:2.</p>
-      <p><b>Solution:</b> $\left(\frac{1 \cdot 6 - 2 \cdot 2}{1-2}, \frac{1 \cdot 7 - 2 \cdot 3}{1-2}\right) = (2/-1, 1/-1) = (-2, -1)$.</p>
+      <p><b>Solution:</b> $\\left(\\frac{1 \\cdot 6 - 2 \\cdot 2}{1-2}, \\frac{1 \\cdot 7 - 2 \\cdot 3}{1-2}\\right) = (2/-1, 1/-1) = (-2, -1)$.</p>
 
       <h4>Example 20: Area of Quadrilateral</h4>
       <p>Vertices $(1,1), (4,1), (4,5), (1,5)$. Area?</p>
@@ -4680,7 +4680,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 21: Centroid of Triangle</h4>
       <p>Vertices $(0,0), (6,0), (0,9)$. Centroid?</p>
-      <p><b>Solution:</b> $\left(\frac{0+6+0}{3}, \frac{0+0+9}{3}\right) = (2, 3)$.</p>
+      <p><b>Solution:</b> $\\left(\\frac{0+6+0}{3}, \\frac{0+0+9}{3}\\right) = (2, 3)$.</p>
 
       <h4>Example 22: Slope-Intercept</h4>
       <p>Convert $3x - 4y + 12 = 0$ to slope-intercept form.</p>
@@ -4688,11 +4688,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 23: Equation Through Two Points</h4>
       <p>Line through $(1, 2)$ and $(5, 8)$?</p>
-      <p><b>Solution:</b><br>Slope = $6/4 = 3/2$.<br>$$\\begin{aligned} y - 2 &= (3/2)(x-1) \Rightarrow 2y - 4 \\\\ &= 3x - 3 \Rightarrow 3x - 2y + 1 \\\\ &= 0 \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>Slope = $6/4 = 3/2$.<br>$$\\begin{aligned} y - 2 &= (3/2)(x-1) \\Rightarrow 2y - 4 \\\\ &= 3x - 3 \\Rightarrow 3x - 2y + 1 \\\\ &= 0 \\end{aligned}$$.</p>
 
       <h4>Example 24: Distance Between Parallel Lines</h4>
       <p>Distance between $3x+4y = 6$ and $3x+4y = 16$?</p>
-      <p><b>Solution:</b> $|16-6|/\sqrt{9+16} = 10/5 = 2$.</p>
+      <p><b>Solution:</b> $|16-6|/\\sqrt{9+16} = 10/5 = 2$.</p>
 
       <h4>Example 25: Image of Point</h4>
       <p>Image of $(3, 4)$ under reflection in y-axis?</p>
@@ -4704,11 +4704,11 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 27: Slope from Angle</h4>
       <p>Slope of line inclined 60° with x-axis?</p>
-      <p><b>Solution:</b> $\tan 60° = \sqrt{3}$.</p>
+      <p><b>Solution:</b> $\\tan 60° = \\sqrt{3}$.</p>
 
       <h4>Example 28: Angle Between Lines</h4>
       <p>Angle between $y=2x$ and $y=3x$?</p>
-      <p><b>Solution:</b><br>$$\\begin{aligned} \tan\theta &= |(m_1-m_2)/(1+m_1 m_2)| \\\\ &= |1/7| \\end{aligned}$$.<br>So $\theta = \arctan(1/7) ≈ 8.13°$.</p>
+      <p><b>Solution:</b><br>$$\\begin{aligned} \\tan\\theta &= |(m_1-m_2)/(1+m_1 m_2)| \\\\ &= |1/7| \\end{aligned}$$.<br>So $\\theta = \\arctan(1/7) ≈ 8.13°$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
@@ -4851,7 +4851,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Words from Word</h4>
       <p>Number of ways to arrange letters of TRIANGLE such that vowels are together?</p>
-      <p><b>Solution:</b><br>8 letters, 3 vowels (I, A, E).<br>Group vowels: 6 units.<br>$$\\begin{aligned} 6! \times 3! &= 720 \times 6 \\\\ &= 4320 \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>8 letters, 3 vowels (I, A, E).<br>Group vowels: 6 units.<br>$$\\begin{aligned} 6! \\times 3! &= 720 \\times 6 \\\\ &= 4320 \\end{aligned}$$.</p>
 
       <h4>Example 17: Restricted Arrangements</h4>
       <p>How many 4-digit numbers can be formed using 1, 2, 3, 4, 5 with no digit repeated and number divisible by 5?</p>
@@ -4863,7 +4863,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 19: Circular with Restriction</h4>
       <p>10 people sit at round table. 2 specific persons want to sit together. Number of ways?</p>
-      <p><b>Solution:</b><br>Treat as 9 units in circular = $8!$.<br>Internal arrangement = $2!$.<br>Total = $$\\begin{aligned} 8! \cdot 2 &= 40320 \cdot 2 \\\\ &= 80640 \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>Treat as 9 units in circular = $8!$.<br>Internal arrangement = $2!$.<br>Total = $$\\begin{aligned} 8! \\cdot 2 &= 40320 \\cdot 2 \\\\ &= 80640 \\end{aligned}$$.</p>
 
       <h4>Example 20: Number of Diagonals</h4>
       <p>Diagonals in 10-sided polygon?</p>
@@ -4871,15 +4871,15 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 21: Selection with Conditions</h4>
       <p>From 5 men and 6 women, choose committee of 4 with exactly 2 women?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} ^6C_2 \cdot ^5C_2 &= 15 \cdot 10 \\\\ &= 150 \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} ^6C_2 \\cdot ^5C_2 &= 15 \\cdot 10 \\\\ &= 150 \\end{aligned}$$.</p>
 
       <h4>Example 22: Words from Word with Repetition</h4>
       <p>Arrangements of ALLAHABAD?</p>
-      <p><b>Solution:</b><br>9 letters: A×4, L×2, H×1, B×1, D×1.<br>$$\\begin{aligned} \frac{9!}{4! \cdot 2!} &= \frac{362880}{48} \\\\ &= 7560 \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>9 letters: A×4, L×2, H×1, B×1, D×1.<br>$$\\begin{aligned} \\frac{9!}{4! \\cdot 2!} &= \\frac{362880}{48} \\\\ &= 7560 \\end{aligned}$$.</p>
 
       <h4>Example 23: Forming Numbers</h4>
       <p>Number of 5-digit even numbers using 0-9 without repetition?</p>
-      <p><b>Solution:</b><br>Last digit: 5 choices (0,2,4,6,8).<br>If last=0, first 4 from {1-9}: $9 \cdot 8 \cdot 7 \cdot 6 = 3024$.<br>If last in {2,4,6,8} (4 choices), first ≠ 0: 8 × 8 × 7 × 6 = 2688.<br>Total per such last: 2688.<br>So total = 3024 + 4(2688) = 3024 + 10752 = 13776.</p>
+      <p><b>Solution:</b><br>Last digit: 5 choices (0,2,4,6,8).<br>If last=0, first 4 from {1-9}: $9 \\cdot 8 \\cdot 7 \\cdot 6 = 3024$.<br>If last in {2,4,6,8} (4 choices), first ≠ 0: 8 × 8 × 7 × 6 = 2688.<br>Total per such last: 2688.<br>So total = 3024 + 4(2688) = 3024 + 10752 = 13776.</p>
 
       <h4>Example 24: Pascal's Identity</h4>
       <p>$^{n}C_r + ^{n}C_{r-1}$ = ?</p>
@@ -5025,7 +5025,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 17: Without Replacement</h4>
       <p>Bag: 5R + 3B balls. P(both red on 2 draws without replacement)?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \frac{5}{8} \cdot \frac{4}{7} &= 20/56 \\\\ &= 5/14 \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\frac{5}{8} \\cdot \\frac{4}{7} &= 20/56 \\\\ &= 5/14 \\end{aligned}$$.</p>
 
       <h4>Example 16: Coin Sequence</h4>
       <p>Toss 3 coins. P(exactly 2 heads)?</p>
@@ -5049,7 +5049,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 21: Independent Events</h4>
       <p>If P(A) = 0.4, P(B) = 0.7, independent. P(both)?</p>
-      <p><b>Solution:</b> $0.4 \times 0.7 = 0.28$.</p>
+      <p><b>Solution:</b> $0.4 \\times 0.7 = 0.28$.</p>
 
       <h4>Example 22: Selecting from Bags</h4>
       <p>Bag 1: 3R + 2W. Bag 2: 4R + 5W. Pick 1 from each. P(both red)?</p>
@@ -5064,7 +5064,7 @@ $(c_2 - m)$ : $(m - c_1)$
       <p><b>Solution:</b> $$\\begin{aligned} (4/52)(3/51) &= 12/2652 \\\\ &= 1/221 \\end{aligned}$$.</p>
 
       <h4>Example 25: Either A or B</h4>
-      <p>$P(A) = 0.3, P(B) = 0.5, P(A \cap B) = 0.2$. $P(A \cup B) = ?$</p>
+      <p>$P(A) = 0.3, P(B) = 0.5, P(A \\cap B) = 0.2$. $P(A \\cup B) = ?$</p>
       <p><b>Solution:</b> $0.3 + 0.5 - 0.2 = 0.6$.</p>
 
       <h4>Example 26: Mutually Exclusive</h4>
@@ -5218,10 +5218,10 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 16: Median of Grouped Data</h4>
       <p>Class: 0-10, 10-20, 20-30; Frequencies: 8, 12, 10. Median?</p>
-      <p><b>Solution:</b><br>$n/2 = 15$.<br>Cumulative: 8, 20, 30.<br>Median class: 10-20.<br>Median = $$\\begin{aligned} L + \frac{n/2 - F}{f} \cdot h &= 10 + \frac{15-8}{12} \cdot 10 \\\\ &= 10 + 5.83 \\\\ &= 15.83 \\end{aligned}$$.</p>
+      <p><b>Solution:</b><br>$n/2 = 15$.<br>Cumulative: 8, 20, 30.<br>Median class: 10-20.<br>Median = $$\\begin{aligned} L + \\frac{n/2 - F}{f} \\cdot h &= 10 + \\frac{15-8}{12} \\cdot 10 \\\\ &= 10 + 5.83 \\\\ &= 15.83 \\end{aligned}$$.</p>
 
       <h4>Example 17: Mode of Grouped</h4>
-      <p>For frequencies 5, 10, 12, 8, 6: max freq is 12 (modal class). Use mode formula $L + \frac{f_1-f_0}{2f_1-f_0-f_2} \cdot h$. Example needs specific class bounds.</p>
+      <p>For frequencies 5, 10, 12, 8, 6: max freq is 12 (modal class). Use mode formula $L + \\frac{f_1-f_0}{2f_1-f_0-f_2} \\cdot h$. Example needs specific class bounds.</p>
 
       <h4>Example 18: Mean Deviation</h4>
       <p>Find MD about mean for 5, 7, 9, 11, 13.</p>
@@ -5233,7 +5233,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 20: Standard Deviation</h4>
       <p>From above: SD?</p>
-      <p><b>Solution:</b> $$\\begin{aligned} \sqrt{8} &= 2\sqrt{2} \\\\ &\\approx 2.83 \\end{aligned}$$.</p>
+      <p><b>Solution:</b> $$\\begin{aligned} \\sqrt{8} &= 2\\sqrt{2} \\\\ &\\approx 2.83 \\end{aligned}$$.</p>
 
       <h4>Example 21: Effect of Adding Constant</h4>
       <p>If 5 added to each obs, what changes?</p>
@@ -5253,7 +5253,7 @@ $(c_2 - m)$ : $(m - c_1)$
 
       <h4>Example 25: Coefficient of Variation</h4>
       <p>Mean = 40, SD = 8. CV?</p>
-      <p><b>Solution:</b> $8/40 \times 100 = 20\%$.</p>
+      <p><b>Solution:</b> $8/40 \\times 100 = 20\%$.</p>
 
       <h3>🎯 Common Traps</h3>
       <ul>
