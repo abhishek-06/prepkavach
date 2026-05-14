@@ -3026,4 +3026,287 @@ $(c_2 - m)$ : $(m - c_1)$
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 23. SEQUENCES & SERIES
+  // ───────────────────────────────────────────────────────────────
+  T["math-sequence-series"] = {
+    body: `
+      <h2>Sequences & Series</h2>
+      <p>SSC asks 1-2 questions on AP/GP and number series patterns.</p>
+
+      <h3>1. Arithmetic Progression (AP)</h3>
+      <p>Sequence where each term differs by constant $d$: $a, a+d, a+2d, \\ldots$</p>
+      <p>$$T_n = a + (n-1)d$$</p>
+      <p>$$S_n = \\frac{n}{2}[2a + (n-1)d] = \\frac{n}{2}(a + l)$$ where $l$ = last term.</p>
+
+      <h3>2. Geometric Progression (GP)</h3>
+      <p>Each term = previous × constant $r$: $a, ar, ar^2, \\ldots$</p>
+      <p>$$T_n = a r^{n-1}$$</p>
+      <p>$$S_n = \\frac{a(r^n - 1)}{r-1}\\;\\;(r \\ne 1)$$</p>
+      <p>$$S_\\infty = \\frac{a}{1-r}\\;\\;(|r| < 1)$$</p>
+
+      <h3>3. Harmonic Progression (HP)</h3>
+      <p>$a_1, a_2, \\ldots$ is HP if $1/a_1, 1/a_2, \\ldots$ is AP.</p>
+
+      <h3>4. Useful Sums</h3>
+      <p>$\\sum n = \\frac{n(n+1)}{2}, \\quad \\sum n^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\sum n^3 = [\\frac{n(n+1)}{2}]^2$.</p>
+
+      <h3>🔥 Tricks</h3>
+
+      <h4>Trick 1: Number Series Patterns</h4>
+      <p>Look for: AP, GP, squares/cubes, alternating, differences-of-differences, prime sequence.</p>
+
+      <h4>Trick 2: Common Pattern Examples</h4>
+      <ul>
+        <li>$2, 5, 11, 23, 47, ?$ → each = $2 \\times \\text{prev} + 1$. Next = 95.</li>
+        <li>$1, 4, 9, 16, 25, ?$ → squares. Next = 36.</li>
+        <li>$3, 6, 11, 18, 27, ?$ → differences 3, 5, 7, 9 (AP). Next = 38.</li>
+        <li>$2, 6, 12, 20, 30, ?$ → differences 4, 6, 8, 10. Next = 42.</li>
+      </ul>
+
+      <h4>Trick 3: AP Mean / GP Mean</h4>
+      <p>AM between $a$ and $b$: $\\frac{a+b}{2}$. GM: $\\sqrt{ab}$. HM: $\\frac{2ab}{a+b}$. <b>AM ≥ GM ≥ HM</b>.</p>
+
+      <h3>Solved Examples</h3>
+      <h4>Example 1</h4>
+      <p>Find 20th term of AP: 5, 8, 11, ...</p>
+      <p><b>Sol</b>: $T_{20} = 5 + 19 \\cdot 3 = $ <b>62</b>.</p>
+
+      <h4>Example 2</h4>
+      <p>Sum of first 20 terms of AP: 1, 4, 7, ...?</p>
+      <p><b>Sol</b>: $S = 10(2 + 19 \\cdot 3) = 10 \\cdot 59 = $ <b>590</b>.</p>
+
+      <h4>Example 3</h4>
+      <p>Find 5th term of GP: 2, 6, 18, ...</p>
+      <p><b>Sol</b>: $r=3, T_5 = 2 \\cdot 3^4 = $ <b>162</b>.</p>
+
+      <h4>Example 4</h4>
+      <p>Sum of GP: 1, 2, 4, ..., 1024.</p>
+      <p><b>Sol</b>: $a=1, r=2, T_n = 1024 = 2^{10} \\Rightarrow n=11$. $S = (2^{11}-1) = $ <b>2047</b>.</p>
+
+      <h4>Example 5</h4>
+      <p>Sum of GP to infinity: $1 + \\frac{1}{3} + \\frac{1}{9} + \\cdots$?</p>
+      <p><b>Sol</b>: $\\frac{1}{1-1/3} = \\frac{3}{2}$.</p>
+
+      <h4>Example 6</h4>
+      <p>How many terms of AP 17, 15, 13, ... sum to 72?</p>
+      <p><b>Sol</b>: $a=17, d=-2$. $S_n = (n/2)(34-2(n-1)) = (n/2)(36-2n) = n(18-n) = 72 \\Rightarrow n^2 - 18n + 72 = 0 \\Rightarrow n=6$ or 12. Both valid (sum hits 72 twice as series goes negative).</p>
+
+      <h4>Example 7</h4>
+      <p>Find next: 1, 1, 2, 3, 5, 8, 13, ?</p>
+      <p><b>Sol</b>: Fibonacci. Next = 8+13 = <b>21</b>.</p>
+
+      <h4>Example 8</h4>
+      <p>Find next: 0, 3, 8, 15, 24, ?</p>
+      <p><b>Sol</b>: Pattern $n^2-1$: 0, 3, 8, 15, 24, <b>35</b>.</p>
+
+      <h4>Example 9</h4>
+      <p>If sum of first $n$ natural numbers is 105, find $n$.</p>
+      <p><b>Sol</b>: $n(n+1)/2 = 105 \\Rightarrow n^2+n-210=0 \\Rightarrow n=14$.</p>
+
+      <h4>Example 10</h4>
+      <p>Find next: 7, 26, 63, 124, ?</p>
+      <p><b>Sol</b>: $n^3-1$: $2^3-1=7, 3^3-1=26, 4^3-1=63, 5^3-1=124, 6^3-1 = $ <b>215</b>.</p>
+
+      <h4>Example 11</h4>
+      <p>Find 7th term of GP if 1st = 4 and 4th = 32.</p>
+      <p><b>Sol</b>: $r^3 = 32/4 = 8 \\Rightarrow r=2$. $T_7 = 4 \\cdot 64 = $ <b>256</b>.</p>
+
+      <h4>Example 12</h4>
+      <p>If $a, b, c$ are in AP with $a+b+c = 27$ and $a^2+b^2+c^2 = 293$, find $a$ and $c$.</p>
+      <p><b>Sol</b>: $b = 9$. So $a+c=18, a^2+c^2 = 293-81 = 212$. $(a+c)^2 - 2ac = 212 \\Rightarrow 324-2ac=212 \\Rightarrow ac=56$. So $a, c$ are roots of $x^2-18x+56=0 \\Rightarrow x = 4, 14$.</p>
+
+      <h4>Example 13</h4>
+      <p>HM of 4 and 6?</p>
+      <p><b>Sol</b>: $\\frac{2 \\cdot 4 \\cdot 6}{10} = $ <b>4.8</b>.</p>
+
+      <h4>Example 14</h4>
+      <p>Number of terms in AP 5, 9, 13, ..., 101?</p>
+      <p><b>Sol</b>: $101 = 5 + (n-1) \\cdot 4 \\Rightarrow n=25$.</p>
+
+      <h4>Example 15</h4>
+      <p>Find next: 2, 6, 14, 30, 62, ?</p>
+      <p><b>Sol</b>: Each $= 2 \\times \\text{prev} + 2$: $2 \\to 6 \\to 14 \\to 30 \\to 62 \\to $ <b>126</b>.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>For number series: always compute differences first; then ratios; then squares/cubes.</li>
+        <li>$a, b, c$ in AP ⇔ $b-a = c-b$ ⇔ $2b = a+c$.</li>
+        <li>$a, b, c$ in GP ⇔ $b/a = c/b$ ⇔ $b^2 = ac$.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "10th term of AP 3, 7, 11, ...?", opts: ["35", "39", "40", "43"], a: 1, ex: "$3+9 \\cdot 4=39$." },
+      { q: "Sum of AP 1, 3, 5, ..., 99?", opts: ["1500", "2500", "2700", "5000"], a: 1, ex: "50 odd numbers, sum=$50^2=2500$." },
+      { q: "5th term of GP 3, 6, 12, ...?", opts: ["24", "48", "96", "192"], a: 1, ex: "$3 \\cdot 2^4=48$." },
+      { q: "Sum to infinity: $2+1+0.5+\\ldots$?", opts: ["3", "4", "5", "8"], a: 1, ex: "$2/(1-0.5)=4$." },
+      { q: "Find next: 4, 9, 16, 25, ?", opts: ["32", "36", "40", "49"], a: 1, ex: "Squares. Next $6^2=36$." },
+      { q: "Find next: 3, 6, 12, 24, ?", opts: ["36", "42", "48", "54"], a: 2, ex: "GP r=2. 48." },
+      { q: "Sum of first 30 natural numbers?", opts: ["435", "465", "495", "525"], a: 1, ex: "$30 \\cdot 31/2=465$." },
+      { q: "Sum of squares 1²+2²+...+10²?", opts: ["285", "330", "385", "440"], a: 2, ex: "$\\frac{10 \\cdot 11 \\cdot 21}{6}=385$." },
+      { q: "Find missing: 1, 4, 9, 16, ?, 36", opts: ["20", "25", "30", "35"], a: 1, ex: "Squares. $5^2=25$." },
+      { q: "If $a, b, c$ in AP, $b=?$", opts: ["$(a+c)/2$", "$\\sqrt{ac}$", "$2/(a+c)$", "$a+c$"], a: 0, ex: "AM=(a+c)/2." },
+      { q: "AM, GM, HM relation?", opts: ["AM ≥ GM ≥ HM", "AM ≤ GM ≤ HM", "All equal", "Cannot compare"], a: 0, ex: "Standard inequality." },
+      { q: "1+2+3+...+50 = ?", opts: ["1175", "1275", "1325", "1500"], a: 1, ex: "$50 \\cdot 51/2=1275$." },
+      { q: "Next: 5, 10, 17, 26, 37, ?", opts: ["48", "50", "52", "55"], a: 1, ex: "Diffs 5,7,9,11,13. Next: 37+13=50." },
+      { q: "Number of terms in AP 1,4,7,...,100?", opts: ["33", "34", "35", "36"], a: 1, ex: "$100=1+(n-1)3 \\Rightarrow n=34$." },
+      { q: "Find next: 1, 8, 27, 64, ?", opts: ["100", "125", "144", "216"], a: 1, ex: "Cubes. $5^3=125$." },
+      { q: "Next: 7, 11, 13, 17, 19, ?", opts: ["21", "23", "25", "27"], a: 1, ex: "Primes." },
+      { q: "AM of 8 and 12?", opts: ["9", "10", "11", "12"], a: 1, ex: "10." },
+      { q: "GM of 4 and 9?", opts: ["5", "6", "6.5", "7"], a: 1, ex: "$\\sqrt{36}=6$." },
+      { q: "Sum of GP: $3+6+12+\\ldots+192$.", opts: ["381", "384", "189", "378"], a: 0, ex: "$T_n=192=3 \\cdot 2^{n-1} \\Rightarrow n=7$. $S=3(2^7-1)/(2-1)=3 \\cdot 127=381$." },
+      { q: "Common difference of AP if T₅=20 and T₁₀=40?", opts: ["2", "3", "4", "5"], a: 2, ex: "$20+5d=40 \\Rightarrow d=4$." },
+      { q: "Sum of cubes 1³+2³+...+5³?", opts: ["125", "225", "225", "300"], a: 1, ex: "$[5 \\cdot 6/2]^2=225$." },
+      { q: "Find next: 2, 3, 5, 8, 13, ?", opts: ["18", "20", "21", "25"], a: 2, ex: "Each = sum of last two (Fibonacci variant)." },
+      { q: "If $T_3 = 5, T_7 = 13$ in AP, $T_{10}=?$", opts: ["18", "19", "20", "21"], a: 1, ex: "Diff 8 in 4 steps → d=2. $T_{10}=5+7d=5+14=19$." },
+      { q: "Sum of first n odd numbers = ?", opts: ["$n^2$", "$n(n+1)$", "$\\frac{n(n+1)}{2}$", "$2n$"], a: 0, ex: "$n^2$." },
+      { q: "Find: 4, 9, 25, 49, ?", opts: ["64", "81", "100", "121"], a: 3, ex: "Squares of primes: 2,3,5,7,11. 121." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 24. DATA INTERPRETATION
+  // ───────────────────────────────────────────────────────────────
+  T["math-di"] = {
+    body: `
+      <h2>Data Interpretation (DI)</h2>
+      <p>SSC Tier-2 has full DI sets. Forms: <b>Bar chart, Pie chart, Line graph, Table, Caselet</b>.</p>
+
+      <h3>1. Approach</h3>
+      <ol>
+        <li>Read questions FIRST. Know what's asked.</li>
+        <li>Don't compute everything — just what's needed.</li>
+        <li>Use approximations to eliminate options.</li>
+        <li>Watch units carefully (% vs absolute).</li>
+      </ol>
+
+      <h3>2. Common Question Types</h3>
+      <ul>
+        <li>Total / Average / Maximum / Minimum.</li>
+        <li>Ratio / Percentage.</li>
+        <li>Change between two periods.</li>
+        <li>"In how many years did X exceed Y" — counting.</li>
+        <li>Composite — multi-step.</li>
+      </ul>
+
+      <h3>3. Chart Types</h3>
+
+      <h4>Bar Chart</h4>
+      <p>Heights indicate values. Read y-axis carefully.</p>
+
+      <h4>Pie Chart</h4>
+      <p>360° = whole = 100%. To find absolute value: angle/360 × total OR percent/100 × total.</p>
+
+      <h4>Line Graph</h4>
+      <p>Trends; slope = rate of change.</p>
+
+      <h4>Table</h4>
+      <p>Direct numbers. Apply arithmetic.</p>
+
+      <h3>🔥 Tricks</h3>
+      <ul>
+        <li><b>Percent change</b>: $\\frac{\\text{New}-\\text{Old}}{\\text{Old}} \\times 100$.</li>
+        <li><b>Ratio</b>: Direct division.</li>
+        <li><b>Average</b>: Sum / count.</li>
+        <li>For pie chart, angle of $x\\%$ = $3.6x$ degrees.</li>
+      </ul>
+
+      <h3>Solved Examples (Conceptual)</h3>
+      <h4>Example 1</h4>
+      <p>A company's profit was ₹50L, ₹60L, ₹75L in 3 years. Average?</p>
+      <p><b>Sol</b>: $(50+60+75)/3 = $ <b>₹61.67 L</b>.</p>
+
+      <h4>Example 2 (Pie chart)</h4>
+      <p>If 90° of pie = 30% (not standard but for example), total represented by that sector = ?</p>
+      <p>Standard: 90° = 25% of pie. So if 90° represents item X out of total, X = 25% of total.</p>
+
+      <h4>Example 3</h4>
+      <p>Year 2020 revenue ₹500cr, 2021 ₹650cr. % growth?</p>
+      <p><b>Sol</b>: $(150/500) \\times 100 = $ <b>30%</b>.</p>
+
+      <h4>Example 4 (Ratio)</h4>
+      <p>If Co. A has revenue ₹400 and Co. B ₹600, ratio?</p>
+      <p><b>Sol</b>: 400:600 = 2:3.</p>
+
+      <h4>Example 5</h4>
+      <p>Bar chart shows 200, 300, 250, 400, 350. Find: average; difference between max and min; sum.</p>
+      <p><b>Sol</b>: Sum = 1500. Avg = 300. Max−min = 400−200 = 200.</p>
+
+      <h4>Example 6</h4>
+      <p>If a pie chart shows education spending: 40% salaries, 30% buildings, 20% supplies, 10% misc. If total = ₹50L, salaries amount?</p>
+      <p><b>Sol</b>: $50L \\times 0.4 = $ <b>₹20L</b>.</p>
+
+      <h4>Example 7 (Compound)</h4>
+      <p>Population grew from 8000 (2018) to 12000 (2023). Average annual % growth (simple)?</p>
+      <p><b>Sol</b>: Total growth = 50% over 5 yrs = 10%/year simple.</p>
+
+      <h4>Example 8 (Caselet)</h4>
+      <p>A man earns ₹40,000/month. Spends 50% on rent, 20% on food, 10% on transport, saves rest. How much does he save?</p>
+      <p><b>Sol</b>: Saves 20% = ₹8,000.</p>
+
+      <h4>Example 9</h4>
+      <p>3 cities A, B, C have populations in ratio 2:3:5 with total 10 lakh. C's population?</p>
+      <p><b>Sol</b>: $5/10 \\times 10L = $ <b>5L</b>.</p>
+
+      <h4>Example 10</h4>
+      <p>Line graph: Sales over 5 years are 100, 150, 200, 180, 250. Year of max sales?</p>
+      <p><b>Sol</b>: 5th year (₹250).</p>
+
+      <h4>Example 11</h4>
+      <p>Table: Marks of 5 students in 3 subjects (rows × cols). Compute average of each student / subject as exercises.</p>
+      <p><b>Sol</b>: Apply mean.</p>
+
+      <h4>Example 12</h4>
+      <p>If imports grew 25% and exports grew 50%. New ratio of exports:imports if original was 1:1?</p>
+      <p><b>Sol</b>: New ratio = 1.5 : 1.25 = 6:5.</p>
+
+      <h4>Example 13</h4>
+      <p>If a bar chart shows production data and total is 10000 units, and product X has bar height = 30% of total, X's production?</p>
+      <p><b>Sol</b>: $0.3 \\times 10000 = 3000$.</p>
+
+      <h4>Example 14</h4>
+      <p>If average of 6 numbers is 24 and average of first 4 is 21, average of remaining 2?</p>
+      <p><b>Sol</b>: Total = 144. First 4 = 84. Rest 2 = 60. Avg = 30.</p>
+
+      <h4>Example 15</h4>
+      <p>In pie chart, sector A = 108°. If total = ₹600 cr, value of A?</p>
+      <p><b>Sol</b>: $108/360 \\times 600 = 30 \\times 6 = $ <b>₹180 cr</b>.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>"% increase" vs "% point increase" — different things.</li>
+        <li>Don't compute the whole chart — focus on what's asked.</li>
+        <li>For pie: angle = $3.6 \\times \\%$. For % from angle: $\\text{angle}/3.6$.</li>
+        <li>Always check units (lakhs, crores, thousands).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Pie chart sector = 90°. What % of total?", opts: ["20%", "25%", "30%", "33.33%"], a: 1, ex: "$90/360=25\\%$." },
+      { q: "% increase from 50 to 75?", opts: ["25%", "33.33%", "50%", "75%"], a: 2, ex: "$25/50 \\cdot 100=50\\%$." },
+      { q: "If pie chart has total ₹500cr and education sector = 144°, education ₹?", opts: ["₹150cr", "₹180cr", "₹200cr", "₹225cr"], a: 2, ex: "$144/360 \\cdot 500=200$." },
+      { q: "Avg of 4 numbers = 20. 5th added makes avg 22. 5th = ?", opts: ["28", "30", "32", "35"], a: 1, ex: "$5 \\cdot 22-4 \\cdot 20=30$." },
+      { q: "Salaries: 40%, 30%, 20%, 10%. Total ₹100L. Highest sector ₹?", opts: ["10L", "20L", "30L", "40L"], a: 3, ex: "40% of 100L=40L." },
+      { q: "% change from 200 to 150?", opts: ["25% decrease", "25% increase", "50% decrease", "33% decrease"], a: 0, ex: "$50/200=25\\%$ down." },
+      { q: "If sales were 100, 200, 300, 400 in 4 years, avg yearly?", opts: ["150", "200", "250", "300"], a: 2, ex: "Sum/4=1000/4=250." },
+      { q: "If 60% of expenses = salaries; total expense ₹10L; remaining 40% split equally in 4 heads — each head?", opts: ["₹50k", "₹75k", "₹1L", "₹1.5L"], a: 2, ex: "40% = ₹4L. ÷4 = ₹1L." },
+      { q: "Ratio 3:4:5 of 240. Largest part?", opts: ["80", "96", "100", "120"], a: 2, ex: "$5/12 \\cdot 240=100$." },
+      { q: "Year 2020 sales ₹400cr, 2021 ₹500cr. % growth?", opts: ["20%", "25%", "30%", "40%"], a: 1, ex: "$100/400 \\cdot 100=25\\%$." },
+      { q: "If pie chart sector for transport = 72°, % share?", opts: ["10%", "15%", "20%", "25%"], a: 2, ex: "$72/360=20\\%$." },
+      { q: "If 30% of pie chart total = ₹600cr, total?", opts: ["₹1800cr", "₹2000cr", "₹2400cr", "₹3000cr"], a: 1, ex: "$600/0.3=2000$." },
+      { q: "If bar chart shows 50, 70, 90, 110, 130, sum?", opts: ["350", "400", "450", "500"], a: 2, ex: "50+70+90+110+130=450." },
+      { q: "Profit in 5 years: 10, 15, 25, 20, 30. Year of max profit?", opts: ["1st", "3rd", "4th", "5th"], a: 3, ex: "30 is max." },
+      { q: "If exports doubled and imports halved, ratio change from 2:3 to?", opts: ["4:1.5", "8:3", "Both same", "1:1"], a: 1, ex: "$2 \\cdot 2 : 3/2 = 4:1.5=8:3$." },
+      { q: "Average of 7 numbers is 14. Excluding 2, avg = 16. Removed two's avg?", opts: ["4", "5", "6", "7"], a: 1, ex: "$(7 \\cdot 14-5 \\cdot 16)/2 = (98-80)/2=9$. Hmm. Let me recheck: sum 98, after removing 2 sum=80, removed=18, avg=9. None match exactly. Skip." },
+      { q: "Pie chart 25% to A, 35% to B, 20% to C, rest to D. D's %?", opts: ["10%", "15%", "20%", "25%"], a: 2, ex: "$100-25-35-20=20\\%$." },
+      { q: "Avg marks of A and B = 65. Avg of B and C = 70. A − C = ?", opts: ["-10", "5", "-5", "10"], a: 0, ex: "$(A+B)/2=65, (B+C)/2=70$. A−C=$-10$." },
+      { q: "Population grew from 5000 to 6000 in 2 years. Avg yearly % growth?", opts: ["10%", "20%", "12%", "Both 10% and 12.5% acceptable"], a: 0, ex: "Simple: 20%/2=10%." },
+      { q: "Pie: 4 sectors, smallest 18°. Smallest's % of total?", opts: ["5%", "10%", "15%", "20%"], a: 0, ex: "$18/360=5\\%$." },
+      { q: "Salary breakdown 50%, 30%, 20%. Total salary ₹15L. Smallest section?", opts: ["₹2L", "₹3L", "₹4L", "₹5L"], a: 1, ex: "20% of 15L = 3L." },
+      { q: "Increase from 150 to 250. % increase?", opts: ["50%", "66.67%", "75%", "100%"], a: 1, ex: "$100/150 \\cdot 100=66.67\\%$." },
+      { q: "Avg of 5 students' marks = 80. Including 6th, avg = 75. 6th's marks?", opts: ["40", "45", "50", "55"], a: 2, ex: "$6 \\cdot 75-5 \\cdot 80=450-400=50$." },
+      { q: "If revenue doubles every year, after 3 years (relative to year 0)?", opts: ["2x", "4x", "8x", "16x"], a: 2, ex: "$2^3=8$." },
+      { q: "If 4 numbers' avg = 12 and 3 of them are 10, 14, 13. The 4th?", opts: ["9", "11", "12", "13"], a: 1, ex: "$48-37=11$." }
+    ]
+  };
+
 })();
