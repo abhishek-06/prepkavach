@@ -2846,4 +2846,961 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 24. MINERALS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-minerals"] = {
+    body: `
+      <h2>Minerals</h2>
+      <p>A <b>mineral</b> is a naturally occurring inorganic substance with definite chemical composition. An <b>ore</b> is a mineral from which a metal can be economically extracted.</p>
+
+      <h3>1. Important Ores of Metals</h3>
+      <table>
+        <tr><th>Metal</th><th>Important Ores</th><th>Formula</th></tr>
+        <tr><td>Aluminium</td><td>Bauxite</td><td>Al₂O₃·2H₂O</td></tr>
+        <tr><td>Aluminium</td><td>Cryolite</td><td>Na₃AlF₆</td></tr>
+        <tr><td>Iron</td><td>Hematite</td><td>Fe₂O₃</td></tr>
+        <tr><td>Iron</td><td>Magnetite</td><td>Fe₃O₄</td></tr>
+        <tr><td>Iron</td><td>Siderite</td><td>FeCO₃</td></tr>
+        <tr><td>Iron</td><td>Iron Pyrite ("Fool's Gold")</td><td>FeS₂</td></tr>
+        <tr><td>Copper</td><td>Chalcopyrite</td><td>CuFeS₂</td></tr>
+        <tr><td>Copper</td><td>Cuprite</td><td>Cu₂O</td></tr>
+        <tr><td>Copper</td><td>Malachite</td><td>CuCO₃·Cu(OH)₂</td></tr>
+        <tr><td>Zinc</td><td>Zinc Blende / Sphalerite</td><td>ZnS</td></tr>
+        <tr><td>Zinc</td><td>Calamine</td><td>ZnCO₃</td></tr>
+        <tr><td>Lead</td><td>Galena</td><td>PbS</td></tr>
+        <tr><td>Mercury</td><td>Cinnabar</td><td>HgS</td></tr>
+        <tr><td>Silver</td><td>Argentite</td><td>Ag₂S</td></tr>
+        <tr><td>Tin</td><td>Cassiterite</td><td>SnO₂</td></tr>
+        <tr><td>Magnesium</td><td>Magnesite / Dolomite</td><td>MgCO₃ / CaMg(CO₃)₂</td></tr>
+        <tr><td>Calcium</td><td>Limestone / Marble</td><td>CaCO₃</td></tr>
+        <tr><td>Sodium</td><td>Rock salt</td><td>NaCl</td></tr>
+        <tr><td>Potassium</td><td>Sylvite</td><td>KCl</td></tr>
+        <tr><td>Uranium</td><td>Pitchblende / Uraninite</td><td>UO₂</td></tr>
+      </table>
+
+      <h3>2. Metallurgy (Extraction)</h3>
+      <p>Steps in extracting metals:</p>
+      <ol>
+        <li><b>Crushing & Grinding</b>: ore broken down.</li>
+        <li><b>Concentration</b>: removing impurities (gangue).
+          <ul>
+            <li>Gravity separation (hematite).</li>
+            <li>Magnetic separation (magnetite).</li>
+            <li>Froth flotation (sulfide ores like ZnS, PbS, CuFeS₂).</li>
+            <li>Leaching (bauxite).</li>
+          </ul>
+        </li>
+        <li><b>Conversion to oxide</b>:
+          <ul>
+            <li>Calcination: heating in absence of air (carbonates → oxides + CO₂).</li>
+            <li>Roasting: heating in presence of air (sulfides → oxides + SO₂).</li>
+          </ul>
+        </li>
+        <li><b>Reduction to metal</b>:
+          <ul>
+            <li>Carbon reduction (for less reactive metals: Fe, Zn).</li>
+            <li>Electrolytic reduction (for highly reactive metals: Na, Al, Mg).</li>
+            <li>Self-reduction (Cu, Hg).</li>
+          </ul>
+        </li>
+        <li><b>Refining/Purification</b>: electrolytic refining, distillation, zone refining.</li>
+      </ol>
+
+      <h3>3. Important Minerals & Their Locations in India</h3>
+      <ul>
+        <li><b>Iron ore (Hematite)</b>: Jharkhand, Odisha, Chhattisgarh, Karnataka.</li>
+        <li><b>Coal</b>: Jharkhand (Jharia, Bokaro), Odisha (Talcher), Chhattisgarh, West Bengal (Raniganj).</li>
+        <li><b>Bauxite</b>: Odisha, Jharkhand, Gujarat, Madhya Pradesh.</li>
+        <li><b>Copper</b>: Jharkhand (Singhbhum), Rajasthan (Khetri), Madhya Pradesh.</li>
+        <li><b>Manganese</b>: Odisha, Karnataka, Madhya Pradesh.</li>
+        <li><b>Mica</b>: Jharkhand (Koderma — major), Bihar, Andhra Pradesh, Rajasthan.</li>
+        <li><b>Gold</b>: Karnataka (Kolar, Hutti), Andhra Pradesh.</li>
+        <li><b>Diamond</b>: Madhya Pradesh (Panna).</li>
+        <li><b>Uranium</b>: Jharkhand (Jaduguda).</li>
+        <li><b>Limestone</b>: Madhya Pradesh, Rajasthan.</li>
+        <li><b>Petroleum</b>: Mumbai High, Gujarat (Ankleshwar), Assam (Digboi).</li>
+      </ul>
+
+      <h3>4. Mica Types</h3>
+      <ul>
+        <li>Muscovite (white mica) — most common.</li>
+        <li>Biotite (black mica).</li>
+        <li>Used in electrical insulators, capacitors, cosmetics.</li>
+      </ul>
+
+      <h3>5. Precious Stones (Gem Minerals)</h3>
+      <table>
+        <tr><th>Gem</th><th>Mineral</th><th>Color</th></tr>
+        <tr><td>Diamond</td><td>Carbon (pure)</td><td>Colorless</td></tr>
+        <tr><td>Ruby</td><td>Corundum (Al₂O₃) + Cr</td><td>Red</td></tr>
+        <tr><td>Sapphire</td><td>Corundum + Fe/Ti</td><td>Blue</td></tr>
+        <tr><td>Emerald</td><td>Beryl + Cr</td><td>Green</td></tr>
+        <tr><td>Topaz</td><td>Aluminium silicate</td><td>Yellow/blue</td></tr>
+        <tr><td>Amethyst</td><td>Quartz</td><td>Purple</td></tr>
+        <tr><td>Pearl</td><td>Calcium carbonate</td><td>White (organic-origin)</td></tr>
+      </table>
+
+      <h3>6. Famous Minerals/Forms</h3>
+      <ul>
+        <li><b>Granite</b>: igneous rock; used in monuments.</li>
+        <li><b>Marble</b>: metamorphic limestone; Taj Mahal.</li>
+        <li><b>Quartz</b>: SiO₂; piezoelectric watches.</li>
+        <li><b>Asbestos</b>: fibrous mineral; banned due to cancer risk.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Bauxite: aluminium ore.</li>
+        <li>Hematite, Magnetite: iron ores.</li>
+        <li>Galena: lead ore (PbS).</li>
+        <li>Cinnabar: mercury ore.</li>
+        <li>Pitchblende: uranium ore.</li>
+        <li>Kolar Gold Fields in Karnataka.</li>
+        <li>Panna in MP is famous for diamond mines.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Bauxite is ore of:", opts: ["Fe", "Cu", "Al", "Zn"], a: 2, ex: "Aluminium." },
+      { q: "Hematite is ore of:", opts: ["Fe", "Al", "Cu", "Pb"], a: 0, ex: "Iron (Fe₂O₃)." },
+      { q: "Galena is ore of:", opts: ["Zn", "Pb", "Fe", "Cu"], a: 1, ex: "Lead (PbS)." },
+      { q: "Cinnabar is ore of:", opts: ["Ag", "Au", "Hg", "Pb"], a: 2, ex: "Mercury (HgS)." },
+      { q: "Pitchblende is ore of:", opts: ["U", "Cu", "Fe", "Au"], a: 0, ex: "Uranium." },
+      { q: "Iron pyrite is called:", opts: ["Real gold", "Fool's gold", "White metal", "Bauxite"], a: 1, ex: "FeS₂ looks like gold." },
+      { q: "Indian Kolar Gold Fields in:", opts: ["AP", "Karnataka", "TN", "Kerala"], a: 1, ex: "Karnataka." },
+      { q: "Diamond mines of India:", opts: ["MP (Panna)", "UP", "Bihar", "Odisha"], a: 0, ex: "Panna, Madhya Pradesh." },
+      { q: "Calamine is ore of:", opts: ["Zn", "Fe", "Cu", "Sn"], a: 0, ex: "ZnCO₃." },
+      { q: "Roasting is done in:", opts: ["Absence of air", "Presence of air", "Vacuum", "Water"], a: 1, ex: "Air present; sulfide → oxide." },
+      { q: "Calcination is done in:", opts: ["Absence of air", "Presence of air", "Water", "Steam"], a: 0, ex: "No air; carbonate → oxide." },
+      { q: "Froth flotation used for:", opts: ["Iron ore", "Sulfide ores", "All ores", "Bauxite"], a: 1, ex: "ZnS, PbS, CuFeS₂." },
+      { q: "Mica is mainly mined in:", opts: ["Jharkhand (Koderma)", "Kerala", "Punjab", "Goa"], a: 0, ex: "Koderma." },
+      { q: "Coal mines at Jharia in:", opts: ["WB", "Jharkhand", "Odisha", "Chhattisgarh"], a: 1, ex: "Jharkhand." },
+      { q: "Khetri is famous for:", opts: ["Coal", "Iron", "Copper", "Gold"], a: 2, ex: "Copper, Rajasthan." },
+      { q: "Most reactive metal extracted by:", opts: ["Carbon reduction", "Electrolysis", "Roasting", "Magnetic"], a: 1, ex: "Na, Al, Mg need electrolysis." },
+      { q: "Quartz is mainly:", opts: ["CaCO₃", "SiO₂", "Fe₂O₃", "Al₂O₃"], a: 1, ex: "Silicon dioxide." },
+      { q: "Ruby is a form of:", opts: ["Corundum", "Beryl", "Quartz", "Topaz"], a: 0, ex: "Corundum (Al₂O₃) + Cr." },
+      { q: "Marble is metamorphosed:", opts: ["Granite", "Sandstone", "Limestone", "Quartz"], a: 2, ex: "From limestone (CaCO₃)." },
+      { q: "Bhairavi mine of uranium:", opts: ["MP", "Karnataka", "Jharkhand (Jaduguda)", "Kerala"], a: 2, ex: "Jaduguda, Jharkhand." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 25. ELECTROCHEMISTRY
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-electrochemistry"] = {
+    body: `
+      <h2>Electrochemistry</h2>
+      <p><b>Electrochemistry</b> studies the relationship between chemical reactions and electrical energy.</p>
+
+      <h3>1. Electrolysis</h3>
+      <p>Chemical decomposition of a substance by passing electricity through it.</p>
+      <ul>
+        <li>Requires an <b>electrolyte</b> (substance that conducts in solution/molten state).</li>
+        <li>Cathode: connected to negative terminal of battery → reduction happens.</li>
+        <li>Anode: connected to positive terminal → oxidation happens.</li>
+        <li>Cations (+) move toward cathode; Anions (−) toward anode.</li>
+      </ul>
+
+      <h3>2. Faraday's Laws of Electrolysis</h3>
+      <ul>
+        <li><b>1st Law</b>: mass deposited at electrode ∝ charge passed. m = (M/zF) × Q.</li>
+        <li><b>2nd Law</b>: same charge through different electrolytes deposits masses proportional to equivalent weights.</li>
+        <li>1 Faraday = 96,500 C (charge of 1 mole of electrons).</li>
+      </ul>
+
+      <h3>3. Applications of Electrolysis</h3>
+      <ul>
+        <li><b>Electroplating</b>: depositing one metal on another (gold/silver/chrome plating).</li>
+        <li><b>Electrorefining</b>: purification of metals (copper).</li>
+        <li><b>Extraction of metals</b>: Al from bauxite, Na from NaCl.</li>
+        <li><b>Production of compounds</b>: Cl₂, NaOH (chlor-alkali industry).</li>
+      </ul>
+
+      <h3>4. Electrochemical Cells</h3>
+
+      <h4>(a) Galvanic / Voltaic Cell</h4>
+      <ul>
+        <li>Converts chemical energy → electrical energy.</li>
+        <li>Spontaneous reaction.</li>
+        <li>Example: <b>Daniell cell</b>: Zn (anode) | ZnSO₄ || CuSO₄ | Cu (cathode); voltage ~1.1 V.</li>
+        <li>All batteries are galvanic cells.</li>
+      </ul>
+
+      <h4>(b) Electrolytic Cell</h4>
+      <ul>
+        <li>Converts electrical → chemical energy.</li>
+        <li>Non-spontaneous; needs external voltage.</li>
+      </ul>
+
+      <h3>5. Common Cells/Batteries</h3>
+      <table>
+        <tr><th>Cell</th><th>Type</th><th>Use</th></tr>
+        <tr><td>Dry cell (Leclanché)</td><td>Primary (non-rechargeable)</td><td>Torch, clock</td></tr>
+        <tr><td>Mercury cell</td><td>Primary</td><td>Hearing aids, watches</td></tr>
+        <tr><td>Lead-acid battery</td><td>Secondary (rechargeable)</td><td>Cars, inverters</td></tr>
+        <tr><td>Nickel-Cadmium (Ni-Cd)</td><td>Secondary</td><td>Old phones, tools</td></tr>
+        <tr><td>Lithium-ion</td><td>Secondary</td><td>Mobile, laptop, EV</td></tr>
+        <tr><td>Fuel cell</td><td>Continuous</td><td>Spacecraft (H₂-O₂)</td></tr>
+      </table>
+
+      <h3>6. Electroplating Examples</h3>
+      <ul>
+        <li>Gold plating jewellery.</li>
+        <li>Silver plating cutlery.</li>
+        <li>Chrome plating taps, cycle parts (prevents rust + shine).</li>
+        <li>Tinning iron cans (food cans).</li>
+        <li>Zinc on iron = galvanization (rust prevention).</li>
+      </ul>
+
+      <h3>7. Conductors and Electrolytes</h3>
+      <ul>
+        <li>Strong electrolyte: fully ionizes (HCl, NaCl, NaOH).</li>
+        <li>Weak electrolyte: partial ionization (acetic acid, NH₄OH).</li>
+        <li>Non-electrolyte: doesn't ionize (sugar, alcohol).</li>
+      </ul>
+
+      <h3>8. Corrosion (Electrochemical)</h3>
+      <p>Most corrosion is electrochemical (galvanic action between dissimilar metals or impurities). Iron rusts because iron and impurities form tiny galvanic cells.</p>
+
+      <h3>9. Oxidation & Reduction</h3>
+      <ul>
+        <li><b>Oxidation</b>: loss of electrons (OIL: Oxidation Is Loss).</li>
+        <li><b>Reduction</b>: gain of electrons (RIG: Reduction Is Gain).</li>
+        <li>Both occur together (redox reactions).</li>
+        <li>Oxidizing agent gets reduced; reducing agent gets oxidized.</li>
+        <li>Common oxidizers: O₂, Cl₂, KMnO₄, H₂O₂.</li>
+        <li>Common reducers: H₂, Na, C, CO.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>1 Faraday = 96,500 C.</li>
+        <li>OIL RIG: Oxidation Is Loss of electrons, Reduction Is Gain.</li>
+        <li>Cathode is positive in galvanic, negative in electrolytic cell.</li>
+        <li>Daniell cell: Zn-Cu galvanic cell, ~1.1 V.</li>
+        <li>Lead-acid: rechargeable; Dry cell: non-rechargeable.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "1 Faraday =", opts: ["96,500 C", "1.6 × 10⁻¹⁹ C", "1 C", "1000 C"], a: 0, ex: "Charge of 1 mole electrons." },
+      { q: "Oxidation is:", opts: ["Loss of electrons", "Gain of electrons", "Loss of H₂", "Gain of O₂"], a: 0, ex: "OIL." },
+      { q: "Reduction is:", opts: ["Loss of electrons", "Gain of electrons", "Loss of H", "Adding O"], a: 1, ex: "RIG." },
+      { q: "Cathode in electrolysis:", opts: ["Positive terminal", "Negative terminal", "Anion", "Cation"], a: 1, ex: "Connected to negative; reduction occurs." },
+      { q: "Galvanic cell converts:", opts: ["Chemical to electrical", "Electrical to chemical", "Light to electrical", "Heat to light"], a: 0, ex: "Spontaneous redox → electricity." },
+      { q: "Daniell cell uses:", opts: ["Zn and Cu", "Fe and Pb", "Na and K", "Ag and Au"], a: 0, ex: "Zn-Cu galvanic cell." },
+      { q: "Lead-acid battery is:", opts: ["Primary", "Secondary (rechargeable)", "Fuel cell", "Solar"], a: 1, ex: "Rechargeable." },
+      { q: "Mobile phone uses:", opts: ["Lead-acid", "Lithium-ion", "Mercury", "Dry cell"], a: 1, ex: "Li-ion." },
+      { q: "Strong electrolyte:", opts: ["Sugar", "HCl", "Alcohol", "Acetone"], a: 1, ex: "Fully ionizes." },
+      { q: "Electroplating gold on:", opts: ["Iron", "Cheaper metal", "Both A and B", "Only Cu"], a: 2, ex: "Plating gives gold appearance." },
+      { q: "Chrome plating used for:", opts: ["Look only", "Rust prevention + shine", "Heat", "Battery"], a: 1, ex: "Decorative + protective." },
+      { q: "Galvanization is coating of:", opts: ["Cu on Fe", "Zn on Fe", "Au on Fe", "Hg on Fe"], a: 1, ex: "Zinc on iron." },
+      { q: "Anode in electrolysis:", opts: ["Negative", "Positive", "Zero", "Variable"], a: 1, ex: "Positive terminal." },
+      { q: "Cations move toward:", opts: ["Anode", "Cathode", "Both", "Neither"], a: 1, ex: "Cation = +, moves to − (cathode)." },
+      { q: "Fuel cell example:", opts: ["Dry cell", "Lead-acid", "H₂-O₂ cell", "Solar cell"], a: 2, ex: "Used in spacecraft." },
+      { q: "Pure water:", opts: ["Strong electrolyte", "Weak electrolyte", "Non-electrolyte (almost)", "Cannot say"], a: 2, ex: "Very few ions in pure water." },
+      { q: "Aluminium is extracted by:", opts: ["Carbon reduction", "Electrolysis (Hall-Héroult)", "Roasting", "Distillation"], a: 1, ex: "Electrolysis of molten Al₂O₃." },
+      { q: "Oxidizing agent:", opts: ["O₂", "H₂", "Na", "C"], a: 0, ex: "Causes oxidation; itself reduced." },
+      { q: "Reducing agent:", opts: ["O₂", "Cl₂", "H₂", "F₂"], a: 2, ex: "H₂ is reducer." },
+      { q: "Daniell cell voltage approx:", opts: ["1.1 V", "12 V", "230 V", "0.5 V"], a: 0, ex: "~1.1 V." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 26. CHEMICAL BONDING
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-bonding"] = {
+    body: `
+      <h2>Chemical Bonding</h2>
+      <p>Atoms combine to attain stability (usually 8 electrons in outermost shell — <b>octet rule</b>). Types of bonds:</p>
+
+      <h3>1. Ionic (Electrovalent) Bond</h3>
+      <ul>
+        <li>Transfer of electrons from metal (cation) to non-metal (anion).</li>
+        <li>Strong electrostatic attraction.</li>
+        <li>Example: NaCl (Na⁺ + Cl⁻).</li>
+        <li>Properties:
+          <ul>
+            <li>High melting/boiling points.</li>
+            <li>Soluble in water (polar).</li>
+            <li>Conduct electricity in molten or dissolved state.</li>
+            <li>Form crystalline solids.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>2. Covalent Bond</h3>
+      <ul>
+        <li>Sharing of electrons between non-metals.</li>
+        <li>Single (H₂), double (O₂), triple (N₂) bonds possible.</li>
+        <li>Properties:
+          <ul>
+            <li>Lower MP/BP (gases or liquids usually).</li>
+            <li>Often soluble in organic solvents.</li>
+            <li>Poor electrical conductors (no ions).</li>
+            <li>Form molecular structures.</li>
+          </ul>
+        </li>
+        <li>Examples: H₂O, CO₂, CH₄, O₂, N₂.</li>
+      </ul>
+
+      <h3>3. Coordinate (Dative) Bond</h3>
+      <ul>
+        <li>Both electrons from one atom (lone pair donor).</li>
+        <li>Examples: NH₄⁺, H₃O⁺, ozone O₃.</li>
+      </ul>
+
+      <h3>4. Metallic Bond</h3>
+      <ul>
+        <li>"Sea of electrons" — valence electrons delocalized.</li>
+        <li>Explains conductivity, malleability, ductility, lustre of metals.</li>
+      </ul>
+
+      <h3>5. Hydrogen Bond</h3>
+      <ul>
+        <li>Weak attraction between H attached to F/O/N and another F/O/N.</li>
+        <li>Important in: water, DNA, proteins, ice structure.</li>
+        <li>Reason water has high BP and high specific heat.</li>
+      </ul>
+
+      <h3>6. Van der Waals Forces</h3>
+      <ul>
+        <li>Weak attraction between molecules due to temporary dipoles.</li>
+        <li>Hold non-polar molecules together (e.g., methane, noble gases).</li>
+        <li>Make geckos stick to walls!</li>
+      </ul>
+
+      <h3>7. Polar and Non-Polar Molecules</h3>
+      <ul>
+        <li><b>Polar</b>: unequal sharing → dipole. Examples: H₂O, HCl, NH₃.</li>
+        <li><b>Non-polar</b>: equal sharing. Examples: CO₂ (symmetric), CH₄, O₂.</li>
+        <li>"Like dissolves like": polar dissolves polar; non-polar dissolves non-polar.</li>
+      </ul>
+
+      <h3>8. Geometry of Molecules (VSEPR)</h3>
+      <table>
+        <tr><th>Molecule</th><th>Shape</th></tr>
+        <tr><td>CO₂</td><td>Linear</td></tr>
+        <tr><td>H₂O</td><td>Bent (angular)</td></tr>
+        <tr><td>NH₃</td><td>Pyramidal</td></tr>
+        <tr><td>CH₄</td><td>Tetrahedral</td></tr>
+        <tr><td>BF₃</td><td>Trigonal planar</td></tr>
+        <tr><td>SF₆</td><td>Octahedral</td></tr>
+      </table>
+
+      <h3>9. Valency</h3>
+      <ul>
+        <li>Number of bonds an atom can form.</li>
+        <li>For main group: 8 − (group number) for non-metals; group number for metals.</li>
+        <li>Examples: Na (1), Mg (2), Al (3), C (4), N (3), O (2), F (1).</li>
+      </ul>
+
+      <h3>10. Common Molecular Formulas</h3>
+      <table>
+        <tr><th>Name</th><th>Formula</th></tr>
+        <tr><td>Water</td><td>H₂O</td></tr>
+        <tr><td>Carbon dioxide</td><td>CO₂</td></tr>
+        <tr><td>Ammonia</td><td>NH₃</td></tr>
+        <tr><td>Methane</td><td>CH₄</td></tr>
+        <tr><td>Sulfur dioxide</td><td>SO₂</td></tr>
+        <tr><td>Nitric oxide</td><td>NO</td></tr>
+        <tr><td>Hydrogen peroxide</td><td>H₂O₂</td></tr>
+        <tr><td>Ozone</td><td>O₃</td></tr>
+        <tr><td>Salt</td><td>NaCl</td></tr>
+        <tr><td>Bleach</td><td>NaOCl</td></tr>
+        <tr><td>Vinegar</td><td>CH₃COOH</td></tr>
+        <tr><td>Glucose</td><td>C₆H₁₂O₆</td></tr>
+        <tr><td>Quicklime</td><td>CaO</td></tr>
+        <tr><td>Slaked lime</td><td>Ca(OH)₂</td></tr>
+        <tr><td>Lime water</td><td>Ca(OH)₂ solution</td></tr>
+        <tr><td>Limestone</td><td>CaCO₃</td></tr>
+      </table>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Ionic = transfer; Covalent = sharing.</li>
+        <li>Metals + non-metals → ionic.</li>
+        <li>Non-metals + non-metals → covalent.</li>
+        <li>Hydrogen bond keeps water liquid at room temp.</li>
+        <li>Geckos use Van der Waals forces.</li>
+        <li>NaCl is ionic; sugar is covalent.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "NaCl bond:", opts: ["Covalent", "Ionic", "Metallic", "Hydrogen"], a: 1, ex: "Na transfers e⁻ to Cl." },
+      { q: "H₂O bond:", opts: ["Ionic", "Covalent", "Metallic", "Both polar covalent and H-bond"], a: 3, ex: "Polar covalent + H-bond." },
+      { q: "Octet rule:", opts: ["6 electrons outer", "8 electrons outer", "Full inner", "No electrons"], a: 1, ex: "Most atoms attain octet." },
+      { q: "Triple bond example:", opts: ["H₂", "O₂", "N₂", "Cl₂"], a: 2, ex: "N≡N triple bond." },
+      { q: "Sea of electrons explains:", opts: ["Ionic bond", "Metallic bond", "Covalent", "H-bond"], a: 1, ex: "Metallic bonding." },
+      { q: "Polar molecule:", opts: ["CO₂", "H₂O", "CH₄", "O₂"], a: 1, ex: "Bent water is polar." },
+      { q: "Non-polar molecule:", opts: ["H₂O", "NH₃", "CO₂", "HCl"], a: 2, ex: "CO₂ symmetric linear." },
+      { q: "Methane (CH₄) shape:", opts: ["Linear", "Bent", "Tetrahedral", "Trigonal"], a: 2, ex: "Tetrahedral." },
+      { q: "Like dissolves like means:", opts: ["Polar in polar", "Polar in non-polar", "Random", "Doesn't matter"], a: 0, ex: "Solubility principle." },
+      { q: "Hydrogen bond strongest in:", opts: ["H-Cl", "H-N", "H-O", "H-S"], a: 2, ex: "Most electronegative." },
+      { q: "Coordinate bond example:", opts: ["NH₄⁺", "NaCl", "O₂", "CH₄"], a: 0, ex: "N donates lone pair to H⁺." },
+      { q: "Ionic compound in water:", opts: ["Insoluble", "Soluble (usually)", "Heats up", "Cools down"], a: 1, ex: "Polar water dissolves ionic." },
+      { q: "Ionic in molten state:", opts: ["Conducts", "Doesn't conduct", "Burns", "Reflects"], a: 0, ex: "Free ions move." },
+      { q: "Single covalent bond:", opts: ["H₂", "O₂", "N₂", "CO₂"], a: 0, ex: "H-H single." },
+      { q: "Valency of carbon:", opts: ["1", "2", "3", "4"], a: 3, ex: "4 bonds." },
+      { q: "Geckos stick to walls due to:", opts: ["Friction", "Van der Waals forces", "Suction", "Glue"], a: 1, ex: "Tiny vdW forces over huge area." },
+      { q: "Ammonia NH₃ shape:", opts: ["Tetrahedral", "Pyramidal", "Linear", "Square"], a: 1, ex: "Trigonal pyramidal with lone pair." },
+      { q: "Salt + water gives:", opts: ["Ionic compound stays intact", "Dissociates into ions", "Becomes covalent", "Boils"], a: 1, ex: "Na⁺ and Cl⁻ separate." },
+      { q: "Glucose formula:", opts: ["C₆H₁₂O₆", "C₂H₆O", "CH₄", "C₂H₂"], a: 0, ex: "C₆H₁₂O₆." },
+      { q: "Highest BP among similar size:", opts: ["With H-bonding", "Without H-bonding", "All same", "Cannot say"], a: 0, ex: "H-bonds add strength." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 27. CHEMICAL REACTIONS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-reaction"] = {
+    body: `
+      <h2>Chemical Reactions</h2>
+      <p>A <b>chemical reaction</b> is a process where one or more substances are converted to different substances.</p>
+
+      <h3>1. Signs of a Chemical Reaction</h3>
+      <ul>
+        <li>Change in colour.</li>
+        <li>Evolution of gas (bubbling).</li>
+        <li>Change in temperature (heat absorbed/released).</li>
+        <li>Formation of precipitate.</li>
+        <li>Change in state.</li>
+      </ul>
+
+      <h3>2. Types of Chemical Reactions</h3>
+
+      <h4>(a) Combination (Synthesis)</h4>
+      <p>Two or more substances combine to form one.</p>
+      <p>A + B → AB</p>
+      <p>Example: 2H₂ + O₂ → 2H₂O (water formation).</p>
+
+      <h4>(b) Decomposition</h4>
+      <p>One substance breaks into two or more.</p>
+      <p>AB → A + B</p>
+      <p>Examples: CaCO₃ → CaO + CO₂ (heating limestone); 2H₂O → 2H₂ + O₂ (electrolysis).</p>
+      <p>Types: thermal (heat), photochemical (light), electrolytic (electricity).</p>
+
+      <h4>(c) Displacement (Single Replacement)</h4>
+      <p>More reactive metal displaces less reactive from compound.</p>
+      <p>A + BC → AC + B</p>
+      <p>Example: Zn + CuSO₄ → ZnSO₄ + Cu.</p>
+
+      <h4>(d) Double Displacement</h4>
+      <p>Exchange of ions between two compounds.</p>
+      <p>AB + CD → AD + CB</p>
+      <p>Example: AgNO₃ + NaCl → AgCl↓ + NaNO₃ (precipitate).</p>
+
+      <h4>(e) Redox (Oxidation-Reduction)</h4>
+      <p>Electron transfer; oxidation and reduction occur together.</p>
+      <p>Example: 2Mg + O₂ → 2MgO (Mg oxidized, O reduced).</p>
+
+      <h4>(f) Neutralization</h4>
+      <p>Acid + Base → Salt + Water.</p>
+      <p>Example: HCl + NaOH → NaCl + H₂O.</p>
+
+      <h4>(g) Combustion</h4>
+      <p>Reaction with O₂, usually producing heat and light.</p>
+      <p>CH₄ + 2O₂ → CO₂ + 2H₂O + heat.</p>
+
+      <h4>(h) Precipitation</h4>
+      <p>Solution reaction producing insoluble solid (precipitate).</p>
+
+      <h3>3. Exothermic vs Endothermic</h3>
+      <ul>
+        <li><b>Exothermic</b>: releases heat. Examples: burning, respiration, neutralization, dissolving CaO in water.</li>
+        <li><b>Endothermic</b>: absorbs heat. Examples: photosynthesis, melting ice, dissolving NH₄NO₃, electrolysis.</li>
+      </ul>
+
+      <h3>4. Reversible vs Irreversible</h3>
+      <ul>
+        <li>Reversible: can go both ways. Indicated by ⇌. Example: N₂ + 3H₂ ⇌ 2NH₃.</li>
+        <li>Irreversible: one direction only. Example: burning paper.</li>
+      </ul>
+
+      <h3>5. Balancing Chemical Equations</h3>
+      <ul>
+        <li>Conservation of mass: atoms of each element must balance on both sides.</li>
+        <li>H₂ + O₂ → H₂O (unbalanced).</li>
+        <li>2H₂ + O₂ → 2H₂O (balanced).</li>
+      </ul>
+
+      <h3>6. Rate of Reaction</h3>
+      <p>Affected by:</p>
+      <ul>
+        <li>Concentration (higher → faster).</li>
+        <li>Temperature (higher → faster, often doubles per 10°C).</li>
+        <li>Surface area (higher → faster; powder reacts faster than block).</li>
+        <li>Catalyst (speeds up without being consumed).</li>
+        <li>Pressure (for gas reactions).</li>
+      </ul>
+
+      <h3>7. Catalysts</h3>
+      <ul>
+        <li>Speed up reaction without being consumed.</li>
+        <li>Examples: enzymes in body, platinum in catalytic converters, iron in Haber process (NH₃).</li>
+        <li>Inhibitor: slows down reaction.</li>
+        <li>Promoter: enhances catalyst.</li>
+        <li>Poison: deactivates catalyst.</li>
+      </ul>
+
+      <h3>8. Famous Industrial Reactions</h3>
+      <ul>
+        <li><b>Haber Process</b>: N₂ + 3H₂ → 2NH₃ (Fe catalyst, 200 atm, 450°C).</li>
+        <li><b>Contact Process</b>: makes H₂SO₄ from SO₂ → SO₃ → H₂SO₄.</li>
+        <li><b>Ostwald Process</b>: makes HNO₃ from NH₃.</li>
+        <li><b>Solvay Process</b>: makes Na₂CO₃ (washing soda).</li>
+        <li><b>Chlor-alkali Process</b>: electrolysis of NaCl → NaOH + Cl₂ + H₂.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Combination: A + B → AB.</li>
+        <li>Decomposition: AB → A + B.</li>
+        <li>Displacement: reactive metal kicks out less reactive.</li>
+        <li>Exothermic: releases heat (cooking gas burn).</li>
+        <li>Endothermic: absorbs heat (cooking food).</li>
+        <li>Catalyst speeds up but not consumed.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "A + B → AB is:", opts: ["Decomposition", "Combination", "Displacement", "Double displacement"], a: 1, ex: "Synthesis." },
+      { q: "AB → A + B is:", opts: ["Combination", "Decomposition", "Displacement", "Combustion"], a: 1, ex: "Decomposition." },
+      { q: "Burning is:", opts: ["Endothermic", "Exothermic", "Reversible", "No heat"], a: 1, ex: "Releases heat." },
+      { q: "Photosynthesis is:", opts: ["Endothermic", "Exothermic", "Neutral", "Decomposition"], a: 0, ex: "Absorbs light energy." },
+      { q: "Catalyst:", opts: ["Speeds reaction without consumption", "Always consumed", "Stops reaction", "Reverses"], a: 0, ex: "Lowers activation energy." },
+      { q: "Zn + CuSO₄ → ZnSO₄ + Cu is:", opts: ["Combination", "Decomposition", "Displacement", "Double displacement"], a: 2, ex: "Zn displaces Cu." },
+      { q: "AgNO₃ + NaCl → AgCl + NaNO₃ is:", opts: ["Single displacement", "Double displacement", "Combination", "Decomposition"], a: 1, ex: "Ions exchanged." },
+      { q: "Haber process makes:", opts: ["H₂SO₄", "HNO₃", "NH₃", "Na₂CO₃"], a: 2, ex: "Ammonia from N₂ + H₂." },
+      { q: "Contact process makes:", opts: ["NH₃", "H₂SO₄", "Na₂CO₃", "HCl"], a: 1, ex: "Sulfuric acid." },
+      { q: "Catalyst in Haber process:", opts: ["Cu", "Pt", "Fe", "Ni"], a: 2, ex: "Iron." },
+      { q: "Catalyst in body:", opts: ["Acid", "Enzyme", "Salt", "Water"], a: 1, ex: "Biological catalysts." },
+      { q: "Rusting is:", opts: ["Combination", "Decomposition", "Displacement", "Double"], a: 0, ex: "Fe + O₂ + H₂O → rust." },
+      { q: "Reversible reaction symbol:", opts: ["→", "←", "⇌", "="], a: 2, ex: "Double arrow." },
+      { q: "2H₂ + O₂ → 2H₂O is:", opts: ["Decomposition", "Combination", "Displacement", "Double"], a: 1, ex: "Two combine into one." },
+      { q: "Conservation in balancing equation:", opts: ["Energy", "Mass (atoms)", "Charge only", "Volume"], a: 1, ex: "Atoms must balance." },
+      { q: "Powder reacts faster than lump because:", opts: ["More mass", "More surface area", "Different chemical", "Magic"], a: 1, ex: "Surface area matters." },
+      { q: "Higher temp generally:", opts: ["Slows reaction", "Speeds reaction", "No change", "Stops"], a: 1, ex: "Reaction rate up." },
+      { q: "Photosynthesis: light + CO₂ + H₂O →", opts: ["Glucose + O₂", "Sugar + N₂", "Starch + H₂", "Glucose + CO"], a: 0, ex: "Plants make glucose + O₂." },
+      { q: "Acid + base = ?", opts: ["Salt + water", "Salt only", "Acid", "Base"], a: 0, ex: "Neutralization." },
+      { q: "CaCO₃ → CaO + CO₂ (on heating) is:", opts: ["Combination", "Decomposition", "Displacement", "Both"], a: 1, ex: "Thermal decomposition." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 28. ORGANIC CHEMISTRY
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-organic"] = {
+    body: `
+      <h2>Organic Chemistry</h2>
+      <p><b>Organic chemistry</b> is the study of compounds of <b>carbon</b> (except CO, CO₂, carbonates).</p>
+
+      <h3>1. Why Carbon?</h3>
+      <ul>
+        <li>Carbon has 4 valence electrons → can form 4 bonds.</li>
+        <li>Forms long chains and rings (catenation).</li>
+        <li>Forms single, double, triple bonds.</li>
+        <li>Stable C-C and C-H bonds.</li>
+        <li>Millions of organic compounds exist!</li>
+      </ul>
+
+      <h3>2. Hydrocarbons</h3>
+      <p>Compounds of only C and H.</p>
+
+      <h4>(a) Alkanes (Saturated)</h4>
+      <ul>
+        <li>Only single bonds. General formula: <b>CₙH₂ₙ₊₂</b>.</li>
+        <li>Methane (CH₄), Ethane (C₂H₆), Propane (C₃H₈), Butane (C₄H₁₀), Pentane (C₅H₁₂)…</li>
+        <li>Methane: natural gas, swamp gas (biogas mainly).</li>
+        <li>LPG: butane + propane.</li>
+      </ul>
+
+      <h4>(b) Alkenes (Unsaturated)</h4>
+      <ul>
+        <li>One double bond. General formula: <b>CₙH₂ₙ</b>.</li>
+        <li>Ethene/Ethylene (C₂H₄): ripens fruits, makes polyethylene.</li>
+        <li>Propene, Butene...</li>
+      </ul>
+
+      <h4>(c) Alkynes</h4>
+      <ul>
+        <li>One triple bond. General formula: <b>CₙH₂ₙ₋₂</b>.</li>
+        <li>Ethyne/Acetylene (C₂H₂): welding (oxy-acetylene flame).</li>
+      </ul>
+
+      <h4>(d) Aromatic</h4>
+      <ul>
+        <li>Contain benzene ring (C₆H₆).</li>
+        <li>Benzene, toluene, naphthalene (mothballs).</li>
+      </ul>
+
+      <h3>3. Functional Groups</h3>
+      <table>
+        <tr><th>Group</th><th>Class</th><th>Example</th></tr>
+        <tr><td>-OH</td><td>Alcohol</td><td>Ethanol (CH₃CH₂OH)</td></tr>
+        <tr><td>-COOH</td><td>Carboxylic acid</td><td>Acetic acid (CH₃COOH)</td></tr>
+        <tr><td>-CHO</td><td>Aldehyde</td><td>Formaldehyde (HCHO)</td></tr>
+        <tr><td>-CO-</td><td>Ketone</td><td>Acetone ((CH₃)₂CO)</td></tr>
+        <tr><td>-NH₂</td><td>Amine</td><td>Methylamine (CH₃NH₂)</td></tr>
+        <tr><td>-O-</td><td>Ether</td><td>Diethyl ether</td></tr>
+        <tr><td>-COO-</td><td>Ester</td><td>Ethyl acetate</td></tr>
+        <tr><td>-X (halide)</td><td>Haloalkane</td><td>Chloroform (CHCl₃)</td></tr>
+      </table>
+
+      <h3>4. Important Organic Compounds</h3>
+      <ul>
+        <li><b>Methane (CH₄)</b>: natural gas, marsh gas, biogas. Greenhouse gas.</li>
+        <li><b>Ethane (C₂H₆)</b>: in natural gas.</li>
+        <li><b>Acetylene (C₂H₂)</b>: welding (3000°C flame).</li>
+        <li><b>Ethanol (C₂H₅OH)</b>: alcoholic drinks; sanitizer; fuel.</li>
+        <li><b>Methanol (CH₃OH)</b>: wood alcohol; toxic, causes blindness.</li>
+        <li><b>Formalin</b>: 40% formaldehyde, preserves dead bodies.</li>
+        <li><b>Acetic acid (vinegar)</b>: CH₃COOH.</li>
+        <li><b>Glucose</b>: C₆H₁₂O₆.</li>
+        <li><b>Sucrose (table sugar)</b>: C₁₂H₂₂O₁₁.</li>
+        <li><b>Urea</b>: NH₂CONH₂; first organic synthesized from inorganic by Wöhler (1828).</li>
+        <li><b>DDT</b>: insecticide (banned in many places).</li>
+        <li><b>Chloroform (CHCl₃)</b>: anaesthetic (mostly replaced).</li>
+        <li><b>Glycerin (glycerol)</b>: in soaps, cosmetics.</li>
+        <li><b>Aspirin</b>: C₉H₈O₄ (acetylsalicylic acid).</li>
+        <li><b>Paracetamol</b>: fever/pain reliever.</li>
+      </ul>
+
+      <h3>5. Polymers (Long-Chain Organic Molecules)</h3>
+      <table>
+        <tr><th>Polymer</th><th>Monomer</th><th>Use</th></tr>
+        <tr><td>Polyethylene (PE)</td><td>Ethylene</td><td>Plastic bags, bottles</td></tr>
+        <tr><td>Polyvinyl chloride (PVC)</td><td>Vinyl chloride</td><td>Pipes, raincoats</td></tr>
+        <tr><td>Polystyrene</td><td>Styrene</td><td>Cups, packaging foam</td></tr>
+        <tr><td>Polyester (Terylene)</td><td>—</td><td>Clothes</td></tr>
+        <tr><td>Nylon</td><td>—</td><td>Ropes, stockings</td></tr>
+        <tr><td>Bakelite</td><td>Phenol + formaldehyde</td><td>Switches, electrical fittings</td></tr>
+        <tr><td>Teflon (PTFE)</td><td>Tetrafluoroethylene</td><td>Non-stick pans</td></tr>
+        <tr><td>Rayon (artificial silk)</td><td>Cellulose-based</td><td>Clothing</td></tr>
+        <tr><td>Rubber (natural)</td><td>Isoprene</td><td>Tyres</td></tr>
+        <tr><td>Cellulose</td><td>Glucose</td><td>Paper, cotton</td></tr>
+        <tr><td>Starch</td><td>Glucose</td><td>Food storage in plants</td></tr>
+        <tr><td>Protein</td><td>Amino acids</td><td>Body building</td></tr>
+        <tr><td>DNA / RNA</td><td>Nucleotides</td><td>Genetic info</td></tr>
+      </table>
+
+      <h3>6. Isomerism</h3>
+      <ul>
+        <li>Same molecular formula, different arrangement.</li>
+        <li>Examples: butane (straight) vs isobutane (branched).</li>
+        <li>Important in pharmacology.</li>
+      </ul>
+
+      <h3>7. Allotropes of Carbon</h3>
+      <ul>
+        <li>Diamond: tetrahedral, hardest natural substance.</li>
+        <li>Graphite: layered, conducts electricity (lubricant, pencil lead).</li>
+        <li>Fullerene (C₆₀): "buckyball" shape.</li>
+        <li>Graphene: single layer of carbon atoms.</li>
+        <li>Carbon nanotubes: rolled graphene sheets.</li>
+        <li>Charcoal, soot, coke.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Methane: CH₄, simplest hydrocarbon, natural gas.</li>
+        <li>Ethanol = drinking alcohol; Methanol = toxic.</li>
+        <li>Alkanes: CₙH₂ₙ₊₂; Alkenes: CₙH₂ₙ; Alkynes: CₙH₂ₙ₋₂.</li>
+        <li>Urea: first organic compound synthesized from inorganic (Wöhler 1828).</li>
+        <li>Diamond and graphite: both pure carbon, different structures.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Organic chemistry deals with:", opts: ["All elements", "Carbon compounds", "Metals", "Salts"], a: 1, ex: "Carbon-based." },
+      { q: "Methane formula:", opts: ["CH₄", "C₂H₆", "C₂H₄", "C₆H₆"], a: 0, ex: "CH₄." },
+      { q: "Alkane formula:", opts: ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙHₙ"], a: 0, ex: "Saturated." },
+      { q: "Acetylene used in:", opts: ["Lighting", "Welding", "Cooking", "Polishing"], a: 1, ex: "Oxy-acetylene flame for welding." },
+      { q: "Drinking alcohol:", opts: ["Methanol", "Ethanol", "Propanol", "Glycerol"], a: 1, ex: "Ethanol C₂H₅OH." },
+      { q: "Methanol is toxic and causes:", opts: ["Joy", "Blindness", "Energy", "Sleep"], a: 1, ex: "Wood alcohol → blindness." },
+      { q: "Vinegar contains:", opts: ["Citric acid", "Acetic acid", "Lactic acid", "Formic"], a: 1, ex: "CH₃COOH." },
+      { q: "First organic compound synthesized:", opts: ["Methane", "Urea", "Glucose", "Ethanol"], a: 1, ex: "Wöhler 1828." },
+      { q: "Bakelite is made from:", opts: ["Vinyl chloride", "Phenol + formaldehyde", "Ethylene", "Styrene"], a: 1, ex: "Used in electric fittings." },
+      { q: "Non-stick coating:", opts: ["Bakelite", "Nylon", "Teflon", "Polyester"], a: 2, ex: "PTFE." },
+      { q: "Functional group -COOH is:", opts: ["Alcohol", "Carboxylic acid", "Aldehyde", "Ester"], a: 1, ex: "Carboxylic acid." },
+      { q: "Functional group -OH:", opts: ["Alcohol", "Acid", "Ester", "Amine"], a: 0, ex: "Hydroxyl." },
+      { q: "Sucrose formula:", opts: ["C₆H₁₂O₆", "C₁₂H₂₂O₁₁", "CH₄", "C₂H₆"], a: 1, ex: "Table sugar." },
+      { q: "Glucose formula:", opts: ["C₆H₁₂O₆", "C₂H₆O", "CH₃COOH", "CO₂"], a: 0, ex: "C₆H₁₂O₆." },
+      { q: "Benzene formula:", opts: ["C₂H₆", "C₂H₄", "C₆H₆", "C₆H₁₂"], a: 2, ex: "C₆H₆ aromatic ring." },
+      { q: "Polyethylene from:", opts: ["Ethanol", "Ethene", "Ethane", "Ethyne"], a: 1, ex: "Ethylene monomer." },
+      { q: "Mothballs are:", opts: ["Bakelite", "Naphthalene", "Camphor", "Glycerin"], a: 1, ex: "Naphthalene." },
+      { q: "Formaldehyde used for:", opts: ["Plastic only", "Preservation of bodies (formalin)", "Drinking", "Cooking"], a: 1, ex: "Formalin = 40% HCHO." },
+      { q: "Pencil lead is:", opts: ["Lead", "Carbon (graphite)", "Iron", "Coal"], a: 1, ex: "Graphite, allotrope of C." },
+      { q: "Diamond and graphite are:", opts: ["Different compounds", "Same compound diff structure (allotropes)", "Same structure", "Made of Si"], a: 1, ex: "Both pure carbon, different bonding." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 29. FOSSIL FUELS
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-fossil-fuels"] = {
+    body: `
+      <h2>Fossil Fuels</h2>
+      <p><b>Fossil fuels</b> are formed over millions of years from buried remains of plants and animals. Main types: coal, petroleum (crude oil), natural gas.</p>
+
+      <h3>1. Coal</h3>
+      <p>Formed from buried plants (forests) under heat and pressure over millions of years.</p>
+      <p>Types of coal (in order of carbon content and quality):</p>
+      <table>
+        <tr><th>Type</th><th>Carbon %</th><th>Quality</th></tr>
+        <tr><td>Peat</td><td>~60%</td><td>Lowest; brownish</td></tr>
+        <tr><td>Lignite</td><td>~70%</td><td>Brown coal</td></tr>
+        <tr><td>Bituminous</td><td>~80%</td><td>Most common, used in plants</td></tr>
+        <tr><td>Anthracite</td><td>~95%</td><td>Highest quality, hard, low smoke</td></tr>
+      </table>
+
+      <h4>Coal Reserves in India</h4>
+      <ul>
+        <li>Jharkhand: Jharia, Bokaro.</li>
+        <li>Odisha: Talcher.</li>
+        <li>Chhattisgarh: Korba.</li>
+        <li>West Bengal: Raniganj.</li>
+        <li>India 4th largest coal reserves; 2nd largest producer.</li>
+      </ul>
+
+      <h4>Products from Coal (Destructive Distillation)</h4>
+      <ul>
+        <li>Coke (~85% C): metallurgy.</li>
+        <li>Coal tar: dyes, drugs, explosives.</li>
+        <li>Coal gas: fuel.</li>
+        <li>Ammoniacal liquor: fertilizer.</li>
+      </ul>
+
+      <h3>2. Petroleum (Crude Oil)</h3>
+      <p>Formed from dead marine organisms.</p>
+      <p>Refining by <b>fractional distillation</b> in refineries.</p>
+
+      <h4>Fractions of Petroleum (lowest BP to highest)</h4>
+      <table>
+        <tr><th>Fraction</th><th>Use</th></tr>
+        <tr><td>Petroleum gas (LPG)</td><td>Cooking gas</td></tr>
+        <tr><td>Petrol (gasoline)</td><td>Vehicles</td></tr>
+        <tr><td>Naphtha</td><td>Solvent, petrochemicals</td></tr>
+        <tr><td>Kerosene</td><td>Jet fuel, stoves</td></tr>
+        <tr><td>Diesel</td><td>Heavy vehicles, generators</td></tr>
+        <tr><td>Lubricating oil</td><td>Machines</td></tr>
+        <tr><td>Paraffin wax</td><td>Candles</td></tr>
+        <tr><td>Bitumen / Asphalt</td><td>Roads</td></tr>
+      </table>
+
+      <h4>Petroleum in India</h4>
+      <ul>
+        <li>Discovered in Digboi, Assam (oldest).</li>
+        <li>Mumbai High: largest offshore.</li>
+        <li>Bombay High, Ankleshwar (Gujarat).</li>
+        <li>Refineries: Jamnagar (largest in world by Reliance), Barauni, Mathura, Koyali.</li>
+      </ul>
+
+      <h3>3. Natural Gas</h3>
+      <ul>
+        <li>Mostly methane (CH₄).</li>
+        <li>Cleanest fossil fuel.</li>
+        <li><b>CNG</b> (Compressed Natural Gas): used in vehicles, buses.</li>
+        <li><b>PNG</b> (Piped Natural Gas): household cooking.</li>
+        <li><b>LNG</b> (Liquefied Natural Gas): transport at low temp.</li>
+        <li>India: Bombay High, Gujarat, Rajasthan, Assam.</li>
+        <li>Major importer (LNG terminals at Dahej, Hazira).</li>
+      </ul>
+
+      <h3>4. LPG (Liquefied Petroleum Gas)</h3>
+      <ul>
+        <li>Mixture: mainly <b>butane</b> + propane.</li>
+        <li>Used in households for cooking.</li>
+        <li>Odorless naturally; <b>ethyl mercaptan</b> added for leak detection (smell).</li>
+        <li>Stored under pressure in cylinders.</li>
+      </ul>
+
+      <h3>5. Pollution from Fossil Fuels</h3>
+      <ul>
+        <li>CO₂: greenhouse gas → global warming.</li>
+        <li>SO₂: acid rain.</li>
+        <li>NOₓ: smog, acid rain.</li>
+        <li>CO: poisonous (incomplete combustion).</li>
+        <li>Particulates: lung disease.</li>
+      </ul>
+
+      <h3>6. Calorific Value</h3>
+      <p>Energy released per unit mass on combustion. Higher = better fuel.</p>
+      <table>
+        <tr><th>Fuel</th><th>Calorific Value (kJ/kg)</th></tr>
+        <tr><td>Hydrogen</td><td>~150,000 (highest)</td></tr>
+        <tr><td>Natural gas / LPG</td><td>~50,000</td></tr>
+        <tr><td>Petrol</td><td>~48,000</td></tr>
+        <tr><td>Diesel</td><td>~45,000</td></tr>
+        <tr><td>Kerosene</td><td>~42,000</td></tr>
+        <tr><td>Coal</td><td>25,000-33,000</td></tr>
+        <tr><td>Wood</td><td>~17,000</td></tr>
+      </table>
+
+      <h3>7. Alternatives</h3>
+      <ul>
+        <li>Solar, wind, hydro, geothermal, nuclear.</li>
+        <li>Biofuels: bioethanol, biodiesel.</li>
+        <li>Hydrogen fuel cells.</li>
+        <li>India: 175 GW renewable target.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Anthracite: highest quality coal.</li>
+        <li>Petroleum refined by fractional distillation.</li>
+        <li>LPG: mainly butane.</li>
+        <li>Smell in LPG: ethyl mercaptan (added).</li>
+        <li>Largest oil refinery: Jamnagar.</li>
+        <li>Coal: Jharia (Jharkhand).</li>
+        <li>Digboi: oldest oil discovery in India.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Highest quality coal:", opts: ["Peat", "Lignite", "Bituminous", "Anthracite"], a: 3, ex: "Anthracite ~95% C." },
+      { q: "Crude oil refined by:", opts: ["Filtration", "Fractional distillation", "Evaporation", "Sublimation"], a: 1, ex: "Different BP fractions." },
+      { q: "Main component of natural gas:", opts: ["Ethane", "Methane", "Propane", "Butane"], a: 1, ex: "CH₄." },
+      { q: "Main component of LPG:", opts: ["Methane", "Butane", "Acetylene", "Hydrogen"], a: 1, ex: "Butane + propane." },
+      { q: "Smell in LPG due to:", opts: ["Sulfur", "Ethyl mercaptan added", "Methane", "CO"], a: 1, ex: "Added for leak detection." },
+      { q: "Digboi famous for:", opts: ["Coal", "Oldest oil discovery", "Iron", "Diamond"], a: 1, ex: "First oil in India 1889." },
+      { q: "Largest oil refinery in world (by Reliance):", opts: ["Mumbai", "Mathura", "Jamnagar", "Koyali"], a: 2, ex: "Jamnagar, Gujarat." },
+      { q: "Cleanest fossil fuel:", opts: ["Coal", "Petrol", "Natural gas", "Diesel"], a: 2, ex: "Cleanest combustion." },
+      { q: "Asphalt comes from:", opts: ["Coal", "Petroleum (heavy fraction)", "Wood", "Natural gas"], a: 1, ex: "Petroleum residue." },
+      { q: "CNG stands for:", opts: ["Carbon Natural Gas", "Compressed Natural Gas", "Conventional Gas", "Crude Gas"], a: 1, ex: "Vehicle fuel." },
+      { q: "Coke is from:", opts: ["Crude oil", "Coal (destructive distillation)", "Wood", "Gas"], a: 1, ex: "Used in metallurgy." },
+      { q: "Calorific value highest for:", opts: ["Wood", "Coal", "Diesel", "Hydrogen"], a: 3, ex: "H₂ has highest." },
+      { q: "Petroleum hydrocarbon used in cooking:", opts: ["LPG", "Diesel", "Bitumen", "Petrol"], a: 0, ex: "LPG." },
+      { q: "Bombay High is famous for:", opts: ["Coal", "Iron", "Offshore oil", "Gas only"], a: 2, ex: "Mumbai offshore oil field." },
+      { q: "Coal type with lowest carbon:", opts: ["Peat", "Anthracite", "Bituminous", "Lignite"], a: 0, ex: "Peat ~60%." },
+      { q: "Major coal field in India:", opts: ["Jharia", "Mumbai", "Chennai", "Pune"], a: 0, ex: "Jharia, Jharkhand." },
+      { q: "Petrol is used in:", opts: ["Cars (gasoline engines)", "Trucks only", "Cooking", "Heating"], a: 0, ex: "Petrol cars." },
+      { q: "Diesel is denser than:", opts: ["Petrol", "LPG", "All", "Water"], a: 0, ex: "Higher density." },
+      { q: "SO₂ from fossil fuels causes:", opts: ["Greenhouse effect", "Acid rain", "Ozone hole", "Mutation"], a: 1, ex: "Acid rain mainly." },
+      { q: "Fossil fuels are:", opts: ["Renewable", "Non-renewable", "Both", "Synthetic"], a: 1, ex: "Take millions of years to form." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 30. CHEMISTRY IN EVERYDAY LIFE
+  // ───────────────────────────────────────────────────────────────
+  T["sci-chem-everyday"] = {
+    body: `
+      <h2>Chemistry in Everyday Life</h2>
+
+      <h3>1. Medicines & Drugs</h3>
+      <table>
+        <tr><th>Class</th><th>Examples</th><th>Use</th></tr>
+        <tr><td>Antibiotics</td><td>Penicillin, Amoxicillin</td><td>Bacterial infections</td></tr>
+        <tr><td>Analgesics</td><td>Aspirin, Paracetamol, Ibuprofen</td><td>Pain relief</td></tr>
+        <tr><td>Antipyretics</td><td>Paracetamol</td><td>Fever reduction</td></tr>
+        <tr><td>Antacids</td><td>Mg(OH)₂, Al(OH)₃, NaHCO₃</td><td>Acidity</td></tr>
+        <tr><td>Antiseptics</td><td>Dettol, Iodine, H₂O₂</td><td>Wounds</td></tr>
+        <tr><td>Disinfectants</td><td>Phenol, Cl₂ (bleach)</td><td>Surfaces</td></tr>
+        <tr><td>Antihistamines</td><td>Cetirizine</td><td>Allergy</td></tr>
+        <tr><td>Tranquilizers</td><td>Diazepam</td><td>Anxiety</td></tr>
+        <tr><td>Antimalarials</td><td>Quinine, Chloroquine</td><td>Malaria</td></tr>
+        <tr><td>Vitamins</td><td>A, B, C, D, E, K</td><td>Nutrition</td></tr>
+      </table>
+
+      <h3>2. Cleaning Agents</h3>
+      <ul>
+        <li><b>Soap</b>: sodium/potassium salt of fatty acids. Doesn't work in hard water (forms scum).</li>
+        <li><b>Detergent</b>: synthetic; works in hard water too. Sulfonate-based.</li>
+        <li>Both have hydrophilic head + hydrophobic tail → form micelles around dirt.</li>
+        <li><b>Bleach</b>: NaOCl or Ca(OCl)Cl; oxidizes stains.</li>
+      </ul>
+
+      <h3>3. Food Chemistry</h3>
+      <ul>
+        <li><b>Preservatives</b>: salt, sugar, vinegar, sodium benzoate, KMS.</li>
+        <li><b>Artificial sweeteners</b>: saccharin, aspartame, sucralose.</li>
+        <li><b>Food colours</b>: tartrazine (yellow), allura red.</li>
+        <li><b>Flavours</b>: monosodium glutamate (MSG) — Ajinomoto.</li>
+        <li><b>Baking soda</b> (NaHCO₃): leavening agent (CO₂ bubbles).</li>
+        <li><b>Baking powder</b>: NaHCO₃ + tartaric acid (self-rising).</li>
+        <li><b>Vinegar</b>: 5-8% acetic acid; preserves food.</li>
+      </ul>
+
+      <h3>4. Common Substances</h3>
+      <table>
+        <tr><th>Substance</th><th>Common Name</th><th>Chemical Name / Formula</th></tr>
+        <tr><td>Salt</td><td>Table salt</td><td>NaCl</td></tr>
+        <tr><td>Baking soda</td><td>-</td><td>NaHCO₃</td></tr>
+        <tr><td>Washing soda</td><td>-</td><td>Na₂CO₃·10H₂O</td></tr>
+        <tr><td>Lime water</td><td>-</td><td>Ca(OH)₂</td></tr>
+        <tr><td>Quick lime</td><td>-</td><td>CaO</td></tr>
+        <tr><td>Slaked lime</td><td>-</td><td>Ca(OH)₂</td></tr>
+        <tr><td>Limestone / marble</td><td>-</td><td>CaCO₃</td></tr>
+        <tr><td>Plaster of Paris</td><td>-</td><td>CaSO₄·½H₂O</td></tr>
+        <tr><td>Gypsum</td><td>-</td><td>CaSO₄·2H₂O</td></tr>
+        <tr><td>Bleaching powder</td><td>-</td><td>Ca(OCl)Cl</td></tr>
+        <tr><td>Caustic soda</td><td>-</td><td>NaOH</td></tr>
+        <tr><td>Caustic potash</td><td>-</td><td>KOH</td></tr>
+        <tr><td>Blue vitriol</td><td>-</td><td>CuSO₄·5H₂O</td></tr>
+        <tr><td>Green vitriol</td><td>-</td><td>FeSO₄·7H₂O</td></tr>
+        <tr><td>White vitriol</td><td>-</td><td>ZnSO₄·7H₂O</td></tr>
+        <tr><td>Mohr's salt</td><td>-</td><td>FeSO₄·(NH₄)₂SO₄·6H₂O</td></tr>
+        <tr><td>Vinegar</td><td>-</td><td>CH₃COOH (5-8%)</td></tr>
+        <tr><td>Saltpeter</td><td>-</td><td>KNO₃</td></tr>
+        <tr><td>Chile saltpeter</td><td>-</td><td>NaNO₃</td></tr>
+        <tr><td>TNT</td><td>-</td><td>Trinitrotoluene (explosive)</td></tr>
+        <tr><td>Heavy water</td><td>-</td><td>D₂O</td></tr>
+        <tr><td>Dry ice</td><td>-</td><td>Solid CO₂</td></tr>
+        <tr><td>Sand</td><td>-</td><td>SiO₂</td></tr>
+        <tr><td>Glass</td><td>-</td><td>Silica + Na₂CO₃ + CaCO₃</td></tr>
+        <tr><td>Brass</td><td>-</td><td>Cu + Zn</td></tr>
+        <tr><td>Bronze</td><td>-</td><td>Cu + Sn</td></tr>
+      </table>
+
+      <h3>5. Pollution & Toxicology</h3>
+      <ul>
+        <li><b>CFCs</b>: chlorofluorocarbons; depleted ozone layer; banned by Montreal Protocol.</li>
+        <li><b>PCBs</b>: polychlorinated biphenyls; toxic, banned.</li>
+        <li><b>DDT</b>: insecticide; bioaccumulates.</li>
+        <li><b>Mercury</b>: Minamata disease (fish contamination).</li>
+        <li><b>Lead</b>: poisoning from old paint, pipes.</li>
+        <li><b>Arsenic</b>: water contamination (Bangladesh, parts of India).</li>
+      </ul>
+
+      <h3>6. Daily-Life Reactions</h3>
+      <ul>
+        <li>Curd from milk: bacterial fermentation (Lactobacillus).</li>
+        <li>Bread rising: yeast produces CO₂.</li>
+        <li>Browning of cut apple: oxidation.</li>
+        <li>Rusting of iron: corrosion.</li>
+        <li>Photosynthesis: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂.</li>
+        <li>Respiration: glucose + O₂ → CO₂ + H₂O + energy.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Baking soda = NaHCO₃; Washing soda = Na₂CO₃·10H₂O.</li>
+        <li>Plaster of Paris = CaSO₄·½H₂O.</li>
+        <li>Detergent works in hard water; soap doesn't.</li>
+        <li>Aspirin = acetylsalicylic acid.</li>
+        <li>Heavy water = D₂O, used in nuclear reactors.</li>
+        <li>CFCs banned by Montreal Protocol (1987).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Baking soda chemical:", opts: ["NaHCO₃", "Na₂CO₃", "NaCl", "NaOH"], a: 0, ex: "Sodium bicarbonate." },
+      { q: "Aspirin is:", opts: ["Antibiotic", "Pain reliever (analgesic)", "Vitamin", "Antacid"], a: 1, ex: "Acetylsalicylic acid." },
+      { q: "Penicillin is:", opts: ["Antibiotic", "Antacid", "Anaesthetic", "Analgesic"], a: 0, ex: "Kills bacteria." },
+      { q: "Soap doesn't work in:", opts: ["Soft water", "Hard water", "Hot water", "Cold water"], a: 1, ex: "Forms scum with Ca/Mg ions." },
+      { q: "Dry ice is:", opts: ["Frozen H₂O", "Solid CO₂", "Frozen N₂", "Ice cream"], a: 1, ex: "Solid CO₂." },
+      { q: "Plaster of Paris is:", opts: ["CaCO₃", "CaSO₄·½H₂O", "Ca(OH)₂", "CaO"], a: 1, ex: "Hemihydrate." },
+      { q: "Heavy water:", opts: ["H₂O", "D₂O", "T₂O", "H₂O₂"], a: 1, ex: "Deuterium oxide." },
+      { q: "Bleach contains:", opts: ["NaCl", "NaOCl", "NaOH", "Na₂CO₃"], a: 1, ex: "Sodium hypochlorite." },
+      { q: "Curd from milk by:", opts: ["Heat", "Yeast", "Lactobacillus bacteria", "Sun"], a: 2, ex: "Fermentation." },
+      { q: "TNT is:", opts: ["Food", "Explosive", "Medicine", "Dye"], a: 1, ex: "Trinitrotoluene." },
+      { q: "Vinegar contains acid:", opts: ["Citric", "Acetic", "Lactic", "Formic"], a: 1, ex: "CH₃COOH ~5%." },
+      { q: "Glass is mainly:", opts: ["Iron", "Silica based", "Aluminium", "Copper"], a: 1, ex: "SiO₂ + Na₂CO₃ + CaCO₃." },
+      { q: "Saltpeter:", opts: ["NaCl", "KNO₃", "NaNO₃", "KCl"], a: 1, ex: "Potassium nitrate." },
+      { q: "Antacid neutralizes:", opts: ["Base", "Acid in stomach", "Sugar", "Fat"], a: 1, ex: "Excess HCl." },
+      { q: "MSG (Ajinomoto) is:", opts: ["Vitamin", "Sweetener", "Flavour enhancer", "Preservative"], a: 2, ex: "Monosodium glutamate." },
+      { q: "Aspirin originally derived from:", opts: ["Willow bark", "Mint", "Eucalyptus", "Coca"], a: 0, ex: "Salicylic acid from willow." },
+      { q: "Detergent works in hard water because:", opts: ["Stronger acid", "Doesn't form scum with Ca/Mg", "Heat", "Boiling"], a: 1, ex: "Synthetic compatible." },
+      { q: "CFCs ban under:", opts: ["Kyoto Protocol", "Montreal Protocol", "Paris Accord", "Vienna"], a: 1, ex: "1987." },
+      { q: "Minamata disease caused by:", opts: ["Lead", "Mercury", "Arsenic", "Cadmium"], a: 1, ex: "Hg in fish." },
+      { q: "Photosynthesis produces:", opts: ["Glucose + O₂", "Sugar + CO₂", "Starch + N₂", "Glucose + N₂"], a: 0, ex: "C₆H₁₂O₆ + 6O₂." }
+    ]
+  };
+
 })();
