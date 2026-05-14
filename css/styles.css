@@ -99,6 +99,7 @@ body {
   border-radius: 6px;
   font-weight: 600;
   user-select: none;
+  transition: background 0.15s, color 0.15s;
 }
 
 .subject-header:hover { background: var(--topic-hover); }
@@ -109,12 +110,20 @@ body {
   color: var(--muted);
 }
 
-.subject.open .arrow { transform: rotate(90deg); }
+.subject.open > .subject-header > .arrow { transform: rotate(90deg); }
+
+.subject-icon {
+  display: inline-block;
+  margin-right: 0.35rem;
+  font-size: 1rem;
+}
 
 .topics {
   display: none;
-  padding-left: 0.5rem;
+  padding-left: 0.6rem;
   margin-top: 0.2rem;
+  margin-left: 0.4rem;
+  border-left: 2px dashed var(--border);
 }
 
 .subject.open > .topics { display: block; }
@@ -128,24 +137,132 @@ body {
   font-size: 0.92rem;
   color: var(--text);
   text-decoration: none;
-  border-left: 2px solid transparent;
+  border-left: 3px solid transparent;
+  transition: background 0.15s, border-color 0.15s, padding 0.15s;
 }
 
 .topic-link:hover {
   background: var(--topic-hover);
-  border-left-color: var(--accent);
+  border-left-color: var(--subject-color, var(--accent));
+  padding-left: 0.95rem;
 }
 
 .topic-link.active {
-  background: var(--accent-soft);
-  border-left-color: var(--accent);
-  font-weight: 500;
+  background: var(--subject-soft, var(--accent-soft));
+  border-left-color: var(--subject-color, var(--accent));
+  color: var(--subject-color, var(--accent));
+  font-weight: 600;
 }
 
 .topic-link.read::before {
   content: "✓ ";
   color: var(--done);
   font-weight: bold;
+}
+
+/* ===== PER-SUBJECT COLOR THEMING ===== */
+
+/* Top-level subject card */
+.subject-root {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--subject-color, var(--accent));
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.subject-root-header {
+  background: var(--subject-soft, var(--accent-soft));
+  color: var(--subject-color, var(--accent));
+  border-radius: 0;
+  padding: 0.7rem 0.85rem;
+  font-size: 0.98rem;
+}
+
+.subject-root-header:hover {
+  filter: brightness(0.97);
+  background: var(--subject-soft, var(--accent-soft));
+}
+
+.subject-root > .topics {
+  padding: 0.4rem 0.5rem;
+  margin-left: 0;
+  border-left: none;
+}
+
+/* Section header (Grammar, Vocabulary, Arithmetic, etc.) */
+.section-wrap > .section-header {
+  font-size: 0.88rem;
+  padding-left: 0.6rem;
+  margin-top: 0.15rem;
+  color: var(--text);
+  background: transparent;
+  border-left: 3px solid var(--subject-color, var(--accent));
+  border-radius: 0 4px 4px 0;
+  margin-left: 0.15rem;
+}
+
+.section-wrap > .section-header:hover {
+  background: var(--subject-soft, var(--accent-soft));
+}
+
+.section-wrap.open > .section-header {
+  background: var(--subject-soft, var(--accent-soft));
+  color: var(--subject-color, var(--accent));
+  font-weight: 700;
+}
+
+/* Group headers (Ancient History, Medieval History, etc. inside History) */
+.group-wrap > .subject-header {
+  color: var(--subject-color, var(--accent)) !important;
+  font-size: 0.82rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: transparent;
+}
+
+/* Subject color palettes */
+.subject-root[data-subject-id="general-awareness"] {
+  --subject-color: #d97706;
+  --subject-soft: #fef3c7;
+}
+
+.subject-root[data-subject-id="quant"] {
+  --subject-color: #2563eb;
+  --subject-soft: #dbeafe;
+}
+
+.subject-root[data-subject-id="english"] {
+  --subject-color: #16a34a;
+  --subject-soft: #dcfce7;
+}
+
+.subject-root[data-subject-id="reasoning"] {
+  --subject-color: #9333ea;
+  --subject-soft: #f3e8ff;
+}
+
+/* Dark theme overrides — soft backgrounds need to be darker */
+[data-theme="dark"] .subject-root[data-subject-id="general-awareness"] {
+  --subject-color: #fbbf24;
+  --subject-soft: #422006;
+}
+
+[data-theme="dark"] .subject-root[data-subject-id="quant"] {
+  --subject-color: #60a5fa;
+  --subject-soft: #1e3a8a;
+}
+
+[data-theme="dark"] .subject-root[data-subject-id="english"] {
+  --subject-color: #4ade80;
+  --subject-soft: #14532d;
+}
+
+[data-theme="dark"] .subject-root[data-subject-id="reasoning"] {
+  --subject-color: #c084fc;
+  --subject-soft: #4a148c;
 }
 
 .placeholder {

@@ -33,13 +33,22 @@
   function buildSidebar() {
     const nav = document.getElementById("nav");
     nav.innerHTML = "";
+    const SUBJECT_ICONS = {
+      "general-awareness": "🏛️",
+      "quant": "🔢",
+      "english": "📖",
+      "reasoning": "🧩"
+    };
+
     SUBJECTS.forEach(subject => {
       const wrap = document.createElement("div");
-      wrap.className = "subject";
+      wrap.className = "subject subject-root";
+      wrap.dataset.subjectId = subject.id;
 
       const header = document.createElement("div");
-      header.className = "subject-header";
-      header.innerHTML = `<span>${subject.name}</span><span class="arrow">&#9654;</span>`;
+      header.className = "subject-header subject-root-header";
+      const icon = SUBJECT_ICONS[subject.id] || "📚";
+      header.innerHTML = `<span><span class="subject-icon">${icon}</span> ${subject.name}</span><span class="arrow">&#9654;</span>`;
       header.addEventListener("click", () => wrap.classList.toggle("open"));
       wrap.appendChild(header);
 
@@ -54,13 +63,12 @@
       } else {
         subject.sections.forEach(section => {
           const sectionLabel = document.createElement("div");
-          sectionLabel.className = "subject-header";
-          sectionLabel.style.fontSize = "0.9rem";
-          sectionLabel.style.paddingLeft = "0.75rem";
+          sectionLabel.className = "subject-header section-header";
           sectionLabel.innerHTML = `<span>${section.name}</span><span class="arrow">&#9654;</span>`;
 
           const sectionWrap = document.createElement("div");
-          sectionWrap.className = "subject";
+          sectionWrap.className = "subject section-wrap";
+          sectionWrap.dataset.sectionId = section.id;
           sectionWrap.appendChild(sectionLabel);
 
           const tlist = document.createElement("div");
