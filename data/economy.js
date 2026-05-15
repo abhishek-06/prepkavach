@@ -7,20 +7,6 @@
       <h2>Introduction to Economics</h2>
       <p><b>Economics</b> is the social science studying production, distribution and consumption of goods and services. Term coined by <b>Aristotle</b> from Greek <i>"oikonomia"</i> (household management).</p>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
-        <tr><td><b>PPP</b></td><td>Purchasing Power Parity</td></tr>
-        <tr><td><b>HDI</b></td><td>Human Development Index</td></tr>
-        <tr><td><b>UNDP</b></td><td>United Nations Development Programme</td></tr>
-        <tr><td><b>LPG</b></td><td>Liberalisation, Privatisation, Globalisation</td></tr>
-        <tr><td><b>CSO</b></td><td>Central Statistics Office</td></tr>
-        <tr><td><b>PPC</b></td><td>Production Possibility Curve</td></tr>
-        <tr><td><b>USA / USSR</b></td><td>United States of America / Union of Soviet Socialist Republics</td></tr>
-        <tr><td><b>MRP</b></td><td>Maximum Retail Price</td></tr>
-      </table>
-
       <h3>Definitions of Economics</h3>
       <ul>
         <li><b>Adam Smith</b> (1776, "Wealth of Nations" — Father of Economics) — <i>Wealth definition</i>: study of wealth.</li>
@@ -161,27 +147,6 @@
     body: `
       <h2>Economic Planning in India</h2>
       <p><b>Economic Planning</b> = central direction of resources to predetermined goals over a fixed period. India follows <b>indicative planning</b> after 1991.</p>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>FYP</b></td><td>Five Year Plan</td></tr>
-        <tr><td><b>NITI Aayog</b></td><td>National Institution for Transforming India</td></tr>
-        <tr><td><b>INC</b></td><td>Indian National Congress</td></tr>
-        <tr><td><b>FDI</b></td><td>Foreign Direct Investment</td></tr>
-        <tr><td><b>FII</b></td><td>Foreign Institutional Investor</td></tr>
-        <tr><td><b>FERA</b></td><td>Foreign Exchange Regulation Act</td></tr>
-        <tr><td><b>FEMA</b></td><td>Foreign Exchange Management Act</td></tr>
-        <tr><td><b>MRTP</b></td><td>Monopolies and Restrictive Trade Practices Act</td></tr>
-        <tr><td><b>NABARD</b></td><td>National Bank for Agriculture and Rural Development</td></tr>
-        <tr><td><b>NDC</b></td><td>National Development Council</td></tr>
-        <tr><td><b>DVC</b></td><td>Damodar Valley Corporation</td></tr>
-        <tr><td><b>JRY</b></td><td>Jawahar Rozgar Yojana</td></tr>
-        <tr><td><b>LPG</b></td><td>Liberalisation, Privatisation, Globalisation</td></tr>
-        <tr><td><b>SDG</b></td><td>Sustainable Development Goals</td></tr>
-        <tr><td><b>WTO</b></td><td>World Trade Organisation</td></tr>
-        <tr><td><b>UBS</b></td><td>Union of Banks of Switzerland (financial institution)</td></tr>
-      </table>
 
       <h3>Origins of Planning in India</h3>
       <ul>
@@ -353,30 +318,6 @@
       <h2>National Income & GDP Aggregates</h2>
       <p><b>National Income</b> = total monetary value of final goods and services produced by a country's residents in a financial year.</p>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
-        <tr><td><b>GNP</b></td><td>Gross National Product</td></tr>
-        <tr><td><b>NDP</b></td><td>Net Domestic Product</td></tr>
-        <tr><td><b>NNP</b></td><td>Net National Product</td></tr>
-        <tr><td><b>GVA</b></td><td>Gross Value Added</td></tr>
-        <tr><td><b>GNI</b></td><td>Gross National Income</td></tr>
-        <tr><td><b>NFIA</b></td><td>Net Factor Income from Abroad</td></tr>
-        <tr><td><b>PCI</b></td><td>Per Capita Income</td></tr>
-        <tr><td><b>PPP</b></td><td>Purchasing Power Parity</td></tr>
-        <tr><td><b>HDI</b></td><td>Human Development Index</td></tr>
-        <tr><td><b>HEI</b></td><td>Human Equity Index</td></tr>
-        <tr><td><b>GNH</b></td><td>Gross National Happiness</td></tr>
-        <tr><td><b>GPI</b></td><td>Genuine Progress Indicator</td></tr>
-        <tr><td><b>NSO</b></td><td>National Statistical Office</td></tr>
-        <tr><td><b>CSO</b></td><td>Central Statistics Office</td></tr>
-        <tr><td><b>NSSO</b></td><td>National Sample Survey Office</td></tr>
-        <tr><td><b>MoSPI</b></td><td>Ministry of Statistics and Programme Implementation</td></tr>
-        <tr><td><b>UNDP</b></td><td>United Nations Development Programme</td></tr>
-        <tr><td><b>LPG</b></td><td>Liberalisation, Privatisation, Globalisation</td></tr>
-      </table>
-
       <h3>Key Aggregates</h3>
       <table>
         <tr><th>Term</th><th>Definition</th></tr>
@@ -543,21 +484,6 @@
       <h2>Demography & Census Basics</h2>
       <p><b>Demography</b> studies population. Census in India is conducted every 10 years under <b>Census Act 1948</b> by Office of Registrar General & Census Commissioner (Home Ministry).</p>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>CBR</b></td><td>Crude Birth Rate</td></tr>
-        <tr><td><b>CDR</b></td><td>Crude Death Rate</td></tr>
-        <tr><td><b>IMR</b></td><td>Infant Mortality Rate</td></tr>
-        <tr><td><b>MMR</b></td><td>Maternal Mortality Ratio</td></tr>
-        <tr><td><b>TFR</b></td><td>Total Fertility Rate</td></tr>
-        <tr><td><b>NFHS</b></td><td>National Family Health Survey</td></tr>
-        <tr><td><b>SRS</b></td><td>Sample Registration System</td></tr>
-        <tr><td><b>NCT</b></td><td>National Capital Territory</td></tr>
-        <tr><td><b>NPR</b></td><td>National Population Register</td></tr>
-        <tr><td><b>RG&CC</b></td><td>Registrar General & Census Commissioner</td></tr>
-      </table>
-
       <h3>History of Census</h3>
       <ul>
         <li>First non-synchronous census — <b>1872</b> (Lord Mayo).</li>
@@ -722,27 +648,6 @@
   T["eco-poverty-unemployment"] = {
     body: `
       <h2>Poverty and Unemployment</h2>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>BPL</b></td><td>Below Poverty Line</td></tr>
-        <tr><td><b>MPCE</b></td><td>Monthly Per Capita Consumption Expenditure</td></tr>
-        <tr><td><b>MPI</b></td><td>Multidimensional Poverty Index</td></tr>
-        <tr><td><b>OPHI</b></td><td>Oxford Poverty & Human Development Initiative</td></tr>
-        <tr><td><b>LFPR</b></td><td>Labour Force Participation Rate</td></tr>
-        <tr><td><b>CDS</b></td><td>Current Daily Status (unemployment measure)</td></tr>
-        <tr><td><b>CWS</b></td><td>Current Weekly Status</td></tr>
-        <tr><td><b>UPS</b></td><td>Usual Principal Status</td></tr>
-        <tr><td><b>NSSO</b></td><td>National Sample Survey Office</td></tr>
-        <tr><td><b>NFHS</b></td><td>National Family Health Survey</td></tr>
-        <tr><td><b>MGNREGA</b></td><td>Mahatma Gandhi National Rural Employment Guarantee Act</td></tr>
-        <tr><td><b>NCS</b></td><td>National Career Service</td></tr>
-        <tr><td><b>DDU-GKY</b></td><td>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</td></tr>
-        <tr><td><b>MPDS</b></td><td>Multi-Dimensional Poverty Statistical Resource</td></tr>
-        <tr><td><b>BIMARU</b></td><td>Bihar, Madhya Pradesh, Rajasthan, Uttar Pradesh (poor states)</td></tr>
-        <tr><td><b>NITI Aayog</b></td><td>National Institution for Transforming India</td></tr>
-      </table>
 
       <h3>Poverty: Concepts</h3>
       <ul>
@@ -928,32 +833,6 @@
     body: `
       <h2>Agriculture, MSP & Food Security</h2>
       <p>Agriculture contributes ~17% of GDP but employs ~45% of India's workforce. India is largest producer of milk, pulses, jute, spices; 2nd in rice, wheat, sugarcane, fruits, vegetables, cotton.</p>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>MSP</b></td><td>Minimum Support Price</td></tr>
-        <tr><td><b>CACP</b></td><td>Commission for Agricultural Costs and Prices</td></tr>
-        <tr><td><b>FCI</b></td><td>Food Corporation of India</td></tr>
-        <tr><td><b>APC</b></td><td>Agricultural Prices Commission</td></tr>
-        <tr><td><b>HYV</b></td><td>High Yielding Variety (seeds)</td></tr>
-        <tr><td><b>FPO</b></td><td>Farmer Producer Organisation</td></tr>
-        <tr><td><b>KCC</b></td><td>Kisan Credit Card</td></tr>
-        <tr><td><b>PM-KISAN</b></td><td>Pradhan Mantri Kisan Samman Nidhi</td></tr>
-        <tr><td><b>PMFBY</b></td><td>Pradhan Mantri Fasal Bima Yojana</td></tr>
-        <tr><td><b>AAY</b></td><td>Antyodaya Anna Yojana</td></tr>
-        <tr><td><b>BPL</b></td><td>Below Poverty Line</td></tr>
-        <tr><td><b>DBT</b></td><td>Direct Benefit Transfer</td></tr>
-        <tr><td><b>DCP</b></td><td>Decentralised Procurement</td></tr>
-        <tr><td><b>FBY</b></td><td>Fasal Bima Yojana</td></tr>
-        <tr><td><b>EGR</b></td><td>Economically Generated Revenue (in context)</td></tr>
-        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
-        <tr><td><b>ICAR</b></td><td>Indian Council of Agricultural Research</td></tr>
-        <tr><td><b>NABARD</b></td><td>National Bank for Agriculture and Rural Development</td></tr>
-        <tr><td><b>NDDB</b></td><td>National Dairy Development Board</td></tr>
-        <tr><td><b>NFSA</b></td><td>National Food Security Act (2013)</td></tr>
-        <tr><td><b>TPDS</b></td><td>Targeted Public Distribution System</td></tr>
-      </table>
 
       <h3>Cropping Seasons</h3>
       <ul>
@@ -1167,33 +1046,6 @@
       <h2>Infrastructure and Energy</h2>
       <p><b>Infrastructure</b> = basic facilities supporting economy: transport, energy, water, telecom, urban services.</p>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>NHAI</b></td><td>National Highways Authority of India</td></tr>
-        <tr><td><b>AAI</b></td><td>Airports Authority of India</td></tr>
-        <tr><td><b>IRCTC</b></td><td>Indian Railway Catering & Tourism Corporation</td></tr>
-        <tr><td><b>DFC</b></td><td>Dedicated Freight Corridor</td></tr>
-        <tr><td><b>PPP</b></td><td>Public-Private Partnership</td></tr>
-        <tr><td><b>BOT</b></td><td>Build-Operate-Transfer</td></tr>
-        <tr><td><b>BOOT</b></td><td>Build-Own-Operate-Transfer</td></tr>
-        <tr><td><b>HAM</b></td><td>Hybrid Annuity Model</td></tr>
-        <tr><td><b>EPC</b></td><td>Engineering, Procurement, Construction</td></tr>
-        <tr><td><b>AMRUT</b></td><td>Atal Mission for Rejuvenation and Urban Transformation</td></tr>
-        <tr><td><b>BRO</b></td><td>Border Roads Organisation</td></tr>
-        <tr><td><b>GAIL</b></td><td>Gas Authority of India Limited</td></tr>
-        <tr><td><b>CIL</b></td><td>Coal India Limited</td></tr>
-        <tr><td><b>DVC</b></td><td>Damodar Valley Corporation</td></tr>
-        <tr><td><b>BARC</b></td><td>Bhabha Atomic Research Centre</td></tr>
-        <tr><td><b>NTPC</b></td><td>National Thermal Power Corporation</td></tr>
-        <tr><td><b>NHPC</b></td><td>National Hydroelectric Power Corporation</td></tr>
-        <tr><td><b>ONGC</b></td><td>Oil & Natural Gas Corporation</td></tr>
-        <tr><td><b>BPCL/HPCL/IOCL</b></td><td>Bharat / Hindustan / Indian Oil Corporation Limited</td></tr>
-        <tr><td><b>SECI</b></td><td>Solar Energy Corporation of India</td></tr>
-        <tr><td><b>MNRE</b></td><td>Ministry of New and Renewable Energy</td></tr>
-        <tr><td><b>UJALA</b></td><td>Unnat Jyoti by Affordable LEDs for All</td></tr>
-      </table>
-
       <h3>Transport (refer Geography for detail)</h3>
       <ul>
         <li>Road — 2nd largest network world; NHAI (1988); NH 44 longest.</li>
@@ -1383,31 +1235,6 @@
     body: `
       <h2>Industry, MSME & Industrial Policy</h2>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>MSME</b></td><td>Micro, Small and Medium Enterprises</td></tr>
-        <tr><td><b>CPSE</b></td><td>Central Public Sector Enterprise</td></tr>
-        <tr><td><b>DPIIT</b></td><td>Department for Promotion of Industry and Internal Trade</td></tr>
-        <tr><td><b>SEZ</b></td><td>Special Economic Zone</td></tr>
-        <tr><td><b>EPZ</b></td><td>Export Processing Zone</td></tr>
-        <tr><td><b>FDI</b></td><td>Foreign Direct Investment</td></tr>
-        <tr><td><b>FEMA</b></td><td>Foreign Exchange Management Act</td></tr>
-        <tr><td><b>BHEL</b></td><td>Bharat Heavy Electricals Limited</td></tr>
-        <tr><td><b>BPCL</b></td><td>Bharat Petroleum Corporation Limited</td></tr>
-        <tr><td><b>CIL</b></td><td>Coal India Limited</td></tr>
-        <tr><td><b>DMIC</b></td><td>Delhi-Mumbai Industrial Corridor</td></tr>
-        <tr><td><b>BMIC</b></td><td>Bengaluru-Mumbai Industrial Corridor</td></tr>
-        <tr><td><b>AKIC</b></td><td>Amritsar-Kolkata Industrial Corridor</td></tr>
-        <tr><td><b>CHAMPIONS</b></td><td>Creation and Harmonious Application of Modern Processes for Increasing the Output and National Strength (MSME portal)</td></tr>
-        <tr><td><b>CBIC</b></td><td>Central Board of Indirect Taxes and Customs</td></tr>
-        <tr><td><b>CSO</b></td><td>Central Statistics Office</td></tr>
-        <tr><td><b>NIP</b></td><td>National Infrastructure Pipeline</td></tr>
-        <tr><td><b>PLI</b></td><td>Production Linked Incentive</td></tr>
-        <tr><td><b>MII</b></td><td>Make in India</td></tr>
-        <tr><td><b>SIDBI</b></td><td>Small Industries Development Bank of India</td></tr>
-      </table>
-
       <h3>Industrial Policy Resolutions</h3>
       <ul>
         <li><b>1948</b> — Mixed economy; reserved 4 sectors for state (arms, atomic, rail, atomic energy).</li>
@@ -1595,31 +1422,6 @@
     body: `
       <h2>Public Sector Enterprises & Disinvestment</h2>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>PSU</b></td><td>Public Sector Undertaking</td></tr>
-        <tr><td><b>CPSE</b></td><td>Central Public Sector Enterprise</td></tr>
-        <tr><td><b>DIPAM</b></td><td>Department of Investment & Public Asset Management</td></tr>
-        <tr><td><b>IPO</b></td><td>Initial Public Offering</td></tr>
-        <tr><td><b>FPO</b></td><td>Follow-on Public Offer</td></tr>
-        <tr><td><b>ETF</b></td><td>Exchange Traded Fund</td></tr>
-        <tr><td><b>FYP</b></td><td>Five Year Plan</td></tr>
-        <tr><td><b>BHEL</b></td><td>Bharat Heavy Electricals Limited</td></tr>
-        <tr><td><b>BPCL</b></td><td>Bharat Petroleum Corporation Limited</td></tr>
-        <tr><td><b>HPCL</b></td><td>Hindustan Petroleum Corporation Limited</td></tr>
-        <tr><td><b>IOCL</b></td><td>Indian Oil Corporation Limited</td></tr>
-        <tr><td><b>BALCO</b></td><td>Bharat Aluminium Company</td></tr>
-        <tr><td><b>HUL</b></td><td>Hindustan Unilever Limited</td></tr>
-        <tr><td><b>CIL</b></td><td>Coal India Limited</td></tr>
-        <tr><td><b>GAIL</b></td><td>Gas Authority of India Limited</td></tr>
-        <tr><td><b>IDBI</b></td><td>Industrial Development Bank of India</td></tr>
-        <tr><td><b>SAIL</b></td><td>Steel Authority of India Limited</td></tr>
-        <tr><td><b>ONGC</b></td><td>Oil & Natural Gas Corporation</td></tr>
-        <tr><td><b>NTPC</b></td><td>National Thermal Power Corporation</td></tr>
-        <tr><td><b>NMP</b></td><td>National Monetisation Pipeline</td></tr>
-      </table>
-
       <h3>Evolution of Public Sector</h3>
       <ul>
         <li>Started with 5 PSEs in 1951; expanded under 2nd FYP (Mahalanobis).</li>
@@ -1791,32 +1593,6 @@
   T["eco-schemes"] = {
     body: `
       <h2>Major Economic Schemes and Programmes</h2>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>PMJDY</b></td><td>Pradhan Mantri Jan Dhan Yojana</td></tr>
-        <tr><td><b>JAM</b></td><td>Jan Dhan + Aadhaar + Mobile (Trinity)</td></tr>
-        <tr><td><b>DBT</b></td><td>Direct Benefit Transfer</td></tr>
-        <tr><td><b>PM-JAY</b></td><td>Pradhan Mantri Jan Arogya Yojana (Ayushman Bharat)</td></tr>
-        <tr><td><b>PMUY</b></td><td>Pradhan Mantri Ujjwala Yojana (LPG)</td></tr>
-        <tr><td><b>PM-KISAN</b></td><td>Pradhan Mantri Kisan Samman Nidhi</td></tr>
-        <tr><td><b>PMAY</b></td><td>Pradhan Mantri Awas Yojana (Housing)</td></tr>
-        <tr><td><b>SBM</b></td><td>Swachh Bharat Mission</td></tr>
-        <tr><td><b>NHM</b></td><td>National Health Mission</td></tr>
-        <tr><td><b>NSAP</b></td><td>National Social Assistance Programme</td></tr>
-        <tr><td><b>ICDS</b></td><td>Integrated Child Development Services</td></tr>
-        <tr><td><b>BPL</b></td><td>Below Poverty Line</td></tr>
-        <tr><td><b>APY</b></td><td>Atal Pension Yojana</td></tr>
-        <tr><td><b>JJBY</b></td><td>Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)</td></tr>
-        <tr><td><b>PMSBY</b></td><td>Pradhan Mantri Suraksha Bima Yojana</td></tr>
-        <tr><td><b>AIIMS</b></td><td>All India Institute of Medical Sciences</td></tr>
-        <tr><td><b>AMRUT</b></td><td>Atal Mission for Rejuvenation and Urban Transformation</td></tr>
-        <tr><td><b>DDU-GKY</b></td><td>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</td></tr>
-        <tr><td><b>DISCOM</b></td><td>Distribution Company (electricity)</td></tr>
-        <tr><td><b>BHIM</b></td><td>Bharat Interface for Money</td></tr>
-        <tr><td><b>GJY</b></td><td>Gram Jyoti Yojana</td></tr>
-      </table>
 
       <h3>Direct Benefit Schemes</h3>
       <ul>
@@ -2052,40 +1828,6 @@
     body: `
       <h2>Banking System and Financial Inclusion</h2>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>RBI</b></td><td>Reserve Bank of India</td></tr>
-        <tr><td><b>PSB</b></td><td>Public Sector Bank</td></tr>
-        <tr><td><b>RRB</b></td><td>Regional Rural Bank</td></tr>
-        <tr><td><b>SFB</b></td><td>Small Finance Bank</td></tr>
-        <tr><td><b>NABARD</b></td><td>National Bank for Agriculture and Rural Development</td></tr>
-        <tr><td><b>SIDBI</b></td><td>Small Industries Development Bank of India</td></tr>
-        <tr><td><b>NHB</b></td><td>National Housing Bank</td></tr>
-        <tr><td><b>NPCI</b></td><td>National Payments Corporation of India</td></tr>
-        <tr><td><b>NEFT</b></td><td>National Electronic Funds Transfer</td></tr>
-        <tr><td><b>RTGS</b></td><td>Real-Time Gross Settlement</td></tr>
-        <tr><td><b>IMPS</b></td><td>Immediate Payment Service</td></tr>
-        <tr><td><b>UPI</b></td><td>Unified Payments Interface</td></tr>
-        <tr><td><b>BBPS</b></td><td>Bharat Bill Payment System</td></tr>
-        <tr><td><b>NPA</b></td><td>Non-Performing Asset</td></tr>
-        <tr><td><b>NBFC</b></td><td>Non-Banking Financial Company</td></tr>
-        <tr><td><b>CASA</b></td><td>Current Account Savings Account (ratio)</td></tr>
-        <tr><td><b>DICGC</b></td><td>Deposit Insurance and Credit Guarantee Corporation</td></tr>
-        <tr><td><b>IBC</b></td><td>Insolvency and Bankruptcy Code</td></tr>
-        <tr><td><b>NCLT</b></td><td>National Company Law Tribunal</td></tr>
-        <tr><td><b>NARCL</b></td><td>National Asset Reconstruction Company Limited (Bad Bank)</td></tr>
-        <tr><td><b>BBB / FSIB</b></td><td>Banks Board Bureau / Financial Services Institutions Bureau</td></tr>
-        <tr><td><b>IPPB</b></td><td>India Post Payments Bank</td></tr>
-        <tr><td><b>HDFC / ICICI / IOB</b></td><td>Housing Development Finance Corporation / Industrial Credit and Investment Corporation of India / Indian Overseas Bank</td></tr>
-        <tr><td><b>ANBC</b></td><td>Adjusted Net Bank Credit</td></tr>
-        <tr><td><b>MSME</b></td><td>Micro, Small and Medium Enterprises</td></tr>
-        <tr><td><b>NRE</b></td><td>Non-Resident External (account)</td></tr>
-        <tr><td><b>NRO</b></td><td>Non-Resident Ordinary (account)</td></tr>
-        <tr><td><b>PMJDY</b></td><td>Pradhan Mantri Jan Dhan Yojana</td></tr>
-        <tr><td><b>JAM</b></td><td>Jan Dhan + Aadhaar + Mobile</td></tr>
-      </table>
-
       <h3>Structure of Indian Banking</h3>
       <ul>
         <li><b>RBI</b> — Apex (1935).</li>
@@ -2299,26 +2041,6 @@
     body: `
       <h2>RBI and Monetary Policy</h2>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>RBI</b></td><td>Reserve Bank of India</td></tr>
-        <tr><td><b>MPC</b></td><td>Monetary Policy Committee</td></tr>
-        <tr><td><b>CRR</b></td><td>Cash Reserve Ratio</td></tr>
-        <tr><td><b>SLR</b></td><td>Statutory Liquidity Ratio</td></tr>
-        <tr><td><b>OMO</b></td><td>Open Market Operations</td></tr>
-        <tr><td><b>LAF</b></td><td>Liquidity Adjustment Facility</td></tr>
-        <tr><td><b>MSF</b></td><td>Marginal Standing Facility</td></tr>
-        <tr><td><b>SDF</b></td><td>Standing Deposit Facility</td></tr>
-        <tr><td><b>NDTL</b></td><td>Net Demand and Time Liabilities</td></tr>
-        <tr><td><b>CPI</b></td><td>Consumer Price Index</td></tr>
-        <tr><td><b>WPI</b></td><td>Wholesale Price Index</td></tr>
-        <tr><td><b>BRBNMPL</b></td><td>Bharatiya Reserve Bank Note Mudran Private Limited</td></tr>
-        <tr><td><b>SPMCIL</b></td><td>Security Printing and Minting Corporation of India Limited</td></tr>
-        <tr><td><b>NSC</b></td><td>National Savings Certificate</td></tr>
-        <tr><td><b>MICR</b></td><td>Magnetic Ink Character Recognition</td></tr>
-      </table>
-
       <h3>RBI: Background</h3>
       <ul>
         <li>Established <b>1 April 1935</b> on Hilton Young Commission (1926) recommendation.</li>
@@ -2525,36 +2247,6 @@
   T["eco-financial-system"] = {
     body: `
       <h2>Financial System, Markets and Regulators</h2>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>SEBI</b></td><td>Securities and Exchange Board of India</td></tr>
-        <tr><td><b>IRDAI</b></td><td>Insurance Regulatory and Development Authority of India</td></tr>
-        <tr><td><b>PFRDA</b></td><td>Pension Fund Regulatory and Development Authority</td></tr>
-        <tr><td><b>FSDC</b></td><td>Financial Stability and Development Council</td></tr>
-        <tr><td><b>BSE</b></td><td>Bombay Stock Exchange (oldest in Asia, 1875)</td></tr>
-        <tr><td><b>NSE</b></td><td>National Stock Exchange</td></tr>
-        <tr><td><b>MSEI</b></td><td>Metropolitan Stock Exchange of India</td></tr>
-        <tr><td><b>MCX</b></td><td>Multi Commodity Exchange</td></tr>
-        <tr><td><b>NCDEX</b></td><td>National Commodity & Derivatives Exchange</td></tr>
-        <tr><td><b>CDSL</b></td><td>Central Depository Services Limited</td></tr>
-        <tr><td><b>NSDL</b></td><td>National Securities Depository Limited</td></tr>
-        <tr><td><b>IPO</b></td><td>Initial Public Offering</td></tr>
-        <tr><td><b>FPO</b></td><td>Follow-on Public Offer</td></tr>
-        <tr><td><b>ADR</b></td><td>American Depository Receipt</td></tr>
-        <tr><td><b>GDR</b></td><td>Global Depository Receipt</td></tr>
-        <tr><td><b>FDI</b></td><td>Foreign Direct Investment</td></tr>
-        <tr><td><b>FPI</b></td><td>Foreign Portfolio Investor</td></tr>
-        <tr><td><b>ELSS</b></td><td>Equity Linked Savings Scheme</td></tr>
-        <tr><td><b>AMFI</b></td><td>Association of Mutual Funds in India</td></tr>
-        <tr><td><b>EXIM</b></td><td>Export-Import Bank of India</td></tr>
-        <tr><td><b>IDBI</b></td><td>Industrial Development Bank of India</td></tr>
-        <tr><td><b>CMB</b></td><td>Cash Management Bill</td></tr>
-        <tr><td><b>GIFT</b></td><td>Gujarat International Finance Tec-City</td></tr>
-        <tr><td><b>IFSC</b></td><td>International Financial Services Centre (also Indian Financial System Code)</td></tr>
-        <tr><td><b>IFSCA</b></td><td>International Financial Services Centres Authority</td></tr>
-      </table>
 
       <h3>Financial System Components</h3>
       <ul>
@@ -2795,29 +2487,6 @@
       <h2>Inflation, WPI, CPI and Core Concepts</h2>
       <p><b>Inflation</b> = sustained rise in general price level. <b>Deflation</b> = sustained fall. <b>Disinflation</b> = inflation rate falls but still positive. <b>Stagflation</b> = high inflation + stagnation/unemployment.</p>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>WPI</b></td><td>Wholesale Price Index</td></tr>
-        <tr><td><b>CPI</b></td><td>Consumer Price Index</td></tr>
-        <tr><td><b>CPI-IW</b></td><td>Consumer Price Index — Industrial Workers</td></tr>
-        <tr><td><b>CPI-AL</b></td><td>Consumer Price Index — Agricultural Labourers</td></tr>
-        <tr><td><b>CPI-RL</b></td><td>Consumer Price Index — Rural Labourers</td></tr>
-        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
-        <tr><td><b>RBI</b></td><td>Reserve Bank of India</td></tr>
-        <tr><td><b>MPC</b></td><td>Monetary Policy Committee</td></tr>
-        <tr><td><b>NSO</b></td><td>National Statistical Office</td></tr>
-        <tr><td><b>CSO</b></td><td>Central Statistics Office</td></tr>
-        <tr><td><b>MoSPI</b></td><td>Ministry of Statistics and Programme Implementation</td></tr>
-        <tr><td><b>DPIIT</b></td><td>Department for Promotion of Industry and Internal Trade</td></tr>
-        <tr><td><b>CRR</b></td><td>Cash Reserve Ratio</td></tr>
-        <tr><td><b>SLR</b></td><td>Statutory Liquidity Ratio</td></tr>
-        <tr><td><b>OMO</b></td><td>Open Market Operations</td></tr>
-        <tr><td><b>MSP</b></td><td>Minimum Support Price</td></tr>
-        <tr><td><b>BoP</b></td><td>Balance of Payments</td></tr>
-        <tr><td><b>NPCI</b></td><td>National Payments Corporation of India</td></tr>
-      </table>
-
       <h3>Types of Inflation</h3>
       <ul>
         <li><b>Demand-Pull</b> — too much money chasing too few goods (Keynes).</li>
@@ -2999,23 +2668,6 @@
     body: `
       <h2>Indian Fiscal System and Budget</h2>
       <p><b>Fiscal Policy</b> = use of govt taxation and spending to influence the economy. Articulated through <b>Annual Financial Statement</b> (Article 112) — popularly the <b>Budget</b>.</p>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
-        <tr><td><b>FRBM</b></td><td>Fiscal Responsibility and Budget Management Act (2003)</td></tr>
-        <tr><td><b>CFI</b></td><td>Consolidated Fund of India (Art 266)</td></tr>
-        <tr><td><b>CFI/SF</b></td><td>Contingency Fund of India (Art 267)</td></tr>
-        <tr><td><b>PAC</b></td><td>Public Accounts of India (Art 266)</td></tr>
-        <tr><td><b>CAG</b></td><td>Comptroller and Auditor General</td></tr>
-        <tr><td><b>FC</b></td><td>Finance Commission (Art 280)</td></tr>
-        <tr><td><b>RE</b></td><td>Revised Estimate</td></tr>
-        <tr><td><b>BE</b></td><td>Budget Estimate</td></tr>
-        <tr><td><b>AE</b></td><td>Actual Expenditure</td></tr>
-        <tr><td><b>RBI</b></td><td>Reserve Bank of India</td></tr>
-        <tr><td><b>PIB</b></td><td>Press Information Bureau</td></tr>
-      </table>
 
       <h3>Constitutional Provisions</h3>
       <ul>
@@ -3226,24 +2878,6 @@
     body: `
       <h2>Key Fiscal and Economic Terms</h2>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
-        <tr><td><b>FD</b></td><td>Fiscal Deficit</td></tr>
-        <tr><td><b>RD</b></td><td>Revenue Deficit</td></tr>
-        <tr><td><b>PD</b></td><td>Primary Deficit</td></tr>
-        <tr><td><b>FRBM</b></td><td>Fiscal Responsibility and Budget Management Act</td></tr>
-        <tr><td><b>CapEx</b></td><td>Capital Expenditure</td></tr>
-        <tr><td><b>RevEx</b></td><td>Revenue Expenditure</td></tr>
-        <tr><td><b>NMP</b></td><td>National Monetisation Pipeline</td></tr>
-        <tr><td><b>NIIF</b></td><td>National Investment and Infrastructure Fund</td></tr>
-        <tr><td><b>FDI</b></td><td>Foreign Direct Investment</td></tr>
-        <tr><td><b>OECD</b></td><td>Organisation for Economic Co-operation and Development</td></tr>
-        <tr><td><b>NPS</b></td><td>National Pension System</td></tr>
-        <tr><td><b>EPF</b></td><td>Employees' Provident Fund</td></tr>
-      </table>
-
       <h3>Receipts & Expenditure</h3>
       <ul>
         <li><b>Revenue Receipts</b> — tax + non-tax; not requiring repayment.</li>
@@ -3444,34 +3078,6 @@
   T["eco-taxation"] = {
     body: `
       <h2>Taxation, GST and Cesses</h2>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>GST</b></td><td>Goods and Services Tax</td></tr>
-        <tr><td><b>CGST</b></td><td>Central Goods and Services Tax</td></tr>
-        <tr><td><b>SGST</b></td><td>State Goods and Services Tax</td></tr>
-        <tr><td><b>IGST</b></td><td>Integrated Goods and Services Tax</td></tr>
-        <tr><td><b>UTGST</b></td><td>Union Territory Goods and Services Tax</td></tr>
-        <tr><td><b>GSTN</b></td><td>Goods and Services Tax Network</td></tr>
-        <tr><td><b>GST Council</b></td><td>Constitutional body chaired by FM</td></tr>
-        <tr><td><b>CBDT</b></td><td>Central Board of Direct Taxes</td></tr>
-        <tr><td><b>CBIC</b></td><td>Central Board of Indirect Taxes and Customs</td></tr>
-        <tr><td><b>TDS</b></td><td>Tax Deducted at Source</td></tr>
-        <tr><td><b>TCS</b></td><td>Tax Collected at Source</td></tr>
-        <tr><td><b>PAN</b></td><td>Permanent Account Number</td></tr>
-        <tr><td><b>TAN</b></td><td>Tax Deduction Account Number</td></tr>
-        <tr><td><b>HRA</b></td><td>House Rent Allowance</td></tr>
-        <tr><td><b>LTA</b></td><td>Leave Travel Allowance</td></tr>
-        <tr><td><b>LTCG</b></td><td>Long-Term Capital Gains</td></tr>
-        <tr><td><b>STCG</b></td><td>Short-Term Capital Gains</td></tr>
-        <tr><td><b>MAT</b></td><td>Minimum Alternate Tax</td></tr>
-        <tr><td><b>DTC</b></td><td>Direct Taxes Code</td></tr>
-        <tr><td><b>GAAR</b></td><td>General Anti-Avoidance Rules</td></tr>
-        <tr><td><b>BEPS</b></td><td>Base Erosion and Profit Shifting</td></tr>
-        <tr><td><b>OECD</b></td><td>Organisation for Economic Co-operation and Development</td></tr>
-        <tr><td><b>DIPP</b></td><td>Department of Industrial Policy & Promotion (now DPIIT)</td></tr>
-      </table>
 
       <h3>Classification of Taxes</h3>
       <ul>
@@ -3712,26 +3318,6 @@
     body: `
       <h2>Insurance and Social Security</h2>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>LIC</b></td><td>Life Insurance Corporation of India</td></tr>
-        <tr><td><b>GIC</b></td><td>General Insurance Corporation</td></tr>
-        <tr><td><b>IRDAI</b></td><td>Insurance Regulatory and Development Authority of India</td></tr>
-        <tr><td><b>EPFO</b></td><td>Employees' Provident Fund Organisation</td></tr>
-        <tr><td><b>EPF</b></td><td>Employees' Provident Fund</td></tr>
-        <tr><td><b>ESIC</b></td><td>Employees' State Insurance Corporation</td></tr>
-        <tr><td><b>NPS</b></td><td>National Pension System</td></tr>
-        <tr><td><b>PFRDA</b></td><td>Pension Fund Regulatory and Development Authority</td></tr>
-        <tr><td><b>APY</b></td><td>Atal Pension Yojana</td></tr>
-        <tr><td><b>PMJJBY</b></td><td>Pradhan Mantri Jeevan Jyoti Bima Yojana</td></tr>
-        <tr><td><b>PMSBY</b></td><td>Pradhan Mantri Suraksha Bima Yojana</td></tr>
-        <tr><td><b>PMFBY</b></td><td>Pradhan Mantri Fasal Bima Yojana</td></tr>
-        <tr><td><b>PMJAY</b></td><td>Pradhan Mantri Jan Arogya Yojana (Ayushman Bharat)</td></tr>
-        <tr><td><b>ULIP</b></td><td>Unit Linked Insurance Plan</td></tr>
-        <tr><td><b>FDI</b></td><td>Foreign Direct Investment</td></tr>
-      </table>
-
       <h3>Insurance Sector History</h3>
       <ul>
         <li>First insurance company in India — <b>Oriental Life Insurance, Calcutta (1818)</b>.</li>
@@ -3911,35 +3497,6 @@
   T["eco-international-orgs"] = {
     body: `
       <h2>International Financial Organisations</h2>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>IMF</b></td><td>International Monetary Fund</td></tr>
-        <tr><td><b>IBRD</b></td><td>International Bank for Reconstruction and Development</td></tr>
-        <tr><td><b>IDA</b></td><td>International Development Association</td></tr>
-        <tr><td><b>IFC</b></td><td>International Finance Corporation</td></tr>
-        <tr><td><b>MIGA</b></td><td>Multilateral Investment Guarantee Agency</td></tr>
-        <tr><td><b>ICSID</b></td><td>International Centre for Settlement of Investment Disputes</td></tr>
-        <tr><td><b>WBG</b></td><td>World Bank Group (IBRD + IDA + IFC + MIGA + ICSID)</td></tr>
-        <tr><td><b>WTO</b></td><td>World Trade Organisation (1995, replaced GATT)</td></tr>
-        <tr><td><b>GATT</b></td><td>General Agreement on Tariffs and Trade</td></tr>
-        <tr><td><b>GATS</b></td><td>General Agreement on Trade in Services</td></tr>
-        <tr><td><b>DSB</b></td><td>Dispute Settlement Body (of WTO)</td></tr>
-        <tr><td><b>ADB</b></td><td>Asian Development Bank (HQ: Manila)</td></tr>
-        <tr><td><b>AIIB</b></td><td>Asian Infrastructure Investment Bank (HQ: Beijing)</td></tr>
-        <tr><td><b>NDB</b></td><td>New Development Bank (BRICS Bank, HQ: Shanghai)</td></tr>
-        <tr><td><b>BRICS</b></td><td>Brazil, Russia, India, China, South Africa</td></tr>
-        <tr><td><b>BIS</b></td><td>Bank for International Settlements (HQ: Basel)</td></tr>
-        <tr><td><b>FATF</b></td><td>Financial Action Task Force (anti-money laundering)</td></tr>
-        <tr><td><b>SDR</b></td><td>Special Drawing Rights (IMF reserve asset)</td></tr>
-        <tr><td><b>FAO</b></td><td>Food and Agriculture Organisation</td></tr>
-        <tr><td><b>ILO</b></td><td>International Labour Organisation</td></tr>
-        <tr><td><b>UNCTAD</b></td><td>United Nations Conference on Trade and Development</td></tr>
-        <tr><td><b>GFSR</b></td><td>Global Financial Stability Report (IMF publication)</td></tr>
-        <tr><td><b>OECD</b></td><td>Organisation for Economic Co-operation and Development</td></tr>
-        <tr><td><b>USD/EUR/GBP/CNY</b></td><td>US Dollar / Euro / British Pound / Chinese Yuan</td></tr>
-      </table>
 
       <h3>Bretton Woods Twins (1944)</h3>
       <p>Bretton Woods Conference (July 1944, New Hampshire, USA) created IMF and IBRD (World Bank). India was a founding member.</p>
@@ -4213,35 +3770,6 @@
     body: `
       <h2>Trade, Commerce, BoP and Forex</h2>
 
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>BoP</b></td><td>Balance of Payments</td></tr>
-        <tr><td><b>BoT</b></td><td>Balance of Trade</td></tr>
-        <tr><td><b>CAD</b></td><td>Current Account Deficit</td></tr>
-        <tr><td><b>FDI</b></td><td>Foreign Direct Investment</td></tr>
-        <tr><td><b>FPI</b></td><td>Foreign Portfolio Investment</td></tr>
-        <tr><td><b>FII</b></td><td>Foreign Institutional Investor</td></tr>
-        <tr><td><b>FEMA</b></td><td>Foreign Exchange Management Act (1999)</td></tr>
-        <tr><td><b>FERA</b></td><td>Foreign Exchange Regulation Act (1973, repealed)</td></tr>
-        <tr><td><b>SEZ</b></td><td>Special Economic Zone</td></tr>
-        <tr><td><b>EPZ</b></td><td>Export Processing Zone</td></tr>
-        <tr><td><b>EOU</b></td><td>Export Oriented Unit</td></tr>
-        <tr><td><b>WTO</b></td><td>World Trade Organisation</td></tr>
-        <tr><td><b>GATT</b></td><td>General Agreement on Tariffs and Trade</td></tr>
-        <tr><td><b>FTA</b></td><td>Free Trade Agreement</td></tr>
-        <tr><td><b>CEPA</b></td><td>Comprehensive Economic Partnership Agreement</td></tr>
-        <tr><td><b>SAFTA</b></td><td>South Asian Free Trade Area</td></tr>
-        <tr><td><b>RCEP</b></td><td>Regional Comprehensive Economic Partnership</td></tr>
-        <tr><td><b>HS Code</b></td><td>Harmonized System Code (for customs)</td></tr>
-        <tr><td><b>RBI</b></td><td>Reserve Bank of India</td></tr>
-        <tr><td><b>DGFT</b></td><td>Directorate General of Foreign Trade</td></tr>
-        <tr><td><b>USD/EUR</b></td><td>US Dollar / Euro</td></tr>
-        <tr><td><b>SDR</b></td><td>Special Drawing Rights (IMF)</td></tr>
-        <tr><td><b>NRI</b></td><td>Non-Resident Indian</td></tr>
-        <tr><td><b>FII</b></td><td>Foreign Institutional Investor</td></tr>
-      </table>
-
       <h3>Balance of Payments (BoP)</h3>
       <p>Systematic record of all economic transactions between residents of a country and rest of world over a period.</p>
       <ul>
@@ -4451,39 +3979,6 @@
   T["eco-indices-reports"] = {
     body: `
       <h2>Indices & Reports (Frequently Asked)</h2>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>HDI</b></td><td>Human Development Index</td></tr>
-        <tr><td><b>HDR</b></td><td>Human Development Report</td></tr>
-        <tr><td><b>IHDI</b></td><td>Inequality-adjusted HDI</td></tr>
-        <tr><td><b>GDI</b></td><td>Gender Development Index</td></tr>
-        <tr><td><b>GII</b></td><td>Gender Inequality Index (or Global Innovation Index)</td></tr>
-        <tr><td><b>MPI</b></td><td>Multidimensional Poverty Index</td></tr>
-        <tr><td><b>HEI</b></td><td>Human Equity Index</td></tr>
-        <tr><td><b>GHI</b></td><td>Global Hunger Index</td></tr>
-        <tr><td><b>EPI</b></td><td>Environmental Performance Index</td></tr>
-        <tr><td><b>FSI</b></td><td>Fragile States Index</td></tr>
-        <tr><td><b>GCI</b></td><td>Global Competitiveness Index</td></tr>
-        <tr><td><b>CCPI</b></td><td>Climate Change Performance Index</td></tr>
-        <tr><td><b>CPI</b></td><td>Corruption Perceptions Index (Transparency International)</td></tr>
-        <tr><td><b>WEF</b></td><td>World Economic Forum</td></tr>
-        <tr><td><b>EIU</b></td><td>Economist Intelligence Unit</td></tr>
-        <tr><td><b>UNDP</b></td><td>United Nations Development Programme</td></tr>
-        <tr><td><b>IMF</b></td><td>International Monetary Fund</td></tr>
-        <tr><td><b>WB</b></td><td>World Bank</td></tr>
-        <tr><td><b>WHO</b></td><td>World Health Organisation</td></tr>
-        <tr><td><b>WIPO</b></td><td>World Intellectual Property Organisation</td></tr>
-        <tr><td><b>FAO</b></td><td>Food and Agriculture Organisation</td></tr>
-        <tr><td><b>GFSR</b></td><td>Global Financial Stability Report (IMF)</td></tr>
-        <tr><td><b>WEO</b></td><td>World Economic Outlook (IMF)</td></tr>
-        <tr><td><b>IIP</b></td><td>Index of Industrial Production</td></tr>
-        <tr><td><b>CEA</b></td><td>Chief Economic Adviser</td></tr>
-        <tr><td><b>GNI</b></td><td>Gross National Income</td></tr>
-        <tr><td><b>DPIIT</b></td><td>Department for Promotion of Industry and Internal Trade</td></tr>
-        <tr><td><b>BSE</b></td><td>Bombay Stock Exchange</td></tr>
-      </table>
 
       <h3>UN / UNDP Indices</h3>
       <ul>
@@ -4733,33 +4228,6 @@
   T["eco-digital-economy"] = {
     body: `
       <h2>Digital Economy</h2>
-
-      <h3>📋 Abbreviations Used in This Chapter</h3>
-      <table>
-        <tr><th>Abbr.</th><th>Full Form</th></tr>
-        <tr><td><b>UPI</b></td><td>Unified Payments Interface</td></tr>
-        <tr><td><b>NPCI</b></td><td>National Payments Corporation of India</td></tr>
-        <tr><td><b>BHIM</b></td><td>Bharat Interface for Money</td></tr>
-        <tr><td><b>IMPS</b></td><td>Immediate Payment Service</td></tr>
-        <tr><td><b>NEFT</b></td><td>National Electronic Funds Transfer</td></tr>
-        <tr><td><b>RTGS</b></td><td>Real-Time Gross Settlement</td></tr>
-        <tr><td><b>BBPS</b></td><td>Bharat Bill Payment System</td></tr>
-        <tr><td><b>NACH</b></td><td>National Automated Clearing House</td></tr>
-        <tr><td><b>NETC</b></td><td>National Electronic Toll Collection (FASTag)</td></tr>
-        <tr><td><b>CBDC</b></td><td>Central Bank Digital Currency (Digital Rupee, e-₹)</td></tr>
-        <tr><td><b>ONDC</b></td><td>Open Network for Digital Commerce</td></tr>
-        <tr><td><b>OCEN</b></td><td>Open Credit Enablement Network</td></tr>
-        <tr><td><b>DEPA</b></td><td>Data Empowerment and Protection Architecture</td></tr>
-        <tr><td><b>DPDP</b></td><td>Digital Personal Data Protection Act (2023)</td></tr>
-        <tr><td><b>DBT</b></td><td>Direct Benefit Transfer</td></tr>
-        <tr><td><b>KYC</b></td><td>Know Your Customer</td></tr>
-        <tr><td><b>API</b></td><td>Application Programming Interface</td></tr>
-        <tr><td><b>NOFN</b></td><td>National Optical Fibre Network (now BharatNet)</td></tr>
-        <tr><td><b>CSC</b></td><td>Common Service Centre</td></tr>
-        <tr><td><b>DPIIT</b></td><td>Department for Promotion of Industry and Internal Trade</td></tr>
-        <tr><td><b>DULC</b></td><td>Digital University of Lifelong Career (placeholder for related schemes)</td></tr>
-        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
-      </table>
 
       <h3>Digital India (1 July 2015)</h3>
       <p>Flagship programme. <b>9 pillars</b>:</p>
