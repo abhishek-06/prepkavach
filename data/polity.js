@@ -889,7 +889,10 @@
       { q: "Which case held that Preamble IS part of the Constitution?", opts: ["Berubari (1960)", "Kesavananda Bharati (1973)", "Golaknath (1967)", "Minerva Mills (1980)"], a: 1, ex: "Kesavananda Bharati case 1973 reversed Berubari; Preamble is part of Constitution." },
       { q: "Has the Preamble been amended?", opts: ["Never", "Once (42nd Amendment 1976)", "Twice", "Multiple times"], a: 1, ex: "Once — 42nd Amendment 1976 added 'Socialist', 'Secular', 'Integrity'." },
       { q: "Justice in the Preamble has how many dimensions?", opts: ["1", "2", "3 (social, economic, political)", "4"], a: 2, ex: "Social, economic, political." },
-      { q: "Liberty in the Preamble has how many dimensions?", opts: ["3", "4", "5 (thought, expression, belief, faith, worship)", "6"], a: 2, ex: "Five — thought, expression, belief, faith, worship." }
+      { q: "Liberty in the Preamble has how many dimensions?", opts: ["3", "4", "5 (thought, expression, belief, faith, worship)", "6"], a: 2, ex: "Five — thought, expression, belief, faith, worship." },
+      { q: "Equality in Preamble means:", opts: ["Status and opportunity", "Equal pay only", "Equal vote only", "Wealth"], a: 0, ex: "Status + opportunity emphasized." },
+      { q: "Fraternity in Preamble assures:", opts: ["Dignity of individual and unity of nation", "Brotherhood only", "Religion", "Wealth"], a: 0, ex: "Two-fold objective." },
+      { q: "Indian Constitution drew Fundamental Rights from?", opts: ["USA", "UK", "Ireland", "USSR"], a: 0, ex: "Bill of Rights from US Constitution." }
     ]
   };
 
