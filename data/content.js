@@ -376,7 +376,51 @@ window.SUBJECTS = [
       }
     ]
   },
-  { id: "reasoning", name: "Reasoning", sections: [] }
+  {
+    id: "reasoning",
+    name: "Reasoning",
+    sections: [
+      {
+        id: "verbal-reasoning",
+        name: "Verbal Reasoning",
+        topics: [
+          { id: "reas-coding", name: "Coding-Decoding" },
+          { id: "reas-series", name: "Number & Letter Series" },
+          { id: "reas-analogy", name: "Analogy" },
+          { id: "reas-classification", name: "Classification (Odd One Out)" },
+          { id: "reas-blood-relation", name: "Blood Relations" },
+          { id: "reas-direction", name: "Direction Sense" },
+          { id: "reas-arrangements", name: "Linear, Circular & Complex Arrangements" },
+          { id: "reas-ranking", name: "Ranking Order & Sequence" },
+          { id: "reas-math-ops", name: "Mathematical Operations" },
+          { id: "reas-venn", name: "Logical Venn Diagrams" },
+          { id: "reas-syllogism", name: "Syllogism" },
+          { id: "reas-puzzles", name: "Logical Puzzles" },
+          { id: "reas-word-formation", name: "Word Formation & Logical Order" },
+          { id: "reas-clock", name: "Clock" },
+          { id: "reas-calendar", name: "Calendar" },
+          { id: "reas-analytical", name: "Analytical Reasoning" }
+        ]
+      },
+      {
+        id: "non-verbal-reasoning",
+        name: "Non-Verbal Reasoning",
+        topics: [
+          { id: "reas-nv-series", name: "Series (Non-Verbal)" },
+          { id: "reas-nv-analogy", name: "Analogy (Non-Verbal)" },
+          { id: "reas-nv-classification", name: "Classification (Non-Verbal)" },
+          { id: "reas-dice", name: "Dice" },
+          { id: "reas-cube", name: "Cube and Cuboid" },
+          { id: "reas-mirror", name: "Mirror Images" },
+          { id: "reas-water", name: "Water Images" },
+          { id: "reas-embedded", name: "Embedded Figures" },
+          { id: "reas-completion", name: "Completion of Figures" },
+          { id: "reas-paper", name: "Paper Cutting & Folding" },
+          { id: "reas-counting", name: "Counting of Figures" }
+        ]
+      }
+    ]
+  }
 ];
 
 window.TOPICS = window.TOPICS || {};
