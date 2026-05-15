@@ -49,10 +49,7 @@
       <h3>Honest note</h3>
       <p>English requires <b>volume of reading</b> beyond just memorising rules. While this site gives you complete rule-coverage + 1500+ MCQs, also build a habit of reading something English daily (newspaper editorial, short story, etc.) — it makes grammar instinctive.</p>
     `,
-    mcq: [
-      { q: "Which English topic gives 5 questions from a single passage?", opts: ["Idioms", "Cloze Test", "Synonyms", "Spelling"], a: 1, ex: "Cloze test and Reading Comprehension each have 5 questions from one passage." },
-      { q: "How many English questions in SSC CGL Tier-1?", opts: ["20", "25", "30", "50"], a: 1, ex: "25 questions, 50 marks." }
-    ]
+    mcq: []
   };
 
   // ───────────────────────────────────────────────────────────────

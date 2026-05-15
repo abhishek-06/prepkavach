@@ -43,10 +43,7 @@
       <p><b>Quant (24)</b>: Number System, Simplification, Fractions/Decimals, Surds & Indices, Square/Cube Root, HCF/LCM, Percentage, P&L, Discount, Average, Ages, Ratio, Race, Mixture, Partnership, SI, CI, Time-Work, Pipes-Cisterns, Time-Speed-Distance, Trains, Boats-Streams, Series, DI.</p>
       <p><b>Advance Maths (9)</b>: Algebra, Trigonometry, Height-Distance, Mensuration, Geometry, Coordinate Geometry, Permutation-Combination, Probability, Statistics.</p>
     `,
-    mcq: [
-      { q: "Which is NOT covered in this Maths section?", opts: ["Geometry", "Trigonometry", "Computer Science", "Probability"], a: 2, ex: "This section covers Quant + Advance Maths only." },
-      { q: "Best way to use this section?", opts: ["Read once, never revisit", "Read concepts → solve examples → attempt MCQs without looking", "Skip examples, do only MCQs", "Memorize MCQ answers"], a: 1, ex: "Spaced repetition + practice without looking builds real understanding." }
-    ]
+    mcq: []
   };
 
   // ───────────────────────────────────────────────────────────────
