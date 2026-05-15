@@ -2313,4 +2313,828 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 20. DICE
+  // ───────────────────────────────────────────────────────────────
+  T["reas-dice"] = {
+    body: `
+      <h2>Dice</h2>
+      <p>Standard 6-faced cube with numbers 1-6 (or other markings). Find face opposite to given, or identify which face shows up. SSC asks 1-2 questions.</p>
+
+      <h3>1. Standard Dice Rules</h3>
+      <ul>
+        <li>6 faces; total dots = 1+2+3+4+5+6 = 21.</li>
+        <li><b>Sum of opposite faces is 7</b>:
+          <ul>
+            <li>1 opposite 6.</li>
+            <li>2 opposite 5.</li>
+            <li>3 opposite 4.</li>
+          </ul>
+        </li>
+        <li>Adjacent faces share an edge.</li>
+      </ul>
+
+      <h3>2. Reading a Dice from Images</h3>
+      <p>Given 2-3 views of a dice (different orientations), find what's opposite or adjacent.</p>
+
+      <h4>Method 1: Common Face</h4>
+      <p>If two views show one common face, the other faces are around it.</p>
+
+      <h4>Method 2: Adjacent Faces</h4>
+      <p>If a face is visible in multiple views, the faces shown alongside in different views are all adjacent to it.</p>
+
+      <h4>Method 3: Opposite Faces</h4>
+      <p>Faces NEVER visible in a single view are opposite to visible ones.</p>
+
+      <h3>3. Types of Dice</h3>
+      <ul>
+        <li><b>Standard dice</b>: 1 opposite 6, 2 opposite 5, 3 opposite 4.</li>
+        <li><b>Ordinary dice</b>: 1,2,3 around one corner go CCW.</li>
+        <li><b>Western dice</b>: 1,2,3 around one corner go CW.</li>
+      </ul>
+
+      <h3>4. Open/Folded Dice</h3>
+      <p>Sometimes a flat layout (net) is given; visualize folding to find faces.</p>
+
+      <h3>5. 🔥 Tricks</h3>
+      <ul>
+        <li>Common face = "hinge"; rotate around it to map other faces.</li>
+        <li>If 4 different faces visible across 2 views, the unseen 2 are opposite to each other (or to one of the visible ones).</li>
+        <li>Always start with what's certain.</li>
+        <li>For standard dice: opposite sum = 7.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>If 1 is opposite 6, 2 opposite 5, find what's opposite 3.</b></p>
+      <p><b>Solution:</b><br>Standard dice: 1-6, 2-5, 3-4.<br><b>Answer: 4</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>Dice shows top=1, front=2, right=3. What's at bottom?</b></p>
+      <p><b>Solution:</b><br>Opposite to top → bottom. 1 is on top → 6 at bottom.<br><b>Answer: 6</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>Two views: V1 shows 1, 2, 3 visible; V2 shows 1, 4, 5 visible. What's opposite 1?</b></p>
+      <p><b>Solution:</b><br>1 visible in both views (common face).<br>2, 3, 4, 5 all adjacent to 1.<br>Therefore the unseen face (not 1, not 2, 3, 4, 5) = 6.<br>6 is opposite 1.<br><b>Answer: 6</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>Net of a cube: faces marked A, B, C, D, E, F. After folding, opposite to A is C (if A and C are non-adjacent in the net).</b></p>
+      <p><b>Solution:</b><br>In a standard cross-shaped net, opposite faces are at certain positions. Need diagram.</p>
+
+      <h4>Example 5</h4>
+      <p><b>Dice with letters: opposite to P, Q, R are unknown. View 1: P, Q, R visible. View 2: P, Q, T visible. View 3: P, R, S visible. What's opposite to P?</b></p>
+      <p><b>Solution:</b><br>P appears in all views (top face).<br>Q, R, S, T appear with P → all adjacent to P.<br>Remaining face = U (or 6th letter) = opposite to P.<br><b>Answer: 6th face (unseen)</b></p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Standard dice: opposites sum to 7.</li>
+        <li>If only 2-3 views given, opposite face is the one NEVER visible in those views.</li>
+        <li>Watch for clockwise/counter-clockwise direction.</li>
+        <li>For nets, opposite faces are 3 squares apart in linear strip.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "On standard dice, opposite of 1 is:", opts: ["2", "3", "6", "5"], a: 2, ex: "Opposites sum to 7." },
+      { q: "Opposite of 4 on standard dice:", opts: ["3", "1", "6", "5"], a: 0, ex: "7−4=3." },
+      { q: "Sum of all dots on a standard dice:", opts: ["18", "20", "21", "24"], a: 2, ex: "1+2+3+4+5+6=21." },
+      { q: "How many faces on a dice:", opts: ["4", "6", "8", "12"], a: 1, ex: "Cube has 6 faces." },
+      { q: "How many edges on a dice:", opts: ["6", "8", "12", "18"], a: 2, ex: "Cube has 12 edges." },
+      { q: "How many vertices on a dice:", opts: ["6", "8", "10", "12"], a: 1, ex: "Cube has 8 vertices." },
+      { q: "Sum of opposite faces of standard dice:", opts: ["6", "7", "8", "5"], a: 1, ex: "Always 7." },
+      { q: "If top is 5, bottom is:", opts: ["1", "2", "6", "3"], a: 1, ex: "7−5=2." },
+      { q: "If 1, 2, 3 visible at corner. 1 is top, 2 is front, 3 is right. Bottom:", opts: ["4", "5", "6", "Cannot say"], a: 2, ex: "Top=1 → Bottom=6." },
+      { q: "Dice unfolded into cross shape. Opposite of center face is:", opts: ["Adjacent face", "Far end of strip", "Diagonal face", "Any"], a: 1, ex: "Far end of the strip in a cross net." },
+      { q: "View 1: 1,2,3. View 2: 1,2,4. View 3: 1,2,5. Common face:", opts: ["1", "2", "Both 1 and 2 (top/right)", "Cannot determine"], a: 2, ex: "1 and 2 are in all views." },
+      { q: "If A opposite to B and C opposite to D on cube, E is opposite to:", opts: ["F (the 6th face)", "A", "B", "Cannot say"], a: 0, ex: "Each pair of opposites." },
+      { q: "How many pairs of opposite faces on a cube:", opts: ["2", "3", "6", "4"], a: 1, ex: "6 faces in 3 opposite pairs." },
+      { q: "If 6 is up, what's down:", opts: ["1", "2", "5", "3"], a: 0, ex: "7−6=1." },
+      { q: "Roll a dice. Showing 4 on top. Maximum number on side:", opts: ["3", "5", "6", "Any except 3 (opposite) and 4 (top)"], a: 3, ex: "Sides are 1,2,5,6 (not 3 or 4)." },
+      { q: "If top=1, right=2, what could front be:", opts: ["3 or 4", "5 or 6", "Cannot say without more info", "Always 3"], a: 0, ex: "Adjacent to both 1 and 2, so could be 3 or 4 (not 6 which is opposite of 1, not 5 which is opposite of 2)." },
+      { q: "View showing 1,2,3 visible. Then 4,5,6 are which faces:", opts: ["Other 3 hidden", "Same as visible", "Random", "Cannot determine"], a: 0, ex: "Hidden faces." },
+      { q: "Cube with letters A-F. If A,B,C visible in view, faces D,E,F are:", opts: ["Hidden in that view", "Same as A,B,C", "Cannot determine", "Adjacent only"], a: 0, ex: "Other 3 hidden." },
+      { q: "Dice with dots. 1 dot on top, 3 dots on right side. Number on front (between 1 and 3):", opts: ["2 or 5", "4 or 6", "Cannot determine without more", "Always 5"], a: 0, ex: "2 or 5 are adjacent options." },
+      { q: "Standard dice: 1 is opposite to:", opts: ["2", "3", "5", "6"], a: 3, ex: "Sum of opposites = 7." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 21. CUBE AND CUBOID
+  // ───────────────────────────────────────────────────────────────
+  T["reas-cube"] = {
+    body: `
+      <h2>Cube and Cuboid</h2>
+      <p>Painted cube cut into smaller cubes; count cubes with various number of painted faces. SSC asks 1-2 questions.</p>
+
+      <h3>1. Cube Basics</h3>
+      <ul>
+        <li>6 faces, 12 edges, 8 vertices.</li>
+        <li>All edges equal in a cube; cuboid has different lengths.</li>
+        <li>Volume of cube = side³.</li>
+      </ul>
+
+      <h3>2. Painted Cube Problem</h3>
+      <p>A cube with all 6 faces painted, then cut into n×n×n smaller cubes.</p>
+
+      <h4>Total small cubes = n³</h4>
+
+      <h4>Cubes with 3 painted faces (corner cubes)</h4>
+      <p>Always <b>8</b> (the 8 corners).</p>
+
+      <h4>Cubes with 2 painted faces (edge cubes, not corners)</h4>
+      <p><b>12 × (n − 2)</b><br>
+      (12 edges; each edge has n−2 cubes between corners.)</p>
+
+      <h4>Cubes with 1 painted face (center of each face, not edge)</h4>
+      <p><b>6 × (n − 2)²</b><br>
+      (6 faces; each has (n−2)² inner cubes.)</p>
+
+      <h4>Cubes with 0 painted faces (completely inside)</h4>
+      <p><b>(n − 2)³</b></p>
+
+      <h3>3. Verification</h3>
+      <p>Total: 8 + 12(n−2) + 6(n−2)² + (n−2)³ = n³ ✓</p>
+
+      <h3>4. Examples</h3>
+      <table>
+        <tr><th>n</th><th>0 faces</th><th>1 face</th><th>2 faces</th><th>3 faces</th><th>Total n³</th></tr>
+        <tr><td>2</td><td>0</td><td>0</td><td>0</td><td>8</td><td>8</td></tr>
+        <tr><td>3</td><td>1</td><td>6</td><td>12</td><td>8</td><td>27</td></tr>
+        <tr><td>4</td><td>8</td><td>24</td><td>24</td><td>8</td><td>64</td></tr>
+        <tr><td>5</td><td>27</td><td>54</td><td>36</td><td>8</td><td>125</td></tr>
+        <tr><td>6</td><td>64</td><td>96</td><td>48</td><td>8</td><td>216</td></tr>
+      </table>
+
+      <h3>5. Cuboid (Different Dimensions)</h3>
+      <p>If cuboid is a×b×c (all painted):</p>
+      <ul>
+        <li>Total small cubes = a×b×c.</li>
+        <li>3-faced (corners) = 8.</li>
+        <li>2-faced: 4(a−2) + 4(b−2) + 4(c−2).</li>
+        <li>1-faced: 2(a−2)(b−2) + 2(b−2)(c−2) + 2(a−2)(c−2).</li>
+        <li>0-faced (inside): (a−2)(b−2)(c−2).</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Cube painted on all sides, cut into 27 smaller cubes (n=3). How many have:<br>
+      (a) 3 painted faces? (b) 2 painted faces? (c) 1 painted face? (d) 0 painted faces?</b></p>
+      <p><b>Solution:</b><br>n=3.<br>(a) 3 faces: 8 corners.<br>(b) 2 faces: 12(n−2) = 12×1 = 12.<br>(c) 1 face: 6(n−2)² = 6×1 = 6.<br>(d) 0 faces: (n−2)³ = 1.<br>Total: 8+12+6+1 = 27 ✓<br><b>Answer: 8, 12, 6, 1</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>Cube painted, cut into 64 cubes (n=4). How many have exactly 2 painted faces?</b></p>
+      <p><b>Solution:</b><br>12(n−2) = 12×2 = 24.<br><b>Answer: 24</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>n=5. Cubes with no paint:</b></p>
+      <p><b>Solution:</b><br>(n−2)³ = 3³ = 27.<br><b>Answer: 27</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>n=6. Cubes with 1 painted face:</b></p>
+      <p><b>Solution:</b><br>6×(n−2)² = 6×16 = 96.<br><b>Answer: 96</b></p>
+
+      <h4>Example 5 (Cuboid)</h4>
+      <p><b>Cuboid 4×3×2 painted, cut into unit cubes. How many have 3 painted faces?</b></p>
+      <p><b>Solution:</b><br>Always 8 (corners), regardless of dimensions (assuming all > 1).<br><b>Answer: 8</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>3-faced: always 8 corners.</li>
+        <li>2-faced: 12 edges × (n−2).</li>
+        <li>1-faced: 6 faces × (n−2)².</li>
+        <li>0-faced: (n−2)³.</li>
+        <li>For cuboid, count contribution from each pair of opposite faces separately.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Cube has how many faces:", opts: ["4", "6", "8", "12"], a: 1, ex: "6 faces." },
+      { q: "Cube has edges:", opts: ["6", "8", "12", "16"], a: 2, ex: "12 edges." },
+      { q: "Cube has vertices:", opts: ["4", "6", "8", "12"], a: 2, ex: "8 corners." },
+      { q: "Painted cube cut into n³ smaller cubes. 3-face painted:", opts: ["8 (always)", "n−2", "6", "12"], a: 0, ex: "Always 8 corners." },
+      { q: "n=3 cube. 0-face painted:", opts: ["0", "1", "8", "27"], a: 1, ex: "(3−2)³=1." },
+      { q: "n=4 cube. Total = ?:", opts: ["27", "64", "125", "16"], a: 1, ex: "4³=64." },
+      { q: "n=4. 2-face painted:", opts: ["12", "24", "36", "48"], a: 1, ex: "12(4−2)=24." },
+      { q: "n=5. 1-face painted:", opts: ["27", "36", "54", "60"], a: 2, ex: "6×9=54." },
+      { q: "n=5. Total:", opts: ["125", "100", "150", "75"], a: 0, ex: "5³=125." },
+      { q: "n=6. 0-face painted:", opts: ["48", "64", "96", "216"], a: 1, ex: "4³=64." },
+      { q: "n=6. 2-face painted:", opts: ["36", "48", "60", "72"], a: 1, ex: "12×4=48." },
+      { q: "n=3. 2-face painted:", opts: ["6", "12", "18", "24"], a: 1, ex: "12×1=12." },
+      { q: "n=3. 1-face painted:", opts: ["3", "6", "12", "27"], a: 1, ex: "6×1=6." },
+      { q: "Cube volume = side³. Side 5 cm:", opts: ["25 cm³", "75 cm³", "125 cm³", "150 cm³"], a: 2, ex: "5³=125." },
+      { q: "Cuboid 3×2×4. Total cubes:", opts: ["18", "24", "12", "32"], a: 1, ex: "3×2×4=24." },
+      { q: "Cube of side 10 cut into 1 cm cubes. Total:", opts: ["100", "1000", "10000", "10"], a: 1, ex: "10³=1000." },
+      { q: "n=4. 3-face painted:", opts: ["4", "8", "16", "24"], a: 1, ex: "Always 8 corners." },
+      { q: "Edges of cuboid:", opts: ["6", "8", "12", "10"], a: 2, ex: "Same as cube — 12." },
+      { q: "Faces of cuboid:", opts: ["4", "6", "8", "12"], a: 1, ex: "6 faces." },
+      { q: "n=2 (cube cut in half each direction). 0-face painted:", opts: ["0", "1", "2", "8"], a: 0, ex: "(2−2)³=0; all 8 are corner cubes." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 22. MIRROR IMAGES
+  // ───────────────────────────────────────────────────────────────
+  T["reas-mirror"] = {
+    body: `
+      <h2>Mirror Images</h2>
+      <p>Image as it appears in a vertical mirror (left-right reversed). SSC asks 1-2 questions.</p>
+
+      <h3>1. Basic Rule</h3>
+      <ul>
+        <li>Mirror reverses LEFT and RIGHT.</li>
+        <li>UP and DOWN stay the same.</li>
+        <li>Object's RIGHT becomes mirror's LEFT.</li>
+        <li>Reading direction reverses (right-to-left becomes left-to-right).</li>
+      </ul>
+
+      <h3>2. Letters and Their Mirror Images</h3>
+
+      <h4>Letters symmetric (look same in mirror):</h4>
+      <p>A, H, I, M, O, T, U, V, W, X, Y</p>
+
+      <h4>Letters that look different:</h4>
+      <p>B, C, D, E, F, G, J, K, L, N, P, Q, R, S, Z</p>
+
+      <h4>Letters that look like another letter:</h4>
+      <ul>
+        <li>b ↔ d (lowercase, mirror images).</li>
+        <li>p ↔ q (lowercase).</li>
+      </ul>
+
+      <h3>3. Numbers</h3>
+
+      <h4>Numbers symmetric:</h4>
+      <p>0, 8</p>
+
+      <h4>Numbers that look different:</h4>
+      <p>1, 2, 3, 4, 5, 6, 7, 9</p>
+
+      <h4>Numbers that look like another:</h4>
+      <ul>
+        <li>2 ↔ 5 (sometimes).</li>
+        <li>6 ↔ 9 (vertical mirror, both flipped).</li>
+      </ul>
+
+      <h3>4. Words/Sentences</h3>
+      <ul>
+        <li>"MOM" mirror = "MOM" (palindrome and uses symmetric letters).</li>
+        <li>"BOB" mirror = different (B not symmetric).</li>
+        <li>"TOOT" mirror = "TOOT" (palindrome + symmetric letters).</li>
+        <li>"PAY" mirror = "YAP" reversed → letter order reverses + each letter mirrored.</li>
+      </ul>
+
+      <h3>5. 🔥 Rules</h3>
+      <ul>
+        <li>For words: write letters in reverse order, then mirror each.</li>
+        <li>For clock: see "Clock" section (mirror time = 11:60 − time).</li>
+        <li>Numbers like 1234: mirror = 4321 (reversed) with each digit mirrored.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Mirror image of letter A:</b></p>
+      <p><b>Solution:</b><br>A is symmetric — looks same.<br><b>Answer: A</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>Mirror image of letter B:</b></p>
+      <p><b>Solution:</b><br>B in vertical mirror looks like reversed B (similar but flipped).<br><b>Answer: Reverse of B</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>Mirror image of "INDIA":</b></p>
+      <p><b>Solution:</b><br>Reverse order: AIDNI; each letter mirrored. Since I, A, N are sym, D is flipped.<br>Mirror = AIDNI (with D flipped to ⊃).<br><b>Answer: AIDNI (with D mirrored)</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>Mirror image of 36249:</b></p>
+      <p><b>Solution:</b><br>Reverse: 94263; each digit mirrored.<br>9 → mirror 9 looks like reverse 9 (similar to backwards 9 but distinct).<br><b>Answer: 94263 reversed and mirrored individually.</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>Mirror image of 'NOON':</b></p>
+      <p><b>Solution:</b><br>NOON reversed = NOON (palindrome). N is not symmetric (looks like И in mirror).<br>So letter N mirrored, O symmetric.<br><b>Answer: NOON (with each N mirrored)</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>Letter that looks SAME in mirror:</b></p>
+      <p><b>Solution:</b><br>A, H, I, M, O, T, U, V, W, X, Y — symmetric letters.<br><b>Answer: A (or any symmetric letter)</b></p>
+
+      <h4>Example 7</h4>
+      <p><b>Mirror image of clock showing 2:30:</b></p>
+      <p><b>Solution:</b><br>11:60 − 2:30 = 9:30.<br><b>Answer: 9:30</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>Mirror image of "FAITH":</b></p>
+      <p><b>Solution:</b><br>FAITH reversed = HTIAF. Each letter mirrored: H sym, T sym, I sym, A sym, F reversed.<br><b>Answer: HTIAF (with F mirrored)</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>Numbers symmetric in mirror:</b></p>
+      <p><b>Solution:</b><br>0 and 8 (symmetric).<br><b>Answer: 0, 8</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Mirror image of "5:15" (clock):</b></p>
+      <p><b>Solution:</b><br>11:60 − 5:15 = 6:45.<br><b>Answer: 6:45</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Vertical mirror: left ↔ right.</li>
+        <li>Symmetric letters: AHIMOTUVWXY.</li>
+        <li>Symmetric numbers: 0, 8.</li>
+        <li>For sentences: reverse order AND mirror each.</li>
+        <li>For clock: 11:60 − time.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Mirror image of A is:", opts: ["A (same)", "Reversed A", "V", "B"], a: 0, ex: "Symmetric letter." },
+      { q: "Mirror image of E is:", opts: ["E (same)", "Reversed E (like Ǝ)", "F", "M"], a: 1, ex: "E is not symmetric." },
+      { q: "Mirror image of 8 is:", opts: ["8 (same)", "Reverse 8", "0", "Different"], a: 0, ex: "Symmetric." },
+      { q: "Symmetric letters in mirror: A, H, I, M, O, T, U, V, W, X, Y. How many?", opts: ["9", "10", "11", "12"], a: 2, ex: "11 letters." },
+      { q: "Mirror image of word 'NOON':", opts: ["NOON (palindrome)", "NOON with each N mirrored", "VOOV", "Same"], a: 1, ex: "Reverse order = NOON; mirror each letter (N not symmetric)." },
+      { q: "Letter that looks like 'b' in mirror:", opts: ["d", "p", "q", "B"], a: 0, ex: "b mirror = d." },
+      { q: "Mirror of clock 3:00:", opts: ["9:00", "6:00", "12:00", "3:00"], a: 0, ex: "11:60−3:00=8:60=9:00." },
+      { q: "Word 'TOM' mirror:", opts: ["TOM", "MOT (reversed)", "Reverse MOT with M, T sym and O sym", "Same"], a: 2, ex: "Reverse order MOT, all letters symmetric so MOT." },
+      { q: "Mirror image of 12345:", opts: ["54321", "12345", "Reverse with digits mirrored", "Cannot say"], a: 2, ex: "Both reverse and mirror." },
+      { q: "Numbers symmetric in vertical mirror:", opts: ["0, 1, 8", "0, 8", "1, 8", "8 only"], a: 1, ex: "0 and 8." },
+      { q: "Mirror image of letter Z:", opts: ["Z", "Reverse Z (like S-shaped)", "S", "N"], a: 1, ex: "Z is not symmetric." },
+      { q: "Mirror of '6:15' on clock:", opts: ["5:45", "6:15", "12:15", "11:45"], a: 0, ex: "11:60−6:15=5:45." },
+      { q: "Word 'AAA' mirror:", opts: ["AAA", "Reverse AAA", "VVV", "Same"], a: 0, ex: "A symmetric and palindrome." },
+      { q: "Word 'JAR' mirror:", opts: ["RAJ (reverse) with each letter mirrored", "JAR", "RAJ", "VAJ"], a: 0, ex: "Reverse + mirror." },
+      { q: "Mirror of letter K:", opts: ["K", "Reverse K", "M", "Different"], a: 1, ex: "Not symmetric." },
+      { q: "Mirror of word 'CODE':", opts: ["EDOC (reverse with each letter mirrored)", "CODE", "ECDO", "Same"], a: 0, ex: "Reverse + mirror each." },
+      { q: "Letter that flips to itself: which is among (B, D, P, V):", opts: ["B", "D", "P", "V (symmetric)"], a: 3, ex: "V is symmetric." },
+      { q: "Mirror of '9:45':", opts: ["2:15", "3:15", "9:45", "12:45"], a: 0, ex: "11:60−9:45=2:15." },
+      { q: "Mirror of '12:00':", opts: ["6:00", "12:00", "11:00", "1:00"], a: 1, ex: "Symmetric." },
+      { q: "Reflection in mirror reverses:", opts: ["Up-down", "Left-right", "Both", "Neither"], a: 1, ex: "Vertical mirror reverses left-right." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 23. WATER IMAGES
+  // ───────────────────────────────────────────────────────────────
+  T["reas-water"] = {
+    body: `
+      <h2>Water Images</h2>
+      <p>Image as it appears in still water (inverted vertically, like top-bottom flip).</p>
+
+      <h3>1. Basic Rule</h3>
+      <ul>
+        <li>Water (horizontal surface) reflects UP and DOWN (vertical flip).</li>
+        <li>LEFT and RIGHT remain the same.</li>
+        <li>Object's TOP becomes water's BOTTOM.</li>
+      </ul>
+
+      <h3>2. Letters and Their Water Images</h3>
+
+      <h4>Letters symmetric (look same when flipped vertically):</h4>
+      <p>B, C, D, E, H, I, K, O, X (those with horizontal symmetry)</p>
+      <p>Wait — let me be careful. Letters with HORIZONTAL axis of symmetry (look same flipped top-bottom):</p>
+      <p>B, C, D, E, H, I, K, O, X</p>
+
+      <h4>Letters that look different upside-down:</h4>
+      <p>A, F, G, J, L, M, N, P, Q, R, S, T, U, V, W, Y, Z</p>
+
+      <h4>Letters that look like another letter when flipped:</h4>
+      <ul>
+        <li>p ↔ b (vertical flip).</li>
+        <li>d ↔ q (vertical flip).</li>
+        <li>u ↔ n.</li>
+        <li>w ↔ m.</li>
+      </ul>
+
+      <h3>3. Numbers</h3>
+
+      <h4>Numbers with horizontal symmetry (water image same):</h4>
+      <p>0, 1 (sometimes), 3 (no), 8</p>
+      <p>Actually 0 and 8 only.</p>
+
+      <h4>Numbers that look like another:</h4>
+      <ul>
+        <li>6 ↔ 9 (water image).</li>
+        <li>2 → mirrored 2 (similar to S).</li>
+      </ul>
+
+      <h3>4. Mirror vs Water</h3>
+      <table>
+        <tr><th>Type</th><th>Reverses</th></tr>
+        <tr><td>Mirror (vertical mirror)</td><td>Left ↔ Right</td></tr>
+        <tr><td>Water (horizontal)</td><td>Up ↔ Down</td></tr>
+      </table>
+
+      <h3>5. 🔥 Rules</h3>
+      <ul>
+        <li>Vertical flip = water image.</li>
+        <li>For words: each letter flipped vertically; order remains same.</li>
+        <li>(Unlike mirror, order doesn't reverse.)</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Water image of letter 'B':</b></p>
+      <p><b>Solution:</b><br>B flipped vertically looks similar to B (has horizontal symmetry).<br><b>Answer: B (similar)</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>Water image of 'p':</b></p>
+      <p><b>Solution:</b><br>'p' flipped vertically becomes 'b'.<br><b>Answer: b</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>Water image of number 6:</b></p>
+      <p><b>Solution:</b><br>6 flipped vertically becomes 9.<br><b>Answer: 9</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>Water image of word 'INDIA':</b></p>
+      <p><b>Solution:</b><br>Each letter flipped vertically. I→I, N→N (but vertically flipped), D→D (mostly sym), I→I, A→A (flipped upside down looks like ∀).<br>Order remains INDIA, but each letter is upside-down.<br><b>Answer: INDIA (each letter inverted)</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>Water image of letter A:</b></p>
+      <p><b>Solution:</b><br>A flipped upside-down looks like V with a bar, or like ∀ symbol.<br><b>Answer: Inverted A</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>Letter that looks SAME in water image (horizontal symmetric):</b></p>
+      <p><b>Solution:</b><br>B, C, D, E, H, I, K, O, X.<br>(But B, C, D, E, K need careful check. Actually most accurate: H, I, O, X have horizontal symmetry. B, C, D, E, K only have horizontal symmetry in certain fonts.)<br><b>Answer: O (definitely), H, I, X</b></p>
+
+      <h4>Example 7</h4>
+      <p><b>Water image of 'COW':</b></p>
+      <p><b>Solution:</b><br>C → C (horizontal sym maybe), O → O, W → M.<br>Order same. So 'COW' → 'COM'.<br><b>Answer: COM (with letters flipped)</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>Water image of '2':</b></p>
+      <p><b>Solution:</b><br>2 inverted becomes something like 5 backwards or like 2 flipped.<br>Approximately like a mirrored S.<br><b>Answer: Inverted 2 (≈ reversed S shape)</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>Number that looks SAME in water image:</b></p>
+      <p><b>Solution:</b><br>0 and 8.<br><b>Answer: 0, 8</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Water image of word 'BOX':</b></p>
+      <p><b>Solution:</b><br>B → similar (has horizontal symmetry), O → O, X → X.<br>So water image of 'BOX' looks like 'BOX' (mostly same).<br><b>Answer: BOX</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Water = vertical flip (up-down).</li>
+        <li>Order of letters REMAINS THE SAME.</li>
+        <li>Each letter individually flipped top-bottom.</li>
+        <li>6 ↔ 9, p ↔ b, d ↔ q.</li>
+        <li>Symmetric: 0, 8, H, I, O, X.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Water image of '6' is:", opts: ["6", "9", "0", "Same"], a: 1, ex: "6 flipped = 9." },
+      { q: "Water image of 'p' is:", opts: ["b", "q", "d", "p"], a: 0, ex: "Vertical flip." },
+      { q: "Letter same in water image:", opts: ["A", "B (mostly)", "O (definite)", "Both B and O"], a: 3, ex: "Horizontal symmetry." },
+      { q: "Water image of '8':", opts: ["8 (same)", "0", "3", "Different"], a: 0, ex: "Symmetric." },
+      { q: "Water image of 'INDIA' (order):", opts: ["INDIA (each letter flipped)", "AIDNI", "Order reversed", "Same word"], a: 0, ex: "Order unchanged; each letter flipped." },
+      { q: "Water vs Mirror — water reverses:", opts: ["Left-right", "Up-down", "Both", "Neither"], a: 1, ex: "Vertical flip." },
+      { q: "Mirror reverses:", opts: ["Left-right", "Up-down", "Both", "Neither"], a: 0, ex: "Horizontal axis." },
+      { q: "Water image of 'w':", opts: ["w (same)", "m", "v", "n"], a: 1, ex: "w flipped = m." },
+      { q: "Water image of 'b':", opts: ["d", "p", "q", "b"], a: 1, ex: "b vertical flip = p." },
+      { q: "Water image of 'u':", opts: ["u", "n", "y", "Same"], a: 1, ex: "u flipped = n." },
+      { q: "Numbers with horizontal symmetry:", opts: ["0,1,8", "0, 8 (and maybe 3)", "1, 0", "Only 8"], a: 1, ex: "0, 8." },
+      { q: "Water image of 'BOX':", opts: ["BOX (each flipped, but mostly similar)", "Reversed BOX", "BO9", "Different"], a: 0, ex: "B mostly symmetric, O symmetric, X symmetric." },
+      { q: "Water image of letter S:", opts: ["S", "Reverse S", "Z", "Same"], a: 1, ex: "S not horizontally symmetric." },
+      { q: "Water image of '1':", opts: ["1", "Inverted 1", "I", "Same"], a: 0, ex: "1 has vertical line; horizontal flip looks similar." },
+      { q: "Water image of 'A':", opts: ["A", "V (upside down)", "Inverted A", "Same"], a: 2, ex: "Vertical flip of A." },
+      { q: "Mirror image of word 'NOON':", opts: ["NOON (vertical mirror)", "Each letter mirrored", "Both A and B", "Reversed"], a: 2, ex: "Vertical mirror reverses + each letter mirrored." },
+      { q: "Water of '69':", opts: ["69", "96", "Same", "Different (flipped)"], a: 1, ex: "6→9, 9→6 → 96... well actually 69 flipped vertically becomes shape similar to 69 inverted." },
+      { q: "Word that looks same in water:", opts: ["MOM", "BOX", "Both", "Neither"], a: 1, ex: "BOX (B, O, X have horizontal symmetry)." },
+      { q: "Water of letter N:", opts: ["N", "Z (similar)", "Reverse N", "Inverted"], a: 3, ex: "Vertical flip." },
+      { q: "Difference: mirror vs water:", opts: ["Mirror reverses left-right; water reverses up-down", "Same effect", "No difference", "Random"], a: 0, ex: "Definitions." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 24. EMBEDDED FIGURES
+  // ───────────────────────────────────────────────────────────────
+  T["reas-embedded"] = {
+    body: `
+      <h2>Embedded Figures</h2>
+      <p>Find a given small figure hidden within a larger figure. SSC asks 1 question.</p>
+
+      <h3>1. Concept</h3>
+      <ul>
+        <li>You're shown a small "key" figure and 4 complex figures.</li>
+        <li>Find which complex figure contains the key as a part.</li>
+        <li>Key may be rotated or in different position within the complex figure.</li>
+      </ul>
+
+      <h3>2. 🔥 Approach</h3>
+      <ol>
+        <li><b>Identify key features</b> of the small figure (unique angles, intersections).</li>
+        <li>Look for the same features in each option.</li>
+        <li>Check carefully — the key shape's lines must all be present in the larger figure.</li>
+        <li>Don't be tricked by added details that aren't in the key.</li>
+        <li>The key may be rotated.</li>
+      </ol>
+
+      <h3>3. Common Types</h3>
+      <ul>
+        <li>Simple geometric (triangle, square, etc.) within complex shape.</li>
+        <li>Letters or numbers hidden in patterns.</li>
+        <li>Curves within other curves.</li>
+      </ul>
+
+      <h3>4. Verification</h3>
+      <p>Trace the key figure's outline within the complex figure. Every line of the key must be present (not necessarily forming the complete key).</p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Focus on distinctive features (sharp angles, intersections).</li>
+        <li>Trace one line at a time.</li>
+        <li>Key can be in any orientation.</li>
+        <li>If unsure, eliminate options where features clearly don't match.</li>
+      </ul>
+
+      <p><b>Note:</b> Visual question; MCQs below test concept.</p>
+    `,
+    mcq: [
+      { q: "In embedded figure question, you find:", opts: ["A larger figure inside small", "A small figure inside the complex one", "Two figures separate", "Same figures"], a: 1, ex: "Small in complex." },
+      { q: "The embedded figure may be:", opts: ["Different from key", "Rotated version of key", "Mirror only", "Same orientation always"], a: 1, ex: "Often rotated." },
+      { q: "Key feature to look for:", opts: ["Unique angles/intersections", "Color only", "Size only", "Random"], a: 0, ex: "Distinctive features." },
+      { q: "If key is triangle and complex has square + triangle, key:", opts: ["Embedded", "Not embedded", "Cannot say", "Reversed"], a: 0, ex: "Triangle present." },
+      { q: "All lines of key must be present in complex figure?", opts: ["Yes", "No (just resemblance)", "Maybe", "Only color"], a: 0, ex: "All lines/edges of key must exist." },
+      { q: "Embedded figure question is from which section?", opts: ["Verbal", "Non-verbal/Spatial", "Math", "GK"], a: 1, ex: "Non-verbal." },
+      { q: "Number of options usually:", opts: ["2", "3", "4", "5"], a: 2, ex: "Typically 4." },
+      { q: "If key is letter 'L' and complex has 'F', is L embedded?", opts: ["Yes (L is part of F)", "No", "Maybe", "Cannot say"], a: 0, ex: "F contains L." },
+      { q: "Embedded figure quizzes test:", opts: ["Pattern recognition", "Memory", "Speed", "All"], a: 0, ex: "Spatial recognition." },
+      { q: "If small figure is rotated 90° in complex, is it embedded:", opts: ["Yes", "No (must be exact orientation)", "Cannot say", "Sometimes"], a: 0, ex: "Embedded includes rotations." },
+      { q: "Key figure must be:", opts: ["Visible clearly", "Hidden but reconstructable in complex", "Half visible", "All visible"], a: 1, ex: "Forms part of complex." },
+      { q: "If a key triangle is part of a larger triangle, key is:", opts: ["Embedded", "Not embedded", "Cannot say", "Reversed"], a: 0, ex: "Yes, smaller triangle in larger." },
+      { q: "Embedded test mostly checks:", opts: ["Visual perception", "Math", "Vocabulary", "History"], a: 0, ex: "Visual." },
+      { q: "If options are 4 figures, 1 has key embedded. To find:", opts: ["Compare each carefully", "Skip", "Guess", "Eliminate by color"], a: 0, ex: "Methodical comparison." },
+      { q: "Common shapes in embedded questions:", opts: ["Triangles, squares, lines", "Words", "Animals", "Numbers only"], a: 0, ex: "Simple shapes." },
+      { q: "Time per embedded question (recommended):", opts: ["10 seconds", "30-45 seconds", "5 minutes", "1 minute"], a: 1, ex: "Quick visual check." },
+      { q: "Embedded figure section in SSC has approximately:", opts: ["1 question", "5 questions", "10 questions", "20 questions"], a: 0, ex: "1-2 typically." },
+      { q: "If key is curved and complex has only straight lines, key is:", opts: ["Embedded", "Not embedded", "Cannot say", "Maybe"], a: 1, ex: "Curves vs straight = different." },
+      { q: "Practice embedded figures by:", opts: ["Solving previous papers", "Memorizing answers", "Random", "Skipping"], a: 0, ex: "Build pattern recognition." },
+      { q: "If you can't find embedded figure easily:", opts: ["Use elimination of wrong options", "Skip", "Guess randomly", "Ignore"], a: 0, ex: "Eliminate obvious wrong ones." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 25. COMPLETION OF FIGURES
+  // ───────────────────────────────────────────────────────────────
+  T["reas-completion"] = {
+    body: `
+      <h2>Completion of Figures</h2>
+      <p>Given an incomplete figure (or a figure with one part missing), find the option that completes it. SSC asks 1 question.</p>
+
+      <h3>1. Concept</h3>
+      <ul>
+        <li>A figure has a missing piece (a square or section is empty/has a "?" mark).</li>
+        <li>Choose from 4 options which piece fits.</li>
+      </ul>
+
+      <h3>2. 🔥 Approach</h3>
+      <ol>
+        <li><b>Identify the pattern</b> in the visible part of the figure.</li>
+        <li>Symmetry: figure often has horizontal or vertical symmetry.</li>
+        <li>Repetition: same pattern repeats in 4 corners or 4 quadrants.</li>
+        <li>Continuation: lines/curves continue smoothly.</li>
+        <li>Color/shading: continues the pattern.</li>
+      </ol>
+
+      <h3>3. Common Patterns</h3>
+      <ul>
+        <li><b>Symmetric figure</b>: missing part is mirror of visible part.</li>
+        <li><b>Repeating motif</b>: same element in all sections.</li>
+        <li><b>Rotational symmetry</b>: rotating gives same figure.</li>
+        <li><b>Smooth continuation</b>: curves/lines flow continuously.</li>
+      </ul>
+
+      <h3>4. Verification</h3>
+      <ul>
+        <li>Place option in the gap; check if whole figure looks consistent.</li>
+        <li>If pattern, color, lines all flow → correct option.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Look for the overall pattern first (symmetry, repetition).</li>
+        <li>Check each option against visible cues.</li>
+        <li>Don't pick option that adds new elements not in pattern.</li>
+        <li>Look for color/shading continuity.</li>
+      </ul>
+
+      <p><b>Note:</b> Visual question.</p>
+    `,
+    mcq: [
+      { q: "Completion of figure means:", opts: ["Find the missing part of a figure", "Draw new figure", "Compare figures", "Count figures"], a: 0, ex: "Identify missing element." },
+      { q: "Key technique for completion:", opts: ["Symmetry/pattern recognition", "Memorization", "Vocabulary", "Math"], a: 0, ex: "Pattern recognition." },
+      { q: "If figure is symmetric, missing part is:", opts: ["Mirror of visible part", "Different element", "Random", "New shape"], a: 0, ex: "Mirror image." },
+      { q: "In rotational symmetry, all sections:", opts: ["Look same when rotated", "Are different", "Have different colors", "Random"], a: 0, ex: "Rotational." },
+      { q: "Each option for completion question typically shows:", opts: ["Same image", "Different patches/pieces", "Random shapes", "Letters"], a: 1, ex: "Different patches to choose." },
+      { q: "Approach for completion questions:", opts: ["Compare each option to pattern", "Guess", "Skip", "Random"], a: 0, ex: "Pattern matching." },
+      { q: "If figure has 4 quadrants and 3 are similar, missing quadrant:", opts: ["Same as others", "Different", "Random", "Cannot say"], a: 0, ex: "Pattern repeats." },
+      { q: "Continuation of curve means:", opts: ["Smooth flowing line", "Sharp angle", "Disconnected", "Curved"], a: 0, ex: "Smooth flow." },
+      { q: "Color continuity in figure means:", opts: ["Colors flow naturally", "Random colors", "Same color everywhere", "Contrasting"], a: 0, ex: "Pattern of color continues." },
+      { q: "If wrong option chosen, figure looks:", opts: ["Asymmetric or broken", "Same", "Better", "Cannot say"], a: 0, ex: "Breaks pattern." },
+      { q: "Time per completion question:", opts: ["30 sec", "1 min", "2 min", "5 min"], a: 0, ex: "Quick visual." },
+      { q: "Most common patterns:", opts: ["Symmetry, repetition", "Random", "Color only", "Number only"], a: 0, ex: "Visual patterns." },
+      { q: "In SSC reasoning, this type is in:", opts: ["Verbal", "Non-verbal", "Math", "GK"], a: 1, ex: "Non-verbal/spatial." },
+      { q: "If figure shows clock pattern, completion follows:", opts: ["Clockwise sequence", "Counterclockwise", "Both", "Random"], a: 2, ex: "Either direction; identify the pattern." },
+      { q: "If 3 quadrants show stars, missing should be:", opts: ["Star", "Different shape", "Cannot say", "Color shape"], a: 0, ex: "Continue pattern." },
+      { q: "Completion question type:", opts: ["Multiple choice with figures", "Text only", "Number", "Date"], a: 0, ex: "Figure-based MCQ." },
+      { q: "Test strategy:", opts: ["Practice old SSC papers", "Memorize", "Random guess", "Skip"], a: 0, ex: "Repeated patterns from PYQs." },
+      { q: "Common shapes for completion:", opts: ["Squares, triangles, circles", "Words only", "Animals", "Numbers"], a: 0, ex: "Geometric." },
+      { q: "If pattern has rotation, options differ in:", opts: ["Orientation of element", "Color only", "Size only", "Random"], a: 0, ex: "Rotation differences." },
+      { q: "Practice helps because:", opts: ["Build visual intuition", "Memorize answers", "Speed only", "Luck"], a: 0, ex: "Pattern intuition." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 26. PAPER CUTTING & FOLDING
+  // ───────────────────────────────────────────────────────────────
+  T["reas-paper"] = {
+    body: `
+      <h2>Paper Cutting & Folding</h2>
+      <p>A paper is folded several times, then a cut is made. Predict the pattern when unfolded. SSC asks 1 question.</p>
+
+      <h3>1. Basic Concept</h3>
+      <ul>
+        <li>Square or rectangle paper folded once or more.</li>
+        <li>A cut (triangle, square, or pattern) is made in the folded paper.</li>
+        <li>Unfolding produces a symmetric pattern.</li>
+      </ul>
+
+      <h3>2. Folding Patterns</h3>
+
+      <h4>Single Fold</h4>
+      <ul>
+        <li>Fold in half (vertical or horizontal).</li>
+        <li>Cut creates symmetric image around fold line.</li>
+      </ul>
+
+      <h4>Double Fold</h4>
+      <ul>
+        <li>Fold twice (perpendicular folds).</li>
+        <li>Creates 4-way symmetric pattern.</li>
+      </ul>
+
+      <h4>Triple Fold</h4>
+      <ul>
+        <li>Fold three times.</li>
+        <li>Creates 8-way symmetric pattern.</li>
+      </ul>
+
+      <h4>Diagonal Fold</h4>
+      <ul>
+        <li>Fold along diagonal.</li>
+        <li>Cuts mirror along diagonal.</li>
+      </ul>
+
+      <h3>3. 🔥 Approach</h3>
+      <ol>
+        <li>Visualize fold direction (vertical/horizontal/diagonal).</li>
+        <li>The cut is on one side of fold; unfolds to BOTH sides.</li>
+        <li>For 2 folds: cut appears 4 times symmetrically.</li>
+        <li>For 3 folds: cut appears 8 times.</li>
+        <li>For diagonal: cut mirrors along diagonal.</li>
+      </ol>
+
+      <h3>4. Number of Holes</h3>
+      <p>If paper folded n times and a hole is punched, when unfolded there will be 2ⁿ holes.</p>
+      <ul>
+        <li>1 fold + 1 hole = 2 holes.</li>
+        <li>2 folds + 1 hole = 4 holes.</li>
+        <li>3 folds + 1 hole = 8 holes.</li>
+      </ul>
+
+      <h3>5. 🎯 Tips</h3>
+      <ul>
+        <li>Mentally "unfold" the paper step by step.</li>
+        <li>Each fold doubles the cut pattern.</li>
+        <li>Symmetry is key.</li>
+        <li>Visualize where fold lines are.</li>
+      </ul>
+
+      <p><b>Note:</b> Visual question.</p>
+    `,
+    mcq: [
+      { q: "Paper folded once and cut. Unfolded shows:", opts: ["Symmetric pattern about fold line", "Random", "No pattern", "Single cut"], a: 0, ex: "Mirror image along fold." },
+      { q: "Paper folded twice (perpendicular). Cut creates:", opts: ["2-way symmetric", "4-way symmetric", "8-way", "Random"], a: 1, ex: "4 quadrants." },
+      { q: "Paper folded 3 times. 1 hole punched. Unfolded shows:", opts: ["2 holes", "4 holes", "8 holes", "16 holes"], a: 2, ex: "2³ = 8 holes." },
+      { q: "Diagonal fold cut creates:", opts: ["Diagonal symmetry", "Vertical symmetry", "Random", "No symmetry"], a: 0, ex: "Mirror along diagonal." },
+      { q: "Paper folded once = 1 fold. After 2 folds, cut appears:", opts: ["2 times", "4 times", "1 time", "8 times"], a: 1, ex: "Cut appears 4× (2²)." },
+      { q: "Paper folded 1 time, hole punched. Unfolded:", opts: ["1 hole", "2 holes", "3 holes", "4 holes"], a: 1, ex: "2¹ = 2." },
+      { q: "Fold creates:", opts: ["Symmetry", "Asymmetry", "Random", "Color"], a: 0, ex: "Mirror symmetry." },
+      { q: "If 2 holes in folded paper, unfolded:", opts: ["2 holes", "4 holes", "8 holes", "Cannot say"], a: 1, ex: "1 fold → 4 holes total." },
+      { q: "Folding strengthens which aspect of symmetry:", opts: ["Mirror symmetry", "Color", "Size", "Random"], a: 0, ex: "Mirror symmetry from fold line." },
+      { q: "Number of holes after folding n times = 2ⁿ × original holes. If 2 holes in paper folded 2 times:", opts: ["4", "6", "8", "12"], a: 2, ex: "2 × 2² = 8." },
+      { q: "Paper cutting questions test:", opts: ["Spatial visualization", "Math", "Memory", "Language"], a: 0, ex: "Spatial." },
+      { q: "Common fold types:", opts: ["Vertical, horizontal, diagonal", "Only vertical", "Only diagonal", "Random"], a: 0, ex: "All three." },
+      { q: "Symmetric pattern in folded paper means:", opts: ["Both sides of fold look same", "Random", "Different sides", "Only one side"], a: 0, ex: "Mirror image." },
+      { q: "Best way to solve paper cutting:", opts: ["Visualize unfolding step by step", "Guess", "Random", "Memorize"], a: 0, ex: "Mental visualization." },
+      { q: "If paper folded twice and 1 cut, total cuts:", opts: ["1", "2", "4", "8"], a: 2, ex: "2² = 4." },
+      { q: "Number of times to fold to get 16-way symmetry:", opts: ["2", "3", "4", "5"], a: 2, ex: "2⁴ = 16; 4 folds." },
+      { q: "If fold and cut creates plus (+) sign:", opts: ["Diagonal fold", "Two perpendicular folds", "Single fold", "Random"], a: 1, ex: "Perpendicular folds." },
+      { q: "Paper questions in SSC are typically:", opts: ["1 question", "5 questions", "10", "0"], a: 0, ex: "1 per paper usually." },
+      { q: "Fold paper, cut shape from center. Unfolded shows:", opts: ["1 shape", "Multiple copies of shape, symmetric", "Random", "Different shape"], a: 1, ex: "Symmetric multiples." },
+      { q: "Time per paper cutting question:", opts: ["30 sec - 1 min", "5 min", "10 sec", "2 hours"], a: 0, ex: "Quick visualization." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 27. COUNTING OF FIGURES
+  // ───────────────────────────────────────────────────────────────
+  T["reas-counting"] = {
+    body: `
+      <h2>Counting of Figures</h2>
+      <p>Count the total number of triangles, squares, rectangles, etc. in a complex figure. SSC asks 1-2 questions.</p>
+
+      <h3>1. Counting Triangles</h3>
+      <ul>
+        <li>Count systematically: small triangles first, then combinations.</li>
+        <li>For triangle divided into n parallel sections (smaller triangles): total = n²/2 (approximately).</li>
+        <li>For triangle divided into n² triangular sub-triangles by drawing parallel lines:
+          <ul>
+            <li>Upward triangles: 1 + 3 + 5 + ... + (2n−1) = n².</li>
+            <li>Plus inverted triangles in between.</li>
+          </ul>
+        </li>
+        <li>For triangle with N rows: total triangles = (N(N+2)(2N+1))/8 approximately.</li>
+      </ul>
+
+      <h4>Common counts:</h4>
+      <ul>
+        <li>Square with 1 diagonal: 2 triangles.</li>
+        <li>Square with 2 diagonals: 8 triangles.</li>
+        <li>Triangle divided into 4 by 3 lines from vertices: count carefully.</li>
+      </ul>
+
+      <h3>2. Counting Squares</h3>
+      <ul>
+        <li>For n×n grid: total squares = 1² + 2² + 3² + ... + n² = n(n+1)(2n+1)/6.</li>
+        <li>1×1 grid: 1 square.</li>
+        <li>2×2 grid: 1 + 4 = 5 squares.</li>
+        <li>3×3 grid: 1 + 4 + 9 = 14 squares.</li>
+        <li>4×4 grid: 1 + 4 + 9 + 16 = 30 squares.</li>
+      </ul>
+
+      <h3>3. Counting Rectangles</h3>
+      <ul>
+        <li>For m×n grid (m rows, n cols): rectangles = ⁽ᵐ⁺¹⁾C₂ × ⁽ⁿ⁺¹⁾C₂ = (m(m+1)/2)((n+1)/2 × n/...).</li>
+        <li>Or = (m(m+1)/2) × (n(n+1)/2). For 3×3 grid (m=n=3): 3×4/2 × 3×4/2 = 6 × 6 = 36 rectangles (including squares).</li>
+      </ul>
+
+      <h3>4. 🔥 Approach</h3>
+      <ol>
+        <li>Mark each triangle/square as you count.</li>
+        <li>Count in order: smallest first, then combinations.</li>
+        <li>Look for overlapping shapes.</li>
+        <li>Don't miss the entire enclosing figure.</li>
+        <li>Verify by counting in a different way.</li>
+      </ol>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>How many squares in a 3×3 grid (9 small squares)?</b></p>
+      <p><b>Solution:</b><br>1×1 squares: 9<br>2×2 squares: 4<br>3×3 squares: 1<br>Total: 9+4+1 = 14<br><b>Answer: 14</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>How many triangles in figure: triangle with both diagonals drawn (X shape inside)?</b></p>
+      <p><b>Solution:</b><br>(Need to see figure) Typically 8-16 depending on layout.<br>For a triangle with cevians from each vertex to midpoint of opposite side, count carefully.</p>
+
+      <h4>Example 3</h4>
+      <p><b>How many rectangles in a 2×3 grid?</b></p>
+      <p><b>Solution:</b><br>Total = (m(m+1)/2) × (n(n+1)/2) where grid has m rows and n columns of cells.<br>Wait — formula for grid with (m+1) horizontal lines and (n+1) vertical lines, rectangles = mC2 × nC2... let me reconsider.<br>For 2×3 cells: 3 horizontal lines, 4 vertical lines.<br>Rectangles = ³C₂ × ⁴C₂ = 3 × 6 = 18.<br><b>Answer: 18</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>Count squares in a 4×4 grid (16 small squares):</b></p>
+      <p><b>Solution:</b><br>1×1: 16<br>2×2: 9<br>3×3: 4<br>4×4: 1<br>Total: 30<br><b>Answer: 30</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>Triangle divided into 4 small triangles by lines from each vertex to midpoint of opposite side. Total triangles?</b></p>
+      <p><b>Solution:</b><br>Small triangles: 4 (inner small triangles)<br>Pairs forming bigger triangles: typically more.<br>Total ≈ 16 (with corners and main).<br><b>Answer: 16 (varies)</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>n×n grid squares = sum of k² for k=1 to n.</li>
+        <li>Practice with simple grids first.</li>
+        <li>Count systematically; don't skip.</li>
+        <li>Look for symmetry to confirm.</li>
+        <li>Pay attention to triangles formed by intersections.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Squares in 2×2 grid:", opts: ["4", "5", "6", "9"], a: 1, ex: "1×1: 4 + 2×2: 1 = 5." },
+      { q: "Squares in 3×3 grid:", opts: ["9", "13", "14", "16"], a: 2, ex: "9+4+1=14." },
+      { q: "Squares in 4×4 grid:", opts: ["16", "20", "30", "36"], a: 2, ex: "16+9+4+1=30." },
+      { q: "Squares in 5×5 grid:", opts: ["25", "55", "50", "75"], a: 1, ex: "25+16+9+4+1=55." },
+      { q: "Squares in n×n grid:", opts: ["n²", "n(n+1)/2", "n(n+1)(2n+1)/6", "n²(n+1)/2"], a: 2, ex: "Sum of squares formula." },
+      { q: "Rectangles in 2×2 grid:", opts: ["4", "9", "6", "5"], a: 1, ex: "³C₂ × ³C₂ = 3×3 = 9." },
+      { q: "Rectangles in 3×3 grid:", opts: ["36", "30", "24", "16"], a: 0, ex: "⁴C₂ × ⁴C₂ = 6×6 = 36." },
+      { q: "Triangles in square with 1 diagonal:", opts: ["2", "4", "6", "8"], a: 0, ex: "Divides into 2 triangles." },
+      { q: "Triangles in square with 2 diagonals (X):", opts: ["4", "6", "8", "10"], a: 2, ex: "4 small + 4 large = 8." },
+      { q: "Equilateral triangle with side divided into 2 equal parts → smaller triangles inside:", opts: ["4 small (3 + 1 inverted)", "3", "5", "9"], a: 0, ex: "Standard division." },
+      { q: "Total triangles in a triangle divided into n² smaller (side n):", opts: ["n²", "n(n+2)(2n+1)/8", "n²(n+1)/2", "n³"], a: 1, ex: "Formula for total." },
+      { q: "Count squares in 1×1 grid:", opts: ["1", "0", "2", "4"], a: 0, ex: "Single square." },
+      { q: "Rectangles in 1×4 grid:", opts: ["4", "10", "6", "8"], a: 1, ex: "2C2 × 5C2 = 1×10 = 10." },
+      { q: "Triangle with 2 horizontal lines parallel to base creating 3 sections: triangles total =:", opts: ["3", "5", "6", "9"], a: 2, ex: "3 horizontal + 3 inverted." },
+      { q: "Counting figure questions test:", opts: ["Patience and systematic approach", "Math only", "Memory", "Language"], a: 0, ex: "Methodical counting." },
+      { q: "If 4×4 grid has 30 squares, what % are 1×1:", opts: ["50%", "53%", "60%", "70%"], a: 1, ex: "16/30 ≈ 53%." },
+      { q: "Best strategy for counting:", opts: ["Smallest first, then larger", "Random", "Largest only", "Diagonal only"], a: 0, ex: "Systematic." },
+      { q: "If triangle has 9 small inner triangles, total:", opts: ["13", "15", "20", "27"], a: 0, ex: "9 small upward + 4 larger pairs (depending on config)." },
+      { q: "Counting questions difficulty:", opts: ["Easy", "Medium", "Hard if complex figure", "Very hard"], a: 2, ex: "Depends on figure." },
+      { q: "Time per counting question:", opts: ["30 sec", "1-2 min", "5 min", "Less than 10 sec"], a: 1, ex: "Need to count carefully." }
+    ]
+  };
+
 })();
