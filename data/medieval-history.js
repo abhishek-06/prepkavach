@@ -132,7 +132,17 @@
       { q: "Niccolao Manucci wrote which work on Mughal history?", opts: ["Travels in the Mogul Empire", "Storia do Mogor", "Padshahnama", "Akbarnama"], a: 1, ex: "Italian; eyewitness of Aurangzeb's era; Storia do Mogor in Italian/Portuguese." },
       { q: "Bernier was associated with whose court?", opts: ["Akbar", "Jahangir", "Dara Shikoh / Aurangzeb era", "Shah Jahan only"], a: 2, ex: "French physician of Dara Shikoh; later observed Aurangzeb's reign." },
       { q: "Padmavat (1540) was written by?", opts: ["Tulsidas", "Malik Muhammad Jayasi", "Kabir", "Chand Bardai"], a: 1, ex: "Malik Muhammad Jayasi in Awadhi; about Padmini of Chittor." },
-      { q: "Prithviraj Raso was written by?", opts: ["Tulsidas", "Surdas", "Chand Bardai", "Banabhatta"], a: 2, ex: "Chand Bardai — bardic poem on Prithviraj Chauhan in Hindi/Pingal." }
+      { q: "Prithviraj Raso was written by?", opts: ["Tulsidas", "Surdas", "Chand Bardai", "Banabhatta"], a: 2, ex: "Chand Bardai — bardic poem on Prithviraj Chauhan in Hindi/Pingal." },
+      { q: "Tabaqat-i-Nasiri was written by?", opts: ["Ziauddin Barani", "Minhaj-us-Siraj", "Amir Khusrau", "Abul Fazl"], a: 1, ex: "Minhaj-us-Siraj — history up to Balban's reign." },
+      { q: "Akbarnama was written by?", opts: ["Abdul Hamid Lahori", "Abul Fazl", "Badauni", "Faizi"], a: 1, ex: "Abul Fazl — biography of Akbar in 3 volumes." },
+      { q: "Ain-i-Akbari was written by?", opts: ["Akbar", "Abul Fazl", "Badauni", "Faizi"], a: 1, ex: "3rd part of Akbarnama — Mughal administration." },
+      { q: "Tuzuk-i-Babri / Baburnama is in?", opts: ["Persian", "Turkish (Chagatai)", "Arabic", "Sanskrit"], a: 1, ex: "Babur's autobiography in Chagatai Turkish." },
+      { q: "Padshahnama was written by?", opts: ["Abul Fazl", "Abdul Hamid Lahori", "Badauni", "Khafi Khan"], a: 1, ex: "Lahori — chronicle of Shah Jahan." },
+      { q: "Ibn Battuta visited during reign of?", opts: ["Alauddin Khilji", "Muhammad bin Tughlaq", "Firuz Shah", "Sikandar Lodi"], a: 1, ex: "Moroccan traveler; appointed Qazi of Delhi by MbT." },
+      { q: "Marco Polo described which Indian region?", opts: ["Punjab", "South India (Pandyas)", "Bengal", "Kashmir"], a: 1, ex: "13th c. Venetian; saw Pandya kingdom." },
+      { q: "Kitab-ul-Hind was written by?", opts: ["Al-Biruni", "Babur", "Akbar", "Firdausi"], a: 0, ex: "Al-Biruni — accompanied Mahmud Ghazni." },
+      { q: "Humayun-nama was written by?", opts: ["Humayun", "Gulbadan Begum", "Abul Fazl", "Babur"], a: 1, ex: "Gulbadan Begum — Humayun's half-sister." },
+      { q: "Persian was court language of?", opts: ["Mauryas", "Mughals and Sultanate", "Cholas", "Marathas"], a: 1, ex: "Persian was administrative language from Sultanate to British era (1837)." }
     ]
   };
 
@@ -3422,7 +3432,11 @@
       { q: "Bengal was conquered (1204) by?", opts: ["Aibak", "Bakhtiyar Khilji", "Iltutmish", "Yildoz"], a: 1, ex: "Bakhtiyar Khilji — defeated Lakshmana Sena who fled." },
       { q: "Mahmud Ghazni raided Somnath Temple in?", opts: ["1001", "1025", "1192", "1206"], a: 1, ex: "1025 AD; defeated Solanki Bhima I." },
       { q: "Muhammad Ghori was killed in?", opts: ["1192", "1194", "1206 (by Khokhars on Indus)", "1215"], a: 2, ex: "15 March 1206 by Khokhars on the Indus while returning to Ghazni." },
-      { q: "After Ghori's death, who took Delhi?", opts: ["Yildoz", "Qabacha", "Aibak (founded Slave Dynasty)", "Bakhtiyar"], a: 2, ex: "Qutb-ud-din Aibak — founded Slave Dynasty in 1206 at Lahore (later Delhi)." }
+      { q: "After Ghori's death, who took Delhi?", opts: ["Yildoz", "Qabacha", "Aibak (founded Slave Dynasty)", "Bakhtiyar"], a: 2, ex: "Qutb-ud-din Aibak — founded Slave Dynasty in 1206 at Lahore (later Delhi)." },
+      { q: "First Arab to invade India was?", opts: ["Mohammad bin Qasim", "Mahmud Ghazni", "Muhammad Ghori", "Ghazi Salar"], a: 0, ex: "Mohammad bin Qasim conquered Sindh in 712 AD (defeated Raja Dahir)." },
+      { q: "Mohammad bin Qasim was sent by?", opts: ["Caliph Walid I", "Caliph Umar", "Mahmud", "Abbasids"], a: 0, ex: "Umayyad Caliph Walid I via Iraqi governor Hajjaj bin Yusuf." },
+      { q: "Mahmud Ghazni's father was?", opts: ["Alptigin", "Subuktigin", "Sultan Mahmud Senior", "Mohammad"], a: 1, ex: "Subuktigin founded Ghaznavid dynasty; Mahmud was his son." },
+      { q: "Mahmud invaded India how many times?", opts: ["5", "10", "17 times", "25"], a: 2, ex: "17 invasions between 1000-1027 AD; primarily for plunder, not territorial conquest." }
     ]
   };
 
@@ -3678,7 +3692,16 @@
       { q: "Hindavi (proto-Hindi/Urdu) emerged in?", opts: ["Mauryan era", "Gupta era", "Sultanate era", "British era"], a: 2, ex: "Sultanate era — through Persian-Sanskrit-Hindi mixing; Amir Khusrau pioneered." },
       { q: "Iqtas were made hereditary by?", opts: ["Iltutmish", "Alauddin Khilji", "Firuz Shah Tughlaq", "Sher Shah"], a: 2, ex: "Firuz Shah Tughlaq — weakened the iqta system; later reversed by Akbar." },
       { q: "First mosque in India was?", opts: ["Quwwat-ul-Islam (Delhi, 1192)", "Jama Masjid", "Atala Mosque", "Adhai Din ka Jhonpra"], a: 0, ex: "Quwwat-ul-Islam Mosque, built by Aibak (1192) using materials from Hindu/Jain temples." },
-      { q: "First true Islamic arch and dome in India appeared at?", opts: ["Quwwat-ul-Islam", "Alai Darwaza (1311)", "Qutb Minar", "Iltutmish's Tomb"], a: 1, ex: "Alai Darwaza (1311), built by Alauddin Khilji as gateway to Quwwat-ul-Islam." }
+      { q: "First true Islamic arch and dome in India appeared at?", opts: ["Quwwat-ul-Islam", "Alai Darwaza (1311)", "Qutb Minar", "Iltutmish's Tomb"], a: 1, ex: "Alai Darwaza (1311), built by Alauddin Khilji as gateway to Quwwat-ul-Islam." },
+      { q: "Iqta system was introduced in India by?", opts: ["Iltutmish", "Balban", "Alauddin Khilji", "Aibak"], a: 0, ex: "Iltutmish formalized the iqta system — land assignment to nobles for revenue." },
+      { q: "Diwan-i-Wizarat handled?", opts: ["Religion", "Finance (vazir's department)", "Military", "Justice"], a: 1, ex: "Diwan-i-Wizarat = finance under Wazir; Diwan-i-Arz = military; Diwan-i-Insha = correspondence." },
+      { q: "Currency 'tanka' (silver) and 'jital' (copper) were introduced by?", opts: ["Aibak", "Iltutmish", "Alauddin", "Balban"], a: 1, ex: "Iltutmish introduced tanka (silver) and jital (copper)." },
+      { q: "Society under Sultanate was structured around?", opts: ["Caste system", "Religion (Muslim ruling class)", "Trade guilds", "Tribal lineage"], a: 1, ex: "Muslim nobility on top; Hindus as zimmis (protected non-Muslims) paying jizya." },
+      { q: "Main trade route from India to West Asia was?", opts: ["Land via Hindu Kush", "Sea via Arabian peninsula", "Both", "None"], a: 2, ex: "Both land (Khyber Pass) and sea (Gujarat-Arabian Sea) routes active." },
+      { q: "Sufi orders prominent in Sultanate were?", opts: ["Chishti and Suhrawardi", "Naqshbandi only", "Qadri", "Mevlevi"], a: 0, ex: "Chishti (Khwaja Moinuddin) and Suhrawardi (Bahauddin Zakariya) were dominant." },
+      { q: "Persian replaced what as administrative language?", opts: ["Sanskrit", "Arabic", "Turkish", "Hindi"], a: 0, ex: "Persian replaced Sanskrit; remained admin language till 1837 (British)." },
+      { q: "Slave market in Delhi was?", opts: ["Chandni Chowk", "Sirhind", "Mehrauli", "Many — slavery was widespread"], a: 3, ex: "Slavery was institution; both prisoners of war and bought." },
+      { q: "Decline of Sultanate was hastened by?", opts: ["Timur's invasion (1398)", "Bahmani rebellion", "Vijayanagara rise", "All correct"], a: 3, ex: "Timur's invasion (1398) was final blow; Bahmani and Vijayanagara already independent." }
     ]
   };
 
