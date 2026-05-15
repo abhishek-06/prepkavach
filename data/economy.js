@@ -2487,6 +2487,29 @@
       <h2>Inflation, WPI, CPI and Core Concepts</h2>
       <p><b>Inflation</b> = sustained rise in general price level. <b>Deflation</b> = sustained fall. <b>Disinflation</b> = inflation rate falls but still positive. <b>Stagflation</b> = high inflation + stagnation/unemployment.</p>
 
+      <h3>📋 Abbreviations Used in This Chapter</h3>
+      <table>
+        <tr><th>Abbr.</th><th>Full Form</th></tr>
+        <tr><td><b>WPI</b></td><td>Wholesale Price Index</td></tr>
+        <tr><td><b>CPI</b></td><td>Consumer Price Index</td></tr>
+        <tr><td><b>CPI-IW</b></td><td>Consumer Price Index — Industrial Workers</td></tr>
+        <tr><td><b>CPI-AL</b></td><td>Consumer Price Index — Agricultural Labourers</td></tr>
+        <tr><td><b>CPI-RL</b></td><td>Consumer Price Index — Rural Labourers</td></tr>
+        <tr><td><b>GDP</b></td><td>Gross Domestic Product</td></tr>
+        <tr><td><b>RBI</b></td><td>Reserve Bank of India</td></tr>
+        <tr><td><b>MPC</b></td><td>Monetary Policy Committee</td></tr>
+        <tr><td><b>NSO</b></td><td>National Statistical Office</td></tr>
+        <tr><td><b>CSO</b></td><td>Central Statistics Office</td></tr>
+        <tr><td><b>MoSPI</b></td><td>Ministry of Statistics and Programme Implementation</td></tr>
+        <tr><td><b>DPIIT</b></td><td>Department for Promotion of Industry and Internal Trade</td></tr>
+        <tr><td><b>CRR</b></td><td>Cash Reserve Ratio</td></tr>
+        <tr><td><b>SLR</b></td><td>Statutory Liquidity Ratio</td></tr>
+        <tr><td><b>OMO</b></td><td>Open Market Operations</td></tr>
+        <tr><td><b>MSP</b></td><td>Minimum Support Price</td></tr>
+        <tr><td><b>BoP</b></td><td>Balance of Payments</td></tr>
+        <tr><td><b>NPCI</b></td><td>National Payments Corporation of India</td></tr>
+      </table>
+
       <h3>Types of Inflation</h3>
       <ul>
         <li><b>Demand-Pull</b> — too much money chasing too few goods (Keynes).</li>
