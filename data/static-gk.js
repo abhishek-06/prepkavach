@@ -2969,8 +2969,148 @@
     ]
   };
 
-  // sgk-isro placeholder — content covered above
-  T["sgk-isro"] = T["sgk-space"];
+  // ───────────────────────────────────────────────────────────────
+  // ISRO ESTABLISHMENTS & MISSIONS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-isro"] = {
+    body: `
+      <h2>ISRO Establishments & Missions</h2>
+
+      <h3>1. Major ISRO Centres (Detailed Location List)</h3>
+      <table>
+        <tr><th>Centre</th><th>Location</th><th>Function</th></tr>
+        <tr><td>ISRO HQ</td><td>Bengaluru</td><td>Headquarters</td></tr>
+        <tr><td>VSSC (Vikram Sarabhai Space Centre)</td><td>Thiruvananthapuram</td><td>Launch vehicles development</td></tr>
+        <tr><td>SDSC SHAR (Satish Dhawan Space Centre)</td><td>Sriharikota, Andhra Pradesh</td><td>Launch site</td></tr>
+        <tr><td>URSC (UR Rao Satellite Centre)</td><td>Bengaluru</td><td>Satellite design and development</td></tr>
+        <tr><td>LPSC (Liquid Propulsion Systems Centre)</td><td>Thiruvananthapuram & Bengaluru</td><td>Liquid engines, cryogenic stages</td></tr>
+        <tr><td>SAC (Space Applications Centre)</td><td>Ahmedabad</td><td>Payload + applications development</td></tr>
+        <tr><td>NRSC (National Remote Sensing Centre)</td><td>Hyderabad</td><td>Remote sensing data</td></tr>
+        <tr><td>MCF (Master Control Facility)</td><td>Hassan, Karnataka</td><td>Geostationary satellite control</td></tr>
+        <tr><td>ISTRAC (Telemetry, Tracking & Command)</td><td>Bengaluru</td><td>Spacecraft tracking</td></tr>
+        <tr><td>IISU (Inertial Systems Unit)</td><td>Thiruvananthapuram</td><td>Inertial sensors</td></tr>
+        <tr><td>NE-SAC (North Eastern Space Applications Centre)</td><td>Shillong, Meghalaya</td><td>Northeast applications</td></tr>
+        <tr><td>PRL (Physical Research Laboratory)</td><td>Ahmedabad</td><td>Space physics research</td></tr>
+        <tr><td>IIRS (Indian Institute of Remote Sensing)</td><td>Dehradun</td><td>Remote sensing education</td></tr>
+        <tr><td>IIST (Indian Institute of Space Science & Technology)</td><td>Thiruvananthapuram</td><td>Space education</td></tr>
+        <tr><td>SCL (Semi-Conductor Laboratory)</td><td>Mohali</td><td>Semiconductor chips</td></tr>
+      </table>
+
+      <h3>2. ISRO Major Missions Timeline</h3>
+      <ul>
+        <li><b>1975</b>: Aryabhata — first Indian satellite (launched from USSR).</li>
+        <li><b>1979</b>: Bhaskara-I.</li>
+        <li><b>1980</b>: Rohini RS-1 — first Indian satellite launched from Indian soil (SLV-3 vehicle).</li>
+        <li><b>1982</b>: INSAT-1A — first INSAT communication satellite.</li>
+        <li><b>1984</b>: Rakesh Sharma flew aboard Soyuz T-11 — first Indian in space.</li>
+        <li><b>1988</b>: IRS-1A — first remote sensing satellite.</li>
+        <li><b>1993-94</b>: PSLV first launches.</li>
+        <li><b>2001</b>: GSLV first launch.</li>
+        <li><b>2008</b>: Chandrayaan-1 — first Indian moon mission; discovered water on Moon.</li>
+        <li><b>2013</b>: Mangalyaan (MOM) — first Mars mission; reached Mars on first attempt (Sep 2014).</li>
+        <li><b>2014</b>: GSAT-14 (first launch from indigenous cryogenic stage).</li>
+        <li><b>2017</b>: PSLV-C37 launched 104 satellites in single launch (world record).</li>
+        <li><b>2017</b>: GSAT-9 / South Asia Satellite (regional cooperation).</li>
+        <li><b>2018</b>: GSAT-11 (heaviest Indian satellite).</li>
+        <li><b>2019</b>: Chandrayaan-2 — orbiter success; Vikram lander crashed.</li>
+        <li><b>2022</b>: First commercial SSLV launch.</li>
+        <li><b>2023</b>: <b>Chandrayaan-3</b> — successful soft landing on Moon's south pole (23 Aug 2023); India became 4th country to soft-land on Moon and 1st on south pole.</li>
+        <li><b>2023</b>: <b>Aditya-L1</b> — first dedicated Indian solar observatory mission.</li>
+        <li><b>2024 onwards</b>: Gaganyaan (planned human spaceflight).</li>
+      </ul>
+
+      <h3>3. Indian Launch Vehicles</h3>
+      <table>
+        <tr><th>Vehicle</th><th>Capacity</th><th>Use</th></tr>
+        <tr><td>SLV (Satellite Launch Vehicle)</td><td>40 kg to LEO</td><td>Retired (1980s)</td></tr>
+        <tr><td>ASLV</td><td>150 kg to LEO</td><td>Retired</td></tr>
+        <tr><td>PSLV (Polar SLV)</td><td>1750 kg to SSO</td><td>Workhorse</td></tr>
+        <tr><td>GSLV Mk II</td><td>2200 kg to GTO</td><td>Communication satellites</td></tr>
+        <tr><td>LVM3 / GSLV Mk III</td><td>4000 kg to GTO; 8000 kg to LEO</td><td>Heaviest (Chandrayaan-2/3, Gaganyaan)</td></tr>
+        <tr><td>SSLV (Small SLV)</td><td>500 kg to LEO</td><td>Small/commercial satellites</td></tr>
+      </table>
+
+      <h3>4. Famous Satellites</h3>
+      <ul>
+        <li><b>INSAT series</b>: communication and weather; geostationary orbit.</li>
+        <li><b>IRS series</b>: Indian Remote Sensing; earth observation.</li>
+        <li><b>GSAT series</b>: communication; Ku/Ka band.</li>
+        <li><b>NavIC (IRNSS)</b>: Indian Regional Navigation Satellite System; 7 satellites.</li>
+        <li><b>RISAT</b>: Radar Imaging Satellites.</li>
+        <li><b>Cartosat</b>: high-resolution earth imagery.</li>
+        <li><b>SARAL</b>: oceanography (with France).</li>
+        <li><b>Astrosat</b> (2015): multi-wavelength space observatory.</li>
+        <li><b>Chandrayaan-3</b>: lander Vikram, rover Pragyan.</li>
+      </ul>
+
+      <h3>5. ISRO Records & Achievements</h3>
+      <ul>
+        <li>1st country to reach Mars on maiden attempt.</li>
+        <li>Cheapest Mars mission ($74 million).</li>
+        <li>104 satellites in one launch (2017 record).</li>
+        <li>1st soft landing on Moon's south pole (Chandrayaan-3, 2023).</li>
+        <li>Discovered presence of water on Moon (Chandrayaan-1, 2008).</li>
+        <li>One of the world's six major space agencies.</li>
+      </ul>
+
+      <h3>6. Future / Ongoing Missions</h3>
+      <ul>
+        <li><b>Gaganyaan</b>: 1st Indian crewed orbital mission (planned 2025-26).</li>
+        <li><b>Aditya-L1</b>: Sun observation (already at L1 since Jan 2024).</li>
+        <li><b>Mangalyaan-2</b>: planned 2nd Mars mission.</li>
+        <li><b>Shukrayaan</b>: planned Venus orbiter.</li>
+        <li><b>NISAR</b>: NASA-ISRO joint earth-observation satellite.</li>
+        <li><b>Indian Space Station</b>: planned by 2035.</li>
+        <li><b>Lunar mission</b>: planned crewed lunar landing by 2040.</li>
+      </ul>
+
+      <h3>7. Indian Astronauts (Historical & Upcoming)</h3>
+      <ul>
+        <li><b>Rakesh Sharma</b>: 1st Indian in space (3 April 1984, Soyuz T-11).</li>
+        <li><b>Kalpana Chawla</b>: Indian-origin American; died Columbia disaster 2003.</li>
+        <li><b>Sunita Williams</b>: Indian-origin American; record spacewalks.</li>
+        <li><b>Sirisha Bandla</b>: Indian-origin; Virgin Galactic 2021.</li>
+        <li><b>Gaganyaan crew</b> (announced 2024): Prashanth Nair, Ajit Krishnan, Angad Pratap, Shubhanshu Shukla.</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>ISRO HQ: Bengaluru.</li>
+        <li>Launch site: Sriharikota (SDSC SHAR).</li>
+        <li>Master Control Facility: Hassan.</li>
+        <li>VSSC: Thiruvananthapuram (vehicles).</li>
+        <li>URSC: Bengaluru (satellites).</li>
+        <li>SAC: Ahmedabad (applications).</li>
+        <li>NRSC: Hyderabad (remote sensing).</li>
+        <li>Heaviest rocket: LVM3 / GSLV Mk III.</li>
+        <li>Workhorse: PSLV.</li>
+        <li>Chandrayaan-3: south pole moon landing 2023.</li>
+        <li>Mangalyaan: 1st Mars mission, maiden success.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "ISRO HQ:", opts: ["Mumbai", "Delhi", "Bengaluru", "Chennai"], a: 2, ex: "Bengaluru." },
+      { q: "Launch site of ISRO:", opts: ["Bengaluru", "Sriharikota", "Hassan", "Trivandrum"], a: 1, ex: "SDSC SHAR." },
+      { q: "VSSC is located in:", opts: ["Bengaluru", "Thiruvananthapuram", "Hyderabad", "Ahmedabad"], a: 1, ex: "Vikram Sarabhai SC." },
+      { q: "Master Control Facility:", opts: ["Bengaluru", "Hyderabad", "Hassan", "Sriharikota"], a: 2, ex: "Karnataka." },
+      { q: "1st Indian satellite Aryabhata launched in:", opts: ["1972", "1975", "1980", "1984"], a: 1, ex: "From USSR Kapustin Yar." },
+      { q: "1st launch from Indian soil:", opts: ["Aryabhata", "Bhaskara", "Rohini RS-1 (1980)", "INSAT-1A"], a: 2, ex: "SLV-3 vehicle." },
+      { q: "Chandrayaan-1 discovered:", opts: ["Iron on Moon", "Water on Moon", "Helium-3", "Volcanoes"], a: 1, ex: "First confirmed lunar water." },
+      { q: "Mangalyaan reached Mars in:", opts: ["2013", "Sep 2014", "2015", "2018"], a: 1, ex: "On maiden attempt." },
+      { q: "Chandrayaan-3 landed in:", opts: ["Equator", "Far side", "South pole", "Tycho crater"], a: 2, ex: "First in world." },
+      { q: "Chandrayaan-3 success date:", opts: ["23 Aug 2023", "15 Aug 2023", "30 Aug 2023", "5 Sep 2023"], a: 0, ex: "Now National Space Day." },
+      { q: "PSLV record (104 satellites) was in:", opts: ["2015", "2017 (PSLV-C37)", "2019", "2022"], a: 1, ex: "World record." },
+      { q: "Heaviest Indian rocket:", opts: ["PSLV", "GSLV Mk II", "LVM3 / GSLV Mk III", "SSLV"], a: 2, ex: "4 ton to GTO." },
+      { q: "NavIC has how many satellites:", opts: ["3", "5", "7", "10"], a: 2, ex: "Regional navigation." },
+      { q: "Aditya-L1 mission destination:", opts: ["Moon", "Mars", "Sun (L1 point)", "Venus"], a: 2, ex: "1.5 million km from Earth." },
+      { q: "Gaganyaan is:", opts: ["Moon mission", "Mars mission", "1st Indian crewed mission", "Communication satellite"], a: 2, ex: "First human spaceflight." },
+      { q: "URSC is in:", opts: ["Bengaluru", "Trivandrum", "Hyderabad", "Mumbai"], a: 0, ex: "UR Rao Satellite Centre." },
+      { q: "SAC is in:", opts: ["Ahmedabad", "Bengaluru", "Pune", "Mumbai"], a: 0, ex: "Space Applications Centre." },
+      { q: "NRSC is in:", opts: ["Bengaluru", "Hyderabad", "Pune", "Delhi"], a: 1, ex: "National Remote Sensing." },
+      { q: "Astrosat is:", opts: ["Communication", "Multi-wavelength space observatory", "Mars orbiter", "Lunar"], a: 1, ex: "2015 launched." },
+      { q: "Indian Space Station planned by:", opts: ["2025", "2030", "2035", "2040"], a: 2, ex: "Recent target announced." }
+    ]
+  };
 
   // ───────────────────────────────────────────────────────────────
   // 24. NATIONAL SYMBOLS OF INDIA
@@ -3378,8 +3518,141 @@
     ]
   };
 
-  // sgk-official-books placeholder
-  T["sgk-official-books"] = T["sgk-books-authors"];
+  // ───────────────────────────────────────────────────────────────
+  // OFFICIAL / AUTOBIOGRAPHIES / RELIGIOUS BOOKS
+  // ───────────────────────────────────────────────────────────────
+  T["sgk-official-books"] = {
+    body: `
+      <h2>Official Books of Countries / Religions / Autobiographies</h2>
+
+      <h3>1. Religious Holy Books</h3>
+      <table>
+        <tr><th>Religion</th><th>Holy Book</th></tr>
+        <tr><td>Christianity</td><td>Bible (Old + New Testament)</td></tr>
+        <tr><td>Islam</td><td>Quran</td></tr>
+        <tr><td>Hinduism</td><td>Vedas, Upanishads, Bhagavad Gita, Ramayana, Mahabharata, Puranas</td></tr>
+        <tr><td>Buddhism</td><td>Tripitaka (Pali Canon), Dhammapada, Jatakas</td></tr>
+        <tr><td>Sikhism</td><td>Guru Granth Sahib</td></tr>
+        <tr><td>Jainism</td><td>Agamas, Tattvartha Sutra, Kalpa Sutra</td></tr>
+        <tr><td>Judaism</td><td>Torah (Tanakh), Talmud</td></tr>
+        <tr><td>Zoroastrianism</td><td>Avesta</td></tr>
+        <tr><td>Confucianism</td><td>Analects of Confucius</td></tr>
+        <tr><td>Taoism</td><td>Tao Te Ching</td></tr>
+        <tr><td>Bahá'í</td><td>Kitáb-i-Aqdas</td></tr>
+      </table>
+
+      <h3>2. Famous Autobiographies</h3>
+      <table>
+        <tr><th>Author</th><th>Autobiography</th></tr>
+        <tr><td>Mahatma Gandhi</td><td>The Story of My Experiments with Truth</td></tr>
+        <tr><td>Jawaharlal Nehru</td><td>An Autobiography (Toward Freedom)</td></tr>
+        <tr><td>APJ Abdul Kalam</td><td>Wings of Fire</td></tr>
+        <tr><td>Indira Gandhi</td><td>My Truth</td></tr>
+        <tr><td>Sonia Gandhi</td><td>Rajiv (memoir)</td></tr>
+        <tr><td>Babur</td><td>Tuzuk-i-Babri / Baburnama</td></tr>
+        <tr><td>Jahangir</td><td>Tuzuk-i-Jahangiri</td></tr>
+        <tr><td>Manmohan Singh</td><td>Strictly Personal: Manmohan and Gursharan</td></tr>
+        <tr><td>Lal Krishna Advani</td><td>My Country, My Life</td></tr>
+        <tr><td>Khushwant Singh</td><td>Truth, Love and a Little Malice</td></tr>
+        <tr><td>Sachin Tendulkar</td><td>Playing It My Way</td></tr>
+        <tr><td>MS Dhoni</td><td>The Untold Story (biography by Bhaichand Patel)</td></tr>
+        <tr><td>Bill Clinton</td><td>My Life</td></tr>
+        <tr><td>Hillary Clinton</td><td>Living History</td></tr>
+        <tr><td>Barack Obama</td><td>Dreams from My Father; A Promised Land</td></tr>
+        <tr><td>Michelle Obama</td><td>Becoming</td></tr>
+        <tr><td>Nelson Mandela</td><td>Long Walk to Freedom</td></tr>
+        <tr><td>Malala Yousafzai</td><td>I Am Malala</td></tr>
+        <tr><td>Anne Frank</td><td>The Diary of a Young Girl</td></tr>
+        <tr><td>Helen Keller</td><td>The Story of My Life</td></tr>
+        <tr><td>Charlie Chaplin</td><td>My Autobiography</td></tr>
+        <tr><td>Adolf Hitler</td><td>Mein Kampf</td></tr>
+      </table>
+
+      <h3>3. Famous Biographies</h3>
+      <table>
+        <tr><th>Subject</th><th>Biography by</th></tr>
+        <tr><td>Akbar</td><td>Akbarnama by Abul Fazl</td></tr>
+        <tr><td>Shah Jahan</td><td>Padshahnama by Abdul Hamid Lahori</td></tr>
+        <tr><td>Aurangzeb</td><td>Alamgirnama by Mirza Muhammad Kazim</td></tr>
+        <tr><td>Mahatma Gandhi</td><td>Mahatma by D.G. Tendulkar (8 vols)</td></tr>
+        <tr><td>Tagore</td><td>Various</td></tr>
+        <tr><td>Sardar Patel</td><td>Patel: A Life by Rajmohan Gandhi</td></tr>
+        <tr><td>Nehru</td><td>Nehru by Sarvepalli Gopal</td></tr>
+      </table>
+
+      <h3>4. Books on India / Significant Documents</h3>
+      <ul>
+        <li><b>The Discovery of India</b> — Jawaharlal Nehru.</li>
+        <li><b>Glimpses of World History</b> — Nehru.</li>
+        <li><b>Hind Swaraj</b> — Gandhi (1909).</li>
+        <li><b>Poverty and Un-British Rule in India</b> — Dadabhai Naoroji.</li>
+        <li><b>The Economic History of India</b> — R.C. Dutt.</li>
+        <li><b>Gitanjali</b> — Tagore (Nobel 1913).</li>
+        <li><b>Indica</b> — Megasthenes (Mauryan India).</li>
+        <li><b>Arthashastra</b> — Kautilya.</li>
+        <li><b>Ain-i-Akbari</b> — Abul Fazl.</li>
+        <li><b>India: A Wounded Civilization</b> — V.S. Naipaul.</li>
+        <li><b>India After Gandhi</b> — Ramachandra Guha.</li>
+        <li><b>India 2020</b> — APJ Abdul Kalam.</li>
+        <li><b>Argumentative Indian</b> — Amartya Sen.</li>
+        <li><b>The Idea of India</b> — Sunil Khilnani.</li>
+      </ul>
+
+      <h3>5. Constitutional / Official Documents</h3>
+      <ul>
+        <li><b>Constitution of India</b> — adopted 26 Nov 1949; effective 26 Jan 1950.</li>
+        <li><b>Magna Carta</b> (1215) — first major rights document, England.</li>
+        <li><b>Declaration of Independence</b> (1776) — USA, by Jefferson.</li>
+        <li><b>UN Charter</b> (1945).</li>
+        <li><b>Universal Declaration of Human Rights</b> (1948).</li>
+      </ul>
+
+      <h3>6. Famous Speeches Compiled in Books</h3>
+      <ul>
+        <li>"Tryst with Destiny" — Nehru (14 Aug 1947 midnight).</li>
+        <li>Vivekananda's Chicago Speech (1893).</li>
+        <li>Gandhi's "Quit India" speech (1942).</li>
+        <li>Subhas Bose's "Tum mujhe khoon do" (1944).</li>
+        <li>Martin Luther King's "I have a dream" (1963).</li>
+      </ul>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>My Experiments with Truth: Gandhi's autobiography.</li>
+        <li>Wings of Fire: APJ Kalam.</li>
+        <li>Long Walk to Freedom: Mandela.</li>
+        <li>The Diary of a Young Girl: Anne Frank.</li>
+        <li>I Am Malala: Malala Yousafzai.</li>
+        <li>Mein Kampf: Hitler.</li>
+        <li>Discovery of India: Nehru.</li>
+        <li>Baburnama: Babur.</li>
+        <li>Akbarnama: Abul Fazl on Akbar.</li>
+        <li>Gitanjali: Tagore (Nobel 1913).</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Holy book of Sikhs:", opts: ["Bible", "Quran", "Guru Granth Sahib", "Vedas"], a: 2, ex: "11th eternal Guru." },
+      { q: "Avesta is holy book of:", opts: ["Hindu", "Buddhist", "Parsi/Zoroastrian", "Jain"], a: 2, ex: "Zoroastrianism." },
+      { q: "Mahatma Gandhi's autobiography:", opts: ["My Truth", "My Experiments with Truth", "Hind Swaraj", "Wings of Fire"], a: 1, ex: "Story of My Experiments with Truth." },
+      { q: "Wings of Fire by:", opts: ["Nehru", "Kalam", "Modi", "Mandela"], a: 1, ex: "APJ Abdul Kalam." },
+      { q: "Long Walk to Freedom:", opts: ["Gandhi", "Mandela", "King", "Obama"], a: 1, ex: "Nelson Mandela." },
+      { q: "Mein Kampf author:", opts: ["Hitler", "Stalin", "Mussolini", "Lenin"], a: 0, ex: "Adolf Hitler." },
+      { q: "Anne Frank's book:", opts: ["The Diary of a Young Girl", "My Life", "Becoming", "I Am Malala"], a: 0, ex: "Holocaust diary." },
+      { q: "Discovery of India by:", opts: ["Gandhi", "Patel", "Nehru", "Tagore"], a: 2, ex: "Written in prison." },
+      { q: "Becoming was written by:", opts: ["Michelle Obama", "Hillary Clinton", "Indira Gandhi", "Malala"], a: 0, ex: "Michelle Obama memoir." },
+      { q: "Hind Swaraj by:", opts: ["Gandhi", "Tilak", "Nehru", "Patel"], a: 0, ex: "Gandhi 1909." },
+      { q: "I Am Malala by:", opts: ["Obama", "Malala Yousafzai", "Indira", "Mother Teresa"], a: 1, ex: "Pakistani activist." },
+      { q: "Baburnama is autobiography of:", opts: ["Akbar", "Babur", "Humayun", "Aurangzeb"], a: 1, ex: "In Chagatai Turkish." },
+      { q: "Tuzuk-i-Jahangiri is by:", opts: ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"], a: 1, ex: "Jahangir's memoirs." },
+      { q: "Akbarnama biography of Akbar by:", opts: ["Babur", "Abul Fazl", "Faizi", "Badauni"], a: 1, ex: "Court historian." },
+      { q: "Argumentative Indian by:", opts: ["Sen", "Naipaul", "Roy", "Guha"], a: 0, ex: "Amartya Sen." },
+      { q: "Living History by:", opts: ["Hillary Clinton", "Bill Clinton", "Indira", "Michelle"], a: 0, ex: "Hillary Clinton memoir." },
+      { q: "Strictly Personal: Manmohan and Gursharan by:", opts: ["Manmohan Singh", "Daughter (Daman Singh)", "Sonia", "Rahul"], a: 1, ex: "By his daughter." },
+      { q: "Untold Story (cricket):", opts: ["Dhoni", "Sachin", "Sehwag", "Dravid"], a: 0, ex: "Dhoni biography." },
+      { q: "Gitanjali by:", opts: ["Tagore", "Nehru", "Bose", "Gandhi"], a: 0, ex: "Nobel 1913." },
+      { q: "Promised Land:", opts: ["Obama autobiography", "Clinton", "Trump", "Reagan"], a: 0, ex: "Barack Obama vol 2." }
+    ]
+  };
 
   // ───────────────────────────────────────────────────────────────
   // 27. SPORTS
