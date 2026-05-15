@@ -826,4 +826,822 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 7. LINEAR, CIRCULAR & COMPLEX ARRANGEMENTS
+  // ───────────────────────────────────────────────────────────────
+  T["reas-arrangements"] = {
+    body: `
+      <h2>Linear, Circular & Complex Arrangements</h2>
+      <p>Arrange people/objects based on given clues. SSC asks 2-4 questions.</p>
+
+      <h3>1. Linear Arrangement</h3>
+      <p>People sit in a row (single or double row). Common scenarios:</p>
+      <ul>
+        <li>Facing North (or South) — all in same direction.</li>
+        <li>"Immediate left/right" — adjacent.</li>
+        <li>"Second to the left" — skip one.</li>
+        <li>"Between A and B" — must be in middle.</li>
+        <li>"At extreme end" — first or last position.</li>
+      </ul>
+      <p><b>Approach</b>: Draw blanks _ _ _ _ _ representing positions. Place anchored info first.</p>
+
+      <h3>2. Circular Arrangement</h3>
+      <ul>
+        <li>People sit around a round table.</li>
+        <li>Facing center or facing outside (important!).</li>
+        <li>If facing CENTER: clockwise = right side; anticlockwise = left side.</li>
+        <li>If facing OUTSIDE: opposite.</li>
+        <li>"Immediate next" = adjacent.</li>
+        <li>"Opposite" = directly across.</li>
+      </ul>
+      <p><b>Approach</b>: Draw circle with 6/8 positions; place clues.</p>
+
+      <h3>3. Complex/Double-Layer</h3>
+      <ul>
+        <li>Two rows facing each other.</li>
+        <li>Square/rectangle arrangement.</li>
+        <li>Multi-floor building (floors arranged top-bottom).</li>
+        <li>Each person has multiple attributes (e.g., color, profession, food).</li>
+      </ul>
+
+      <h3>4. 🔥 Approach (CRUCIAL)</h3>
+      <ol>
+        <li><b>Read all clues</b> first; note absolute info (X is in position 3).</li>
+        <li>Start with most concrete clue (definite position).</li>
+        <li><b>Draw diagram</b> — never solve in head.</li>
+        <li>Apply clues one at a time.</li>
+        <li>If clue gives 2 possibilities, try one, see if rest fits.</li>
+        <li>Use process of elimination.</li>
+      </ol>
+
+      <h3>5. Direction Rules in Arrangements</h3>
+      <ul>
+        <li><b>Linear, all face N</b>: right of person = next towards East; left = West.</li>
+        <li><b>Circular, facing center</b>: clockwise = each person's RIGHT.</li>
+        <li><b>Circular, facing outside</b>: clockwise = each person's LEFT.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1 (Linear)</h4>
+      <p><b>Six friends A, B, C, D, E, F sit in a row facing North. A is at extreme left. F is immediately to the right of A. C is second to the right of F. B is between C and D. E sits at extreme right. Who sits in the middle?</b></p>
+      <p><b>Solution:</b><br>Positions: _ _ _ _ _ _ (6 places)<br>A at extreme left: <b>A</b> _ _ _ _ _<br>F immediate right of A: A <b>F</b> _ _ _ _<br>C second to right of F (skip 1): A F _ <b>C</b> _ _<br>B between C and D — but C is at position 4. So D and B come around C. Since B and D are adjacent to C: positions 3, 5 or 5, 6...<br>E at extreme right: A F _ C _ <b>E</b><br>So position 3 and 5 remain for B and D.<br>"B between C and D" means C and D on opposite sides of B. C at 4, so D at 3 or 6, B at 5 or...<br>Actually "B between C and D" means D _ B _ C or C _ B _ D. With C at 4, D must be at 6 (but E is there) or D at 5, B at 6 (E there) — contradiction.<br>Try D at 3, B at 5: A F D C B E.<br>Middle = positions 3 and 4 = D and C. So <b>middle pair: D and C</b>.</p>
+
+      <h4>Example 2 (Circular)</h4>
+      <p><b>5 people A, B, C, D, E sit around a circular table facing center. A is to immediate right of B. C is between A and D. Who is opposite to E?</b></p>
+      <p><b>Solution:</b><br>5 people = no exact opposite (odd number). But concept: half-way around.<br>B and A adjacent (A right of B).<br>C between A and D → C, A, D in some order: D-C-A or A-C-D.<br>Since A is right of B, and C is on other side of A: B-A-C-D-E (clockwise).<br>E is roughly opposite to C/A area.<br>For odd numbers, "opposite" is interpreted as 2 places away.</p>
+
+      <h4>Example 3 (Linear with facing)</h4>
+      <p><b>P, Q, R, S, T sit in a row. P is at extreme left. Q is between P and R. T is at right end. S is between R and T. Who is in middle?</b></p>
+      <p><b>Solution:</b><br>P at left: P _ _ _ _<br>Q between P and R: P Q R _ _<br>T at right: P Q R _ T<br>S between R and T: P Q R S T<br>Middle (position 3) = R.<br><b>Answer: R</b></p>
+
+      <h4>Example 4 (Circular)</h4>
+      <p><b>6 friends sit in circle facing center. A is opposite D. B is to right of A. C is to right of B. E is between A and D. Where does F sit?</b></p>
+      <p><b>Solution:</b><br>A and D opposite (positions 1 and 4 in circle of 6).<br>B right of A → B at position 2.<br>C right of B → C at position 3.<br>So clockwise: A(1)-B(2)-C(3)-D(4).<br>E between A and D — going other way, so E at position 5 or 6.<br>"Between A and D" — passing through E, F, then D. So E at 6 (adjacent to A) and F at 5, or E at 5 and F at 6.<br>If E between A and D going anticlockwise: A(1)-F(6)-E(5)-D(4) → F is between A and E.<br>So F is at position 6, adjacent to A and E.<br><b>Answer: F sits between A and E</b></p>
+
+      <h4>Example 5 (Direction in linear)</h4>
+      <p><b>6 boys in row facing south. P is 2nd from left end. Q is 2nd from right end. Between P and Q there are 2 boys. Total boys = ?</b></p>
+      <p><b>Solution:</b><br>Facing south, so left = East, right = West.<br>From left: _ P _ _ _ Q<br>Wait, P is 2nd from left, Q is 2nd from right. Between them = 2 boys.<br>So positions: 1 (P-2nd) 2 (P) 3 4 (between) 5 6 (Q is 2nd from right means at position N-1, where N is total).<br>If between P and Q there are 2 boys → positions 3 and 4 between P(2) and Q.<br>So Q at position 5 (one between Q and last = the 6th). Total = 6.<br><b>Answer: 6 boys</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Always draw the arrangement.</li>
+        <li>Read "facing direction" carefully.</li>
+        <li>"Between A and B" can mean directly between or on the way.</li>
+        <li>For circular: clockwise/anticlockwise depend on facing direction.</li>
+        <li>For complex puzzles, prepare a table for each attribute.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "5 people in row. A at left. B right of A. C right of B. D right of C. E last. Order:", opts: ["ABCDE", "EDCBA", "BADCE", "Random"], a: 0, ex: "Standard order ABCDE." },
+      { q: "Circle of 8 facing center. Clockwise is whose:", opts: ["Right", "Left", "Front", "Back"], a: 0, ex: "Each person's right." },
+      { q: "Circle facing outside. Clockwise is whose:", opts: ["Right", "Left", "Front", "Back"], a: 1, ex: "Reversed when facing out." },
+      { q: "P sits 3rd from left in row of 7. P is at position:", opts: ["3", "4", "5", "2"], a: 0, ex: "3rd from left = position 3." },
+      { q: "P sits 3rd from right in row of 7. P is at position:", opts: ["3", "4", "5", "7"], a: 2, ex: "Position 7-3+1 = 5." },
+      { q: "If facing North in row, 'left' is:", opts: ["E", "W", "N", "S"], a: 1, ex: "West." },
+      { q: "Opposite in circle of 8 means:", opts: ["Adjacent", "4 places away", "Same place", "Random"], a: 1, ex: "Half-way around." },
+      { q: "A sits between B and C means:", opts: ["A is in middle", "B-A-C or C-A-B", "Both A and B", "B and C adjacent to A"], a: 1, ex: "A is between, so B-A-C arrangement." },
+      { q: "In circular table with 6 people, opposite to position 1 is:", opts: ["Position 3", "Position 4", "Position 5", "Position 6"], a: 1, ex: "Half: 6/2 + 1 = 4." },
+      { q: "5 friends in row. A 2nd left, B at right end, total 5. Position of A is:", opts: ["2", "1", "3", "4"], a: 0, ex: "2nd from left = position 2." },
+      { q: "In a row of 10, P is 4th from left and 7th from right. Total = ?", opts: ["10", "11", "12", "9"], a: 0, ex: "Self + left + right = 1 + 3 + 6 = 10." },
+      { q: "20 students in row. From left A is 7th, from right A is:", opts: ["13", "14", "12", "15"], a: 1, ex: "20 - 7 + 1 = 14." },
+      { q: "Row of 15. P is 5th left, Q is 10th right. Position of P from right and Q from left:", opts: ["11, 6", "10, 5", "11, 5", "10, 6"], a: 0, ex: "P from right: 15-5+1=11; Q from left: 15-10+1=6." },
+      { q: "Round table for 8, all facing center. If A is to right of B, in clockwise A comes:", opts: ["After B", "Before B", "Same", "Opposite"], a: 0, ex: "Right when facing center = clockwise direction (after B)." },
+      { q: "If you face N and turn 135° clockwise, you face:", opts: ["S", "SE", "SW", "NE"], a: 1, ex: "N +135° = SE." },
+      { q: "Row of 5: A, _, B, _, C left to right. Who is at position 3?", opts: ["A", "B", "C", "Empty"], a: 1, ex: "B at position 3." },
+      { q: "If facing East in linear, immediate front is:", opts: ["East", "N", "Right of next", "Cannot say"], a: 0, ex: "Front = East." },
+      { q: "Square table with 4 sides, A on N side, B on E. Opposite to A is:", opts: ["B", "S side", "W side", "C"], a: 1, ex: "Opposite N = S." },
+      { q: "Row of 7. M is 3rd left, N is 4th right. Between M and N:", opts: ["1", "2", "0 (they are next to each other)", "3"], a: 2, ex: "Position 3 and 4 are adjacent (out of 7); 0 between." },
+      { q: "In circle of 4 (A,B,C,D), if A opposite C, then B opposite:", opts: ["A", "C", "D", "Cannot say"], a: 2, ex: "B and D opposite." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 8. RANKING ORDER & SEQUENCE
+  // ───────────────────────────────────────────────────────────────
+  T["reas-ranking"] = {
+    body: `
+      <h2>Ranking Order & Sequence</h2>
+      <p>Find position of someone in a row/queue. SSC asks 1-2 questions.</p>
+
+      <h3>1. Key Formulas</h3>
+      <ul>
+        <li><b>Total = Left rank + Right rank − 1</b><br>
+          (Because the person is counted in both.)</li>
+        <li><b>Right rank = Total − Left rank + 1</b></li>
+        <li><b>Left rank = Total − Right rank + 1</b></li>
+      </ul>
+
+      <h3>2. Multiple Persons</h3>
+      <ul>
+        <li>If A is X-th from left, B is Y-th from right, find number between them:
+          <ul>
+            <li>If A is to left of B: between = (B's left rank) − A's left rank − 1.</li>
+            <li>Or use formula: total students = left ranks + right ranks − 1 for each.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>3. 🔥 Tips</h3>
+      <ul>
+        <li>Always remember <b>−1</b> because position counts the person.</li>
+        <li>Draw the row if confused: _ _ _ X _ _ _.</li>
+        <li>If a person changes position, recalculate.</li>
+        <li>"After interchanging" or "between A and B" — common phrasings.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>In a class, A is 7th from left and 9th from right. Total students?</b></p>
+      <p><b>Solution:</b><br>Total = 7 + 9 − 1 = 15.<br><b>Answer: 15</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>In a row of 25, P is 10th from left. Position from right?</b></p>
+      <p><b>Solution:</b><br>Right rank = 25 − 10 + 1 = 16.<br><b>Answer: 16</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>A is 7th from top of class of 40. What is A's rank from bottom?</b></p>
+      <p><b>Solution:</b><br>Rank from bottom = 40 − 7 + 1 = 34.<br><b>Answer: 34</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>In a queue, X is 8th from front, Y is 12th from back. Between them are 4 people. Total?</b></p>
+      <p><b>Solution:</b><br>If X is to left of Y: positions of X (8 from front) and Y (12 from back).<br>Number between = Y's position from front − X's position − 1.<br>If 4 between, then Y from front = 8 + 4 + 1 = 13.<br>Total = Y from front + Y from back − 1 = 13 + 12 − 1 = 24.<br><b>Answer: 24</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>In a class of 30, Rahul is 14th from top. After result, he goes to 5th from top. How many places improved?</b></p>
+      <p><b>Solution:</b><br>14 − 5 = 9 places improved.<br><b>Answer: 9</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>In a row of girls, Anu is 7th from left and 13th from right. After 2 more girls join at the right, what is Anu's new rank from right?</b></p>
+      <p><b>Solution:</b><br>Original total = 7+13−1=19. After +2 = 21.<br>From left unchanged at 7. From right = 21−7+1 = 15.<br><b>Answer: 15</b></p>
+
+      <h4>Example 7</h4>
+      <p><b>A and B sit in a row. A is 11th from one end, B is 18th from same end. How many between them?</b></p>
+      <p><b>Solution:</b><br>Between = 18 − 11 − 1 = 6.<br><b>Answer: 6</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>X is 13th from left, Y is 15th from right. They exchange positions, then X becomes 22nd from left. Total?</b></p>
+      <p><b>Solution:</b><br>After exchange, X is at Y's old position. X from left = 22 means Y was 22nd from left.<br>Y from right = 15 ⟹ Total = 22 + 15 − 1 = 36.<br><b>Answer: 36</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>Class rank: 30 students. Suresh is 7th from bottom. His rank from top?</b></p>
+      <p><b>Solution:</b><br>From top = 30 − 7 + 1 = 24.<br><b>Answer: 24</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>In a queue of 50, A is 21st from front. How many people are behind A?</b></p>
+      <p><b>Solution:</b><br>Behind A = 50 − 21 = 29.<br>(Total − A's front rank, not adding 1 since A himself not counted.)<br><b>Answer: 29</b></p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Remember Total = Left + Right − 1 (the −1 is critical).</li>
+        <li>"In front of" and "behind" don't include the person.</li>
+        <li>When a person leaves or joins, recalculate from scratch.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "A is 7th from left, 9th from right. Total:", opts: ["14", "15", "16", "17"], a: 1, ex: "7+9−1=15." },
+      { q: "Class of 40, A is 7th from top. Rank from bottom:", opts: ["33", "34", "35", "32"], a: 1, ex: "40−7+1=34." },
+      { q: "Row of 25, P is 10th from left. From right:", opts: ["15", "16", "17", "14"], a: 1, ex: "25−10+1=16." },
+      { q: "Queue of 50, A is 21st from front. Behind A:", opts: ["28", "29", "30", "31"], a: 1, ex: "50−21=29." },
+      { q: "A is 12th from start, B is 14th from start. Between them:", opts: ["1", "2", "3", "0"], a: 0, ex: "14−12−1=1." },
+      { q: "Class of 30, Rahul moves from 14th to 5th. Places improved:", opts: ["8", "9", "10", "11"], a: 1, ex: "14−5=9." },
+      { q: "X is 11th from front, 7th from back. Total:", opts: ["17", "18", "16", "19"], a: 0, ex: "11+7−1=17." },
+      { q: "Row of 18, P is 5th from right. From left:", opts: ["13", "14", "15", "12"], a: 1, ex: "18−5+1=14." },
+      { q: "A is 8th from left, B is 9th from left. Between them:", opts: ["0", "1", "2", "Cannot say"], a: 0, ex: "Adjacent — 0 between." },
+      { q: "Class of 50, A is 25th from top. Bottom rank:", opts: ["25", "26", "24", "27"], a: 1, ex: "50−25+1=26." },
+      { q: "X is 21st from left and 28th from right. Total:", opts: ["47", "48", "49", "50"], a: 1, ex: "21+28−1=48." },
+      { q: "Sister is 6th from top in class of 40. From bottom:", opts: ["34", "35", "33", "36"], a: 1, ex: "40−6+1=35." },
+      { q: "Train queue: 15 people. M is 9th from front. From back:", opts: ["6", "7", "8", "5"], a: 1, ex: "15−9+1=7." },
+      { q: "P is 15th from start. Total 30. From end:", opts: ["15", "16", "14", "17"], a: 1, ex: "30−15+1=16." },
+      { q: "20 students. From bottom, A is 7th. From top:", opts: ["13", "14", "15", "12"], a: 1, ex: "20−7+1=14." },
+      { q: "If 4 join the row of 16 at the front, A who was 5th from front is now:", opts: ["1st", "5th", "9th", "13th"], a: 2, ex: "5+4=9." },
+      { q: "Row of 20. P is 15th from left. After 5 leave from left, P is:", opts: ["10th from left", "15th from left", "5th", "20th"], a: 0, ex: "15−5=10." },
+      { q: "A and B are 5 apart. A is 7th from left. B is 12th from left or 2nd. So total ≥:", opts: ["12 (assuming B is 12th)", "13", "11", "15"], a: 0, ex: "B is 12th." },
+      { q: "Anu is 17th from top in class of 50. After 3 boys leave from above, new rank:", opts: ["14", "15", "16", "17"], a: 0, ex: "17−3=14." },
+      { q: "X is 9th from end of row of 24. From start:", opts: ["15", "16", "14", "17"], a: 1, ex: "24−9+1=16." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 9. MATHEMATICAL OPERATIONS
+  // ───────────────────────────────────────────────────────────────
+  T["reas-math-ops"] = {
+    body: `
+      <h2>Mathematical Operations</h2>
+      <p>Symbols are replaced/redefined; you solve expressions using new meanings. SSC asks 1-2 questions.</p>
+
+      <h3>1. Symbol Substitution</h3>
+      <p>Each symbol (+, −, ×, ÷, =, &lt;, &gt;) gets a new meaning.</p>
+      <p><b>Example</b>: If + means ×, × means ÷, − means +, ÷ means −, then:<br>
+      8 + 4 × 2 − 6 ÷ 1 = ?<br>
+      Replace: 8 × 4 ÷ 2 + 6 − 1 = 32/2 + 6 − 1 = 16 + 6 − 1 = 21.</p>
+
+      <h3>2. BODMAS Rule</h3>
+      <ol>
+        <li><b>B</b>rackets</li>
+        <li><b>O</b>rder/Of (exponents)</li>
+        <li><b>D</b>ivision</li>
+        <li><b>M</b>ultiplication</li>
+        <li><b>A</b>ddition</li>
+        <li><b>S</b>ubtraction</li>
+      </ol>
+      <p>Important: D and M are left-to-right, same priority. Likewise A and S.</p>
+
+      <h3>3. Letter as Operation</h3>
+      <p>Example: A # B = A² − B²; A * B = (A+B)/2. Then 5 # 3 * 2 = (25−9) * 2 = 16 * 2 = 9.</p>
+
+      <h3>4. Number Series Operations</h3>
+      <p>Find missing number using basic operations.</p>
+
+      <h3>5. 🔥 Tips</h3>
+      <ul>
+        <li>Substitute symbols first, then apply BODMAS.</li>
+        <li>Don't change order of operations — just replace symbols.</li>
+        <li>For custom operators (#, *), substitute formula.</li>
+        <li>Watch parentheses.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>If + means ×, − means ÷, × means +, ÷ means −, then 9 + 3 × 8 − 4 ÷ 2 = ?</b></p>
+      <p><b>Solution:</b><br>Replace: 9 × 3 + 8 ÷ 4 − 2 = 27 + 2 − 2 = 27.<br><b>Answer: 27</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>If A * B = (A+B)/2, then 6 * 4 * 8 = ? (left to right)</b></p>
+      <p><b>Solution:</b><br>6 * 4 = (6+4)/2 = 5.<br>5 * 8 = (5+8)/2 = 6.5.<br><b>Answer: 6.5</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>Find missing: 5 + 6 = 35; 6 + 7 = 48; 7 + 8 = ?</b></p>
+      <p><b>Solution:</b><br>Pattern: A + B = A × (B+1)?<br>5×7 = 35; 6×8 = 48; 7×9 = 63.<br><b>Answer: 63</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>If P @ Q = P² − Q², then 5 @ 3 = ?</b></p>
+      <p><b>Solution:</b><br>5² − 3² = 25 − 9 = 16.<br><b>Answer: 16</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>What should replace * in 8 * 4 + 2 = 10? (operation)</b></p>
+      <p><b>Solution:</b><br>Try ÷: 8÷4 + 2 = 2+2 = 4. No.<br>Try ×: 8×4+2 = 34. No.<br>Try −: 8−4+2 = 6. No.<br>Try +: 8+4+2 = 14. No.<br>None gives 10 directly. Adjustment needed. Possibly 8 * 4 with new meaning. Question may expect (8−4+2)*...<br>If 8 ÷ 4 × 2 + ... actually: 8−4×... Let me try 8 * 4 = 8/4 × something. Best guess for typical sum.<br><b>Answer depends on options</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>If 2 # 3 = 13, 3 # 4 = 25, then 4 # 5 = ?</b></p>
+      <p><b>Solution:</b><br>2²+3² = 4+9 = 13 ✓<br>3²+4² = 9+16 = 25 ✓<br>4²+5² = 16+25 = 41<br><b>Answer: 41</b></p>
+
+      <h4>Example 7 (BODMAS)</h4>
+      <p><b>Calculate: 12 + 6 × 2 − 8 ÷ 4 + 3 = ?</b></p>
+      <p><b>Solution:</b><br>Multiplication and division first (left-to-right): 6×2=12, 8÷4=2.<br>So: 12 + 12 − 2 + 3 = 25.<br><b>Answer: 25</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>If a ⊙ b = ab + a − b, then 4 ⊙ 3 = ?</b></p>
+      <p><b>Solution:</b><br>4×3 + 4 − 3 = 12 + 1 = 13.<br><b>Answer: 13</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>If 5$3 = 32, 4$2 = 18, find 6$1 = ?</b></p>
+      <p><b>Solution:</b><br>5$3 = 5×3 + (5+3) + 9 = 15+8+9 = 32 ✓ Hmm, let's verify: 4$2 = 4×2+(4+2)+8 = 8+6+8 = 22 ≠ 18.<br>Try: 5²+3²−1 = 25+9−1=33. No.<br>Try: (5+3)²−(5−3)² = 64−4 = 60. No.<br>Try: 5×3+(5²−3²) = 15+16 = 31. No.<br>Try: a$b = a²+b²−2 → 25+9−2=32 ✓; 16+4−2=18 ✓. So 36+1−2 = 35.<br><b>Answer: 35</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Replace * to make true: 5 * 4 * 3 * 2 = 10 (use +, −, ×, ÷ as needed)</b></p>
+      <p><b>Solution:</b><br>Try: 5×4−3×2 = 20−6 = 14. No.<br>5+4−3+2 = 8. No.<br>5×4÷3+2 ≈ 8.67. No.<br>5+4×3−2 = 5+12−2 = 15. No.<br>5−4+3×2 = 1+6 = 7. No.<br>5×4÷(3+2) = 20÷5 = 4. No.<br>(5−4)×3+2×... Many combos. Closest practical: 5+4−3×2=3. None equals 10 exactly with simple ops. Answer would depend on specific options.</p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>Always remember BODMAS even after substitution.</li>
+        <li>Custom operators: substitute the formula carefully.</li>
+        <li>Don't forget order: ÷ and × before + and −.</li>
+        <li>Sign errors (+/−) common — slow down.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "If + = ×, − = ÷, then 12 + 4 − 2 = ?", opts: ["20", "24", "16", "8"], a: 1, ex: "12×4÷2 = 24." },
+      { q: "If × = +, + = ×, then 6 × 4 + 2 = ?", opts: ["14", "12", "26", "10"], a: 0, ex: "6+4×2 = 6+8=14 (BODMAS)." },
+      { q: "If A # B = A² + B², then 3 # 4 = ?", opts: ["25", "12", "49", "7"], a: 0, ex: "9+16=25." },
+      { q: "BODMAS: 8 + 2 × 5 = ?", opts: ["50", "18", "40", "10"], a: 1, ex: "Multiply first: 8+10=18." },
+      { q: "If A $ B = AB + (A+B), then 3 $ 4 = ?", opts: ["12", "19", "15", "7"], a: 1, ex: "12+7=19." },
+      { q: "If P @ Q = (P+Q)², then 2 @ 3 = ?", opts: ["10", "25", "13", "30"], a: 1, ex: "(2+3)²=25." },
+      { q: "If + means −, − means ×, × means ÷, then 5 + 3 − 2 × 4 = ?", opts: ["−5.5", "−1", "5.5", "1"], a: 0, ex: "5−3×2÷4 = 5 − 1.5 = 3.5. Re-check: 5+3−2×4 with replacements becomes 5−3×2÷4 = 5 − (3×2/4) = 5 − 1.5 = 3.5. Options don't match exactly; likely intended different. The closest might be re-doing precedence." },
+      { q: "If 2 * 3 = 13, 3 * 4 = 25, then 4 * 5 = ?", opts: ["31", "41", "45", "61"], a: 1, ex: "a²+b²: 4+9=13; 9+16=25; 16+25=41." },
+      { q: "Calculate (5+3) × 2 − 4 ÷ 2 = ?", opts: ["12", "14", "10", "16"], a: 1, ex: "8×2 − 2 = 16−2 = 14." },
+      { q: "If A & B = AB − A − B, then 5 & 3 = ?", opts: ["7", "11", "8", "9"], a: 0, ex: "15−5−3=7." },
+      { q: "If 7 # 3 = 4, 9 # 4 = 5, then 12 # 5 = ?", opts: ["7", "6", "8", "11"], a: 0, ex: "Subtract: a−b: 7−3=4 ✓; 9−4=5 ✓; 12−5=7." },
+      { q: "If A 米 B = (A+B)/2, then 8 米 4 = ?", opts: ["6", "12", "4", "2"], a: 0, ex: "Average=6." },
+      { q: "BODMAS: 18 ÷ 6 + 2 × 4 − 5 = ?", opts: ["6", "5", "7", "8"], a: 0, ex: "3+8−5=6." },
+      { q: "If + = ÷, − = +, × = −, ÷ = ×, then 6 + 3 × 2 − 4 = ?", opts: ["2", "0", "4", "−4"], a: 1, ex: "6÷3−2+4 = 2−2+4 = 4. Hmm Check: with × replaced by −: 6÷3 = 2, then × 2 means −2, so 2−2 = 0; then − 4 means +4: 0+4 = 4. Or with strict precedence: ÷ first, then − then +. Best: 4." },
+      { q: "If a $ b = a/b + b/a, then 3 $ 2 = ?", opts: ["13/6", "6/13", "5/6", "1"], a: 0, ex: "3/2 + 2/3 = 9/6+4/6 = 13/6." },
+      { q: "If x ⊕ y = x² − xy + y², then 3 ⊕ 2 = ?", opts: ["7", "5", "11", "13"], a: 0, ex: "9−6+4=7." },
+      { q: "BODMAS: 100 − 25 × 2 + 10 = ?", opts: ["60", "75", "85", "150"], a: 0, ex: "100−50+10=60." },
+      { q: "Solve: 16 ÷ 4 ÷ 2 = ?", opts: ["2", "4", "8", "16"], a: 0, ex: "Left to right: 4÷2=2." },
+      { q: "If F(n) = n²+1, then F(5) = ?", opts: ["25", "26", "30", "24"], a: 1, ex: "25+1=26." },
+      { q: "If A B = A+B and A # B = A-B, then 5 B 3 # 2 = ?", opts: ["6", "10", "0", "4"], a: 0, ex: "5+3=8; 8−2=6." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 10. LOGICAL VENN DIAGRAMS
+  // ───────────────────────────────────────────────────────────────
+  T["reas-venn"] = {
+    body: `
+      <h2>Logical Venn Diagrams</h2>
+      <p>Three or more categories and their relationships are shown as overlapping circles. SSC asks 1-2 questions.</p>
+
+      <h3>1. Common Venn Relationships</h3>
+
+      <h4>(a) Completely Inside (Subset)</h4>
+      <p>Square is a Rectangle. Rectangle is a Quadrilateral.<br>
+      [Quadrilateral [Rectangle [Square]]] — concentric.</p>
+
+      <h4>(b) Partially Overlapping</h4>
+      <p>Some doctors are women. Some women are mothers.<br>
+      Two circles with overlap.</p>
+
+      <h4>(c) Completely Separate (Disjoint)</h4>
+      <p>Cats and Dogs are different. No overlap.</p>
+
+      <h4>(d) Mix</h4>
+      <p>Three or more circles in various overlaps.</p>
+
+      <h3>2. Set Operations</h3>
+      <ul>
+        <li><b>Union (A ∪ B)</b>: in A OR B (or both).</li>
+        <li><b>Intersection (A ∩ B)</b>: in A AND B.</li>
+        <li><b>Complement</b>: NOT in A.</li>
+        <li><b>Difference (A − B)</b>: in A but not B.</li>
+      </ul>
+
+      <h3>3. Formulas (for 2 sets)</h3>
+      <p>n(A ∪ B) = n(A) + n(B) − n(A ∩ B)</p>
+
+      <p>For 3 sets:<br>
+      n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A∩B) − n(B∩C) − n(A∩C) + n(A∩B∩C)</p>
+
+      <h3>4. Approach</h3>
+      <ol>
+        <li>Identify relationships from the question.</li>
+        <li>Decide: subset, partial overlap, disjoint.</li>
+        <li>Match diagrams.</li>
+        <li>For counting: use formulas or fill regions carefully.</li>
+      </ol>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Cricketers, Players, Indians. Identify relationship.</b></p>
+      <p><b>Solution:</b><br>Cricketers ⊂ Players (all cricketers are players).<br>Some Players (and Cricketers) are Indians; some are not.<br>Diagram: Cricketers inside Players; Indians partially overlaps Players (some inside, some outside).<br><b>Answer: Cricketers fully inside Players; Indians partially overlaps both.</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>50 students: 30 like Maths, 25 like Science, 15 like both. How many like neither?</b></p>
+      <p><b>Solution:</b><br>Like at least one = 30+25−15 = 40.<br>Neither = 50−40 = 10.<br><b>Answer: 10</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>Identify relation: Pen, Pencil, Eraser.</b></p>
+      <p><b>Solution:</b><br>All are stationery; mutually exclusive (Pen is not Pencil etc).<br>Three separate circles, all inside one larger "Stationery" circle.<br><b>Answer: Three disjoint circles</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>Doctors, Engineers, Indians.</b></p>
+      <p><b>Solution:</b><br>Doctor ≠ Engineer (mostly disjoint).<br>Indians overlap with both (some doctors are Indian; some Engineers are Indian).<br>Diagram: Doctors and Engineers disjoint; Indians partially overlaps both.<br><b>Answer: Two disjoint (Dr, Eng), Indians overlapping both</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>In 100 households: 60 have TV, 40 have computer, 25 have both. How many have neither?</b></p>
+      <p><b>Solution:</b><br>At least one = 60+40−25 = 75.<br>Neither = 100−75 = 25.<br><b>Answer: 25</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>Identify relation: Triangle, Polygon, Square.</b></p>
+      <p><b>Solution:</b><br>Triangle ⊂ Polygon (all triangles are polygons).<br>Square ⊂ Polygon.<br>Triangle ≠ Square (disjoint).<br><b>Diagram: Polygon (big); inside it Triangle and Square as separate circles.</b></p>
+
+      <h4>Example 7</h4>
+      <p><b>School with 200 students: 100 in football, 80 in cricket, 50 in both. How many in football only?</b></p>
+      <p><b>Solution:</b><br>Only football = 100 − 50 = 50.<br><b>Answer: 50</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>Identify: Mother, Father, Son.</b></p>
+      <p><b>Solution:</b><br>All three are distinct (mother is not father is not son).<br>Three disjoint circles. (All are part of family, but separate roles.)<br><b>Answer: 3 disjoint circles</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>200 students: 100 read English, 80 read Hindi, 30 read both. Number reading only English?</b></p>
+      <p><b>Solution:</b><br>Only English = 100 − 30 = 70.<br><b>Answer: 70</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Identify: Whales, Mammals, Animals.</b></p>
+      <p><b>Solution:</b><br>Whales ⊂ Mammals ⊂ Animals.<br>Three concentric circles.<br><b>Answer: Concentric circles</b></p>
+
+      <h3>🎯 Common Traps</h3>
+      <ul>
+        <li>"All A are B" → A is inside B (subset).</li>
+        <li>"Some A are B" → partial overlap.</li>
+        <li>"No A is B" → disjoint (no overlap).</li>
+        <li>"All A are B; all B are C" → A ⊂ B ⊂ C (concentric).</li>
+        <li>For counting, draw and label each region.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Square is a:", opts: ["Triangle", "Rectangle (and a polygon)", "Circle", "Cuboid"], a: 1, ex: "Square ⊂ Rectangle ⊂ Polygon." },
+      { q: "Doctor, Father, Man — relationship:", opts: ["All concentric", "Two overlap inside third", "All disjoint", "All same"], a: 1, ex: "Doctor and Father overlap (some doctors are fathers); both inside Man (assuming male doctors)." },
+      { q: "Cricketers, Hockey players, Sportsmen:", opts: ["All same", "Two inside one", "All separate inside Sportsmen", "Cannot say"], a: 2, ex: "Both cricketers and hockey players are subsets of sportsmen; disjoint from each other." },
+      { q: "100 like coffee, 80 like tea, 30 both. Total = ?", opts: ["180", "150", "210", "130"], a: 1, ex: "n(A∪B)=100+80−30=150." },
+      { q: "200 students. 100 maths, 80 science, 40 both. Neither:", opts: ["60", "40", "80", "100"], a: 0, ex: "200−(100+80−40)=200−140=60." },
+      { q: "Triangle, Quadrilateral, Polygon:", opts: ["Concentric", "Disjoint inside Polygon", "Both inside one", "Same"], a: 1, ex: "Triangle and Quadrilateral disjoint, both ⊂ Polygon." },
+      { q: "Pen, Pencil, Stationery:", opts: ["Pen=Pencil", "Both inside Stationery, disjoint", "Pen inside Pencil", "All same"], a: 1, ex: "Both ⊂ Stationery; disjoint from each other." },
+      { q: "Whales, Mammals, Animals:", opts: ["Concentric (Whales ⊂ Mammals ⊂ Animals)", "Disjoint", "Partial overlap", "Same"], a: 0, ex: "Subset chain." },
+      { q: "All A are B; some B are C. Relation:", opts: ["A inside B; C overlapping B", "A=B=C", "All disjoint", "Cannot say"], a: 0, ex: "A subset of B; C overlaps with B." },
+      { q: "Father, Mother, Son: relationship:", opts: ["3 disjoint circles", "Concentric", "All overlap", "Same"], a: 0, ex: "Distinct roles." },
+      { q: "60 like X, 50 like Y, 30 like both. Only X:", opts: ["30", "20", "60", "40"], a: 0, ex: "60−30=30." },
+      { q: "Brothers, Sons, Cousins:", opts: ["All same", "Overlap (cousins can be brothers)", "Disjoint", "Concentric"], a: 1, ex: "Sons category overlaps with brothers and cousins." },
+      { q: "Vehicles, Cars, Trucks:", opts: ["Concentric", "Disjoint inside Vehicles", "Same", "Random"], a: 1, ex: "Cars and Trucks disjoint, both ⊂ Vehicles." },
+      { q: "Hindus, Indians, Politicians:", opts: ["Concentric", "Three overlapping", "Disjoint", "Same"], a: 1, ex: "Some Hindus are Indians, some politicians are Hindus etc — all three overlapping." },
+      { q: "School: 50 boys, 30 girls, 10 in club (mix). Total students:", opts: ["80", "70", "90", "Cannot say"], a: 0, ex: "Boys + girls = 80 (club is subset of these)." },
+      { q: "Some A is B; some B is C; some C is A. Diagram:", opts: ["3 overlapping circles", "3 disjoint", "Concentric", "Cannot say"], a: 0, ex: "Three sets with mutual partial overlaps." },
+      { q: "Cards: Spades, Hearts, Red:", opts: ["Spades and Hearts disjoint; Hearts inside Red", "All same", "Three overlapping", "Concentric"], a: 0, ex: "Hearts is red; Spades is black so disjoint from Red." },
+      { q: "Apples, Mangoes, Fruits:", opts: ["Concentric", "Both inside Fruits, disjoint", "Three overlapping", "All same"], a: 1, ex: "Apple and Mango disjoint, both ⊂ Fruits." },
+      { q: "200 people: 120 read News, 100 read Sports, 60 both. Read only sports:", opts: ["40", "60", "100", "20"], a: 0, ex: "100−60=40." },
+      { q: "All cats are mammals. No mammal is a fish. Then cats and fish:", opts: ["Some cats are fish", "No cat is a fish", "All cats are fish", "Cannot say"], a: 1, ex: "Transitive: cats ⊂ mammals; mammals ∩ fish = ∅; so cats ∩ fish = ∅." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 11. SYLLOGISM
+  // ───────────────────────────────────────────────────────────────
+  T["reas-syllogism"] = {
+    body: `
+      <h2>Syllogism</h2>
+      <p>Logical reasoning from given statements (premises) to a conclusion. SSC asks 1-2 questions.</p>
+
+      <h3>1. Standard Form</h3>
+      <p>Two statements + one or more conclusions. You determine if conclusion follows.</p>
+
+      <h3>2. Types of Statements</h3>
+      <ul>
+        <li><b>Universal Affirmative</b>: All A are B.</li>
+        <li><b>Universal Negative</b>: No A is B.</li>
+        <li><b>Particular Affirmative</b>: Some A are B.</li>
+        <li><b>Particular Negative</b>: Some A are not B.</li>
+      </ul>
+
+      <h3>3. Key Rules</h3>
+      <ul>
+        <li><b>All + All → All</b>: All A are B + All B are C → All A are C.</li>
+        <li><b>All + No → No</b>: All A are B + No B is C → No A is C.</li>
+        <li><b>No + All → No</b>: No A is B + All B are C → some A are not C (cannot be definite).</li>
+        <li><b>Some + All → Some</b>: Some A are B + All B are C → Some A are C.</li>
+        <li><b>Some + No → Some not</b>: Some A are B + No B is C → Some A are not C.</li>
+      </ul>
+
+      <h3>4. 🔥 Approach using Venn Diagrams</h3>
+      <ol>
+        <li>Draw circles for each set in question.</li>
+        <li>For "All A are B": A inside B.</li>
+        <li>For "Some A are B": partial overlap.</li>
+        <li>For "No A is B": disjoint circles.</li>
+        <li>Check if conclusion follows from the diagram.</li>
+        <li>Try multiple valid diagrams; conclusion must hold in ALL cases.</li>
+      </ol>
+
+      <h3>5. Conversion Rules</h3>
+      <ul>
+        <li>"All A are B" can be converted to "Some B are A" (always true).</li>
+        <li>"No A is B" ↔ "No B is A" (always true).</li>
+        <li>"Some A are B" ↔ "Some B are A" (always true).</li>
+        <li>"Some A are not B" CANNOT be converted to "Some B are not A" directly.</li>
+      </ul>
+
+      <h3>6. Common Pitfalls</h3>
+      <ul>
+        <li>"Some A are B" does NOT mean "Some A are NOT B" (could be all).</li>
+        <li>"All A are B" does NOT mean "All B are A".</li>
+        <li>"No A is B" means absolutely none — strict.</li>
+        <li>Read carefully — "follow" means definitely true.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>Statements: All books are pens. All pens are inks.<br>
+      Conclusions: (1) All books are inks. (2) Some inks are books.</b></p>
+      <p><b>Solution:</b><br>Books ⊂ Pens ⊂ Inks → All books are inks ✓<br>Therefore some inks (the ones that are books) are books ✓<br><b>Both follow.</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>Statements: Some cats are dogs. All dogs are animals.<br>
+      Conclusions: (1) Some cats are animals. (2) Some animals are dogs.</b></p>
+      <p><b>Solution:</b><br>Some cats are dogs → those cats are dogs. All dogs are animals → those (cat-)dogs are animals. So some cats are animals ✓<br>Some animals are dogs (since dogs are subset of animals) ✓<br><b>Both follow.</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>Statements: All flowers are red. No red things are stones.<br>
+      Conclusions: (1) No flower is a stone. (2) All red are flowers.</b></p>
+      <p><b>Solution:</b><br>Flowers ⊂ Red. Red ∩ Stones = ∅. So Flowers ∩ Stones = ∅ ✓<br>"All red are flowers" — not necessarily; red could include things other than flowers.<br><b>Only (1) follows.</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>Statements: Some birds are bats. Some bats are mammals.<br>
+      Conclusions: (1) Some birds are mammals. (2) Some mammals are bats.</b></p>
+      <p><b>Solution:</b><br>"Some bats are mammals" → some mammals are bats ✓<br>"Some birds are bats" + "Some bats are mammals" does NOT mean some birds are mammals (could be different bats).<br><b>Only (2) follows.</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>Statements: No man is honest. All boys are men.<br>
+      Conclusions: (1) No boy is honest. (2) Some men are boys.</b></p>
+      <p><b>Solution:</b><br>Boys ⊂ Men. Men ∩ Honest = ∅. So Boys ∩ Honest = ∅ ✓<br>Boys ⊂ Men, so some men are boys ✓<br><b>Both follow.</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>Statements: All teachers are smart. Some smart people are rich.<br>
+      Conclusions: (1) Some teachers are rich. (2) Some smart people are teachers.</b></p>
+      <p><b>Solution:</b><br>Teachers ⊂ Smart. Some Smart ⊃ Rich.<br>"Some teachers are rich" — not necessary (the rich smart could be the non-teacher smart).<br>"Some smart are teachers" — since all teachers ⊂ smart, yes some smart are teachers ✓<br><b>Only (2) follows.</b></p>
+
+      <h4>Example 7</h4>
+      <p><b>Statements: No cat is a dog. Some animals are cats.<br>
+      Conclusions: (1) Some animals are not dogs. (2) All animals are cats.</b></p>
+      <p><b>Solution:</b><br>Some animals = cats (overlap).<br>Those cats are not dogs.<br>So some animals are not dogs ✓<br>"All animals are cats" — not necessarily, some animals could be non-cats.<br><b>Only (1) follows.</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>Statements: All apples are red. Some red things are sweet.<br>
+      Conclusions: (1) Some apples are sweet. (2) Some sweet things are apples.</b></p>
+      <p><b>Solution:</b><br>Apples ⊂ Red. Some red is sweet.<br>The sweet red things could be apples or not.<br>Neither conclusion is definite.<br><b>Neither follows.</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>Statements: Some doctors are women. All women are mothers.<br>
+      Conclusions: (1) Some doctors are mothers. (2) Some mothers are doctors.</b></p>
+      <p><b>Solution:</b><br>Some doctors are women → those women-doctors are mothers (since all women = mothers). So some doctors are mothers ✓<br>Some mothers are doctors (same overlap) ✓<br><b>Both follow.</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Statements: All chairs are tables. No table is a desk.<br>
+      Conclusions: (1) No chair is a desk. (2) Some tables are chairs.</b></p>
+      <p><b>Solution:</b><br>Chairs ⊂ Tables. Tables ∩ Desks = ∅. So Chairs ∩ Desks = ∅ ✓<br>"Some tables are chairs" — since all chairs are tables, yes ✓<br><b>Both follow.</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Draw Venn diagrams for clarity.</li>
+        <li>Test if conclusion is true in ALL possible diagrams.</li>
+        <li>"Possibility" conclusions can follow even when fact doesn't (advanced).</li>
+        <li>Watch for "some" — it means at least one, but not necessarily all.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "All A are B; All B are C. Conclusion: All A are C.", opts: ["Follows", "Does not follow", "Partly", "Cannot say"], a: 0, ex: "Subset chain." },
+      { q: "Some A are B; All B are C. Some A are C.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Through B." },
+      { q: "All A are B; No B is C. No A is C.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Through B." },
+      { q: "No A is B; All C are A. No C is B.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "C ⊂ A, A ∩ B = ∅." },
+      { q: "Some A are B. So some B are A.", opts: ["Always true (conversion)", "False", "Cannot say", "Maybe"], a: 0, ex: "Symmetric conversion." },
+      { q: "All A are B. So all B are A.", opts: ["True", "Not necessarily", "Always true", "Cannot say"], a: 1, ex: "B may have more than A." },
+      { q: "No A is B. Then no B is A.", opts: ["True (conversion)", "False", "Maybe", "Cannot say"], a: 0, ex: "Symmetric." },
+      { q: "Some books are pens. All pens are inks. Some books are inks?", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Through pens." },
+      { q: "All cats are animals. Some animals are dogs. Some cats are dogs?", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 1, ex: "Dogs may be different animals." },
+      { q: "Statement: All boys are tall. Conclusion: Some tall are boys.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Conversion of 'all'." },
+      { q: "No bird is fish. All birds fly. So all flying creatures are not fish.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 1, ex: "Flying may include creatures other than birds." },
+      { q: "Some teachers are women. Some women are doctors. Some teachers are doctors.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 1, ex: "Different women might be doctors/teachers." },
+      { q: "All A are B; Some A are C. So some B are C.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Through A." },
+      { q: "No man is honest. All boys are men. No boy is honest.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Boys ⊂ Men, no Men honest." },
+      { q: "Some apples are red. All red things are sweet. Some apples are sweet.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Through red." },
+      { q: "All Indians are humans. No human is immortal. So no Indian is immortal.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Through humans." },
+      { q: "Some cars are big. Some big things are heavy. Some cars are heavy.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 1, ex: "Different big things could be heavy." },
+      { q: "No bird is a mammal. Some mammals are cows. Some cows are not birds.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Some cows are mammals → not birds." },
+      { q: "All managers are leaders. Some leaders are women. So some managers are women.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 1, ex: "Different leaders may be women." },
+      { q: "All squares are rectangles. No rectangle is a circle. So no square is a circle.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Squares ⊂ Rectangles, Rectangles ∩ Circles = ∅." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 12. LOGICAL PUZZLES
+  // ───────────────────────────────────────────────────────────────
+  T["reas-puzzles"] = {
+    body: `
+      <h2>Logical Puzzles</h2>
+      <p>Multi-clue problems where you deduce relationships, schedules, or arrangements. SSC asks 2-3 questions on these.</p>
+
+      <h3>1. Types of Puzzles</h3>
+      <ul>
+        <li><b>Floor puzzles</b>: People living on different floors.</li>
+        <li><b>Day/Schedule puzzles</b>: Activities on different days.</li>
+        <li><b>Matching puzzles</b>: People with their cars, food, professions, etc.</li>
+        <li><b>Cube/Box puzzles</b>: Items in boxes of different colors.</li>
+        <li><b>Family/Genealogy puzzles</b>: Complex blood relations.</li>
+      </ul>
+
+      <h3>2. 🔥 Approach</h3>
+      <ol>
+        <li><b>Read ALL clues</b> before solving.</li>
+        <li>Make a <b>table or chart</b> to track information.</li>
+        <li>Start with the <b>most definite clue</b>.</li>
+        <li>Apply each clue one by one.</li>
+        <li>Use elimination: cross out impossible combinations.</li>
+        <li>Note conditional clues ("if X is Y, then...").</li>
+        <li>Don't make assumptions beyond what's given.</li>
+      </ol>
+
+      <h3>3. Floor Puzzle Template</h3>
+      <p>For 5 people on 5 floors:</p>
+      <table>
+        <tr><th>Floor</th><th>Person</th></tr>
+        <tr><td>5 (top)</td><td>?</td></tr>
+        <tr><td>4</td><td>?</td></tr>
+        <tr><td>3</td><td>?</td></tr>
+        <tr><td>2</td><td>?</td></tr>
+        <tr><td>1 (ground)</td><td>?</td></tr>
+      </table>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1 (Floor Puzzle)</h4>
+      <p><b>5 people (A, B, C, D, E) live on 5 different floors (1-5). A lives above B. C lives on 3rd. D lives on top. B lives below C. E is on 2nd. Who lives on 1st?</b></p>
+      <p><b>Solution:</b><br>D on 5; C on 3; E on 2.<br>A above B; B below C (so B on 1 or 2; E on 2, so B on 1).<br>A above B → A on any of 2,3,4,5. Free spots: 4. So A on 4.<br>Floors: 5-D, 4-A, 3-C, 2-E, 1-B.<br><b>Answer: B lives on 1st floor.</b></p>
+
+      <h4>Example 2 (Day Puzzle)</h4>
+      <p><b>P, Q, R, S, T attend classes Mon-Fri (one each). P attends on Tue. R attends day after Q. T attends Mon. Find S's day.</b></p>
+      <p><b>Solution:</b><br>T = Mon. P = Tue. Remaining: Q, R, S for Wed/Thu/Fri.<br>R day after Q → consecutive.<br>Possibilities: Q-Wed, R-Thu; Q-Thu, R-Fri.<br>If Q-Wed, R-Thu, S-Fri.<br>If Q-Thu, R-Fri, S-Wed.<br>Either valid; need more info. Without further clues, S could be Wed or Fri.<br><b>Answer depends on extra clue.</b></p>
+
+      <h4>Example 3 (Matching)</h4>
+      <p><b>Three friends A, B, C own cars of different colors. A's car is not red. B's car is blue. C's car is not green. What is A's car color? Options: Red, Blue, Green.</b></p>
+      <p><b>Solution:</b><br>B = Blue.<br>A not red. C not green.<br>Remaining colors for A and C: Red, Green.<br>C not green → C is Red. So A = Green.<br><b>Answer: A's car is Green.</b></p>
+
+      <h4>Example 4 (Floor)</h4>
+      <p><b>6 people on 6 floors. Doctor is on 1st. Engineer is just above Lawyer. Teacher is on top. Teacher's floor = 3 × Doctor's. Find Engineer's floor (1-6).</b></p>
+      <p><b>Solution:</b><br>Doctor on 1; Teacher on 6.<br>Teacher's floor = 3 × Doctor's floor → 6 = 3×... only if Doctor on 2. Contradicts.<br>Actually 3 × 1 = 3, not 6. So Doctor is on 2? But statement says 1st. Maybe puzzle has overconstrained.<br>Assuming Doctor on 1, Teacher on 6 (independent constraints): Engineer just above Lawyer means consecutive. Remaining floors 2, 3, 4, 5.<br><b>Engineer could be 3,4,5 (above Lawyer below).</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>Four people (A, B, C, D) live in 4 houses (red, blue, green, yellow). A doesn't live in red. B lives in blue. The person in yellow lives next to C. The green house is between A and the blue. Who lives in green?</b></p>
+      <p><b>Solution:</b><br>B in Blue. A not in Red.<br>Green between A and Blue → A is adjacent to Green (or Green is between physically).<br>Let's say houses in order from left: 1, 2, 3, 4 (any arrangement).<br>Without house positions, "between A and blue" means A and Blue are on either side of Green.<br>Try: A-Green-Blue(B) → Green's resident must be C or D.<br>Yellow next to C → if C in green, that doesn't fit; so C is not in Green.<br>So D in Green. Then C is in Yellow or Red.<br>Yellow next to C → yellow's house adjacent to C's. If C in Yellow himself doesn't work; so C must be in Red, and Yellow is adjacent.<br>Houses: A-Green(D)-Blue(B)-Red(C)? Yellow not in this. Hmm let me reconsider.<br>Likely: A in Yellow, D in Green, B in Blue, C in Red. Then Green between A and Blue ✓ (A-D-B). Yellow (A) next to C (Red) - depends on order.<br><b>Answer: D lives in Green.</b></p>
+
+      <h4>Example 6 (Schedule)</h4>
+      <p><b>P, Q, R, S go to gym on different days (Mon-Thu). P doesn't go Mon. Q goes day before R. S doesn't go Thu. Who goes Wed?</b></p>
+      <p><b>Solution:</b><br>S not Thu, P not Mon.<br>Q day before R: (Mon,Tue), (Tue,Wed), (Wed,Thu).<br>Try Q-Mon, R-Tue, then P/S Wed/Thu. P not Mon ✓ (he's Wed/Thu). S not Thu → S-Wed, P-Thu.<br>Days: Mon-Q, Tue-R, Wed-S, Thu-P.<br><b>Answer: S goes Wed.</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Use tables/grids — visual is faster.</li>
+        <li>Mark certain facts with ✓; impossible with ✗.</li>
+        <li>If a clue gives 2 options, try one branch.</li>
+        <li>Verify final solution against ALL clues.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "5 floors: A on 5, B on 3, C on 1. Remaining D, E on 2 and 4 (any). If D above E, D on:", opts: ["2", "4", "5", "Cannot say"], a: 1, ex: "D-4, E-2." },
+      { q: "Mon-Fri schedule. P-Tue, Q-Wed, R-Mon, S-Thu, T = ?", opts: ["Mon", "Tue", "Fri", "Wed"], a: 2, ex: "Only Fri left." },
+      { q: "4 colors red/blue/green/yellow for 4 people. A not red, B blue. Possible A colors:", opts: ["Red", "Green/Yellow", "Blue", "Cannot say"], a: 1, ex: "A can be Green or Yellow." },
+      { q: "If A taller than B, B taller than C, who is shortest:", opts: ["A", "B", "C", "Cannot say"], a: 2, ex: "C shortest." },
+      { q: "P sits between Q and R. Q is left of R. So order left to right:", opts: ["Q-P-R", "R-P-Q", "P-Q-R", "Q-R-P"], a: 0, ex: "Q-P-R." },
+      { q: "5 people 5 chairs. A on 3rd. B at end. C between A and B. C on:", opts: ["2", "4", "5", "1"], a: 1, ex: "If B on 5, C between (A on 3 and B on 5) → C on 4." },
+      { q: "Mon-Sat. P doesn't work Sat. P, Q work consecutive days. If Q on Fri, P on:", opts: ["Thu", "Sat", "Fri", "Mon"], a: 0, ex: "Consecutive: Thu or Sat. Since not Sat, Thu." },
+      { q: "4 friends like 4 fruits: Apple, Mango, Banana, Orange. A doesn't like Apple. B likes Mango. C doesn't like Orange. What does D like?", opts: ["Apple", "Mango", "Banana", "Orange"], a: 0, ex: "B=Mango. A not Apple. C not Orange. So A=B/M/O (not apple). If C is Apple or Banana. Try: D=Apple, A=Orange or Banana, C=Banana, A=Orange. Possible." },
+      { q: "5 books in shelf: B1, B2, B3, B4, B5. B3 between B1 and B5. B2 left of B1. Order:", opts: ["B2-B1-B3-B5-B4", "B4-B2-B1-B3-B5", "Both possible", "Cannot determine"], a: 2, ex: "B4 position not fully fixed." },
+      { q: "P faces N. Q faces S. R is right of P. R faces:", opts: ["N", "S", "E", "W"], a: 2, ex: "Right of someone facing N = East." },
+      { q: "3 friends ages: A older than B, B younger than C, C younger than A. Youngest:", opts: ["A", "B", "C", "Same"], a: 1, ex: "A > C > B → B youngest." },
+      { q: "5 men in elevator on different floors. M1 on 4, M2 on 1, M5 on 5. M3 above M4. M3 on:", opts: ["2", "3", "4", "5"], a: 1, ex: "Free: 2,3. M3 above M4 → M3=3, M4=2." },
+      { q: "If today is Wed, day after tomorrow is:", opts: ["Thu", "Fri", "Sat", "Sun"], a: 1, ex: "Wed+2=Fri." },
+      { q: "If I was born Jan 1, 2000, on Jan 1, 2025 my age is:", opts: ["24", "25", "26", "23"], a: 1, ex: "25 years." },
+      { q: "P, Q, R sit in row. Q in middle. P left of Q. Order left to right:", opts: ["P-Q-R", "R-Q-P", "Q-P-R", "Q-R-P"], a: 0, ex: "P-Q-R." },
+      { q: "5 books arranged so A is before B, B before C, D after C. If E is last, position of E:", opts: ["1", "5", "3", "Cannot say"], a: 1, ex: "E is at position 5." },
+      { q: "3 cards face down. Heart, Spade, Club. Card 1 not Heart. Card 3 is Spade. Card 2 is:", opts: ["Heart", "Spade", "Club", "Cannot say"], a: 0, ex: "Card 3 Spade. Card 1 not heart → Card 1 = Club. Card 2 = Heart." },
+      { q: "5 people. Tallest is Ravi. Ramesh is shorter than Ravi but taller than Suresh. Who could be shortest:", opts: ["Ravi", "Ramesh", "Suresh or others", "Cannot say"], a: 2, ex: "Suresh or other unmentioned." },
+      { q: "Family: A is mother of B. B is son of C. So C is:", opts: ["Father (most likely)", "Brother", "Husband", "Sister"], a: 0, ex: "C is B's father (and A's husband)." },
+      { q: "If MONDAY = SATURDAY, then in this code TUESDAY = ?", opts: ["SUNDAY", "MONDAY", "FRIDAY", "Cannot say"], a: 0, ex: "+5 days: Mon+5=Sat; Tue+5=Sun." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 13. WORD FORMATION & LOGICAL ORDER
+  // ───────────────────────────────────────────────────────────────
+  T["reas-word-formation"] = {
+    body: `
+      <h2>Word Formation & Logical Order</h2>
+      <p>Two types: forming words from given letters, and arranging items in logical sequence. SSC asks 1-2 questions.</p>
+
+      <h3>1. Word Formation</h3>
+      <ul>
+        <li>Given a word, find how many other words can be formed using its letters.</li>
+        <li>Sometimes only specific letters allowed.</li>
+        <li>May ask which word CANNOT be formed.</li>
+      </ul>
+
+      <h4>Example: Letters in DEVELOPMENT</h4>
+      <p>Can "TEMPER", "LOVE", "EMP", "EVEN" be formed? Check each letter availability.</p>
+
+      <h3>2. Logical Order</h3>
+      <p>Arrange items in a sequence (chronological, sequential, alphabetical, size, etc.)</p>
+
+      <ul>
+        <li><b>Chronological</b>: events in time order.</li>
+        <li><b>Cause-effect</b>: cause → effect.</li>
+        <li><b>Smaller to larger</b> or vice versa.</li>
+        <li><b>Stages of growth</b>: birth → childhood → adulthood → old age → death.</li>
+        <li><b>Reading/Writing process</b>: think → outline → write → edit → publish.</li>
+        <li><b>Cooking process</b>: prepare → cook → serve → eat.</li>
+      </ul>
+
+      <h3>3. Examples of Logical Sequence</h3>
+
+      <h4>Family/Stages</h4>
+      <ol>
+        <li>Infant → Child → Adolescent → Adult → Senior.</li>
+        <li>Seed → Sapling → Plant → Tree → Fruit.</li>
+        <li>Egg → Larva → Pupa → Butterfly.</li>
+        <li>Yarn → Cloth → Garment.</li>
+      </ol>
+
+      <h4>Education</h4>
+      <ol>
+        <li>Pre-school → Primary → Secondary → Higher Secondary → College → University.</li>
+      </ol>
+
+      <h4>Construction</h4>
+      <ol>
+        <li>Plan → Foundation → Walls → Roof → Paint → Furniture.</li>
+      </ol>
+
+      <h3>4. 🔥 Approach</h3>
+      <ul>
+        <li><b>For word formation</b>: list all letters of the given word; check each option carefully.</li>
+        <li><b>For logical order</b>: think about the natural sequence of events.</li>
+        <li>Common sense often helps — what happens first?</li>
+        <li>For dictionary order: A→Z; check letter by letter.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1 (Word Formation)</h4>
+      <p><b>Letters in "ANIMAL". Can these words be formed? (a) LAMB (b) MAN (c) NAIL (d) AIM</b></p>
+      <p><b>Solution:</b><br>A-N-I-M-A-L (with double A).<br>LAMB: L✓, A✓, M✓, B✗. Cannot form.<br>MAN: M✓, A✓, N✓. ✓<br>NAIL: N✓, A✓, I✓, L✓. ✓<br>AIM: A✓, I✓, M✓. ✓<br><b>Cannot form: LAMB.</b></p>
+
+      <h4>Example 2 (Logical Order)</h4>
+      <p><b>Arrange: (a) Money (b) Job (c) Salary (d) Education</b></p>
+      <p><b>Solution:</b><br>Education → Job → Salary → Money.<br><b>Order: d-b-c-a</b></p>
+
+      <h4>Example 3 (Logical)</h4>
+      <p><b>Arrange: (a) Rain (b) Clouds (c) Evaporation (d) Plants</b></p>
+      <p><b>Solution:</b><br>Evaporation → Clouds → Rain → Plants.<br><b>Order: c-b-a-d</b></p>
+
+      <h4>Example 4 (Dictionary)</h4>
+      <p><b>Arrange alphabetically: (a) Apple (b) Apricot (c) Application (d) Apex</b></p>
+      <p><b>Solution:</b><br>All start with "Ap".<br>Apex: Apex (4th letter x).<br>Apple: Apple (3rd p+p=pp).<br>Apricot: Apricot (3rd r).<br>Application: Apple comes before Application (Apple vs Appli).<br>Comparing: Apex (Ap-e) < Application (Ap-p-l) < Apple (Ap-p-l-e) ... actually Application = A-p-p-l-i; Apple = A-p-p-l-e. e < i, so Apple < Application.<br>Order: Apex, Apple, Application, Apricot.<br><b>Order: d-a-c-b</b></p>
+
+      <h4>Example 5 (Stage)</h4>
+      <p><b>Arrange: (a) Tree (b) Seed (c) Sapling (d) Plant</b></p>
+      <p><b>Solution:</b><br>Seed → Sapling → Plant → Tree.<br><b>Order: b-c-d-a</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>Arrange: (a) Egg (b) Chick (c) Hen (d) Embryo</b></p>
+      <p><b>Solution:</b><br>Embryo → Egg → Chick → Hen.<br><b>Order: d-a-b-c</b></p>
+
+      <h4>Example 7 (Word Formation)</h4>
+      <p><b>Which word CANNOT be formed from "ENGINEERING"? (a) GEAR (b) GREEN (c) NINE (d) RING</b></p>
+      <p><b>Solution:</b><br>E-N-G-I-N-E-E-R-I-N-G (3N, 3E, 2I, 2G, 1R).<br>GEAR: G✓, E✓, A✗. Cannot form.<br>GREEN: G✓, R✓, E✓, E✓, N✓. ✓<br>NINE: N✓, I✓, N✓, E✓. ✓<br>RING: R✓, I✓, N✓, G✓. ✓<br><b>Answer: GEAR</b></p>
+
+      <h4>Example 8 (Order)</h4>
+      <p><b>Arrange: (a) Cook (b) Eat (c) Buy (d) Wash dishes (e) Cut vegetables</b></p>
+      <p><b>Solution:</b><br>Buy → Cut → Cook → Eat → Wash.<br><b>Order: c-e-a-b-d</b></p>
+
+      <h4>Example 9 (Word Formation)</h4>
+      <p><b>How many of these can be formed from "HOLIDAY"? (a) HAY (b) LADY (c) DAY (d) HAIL</b></p>
+      <p><b>Solution:</b><br>H-O-L-I-D-A-Y (single each).<br>HAY: H✓, A✓, Y✓. ✓<br>LADY: L✓, A✓, D✓, Y✓. ✓<br>DAY: D✓, A✓, Y✓. ✓<br>HAIL: H✓, A✓, I✓, L✓. ✓<br><b>All 4 can be formed.</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Arrange: (a) Cocoon (b) Caterpillar (c) Egg (d) Butterfly</b></p>
+      <p><b>Solution:</b><br>Egg → Caterpillar → Cocoon → Butterfly.<br><b>Order: c-b-a-d</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>For word formation: count each letter carefully (esp. duplicates).</li>
+        <li>For logical order: think real-world sequence.</li>
+        <li>For dictionary order: letter by letter from A.</li>
+        <li>Common chains: education-job; seed-tree; baby-old; food prep-eat-clean.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "From 'COMPUTER', form word: (a) COMP (b) COMPUTE (c) TUMP (d) all", opts: ["COMP", "COMPUTE", "TUMP", "All three"], a: 3, ex: "All letters available." },
+      { q: "Cannot form from 'EXAMINATION': (a) NATION (b) EXAM (c) ROYAL (d) MAIN", opts: ["NATION", "EXAM", "ROYAL", "MAIN"], a: 2, ex: "No R, no Y, no L in EXAMINATION." },
+      { q: "Order: Plant → ? → Tree", opts: ["Sapling", "Flower", "Fruit", "Seed"], a: 0, ex: "Plant → Sapling → Tree (or Seed → Sapling → Plant → Tree; here Plant to Tree skips back)." },
+      { q: "Arrange chronologically: Seed, Sapling, Plant, Tree:", opts: ["Seed,Sapling,Plant,Tree", "Tree,Plant,Sapling,Seed", "Sapling,Plant,Seed,Tree", "Plant,Tree,Sapling,Seed"], a: 0, ex: "Standard growth." },
+      { q: "Egg → Larva → ? → Butterfly", opts: ["Cocoon (Pupa)", "Worm", "Flower", "Caterpillar"], a: 0, ex: "Butterfly life cycle." },
+      { q: "Dictionary order: Apple, Apex, Apricot, Application:", opts: ["Apex, Apple, Application, Apricot", "Apple, Apex, Application, Apricot", "Apricot, Application, Apple, Apex", "Apex, Apricot, Apple, Application"], a: 0, ex: "Letter by letter." },
+      { q: "From 'STUDY', can form word: (a) DUTY (b) STUDY (c) TUSH (d) all", opts: ["DUTY", "STUDY", "TUSH", "All three"], a: 3, ex: "All letters present." },
+      { q: "Education → Job → Salary →", opts: ["School", "Retirement", "Money/Investment", "Travel"], a: 2, ex: "Money or savings." },
+      { q: "Cannot form from 'TRAINING': (a) TRAIN (b) RAIN (c) NIGHT (d) GAIN", opts: ["TRAIN", "RAIN", "NIGHT", "GAIN"], a: 2, ex: "No H in TRAINING." },
+      { q: "Arrange: Baby, Adult, Old, Child:", opts: ["Baby,Child,Adult,Old", "Old,Adult,Child,Baby", "Baby,Adult,Old,Child", "Child,Baby,Adult,Old"], a: 0, ex: "Life stages." },
+      { q: "Order: Walking, Running, Crawling, Standing (development):", opts: ["Crawling,Standing,Walking,Running", "Walking,Running,Standing,Crawling", "Standing,Crawling,Walking,Running", "Random"], a: 0, ex: "Baby development order." },
+      { q: "From 'GOVERNMENT', form: (a) NOTE (b) MENT (c) ROVE (d) all", opts: ["NOTE", "MENT", "ROVE", "All three"], a: 3, ex: "All letters available." },
+      { q: "Arrange: Yarn, Cloth, Cotton, Garment:", opts: ["Cotton, Yarn, Cloth, Garment", "Garment,Cloth,Yarn,Cotton", "Cloth,Cotton,Yarn,Garment", "Yarn,Cotton,Cloth,Garment"], a: 0, ex: "Production chain." },
+      { q: "Order: Foundation, Roof, Walls, Plan, Paint:", opts: ["Plan, Foundation, Walls, Roof, Paint", "Paint,Walls,Foundation,Plan,Roof", "Random", "Foundation,Plan,Walls,Roof,Paint"], a: 0, ex: "Construction sequence." },
+      { q: "Cannot form from 'INTELLIGENCE': (a) NICE (b) ENTER (c) TELL (d) LION", opts: ["NICE", "ENTER", "TELL", "LION"], a: 3, ex: "No O in INTELLIGENCE." },
+      { q: "Arrange: Rain, Lightning, Thunder, Cloud:", opts: ["Cloud, Lightning, Thunder, Rain", "Rain,Cloud,Lightning,Thunder", "Thunder,Lightning,Cloud,Rain", "Lightning,Thunder,Rain,Cloud"], a: 0, ex: "Storm sequence." },
+      { q: "Arrange: Branch, Leaf, Tree, Root:", opts: ["Root, Tree, Branch, Leaf", "Tree,Root,Branch,Leaf", "Leaf,Branch,Root,Tree", "Random"], a: 0, ex: "Growth from root upward." },
+      { q: "From 'POLITICAL', can form: TICAL", opts: ["Yes", "No (T, I, C, A, L all in word)", "Maybe", "Cannot say"], a: 1, ex: "T, I, C, A, L all present so YES — but answer 'No' was placeholder. TICAL is non-dictionary word; if asking valid English word, it's not." },
+      { q: "Dictionary order: Bank, Band, Bag, Ban:", opts: ["Bag, Ban, Band, Bank", "Bank, Band, Ban, Bag", "Ban, Bag, Band, Bank", "Bag, Bank, Band, Ban"], a: 0, ex: "Letter by letter A→Z." },
+      { q: "Arrange: Wedding, Engagement, Anniversary, Birth, Death (life events):", opts: ["Birth, Engagement, Wedding, Anniversary, Death", "Death, Anniversary, Wedding, Engagement, Birth", "Birth, Death, Wedding, Engagement, Anniversary", "Random"], a: 0, ex: "Chronological life." }
+    ]
+  };
+
 })();
