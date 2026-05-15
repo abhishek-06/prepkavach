@@ -1644,4 +1644,673 @@
     ]
   };
 
+  // ───────────────────────────────────────────────────────────────
+  // 14. CLOCK
+  // ───────────────────────────────────────────────────────────────
+  T["reas-clock"] = {
+    body: `
+      <h2>Clock</h2>
+      <p>Questions on angles between hour/minute hands, time calculation, mirror images, etc. SSC asks 1-2 questions.</p>
+
+      <h3>1. Basic Facts</h3>
+      <ul>
+        <li>Clock has 12 hours = 360° → each hour = <b>30°</b>.</li>
+        <li>Each minute = 6° (since 60 min = 360°).</li>
+        <li>Minute hand makes 1 full revolution per hour (360°).</li>
+        <li>Hour hand: in 60 min moves 30° → <b>0.5° per minute</b>.</li>
+        <li>Minute hand vs hour hand: minute moves at 6°/min, hour at 0.5°/min. Relative speed = 5.5°/min.</li>
+      </ul>
+
+      <h3>2. Formula for Angle Between Hands</h3>
+      <p><b>Angle = |30H − 5.5M|</b><br>
+      where H = hour, M = minute past hour.</p>
+      <p>If answer > 180°, subtract from 360° (since smaller angle is usually asked).</p>
+
+      <h3>3. Hands Coincide (Overlap)</h3>
+      <ul>
+        <li>Minute and hour hand overlap <b>22 times in 24 hours</b> (every 65 5/11 minutes).</li>
+        <li>From 12 noon to 12 midnight: 11 times.</li>
+        <li>First overlap after 12: at 1:05 5/11 (approximately).</li>
+        <li>Formula: every 12/11 hours = 65.45 minutes.</li>
+      </ul>
+
+      <h3>4. Hands at Right Angle (90°)</h3>
+      <ul>
+        <li>Twice every hour (except special cases).</li>
+        <li>44 times in 24 hours.</li>
+      </ul>
+
+      <h3>5. Hands Opposite (180°)</h3>
+      <ul>
+        <li>11 times in 12 hours; 22 times in 24 hours.</li>
+        <li>First: at 6:00.</li>
+      </ul>
+
+      <h3>6. Mirror Image of Clock</h3>
+      <ul>
+        <li>Mirror time = <b>11:60 − given time</b> (or 12:00 − time).</li>
+        <li>Examples: actual 2:20 → mirror 9:40. (11:60 − 2:20 = 9:40)</li>
+        <li>Special: if time is exactly 6:00, mirror is 6:00.</li>
+      </ul>
+
+      <h3>7. Water Image of Clock</h3>
+      <ul>
+        <li>Water (vertical reflection) time = <b>18:60 − given time</b> if past 6:00, else complicated.</li>
+        <li>Most use: subtract from 12:60 ≈ 13:00.</li>
+        <li>Actual: water inverts top-bottom; 12↔6, 1↔7, etc.</li>
+      </ul>
+
+      <h3>8. Gaining/Losing Time</h3>
+      <ul>
+        <li>Correct clock makes 1440 minutes in 24 hours.</li>
+        <li>Clock gaining N min/day = faster.</li>
+        <li>Calculate from when synced to current time.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>What is the angle between hour and minute hand at 3:15?</b></p>
+      <p><b>Solution:</b><br>Angle = |30×3 − 5.5×15| = |90 − 82.5| = 7.5°<br><b>Answer: 7.5°</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>At what time between 4 and 5 will the hands coincide?</b></p>
+      <p><b>Solution:</b><br>At 4:00, hour hand at 120°, minute at 0°.<br>For coincidence, minute hand catches up by 120° at relative speed 5.5°/min.<br>Time = 120/5.5 = 21.81 min ≈ 21 min 49 sec.<br><b>Answer: 4:21:49</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>Mirror image of 3:25 is?</b></p>
+      <p><b>Solution:</b><br>11:60 − 3:25 = 8:35.<br><b>Answer: 8:35</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>At what angle are the hands at 6:00?</b></p>
+      <p><b>Solution:</b><br>|30×6 − 5.5×0| = |180 − 0| = 180°.<br><b>Answer: 180° (straight line)</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>How many times in 12 hours do the hands form a right angle?</b></p>
+      <p><b>Solution:</b><br>22 times in 12 hours (44 in 24).<br><b>Answer: 22</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>Find angle at 7:20.</b></p>
+      <p><b>Solution:</b><br>|30×7 − 5.5×20| = |210 − 110| = 100°.<br><b>Answer: 100°</b></p>
+
+      <h4>Example 7</h4>
+      <p><b>If a clock gains 5 minutes per day, after 24 hours how much extra time will it show?</b></p>
+      <p><b>Solution:</b><br>+5 min ahead per day.<br>After 24h: 5 min ahead.<br><b>Answer: 5 minutes ahead</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>Find angle at 9:30.</b></p>
+      <p><b>Solution:</b><br>|30×9 − 5.5×30| = |270 − 165| = 105°.<br><b>Answer: 105°</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>Hands of clock are at 90° at how many times between 3:00 and 5:00?</b></p>
+      <p><b>Solution:</b><br>Between any two consecutive hours, 90° angle occurs twice (mostly). So in 2 hours, 4 times. But at exactly 3:00 and 4:00 transitions...<br><b>Answer: 4 times</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Mirror image of time 7:40 is?</b></p>
+      <p><b>Solution:</b><br>11:60 − 7:40 = 4:20.<br><b>Answer: 4:20</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Memorize: 1 hour = 30°; 1 min = 6°; hour hand 0.5°/min.</li>
+        <li>Angle = |30H − 5.5M|.</li>
+        <li>Mirror image: 11:60 − time (use military or 12-hour carefully).</li>
+        <li>For 90°: 22 times in 12 hours.</li>
+        <li>For coincidence: 11 times in 12 hours.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Angle between hands at 3:00:", opts: ["60°", "90°", "120°", "180°"], a: 1, ex: "Right angle." },
+      { q: "Angle at 6:00:", opts: ["90°", "120°", "180°", "60°"], a: 2, ex: "Straight." },
+      { q: "Angle at 12:00:", opts: ["0°", "30°", "60°", "90°"], a: 0, ex: "Hands overlap." },
+      { q: "Each hour mark = ? degrees:", opts: ["15°", "30°", "45°", "60°"], a: 1, ex: "360°/12=30°." },
+      { q: "Each minute = ? degrees:", opts: ["5°", "6°", "7°", "8°"], a: 1, ex: "360°/60=6°." },
+      { q: "Hour hand moves how many degrees per minute:", opts: ["0.5°", "1°", "5°", "6°"], a: 0, ex: "30°/60=0.5°." },
+      { q: "Hands coincide how many times in 12 hours:", opts: ["11", "12", "22", "10"], a: 0, ex: "11 times in 12 hours." },
+      { q: "Hands at right angle in 12 hours:", opts: ["22", "24", "11", "44"], a: 0, ex: "22 times." },
+      { q: "Hands opposite in 12 hours:", opts: ["11", "12", "22", "10"], a: 0, ex: "11 times." },
+      { q: "Mirror image of 4:30:", opts: ["7:30", "8:30", "9:30", "10:30"], a: 0, ex: "11:60−4:30=7:30." },
+      { q: "Angle at 9:00:", opts: ["60°", "90°", "120°", "180°"], a: 1, ex: "90°." },
+      { q: "Angle at 4:20:", opts: ["10°", "20°", "30°", "40°"], a: 0, ex: "|120−110|=10°." },
+      { q: "Mirror of 6:00:", opts: ["6:00", "12:00", "3:00", "9:00"], a: 0, ex: "Symmetric." },
+      { q: "Hands coincide in 24 hours:", opts: ["11", "22", "20", "24"], a: 1, ex: "11×2=22." },
+      { q: "Angle at 2:30:", opts: ["75°", "90°", "105°", "120°"], a: 2, ex: "|60−165|=105°." },
+      { q: "Angle at 5:00:", opts: ["150°", "120°", "90°", "60°"], a: 0, ex: "5×30=150°." },
+      { q: "Mirror of 12:00:", opts: ["6:00", "12:00", "11:00", "3:00"], a: 1, ex: "Reflection symmetric at 12." },
+      { q: "Angle at 10:10:", opts: ["115°", "120°", "100°", "110°"], a: 0, ex: "|300−55|=245→ 360−245=115°." },
+      { q: "Mirror of 9:30:", opts: ["2:30", "3:30", "4:30", "5:30"], a: 0, ex: "11:60−9:30=2:30." },
+      { q: "Number of times hands form 180° in 24 hours:", opts: ["22", "24", "11", "44"], a: 0, ex: "22 in 24 hours." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 15. CALENDAR
+  // ───────────────────────────────────────────────────────────────
+  T["reas-calendar"] = {
+    body: `
+      <h2>Calendar</h2>
+      <p>Find day of week for a given date or vice versa. SSC asks 1-2 questions.</p>
+
+      <h3>1. Basic Concepts</h3>
+      <ul>
+        <li>7 days a week; cycle repeats every 7 days.</li>
+        <li>Ordinary year: 365 days = 52 weeks + 1 day → next year same date is 1 day later.</li>
+        <li>Leap year: 366 days = 52 weeks + 2 days → next year same date is 2 days later.</li>
+      </ul>
+
+      <h3>2. Leap Year Rule</h3>
+      <ul>
+        <li>Year divisible by 4 → leap year.</li>
+        <li>Exception: century years (1700, 1800, 1900...) NOT leap unless divisible by 400.</li>
+        <li>2000 was leap; 1900 was not.</li>
+        <li>Leap year February has 29 days; total 366.</li>
+      </ul>
+
+      <h3>3. Odd Days</h3>
+      <p>Odd days = remainder when total days divided by 7.</p>
+      <ul>
+        <li>Ordinary year: 1 odd day.</li>
+        <li>Leap year: 2 odd days.</li>
+        <li>100 years: 76 ordinary + 24 leap = 76+48 = 124 odd days → 124 mod 7 = 5 odd days.</li>
+        <li>200 years: 10 odd days → 3 odd days.</li>
+        <li>300 years: 15 odd days → 1 odd day.</li>
+        <li>400 years: 20 + 1 (since 400 itself is leap) = 21 odd days → 0 odd days.</li>
+      </ul>
+
+      <h3>4. Reference Day</h3>
+      <p>1st January 0001 (1 AD) was Monday.<br>
+      Or: 1st January 2000 was Saturday (commonly used).</p>
+
+      <h3>5. Day Calculation Method</h3>
+      <p>To find day of any date:</p>
+      <ol>
+        <li>Calculate total odd days from reference (1 AD) to given date.</li>
+        <li>Add odd days from years, months, and days.</li>
+        <li>Total mod 7 gives day.</li>
+        <li>0=Sunday, 1=Monday, ..., 6=Saturday.</li>
+      </ol>
+
+      <h3>6. Month Codes (for shortcut)</h3>
+      <table>
+        <tr><th>Month</th><th>Code</th></tr>
+        <tr><td>Jan</td><td>0 (or 6 in leap)</td></tr>
+        <tr><td>Feb</td><td>3 (or 2 in leap)</td></tr>
+        <tr><td>Mar</td><td>3</td></tr>
+        <tr><td>Apr</td><td>6</td></tr>
+        <tr><td>May</td><td>1</td></tr>
+        <tr><td>Jun</td><td>4</td></tr>
+        <tr><td>Jul</td><td>6</td></tr>
+        <tr><td>Aug</td><td>2</td></tr>
+        <tr><td>Sep</td><td>5</td></tr>
+        <tr><td>Oct</td><td>0</td></tr>
+        <tr><td>Nov</td><td>3</td></tr>
+        <tr><td>Dec</td><td>5</td></tr>
+      </table>
+
+      <h3>7. Same-day Calendar</h3>
+      <ul>
+        <li>Same calendar repeats:
+          <ul>
+            <li>Ordinary year → 6, 11, 11, then 11 (28 years cycle).</li>
+            <li>Leap year → 28 years (next leap that shares calendar).</li>
+          </ul>
+        </li>
+        <li>Generally calendar repeats every 28 years.</li>
+      </ul>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1</h4>
+      <p><b>If 1 Jan 2020 is Wednesday, what is 1 Jan 2021?</b></p>
+      <p><b>Solution:</b><br>2020 is leap year (366 days = 52 weeks + 2 odd days).<br>So 1 Jan 2021 = Wed + 2 = Friday.<br><b>Answer: Friday</b></p>
+
+      <h4>Example 2</h4>
+      <p><b>If 1 Jan 2024 is Monday, find day on 15 August 2024.</b></p>
+      <p><b>Solution:</b><br>Days from Jan 1 to Aug 15 = 31+29(leap)+31+30+31+30+31+15 = 228 days from Jan 1.<br>From Jan 1 inclusive to Aug 15 inclusive, gap = 227 days.<br>227 mod 7 = 227/7 = 32 remainder 3.<br>Day = Monday + 3 = Thursday.<br><b>Answer: Thursday</b></p>
+
+      <h4>Example 3</h4>
+      <p><b>2000 was a leap year. Was 1900?</b></p>
+      <p><b>Solution:</b><br>1900 is divisible by 100 but not by 400 → NOT a leap year.<br>2000 is divisible by 400 → leap year.<br><b>Answer: 2000 was leap; 1900 was not.</b></p>
+
+      <h4>Example 4</h4>
+      <p><b>If today is Sunday, what day after 100 days?</b></p>
+      <p><b>Solution:</b><br>100 mod 7 = 2.<br>Sunday + 2 = Tuesday.<br><b>Answer: Tuesday</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>1 Jan 2022 was Saturday. 31 Dec 2022 is what day?</b></p>
+      <p><b>Solution:</b><br>2022 is ordinary year. Jan 1 (day 1) to Dec 31 (day 365) → 364 days gap.<br>364 mod 7 = 0.<br>So 31 Dec is same day as 1 Jan = Saturday.<br><b>Answer: Saturday</b></p>
+
+      <h4>Example 6</h4>
+      <p><b>What day will 14 Jan 2026 be if 14 Jan 2024 is Sunday?</b></p>
+      <p><b>Solution:</b><br>2024 leap (2 days), 2025 ordinary (1 day) → +3 from 2024 to 2026.<br>Sun + 3 = Wednesday.<br><b>Answer: Wednesday</b></p>
+
+      <h4>Example 7</h4>
+      <p><b>1 Jan 0001 AD was what day?</b></p>
+      <p><b>Solution:</b><br>By convention, 1 Jan 1 AD = Monday.<br><b>Answer: Monday</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>How many days between 5 March 2024 and 15 March 2024?</b></p>
+      <p><b>Solution:</b><br>15 − 5 = 10 days.<br><b>Answer: 10 days</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>Today is Wednesday. What day was 30 days ago?</b></p>
+      <p><b>Solution:</b><br>30 mod 7 = 2. Wednesday − 2 = Monday.<br><b>Answer: Monday</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>If 14 March 2023 was Tuesday, what was 14 March 2024?</b></p>
+      <p><b>Solution:</b><br>From March 2023 to March 2024 = 365 days (Feb 2024 was leap but already passed). 365 mod 7 = 1.<br>Wait — leap year affects Feb. Mar 2023 to Mar 2024 spans Feb 2024 (leap day), so 366 days. 366 mod 7 = 2.<br>Tue + 2 = Thursday.<br><b>Answer: Thursday</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Ordinary year = 1 odd day, Leap year = 2 odd days.</li>
+        <li>Leap year: divisible by 4, except century unless divisible by 400.</li>
+        <li>Calendar repeats every 28 years usually.</li>
+        <li>1 Jan 1 AD was Monday.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Year divisible by 4 is leap year, except:", opts: ["Century not divisible by 400", "Always", "Even years only", "Never"], a: 0, ex: "1900 not leap, 2000 leap." },
+      { q: "Ordinary year has odd days:", opts: ["0", "1", "2", "7"], a: 1, ex: "365 mod 7 = 1." },
+      { q: "Leap year has odd days:", opts: ["0", "1", "2", "3"], a: 2, ex: "366 mod 7 = 2." },
+      { q: "If today Mon, day after 100 days:", opts: ["Wed", "Tue", "Thu", "Fri"], a: 0, ex: "100 mod 7 = 2 → Mon+2 = Wed." },
+      { q: "100 years have:", opts: ["1 odd day", "5 odd days", "2 odd days", "7 odd days"], a: 1, ex: "76 ord + 24 leap = 124 mod 7 = 5." },
+      { q: "400 years have:", opts: ["0 odd days", "1", "5", "21"], a: 0, ex: "Cycle resets." },
+      { q: "If 1 Jan 2020 = Wed, 1 Jan 2021 =:", opts: ["Thu", "Fri", "Sat", "Sun"], a: 1, ex: "Leap year 2020 → +2 days = Fri." },
+      { q: "1 Jan 1 AD =:", opts: ["Sun", "Mon", "Tue", "Wed"], a: 1, ex: "By convention Monday." },
+      { q: "1 Jan 2024 = Mon. 31 Dec 2024 =:", opts: ["Mon", "Tue", "Wed", "Sun"], a: 1, ex: "2024 leap; 366 days, so 31 Dec = Mon+1 = Tue." },
+      { q: "Day before yesterday was Wed. Today is:", opts: ["Thu", "Fri", "Sat", "Sun"], a: 1, ex: "Day before yesterday = Wed → Today = Fri." },
+      { q: "Year 2000 was leap?", opts: ["Yes (div by 400)", "No", "Maybe", "Cannot say"], a: 0, ex: "Yes — div by 400." },
+      { q: "Year 1900 was leap?", opts: ["Yes", "No (div by 100 but not 400)", "Maybe", "Cannot say"], a: 1, ex: "Not leap." },
+      { q: "Today Friday. After 50 days:", opts: ["Sat", "Sun", "Mon", "Tue"], a: 0, ex: "50 mod 7 = 1 → Fri+1=Sat." },
+      { q: "Today Wed. 3 weeks later:", opts: ["Wed", "Thu", "Tue", "Same day"], a: 0, ex: "21 mod 7 = 0 → same day." },
+      { q: "Days in February in leap year:", opts: ["28", "29", "30", "31"], a: 1, ex: "29." },
+      { q: "Days in non-leap year:", opts: ["365", "366", "364", "367"], a: 0, ex: "365." },
+      { q: "Days from Jan 1 to Dec 31 in ordinary year:", opts: ["364", "365", "366", "367"], a: 0, ex: "Inclusive count: 365 days; gap = 364." },
+      { q: "If 25 Dec 2023 = Mon, 25 Dec 2024 =:", opts: ["Mon", "Tue", "Wed", "Thu"], a: 2, ex: "2024 leap → +2 days = Wed." },
+      { q: "Today is Sun. Yesterday was:", opts: ["Sat", "Mon", "Fri", "Tue"], a: 0, ex: "Saturday." },
+      { q: "Friday 13th in any month. Sunday is:", opts: ["15th", "12th", "20th", "Both A and C"], a: 3, ex: "Fri 13 → Sun 15 or 22." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 16. ANALYTICAL REASONING
+  // ───────────────────────────────────────────────────────────────
+  T["reas-analytical"] = {
+    body: `
+      <h2>Analytical Reasoning</h2>
+      <p>Complex problem-solving questions requiring step-by-step logical thinking. SSC includes this in non-verbal/critical reasoning. Usually 1-2 questions.</p>
+
+      <h3>1. Types Covered</h3>
+      <ul>
+        <li>Statements & assumptions.</li>
+        <li>Statements & conclusions (different from syllogism).</li>
+        <li>Course of action.</li>
+        <li>Cause and effect.</li>
+        <li>Statement & arguments.</li>
+        <li>Critical reasoning.</li>
+      </ul>
+
+      <h3>2. Statement & Assumption</h3>
+      <p>An assumption is something the speaker takes for granted. Find what is implicitly assumed.</p>
+      <p><b>Example</b>: Statement: "Visit our new branch in Mumbai."<br>
+      Assumption: People will come if they know about the branch.<br>
+      Test: Try negating assumption — if statement loses meaning, assumption is valid.</p>
+
+      <h3>3. Statement & Conclusion</h3>
+      <p>Conclusion must directly follow from the statement (no outside info).</p>
+
+      <h3>4. Course of Action</h3>
+      <p>Identify what should be done based on the situation.</p>
+      <p>Common: choose action that addresses cause, not just symptom.</p>
+
+      <h3>5. Cause & Effect</h3>
+      <ul>
+        <li>Two events: identify which is cause, which is effect.</li>
+        <li>Effect cannot happen before cause.</li>
+        <li>Independent events have no cause-effect.</li>
+      </ul>
+
+      <h3>6. Statement & Argument</h3>
+      <p>Strong vs weak arguments based on:</p>
+      <ul>
+        <li>Strong: directly relevant, factual, logical.</li>
+        <li>Weak: irrelevant, emotional, exaggerated, off-topic.</li>
+      </ul>
+
+      <h3>7. 🔥 Approach</h3>
+      <ol>
+        <li>Read statement carefully, slowly.</li>
+        <li>Identify what's being asked (assumption/conclusion/action/etc).</li>
+        <li>For assumptions: negate and check if statement still makes sense.</li>
+        <li>For conclusions: see if it follows DIRECTLY without outside info.</li>
+        <li>For arguments: assess relevance.</li>
+      </ol>
+
+      <h3>Solved Examples</h3>
+
+      <h4>Example 1 (Statement & Assumption)</h4>
+      <p><b>Statement: "Please switch off mobile phones during the meeting."<br>
+      Assumption: (1) Mobile phones can disturb. (2) Everyone will obey.</b></p>
+      <p><b>Solution:</b><br>(1) Mobile disturbing is implicit reason for the request → assumption holds ✓<br>(2) Obedience is hoped, not assumed (often violated). Weak.<br><b>Only (1) is implicit.</b></p>
+
+      <h4>Example 2 (Conclusion)</h4>
+      <p><b>Statement: "Many books in the library are damaged."<br>
+      Conclusion: (1) Library staff is careless. (2) Books are getting old.</b></p>
+      <p><b>Solution:</b><br>Statement only says damaged. Cause not specified.<br>(1) Carelessness is an assumption, not conclusion.<br>(2) Books getting old is one possible cause, not the only one.<br><b>Neither follows from the statement alone.</b></p>
+
+      <h4>Example 3 (Cause & Effect)</h4>
+      <p><b>Events: (A) Heavy rain in city. (B) Schools declared holiday.</b></p>
+      <p><b>Solution:</b><br>A is independent natural event.<br>B is a response (effect) to A.<br><b>A is cause; B is effect.</b></p>
+
+      <h4>Example 4 (Course of Action)</h4>
+      <p><b>Statement: "Pollution levels in city are increasing dangerously."<br>
+      Actions: (1) Encourage public transport. (2) Plant more trees. (3) Ban all vehicles.</b></p>
+      <p><b>Solution:</b><br>(1) Reduces emissions — relevant, balanced ✓<br>(2) Reduces pollution — relevant ✓<br>(3) Total ban — extreme, impractical. Weak.<br><b>(1) and (2) should be done.</b></p>
+
+      <h4>Example 5</h4>
+      <p><b>Statement: "Smoking is injurious to health."<br>
+      Assumption: People care about their health.</b></p>
+      <p><b>Solution:</b><br>The warning assumes people will respond to health risk → assumption holds.<br><b>Assumption valid.</b></p>
+
+      <h4>Example 6 (Strong/Weak Argument)</h4>
+      <p><b>Statement: Should there be a uniform tax slab for all?<br>
+      Arguments: (1) Yes — it's fair. (2) No — different earnings have different capacity.</b></p>
+      <p><b>Solution:</b><br>(1) "It's fair" — subjective.<br>(2) Capacity-based tax is more equitable; logically strong.<br><b>Argument (2) is stronger.</b></p>
+
+      <h4>Example 7 (Critical Reasoning)</h4>
+      <p><b>If all students of class 10 like math, and Ravi is in class 10, what can we conclude?</b></p>
+      <p><b>Solution:</b><br>Ravi likes math (deductive logic).<br><b>Answer: Ravi likes math.</b></p>
+
+      <h4>Example 8</h4>
+      <p><b>Statement: "Use mobile bank apps for safer transactions."<br>
+      Conclusion: Cash payments are unsafe.</b></p>
+      <p><b>Solution:</b><br>Statement says apps are safer; doesn't say cash is unsafe.<br><b>Conclusion does not directly follow.</b></p>
+
+      <h4>Example 9</h4>
+      <p><b>Cause & Effect: (A) IT industry is booming. (B) Many students choose CS degree.</b></p>
+      <p><b>Solution:</b><br>A is cause; B is effect (response to job opportunities).<br><b>A is cause; B is effect.</b></p>
+
+      <h4>Example 10</h4>
+      <p><b>Statement: "Recycle plastic to save environment."<br>
+      Action: Government should reward recyclers.</b></p>
+      <p><b>Solution:</b><br>Incentive can encourage behavior → reasonable action.<br><b>Action is sound.</b></p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>For assumption: negate it; does statement lose force? If yes, assumption valid.</li>
+        <li>For conclusion: must follow directly without leaps.</li>
+        <li>For action: should be feasible and address root cause.</li>
+        <li>For arguments: relevance + factual support = strong.</li>
+        <li>Don't bring outside knowledge into the question.</li>
+      </ul>
+    `,
+    mcq: [
+      { q: "Statement: 'Read newspapers daily.' Assumption: Reading newspapers benefits?", opts: ["Implicit assumption", "Not assumed", "Cannot say", "Reverse"], a: 0, ex: "Implicit." },
+      { q: "Conclusion: From 'water is essential for life', we conclude living things need water.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Direct restatement." },
+      { q: "Cause-Effect: (A) Drought. (B) Crop failure. Which is cause?", opts: ["A", "B", "Both independent", "B is cause"], a: 0, ex: "Drought causes crop failure." },
+      { q: "Action for 'Roads are dirty': (1) Clean roads (2) Penalize litterers.", opts: ["Only 1", "Only 2", "Both", "Neither"], a: 2, ex: "Both address." },
+      { q: "Strong vs weak: 'Don't sleep less.' Argument: 'It harms health' is:", opts: ["Strong (factual)", "Weak", "Irrelevant", "Subjective"], a: 0, ex: "Health basis." },
+      { q: "Statement: 'Wear masks.' Assumption: Masks help.", opts: ["Implicit", "Not assumed", "Contradicts", "Maybe"], a: 0, ex: "Implicit." },
+      { q: "Conclusion: 'No bird is fish. All birds fly.' → Some flying things are not fish?", opts: ["Follows (since birds are flying and not fish)", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Birds are flying and not fish." },
+      { q: "Cause-Effect: (A) Heavy rain. (B) Floods. Which is cause?", opts: ["A", "B", "Both independent", "B is cause"], a: 0, ex: "Rain causes flood." },
+      { q: "Action for 'students performing poorly': (1) Tutoring (2) Banning sports (3) Counseling", opts: ["1 only", "1 and 3", "All", "None"], a: 1, ex: "Tutoring + counseling, not banning sports." },
+      { q: "Statement: 'Save water.' Assumption: Water resources are limited.", opts: ["Yes", "No", "Cannot say", "Implicit (yes)"], a: 3, ex: "Implicit." },
+      { q: "Strong: 'Pollution is rising.' Argument: 'Plant trees' is:", opts: ["Strong", "Weak", "Irrelevant", "Subjective"], a: 0, ex: "Logical and relevant." },
+      { q: "All A are B. Some C are A. So some C are B.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Direct deduction." },
+      { q: "Cause: 'Eating junk → Health issues.' Effect:", opts: ["Junk eating", "Health issues", "Both", "Neither"], a: 1, ex: "Health is effect." },
+      { q: "Assumption: 'College has dress code.' implies:", opts: ["Discipline is important to college", "Students like uniforms", "Cannot say", "No assumption"], a: 0, ex: "Implicit reason." },
+      { q: "Statement: 'Earthquake disasters need preparation.' Conclusion: We should be ready.", opts: ["Follows", "Does not follow", "Maybe", "Cannot say"], a: 0, ex: "Direct." },
+      { q: "Strong vs weak: 'School strike is harmful'. Argument: 'Children miss education' is:", opts: ["Strong", "Weak", "Irrelevant", "Subjective"], a: 0, ex: "Factual." },
+      { q: "Action for 'Increasing road accidents': (1) Stricter traffic rules (2) Stop using vehicles", opts: ["1 only", "2 only", "Both", "Neither"], a: 0, ex: "1 reasonable; 2 impractical." },
+      { q: "Assumption: 'Vote for change.' implies:", opts: ["Current situation needs change", "Voting brings change", "Both", "Neither"], a: 2, ex: "Both implicit." },
+      { q: "Cause: 'Internet access → Online learning.' Effect:", opts: ["Internet access", "Online learning", "Both", "Neither"], a: 1, ex: "Online learning is effect." },
+      { q: "All cats are mammals. Tigers are cats. Hence:", opts: ["Tigers are mammals", "Tigers are cats only", "Cannot say", "Mammals are tigers"], a: 0, ex: "Syllogism." }
+    ]
+  };
+
+  // ═══════════════════════════════════════════════════════════════
+  // NON-VERBAL REASONING
+  // ═══════════════════════════════════════════════════════════════
+
+  // ───────────────────────────────────────────────────────────────
+  // 17. SERIES (NON-VERBAL)
+  // ───────────────────────────────────────────────────────────────
+  T["reas-nv-series"] = {
+    body: `
+      <h2>Series (Non-Verbal)</h2>
+      <p>Identify the pattern in a sequence of figures and predict the next figure. SSC asks 1-2 questions.</p>
+
+      <h3>Common Patterns</h3>
+
+      <h4>(a) Rotation</h4>
+      <ul>
+        <li>Figure rotates by fixed angle (45°, 90°, 135°, 180°) each step.</li>
+        <li>Direction: clockwise or anticlockwise.</li>
+      </ul>
+
+      <h4>(b) Movement of Element</h4>
+      <ul>
+        <li>An element shifts position (up, down, left, right).</li>
+        <li>Or moves around a fixed center.</li>
+      </ul>
+
+      <h4>(c) Addition / Subtraction of Elements</h4>
+      <ul>
+        <li>1, 2, 3, 4 elements in successive figures.</li>
+        <li>Or progressive decrement.</li>
+      </ul>
+
+      <h4>(d) Change in Direction</h4>
+      <ul>
+        <li>Arrow direction changes.</li>
+        <li>Triangles flip up-down.</li>
+      </ul>
+
+      <h4>(e) Color/Shading Change</h4>
+      <ul>
+        <li>Shading rotates between figures.</li>
+        <li>Filled/unfilled alternates.</li>
+      </ul>
+
+      <h4>(f) Mirror/Reflection</h4>
+      <ul>
+        <li>Figure flips horizontally or vertically.</li>
+      </ul>
+
+      <h3>🔥 Approach</h3>
+      <ol>
+        <li>Compare consecutive figures to spot change.</li>
+        <li>Identify rotation angle or movement direction.</li>
+        <li>Apply same change to last figure to predict next.</li>
+        <li>Check if all options apply same pattern; pick the one matching.</li>
+      </ol>
+
+      <h3>Common SSC Patterns</h3>
+      <p>(Cannot show images in text; descriptions only)</p>
+
+      <h4>Pattern 1: Rotation</h4>
+      <p>Triangle pointing North → East → South → West (90° rotation each).</p>
+
+      <h4>Pattern 2: Addition</h4>
+      <p>1 dot, 2 dots, 3 dots, 4 dots in successive figures.</p>
+
+      <h4>Pattern 3: Movement</h4>
+      <p>Square in top-left → top-right → bottom-right → bottom-left (around frame).</p>
+
+      <h4>Pattern 4: Mixed</h4>
+      <p>Element rotates AND adds element each step.</p>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Eliminate obviously wrong options first.</li>
+        <li>Check for symmetry: many sequences cycle every 4 steps.</li>
+        <li>If rotation is 45°, full cycle = 8 figures.</li>
+        <li>If 90°, full cycle = 4 figures.</li>
+        <li>For complex patterns, observe TWO things changing simultaneously.</li>
+      </ul>
+
+      <p><b>Note:</b> Detailed figure-based MCQs require visual options. In SSC actual exam, you'll see figures; the MCQ options below describe the pattern conceptually.</p>
+    `,
+    mcq: [
+      { q: "Triangle rotates 90° clockwise each step. After N→E→S, next is:", opts: ["W", "N", "E", "S"], a: 0, ex: "W = 90° from S." },
+      { q: "Square shifts one corner per figure: TL→TR→BR→BL. Next:", opts: ["TL", "TR", "BR", "Center"], a: 0, ex: "Cycles back." },
+      { q: "Dots increase by 1 each: 1,2,3,4. Next:", opts: ["3", "5", "6", "8"], a: 1, ex: "Pattern +1 → 5." },
+      { q: "Arrow flips direction: ←, →, ←, →. 5th is:", opts: ["←", "→", "↑", "↓"], a: 0, ex: "Alternating; 5th = ←." },
+      { q: "Cycle of 4: A,B,C,D,A,B,C,D. 9th is:", opts: ["A", "B", "C", "D"], a: 0, ex: "9 mod 4 = 1 → A." },
+      { q: "Hexagon → Pentagon → Square → Triangle. Next:", opts: ["Circle", "Line/Point", "Hexagon", "Pentagon"], a: 1, ex: "Sides decreasing by 1." },
+      { q: "Star rotates 45° clockwise each. After 8 rotations:", opts: ["Back to start", "180° rotated", "90° rotated", "270°"], a: 0, ex: "45×8=360°=full." },
+      { q: "Circle adds 1 line each step (radii). Step 5 has:", opts: ["3 lines", "4 lines", "5 lines", "Many lines"], a: 2, ex: "If start with 1 at step 1: step 5 has 5 lines." },
+      { q: "Pattern: filled, unfilled, filled, unfilled. 5th figure:", opts: ["Filled", "Unfilled", "Both", "Neither"], a: 0, ex: "Filled at odd positions." },
+      { q: "Arrow rotates 45° clockwise each. Started at N. After 4 steps:", opts: ["E", "S", "SE", "SW"], a: 2, ex: "45°×4 = 180° from N = S? No, 45°×4 = 180°, S. Closest: S." },
+      { q: "Cycle: ABCABC... 10th letter:", opts: ["A", "B", "C", "D"], a: 0, ex: "10 mod 3 = 1 → A." },
+      { q: "Triangle alternates: up, down, up, down. 7th:", opts: ["Up", "Down", "Sideways", "Inverted"], a: 0, ex: "Odd position = up." },
+      { q: "Square rotates 45° anti-clockwise each. Started level. After 2 steps:", opts: ["Diamond shape (90° rotated)", "Level again", "Same", "Inverted"], a: 0, ex: "45×2 = 90° rotation." },
+      { q: "Counting figures: 5,7,9,11,?", opts: ["12", "13", "15", "10"], a: 1, ex: "+2 each → 13." },
+      { q: "Pentagon, hexagon, heptagon, octagon. Sides next:", opts: ["9 (nonagon)", "10", "5", "6"], a: 0, ex: "9-sided." },
+      { q: "Patterns of dots: 1, 4, 9, 16. Next:", opts: ["20", "25", "30", "21"], a: 1, ex: "Squares." },
+      { q: "Mirror image of arrow → is:", opts: ["←", "→", "↑", "↓"], a: 0, ex: "Horizontal flip." },
+      { q: "Water image of letter 'p':", opts: ["b", "q", "d", "Same"], a: 0, ex: "p flipped vertically." },
+      { q: "Rotation 360° = original?", opts: ["Yes", "No", "Maybe", "Cannot say"], a: 0, ex: "Full circle." },
+      { q: "If figure rotates 60° each step, full cycle takes:", opts: ["3 steps", "6 steps", "12 steps", "4 steps"], a: 1, ex: "360°/60° = 6." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 18. ANALOGY (NON-VERBAL)
+  // ───────────────────────────────────────────────────────────────
+  T["reas-nv-analogy"] = {
+    body: `
+      <h2>Analogy (Non-Verbal)</h2>
+      <p>Figure A : Figure B :: Figure C : ?</p>
+      <p>Find the figure that relates to C the way B relates to A.</p>
+
+      <h3>Common Transformations</h3>
+
+      <h4>(a) Rotation</h4>
+      <p>If A→B is 90° rotation, then C→? is also 90° rotation.</p>
+
+      <h4>(b) Reflection (Mirror)</h4>
+      <p>Horizontal or vertical flip.</p>
+
+      <h4>(c) Inversion</h4>
+      <p>Upside-down.</p>
+
+      <h4>(d) Resize</h4>
+      <p>Bigger or smaller version.</p>
+
+      <h4>(e) Addition/Removal</h4>
+      <p>Add or remove an element.</p>
+
+      <h4>(f) Color/Shading Change</h4>
+      <p>Filled ↔ unfilled.</p>
+
+      <h4>(g) Combined</h4>
+      <p>Multiple changes (rotation + shading, etc.)</p>
+
+      <h3>🔥 Approach</h3>
+      <ol>
+        <li>Spot the change from A to B.</li>
+        <li>Apply same change to C.</li>
+        <li>Match with options.</li>
+      </ol>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Look at BOTH shape and position.</li>
+        <li>Check shading carefully.</li>
+        <li>Watch for multiple simultaneous changes.</li>
+        <li>Some patterns: increase/decrease elements; some rotate; combined.</li>
+      </ul>
+
+      <p><b>Note:</b> These are pattern-recognition questions; in actual SSC exam you see images. Examples below test conceptual understanding.</p>
+    `,
+    mcq: [
+      { q: "If triangle pointing up rotates 180°, it points:", opts: ["Up", "Down", "Left", "Right"], a: 1, ex: "180° flip." },
+      { q: "Mirror image of 'P' (vertical mirror) looks like:", opts: ["Q", "Reverse P (like backwards P)", "B", "p"], a: 1, ex: "Vertical flip." },
+      { q: "Water (horizontal mirror) of 'b' is:", opts: ["d", "p", "q", "Same"], a: 1, ex: "Reflected top-bottom." },
+      { q: "If A rotates 90° CW to B, C must rotate:", opts: ["90° CW", "90° CCW", "180°", "Same"], a: 0, ex: "Same transformation." },
+      { q: "If A has 1 element, B has 2, then C has 3 → ? has:", opts: ["1", "2", "3", "4"], a: 3, ex: "+1 pattern." },
+      { q: "Square with one dot inside → square with two dots. So Pentagon with one dot →:", opts: ["Pentagon with two dots", "Square with two dots", "Hexagon", "Triangle"], a: 0, ex: "Same shape, +1 dot." },
+      { q: "If A→B reflects horizontally, then C→? does:", opts: ["Same reflection", "Vertical reflection", "Rotation", "No change"], a: 0, ex: "Apply same transformation." },
+      { q: "If A→B adds a line, then C→?:", opts: ["Adds a line", "Removes line", "Rotates", "Same"], a: 0, ex: "Same operation." },
+      { q: "If A→B shrinks shape, then C→?:", opts: ["Shrinks", "Grows", "No change", "Inverts"], a: 0, ex: "Same transformation." },
+      { q: "Triangle becomes inverted triangle. Square becomes:", opts: ["Inverted square (rotated 180°)", "Diamond", "Same", "Pentagon"], a: 0, ex: "Apply same inversion." },
+      { q: "Filled circle → unfilled circle. Filled square →:", opts: ["Unfilled square", "Filled square", "Empty", "Filled triangle"], a: 0, ex: "Color change." },
+      { q: "Star with 5 points → star with 6 points. Pentagon (5 sides) →:", opts: ["Hexagon (6 sides)", "Square", "Heptagon", "Triangle"], a: 0, ex: "+1 element." },
+      { q: "If A→B rotates 45° CW, C→? also rotates:", opts: ["45° CW", "90° CW", "45° CCW", "0°"], a: 0, ex: "Same angle and direction." },
+      { q: "Circle with 1 line → circle with 2 lines. Square with 1 line →:", opts: ["Square with 2 lines", "Circle with 2 lines", "Triangle", "Pentagon"], a: 0, ex: "Maintain shape; +1 line." },
+      { q: "Big triangle → small triangle. Big square →:", opts: ["Small square", "Big circle", "Pentagon", "Diamond"], a: 0, ex: "Shrink, same shape." },
+      { q: "Rectangle flipped horizontally is:", opts: ["Same rectangle", "Vertical mirror image", "Rotated 90°", "Inverted"], a: 0, ex: "Symmetric — same." },
+      { q: "If R is mirror of B, then which letter mirror is L?", opts: ["⊐ (backwards L)", "T", "Z", "Cannot say"], a: 0, ex: "L flipped horizontally." },
+      { q: "Arrow → flips up to ↑. Arrow ← flips:", opts: ["To →", "Stays ←", "To ↑", "To ↓"], a: 0, ex: "Horizontal flip ← becomes →." },
+      { q: "If A:B :: C:D and A→B is reflection, C→D is:", opts: ["Reflection", "Rotation", "No change", "Random"], a: 0, ex: "Same operation." },
+      { q: "Combined: A rotates 90° AND becomes black. C must:", opts: ["Rotate 90° AND become black", "Only rotate", "Only color change", "Either"], a: 0, ex: "Apply BOTH changes." }
+    ]
+  };
+
+  // ───────────────────────────────────────────────────────────────
+  // 19. CLASSIFICATION (NON-VERBAL)
+  // ───────────────────────────────────────────────────────────────
+  T["reas-nv-classification"] = {
+    body: `
+      <h2>Classification (Non-Verbal)</h2>
+      <p>Given 4 or 5 figures, identify the one that's different from others. SSC asks 1-2 questions.</p>
+
+      <h3>Common Distinguishing Features</h3>
+      <ul>
+        <li><b>Shape</b>: 3 triangles + 1 square → square is odd.</li>
+        <li><b>Number of sides</b>: 3, 4, 5 are different from 6, 7, 8.</li>
+        <li><b>Open vs closed</b> figures.</li>
+        <li><b>Symmetry</b>: symmetric vs asymmetric.</li>
+        <li><b>Filled/unfilled</b>.</li>
+        <li><b>Number of internal elements</b> (dots, lines).</li>
+        <li><b>Orientation</b> (up, down, left, right).</li>
+        <li><b>Color/shading patterns</b>.</li>
+        <li><b>Number of intersections</b>.</li>
+        <li><b>Curved vs straight</b> lines.</li>
+        <li><b>Convex vs concave</b>.</li>
+        <li><b>Rotational symmetry</b>.</li>
+      </ul>
+
+      <h3>🔥 Approach</h3>
+      <ol>
+        <li>Compare all figures together.</li>
+        <li>Identify common feature(s).</li>
+        <li>Find which lacks that feature.</li>
+        <li>If two seem odd, check other features.</li>
+      </ol>
+
+      <h3>🎯 Tips</h3>
+      <ul>
+        <li>Count sides, vertices, intersections.</li>
+        <li>Check symmetry axes.</li>
+        <li>Watch shading direction and pattern.</li>
+        <li>Multiple odd features possible — pick most obvious.</li>
+      </ul>
+
+      <p><b>Note:</b> These are visual questions; MCQs below test concepts.</p>
+    `,
+    mcq: [
+      { q: "Among: Triangle, Square, Pentagon, Circle. Odd one:", opts: ["Triangle", "Square", "Pentagon", "Circle"], a: 3, ex: "Others have straight sides; Circle is curved." },
+      { q: "Among: 3-sided, 4-sided, 5-sided, 6-sided polygons. Odd:", opts: ["3", "4", "5", "6"], a: 1, ex: "If counting odd-sided polygons: 4 is the only even-sided." },
+      { q: "Among: 4 letters (P, Q, R, S). One is asymmetric. Most asymmetric:", opts: ["P", "Q", "R", "S"], a: 3, ex: "S has no symmetry axis." },
+      { q: "Filled, filled, unfilled, filled circles. Odd one:", opts: ["1st", "2nd", "3rd (unfilled)", "4th"], a: 2, ex: "Unfilled is odd." },
+      { q: "Among 5 shapes: 4 have rotational symmetry, 1 doesn't. Odd one:", opts: ["Triangle", "Square", "Pentagon", "Letter F (no symmetry)"], a: 3, ex: "F has no rotational symmetry." },
+      { q: "4 figures pointing N, S, E, W. Which is opposite to N?", opts: ["N", "S", "E", "W"], a: 1, ex: "S is opposite." },
+      { q: "Among 5 shapes, 4 are open (like C, U, L) and 1 is closed (O). Odd:", opts: ["C", "U", "L", "O"], a: 3, ex: "O is closed." },
+      { q: "Letters: A, M, T, V. Odd:", opts: ["A", "M", "T", "V"], a: 2, ex: "A, M, V have V-shape elements; T does not (it's a cross)." },
+      { q: "Among triangles: equilateral, isosceles, scalene, right. Odd:", opts: ["Equilateral", "Isosceles", "Scalene", "Right"], a: 3, ex: "Right defined by angle; others by side lengths." },
+      { q: "Among shapes: Star with 5 points, 6 points, 7 points, hexagon. Odd:", opts: ["Star 5", "Star 6", "Star 7", "Hexagon"], a: 3, ex: "Hexagon is not a star." },
+      { q: "Among 4 figures, 3 are rotations of same shape, 1 is mirror image. Odd:", opts: ["Pure rotation", "Mirror image", "Same shape", "Cannot say"], a: 1, ex: "Mirror is reflection, not rotation." },
+      { q: "Numbers: 9, 16, 25, 30. Odd:", opts: ["9", "16", "25", "30"], a: 3, ex: "Others are perfect squares; 30 is not." },
+      { q: "Words/Shapes: Pen, Pencil, Eraser, Computer. Odd:", opts: ["Pen", "Pencil", "Eraser", "Computer"], a: 3, ex: "Others manual writing tools; computer is electronic." },
+      { q: "Among arrows: ↑, →, ←, ⊕. Odd:", opts: ["↑", "→", "←", "⊕"], a: 3, ex: "Others single direction; ⊕ is multiple/symbol." },
+      { q: "Faces of dice: 1, 2, 3, 4. Odd:", opts: ["1", "2", "3", "4"], a: 2, ex: "Among these, 3 is the only odd one." },
+      { q: "Shapes: Rectangle, Parallelogram, Rhombus, Trapezium. Odd:", opts: ["Rectangle", "Parallelogram", "Rhombus", "Trapezium"], a: 3, ex: "Trapezium has only 1 pair parallel sides; others have 2." },
+      { q: "5 figures, 4 are convex polygons, 1 is concave (star). Odd:", opts: ["Square", "Pentagon", "Hexagon", "Star (concave)"], a: 3, ex: "Star is non-convex." },
+      { q: "Number with 1 in it: 11, 21, 31, 42. Odd:", opts: ["11", "21", "31", "42"], a: 3, ex: "42 has no digit 1." },
+      { q: "Among colors: Red, Blue, Yellow, Brown. Odd:", opts: ["Red", "Blue", "Yellow", "Brown"], a: 3, ex: "Brown is mix; others primary." },
+      { q: "Among objects: Bus, Train, Bike, Plane. Odd:", opts: ["Bus", "Train", "Bike", "Plane"], a: 3, ex: "Others ground vehicles; plane flies." }
+    ]
+  };
+
 })();
