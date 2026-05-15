@@ -163,7 +163,13 @@
       { q: "The Battle of Wandiwash (1760) was fought between?", opts: ["English & Dutch", "English & French", "French & Portuguese", "Mughals & British"], a: 1, ex: "Sir Eyre Coote (English) defeated Comte de Lally (French); ended French ambitions in India." },
       { q: "Battle of Bedara (1759) ended whose ambitions in India?", opts: ["French", "Dutch", "Portuguese", "Danish"], a: 1, ex: "Robert Clive defeated the Dutch — ended their political ambitions in India." },
       { q: "VOC stood for?", opts: ["Vijayanagara Oriental Company", "Vereenigde Oost-Indische Compagnie (Dutch EIC)", "Venetian Overseas Council", "Voyage of Cathay"], a: 1, ex: "Dutch East India Company, founded 1602 — the world's first joint-stock company." },
-      { q: "Goa, Daman & Diu were liberated from the Portuguese in?", opts: ["1947", "1954", "1961", "1971"], a: 2, ex: "Operation Vijay, December 1961." }
+      { q: "Goa, Daman & Diu were liberated from the Portuguese in?", opts: ["1947", "1954", "1961", "1971"], a: 2, ex: "Operation Vijay, December 1961." },
+      { q: "First Englishman at Akbar's court was?", opts: ["Thomas Roe", "Ralph Fitch", "William Hawkins", "John Mildenhall"], a: 3, ex: "John Mildenhall 1599." },
+      { q: "Sir Thomas Roe was ambassador to?", opts: ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"], a: 1, ex: "James I to Jahangir (1615)." },
+      { q: "Carnatic Wars were between?", opts: ["British and Dutch", "British and French", "French and Portuguese", "British and Marathas"], a: 1, ex: "1746-1763 in South India." },
+      { q: "Battle of Wandiwash (1760) winner?", opts: ["Dupleix", "Eyre Coote (British)", "Lally", "Bussy"], a: 1, ex: "Ended French ambition in India." },
+      { q: "Madras founded by British in?", opts: ["1639 (Francis Day)", "1640", "1612", "1690"], a: 0, ex: "Fort St. George." },
+      { q: "Bombay was acquired by British from?", opts: ["Marathas", "Portuguese (dowry, 1661)", "Dutch", "French"], a: 1, ex: "Catherine of Braganza's dowry to Charles II." }
     ]
   };
 
@@ -339,7 +345,15 @@
       { q: "By the Treaty of Allahabad (1765), the East India Company got Diwani rights of?", opts: ["Bengal only", "Bengal & Bihar", "Bengal, Bihar & Orissa", "Bengal, Bihar, Orissa & Awadh"], a: 2, ex: "Diwani (revenue collection) rights for Bengal, Bihar and Orissa were granted by Shah Alam II for an annual tribute of ₹26 lakh." },
       { q: "Diwani referred to which administrative function?", opts: ["Police & justice", "Revenue & civil administration", "Military command", "Religious affairs"], a: 1, ex: "Diwani = revenue collection and civil administration; Nizamat = police, judicial and military." },
       { q: "Who abolished the Dual System of Government in Bengal?", opts: ["Robert Clive", "Warren Hastings", "Cornwallis", "Wellesley"], a: 1, ex: "Warren Hastings abolished it in 1772 — and shifted the treasury from Murshidabad to Calcutta." },
-      { q: "The Bengal Famine of 1770 killed approximately?", opts: ["10 lakh", "50 lakh", "1 crore (one-third of Bengal)", "5 crore"], a: 2, ex: "About 1 crore people — one-third of Bengal's population — died; the Company's revenue collection actually rose during the famine." }
+      { q: "The Bengal Famine of 1770 killed approximately?", opts: ["10 lakh", "50 lakh", "1 crore (one-third of Bengal)", "5 crore"], a: 2, ex: "About 1 crore people — one-third of Bengal's population — died; the Company's revenue collection actually rose during the famine." },
+      { q: "Battle of Plassey was fought in?", opts: ["1757", "1764", "1761", "1748"], a: 0, ex: "23 June 1757; Robert Clive defeated Siraj-ud-Daulah." },
+      { q: "Battle of Buxar was in?", opts: ["1757", "1764", "1761", "1772"], a: 1, ex: "1764; Hector Munro defeated combined forces of Mir Qasim, Shuja-ud-Daulah, Shah Alam II." },
+      { q: "Treaty of Allahabad (1765) was signed by Clive with?", opts: ["Mir Qasim", "Shah Alam II", "Siraj-ud-Daulah", "Tipu Sultan"], a: 1, ex: "Shah Alam II granted Diwani of Bengal, Bihar, Orissa to EIC." },
+      { q: "Mir Jafar was traitor in which battle?", opts: ["Plassey (1757)", "Buxar", "Wandiwash", "Both"], a: 0, ex: "Mir Jafar betrayed Siraj at Plassey; was made puppet Nawab by Clive." },
+      { q: "Diwani of Bengal meant?", opts: ["Right to military command", "Right to collect revenue", "Right to mint coins", "Right to govern"], a: 1, ex: "Revenue collection right; gave Company financial muscle." },
+      { q: "Bengal Famine of 1770 was during which Nawab?", opts: ["Mir Jafar", "Mir Qasim", "Najmuddaula", "Saif-ud-Daulah"], a: 2, ex: "Najmuddaula was nominal Nawab; real power with Company." },
+      { q: "Plassey was fought in district?", opts: ["Murshidabad (West Bengal)", "Patna", "Burdwan", "Calcutta"], a: 0, ex: "Polasi village, Nadia district, West Bengal." },
+      { q: "Black Hole of Calcutta incident (1756) led to?", opts: ["Battle of Plassey", "Battle of Buxar", "Treaty of Allahabad", "Carnatic Wars"], a: 0, ex: "British prisoners died in Bengal jail; led to Clive's expedition and Plassey." }
     ]
   };
 
@@ -509,7 +523,16 @@
       { q: "Who was the Governor General during the Fourth Anglo-Mysore War?", opts: ["Warren Hastings", "Cornwallis", "Wellesley", "Bentinck"], a: 2, ex: "Lord Wellesley used Subsidiary Alliance pressure; Tipu refused and was attacked." },
       { q: "Tipu's 'Tree of Liberty' at Seringapatam symbolized?", opts: ["Hindu nationalism", "Solidarity with French Revolution", "Trade with English", "Sufi mysticism"], a: 1, ex: "Tipu identified with the French Revolution; called himself 'Citizen Tipu' and joined the Jacobin Club." },
       { q: "After Tipu's death, who was made Maharaja of Mysore?", opts: ["Tipu's son Abdul Khaliq", "Krishnaraja Wadiyar III (5-year-old)", "Direct British rule", "Nizam"], a: 1, ex: "The old Wadiyar dynasty was restored with the 5-year-old Krishnaraja III; Subsidiary Alliance imposed." },
-      { q: "Mysorean rockets were a precursor of?", opts: ["Modern artillery", "Congreve rockets in Europe", "Naval mines", "Submarines"], a: 1, ex: "Captured Mysorean rockets inspired Sir William Congreve's rockets used by the British in the Napoleonic Wars and the War of 1812." }
+      { q: "Mysorean rockets were a precursor of?", opts: ["Modern artillery", "Congreve rockets in Europe", "Naval mines", "Submarines"], a: 1, ex: "Captured Mysorean rockets inspired Sir William Congreve's rockets used by the British in the Napoleonic Wars and the War of 1812." },
+      { q: "Number of Anglo-Mysore Wars:", opts: ["2", "3", "4", "5"], a: 2, ex: "Four wars between 1767-1799." },
+      { q: "First Anglo-Mysore War (1767-69) was led by?", opts: ["Tipu", "Haider Ali", "Both", "Mahadji"], a: 1, ex: "Haider Ali; ended in Treaty of Madras." },
+      { q: "Tipu Sultan was killed in?", opts: ["1782", "1792", "1799 (Seringapatam)", "1805"], a: 2, ex: "4th Anglo-Mysore War; died defending Srirangapatna against Wellesley." },
+      { q: "Treaty of Mangalore (1784) ended which war?", opts: ["1st", "2nd Anglo-Mysore", "3rd", "4th"], a: 1, ex: "2nd Anglo-Mysore War (1780-84); first treaty where Indian power was equal partner." },
+      { q: "Treaty of Seringapatam (1792) ended?", opts: ["1st", "2nd", "3rd Anglo-Mysore", "4th"], a: 2, ex: "3rd War; Tipu lost half his territory; gave two sons as hostages." },
+      { q: "Tipu's father was?", opts: ["Hyder Ali", "Aurangzeb", "Akbar", "Wodeyar"], a: 0, ex: "Hyder Ali founded Mysore power; Tipu succeeded in 1782." },
+      { q: "Wellesley's subsidiary alliance was used against?", opts: ["Tipu Sultan", "Marathas", "Both A and B (with others)", "Sikhs"], a: 2, ex: "Used to subjugate Mysore, Marathas, Hyderabad and others." },
+      { q: "Battle of Pollilur (1780) was a defeat for?", opts: ["British (vs Haider Ali)", "Haider Ali", "Tipu", "Marathas"], a: 0, ex: "Worst British defeat in India till 1857; Haider Ali captured Col. Baillie." },
+      { q: "Tipu's capital was?", opts: ["Mysuru", "Srirangapatna", "Mangalore", "Madikeri"], a: 1, ex: "Srirangapatna on Kaveri river; site of his death 1799." }
     ]
   };
 
@@ -699,7 +722,15 @@
       { q: "Holkar's resistance ended with the Treaty of?", opts: ["Salbai 1782", "Surji-Arjungaon 1803", "Rajghat 1805", "Mandsaur 1818"], a: 2, ex: "Treaty of Rajghat 1805 — under Cornwallis (2nd term); Holkar got soft terms." },
       { q: "Pindaris were?", opts: ["A Maratha army regiment", "Irregular plundering bands", "British mercenaries", "Mughal officials"], a: 1, ex: "Mixed-origin freebooters who plundered for booty rather than pay; their raids triggered the Third Anglo-Maratha War." },
       { q: "Peshwaship was abolished after which war?", opts: ["First Anglo-Maratha", "Second Anglo-Maratha", "Third Anglo-Maratha", "Battle of Panipat III"], a: 2, ex: "After 1818 by Lord Hastings; Baji Rao II was pensioned off to Bithur." },
-      { q: "After the Third Anglo-Maratha War, Baji Rao II was pensioned off to?", opts: ["Pune", "Satara", "Bithur (Kanpur)", "Nagpur"], a: 2, ex: "He was sent to Bithur near Kanpur with an annual pension of ₹8 lakh; his adopted son Nana Sahib later led the 1857 revolt." }
+      { q: "After the Third Anglo-Maratha War, Baji Rao II was pensioned off to?", opts: ["Pune", "Satara", "Bithur (Kanpur)", "Nagpur"], a: 2, ex: "He was sent to Bithur near Kanpur with an annual pension of ₹8 lakh; his adopted son Nana Sahib later led the 1857 revolt." },
+      { q: "Number of Anglo-Maratha Wars:", opts: ["1", "2", "3", "4"], a: 2, ex: "Three wars: 1775-82, 1803-05, 1817-19." },
+      { q: "First Anglo-Maratha War ended with?", opts: ["Treaty of Salbai (1782)", "Treaty of Madras", "Treaty of Bassein", "Treaty of Pune"], a: 0, ex: "Treaty of Salbai 1782; ended 7-year war; 20 years peace." },
+      { q: "Treaty of Bassein (1802) was signed by?", opts: ["Madhavrao", "Baji Rao II (Peshwa)", "Mahadji Scindia", "Nana Phadnavis"], a: 1, ex: "Peshwa Baji Rao II accepted subsidiary alliance after defeat at Poona." },
+      { q: "Second Anglo-Maratha War was fought during?", opts: ["Cornwallis", "Wellesley", "Hastings", "Dalhousie"], a: 1, ex: "Lord Wellesley 1803-05; broke Maratha power." },
+      { q: "Third Anglo-Maratha War ended in?", opts: ["1819", "1818 (Marathas defeated)", "1825", "1857"], a: 1, ex: "1817-18; Peshwa's office abolished; Marathas completely subjugated." },
+      { q: "Battle of Khadki (1817) was during which war?", opts: ["2nd Anglo-Maratha", "3rd Anglo-Maratha", "Carnatic", "Anglo-Sikh"], a: 1, ex: "Near Pune; Peshwa Baji Rao II defeated." },
+      { q: "Mahadji Scindia was associated with?", opts: ["Pune (Peshwa court)", "Marathas (Gwalior)", "Sikhs", "Tipu"], a: 1, ex: "Scindia of Gwalior; powerful Maratha sardar before Anglo-Maratha wars." },
+      { q: "Five Maratha houses included:", opts: ["Peshwa, Scindia, Holkar, Gaekwad, Bhonsle", "Holkar only", "Peshwa only", "Random"], a: 0, ex: "5 dominant houses formed Maratha Confederacy." }
     ]
   };
 
@@ -882,7 +913,15 @@
       { q: "The Treaty of Bhairowal (1846) created?", opts: ["British annexation of Punjab", "A Council of Regency under British Resident", "Subsidiary Alliance with Punjab", "Independent Sikh state"], a: 1, ex: "Council of Regency of 8 Sikh sardars under Resident Henry Lawrence; Rani Jindan removed." },
       { q: "Second Anglo-Sikh War was triggered by the revolt of?", opts: ["Sher Singh", "Mul Raj at Multan", "Gulab Singh", "Chattar Singh"], a: 1, ex: "Diwan Mul Raj of Multan revolted in April 1848; British envoys Vans Agnew and Anderson were murdered." },
       { q: "Punjab was annexed by the British in?", opts: ["1846", "1848", "1849", "1856"], a: 2, ex: "29 March 1849, by Lord Dalhousie after the decisive Battle of Gujrat (Feb 1849)." },
-      { q: "After Punjab's annexation, who was the first administrative head as Chief Commissioner?", opts: ["Henry Lawrence", "John Lawrence", "Mountstuart Elphinstone", "Charles Metcalfe"], a: 1, ex: "John Lawrence (from 1853); the initial Board of Three (1849–53) consisted of Henry Lawrence, John Lawrence and Charles Mansel." }
+      { q: "After Punjab's annexation, who was the first administrative head as Chief Commissioner?", opts: ["Henry Lawrence", "John Lawrence", "Mountstuart Elphinstone", "Charles Metcalfe"], a: 1, ex: "John Lawrence (from 1853); the initial Board of Three (1849–53) consisted of Henry Lawrence, John Lawrence and Charles Mansel." },
+      { q: "Number of Anglo-Sikh Wars:", opts: ["1", "2", "3", "4"], a: 1, ex: "Two wars: 1845-46 and 1848-49." },
+      { q: "First Anglo-Sikh War ended in?", opts: ["Treaty of Lahore (1846)", "Treaty of Bhairowal", "Treaty of Salbai", "Treaty of Allahabad"], a: 0, ex: "March 1846; Sikhs lost Jullundur Doab; paid ₹1.5 crore indemnity." },
+      { q: "Second Anglo-Sikh War ended with?", opts: ["Annexation of Punjab (1849)", "Treaty only", "British defeat", "Status quo"], a: 0, ex: "Punjab annexed in March 1849 under Dalhousie." },
+      { q: "Maharaja Ranjit Singh died in?", opts: ["1830", "1839", "1849", "1857"], a: 1, ex: "1839; weak successors and palace intrigues led to fall of Sikh empire." },
+      { q: "Lord Dalhousie annexed Punjab in?", opts: ["1845", "1849", "1853", "1856"], a: 1, ex: "After Second Anglo-Sikh War." },
+      { q: "Maharaja Duleep Singh was?", opts: ["Last Sikh ruler", "First Sikh ruler", "Diwan", "British general"], a: 0, ex: "Last Maharaja; deposed at age 10 in 1849; sent to England." },
+      { q: "Battle of Sobraon (1846) was in which Anglo-Sikh war?", opts: ["First (1846)", "Second", "Both", "Neither"], a: 0, ex: "Decisive British victory; ended First Anglo-Sikh War." },
+      { q: "Battle of Chillianwala (1849) was famous for?", opts: ["British defeat in Second Anglo-Sikh War", "Easy British victory", "Sikh defeat", "Maratha victory"], a: 0, ex: "Heavy British losses; though ultimately won the war at Gujrat." }
     ]
   };
 
@@ -1138,7 +1177,13 @@
       { q: "First state to lapse under the Doctrine of Lapse was?", opts: ["Satara", "Jhansi", "Nagpur", "Awadh"], a: 0, ex: "Satara was the first to be annexed under the Doctrine of Lapse in 1848." },
       { q: "First railway line in India (1853) ran between?", opts: ["Howrah & Hooghly", "Bombay & Thane", "Madras & Arcot", "Lahore & Karnal"], a: 1, ex: "Bombay-Thane, 16 April 1853, 34 km, under Dalhousie." },
       { q: "Wood's Despatch (1854) is called the?", opts: ["Magna Carta of English education in India", "Roadmap of railways", "Charter of civil services", "Foundation of police"], a: 0, ex: "1854 Wood's Despatch — laid the framework of modern Indian education system; led to Calcutta, Bombay, Madras universities (1857)." },
-      { q: "Who was the last Governor General of Company India and the first Viceroy?", opts: ["Dalhousie", "Canning", "Wellesley", "Bentinck"], a: 1, ex: "Lord Canning — straddled the GoI Act 1858 transition." }
+      { q: "Who was the last Governor General of Company India and the first Viceroy?", opts: ["Dalhousie", "Canning", "Wellesley", "Bentinck"], a: 1, ex: "Lord Canning — straddled the GoI Act 1858 transition." },
+      { q: "First Governor of Bengal:", opts: ["Clive", "Warren Hastings", "Cornwallis", "Wellesley"], a: 1, ex: "Warren Hastings (1772-74); then became 1st Governor-General." },
+      { q: "First Governor-General of Bengal:", opts: ["Clive", "Warren Hastings (1774)", "Cornwallis", "Wellesley"], a: 1, ex: "Under Regulating Act 1773." },
+      { q: "First Governor-General of India (1833):", opts: ["Bentinck", "Wellesley", "Hastings", "Cornwallis"], a: 0, ex: "Charter Act 1833 made him GG of India." },
+      { q: "Permanent Settlement was introduced by?", opts: ["Hastings", "Cornwallis (1793)", "Wellesley", "Bentinck"], a: 1, ex: "Bengal, Bihar, Orissa; fixed land revenue with Zamindars." },
+      { q: "Sati was abolished by?", opts: ["Bentinck (1829)", "Cornwallis", "Dalhousie", "Wellesley"], a: 0, ex: "With Raja Ram Mohan Roy's support." },
+      { q: "Doctrine of Lapse was introduced by?", opts: ["Wellesley", "Dalhousie", "Cornwallis", "Hastings"], a: 1, ex: "Annexed Satara, Jhansi, Nagpur, Awadh etc." }
     ]
   };
 
@@ -1695,7 +1740,14 @@
       { q: "Strachey Famine Commission was set up in?", opts: ["1860", "1880", "1900", "1943"], a: 1, ex: "1880, after the Great Famine of 1876–78; first Famine Code." },
       { q: "First Indian-owned cotton mill was set up by?", opts: ["JN Tata", "Cowasjee Davar (1854 Bombay)", "GD Birla", "Premchand Roychand"], a: 1, ex: "Cowasjee Nanabhoy Davar started the first Indian-owned cotton mill at Bombay in 1854." },
       { q: "TISCO (Jamshedpur) was founded in?", opts: ["1854", "1893", "1907", "1935"], a: 2, ex: "Tata Iron and Steel Company founded 1907 by J.N. Tata; production began 1912." },
-      { q: "Reserve Bank of India became operational on?", opts: ["1 April 1934", "1 April 1935", "1 April 1947", "26 January 1950"], a: 1, ex: "RBI Act 1934; operations from 1 April 1935." }
+      { q: "Reserve Bank of India became operational on?", opts: ["1 April 1934", "1 April 1935", "1 April 1947", "26 January 1950"], a: 1, ex: "RBI Act 1934; operations from 1 April 1935." },
+      { q: "Permanent Settlement was for which area?", opts: ["Bengal-Bihar-Orissa", "Madras", "Bombay", "Punjab"], a: 0, ex: "Cornwallis 1793; zamindars fixed land revenue." },
+      { q: "Ryotwari system was introduced in?", opts: ["Bengal", "Madras and Bombay", "Punjab", "UP"], a: 1, ex: "Direct settlement with cultivator (ryot); Thomas Munro, Elphinstone." },
+      { q: "Mahalwari system was in?", opts: ["Bengal", "UP, Punjab, Central India", "Madras", "Bombay"], a: 1, ex: "Group of villages (mahal) settled together; Holt Mackenzie." },
+      { q: "First railway in India ran between?", opts: ["Bombay-Thane (1853)", "Delhi-Agra", "Madras-Bangalore", "Calcutta-Howrah"], a: 0, ex: "16 April 1853; 34 km." },
+      { q: "First telegraph line in India was?", opts: ["Calcutta-Diamond Harbour (1851)", "Bombay-Pune", "Delhi-Agra", "Madras-Bangalore"], a: 0, ex: "1851; commercial use from 1854." },
+      { q: "Charter Act of 1813 ended EIC monopoly on trade with India except for?", opts: ["Tea and China trade", "Cotton", "Spices", "All"], a: 0, ex: "Tea and China trade monopoly retained till 1833." },
+      { q: "Drain of Wealth theory was given by?", opts: ["Dadabhai Naoroji", "R.C. Dutt", "Both", "Tilak"], a: 2, ex: "Naoroji's 'Poverty and Un-British Rule in India' (1901); R.C. Dutt's economic history." }
     ]
   };
 
@@ -1984,7 +2036,10 @@
       { q: "First school for girls in India was opened by?", opts: ["Vidyasagar", "Phule (1848 Pune)", "Annie Besant", "Pandita Ramabai"], a: 1, ex: "Jyotirao and Savitribai Phule opened the first school for girls at Pune in 1848." },
       { q: "Mahad Satyagraha (1927) was led by?", opts: ["Gandhi", "Ambedkar", "Periyar", "Narayana Guru"], a: 1, ex: "Ambedkar — for the right of Dalits to drink water from the public Chavdar Tank." },
       { q: "Slogan 'One caste, one religion, one God' is associated with?", opts: ["Periyar", "Narayana Guru", "Ambedkar", "Phule"], a: 1, ex: "Sree Narayana Guru of Kerala; founded SNDP (1903)." },
-      { q: "Sarda Act (1929) fixed the minimum marriage age for girls at?", opts: ["12", "14", "16", "18"], a: 1, ex: "14 for girls and 18 for boys; introduced by H.B. Sarda under Lord Irwin." }
+      { q: "Sarda Act (1929) fixed the minimum marriage age for girls at?", opts: ["12", "14", "16", "18"], a: 1, ex: "14 for girls and 18 for boys; introduced by H.B. Sarda under Lord Irwin." },
+      { q: "Brahmo Samaj founder:", opts: ["Raja Ram Mohan Roy (1828)", "Dayananda Saraswati", "Vivekananda", "Tagore"], a: 0, ex: "1828; opposed Sati, caste; monotheism." },
+      { q: "Arya Samaj founder:", opts: ["Raja Ram Mohan Roy", "Dayananda Saraswati (1875)", "Vivekananda", "Keshab Sen"], a: 1, ex: "Bombay 1875; 'Back to Vedas'; shuddhi." },
+      { q: "Ramakrishna Mission founder:", opts: ["Ramakrishna Paramhansa", "Swami Vivekananda (1897)", "Sister Nivedita", "Aurobindo"], a: 1, ex: "Belur Math; spread Hinduism abroad." }
     ]
   };
 
@@ -2239,7 +2294,12 @@
       { q: "Queen Victoria's Proclamation (1858) is also called?", opts: ["India Charter", "Magna Carta of Indians", "Royal Pardon", "Crown Manifesto"], a: 1, ex: "Read by Canning at Allahabad on 1 November 1858 — the 'Magna Carta of Indians'." },
       { q: "Doctrine of Lapse was abandoned by?", opts: ["Canning", "Curzon", "Queen Victoria's Proclamation 1858", "Mountbatten"], a: 2, ex: "Queen Victoria's Proclamation (1858) abandoned the Doctrine; reaffirmed by the Sanad of Adoption (1862)." },
       { q: "V.D. Savarkar called the 1857 revolt?", opts: ["Sepoy Mutiny", "Feudal Reaction", "First War of Indian Independence", "Civil Rebellion"], a: 2, ex: "In his 1909 book 'The Indian War of Independence, 1857'." },
-      { q: "Tatya Tope was hanged on?", opts: ["8 April 1857", "17 June 1858", "18 April 1859", "20 September 1857"], a: 2, ex: "18 April 1859 at Shivpuri; betrayed by Man Singh of Narwar." }
+      { q: "Tatya Tope was hanged on?", opts: ["8 April 1857", "17 June 1858", "18 April 1859", "20 September 1857"], a: 2, ex: "18 April 1859 at Shivpuri; betrayed by Man Singh of Narwar." },
+      { q: "Revolt of 1857 started on?", opts: ["29 March (Mangal Pandey)", "10 May (Meerut)", "Both", "20 September"], a: 2, ex: "Mangal Pandey 29 March; Meerut sepoys 10 May; spread from there." },
+      { q: "Sepoy who first revolted at Barrackpore?", opts: ["Mangal Pandey", "Tatya Tope", "Nana Sahib", "Kunwar Singh"], a: 0, ex: "34th Native Infantry; hanged 8 April 1857." },
+      { q: "Last Mughal Emperor:", opts: ["Akbar II", "Bahadur Shah Zafar", "Shah Alam II", "Akbar Shah III"], a: 1, ex: "Exiled to Rangoon after 1857; died 1862." },
+      { q: "Government of India Act 1858 transferred power from?", opts: ["EIC to British Crown", "Crown to EIC", "Crown to Parliament", "EIC to Indian Parliament"], a: 0, ex: "Direct Crown rule; Sec of State for India; abolished EIC." },
+      { q: "Queen Victoria became Empress of India in?", opts: ["1857", "1858", "1876 (Royal Titles Act)", "1900"], a: 2, ex: "Queen Empress declared 1876; first Delhi Durbar 1877." }
     ]
   };
 
@@ -2392,7 +2452,13 @@
       { q: "Gandhi presided over INC at?", opts: ["Lucknow 1916", "Belgaum 1924", "Lahore 1929", "Karachi 1931"], a: 1, ex: "Belgaum 1924 — Gandhi's only term as Congress president." },
       { q: "The Lahore session of 1929 is famous for?", opts: ["Quit India resolution", "Purna Swaraj declaration", "Surat split", "Lucknow Pact"], a: 1, ex: "Nehru presided; Purna Swaraj resolution; 26 January 1930 declared first Independence Day." },
       { q: "First rural session of INC was held at?", opts: ["Faizpur 1936", "Belgaum 1924", "Wardha 1942", "Tripuri 1939"], a: 0, ex: "Faizpur 1936 — under Jawaharlal Nehru's presidency." },
-      { q: "Maulana Abul Kalam Azad was Congress President from?", opts: ["1936–39", "1940–46", "1946–48", "1939–40"], a: 1, ex: "Longest tenure as Congress president (1940–46)." }
+      { q: "Maulana Abul Kalam Azad was Congress President from?", opts: ["1936–39", "1940–46", "1946–48", "1939–40"], a: 1, ex: "Longest tenure as Congress president (1940–46)." },
+      { q: "INC was founded by?", opts: ["A.O. Hume", "Dadabhai Naoroji", "Gandhi", "Tilak"], a: 0, ex: "Allan Octavian Hume, retired British civil servant, 28 Dec 1885 at Bombay." },
+      { q: "First INC session location?", opts: ["Bombay (Gokuldas Tejpal College)", "Calcutta", "Madras", "Delhi"], a: 0, ex: "December 28-30, 1885." },
+      { q: "First INC President?", opts: ["Dadabhai Naoroji", "W.C. Bonnerjee", "Surendranath Banerjee", "A.O. Hume"], a: 1, ex: "Woomesh Chunder Bonnerjee — barrister." },
+      { q: "Lord Dufferin was Viceroy during INC's founding?", opts: ["True", "False (different Viceroy)", "Unclear", "Wellesley"], a: 0, ex: "Lord Dufferin (1884-88) viewed Congress with caution." },
+      { q: "First Muslim Congress President?", opts: ["Maulana Azad", "Badruddin Tyabji (1887)", "Jinnah", "Rahimtoola"], a: 1, ex: "Badruddin Tyabji at Madras 1887." },
+      { q: "Sarojini Naidu was first Indian woman Congress President in?", opts: ["1917", "1925 (Kanpur session)", "1931", "1942"], a: 1, ex: "Annie Besant was the very first woman president (1917)." }
     ]
   };
 
@@ -2625,7 +2691,13 @@
       { q: "Separate electorates for Muslims were introduced by?", opts: ["Morley-Minto 1909", "Mont-Ford 1919", "GoI Act 1935", "Communal Award 1932"], a: 0, ex: "Indian Councils Act 1909 (Morley-Minto Reforms)." },
       { q: "First Indian appointed to Viceroy's Executive Council (1909) was?", opts: ["Naoroji", "S.P. Sinha", "Tej Bahadur Sapru", "M.K. Gandhi"], a: 1, ex: "Satyendra Prasanna Sinha — Law Member, 1909." },
       { q: "Lucknow Pact (1916) was signed between?", opts: ["INC & British", "INC & Muslim League", "Moderates & Extremists", "Congress & Princes"], a: 1, ex: "INC and Muslim League jointly demanded self-rule; Tilak and Jinnah negotiated." },
-      { q: "Jinnah was called 'Ambassador of Hindu-Muslim Unity' by?", opts: ["Tilak", "Sarojini Naidu", "Gandhi", "Naoroji"], a: 1, ex: "Sarojini Naidu — for his work on the Lucknow Pact 1916." }
+      { q: "Jinnah was called 'Ambassador of Hindu-Muslim Unity' by?", opts: ["Tilak", "Sarojini Naidu", "Gandhi", "Naoroji"], a: 1, ex: "Sarojini Naidu — for his work on the Lucknow Pact 1916." },
+      { q: "Surat Split (1907) divided Congress into?", opts: ["Moderates and Extremists", "Hindus and Muslims", "North and South", "Old and Young"], a: 0, ex: "Tilak group (Garam Dal) vs Gokhale group (Naram Dal)." },
+      { q: "Father of Indian Unrest:", opts: ["Naoroji", "Gokhale", "Tilak", "Lala Lajpat Rai"], a: 2, ex: "Valentine Chirol's term for Tilak." },
+      { q: "Gandhi's political guru:", opts: ["Tilak", "Gokhale", "Naoroji", "Mehta"], a: 1, ex: "G.K. Gokhale; Gandhi called him 'political guru'." },
+      { q: "Lal-Bal-Pal refers to?", opts: ["Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal", "Three Lal", "Famous trio different", "Random"], a: 0, ex: "Triumvirate of extremists." },
+      { q: "Lucknow Pact (1916) was between?", opts: ["Congress and Muslim League", "British and Congress", "Hindus and Sikhs", "Congress and Britain"], a: 0, ex: "Tilak + Jinnah; agreed on separate electorates for Muslims." },
+      { q: "Annie Besant was associated with?", opts: ["Home Rule League", "Theosophy", "Both", "Khilafat"], a: 2, ex: "Founded Home Rule League 1916; Theosophical Society." }
     ]
   };
 
@@ -2814,7 +2886,13 @@
       { q: "Muslim League was founded at?", opts: ["Aligarh", "Lucknow", "Dacca", "Lahore"], a: 2, ex: "30 December 1906 at Dacca; Aga Khan III as founding president." },
       { q: "Founding President of Muslim League was?", opts: ["Sir Syed Ahmed Khan", "Aga Khan III", "Nawab Salimullah", "Jinnah"], a: 1, ex: "Aga Khan III (Sultan Muhammad Shah) — founding president." },
       { q: "Bengal partition was annulled in?", opts: ["1907", "1911", "1916", "1919"], a: 1, ex: "Announced at Delhi Durbar by King George V on 12 December 1911." },
-      { q: "Capital was shifted from Calcutta to Delhi at the Durbar of?", opts: ["1903", "1911", "1919", "1931"], a: 1, ex: "Delhi Durbar 1911 under Lord Hardinge II." }
+      { q: "Capital was shifted from Calcutta to Delhi at the Durbar of?", opts: ["1903", "1911", "1919", "1931"], a: 1, ex: "Delhi Durbar 1911 under Lord Hardinge II." },
+      { q: "Partition of Bengal was carried out by?", opts: ["Curzon (1905)", "Minto", "Hardinge", "Dufferin"], a: 0, ex: "16 October 1905; on communal lines." },
+      { q: "Partition of Bengal was annulled in?", opts: ["1908", "1911 (Delhi Durbar)", "1919", "1947"], a: 1, ex: "By King George V; partly to undo Swadeshi protests." },
+      { q: "Swadeshi Movement was launched in response to?", opts: ["Sepoy Mutiny", "Partition of Bengal (1905)", "Jallianwala Bagh", "Rowlatt Act"], a: 1, ex: "Boycott of British goods; promote Indian made." },
+      { q: "Vande Mataram was popularized as song of Swadeshi by?", opts: ["Tagore", "Bankim Chandra (author)", "Both", "Aurobindo"], a: 2, ex: "Bankim wrote in 1882 Anandamath; popularized during Swadeshi." },
+      { q: "Boycott of British goods was main weapon of?", opts: ["Moderates", "Extremists/Swadeshi", "Both", "Sikhs"], a: 1, ex: "Extremists led by Tilak, Aurobindo, etc." },
+      { q: "Swadeshi movement saw rise of?", opts: ["Indigenous industries", "National education", "Indian press", "All correct"], a: 3, ex: "Multiple positive outcomes." }
     ]
   };
 
@@ -3247,7 +3325,17 @@
       { q: "Tilak's Home Rule League newspapers were?", opts: ["Kesari & Mahratta", "Yugantar & Sandhya", "New India & Commonweal", "Bande Mataram & Indian Sociologist"], a: 0, ex: "Kesari (Marathi) and Mahratta (English)." },
       { q: "Montagu Declaration was made on?", opts: ["20 August 1917", "8 February 1918", "13 April 1919", "1 August 1920"], a: 0, ex: "20 August 1917 in House of Commons by Edwin Montagu." },
       { q: "Montagu Declaration (1917) promised?", opts: ["Dominion status", "Responsible government", "Self-rule in 5 years", "Federal structure"], a: 1, ex: "Progressive realization of responsible government in India as an integral part of the British Empire." },
-      { q: "Tilak died on?", opts: ["1 August 1916", "1 August 1920", "13 April 1919", "23 March 1931"], a: 1, ex: "1 August 1920 at Bombay; same day Gandhi launched Non-Cooperation." }
+      { q: "Tilak died on?", opts: ["1 August 1916", "1 August 1920", "13 April 1919", "23 March 1931"], a: 1, ex: "1 August 1920 at Bombay; same day Gandhi launched Non-Cooperation." },
+      { q: "Home Rule League was founded in?", opts: ["1914", "1916 (April-Sep)", "1917", "1919"], a: 1, ex: "Tilak (April 1916) and Annie Besant (September 1916)." },
+      { q: "Tilak's Home Rule League was based at?", opts: ["Pune", "Bombay", "Madras", "Belgaum"], a: 0, ex: "Pune; covered Maharashtra, Karnataka, Central Provinces." },
+      { q: "Besant's Home Rule League was based at?", opts: ["Madras (Adyar)", "Pune", "Calcutta", "Bombay"], a: 0, ex: "Madras; spread across rest of India." },
+      { q: "Home Rule meant?", opts: ["Independence", "Self-government within British Empire", "Dominion status", "Federation"], a: 1, ex: "Like Ireland — self-governance, not full freedom." },
+      { q: "Slogan 'Swaraj is my birthright' by?", opts: ["Gandhi", "Tilak", "Aurobindo", "Naoroji"], a: 1, ex: "Tilak's famous slogan." },
+      { q: "Annie Besant became Congress President in?", opts: ["1915", "1917 (1st woman)", "1919", "1921"], a: 1, ex: "First woman INC president at Calcutta session 1917." },
+      { q: "Annie Besant was Irish or British?", opts: ["Irish-born British", "Indian", "American", "Australian"], a: 0, ex: "Born London to Irish parents; came to India 1893." },
+      { q: "Home Rule Movement collapsed by?", opts: ["1916", "1920 (NCM started)", "1925", "1930"], a: 1, ex: "Merged with broader Congress under Gandhi." },
+      { q: "Tilak was tried for sedition in Lokmanya cases?", opts: ["1897 first time", "1908 (6 years)", "Both", "Once only"], a: 2, ex: "1897 first sedition case; 1908 sentenced to 6 years in Mandalay." },
+      { q: "Home Rule Movement coincided with?", opts: ["WWI (1914-18)", "WWII", "Cold War", "Korean War"], a: 0, ex: "British distraction during WWI helped." }
     ]
   };
 
@@ -3460,7 +3548,13 @@
       { q: "Vallabhbhai Patel first joined Gandhi's movement at?", opts: ["Champaran", "Kheda", "Ahmedabad", "Bardoli"], a: 1, ex: "Kheda Satyagraha (1918); they were both Gujaratis fighting for local peasants." },
       { q: "Term 'Satyagraha' was coined by Gandhi in?", opts: ["India 1917", "South Africa 1906", "London 1909", "South Africa 1894"], a: 1, ex: "1906 in South Africa; first used during the campaign against Transvaal Asiatic Registration Act." },
       { q: "Gandhi's book Hind Swaraj was written in?", opts: ["1893", "1909", "1915", "1920"], a: 1, ex: "1909, on a voyage from London; manifesto of his philosophy." },
-      { q: "Who set up the Sabarmati Ashram funded by?", opts: ["Tagore", "Ambalal Sarabhai", "Tata", "Gokhale"], a: 1, ex: "Ambalal Sarabhai (1915); Anasuya Sarabhai later worked with Gandhi during Mill Strike." }
+      { q: "Who set up the Sabarmati Ashram funded by?", opts: ["Tagore", "Ambalal Sarabhai", "Tata", "Gokhale"], a: 1, ex: "Ambalal Sarabhai (1915); Anasuya Sarabhai later worked with Gandhi during Mill Strike." },
+      { q: "Gandhi returned to India from South Africa in?", opts: ["1908", "1915 (January)", "1919", "1920"], a: 1, ex: "9 January 1915; now NRI Day in India." },
+      { q: "Champaran Satyagraha (1917) was about?", opts: ["Indigo planters' exploitation", "Mill workers", "Salt", "Land revenue"], a: 0, ex: "Bihar; tinkathia system forced indigo cultivation." },
+      { q: "Kheda Satyagraha (1918) was for?", opts: ["Indigo", "Land revenue relief during famine", "Mill", "Salt"], a: 1, ex: "Gujarat; first 'no-tax' campaign." },
+      { q: "Ahmedabad Mill Strike (1918) Gandhi supported?", opts: ["Workers", "Mill owners", "Both", "British"], a: 0, ex: "Workers; led to formation of Textile Labour Association." },
+      { q: "Gandhi's first satyagraha in India was?", opts: ["Champaran (1917)", "Kheda", "Ahmedabad", "Salt"], a: 0, ex: "Champaran, Bihar — indigo farmers." },
+      { q: "First Hindu Champaran leader who invited Gandhi?", opts: ["Rajkumar Shukla", "Tagore", "Tilak", "Gokhale"], a: 0, ex: "Local farmer Rajkumar Shukla persuaded Gandhi." }
     ]
   };
 
@@ -3686,7 +3780,13 @@
       { q: "Udham Singh assassinated whom in London (1940)?", opts: ["General Dyer", "Michael O'Dwyer", "Lord Mountbatten", "Curzon Wyllie"], a: 1, ex: "Michael O'Dwyer (former Lt. Governor of Punjab) at Caxton Hall, London on 13 March 1940." },
       { q: "Khilafat Movement was led by?", opts: ["Jinnah", "Ali Brothers", "Sir Syed Ahmed", "Aga Khan"], a: 1, ex: "Maulana Mohammad Ali and Shaukat Ali (Ali Brothers) led it." },
       { q: "First All-India Khilafat Conference (Nov 1919) was at?", opts: ["Bombay", "Delhi", "Lucknow", "Karachi"], a: 1, ex: "Delhi (23–24 Nov 1919); presided by Maulana Mohammad Ali; Gandhi was elected its president." },
-      { q: "Caliphate was finally abolished by?", opts: ["British", "Mustafa Kemal Atatürk (1924)", "Indian Muslim opinion", "Treaty of Sèvres"], a: 1, ex: "Mustafa Kemal Atatürk abolished the Caliphate in March 1924, ending the basis of the Khilafat movement." }
+      { q: "Caliphate was finally abolished by?", opts: ["British", "Mustafa Kemal Atatürk (1924)", "Indian Muslim opinion", "Treaty of Sèvres"], a: 1, ex: "Mustafa Kemal Atatürk abolished the Caliphate in March 1924, ending the basis of the Khilafat movement." },
+      { q: "Rowlatt Act (1919) was nicknamed?", opts: ["Black Act", "White Act", "Free Act", "Repeal Act"], a: 0, ex: "Allowed detention without trial; arrest without warrant — 'No vakil, no daleel, no appeal'." },
+      { q: "Jallianwala Bagh massacre date:", opts: ["13 April 1919 (Baisakhi)", "5 April 1919", "10 April 1919", "23 March 1919"], a: 0, ex: "Baisakhi day; General Dyer ordered firing." },
+      { q: "Jallianwala Bagh is in?", opts: ["Lahore", "Amritsar", "Jalandhar", "Delhi"], a: 1, ex: "Amritsar, Punjab — near Golden Temple." },
+      { q: "Hunter Commission was appointed to investigate?", opts: ["Sepoy Mutiny", "Jallianwala Bagh", "Bengal partition", "Rowlatt Act"], a: 1, ex: "Inquired into Punjab disturbances; mild censure of Dyer." },
+      { q: "Sir Sankaran Nair resigned from Viceroy's Council in protest of?", opts: ["Rowlatt Act", "Jallianwala Bagh", "Partition", "Salt Tax"], a: 1, ex: "Resigned May 1919." },
+      { q: "Rabindranath Tagore renounced his knighthood after?", opts: ["Salt March", "Jallianwala Bagh", "Quit India", "Bengal partition"], a: 1, ex: "Renounced 'Knight Bachelor' title in protest." }
     ]
   };
 
@@ -3919,7 +4019,13 @@
       { q: "How many policemen were killed at Chauri Chaura?", opts: ["12", "22", "30", "42"], a: 1, ex: "22 policemen killed when an angry crowd set fire to the police station." },
       { q: "Gandhi was tried for sedition (1922) and sentenced to?", opts: ["3 years", "6 years", "Life", "Hanging"], a: 1, ex: "6 years; called the 'Great Trial'; released February 1924 after appendicitis surgery." },
       { q: "Swaraj Party was founded in 1923 by?", opts: ["Gandhi & Patel", "C.R. Das & Motilal Nehru", "Tilak & Annie Besant", "Bose & Nehru"], a: 1, ex: "C.R. Das (President) and Motilal Nehru (Secretary) — to enter legislatures and obstruct." },
-      { q: "Gandhi's only term as Congress President was at?", opts: ["Lucknow 1916", "Nagpur 1920", "Belgaum 1924", "Lahore 1929"], a: 2, ex: "Belgaum Session 1924 — his only term as Congress President." }
+      { q: "Gandhi's only term as Congress President was at?", opts: ["Lucknow 1916", "Nagpur 1920", "Belgaum 1924", "Lahore 1929"], a: 2, ex: "Belgaum Session 1924 — his only term as Congress President." },
+      { q: "Non-Cooperation Movement was launched in?", opts: ["1919", "1920 (August)", "1922", "1930"], a: 1, ex: "1 August 1920 — same day Tilak died." },
+      { q: "Chauri Chaura incident was on?", opts: ["1919", "5 Feb 1922 (Police killed)", "1930", "1942"], a: 1, ex: "Mob burnt police station; Gandhi suspended NCM." },
+      { q: "Movement that boycotted titles, schools, courts was?", opts: ["Non-Cooperation", "Salt Satyagraha", "Quit India", "Civil Disobedience"], a: 0, ex: "1920-22 first mass Gandhian movement." },
+      { q: "Bardoli Satyagraha (1928) was led by?", opts: ["Gandhi", "Sardar Patel", "Nehru", "Bose"], a: 1, ex: "Vallabhbhai Patel; given title 'Sardar' here." },
+      { q: "Simon Commission (1928) was boycotted because?", opts: ["No Indian members", "Anti-Hindu", "Pro-Muslim", "Untouchable issue"], a: 0, ex: "All-white commission; 'Simon Go Back' slogan." },
+      { q: "Lala Lajpat Rai died after lathi charge during Simon protest in?", opts: ["1925", "1928 (October)", "1929", "1930"], a: 1, ex: "Lahore; Bhagat Singh later avenged by killing Saunders." }
     ]
   };
 
@@ -4180,7 +4286,10 @@
       { q: "Garhwali soldiers refused to fire on Pathans at?", opts: ["Lahore", "Peshawar", "Quetta", "Kohat"], a: 1, ex: "Peshawar (April 1930); Chandra Singh Garhwali led the refusal — court-martialled." },
       { q: "Rani Gaidinliu, the Naga heroine, led resistance in?", opts: ["Manipur/Nagaland", "Punjab", "Sindh", "Andhra"], a: 0, ex: "Naga tribal resistance in Manipur and surrounding hills (1930–32); imprisoned till 1947." },
       { q: "Gandhi-Irwin Pact was signed in?", opts: ["1929", "1930", "1931", "1932"], a: 2, ex: "5 March 1931 — Civil Disobedience suspended; Congress to attend Second RTC." },
-      { q: "Karachi Session 1931 was presided by?", opts: ["Gandhi", "Patel", "Nehru", "Rajaji"], a: 1, ex: "Sardar Vallabhbhai Patel presided; Resolution on Fundamental Rights drafted by Nehru passed." }
+      { q: "Karachi Session 1931 was presided by?", opts: ["Gandhi", "Patel", "Nehru", "Rajaji"], a: 1, ex: "Sardar Vallabhbhai Patel presided; Resolution on Fundamental Rights drafted by Nehru passed." },
+      { q: "Civil Disobedience Movement was launched on?", opts: ["12 March 1930 (Salt March)", "26 Jan 1930", "8 Aug 1942", "1 Aug 1920"], a: 0, ex: "Dandi March from Sabarmati to Dandi (240 miles, 24 days)." },
+      { q: "Salt March ended at?", opts: ["Dandi (Gujarat coast)", "Karachi", "Bombay", "Ahmedabad"], a: 0, ex: "6 April 1930; Gandhi violated salt law." },
+      { q: "Gandhi-Irwin Pact (1931) suspended?", opts: ["NCM", "CDM", "Quit India", "Khilafat"], a: 1, ex: "March 1931; allowed Gandhi to attend Second RTC." }
     ]
   };
 
@@ -4440,7 +4549,11 @@
       { q: "Sind and Orissa became separate provinces in?", opts: ["1935", "1936", "1937", "1947"], a: 1, ex: "1 April 1936 — under GoI Act 1935." },
       { q: "Congress formed how many provincial ministries after 1937 elections?", opts: ["3", "5", "7 (later 9)", "11"], a: 2, ex: "First 7 provinces (July 1937); Assam and NWFP joined later (total 9)." },
       { q: "Congress ministries resigned in 1939 because?", opts: ["Quit India failure", "WWII without consultation", "GoI Act demanded so", "Jinnah's pressure"], a: 1, ex: "Linlithgow declared India a belligerent in WWII without consulting Indian leaders." },
-      { q: "Muslim League celebrated 'Day of Deliverance' on?", opts: ["3 September 1939", "22 December 1939", "23 March 1940", "16 August 1946"], a: 1, ex: "22 December 1939 — to mark the resignation of Congress ministries." }
+      { q: "Muslim League celebrated 'Day of Deliverance' on?", opts: ["3 September 1939", "22 December 1939", "23 March 1940", "16 August 1946"], a: 1, ex: "22 December 1939 — to mark the resignation of Congress ministries." },
+      { q: "How many Round Table Conferences were held?", opts: ["2", "3", "4", "5"], a: 1, ex: "Three: 1930, 1931, 1932 in London." },
+      { q: "First Round Table Conference was boycotted by?", opts: ["Congress", "Muslim League", "Hindu Mahasabha", "Princely states"], a: 0, ex: "Congress was in jail; only ML, Hindu Mahasabha attended." },
+      { q: "Gandhi attended which RTC?", opts: ["First", "Second (1931)", "Third", "All three"], a: 1, ex: "After Gandhi-Irwin Pact; lone Congress representative." },
+      { q: "Government of India Act 1935 provided for?", opts: ["Federal structure with provincial autonomy", "Independence", "Dominion status", "Direct British rule"], a: 0, ex: "All-India Federation; bicameral provincial legislatures." }
     ]
   };
 
@@ -4677,7 +4790,12 @@
       { q: "Parallel government at Tamluk / Midnapore (Bengal) was?", opts: ["Tamralipta Jatiya Sarkar", "Prati Sarkar", "Swaraj Sarkar", "Azad Hind Sarkar"], a: 0, ex: "Tamralipta Jatiya Sarkar — Dec 1942 to Aug 1944 — Satish Samanta, Sushil Dhara, Ajay Mukherjee." },
       { q: "Parallel government at Satara (longest, ~2 years) was led by?", opts: ["Aruna Asaf Ali", "Nana Patil & Y.B. Chavan", "JP Narayan", "Chittu Pandey"], a: 1, ex: "Prati Sarkar at Satara (1943–45); Nana Patil and Y.B. Chavan." },
       { q: "Who refused to support Quit India among Indian groups?", opts: ["Muslim League", "Communist Party of India", "Princes", "All of these"], a: 3, ex: "ML, CPI (then loyal to USSR/Britain alliance), Princes, RSS — all stayed away." },
-      { q: "Bengal Famine of 1943 killed approximately?", opts: ["1 lakh", "10 lakh", "30 lakh", "1 crore"], a: 2, ex: "About 3 million (30 lakh) deaths under Linlithgow; relief organized by Wavell." }
+      { q: "Bengal Famine of 1943 killed approximately?", opts: ["1 lakh", "10 lakh", "30 lakh", "1 crore"], a: 2, ex: "About 3 million (30 lakh) deaths under Linlithgow; relief organized by Wavell." },
+      { q: "Quit India Movement was launched on?", opts: ["8 August 1942", "9 August 1942", "15 August 1942", "26 January 1942"], a: 0, ex: "AICC Bombay session approved on 8 August, executed 9th." },
+      { q: "Quit India was launched at?", opts: ["Bombay (Gowalia Tank)", "Delhi", "Calcutta", "Lahore"], a: 0, ex: "August Kranti Maidan, Bombay." },
+      { q: "Slogan 'Do or Die' was given during?", opts: ["1942 Quit India", "1930 Salt March", "1920 NCM", "1857"], a: 0, ex: "Gandhi at Gowalia Tank." },
+      { q: "Cripps Mission came in?", opts: ["1939", "1942", "1945", "1946"], a: 1, ex: "March 1942; offered dominion status after war; failed." },
+      { q: "Sir Stafford Cripps came on behalf of?", opts: ["Churchill", "Attlee", "Mountbatten", "George VI"], a: 0, ex: "Winston Churchill's wartime government." }
     ]
   };
 
@@ -4935,7 +5053,11 @@
       { q: "Rani Jhansi Regiment of INA was led by?", opts: ["Aruna Asaf Ali", "Captain Lakshmi Sahgal", "Sarojini Naidu", "Sucheta Kripalani"], a: 1, ex: "Captain (later Colonel) Lakshmi Sahgal — first all-women combat regiment in Asia." },
       { q: "Bose officially died in a plane crash at?", opts: ["Tokyo", "Taipei (Taihoku, Taiwan)", "Saigon", "Berlin"], a: 1, ex: "18 August 1945 at Taihoku (Taipei), Taiwan; ashes at Renkoji Temple, Tokyo." },
       { q: "INA Trials at Red Fort included which three officers?", opts: ["Mohan Singh, Bose, Lakshmi", "Shah Nawaz, Sahgal, Dhillon", "Bhulabhai Desai, Nehru, Sapru", "Bose, Rash Behari, Mohan Singh"], a: 1, ex: "Capt. Shah Nawaz Khan (Muslim), Capt. P.K. Sahgal (Hindu), Lt. Col. G.S. Dhillon (Sikh) — chosen for communal symbolism." },
-      { q: "Royal Indian Navy Mutiny started at?", opts: ["HMIS Talwar (Bombay), Feb 1946", "INS Vikrant", "Calcutta dockyard", "Cochin"], a: 0, ex: "18 February 1946 on HMIS Talwar at Bombay; spread to 78 ships." }
+      { q: "Royal Indian Navy Mutiny started at?", opts: ["HMIS Talwar (Bombay), Feb 1946", "INS Vikrant", "Calcutta dockyard", "Cochin"], a: 0, ex: "18 February 1946 on HMIS Talwar at Bombay; spread to 78 ships." },
+      { q: "Subhas Chandra Bose's slogan was?", opts: ["Jai Hind", "Tum mujhe khoon do", "Both A and B", "Vande Mataram"], a: 2, ex: "Both his slogans; mobilized INA." },
+      { q: "INA's three brigades were named after?", opts: ["Gandhi, Nehru, Azad", "Hindus only", "Random", "British"], a: 0, ex: "Gandhi, Nehru, Azad Brigade; women's wing Rani of Jhansi Regiment." },
+      { q: "Bose formed Provisional Government of Free India at?", opts: ["Tokyo", "Singapore (1943)", "Berlin", "Rangoon"], a: 1, ex: "21 October 1943, recognized by Axis powers." },
+      { q: "Bose died on?", opts: ["1944", "18 August 1945 (plane crash, Taiwan)", "1947", "1950"], a: 1, ex: "Taipei plane crash; some still doubt." }
     ]
   };
 
