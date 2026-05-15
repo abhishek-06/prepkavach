@@ -303,7 +303,13 @@
       { q: "Al-Biruni came to India with?", opts: ["Muhammad Ghori", "Mahmud Ghazni", "Babur", "Timur"], a: 1, ex: "Mahmud Ghazni; Al-Biruni wrote Kitab-ul-Hind (Tahqiq-i-Hind) in Arabic." },
       { q: "Periplus of the Erythraean Sea is a?", opts: ["Greek geography of Indian Ocean trade", "Mauryan administrative manual", "Buddhist text", "Chinese pilgrim's account"], a: 0, ex: "Anonymous Greek-Egyptian author (1st c. AD); details Indian ports and exports." },
       { q: "Indus script is?", opts: ["Pictographic, undeciphered", "Phonetic, deciphered", "Aramaic", "Brahmi-derived"], a: 0, ex: "Pictographic, written right-to-left; still undeciphered." },
-      { q: "ASI was founded in 1861 by?", opts: ["John Marshall", "Alexander Cunningham", "Mortimer Wheeler", "James Princep"], a: 1, ex: "Sir Alexander Cunningham, 1861; reorganized 1902 under Curzon by John Marshall." }
+      { q: "ASI was founded in 1861 by?", opts: ["John Marshall", "Alexander Cunningham", "Mortimer Wheeler", "James Princep"], a: 1, ex: "Sir Alexander Cunningham, 1861; reorganized 1902 under Curzon by John Marshall." },
+      { q: "Indica was written by?", opts: ["Megasthenes", "Hiuen Tsang", "Fa-Hien", "Ptolemy"], a: 0, ex: "Greek ambassador at Chandragupta Maurya's court; original lost, survives in fragments." },
+      { q: "Ashtadhyayi was written by?", opts: ["Patanjali", "Panini", "Kautilya", "Yaska"], a: 1, ex: "Panini — Sanskrit grammar; ~5th century BC; gives picture of Mahajanapada society." },
+      { q: "Which is NOT a literary source for Ancient India?", opts: ["Vedas", "Puranas", "Jataka tales", "Akbarnama"], a: 3, ex: "Akbarnama is medieval (Abul Fazl on Akbar)." },
+      { q: "Numismatics is the study of?", opts: ["Inscriptions", "Coins", "Monuments", "Pottery"], a: 1, ex: "Coins reveal kings, religion, economy, art." },
+      { q: "First gold coins in India were issued by?", opts: ["Mauryas", "Indo-Greeks", "Kushans", "Guptas"], a: 2, ex: "Kushans (Kanishka) issued first gold coins; Guptas issued most gold coins." },
+      { q: "Hathigumpha inscription is associated with?", opts: ["Ashoka", "Kharavela", "Samudragupta", "Harsha"], a: 1, ex: "Kharavela of Kalinga (Cheta dynasty); near Bhubaneswar." }
     ]
   };
 
@@ -467,7 +473,13 @@
       { q: "Earliest iron tools in India are from?", opts: ["Mehrgarh", "Hallur (Karnataka)", "Inamgaon", "Bhimbetka"], a: 1, ex: "Hallur in Karnataka — ~1000 BC; Neolithic to Iron Age transition." },
       { q: "Bronze chariot, elephant, rhino, buffalo figurines were found at?", opts: ["Inamgaon", "Daimabad (Maharashtra)", "Mehrgarh", "Lothal"], a: 1, ex: "Daimabad — Late Harappan / Jorwe culture site in Maharashtra." },
       { q: "Inamgaon is located in?", opts: ["Maharashtra", "MP", "Karnataka", "Gujarat"], a: 0, ex: "Maharashtra — most extensively excavated Chalcolithic / Jorwe site." },
-      { q: "Earliest evidence of animal domestication is from?", opts: ["Mehrgarh", "Adamgarh (MP)", "Koldihwa", "Burzahom"], a: 1, ex: "Adamgarh (MP) ~5500 BC." }
+      { q: "Earliest evidence of animal domestication is from?", opts: ["Mehrgarh", "Adamgarh (MP)", "Koldihwa", "Burzahom"], a: 1, ex: "Adamgarh (MP) ~5500 BC." },
+      { q: "Lower Palaeolithic tools were mostly?", opts: ["Hand axes and cleavers", "Microliths", "Polished stone", "Iron tools"], a: 0, ex: "Acheulean tradition — large hand axes." },
+      { q: "Microliths are characteristic of?", opts: ["Lower Palaeolithic", "Mesolithic", "Neolithic", "Chalcolithic"], a: 1, ex: "Tiny stone tools (1-8 cm); used as arrowheads." },
+      { q: "Palaeolithic Age means?", opts: ["Old Stone Age", "Middle Stone Age", "New Stone Age", "Iron Age"], a: 0, ex: "Palaeo = old, lithic = stone." },
+      { q: "Wheel was invented in?", opts: ["Palaeolithic", "Mesolithic", "Neolithic", "Chalcolithic"], a: 2, ex: "Neolithic revolution: wheel, pottery, agriculture, settled life." },
+      { q: "Domestication of plants and animals started in?", opts: ["Palaeolithic", "Mesolithic", "Neolithic", "Iron Age"], a: 2, ex: "Neolithic — beginning of agriculture and settled life." },
+      { q: "Chalcolithic Age used metal of?", opts: ["Iron", "Copper and bronze", "Gold", "Silver"], a: 1, ex: "Chalco = copper; first metal age." }
     ]
   };
 
@@ -1467,7 +1479,13 @@
       { q: "Alexander invaded India in?", opts: ["327–325 BC", "325–323 BC", "302 BC", "261 BC"], a: 0, ex: "Crossed Indus in 326 BC; left India 325 BC; died 323 BC at Babylon." },
       { q: "Alexander defeated Porus at the Battle of?", opts: ["Indus", "Hydaspes (Jhelum)", "Beas", "Sutlej"], a: 1, ex: "Battle of Hydaspes (May 326 BC) on the Jhelum river." },
       { q: "Alexander's army mutinied at?", opts: ["Indus", "Jhelum", "Chenab", "Beas (Hyphasis)"], a: 3, ex: "At the Beas (Hyphasis); soldiers refused to advance further east." },
-      { q: "Which Mahajanapada was Buddha's home tribe?", opts: ["Vatsa", "Sakya (subordinate to Kosala)", "Magadha", "Kashi"], a: 1, ex: "Buddha was a prince of the Sakya clan, capital Kapilavastu — a small republic under Kosala." }
+      { q: "Which Mahajanapada was Buddha's home tribe?", opts: ["Vatsa", "Sakya (subordinate to Kosala)", "Magadha", "Kashi"], a: 1, ex: "Buddha was a prince of the Sakya clan, capital Kapilavastu — a small republic under Kosala." },
+      { q: "Total number of Mahajanapadas was?", opts: ["12", "14", "16", "18"], a: 2, ex: "16 Mahajanapadas (Solas Mahajanapada) by 6th century BC." },
+      { q: "Capital of Vatsa Mahajanapada was?", opts: ["Mathura", "Ujjain", "Kaushambi", "Indraprastha"], a: 2, ex: "Vatsa — capital Kaushambi (near Allahabad); king Udayana." },
+      { q: "Capital of Avanti was?", opts: ["Ujjain (north) and Mahishmati (south)", "Pataliputra", "Vaishali", "Kashi"], a: 0, ex: "Two capitals — Ujjain and Mahishmati." },
+      { q: "Which Magadhan king was a contemporary of Buddha and Mahavira?", opts: ["Ajatashatru", "Bimbisara", "Both", "Chandragupta"], a: 2, ex: "Bimbisara and Ajatashatru were contemporaries of Buddha and Mahavira." },
+      { q: "Founder of Pataliputra (Patna) was?", opts: ["Bimbisara", "Ajatashatru / Udayin", "Mahapadma", "Ashoka"], a: 1, ex: "Started by Ajatashatru, completed by his son Udayin." },
+      { q: "Most powerful Mahajanapada that eventually became an empire?", opts: ["Kosala", "Vatsa", "Magadha", "Avanti"], a: 2, ex: "Magadha rose under Haryanka → Shishunaga → Nanda → Maurya dynasties." }
     ]
   };
 
