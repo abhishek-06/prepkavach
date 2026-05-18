@@ -8578,11 +8578,135 @@
         <tr><td>Weak</td><td>Not strong</td><td>Week</td><td>7 days</td></tr>
       </table>
 
+      <h3>🔥 Extended Homophones — Advanced SSC List</h3>
+      <table>
+        <tr><th>Word 1</th><th>Meaning</th><th>Word 2</th><th>Meaning</th></tr>
+        <tr><td>Adapt</td><td>Adjust</td><td>Adopt</td><td>Take as own</td></tr>
+        <tr><td>Adept</td><td>Skilled</td><td>Adapt / Adopt</td><td>See above</td></tr>
+        <tr><td>Affect</td><td>Influence (v)</td><td>Effect</td><td>Result (n)</td></tr>
+        <tr><td>Aid</td><td>Help</td><td>Aide</td><td>Assistant</td></tr>
+        <tr><td>Allusion</td><td>Indirect reference</td><td>Illusion</td><td>False perception</td></tr>
+        <tr><td>All ready</td><td>All prepared</td><td>Already</td><td>By this time</td></tr>
+        <tr><td>All together</td><td>All in a group</td><td>Altogether</td><td>Completely</td></tr>
+        <tr><td>Altar</td><td>Sacred table</td><td>Alter</td><td>To change</td></tr>
+        <tr><td>Angel</td><td>Heavenly being</td><td>Angle</td><td>Geometric figure</td></tr>
+        <tr><td>Ant</td><td>Insect</td><td>Aunt</td><td>Father's/mother's sister</td></tr>
+        <tr><td>Arc</td><td>Curve</td><td>Ark</td><td>Boat</td></tr>
+        <tr><td>Ate</td><td>Past of eat</td><td>Eight</td><td>Number 8</td></tr>
+        <tr><td>Bail</td><td>Release on security</td><td>Bale</td><td>Bundle</td></tr>
+        <tr><td>Bait</td><td>Lure</td><td>Bate</td><td>Lessen</td></tr>
+        <tr><td>Bare</td><td>Naked</td><td>Bear</td><td>Carry; animal</td></tr>
+        <tr><td>Bazaar</td><td>Market</td><td>Bizarre</td><td>Strange</td></tr>
+        <tr><td>Berth</td><td>Sleeping place</td><td>Birth</td><td>Being born</td></tr>
+        <tr><td>Boar</td><td>Wild pig</td><td>Bore</td><td>Drill; tire</td></tr>
+        <tr><td>Born</td><td>Brought to life</td><td>Borne</td><td>Carried (pp of bear)</td></tr>
+        <tr><td>Bow</td><td>Bend; weapon</td><td>Bough</td><td>Tree branch</td></tr>
+        <tr><td>Breech</td><td>Backside of gun</td><td>Breach</td><td>Break / Violation</td></tr>
+        <tr><td>Bridal</td><td>Of bride</td><td>Bridle</td><td>Horse harness</td></tr>
+        <tr><td>Broach</td><td>Raise topic</td><td>Brooch</td><td>Jewellery pin</td></tr>
+        <tr><td>Cache</td><td>Hidden store</td><td>Cash</td><td>Money</td></tr>
+        <tr><td>Canon</td><td>Rule / Doctrine</td><td>Cannon</td><td>Large gun</td></tr>
+        <tr><td>Canvas</td><td>Cloth</td><td>Canvass</td><td>Solicit votes</td></tr>
+        <tr><td>Carat</td><td>Gem weight</td><td>Carrot</td><td>Vegetable</td></tr>
+        <tr><td>Cease</td><td>Stop</td><td>Seize</td><td>Grab</td></tr>
+        <tr><td>Cell</td><td>Small room</td><td>Sell</td><td>To vend</td></tr>
+        <tr><td>Censor</td><td>Suppress (v)</td><td>Sensor</td><td>Detection device</td></tr>
+        <tr><td>Cereal</td><td>Grain</td><td>Serial</td><td>In sequence</td></tr>
+        <tr><td>Cession</td><td>Yielding</td><td>Session</td><td>Meeting period</td></tr>
+        <tr><td>Choir</td><td>Singers' group</td><td>Quire</td><td>Paper measure</td></tr>
+        <tr><td>Cite</td><td>Quote / Refer</td><td>Site</td><td>Place</td></tr>
+        <tr><td>Coarse</td><td>Rough</td><td>Course</td><td>Path / Class</td></tr>
+        <tr><td>Complement</td><td>Complete; pair</td><td>Compliment</td><td>Praise</td></tr>
+        <tr><td>Council</td><td>Assembly</td><td>Counsel</td><td>Advice; lawyer</td></tr>
+        <tr><td>Currant</td><td>Dried fruit</td><td>Current</td><td>Flow; present</td></tr>
+        <tr><td>Decent</td><td>Respectable</td><td>Descent / Dissent</td><td>Going down / Disagree</td></tr>
+        <tr><td>Defer</td><td>Postpone</td><td>Differ</td><td>Be different</td></tr>
+        <tr><td>Dependant</td><td>Person who depends</td><td>Dependent</td><td>Relying on (adj)</td></tr>
+        <tr><td>Desert</td><td>Sandy region</td><td>Dessert</td><td>Sweet dish</td></tr>
+        <tr><td>Disinterested</td><td>Impartial</td><td>Uninterested</td><td>Not interested</td></tr>
+        <tr><td>Dual</td><td>Double</td><td>Duel</td><td>Combat</td></tr>
+        <tr><td>Dyeing</td><td>Coloring cloth</td><td>Dying</td><td>Approaching death</td></tr>
+        <tr><td>Earn</td><td>Get pay</td><td>Urn</td><td>Vase</td></tr>
+        <tr><td>Elicit</td><td>Draw out (v)</td><td>Illicit</td><td>Illegal (adj)</td></tr>
+        <tr><td>Emigrate</td><td>Leave country</td><td>Immigrate</td><td>Enter country</td></tr>
+        <tr><td>Eminent</td><td>Famous</td><td>Imminent</td><td>About to happen</td></tr>
+        <tr><td>Ensure</td><td>Make certain</td><td>Insure</td><td>Buy insurance</td></tr>
+        <tr><td>Envelop</td><td>Cover (v)</td><td>Envelope</td><td>Paper cover (n)</td></tr>
+        <tr><td>Faint</td><td>Lose consciousness</td><td>Feint</td><td>Pretend movement</td></tr>
+        <tr><td>Fair</td><td>Just / Market</td><td>Fare</td><td>Cost</td></tr>
+        <tr><td>Farther</td><td>More distant</td><td>Further</td><td>Additional</td></tr>
+        <tr><td>Faze</td><td>Disturb</td><td>Phase</td><td>Stage</td></tr>
+        <tr><td>Find</td><td>Discover</td><td>Fined</td><td>Penalized</td></tr>
+        <tr><td>Flair</td><td>Talent</td><td>Flare</td><td>Bright flame</td></tr>
+        <tr><td>Flea</td><td>Insect</td><td>Flee</td><td>Run away</td></tr>
+        <tr><td>Flew</td><td>Past of fly</td><td>Flu</td><td>Influenza</td></tr>
+        <tr><td>Flour</td><td>Ground grain</td><td>Flower</td><td>Bloom</td></tr>
+        <tr><td>Forth</td><td>Forward</td><td>Fourth</td><td>4th</td></tr>
+        <tr><td>Foreword</td><td>Book preface</td><td>Forward</td><td>Onward</td></tr>
+        <tr><td>Gilt</td><td>Gold covered</td><td>Guilt</td><td>Blame</td></tr>
+        <tr><td>Gait</td><td>Manner of walking</td><td>Gate</td><td>Door</td></tr>
+        <tr><td>Hangar</td><td>Aircraft shed</td><td>Hanger</td><td>Coat hanger</td></tr>
+        <tr><td>Heal</td><td>Cure</td><td>Heel</td><td>Back of foot</td></tr>
+        <tr><td>Hoard</td><td>Stash</td><td>Horde</td><td>Crowd</td></tr>
+        <tr><td>Idle</td><td>Inactive</td><td>Idol</td><td>Worshipped object</td></tr>
+        <tr><td>Imply</td><td>Suggest</td><td>Infer</td><td>Deduce</td></tr>
+        <tr><td>It's</td><td>It is</td><td>Its</td><td>Possessive</td></tr>
+        <tr><td>Knew</td><td>Past of know</td><td>New</td><td>Recent</td></tr>
+        <tr><td>Lead (n)</td><td>Metal</td><td>Led (v)</td><td>Past of lead (v)</td></tr>
+        <tr><td>Lessen</td><td>Reduce</td><td>Lesson</td><td>Class</td></tr>
+        <tr><td>Loath</td><td>Reluctant</td><td>Loathe</td><td>Hate</td></tr>
+        <tr><td>Loose</td><td>Not tight</td><td>Lose</td><td>Misplace</td></tr>
+        <tr><td>Mantel</td><td>Fireplace shelf</td><td>Mantle</td><td>Cloak</td></tr>
+        <tr><td>Marshal</td><td>Officer / Arrange</td><td>Martial</td><td>Of war</td></tr>
+        <tr><td>Maybe</td><td>Perhaps</td><td>May be</td><td>Might be (verb)</td></tr>
+        <tr><td>Mete</td><td>Distribute</td><td>Meat / Meet</td><td>Flesh / Encounter</td></tr>
+        <tr><td>Mood</td><td>State of mind</td><td>Mooed</td><td>Made cow sound</td></tr>
+        <tr><td>Naval</td><td>Of navy</td><td>Navel</td><td>Belly button</td></tr>
+        <tr><td>Pail</td><td>Bucket</td><td>Pale</td><td>Light</td></tr>
+        <tr><td>Pain</td><td>Hurt</td><td>Pane</td><td>Glass</td></tr>
+        <tr><td>Patience</td><td>Calm endurance</td><td>Patients</td><td>Sick people</td></tr>
+        <tr><td>Peace</td><td>Calm</td><td>Piece</td><td>Part</td></tr>
+        <tr><td>Peak</td><td>Top</td><td>Peek</td><td>Glance</td></tr>
+        <tr><td>Pedal</td><td>Foot lever</td><td>Peddle</td><td>Sell</td></tr>
+        <tr><td>Plain</td><td>Simple; flat land</td><td>Plane</td><td>Aircraft</td></tr>
+        <tr><td>Pole</td><td>Long stick</td><td>Poll</td><td>Vote</td></tr>
+        <tr><td>Pore</td><td>Skin opening</td><td>Pour</td><td>Flow</td></tr>
+        <tr><td>Practice</td><td>Habit (n)</td><td>Practise</td><td>To do (v)</td></tr>
+        <tr><td>Pray</td><td>Worship</td><td>Prey</td><td>Hunted animal</td></tr>
+        <tr><td>Principal</td><td>Head; main</td><td>Principle</td><td>Rule</td></tr>
+        <tr><td>Profit</td><td>Gain</td><td>Prophet</td><td>Seer</td></tr>
+        <tr><td>Quiet</td><td>Silent</td><td>Quite</td><td>Completely</td></tr>
+        <tr><td>Rain</td><td>Water</td><td>Reign / Rein</td><td>Rule / Horse strap</td></tr>
+        <tr><td>Raise</td><td>Lift</td><td>Raze</td><td>Demolish</td></tr>
+        <tr><td>Right / Rite / Write / Wright</td><td>Correct / Ritual / Compose / Maker</td><td>—</td><td>Multiple homophones</td></tr>
+        <tr><td>Role</td><td>Part to play</td><td>Roll</td><td>Turn over</td></tr>
+        <tr><td>Sail</td><td>Boat travel</td><td>Sale</td><td>Selling</td></tr>
+        <tr><td>Scene</td><td>View</td><td>Seen</td><td>Past part of see</td></tr>
+        <tr><td>Sole</td><td>Only</td><td>Soul</td><td>Spirit</td></tr>
+        <tr><td>Stake</td><td>Wager; pole</td><td>Steak</td><td>Meat</td></tr>
+        <tr><td>Stationary</td><td>Not moving</td><td>Stationery</td><td>Writing materials</td></tr>
+        <tr><td>Suite</td><td>Set of rooms</td><td>Sweet</td><td>Sugary</td></tr>
+        <tr><td>Tail</td><td>End</td><td>Tale</td><td>Story</td></tr>
+        <tr><td>Their</td><td>Possessive</td><td>There / They're</td><td>In that place / They are</td></tr>
+        <tr><td>Throne</td><td>Royal seat</td><td>Thrown</td><td>Past of throw</td></tr>
+        <tr><td>Threw</td><td>Past of throw</td><td>Through</td><td>Across</td></tr>
+        <tr><td>To / Too / Two</td><td>Toward / Also / 2</td><td>—</td><td>Triple homophones</td></tr>
+        <tr><td>Vain</td><td>Conceited</td><td>Vein / Vane</td><td>Blood vessel / Weather indicator</td></tr>
+        <tr><td>Wander</td><td>Roam</td><td>Wonder</td><td>Marvel</td></tr>
+        <tr><td>Wary</td><td>Cautious</td><td>Weary</td><td>Tired</td></tr>
+        <tr><td>Waste</td><td>Squander</td><td>Waist</td><td>Body part</td></tr>
+        <tr><td>Weather</td><td>Climate</td><td>Whether</td><td>If</td></tr>
+        <tr><td>Who's / Whose</td><td>Who is / Possessive</td><td>—</td><td>Same sound</td></tr>
+        <tr><td>You're / Your</td><td>You are / Possessive</td><td>—</td><td>Same sound</td></tr>
+        <tr><td>Yore</td><td>Long ago</td><td>You're / Your</td><td>See above</td></tr>
+      </table>
+
       <h3>🎯 Tips</h3>
       <ul>
         <li>Use in sentences — context fixes meaning.</li>
         <li>Watch for the spelling — they sound alike but write differently.</li>
         <li>Common SSC traps: principal/principle, stationary/stationery, accept/except.</li>
+        <li>For 45+ score: master all 150+ homophones; use them in writing.</li>
       </ul>
     `,
     mcq: [
