@@ -5621,12 +5621,497 @@
         <tr><td>Zealous</td><td>Enthusiastic, Fervent</td></tr>
       </table>
 
+      <h3>🔥 Extended List — Advanced SSC Synonyms (A-D)</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th><th>Meaning</th></tr>
+        <tr><td>Abase</td><td>Humiliate, Degrade</td><td>Lower in status</td></tr>
+        <tr><td>Abet</td><td>Encourage, Assist</td><td>Help in wrongdoing</td></tr>
+        <tr><td>Abnegate</td><td>Reject, Renounce</td><td>Give up something</td></tr>
+        <tr><td>Abscond</td><td>Flee, Run away</td><td>Escape secretly</td></tr>
+        <tr><td>Abstemious</td><td>Moderate, Self-restrained</td><td>Sparing in eating/drinking</td></tr>
+        <tr><td>Accolade</td><td>Praise, Award</td><td>High honor</td></tr>
+        <tr><td>Acrimony</td><td>Bitterness, Hostility</td><td>Sharp anger</td></tr>
+        <tr><td>Acumen</td><td>Insight, Sharpness</td><td>Quick judgement</td></tr>
+        <tr><td>Adage</td><td>Proverb, Saying</td><td>Old wise saying</td></tr>
+        <tr><td>Adroit</td><td>Skilful, Clever</td><td>Dexterous</td></tr>
+        <tr><td>Adulation</td><td>Flattery, Praise</td><td>Excessive admiration</td></tr>
+        <tr><td>Aegis</td><td>Protection, Sponsorship</td><td>Under support of</td></tr>
+        <tr><td>Affluent</td><td>Wealthy, Rich</td><td>Prosperous</td></tr>
+        <tr><td>Aghast</td><td>Shocked, Horrified</td><td>Filled with horror</td></tr>
+        <tr><td>Alacrity</td><td>Eagerness, Briskness</td><td>Cheerful readiness</td></tr>
+        <tr><td>Allure</td><td>Attract, Tempt</td><td>Strong attraction</td></tr>
+        <tr><td>Aloof</td><td>Distant, Detached</td><td>Reserved, cool</td></tr>
+        <tr><td>Amalgamate</td><td>Combine, Merge</td><td>Mix together</td></tr>
+        <tr><td>Ameliorate</td><td>Improve, Better</td><td>Make better</td></tr>
+        <tr><td>Anathema</td><td>Curse, Hated thing</td><td>Object of loathing</td></tr>
+        <tr><td>Anecdote</td><td>Short story, Tale</td><td>Brief account</td></tr>
+        <tr><td>Annihilate</td><td>Destroy, Obliterate</td><td>Wipe out</td></tr>
+        <tr><td>Apex</td><td>Peak, Summit</td><td>Highest point</td></tr>
+        <tr><td>Aplomb</td><td>Composure, Confidence</td><td>Self-assurance</td></tr>
+        <tr><td>Arcane</td><td>Mysterious, Obscure</td><td>Known to few</td></tr>
+        <tr><td>Arrogant</td><td>Haughty, Pompous</td><td>Overly proud</td></tr>
+        <tr><td>Articulate</td><td>Eloquent, Expressive</td><td>Speak clearly</td></tr>
+        <tr><td>Ascetic</td><td>Austere, Simple-living</td><td>Self-disciplined</td></tr>
+        <tr><td>Aspersion</td><td>Slander, Defamation</td><td>Damaging remark</td></tr>
+        <tr><td>Assail</td><td>Attack, Assault</td><td>Attack violently</td></tr>
+        <tr><td>Assiduous</td><td>Diligent, Persistent</td><td>Hardworking</td></tr>
+        <tr><td>Atrocious</td><td>Cruel, Horrible</td><td>Extremely wicked</td></tr>
+        <tr><td>Attest</td><td>Confirm, Verify</td><td>Provide evidence</td></tr>
+        <tr><td>Austere</td><td>Strict, Stern</td><td>Severe and plain</td></tr>
+        <tr><td>Avarice</td><td>Greed, Cupidity</td><td>Extreme greed</td></tr>
+        <tr><td>Aversion</td><td>Dislike, Hatred</td><td>Strong dislike</td></tr>
+        <tr><td>Bane</td><td>Curse, Plague</td><td>Source of harm</td></tr>
+        <tr><td>Beguile</td><td>Charm, Deceive</td><td>Charm in deceptive way</td></tr>
+        <tr><td>Berate</td><td>Scold, Rebuke</td><td>Criticize angrily</td></tr>
+        <tr><td>Bewilder</td><td>Confuse, Perplex</td><td>Cause confusion</td></tr>
+        <tr><td>Bleak</td><td>Dreary, Gloomy</td><td>Cold and cheerless</td></tr>
+        <tr><td>Bliss</td><td>Joy, Ecstasy</td><td>Perfect happiness</td></tr>
+        <tr><td>Boisterous</td><td>Loud, Rowdy</td><td>Noisy and unrestrained</td></tr>
+        <tr><td>Bolster</td><td>Support, Reinforce</td><td>Strengthen</td></tr>
+        <tr><td>Boorish</td><td>Rude, Crude</td><td>Bad-mannered</td></tr>
+        <tr><td>Burgeon</td><td>Grow, Flourish</td><td>Develop rapidly</td></tr>
+        <tr><td>Cacophony</td><td>Discord, Noise</td><td>Harsh sound</td></tr>
+        <tr><td>Cantankerous</td><td>Quarrelsome, Bad-tempered</td><td>Irritable</td></tr>
+        <tr><td>Captivate</td><td>Enchant, Charm</td><td>Attract attention</td></tr>
+        <tr><td>Castigate</td><td>Criticize harshly, Punish</td><td>Reprimand severely</td></tr>
+        <tr><td>Caustic</td><td>Sarcastic, Biting</td><td>Sharp, cutting</td></tr>
+        <tr><td>Chagrin</td><td>Annoyance, Embarrassment</td><td>Feeling of vexation</td></tr>
+        <tr><td>Charlatan</td><td>Fraud, Impostor</td><td>Fake expert</td></tr>
+        <tr><td>Chastise</td><td>Punish, Rebuke</td><td>Discipline</td></tr>
+        <tr><td>Chide</td><td>Scold, Reprimand</td><td>Express disapproval</td></tr>
+        <tr><td>Circumspect</td><td>Cautious, Prudent</td><td>Careful in conduct</td></tr>
+        <tr><td>Clandestine</td><td>Secret, Hidden</td><td>Kept secret</td></tr>
+        <tr><td>Cogent</td><td>Convincing, Compelling</td><td>Persuasive</td></tr>
+        <tr><td>Cognizant</td><td>Aware, Conscious</td><td>Having knowledge</td></tr>
+        <tr><td>Colossal</td><td>Huge, Gigantic</td><td>Enormous</td></tr>
+        <tr><td>Commiserate</td><td>Sympathize, Console</td><td>Express sympathy</td></tr>
+        <tr><td>Compliant</td><td>Obedient, Yielding</td><td>Agreeable</td></tr>
+        <tr><td>Concede</td><td>Admit, Acknowledge</td><td>Grant unwillingly</td></tr>
+        <tr><td>Concise</td><td>Brief, Succinct</td><td>Short and clear</td></tr>
+        <tr><td>Conjecture</td><td>Guess, Speculate</td><td>Form opinion without evidence</td></tr>
+        <tr><td>Consternation</td><td>Dismay, Alarm</td><td>Anxiety</td></tr>
+        <tr><td>Contempt</td><td>Scorn, Disdain</td><td>Feeling of being beneath</td></tr>
+        <tr><td>Contrite</td><td>Apologetic, Remorseful</td><td>Feeling guilt</td></tr>
+        <tr><td>Conundrum</td><td>Puzzle, Riddle</td><td>Confusing problem</td></tr>
+        <tr><td>Copious</td><td>Abundant, Plentiful</td><td>Large quantity</td></tr>
+        <tr><td>Coterie</td><td>Clique, Circle</td><td>Small exclusive group</td></tr>
+        <tr><td>Covet</td><td>Desire, Crave</td><td>Want enviously</td></tr>
+        <tr><td>Credulous</td><td>Gullible, Naive</td><td>Easily believing</td></tr>
+        <tr><td>Cryptic</td><td>Mysterious, Obscure</td><td>Hidden meaning</td></tr>
+        <tr><td>Culpable</td><td>Guilty, Blameworthy</td><td>Deserving blame</td></tr>
+        <tr><td>Curtail</td><td>Reduce, Shorten</td><td>Cut short</td></tr>
+        <tr><td>Cynical</td><td>Skeptical, Distrustful</td><td>Believing the worst</td></tr>
+        <tr><td>Debacle</td><td>Disaster, Failure</td><td>Sudden collapse</td></tr>
+        <tr><td>Debilitate</td><td>Weaken, Enfeeble</td><td>Make weak</td></tr>
+        <tr><td>Decadent</td><td>Decaying, Self-indulgent</td><td>Morally declining</td></tr>
+        <tr><td>Decorum</td><td>Propriety, Politeness</td><td>Polite behavior</td></tr>
+        <tr><td>Defame</td><td>Slander, Malign</td><td>Damage reputation</td></tr>
+        <tr><td>Deference</td><td>Respect, Esteem</td><td>Polite submission</td></tr>
+        <tr><td>Demure</td><td>Modest, Shy</td><td>Reserved</td></tr>
+        <tr><td>Denounce</td><td>Condemn, Criticize</td><td>Publicly declare against</td></tr>
+        <tr><td>Deride</td><td>Mock, Ridicule</td><td>Express contempt</td></tr>
+        <tr><td>Desolate</td><td>Bleak, Lonely</td><td>Empty and barren</td></tr>
+        <tr><td>Detrimental</td><td>Harmful, Damaging</td><td>Causing harm</td></tr>
+        <tr><td>Devious</td><td>Sly, Deceitful</td><td>Underhanded</td></tr>
+        <tr><td>Dilapidated</td><td>Run-down, Decrepit</td><td>In ruin</td></tr>
+        <tr><td>Diminish</td><td>Reduce, Decrease</td><td>Make smaller</td></tr>
+        <tr><td>Disconcert</td><td>Disturb, Unsettle</td><td>Confuse and upset</td></tr>
+        <tr><td>Disdain</td><td>Scorn, Contempt</td><td>Look down on</td></tr>
+        <tr><td>Disparage</td><td>Belittle, Discredit</td><td>Speak slightingly</td></tr>
+        <tr><td>Dissent</td><td>Disagree, Object</td><td>Differ in opinion</td></tr>
+        <tr><td>Distraught</td><td>Upset, Agitated</td><td>Very worried</td></tr>
+        <tr><td>Docile</td><td>Obedient, Submissive</td><td>Easy to train</td></tr>
+        <tr><td>Dogmatic</td><td>Assertive, Opinionated</td><td>Strongly held belief</td></tr>
+        <tr><td>Dormant</td><td>Inactive, Sleeping</td><td>Temporarily inactive</td></tr>
+        <tr><td>Dubious</td><td>Doubtful, Uncertain</td><td>Suspicious</td></tr>
+        <tr><td>Duplicity</td><td>Deceit, Two-faced</td><td>Double-dealing</td></tr>
+      </table>
+
+      <h3>🔥 Extended List — Advanced SSC Synonyms (E-L)</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th><th>Meaning</th></tr>
+        <tr><td>Ebullient</td><td>Enthusiastic, Cheerful</td><td>Full of energy</td></tr>
+        <tr><td>Edifice</td><td>Building, Structure</td><td>Large building</td></tr>
+        <tr><td>Effervescent</td><td>Lively, Bubbly</td><td>Vivacious</td></tr>
+        <tr><td>Effigy</td><td>Image, Statue</td><td>Representation of person</td></tr>
+        <tr><td>Egregious</td><td>Shocking, Flagrant</td><td>Outstandingly bad</td></tr>
+        <tr><td>Elated</td><td>Joyful, Thrilled</td><td>Very happy</td></tr>
+        <tr><td>Embellish</td><td>Decorate, Adorn</td><td>Make more attractive</td></tr>
+        <tr><td>Emulate</td><td>Imitate, Mirror</td><td>Match by imitation</td></tr>
+        <tr><td>Enmity</td><td>Hostility, Hatred</td><td>State of being enemy</td></tr>
+        <tr><td>Ennui</td><td>Boredom, Listlessness</td><td>Dissatisfaction from lack of activity</td></tr>
+        <tr><td>Enthral</td><td>Captivate, Charm</td><td>Hold attention</td></tr>
+        <tr><td>Equanimity</td><td>Composure, Calmness</td><td>Mental calmness</td></tr>
+        <tr><td>Errant</td><td>Wandering, Straying</td><td>Wandering off</td></tr>
+        <tr><td>Esoteric</td><td>Obscure, Specialized</td><td>Understood by few</td></tr>
+        <tr><td>Espouse</td><td>Adopt, Support</td><td>Take up cause</td></tr>
+        <tr><td>Eulogize</td><td>Praise, Celebrate</td><td>Praise highly</td></tr>
+        <tr><td>Euphemism</td><td>Polite term, Mild expression</td><td>Indirect word for harsh</td></tr>
+        <tr><td>Euphoria</td><td>Joy, Bliss</td><td>Intense happiness</td></tr>
+        <tr><td>Exacerbate</td><td>Worsen, Aggravate</td><td>Make worse</td></tr>
+        <tr><td>Exalt</td><td>Praise, Glorify</td><td>Hold in high regard</td></tr>
+        <tr><td>Exemplary</td><td>Ideal, Model</td><td>Outstanding example</td></tr>
+        <tr><td>Exhort</td><td>Urge, Encourage</td><td>Strongly encourage</td></tr>
+        <tr><td>Exorbitant</td><td>Excessive, Outrageous</td><td>Unreasonably high</td></tr>
+        <tr><td>Expedient</td><td>Convenient, Useful</td><td>Suitable for purpose</td></tr>
+        <tr><td>Extant</td><td>Existing, Surviving</td><td>Still in existence</td></tr>
+        <tr><td>Extravagant</td><td>Excessive, Wasteful</td><td>Spending lavishly</td></tr>
+        <tr><td>Exuberant</td><td>Enthusiastic, Lively</td><td>Full of energy</td></tr>
+        <tr><td>Facetious</td><td>Humorous, Joking</td><td>Treating serious things lightly</td></tr>
+        <tr><td>Fanatical</td><td>Extreme, Zealous</td><td>Excessively enthusiastic</td></tr>
+        <tr><td>Fawn</td><td>Flatter, Grovel</td><td>Show excessive admiration</td></tr>
+        <tr><td>Fervor</td><td>Passion, Zeal</td><td>Intense feeling</td></tr>
+        <tr><td>Fickle</td><td>Inconsistent, Unpredictable</td><td>Changing frequently</td></tr>
+        <tr><td>Flagrant</td><td>Blatant, Obvious</td><td>Conspicuously bad</td></tr>
+        <tr><td>Flippant</td><td>Disrespectful, Casual</td><td>Lacking proper seriousness</td></tr>
+        <tr><td>Forbearance</td><td>Patience, Tolerance</td><td>Self-control</td></tr>
+        <tr><td>Forlorn</td><td>Lonely, Sad</td><td>Abandoned and miserable</td></tr>
+        <tr><td>Foster</td><td>Encourage, Promote</td><td>Help develop</td></tr>
+        <tr><td>Fractious</td><td>Quarrelsome, Irritable</td><td>Easily annoyed</td></tr>
+        <tr><td>Fraudulent</td><td>Dishonest, Deceitful</td><td>Obtained through fraud</td></tr>
+        <tr><td>Fruition</td><td>Realization, Achievement</td><td>Successful completion</td></tr>
+        <tr><td>Gaffe</td><td>Mistake, Blunder</td><td>Social mistake</td></tr>
+        <tr><td>Gallant</td><td>Brave, Heroic</td><td>Courageous</td></tr>
+        <tr><td>Garish</td><td>Gaudy, Showy</td><td>Excessively bright</td></tr>
+        <tr><td>Genteel</td><td>Polite, Refined</td><td>Polite and elegant</td></tr>
+        <tr><td>Glib</td><td>Smooth-talking, Slick</td><td>Speaking fluently but without sincerity</td></tr>
+        <tr><td>Gluttonous</td><td>Greedy, Voracious</td><td>Excessively eating</td></tr>
+        <tr><td>Goad</td><td>Provoke, Urge</td><td>Push to action</td></tr>
+        <tr><td>Grandiose</td><td>Impressive, Pompous</td><td>Excessively grand</td></tr>
+        <tr><td>Gratify</td><td>Please, Satisfy</td><td>Give satisfaction</td></tr>
+        <tr><td>Gravity</td><td>Seriousness, Importance</td><td>Solemnity</td></tr>
+        <tr><td>Gregarious</td><td>Sociable, Outgoing</td><td>Fond of company</td></tr>
+        <tr><td>Hackneyed</td><td>Overused, Clichéd</td><td>Unoriginal</td></tr>
+        <tr><td>Harangue</td><td>Lecture, Tirade</td><td>Lengthy aggressive speech</td></tr>
+        <tr><td>Harbinger</td><td>Forerunner, Herald</td><td>Sign of things to come</td></tr>
+        <tr><td>Heretic</td><td>Dissenter, Nonconformist</td><td>One who opposes orthodoxy</td></tr>
+        <tr><td>Hypocrisy</td><td>Insincerity, Pretense</td><td>Claiming morals one doesn't have</td></tr>
+        <tr><td>Iconoclast</td><td>Rebel, Nonconformist</td><td>Attacker of cherished beliefs</td></tr>
+        <tr><td>Idolatry</td><td>Worship, Adoration</td><td>Excessive admiration</td></tr>
+        <tr><td>Illicit</td><td>Illegal, Unlawful</td><td>Not permitted</td></tr>
+        <tr><td>Imminent</td><td>Impending, Approaching</td><td>About to happen</td></tr>
+        <tr><td>Impassive</td><td>Stoic, Expressionless</td><td>Showing no emotion</td></tr>
+        <tr><td>Imperative</td><td>Crucial, Essential</td><td>Of vital importance</td></tr>
+        <tr><td>Impetuous</td><td>Impulsive, Rash</td><td>Acting without thought</td></tr>
+        <tr><td>Impervious</td><td>Resistant, Impenetrable</td><td>Not affected</td></tr>
+        <tr><td>Implacable</td><td>Unforgiving, Relentless</td><td>Unable to be appeased</td></tr>
+        <tr><td>Impudent</td><td>Disrespectful, Rude</td><td>Bold and disrespectful</td></tr>
+        <tr><td>Inane</td><td>Silly, Meaningless</td><td>Lacking sense</td></tr>
+        <tr><td>Inception</td><td>Beginning, Start</td><td>Establishment of something</td></tr>
+        <tr><td>Incessant</td><td>Constant, Continuous</td><td>Never ending</td></tr>
+        <tr><td>Inchoate</td><td>Beginning, Rudimentary</td><td>Just begun</td></tr>
+        <tr><td>Incite</td><td>Provoke, Stir up</td><td>Encourage to action</td></tr>
+        <tr><td>Indelible</td><td>Permanent, Lasting</td><td>Cannot be removed</td></tr>
+        <tr><td>Indict</td><td>Charge, Accuse</td><td>Formally accuse</td></tr>
+        <tr><td>Indifferent</td><td>Apathetic, Disinterested</td><td>Having no interest</td></tr>
+        <tr><td>Indigent</td><td>Poor, Destitute</td><td>Very poor</td></tr>
+        <tr><td>Ineffable</td><td>Indescribable, Unspeakable</td><td>Too great to express</td></tr>
+        <tr><td>Inept</td><td>Incompetent, Clumsy</td><td>Without skill</td></tr>
+        <tr><td>Inert</td><td>Inactive, Motionless</td><td>Lacking vigor</td></tr>
+        <tr><td>Infamy</td><td>Notoriety, Disgrace</td><td>Famous for bad</td></tr>
+        <tr><td>Ingenious</td><td>Clever, Inventive</td><td>Original and creative</td></tr>
+        <tr><td>Ingenuous</td><td>Innocent, Sincere</td><td>Naive and honest</td></tr>
+        <tr><td>Iniquitous</td><td>Wicked, Unjust</td><td>Grossly unfair</td></tr>
+        <tr><td>Innocuous</td><td>Harmless, Inoffensive</td><td>Not harmful</td></tr>
+        <tr><td>Inscrutable</td><td>Mysterious, Enigmatic</td><td>Impossible to understand</td></tr>
+        <tr><td>Insidious</td><td>Treacherous, Sneaky</td><td>Subtly harmful</td></tr>
+        <tr><td>Insolent</td><td>Disrespectful, Rude</td><td>Showing rude attitude</td></tr>
+        <tr><td>Insouciant</td><td>Carefree, Nonchalant</td><td>Free from anxiety</td></tr>
+        <tr><td>Intransigent</td><td>Stubborn, Uncompromising</td><td>Refusing to compromise</td></tr>
+        <tr><td>Inveterate</td><td>Habitual, Established</td><td>Long-established</td></tr>
+        <tr><td>Irascible</td><td>Easily angered, Hot-tempered</td><td>Quick to anger</td></tr>
+        <tr><td>Itinerant</td><td>Traveling, Roaming</td><td>Moving from place to place</td></tr>
+        <tr><td>Jaded</td><td>Tired, Bored</td><td>Worn out</td></tr>
+        <tr><td>Jeer</td><td>Mock, Taunt</td><td>Make rude remarks</td></tr>
+        <tr><td>Jingoism</td><td>Aggressive patriotism</td><td>Extreme nationalism</td></tr>
+        <tr><td>Jovial</td><td>Cheerful, Merry</td><td>Cheerful and friendly</td></tr>
+        <tr><td>Juxtapose</td><td>Place side by side</td><td>For comparison</td></tr>
+        <tr><td>Knack</td><td>Skill, Talent</td><td>Acquired skill</td></tr>
+        <tr><td>Lackadaisical</td><td>Lazy, Unenthusiastic</td><td>Lacking determination</td></tr>
+        <tr><td>Laconic</td><td>Concise, Terse</td><td>Using few words</td></tr>
+        <tr><td>Lambaste</td><td>Criticize, Attack</td><td>Severely criticize</td></tr>
+        <tr><td>Languid</td><td>Listless, Sluggish</td><td>Lacking energy</td></tr>
+        <tr><td>Latent</td><td>Hidden, Dormant</td><td>Existing but not visible</td></tr>
+        <tr><td>Laudable</td><td>Praiseworthy, Commendable</td><td>Deserving praise</td></tr>
+        <tr><td>Lavish</td><td>Extravagant, Luxurious</td><td>Generous in spending</td></tr>
+        <tr><td>Lethal</td><td>Deadly, Fatal</td><td>Causing death</td></tr>
+        <tr><td>Levity</td><td>Humor, Frivolity</td><td>Lack of seriousness</td></tr>
+        <tr><td>Lithe</td><td>Flexible, Supple</td><td>Slender and graceful</td></tr>
+        <tr><td>Loathe</td><td>Hate, Detest</td><td>Feel strong disgust</td></tr>
+        <tr><td>Lucrative</td><td>Profitable, Rewarding</td><td>Producing wealth</td></tr>
+        <tr><td>Lugubrious</td><td>Sad, Mournful</td><td>Looking sad</td></tr>
+        <tr><td>Lull</td><td>Calm, Soothe</td><td>Make peaceful</td></tr>
+      </table>
+
+      <h3>🔥 Extended List — Advanced SSC Synonyms (M-R)</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th><th>Meaning</th></tr>
+        <tr><td>Macabre</td><td>Gruesome, Morbid</td><td>Disturbing, related to death</td></tr>
+        <tr><td>Maladroit</td><td>Clumsy, Inept</td><td>Lacking skill</td></tr>
+        <tr><td>Malady</td><td>Illness, Disease</td><td>Serious problem or disease</td></tr>
+        <tr><td>Malign</td><td>Slander, Defame</td><td>Speak evil of</td></tr>
+        <tr><td>Malinger</td><td>Pretend illness, Shirk</td><td>Avoid work by pretending sick</td></tr>
+        <tr><td>Manifest</td><td>Show, Reveal</td><td>Make apparent</td></tr>
+        <tr><td>Martinet</td><td>Strict disciplinarian</td><td>Rigid enforcer</td></tr>
+        <tr><td>Mawkish</td><td>Sentimental, Overly emotional</td><td>Sickly sentimental</td></tr>
+        <tr><td>Maxim</td><td>Saying, Proverb</td><td>Brief expression of truth</td></tr>
+        <tr><td>Maverick</td><td>Independent, Nonconformist</td><td>Unorthodox person</td></tr>
+        <tr><td>Meager</td><td>Scanty, Sparse</td><td>Lacking in quantity</td></tr>
+        <tr><td>Melancholy</td><td>Sad, Gloomy</td><td>Deep sadness</td></tr>
+        <tr><td>Mellifluous</td><td>Sweet-sounding, Smooth</td><td>Pleasing to ear</td></tr>
+        <tr><td>Mendacious</td><td>Untruthful, Dishonest</td><td>Habitually lying</td></tr>
+        <tr><td>Mercenary</td><td>Greedy, Money-motivated</td><td>Motivated by money</td></tr>
+        <tr><td>Mercurial</td><td>Volatile, Changeable</td><td>Quickly changing</td></tr>
+        <tr><td>Mettle</td><td>Courage, Spirit</td><td>Strength of character</td></tr>
+        <tr><td>Mire</td><td>Mud, Difficulty</td><td>Wet boggy ground</td></tr>
+        <tr><td>Mirth</td><td>Joy, Laughter</td><td>Cheerfulness</td></tr>
+        <tr><td>Mollify</td><td>Calm, Appease</td><td>Reduce anger</td></tr>
+        <tr><td>Morose</td><td>Sullen, Gloomy</td><td>Bad-tempered and sulky</td></tr>
+        <tr><td>Mundane</td><td>Ordinary, Banal</td><td>Lacking interest</td></tr>
+        <tr><td>Munificent</td><td>Generous, Lavish</td><td>Very generous</td></tr>
+        <tr><td>Myriad</td><td>Countless, Innumerable</td><td>Great in number</td></tr>
+        <tr><td>Nascent</td><td>Emerging, Beginning</td><td>Just coming into existence</td></tr>
+        <tr><td>Nebulous</td><td>Vague, Hazy</td><td>Unclear, ill-defined</td></tr>
+        <tr><td>Negligent</td><td>Careless, Inattentive</td><td>Failing to take care</td></tr>
+        <tr><td>Neophyte</td><td>Beginner, Novice</td><td>New convert</td></tr>
+        <tr><td>Nettle</td><td>Annoy, Provoke</td><td>Irritate</td></tr>
+        <tr><td>Nimble</td><td>Agile, Quick</td><td>Quick and light</td></tr>
+        <tr><td>Nonchalant</td><td>Casual, Unconcerned</td><td>Cool, indifferent</td></tr>
+        <tr><td>Noxious</td><td>Harmful, Toxic</td><td>Harmful to health</td></tr>
+        <tr><td>Nuance</td><td>Subtle difference</td><td>Slight variation</td></tr>
+        <tr><td>Obdurate</td><td>Stubborn, Unyielding</td><td>Refusing to change</td></tr>
+        <tr><td>Obfuscate</td><td>Confuse, Bewilder</td><td>Make unclear</td></tr>
+        <tr><td>Obsequious</td><td>Servile, Sycophantic</td><td>Excessively obedient</td></tr>
+        <tr><td>Obviate</td><td>Prevent, Remove</td><td>Remove need for</td></tr>
+        <tr><td>Officious</td><td>Meddlesome, Bossy</td><td>Asserting authority too much</td></tr>
+        <tr><td>Onerous</td><td>Burdensome, Difficult</td><td>Requiring much effort</td></tr>
+        <tr><td>Opaque</td><td>Unclear, Cloudy</td><td>Not transparent</td></tr>
+        <tr><td>Opportune</td><td>Timely, Favorable</td><td>At good time</td></tr>
+        <tr><td>Ostentatious</td><td>Showy, Pretentious</td><td>Vulgar display</td></tr>
+        <tr><td>Pacify</td><td>Soothe, Calm</td><td>Quiet anger</td></tr>
+        <tr><td>Painstaking</td><td>Careful, Thorough</td><td>Done with great care</td></tr>
+        <tr><td>Palatable</td><td>Tasty, Pleasant</td><td>Acceptable to taste</td></tr>
+        <tr><td>Paltry</td><td>Insignificant, Trivial</td><td>Small or worthless</td></tr>
+        <tr><td>Panacea</td><td>Cure-all, Remedy</td><td>Universal solution</td></tr>
+        <tr><td>Panache</td><td>Style, Flair</td><td>Distinctive manner</td></tr>
+        <tr><td>Paragon</td><td>Model, Ideal</td><td>Perfect example</td></tr>
+        <tr><td>Parsimonious</td><td>Stingy, Frugal</td><td>Unwilling to spend</td></tr>
+        <tr><td>Partisan</td><td>Biased, Supporter</td><td>Strong supporter</td></tr>
+        <tr><td>Paucity</td><td>Scarcity, Shortage</td><td>Small amount</td></tr>
+        <tr><td>Peccadillo</td><td>Minor offense</td><td>Small fault</td></tr>
+        <tr><td>Pedantic</td><td>Bookish, Showy</td><td>Excessive concern for detail</td></tr>
+        <tr><td>Pejorative</td><td>Disparaging, Negative</td><td>Expressing contempt</td></tr>
+        <tr><td>Penchant</td><td>Liking, Inclination</td><td>Strong liking</td></tr>
+        <tr><td>Penurious</td><td>Poor, Stingy</td><td>Extremely poor or miserly</td></tr>
+        <tr><td>Perennial</td><td>Lasting, Recurring</td><td>Long-lasting</td></tr>
+        <tr><td>Perfidious</td><td>Treacherous, Disloyal</td><td>Deceitful</td></tr>
+        <tr><td>Perfunctory</td><td>Routine, Cursory</td><td>Done with little effort</td></tr>
+        <tr><td>Pernicious</td><td>Harmful, Destructive</td><td>Having harmful effect</td></tr>
+        <tr><td>Perpetuate</td><td>Continue, Preserve</td><td>Cause to continue</td></tr>
+        <tr><td>Perspicacious</td><td>Insightful, Perceptive</td><td>Mentally sharp</td></tr>
+        <tr><td>Petulant</td><td>Sulky, Bad-tempered</td><td>Childishly irritable</td></tr>
+        <tr><td>Phlegmatic</td><td>Calm, Unemotional</td><td>Hard to excite</td></tr>
+        <tr><td>Piety</td><td>Devotion, Faithfulness</td><td>Religious devotion</td></tr>
+        <tr><td>Pious</td><td>Devout, Religious</td><td>Showing reverence</td></tr>
+        <tr><td>Pithy</td><td>Concise, Brief</td><td>Forceful and brief</td></tr>
+        <tr><td>Placate</td><td>Pacify, Appease</td><td>Make less angry</td></tr>
+        <tr><td>Platitude</td><td>Cliché, Truism</td><td>Trite remark</td></tr>
+        <tr><td>Plethora</td><td>Abundance, Excess</td><td>Large amount</td></tr>
+        <tr><td>Poignant</td><td>Touching, Moving</td><td>Evoking sad emotion</td></tr>
+        <tr><td>Pompous</td><td>Self-important, Arrogant</td><td>Overly grand</td></tr>
+        <tr><td>Ponderous</td><td>Heavy, Tedious</td><td>Slow and laborious</td></tr>
+        <tr><td>Portly</td><td>Stout, Heavy</td><td>Rather fat</td></tr>
+        <tr><td>Posthumous</td><td>After death</td><td>Occurring after death</td></tr>
+        <tr><td>Pragmatic</td><td>Practical, Realistic</td><td>Sensible</td></tr>
+        <tr><td>Preamble</td><td>Introduction, Preface</td><td>Introductory statement</td></tr>
+        <tr><td>Precarious</td><td>Risky, Uncertain</td><td>Dangerously unstable</td></tr>
+        <tr><td>Precipitous</td><td>Steep, Sudden</td><td>Very steep</td></tr>
+        <tr><td>Precocious</td><td>Advanced, Mature</td><td>Developing early</td></tr>
+        <tr><td>Predilection</td><td>Preference, Liking</td><td>Strong preference</td></tr>
+        <tr><td>Prescient</td><td>Foreseeing, Prophetic</td><td>Having foresight</td></tr>
+        <tr><td>Pretentious</td><td>Showy, Affected</td><td>Trying to impress</td></tr>
+        <tr><td>Prevaricate</td><td>Lie, Equivocate</td><td>Speak evasively</td></tr>
+        <tr><td>Pristine</td><td>Pure, Untouched</td><td>In original condition</td></tr>
+        <tr><td>Probity</td><td>Honesty, Integrity</td><td>Moral excellence</td></tr>
+        <tr><td>Proclivity</td><td>Tendency, Inclination</td><td>Natural tendency</td></tr>
+        <tr><td>Procure</td><td>Obtain, Acquire</td><td>Get hold of</td></tr>
+        <tr><td>Prodigy</td><td>Genius, Wonder</td><td>Young person with great talent</td></tr>
+        <tr><td>Profligate</td><td>Wasteful, Reckless</td><td>Recklessly extravagant</td></tr>
+        <tr><td>Profuse</td><td>Abundant, Plentiful</td><td>Plentiful</td></tr>
+        <tr><td>Progeny</td><td>Offspring, Descendants</td><td>Descendants</td></tr>
+        <tr><td>Promulgate</td><td>Announce, Proclaim</td><td>Make widely known</td></tr>
+        <tr><td>Propensity</td><td>Tendency, Inclination</td><td>Natural inclination</td></tr>
+        <tr><td>Propitious</td><td>Favorable, Auspicious</td><td>Giving favorable indication</td></tr>
+        <tr><td>Prosaic</td><td>Dull, Mundane</td><td>Lacking imagination</td></tr>
+        <tr><td>Proscribe</td><td>Forbid, Ban</td><td>Officially forbid</td></tr>
+        <tr><td>Prosperous</td><td>Successful, Wealthy</td><td>Doing well financially</td></tr>
+        <tr><td>Provident</td><td>Far-sighted, Thrifty</td><td>Making provision for future</td></tr>
+        <tr><td>Prowess</td><td>Skill, Expertise</td><td>Skill in something</td></tr>
+        <tr><td>Prudent</td><td>Wise, Cautious</td><td>Acting with care</td></tr>
+        <tr><td>Pugnacious</td><td>Combative, Aggressive</td><td>Eager to fight</td></tr>
+        <tr><td>Pundit</td><td>Expert, Authority</td><td>Expert who gives opinions</td></tr>
+        <tr><td>Punitive</td><td>Punishing, Penal</td><td>Inflicting punishment</td></tr>
+        <tr><td>Purport</td><td>Claim, Pretend</td><td>Appear to be</td></tr>
+        <tr><td>Quagmire</td><td>Predicament, Bog</td><td>Difficult situation</td></tr>
+        <tr><td>Quaint</td><td>Charmingly old-fashioned</td><td>Attractively unusual</td></tr>
+        <tr><td>Quandary</td><td>Dilemma, Predicament</td><td>State of uncertainty</td></tr>
+        <tr><td>Quell</td><td>Suppress, Subdue</td><td>Put an end to</td></tr>
+        <tr><td>Querulous</td><td>Complaining, Whiny</td><td>Habitually complaining</td></tr>
+        <tr><td>Quintessential</td><td>Typical, Perfect example</td><td>Embodying essence</td></tr>
+        <tr><td>Quixotic</td><td>Idealistic, Impractical</td><td>Unrealistically idealistic</td></tr>
+        <tr><td>Rancor</td><td>Bitterness, Resentment</td><td>Lasting bitterness</td></tr>
+        <tr><td>Raucous</td><td>Loud, Noisy</td><td>Harsh sounding</td></tr>
+        <tr><td>Recant</td><td>Withdraw, Retract</td><td>Take back statement</td></tr>
+        <tr><td>Recluse</td><td>Hermit, Loner</td><td>Person living in solitude</td></tr>
+        <tr><td>Recondite</td><td>Obscure, Abstruse</td><td>Difficult to understand</td></tr>
+        <tr><td>Redolent</td><td>Fragrant, Evocative</td><td>Strongly suggestive</td></tr>
+        <tr><td>Refute</td><td>Disprove, Contradict</td><td>Prove wrong</td></tr>
+        <tr><td>Reiterate</td><td>Repeat, Restate</td><td>Say again</td></tr>
+        <tr><td>Relegate</td><td>Demote, Banish</td><td>Send to lower position</td></tr>
+        <tr><td>Relish</td><td>Enjoy, Savor</td><td>Take pleasure in</td></tr>
+        <tr><td>Renege</td><td>Go back on word</td><td>Fail to keep promise</td></tr>
+        <tr><td>Renounce</td><td>Reject, Abandon</td><td>Formally give up</td></tr>
+        <tr><td>Repudiate</td><td>Reject, Deny</td><td>Refuse to accept</td></tr>
+        <tr><td>Replete</td><td>Full, Filled</td><td>Filled with</td></tr>
+        <tr><td>Reprehensible</td><td>Blameworthy, Shameful</td><td>Deserving censure</td></tr>
+        <tr><td>Reprieve</td><td>Pardon, Postpone</td><td>Delay punishment</td></tr>
+        <tr><td>Reprove</td><td>Reprimand, Scold</td><td>Express disapproval</td></tr>
+        <tr><td>Repulsive</td><td>Disgusting, Revolting</td><td>Causing disgust</td></tr>
+        <tr><td>Reserved</td><td>Reticent, Aloof</td><td>Slow to reveal feelings</td></tr>
+        <tr><td>Resolute</td><td>Determined, Firm</td><td>Firmly resolved</td></tr>
+        <tr><td>Respite</td><td>Break, Pause</td><td>Short rest from</td></tr>
+        <tr><td>Reverence</td><td>Respect, Awe</td><td>Deep respect</td></tr>
+        <tr><td>Rife</td><td>Widespread, Prevalent</td><td>Common</td></tr>
+        <tr><td>Robust</td><td>Strong, Sturdy</td><td>Healthy and strong</td></tr>
+        <tr><td>Rotund</td><td>Round, Plump</td><td>Plump in shape</td></tr>
+        <tr><td>Rudimentary</td><td>Basic, Elementary</td><td>Involving basic principles</td></tr>
+        <tr><td>Rue</td><td>Regret, Lament</td><td>Bitterly regret</td></tr>
+        <tr><td>Ruminate</td><td>Ponder, Contemplate</td><td>Think deeply about</td></tr>
+        <tr><td>Ruse</td><td>Trick, Stratagem</td><td>Action to deceive</td></tr>
+      </table>
+
+      <h3>🔥 Extended List — Advanced SSC Synonyms (S-Z)</h3>
+      <table>
+        <tr><th>Word</th><th>Synonym</th><th>Meaning</th></tr>
+        <tr><td>Sacrilege</td><td>Desecration, Blasphemy</td><td>Violation of sacred</td></tr>
+        <tr><td>Salient</td><td>Prominent, Notable</td><td>Most noticeable</td></tr>
+        <tr><td>Salubrious</td><td>Healthy, Beneficial</td><td>Health-giving</td></tr>
+        <tr><td>Sanctimonious</td><td>Self-righteous, Smug</td><td>Pretending to be moral</td></tr>
+        <tr><td>Sanguinary</td><td>Bloody, Murderous</td><td>Involving bloodshed</td></tr>
+        <tr><td>Sardonic</td><td>Mocking, Cynical</td><td>Disdainfully humorous</td></tr>
+        <tr><td>Sartorial</td><td>Relating to clothing</td><td>About tailored clothing</td></tr>
+        <tr><td>Scant</td><td>Insufficient, Meager</td><td>Barely sufficient</td></tr>
+        <tr><td>Scintillating</td><td>Sparkling, Brilliant</td><td>Brilliantly clever</td></tr>
+        <tr><td>Scrupulous</td><td>Thorough, Meticulous</td><td>Very careful and exact</td></tr>
+        <tr><td>Scurrilous</td><td>Defamatory, Vulgar</td><td>Making damaging accusations</td></tr>
+        <tr><td>Secular</td><td>Worldly, Non-religious</td><td>Not religious</td></tr>
+        <tr><td>Sedate</td><td>Calm, Composed</td><td>Quiet and reserved</td></tr>
+        <tr><td>Sedition</td><td>Rebellion, Treason</td><td>Inciting against authority</td></tr>
+        <tr><td>Seditious</td><td>Rebellious, Inflammatory</td><td>Promoting rebellion</td></tr>
+        <tr><td>Sedulous</td><td>Diligent, Persistent</td><td>Persevering</td></tr>
+        <tr><td>Sepulchral</td><td>Gloomy, Funereal</td><td>Like a tomb</td></tr>
+        <tr><td>Sequester</td><td>Isolate, Separate</td><td>Set apart</td></tr>
+        <tr><td>Servile</td><td>Submissive, Obedient</td><td>Excessively willing</td></tr>
+        <tr><td>Shrewd</td><td>Astute, Clever</td><td>Sharp judgment</td></tr>
+        <tr><td>Skeptical</td><td>Doubtful, Suspicious</td><td>Inclined to doubt</td></tr>
+        <tr><td>Slothful</td><td>Lazy, Idle</td><td>Reluctant to work</td></tr>
+        <tr><td>Sombre</td><td>Gloomy, Serious</td><td>Dark and dull</td></tr>
+        <tr><td>Soporific</td><td>Sleep-inducing, Dull</td><td>Causing sleepiness</td></tr>
+        <tr><td>Sordid</td><td>Dirty, Squalid</td><td>Morally degraded</td></tr>
+        <tr><td>Specious</td><td>False, Misleading</td><td>Superficially plausible but wrong</td></tr>
+        <tr><td>Spendthrift</td><td>Extravagant, Wasteful</td><td>Person who spends money carelessly</td></tr>
+        <tr><td>Sporadic</td><td>Occasional, Irregular</td><td>Occurring at intervals</td></tr>
+        <tr><td>Squalid</td><td>Filthy, Wretched</td><td>Extremely dirty</td></tr>
+        <tr><td>Squander</td><td>Waste, Misspend</td><td>Spend wastefully</td></tr>
+        <tr><td>Staid</td><td>Sedate, Sober</td><td>Conservative</td></tr>
+        <tr><td>Stalwart</td><td>Loyal supporter, Sturdy</td><td>Robust and loyal</td></tr>
+        <tr><td>Steadfast</td><td>Loyal, Unwavering</td><td>Firm in purpose</td></tr>
+        <tr><td>Stigma</td><td>Disgrace, Shame</td><td>Mark of disgrace</td></tr>
+        <tr><td>Stipulate</td><td>Specify, Demand</td><td>Specify as condition</td></tr>
+        <tr><td>Stoic</td><td>Impassive, Indifferent to pain</td><td>Enduring without complaint</td></tr>
+        <tr><td>Stolid</td><td>Impassive, Unemotional</td><td>Calm, unexcitable</td></tr>
+        <tr><td>Strident</td><td>Harsh, Loud</td><td>Loud and harsh</td></tr>
+        <tr><td>Stymie</td><td>Hinder, Thwart</td><td>Prevent doing something</td></tr>
+        <tr><td>Sublime</td><td>Magnificent, Exalted</td><td>Of high excellence</td></tr>
+        <tr><td>Subterfuge</td><td>Deceit, Trickery</td><td>Deception to achieve goal</td></tr>
+        <tr><td>Succinct</td><td>Brief, Concise</td><td>Expressed in few words</td></tr>
+        <tr><td>Succor</td><td>Aid, Help</td><td>Assistance in difficulty</td></tr>
+        <tr><td>Sully</td><td>Tarnish, Stain</td><td>Damage purity</td></tr>
+        <tr><td>Supercilious</td><td>Arrogant, Disdainful</td><td>Behaving as superior</td></tr>
+        <tr><td>Superfluous</td><td>Excessive, Unnecessary</td><td>Beyond what's needed</td></tr>
+        <tr><td>Surfeit</td><td>Excess, Overabundance</td><td>Excessive amount</td></tr>
+        <tr><td>Surreptitious</td><td>Secretive, Stealthy</td><td>Kept secret</td></tr>
+        <tr><td>Sycophant</td><td>Flatterer, Yes-man</td><td>Person who flatters</td></tr>
+        <tr><td>Tacit</td><td>Implied, Unspoken</td><td>Understood without words</td></tr>
+        <tr><td>Taciturn</td><td>Reserved, Quiet</td><td>Speaking little</td></tr>
+        <tr><td>Tangible</td><td>Concrete, Real</td><td>Perceptible by touch</td></tr>
+        <tr><td>Tantamount</td><td>Equivalent, Equal</td><td>Same as</td></tr>
+        <tr><td>Tedious</td><td>Boring, Tiresome</td><td>Too long or slow</td></tr>
+        <tr><td>Tenacious</td><td>Persistent, Determined</td><td>Holding firmly</td></tr>
+        <tr><td>Tenuous</td><td>Weak, Flimsy</td><td>Very weak</td></tr>
+        <tr><td>Terse</td><td>Concise, Brief</td><td>Sparing in words</td></tr>
+        <tr><td>Tirade</td><td>Long angry speech</td><td>Long bitter outburst</td></tr>
+        <tr><td>Torpid</td><td>Sluggish, Inactive</td><td>Lacking energy</td></tr>
+        <tr><td>Torrid</td><td>Hot, Passionate</td><td>Very hot or intense</td></tr>
+        <tr><td>Tortuous</td><td>Twisting, Complex</td><td>Full of twists</td></tr>
+        <tr><td>Tractable</td><td>Manageable, Docile</td><td>Easy to control</td></tr>
+        <tr><td>Trenchant</td><td>Incisive, Cutting</td><td>Vigorous and incisive</td></tr>
+        <tr><td>Trepidation</td><td>Fear, Apprehension</td><td>Feeling of fear</td></tr>
+        <tr><td>Trite</td><td>Overused, Banal</td><td>Lacking originality</td></tr>
+        <tr><td>Truculent</td><td>Aggressive, Belligerent</td><td>Eager to argue</td></tr>
+        <tr><td>Truncate</td><td>Shorten, Cut off</td><td>Make shorter</td></tr>
+        <tr><td>Tumult</td><td>Uproar, Commotion</td><td>Loud confused noise</td></tr>
+        <tr><td>Turbid</td><td>Muddy, Cloudy</td><td>Not clear</td></tr>
+        <tr><td>Turpitude</td><td>Depravity, Wickedness</td><td>Vile behavior</td></tr>
+        <tr><td>Ubiquitous</td><td>Omnipresent, Widespread</td><td>Present everywhere</td></tr>
+        <tr><td>Umbrage</td><td>Offense, Resentment</td><td>Feeling of being offended</td></tr>
+        <tr><td>Unctuous</td><td>Oily, Smarmy</td><td>Excessively flattering</td></tr>
+        <tr><td>Undermine</td><td>Weaken, Sabotage</td><td>Erode foundation</td></tr>
+        <tr><td>Unequivocal</td><td>Clear, Unambiguous</td><td>Leaving no doubt</td></tr>
+        <tr><td>Unwitting</td><td>Unaware, Unintentional</td><td>Not knowing</td></tr>
+        <tr><td>Upbraid</td><td>Reprimand, Scold</td><td>Find fault with</td></tr>
+        <tr><td>Usurp</td><td>Seize, Take over</td><td>Take power illegally</td></tr>
+        <tr><td>Vacuous</td><td>Empty, Vacant</td><td>Lacking thought</td></tr>
+        <tr><td>Vagary</td><td>Whim, Caprice</td><td>Unexpected change</td></tr>
+        <tr><td>Vapid</td><td>Dull, Insipid</td><td>Lacking liveliness</td></tr>
+        <tr><td>Vehement</td><td>Forceful, Passionate</td><td>Strong feeling</td></tr>
+        <tr><td>Venal</td><td>Corrupt, Bribable</td><td>Susceptible to bribery</td></tr>
+        <tr><td>Veracity</td><td>Truthfulness, Honesty</td><td>Habitual truthfulness</td></tr>
+        <tr><td>Verbose</td><td>Wordy, Long-winded</td><td>Using more words than needed</td></tr>
+        <tr><td>Verisimilitude</td><td>Appearance of truth</td><td>Seeming real</td></tr>
+        <tr><td>Vestige</td><td>Trace, Remnant</td><td>Small remaining trace</td></tr>
+        <tr><td>Vex</td><td>Annoy, Irritate</td><td>Make worried</td></tr>
+        <tr><td>Vicarious</td><td>Indirect, Substitute</td><td>Felt through another</td></tr>
+        <tr><td>Vigilant</td><td>Watchful, Alert</td><td>Keeping careful watch</td></tr>
+        <tr><td>Vile</td><td>Wicked, Disgusting</td><td>Extremely unpleasant</td></tr>
+        <tr><td>Vilify</td><td>Defame, Slander</td><td>Speak ill of</td></tr>
+        <tr><td>Vindictive</td><td>Vengeful, Spiteful</td><td>Wanting revenge</td></tr>
+        <tr><td>Virulent</td><td>Toxic, Hostile</td><td>Extremely severe</td></tr>
+        <tr><td>Vituperative</td><td>Abusive, Critical</td><td>Bitter, abusive language</td></tr>
+        <tr><td>Vivacious</td><td>Lively, Animated</td><td>Full of liveliness</td></tr>
+        <tr><td>Vociferous</td><td>Loud, Clamorous</td><td>Expressing feelings loudly</td></tr>
+        <tr><td>Volatile</td><td>Unstable, Changeable</td><td>Liable to change suddenly</td></tr>
+        <tr><td>Volition</td><td>Will, Choice</td><td>Power of choosing</td></tr>
+        <tr><td>Voluble</td><td>Talkative, Loquacious</td><td>Speaking fluently</td></tr>
+        <tr><td>Voluminous</td><td>Bulky, Large</td><td>Of great volume</td></tr>
+        <tr><td>Voracious</td><td>Greedy, Insatiable</td><td>Eager for activity/food</td></tr>
+        <tr><td>Wanton</td><td>Reckless, Lewd</td><td>Deliberate and unprovoked</td></tr>
+        <tr><td>Whimsical</td><td>Playful, Capricious</td><td>Acting on whim</td></tr>
+        <tr><td>Wily</td><td>Cunning, Crafty</td><td>Skilled at deception</td></tr>
+        <tr><td>Winsome</td><td>Charming, Appealing</td><td>Attractive in appearance</td></tr>
+        <tr><td>Wistful</td><td>Yearning, Pensive</td><td>Sad longing</td></tr>
+        <tr><td>Withering</td><td>Devastating, Scathing</td><td>Intended to humiliate</td></tr>
+        <tr><td>Wizened</td><td>Shrivelled, Aged</td><td>Shrivelled with age</td></tr>
+        <tr><td>Zenith</td><td>Peak, Summit</td><td>Highest point</td></tr>
+      </table>
+
       <h3>🎯 Tips</h3>
       <ul>
         <li>Learn 10-15 new words daily; revise weekly.</li>
         <li>Notice prefixes/suffixes: "bene-" = good, "mal-" = bad.</li>
         <li>Form mental images with the word.</li>
         <li>Use words in sentences — recall is easier.</li>
+        <li>For 45+ score: master all 500 words; redo MCQs 3+ times.</li>
       </ul>
     `,
     mcq: [
