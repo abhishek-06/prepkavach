@@ -7633,11 +7633,236 @@
         <tr><td>You can't judge a book by its cover</td><td>Don't judge by appearance</td></tr>
       </table>
 
+      <h3>🔥 Extended SSC Idioms — Advanced List</h3>
+
+      <h4>About People & Behaviour</h4>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>A bookworm</td><td>One who loves reading</td></tr>
+        <tr><td>A black sheep</td><td>A disgrace to family</td></tr>
+        <tr><td>A wet blanket</td><td>Spoils others' fun</td></tr>
+        <tr><td>A man of straw</td><td>Weak, unreliable</td></tr>
+        <tr><td>A man of letters</td><td>Scholar / writer</td></tr>
+        <tr><td>A man of his word</td><td>Trustworthy</td></tr>
+        <tr><td>A jack of all trades</td><td>Many skills, master of none</td></tr>
+        <tr><td>A blue-eyed boy</td><td>Favourite person</td></tr>
+        <tr><td>A red-letter day</td><td>Memorable / special day</td></tr>
+        <tr><td>A square peg in a round hole</td><td>Person in unsuitable position</td></tr>
+        <tr><td>A turncoat</td><td>One who changes loyalties</td></tr>
+        <tr><td>A wolf in sheep's clothing</td><td>Hostile person pretending to be friendly</td></tr>
+        <tr><td>A snake in the grass</td><td>Hidden enemy</td></tr>
+        <tr><td>A dark horse</td><td>Surprise winner</td></tr>
+        <tr><td>A fair-weather friend</td><td>Friend only in good times</td></tr>
+        <tr><td>An armchair critic</td><td>Critic who doesn't participate</td></tr>
+        <tr><td>An old hand</td><td>Experienced person</td></tr>
+        <tr><td>A greenhorn</td><td>Inexperienced person</td></tr>
+        <tr><td>Cock and bull story</td><td>Improbable story</td></tr>
+        <tr><td>Crocodile tears</td><td>False sorrow / insincere</td></tr>
+        <tr><td>An eager beaver</td><td>Enthusiastic, hardworking</td></tr>
+        <tr><td>Devil's advocate</td><td>One who argues opposite for sake</td></tr>
+        <tr><td>Yes-man</td><td>One who agrees with everything</td></tr>
+        <tr><td>A born loser</td><td>Always fails</td></tr>
+        <tr><td>A cold fish</td><td>Unemotional person</td></tr>
+      </table>
+
+      <h4>Difficulties & Problems</h4>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>Between the devil and the deep sea</td><td>Between two equally bad situations</td></tr>
+        <tr><td>Between Scylla and Charybdis</td><td>Between two dangers</td></tr>
+        <tr><td>To be in a tight corner</td><td>In a difficult situation</td></tr>
+        <tr><td>To be in hot water</td><td>In trouble</td></tr>
+        <tr><td>To be on the rocks</td><td>Facing financial difficulty</td></tr>
+        <tr><td>To be at one's wit's end</td><td>Confused, not knowing what to do</td></tr>
+        <tr><td>To be in the doldrums</td><td>Depressed / stagnant</td></tr>
+        <tr><td>To be up the creek</td><td>In serious trouble</td></tr>
+        <tr><td>To be in a fix</td><td>In a difficult position</td></tr>
+        <tr><td>To get into a scrape</td><td>Get into difficulty</td></tr>
+        <tr><td>To weather the storm</td><td>Survive difficulty</td></tr>
+        <tr><td>To bear the brunt</td><td>Suffer the worst</td></tr>
+        <tr><td>To eat humble pie</td><td>Admit a mistake</td></tr>
+        <tr><td>To eat one's words</td><td>Take back what was said</td></tr>
+        <tr><td>To face the music</td><td>Accept consequences</td></tr>
+        <tr><td>To bite the dust</td><td>Be defeated</td></tr>
+        <tr><td>To cross swords</td><td>Quarrel / fight</td></tr>
+        <tr><td>To swallow the bait</td><td>Accept a trick</td></tr>
+        <tr><td>To bell the cat</td><td>Take a dangerous initiative</td></tr>
+        <tr><td>To pull strings</td><td>Use influence</td></tr>
+        <tr><td>To put one's foot in mouth</td><td>Say something embarrassing</td></tr>
+        <tr><td>To put one's foot down</td><td>Be firm / insist</td></tr>
+        <tr><td>To play second fiddle</td><td>Be in a subordinate role</td></tr>
+        <tr><td>To pay through the nose</td><td>Pay too much</td></tr>
+        <tr><td>To make a clean breast</td><td>Confess fully</td></tr>
+      </table>
+
+      <h4>Action & Effort</h4>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>To burn the candle at both ends</td><td>Overwork / exhaust oneself</td></tr>
+        <tr><td>To leave no stone unturned</td><td>Try every method</td></tr>
+        <tr><td>To take the bull by the horns</td><td>Confront a problem directly</td></tr>
+        <tr><td>To go the extra mile</td><td>Make additional effort</td></tr>
+        <tr><td>To work like a Trojan</td><td>Work very hard</td></tr>
+        <tr><td>To toe the line</td><td>Obey / follow rules</td></tr>
+        <tr><td>To turn over a new leaf</td><td>Start fresh / reform</td></tr>
+        <tr><td>To strike while the iron is hot</td><td>Act at right moment</td></tr>
+        <tr><td>To nip in the bud</td><td>Stop early</td></tr>
+        <tr><td>To turn the tables</td><td>Reverse situation</td></tr>
+        <tr><td>To take a stand</td><td>Have firm opinion</td></tr>
+        <tr><td>To pass the buck</td><td>Shift responsibility</td></tr>
+        <tr><td>To set the ball rolling</td><td>Start something</td></tr>
+        <tr><td>To rest on one's laurels</td><td>Be satisfied with past success</td></tr>
+        <tr><td>To go to the dogs</td><td>Become ruined</td></tr>
+        <tr><td>To go to pieces</td><td>Break down emotionally</td></tr>
+        <tr><td>To hit the road</td><td>Start a journey</td></tr>
+        <tr><td>To hit the roof / ceiling</td><td>Become very angry</td></tr>
+        <tr><td>To hit below the belt</td><td>Act unfairly</td></tr>
+        <tr><td>To hit the jackpot</td><td>Win big / great success</td></tr>
+        <tr><td>To get cold feet</td><td>Lose courage</td></tr>
+        <tr><td>To turn a deaf ear</td><td>Refuse to listen</td></tr>
+        <tr><td>To turn a blind eye</td><td>Ignore deliberately</td></tr>
+        <tr><td>To stand on one's own feet</td><td>Be independent</td></tr>
+        <tr><td>To pull oneself together</td><td>Regain composure</td></tr>
+        <tr><td>To rise to the occasion</td><td>Show skill in tough situation</td></tr>
+        <tr><td>To pour oil on troubled waters</td><td>Calm a difficult situation</td></tr>
+        <tr><td>To wash one's hands of</td><td>Refuse responsibility</td></tr>
+        <tr><td>To carry the can</td><td>Take blame</td></tr>
+        <tr><td>To play with fire</td><td>Take big risk</td></tr>
+      </table>
+
+      <h4>Communication & Truth</h4>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>To call a spade a spade</td><td>Speak frankly</td></tr>
+        <tr><td>To talk through one's hat</td><td>Talk nonsense</td></tr>
+        <tr><td>To talk shop</td><td>Discuss work / business</td></tr>
+        <tr><td>To talk turkey</td><td>Talk seriously / frankly</td></tr>
+        <tr><td>To let the cat out of the bag</td><td>Reveal secret</td></tr>
+        <tr><td>Through thick and thin</td><td>In all circumstances</td></tr>
+        <tr><td>By hook or by crook</td><td>By any means</td></tr>
+        <tr><td>In black and white</td><td>In writing</td></tr>
+        <tr><td>Tooth and nail</td><td>With all force</td></tr>
+        <tr><td>To play one's cards right</td><td>Act wisely</td></tr>
+        <tr><td>To pull wool over eyes</td><td>Deceive</td></tr>
+        <tr><td>To beat about the bush</td><td>Speak indirectly</td></tr>
+        <tr><td>To make a mountain of a molehill</td><td>Exaggerate</td></tr>
+        <tr><td>To add insult to injury</td><td>Make bad situation worse</td></tr>
+        <tr><td>To add fuel to the fire</td><td>Make situation worse</td></tr>
+        <tr><td>To split hairs</td><td>Argue over small details</td></tr>
+        <tr><td>To take with a grain of salt</td><td>Not believe completely</td></tr>
+        <tr><td>To get to the bottom of</td><td>Find the truth</td></tr>
+        <tr><td>To get the lay of the land</td><td>Understand situation</td></tr>
+        <tr><td>To smell a rat</td><td>Suspect something wrong</td></tr>
+        <tr><td>To smell out</td><td>Discover by inquiry</td></tr>
+        <tr><td>To bear in mind</td><td>Remember</td></tr>
+        <tr><td>To know the ropes</td><td>Know how to do something</td></tr>
+        <tr><td>To pick someone's brains</td><td>Get information from someone</td></tr>
+        <tr><td>To put two and two together</td><td>Figure out</td></tr>
+      </table>
+
+      <h4>Conditions & States</h4>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>Down and out</td><td>Defeated and poor</td></tr>
+        <tr><td>Down in the dumps</td><td>Depressed / sad</td></tr>
+        <tr><td>Sitting on the fence</td><td>Indecisive</td></tr>
+        <tr><td>On cloud nine</td><td>Very happy</td></tr>
+        <tr><td>Over the moon</td><td>Extremely happy</td></tr>
+        <tr><td>Walking on air</td><td>Very joyful</td></tr>
+        <tr><td>Head over heels</td><td>Completely in love</td></tr>
+        <tr><td>Out of the blue</td><td>Unexpectedly</td></tr>
+        <tr><td>In the same boat</td><td>In same situation</td></tr>
+        <tr><td>In a nutshell</td><td>In brief</td></tr>
+        <tr><td>In the long run</td><td>Eventually</td></tr>
+        <tr><td>In the nick of time</td><td>Just in time</td></tr>
+        <tr><td>At the eleventh hour</td><td>At last moment</td></tr>
+        <tr><td>At a stone's throw</td><td>Very near</td></tr>
+        <tr><td>At loggerheads</td><td>In disagreement</td></tr>
+        <tr><td>At the drop of a hat</td><td>Immediately, without hesitation</td></tr>
+        <tr><td>Out of one's depth</td><td>Beyond one's ability</td></tr>
+        <tr><td>Out of one's mind</td><td>Crazy</td></tr>
+        <tr><td>Beside oneself</td><td>Extremely upset</td></tr>
+        <tr><td>Beside the point</td><td>Irrelevant</td></tr>
+        <tr><td>Below the belt</td><td>Unfair</td></tr>
+        <tr><td>By and large</td><td>Mostly</td></tr>
+        <tr><td>For good</td><td>Permanently</td></tr>
+        <tr><td>From scratch</td><td>From the beginning</td></tr>
+        <tr><td>At the eleventh hour</td><td>At the last moment</td></tr>
+        <tr><td>Hand in glove</td><td>In close cooperation</td></tr>
+        <tr><td>Heart in mouth</td><td>Very anxious</td></tr>
+        <tr><td>Heart of gold</td><td>Very kind person</td></tr>
+        <tr><td>Hand to mouth</td><td>Living minimally</td></tr>
+        <tr><td>Neck and neck</td><td>Very close in competition</td></tr>
+      </table>
+
+      <h4>Money & Business</h4>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>To live from hand to mouth</td><td>Barely make ends meet</td></tr>
+        <tr><td>To live within means</td><td>Spend less than earnings</td></tr>
+        <tr><td>To cost an arm and a leg</td><td>Very expensive</td></tr>
+        <tr><td>To pinch pennies</td><td>Save money carefully</td></tr>
+        <tr><td>To tighten one's belt</td><td>Spend less</td></tr>
+        <tr><td>To roll in money</td><td>Be very rich</td></tr>
+        <tr><td>To make ends meet</td><td>Manage with income</td></tr>
+        <tr><td>To rob Peter to pay Paul</td><td>Borrow to pay another debt</td></tr>
+        <tr><td>To make a killing</td><td>Earn a lot quickly</td></tr>
+        <tr><td>To cut corners</td><td>Save money or time at cost of quality</td></tr>
+        <tr><td>To break the bank</td><td>Spend all money</td></tr>
+        <tr><td>To be in the black</td><td>Profitable</td></tr>
+        <tr><td>To be in the red</td><td>In debt</td></tr>
+        <tr><td>Worth its weight in gold</td><td>Very valuable</td></tr>
+        <tr><td>Money talks</td><td>Money has power</td></tr>
+        <tr><td>A penny for your thoughts</td><td>Tell me what you're thinking</td></tr>
+        <tr><td>Penny wise, pound foolish</td><td>Careful in small matters, careless in big</td></tr>
+        <tr><td>To sell like hot cakes</td><td>Sell very quickly</td></tr>
+        <tr><td>To do a roaring trade</td><td>Have great business</td></tr>
+        <tr><td>To strike a bargain</td><td>Make a deal</td></tr>
+      </table>
+
+      <h4>Foolishness & Wisdom</h4>
+      <table>
+        <tr><th>Idiom</th><th>Meaning</th></tr>
+        <tr><td>To have a screw loose</td><td>Be slightly mad</td></tr>
+        <tr><td>To have one's head in the clouds</td><td>Be unrealistic</td></tr>
+        <tr><td>To have one's heart in the right place</td><td>Be kind-hearted</td></tr>
+        <tr><td>To have a heart of stone</td><td>Be cruel</td></tr>
+        <tr><td>To have a sweet tooth</td><td>Love sweet food</td></tr>
+        <tr><td>To put two and two together</td><td>Figure out</td></tr>
+        <tr><td>To bury one's head in sand</td><td>Ignore problems</td></tr>
+        <tr><td>To make hay while sun shines</td><td>Use opportunity</td></tr>
+        <tr><td>To kill two birds with one stone</td><td>Achieve two things at once</td></tr>
+        <tr><td>To miss the boat</td><td>Miss opportunity</td></tr>
+        <tr><td>To miss the mark</td><td>Fail to achieve aim</td></tr>
+        <tr><td>To bark up the wrong tree</td><td>Pursue wrong course</td></tr>
+        <tr><td>To get the wrong end of the stick</td><td>Misunderstand</td></tr>
+        <tr><td>Have an axe to grind</td><td>Have selfish motive</td></tr>
+        <tr><td>Birds of a feather flock together</td><td>Similar people associate</td></tr>
+        <tr><td>Look before you leap</td><td>Think before acting</td></tr>
+        <tr><td>Necessity is the mother of invention</td><td>Need drives creativity</td></tr>
+        <tr><td>A stitch in time saves nine</td><td>Quick action prevents bigger problem</td></tr>
+        <tr><td>A bird in hand is worth two in bush</td><td>Be content with what you have</td></tr>
+        <tr><td>Every cloud has a silver lining</td><td>Every bad has some good</td></tr>
+        <tr><td>Practice makes perfect</td><td>Practice leads to improvement</td></tr>
+        <tr><td>When in Rome, do as Romans do</td><td>Adapt to local customs</td></tr>
+        <tr><td>Time and tide wait for none</td><td>Don't waste time</td></tr>
+        <tr><td>All that glitters is not gold</td><td>Don't judge by appearance</td></tr>
+        <tr><td>Empty vessels make most noise</td><td>Foolish people talk most</td></tr>
+        <tr><td>Too many cooks spoil broth</td><td>Too many people ruin work</td></tr>
+        <tr><td>Don't count your chickens</td><td>Don't assume success</td></tr>
+        <tr><td>Where there's a will, there's a way</td><td>Determination finds path</td></tr>
+        <tr><td>Better late than never</td><td>Late is better than not at all</td></tr>
+        <tr><td>Honesty is the best policy</td><td>Honesty pays</td></tr>
+        <tr><td>Slow and steady wins the race</td><td>Patience and persistence win</td></tr>
+        <tr><td>Make a clean sweep</td><td>Win everything / get rid of all</td></tr>
+      </table>
+
       <h3>🎯 Tips</h3>
       <ul>
         <li>Don't translate literally — idioms are figurative.</li>
-        <li>Learn in clusters by theme (animals, body parts, etc.).</li>
+        <li>Learn in clusters by theme.</li>
         <li>Use them in context to memorize.</li>
+        <li>For 45+ score: master all 300+ idioms; redo MCQs 3+ times.</li>
       </ul>
     `,
     mcq: [
