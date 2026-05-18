@@ -7195,11 +7195,288 @@
         <tr><td>A pleasing sound</td><td><b>Euphony</b></td></tr>
       </table>
 
+      <h3>🔥 Extended One-Word Substitution — Advanced SSC List</h3>
+
+      <h4>People & Professions</h4>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>One who studies maps</td><td><b>Cartographer</b></td></tr>
+        <tr><td>One who studies caves</td><td><b>Speleologist</b></td></tr>
+        <tr><td>One who studies earthquakes</td><td><b>Seismologist</b></td></tr>
+        <tr><td>One who studies the weather</td><td><b>Meteorologist</b></td></tr>
+        <tr><td>One who repairs shoes</td><td><b>Cobbler</b></td></tr>
+        <tr><td>One who fits glass to windows</td><td><b>Glazier</b></td></tr>
+        <tr><td>One who works in metal</td><td><b>Smith / Blacksmith</b></td></tr>
+        <tr><td>One who sells flowers</td><td><b>Florist</b></td></tr>
+        <tr><td>One who sells fruits</td><td><b>Fruiterer / Greengrocer</b></td></tr>
+        <tr><td>One who sells fish</td><td><b>Fishmonger</b></td></tr>
+        <tr><td>One who sells meat</td><td><b>Butcher</b></td></tr>
+        <tr><td>One who sells books</td><td><b>Bibliopolist</b></td></tr>
+        <tr><td>One who carves stone</td><td><b>Sculptor</b></td></tr>
+        <tr><td>One who treats teeth</td><td><b>Dentist</b></td></tr>
+        <tr><td>One who treats eyes</td><td><b>Optician / Ophthalmologist</b></td></tr>
+        <tr><td>One who treats skin</td><td><b>Dermatologist</b></td></tr>
+        <tr><td>One who treats heart</td><td><b>Cardiologist</b></td></tr>
+        <tr><td>One who treats women's diseases</td><td><b>Gynaecologist</b></td></tr>
+        <tr><td>One who treats children</td><td><b>Paediatrician</b></td></tr>
+        <tr><td>One who treats mental illness</td><td><b>Psychiatrist</b></td></tr>
+        <tr><td>One who studies mental processes</td><td><b>Psychologist</b></td></tr>
+        <tr><td>One who studies society</td><td><b>Sociologist</b></td></tr>
+        <tr><td>One who studies fossils</td><td><b>Palaeontologist</b></td></tr>
+        <tr><td>One who studies ancient artifacts</td><td><b>Archaeologist</b></td></tr>
+        <tr><td>One who studies words / language origin</td><td><b>Etymologist</b></td></tr>
+        <tr><td>One who studies languages</td><td><b>Linguist / Philologist</b></td></tr>
+        <tr><td>One who knows many languages</td><td><b>Polyglot</b></td></tr>
+        <tr><td>One who carves precious stones</td><td><b>Lapidary</b></td></tr>
+        <tr><td>One who makes barrels</td><td><b>Cooper</b></td></tr>
+        <tr><td>One who keeps bees</td><td><b>Apiarist</b></td></tr>
+        <tr><td>One who keeps poultry</td><td><b>Poulterer</b></td></tr>
+        <tr><td>One who has long experience</td><td><b>Veteran</b></td></tr>
+        <tr><td>One who eats too much</td><td><b>Glutton</b></td></tr>
+        <tr><td>One who is fond of fine food</td><td><b>Epicure / Gourmet</b></td></tr>
+        <tr><td>One who is fastidious about food</td><td><b>Connoisseur</b></td></tr>
+        <tr><td>One who runs away to marry</td><td><b>Eloper</b></td></tr>
+        <tr><td>One who works for free</td><td><b>Volunteer</b></td></tr>
+        <tr><td>One who works against the government</td><td><b>Insurgent / Rebel</b></td></tr>
+        <tr><td>One who lives at the same time</td><td><b>Contemporary</b></td></tr>
+        <tr><td>One who lives in the same country</td><td><b>Compatriot</b></td></tr>
+        <tr><td>One who hides on a ship to travel without paying</td><td><b>Stowaway</b></td></tr>
+        <tr><td>One who gambles</td><td><b>Gambler</b></td></tr>
+        <tr><td>One who is fond of solitude</td><td><b>Recluse / Hermit</b></td></tr>
+        <tr><td>One who hates women</td><td><b>Misogynist</b></td></tr>
+        <tr><td>One who hates men</td><td><b>Misandrist</b></td></tr>
+        <tr><td>One who hates marriage</td><td><b>Misogamist</b></td></tr>
+        <tr><td>One who hates mankind</td><td><b>Misanthrope</b></td></tr>
+        <tr><td>One who loves humanity</td><td><b>Philanthropist</b></td></tr>
+        <tr><td>One who can do many things</td><td><b>Versatile</b></td></tr>
+        <tr><td>One who is between 13-19 years</td><td><b>Teenager / Adolescent</b></td></tr>
+        <tr><td>One who is loved by all</td><td><b>Popular</b></td></tr>
+        <tr><td>One who is over 100 years old</td><td><b>Centenarian</b></td></tr>
+        <tr><td>One who is between 80-89 years</td><td><b>Octogenarian</b></td></tr>
+        <tr><td>One who is between 70-79 years</td><td><b>Septuagenarian</b></td></tr>
+        <tr><td>One who is between 90-99 years</td><td><b>Nonagenarian</b></td></tr>
+        <tr><td>One who pretends to be sick to avoid duty</td><td><b>Malingerer</b></td></tr>
+        <tr><td>One who is unable to pay debts</td><td><b>Insolvent / Bankrupt</b></td></tr>
+        <tr><td>One who travels in a spacecraft</td><td><b>Astronaut</b></td></tr>
+        <tr><td>One who flies an aeroplane</td><td><b>Pilot / Aviator</b></td></tr>
+        <tr><td>One who tells lies habitually</td><td><b>Liar / Prevaricator</b></td></tr>
+        <tr><td>One who never tells lies</td><td><b>Truthful / Veracious</b></td></tr>
+        <tr><td>One who is incapable of being tired</td><td><b>Indefatigable</b></td></tr>
+        <tr><td>One who pleads for others</td><td><b>Advocate</b></td></tr>
+        <tr><td>One who composes music</td><td><b>Composer</b></td></tr>
+        <tr><td>One who plays music for living</td><td><b>Musician</b></td></tr>
+        <tr><td>One who sings</td><td><b>Vocalist / Singer</b></td></tr>
+        <tr><td>One who dances</td><td><b>Dancer</b></td></tr>
+        <tr><td>One who recites poems</td><td><b>Reciter</b></td></tr>
+        <tr><td>One who writes plays</td><td><b>Dramatist / Playwright</b></td></tr>
+        <tr><td>One who writes for a newspaper</td><td><b>Journalist / Reporter</b></td></tr>
+        <tr><td>One who is critical of others</td><td><b>Critic</b></td></tr>
+        <tr><td>One who designs buildings</td><td><b>Architect</b></td></tr>
+        <tr><td>One who studies birds</td><td><b>Ornithologist</b></td></tr>
+        <tr><td>One who studies insects</td><td><b>Entomologist</b></td></tr>
+        <tr><td>One who studies the universe</td><td><b>Cosmologist</b></td></tr>
+        <tr><td>One who fights for a cause</td><td><b>Crusader</b></td></tr>
+        <tr><td>One who deserts religion</td><td><b>Apostate</b></td></tr>
+        <tr><td>One who fights with words</td><td><b>Polemicist</b></td></tr>
+        <tr><td>One who is determined to have his way</td><td><b>Stubborn / Obstinate</b></td></tr>
+        <tr><td>One who is new to a profession</td><td><b>Novice / Tyro</b></td></tr>
+      </table>
+
+      <h4>Places & Houses</h4>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>A place where animals are slaughtered</td><td><b>Abattoir / Slaughterhouse</b></td></tr>
+        <tr><td>A place where wine is stored / fermented</td><td><b>Cellar / Winery</b></td></tr>
+        <tr><td>A place where bread is baked</td><td><b>Bakery</b></td></tr>
+        <tr><td>A place where milk products are made</td><td><b>Dairy</b></td></tr>
+        <tr><td>A place where corpses are kept before burial</td><td><b>Mortuary / Morgue</b></td></tr>
+        <tr><td>A place where soldiers stay</td><td><b>Barracks</b></td></tr>
+        <tr><td>A place where sailors stay</td><td><b>Barracks (naval)</b></td></tr>
+        <tr><td>A place where ships are made</td><td><b>Dockyard</b></td></tr>
+        <tr><td>A place where ships dock</td><td><b>Harbour / Port</b></td></tr>
+        <tr><td>A place where birds are kept</td><td><b>Aviary</b></td></tr>
+        <tr><td>A place where bees are kept</td><td><b>Apiary</b></td></tr>
+        <tr><td>A place where horses are kept</td><td><b>Stable</b></td></tr>
+        <tr><td>A place where pigs are kept</td><td><b>Sty</b></td></tr>
+        <tr><td>A place where sheep are kept</td><td><b>Fold / Pen</b></td></tr>
+        <tr><td>A place where dogs are kept</td><td><b>Kennel</b></td></tr>
+        <tr><td>A place where rabbits are kept</td><td><b>Warren / Hutch</b></td></tr>
+        <tr><td>A place where coins are made</td><td><b>Mint</b></td></tr>
+        <tr><td>A place where books are kept</td><td><b>Library</b></td></tr>
+        <tr><td>A place where art is exhibited</td><td><b>Gallery / Museum</b></td></tr>
+        <tr><td>A place for athletic contests</td><td><b>Arena / Stadium</b></td></tr>
+        <tr><td>An underground burial place</td><td><b>Catacomb</b></td></tr>
+        <tr><td>A church burial ground</td><td><b>Cemetery / Graveyard</b></td></tr>
+        <tr><td>A tower for storing grain</td><td><b>Silo</b></td></tr>
+        <tr><td>A house made of ice</td><td><b>Igloo</b></td></tr>
+        <tr><td>A tower from which signal is given to ships</td><td><b>Lighthouse</b></td></tr>
+        <tr><td>A storehouse for grain</td><td><b>Granary</b></td></tr>
+        <tr><td>A place where leather is tanned</td><td><b>Tannery</b></td></tr>
+        <tr><td>A place where guns / firearms are stored</td><td><b>Armoury / Arsenal</b></td></tr>
+        <tr><td>A place where monks live</td><td><b>Monastery</b></td></tr>
+        <tr><td>A place where nuns live</td><td><b>Convent / Nunnery</b></td></tr>
+        <tr><td>A place where Muslims pray</td><td><b>Mosque</b></td></tr>
+        <tr><td>A place where Christians worship</td><td><b>Church / Cathedral</b></td></tr>
+        <tr><td>A place where Jews worship</td><td><b>Synagogue</b></td></tr>
+        <tr><td>A place where money is exchanged</td><td><b>Bureau de Change</b></td></tr>
+        <tr><td>A small isolated village</td><td><b>Hamlet</b></td></tr>
+        <tr><td>An open space where sports are played</td><td><b>Playground / Field</b></td></tr>
+      </table>
+
+      <h4>Conditions & States</h4>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>Belief that God is everything</td><td><b>Pantheism</b></td></tr>
+        <tr><td>Belief in many gods</td><td><b>Polytheism</b></td></tr>
+        <tr><td>Belief in one God</td><td><b>Monotheism</b></td></tr>
+        <tr><td>Belief in no God</td><td><b>Atheism</b></td></tr>
+        <tr><td>Doubt about God's existence</td><td><b>Agnosticism</b></td></tr>
+        <tr><td>Decision-making by chance</td><td><b>Lottery</b></td></tr>
+        <tr><td>Speech without preparation</td><td><b>Extempore / Impromptu</b></td></tr>
+        <tr><td>Speech in praise of someone</td><td><b>Eulogy</b></td></tr>
+        <tr><td>Speech at funeral</td><td><b>Elegy</b></td></tr>
+        <tr><td>Speech to oneself</td><td><b>Soliloquy / Monologue</b></td></tr>
+        <tr><td>State of being unmarried (man)</td><td><b>Bachelor</b></td></tr>
+        <tr><td>State of being unmarried (woman)</td><td><b>Spinster</b></td></tr>
+        <tr><td>State of having a wife</td><td><b>Matrimony</b></td></tr>
+        <tr><td>State of being widowed</td><td><b>Widowhood</b></td></tr>
+        <tr><td>Marriage to one person at a time</td><td><b>Monogamy</b></td></tr>
+        <tr><td>Marriage to many people</td><td><b>Polygamy</b></td></tr>
+        <tr><td>Marriage to two people</td><td><b>Bigamy</b></td></tr>
+        <tr><td>Murder of one's wife</td><td><b>Uxoricide</b></td></tr>
+        <tr><td>Murder of one's husband</td><td><b>Mariticide</b></td></tr>
+        <tr><td>Murder of one's parent</td><td><b>Parricide</b></td></tr>
+        <tr><td>Murder of one's father</td><td><b>Patricide</b></td></tr>
+        <tr><td>Murder of one's mother</td><td><b>Matricide</b></td></tr>
+        <tr><td>Murder of a brother</td><td><b>Fratricide</b></td></tr>
+        <tr><td>Murder of a sister</td><td><b>Sororicide</b></td></tr>
+        <tr><td>Murder of a king</td><td><b>Regicide</b></td></tr>
+        <tr><td>Murder of an infant</td><td><b>Infanticide</b></td></tr>
+        <tr><td>Murder of self</td><td><b>Suicide</b></td></tr>
+        <tr><td>Mass killing of a race / community</td><td><b>Genocide</b></td></tr>
+        <tr><td>Murder of foetus / unborn child</td><td><b>Foeticide</b></td></tr>
+        <tr><td>Killing of an animal</td><td><b>Slaughter</b></td></tr>
+        <tr><td>Government by people</td><td><b>Democracy</b></td></tr>
+        <tr><td>Government by one</td><td><b>Monarchy / Autocracy</b></td></tr>
+        <tr><td>Government by the few</td><td><b>Oligarchy</b></td></tr>
+        <tr><td>Government by the rich</td><td><b>Plutocracy</b></td></tr>
+        <tr><td>Government by religious leaders</td><td><b>Theocracy</b></td></tr>
+        <tr><td>Government by women</td><td><b>Matriarchy</b></td></tr>
+        <tr><td>Government by men</td><td><b>Patriarchy</b></td></tr>
+        <tr><td>Government by nobility</td><td><b>Aristocracy</b></td></tr>
+        <tr><td>Absence of government</td><td><b>Anarchy</b></td></tr>
+      </table>
+
+      <h4>Adjectives / Qualities</h4>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>That which cannot be heard</td><td><b>Inaudible</b></td></tr>
+        <tr><td>That which cannot be seen</td><td><b>Invisible</b></td></tr>
+        <tr><td>That which cannot be cured</td><td><b>Incurable</b></td></tr>
+        <tr><td>That which cannot be conquered</td><td><b>Invincible</b></td></tr>
+        <tr><td>That which cannot be defeated</td><td><b>Indomitable</b></td></tr>
+        <tr><td>That which cannot be destroyed</td><td><b>Indestructible</b></td></tr>
+        <tr><td>That which cannot be moved</td><td><b>Immovable</b></td></tr>
+        <tr><td>That which cannot be approached</td><td><b>Inaccessible</b></td></tr>
+        <tr><td>That which cannot be drunk</td><td><b>Undrinkable / Non-potable</b></td></tr>
+        <tr><td>That which can be drunk</td><td><b>Potable</b></td></tr>
+        <tr><td>That which can be eaten</td><td><b>Edible</b></td></tr>
+        <tr><td>That which cannot be eaten</td><td><b>Inedible</b></td></tr>
+        <tr><td>That which can be believed</td><td><b>Credible</b></td></tr>
+        <tr><td>That which cannot be believed</td><td><b>Incredible</b></td></tr>
+        <tr><td>That which cannot be explained</td><td><b>Inexplicable</b></td></tr>
+        <tr><td>That which cannot be expressed</td><td><b>Ineffable / Indescribable</b></td></tr>
+        <tr><td>That which cannot be avoided</td><td><b>Inevitable / Unavoidable</b></td></tr>
+        <tr><td>That which cannot be doubted</td><td><b>Indubitable / Unquestionable</b></td></tr>
+        <tr><td>That which cannot be erased</td><td><b>Indelible</b></td></tr>
+        <tr><td>That which lasts forever</td><td><b>Eternal / Perpetual / Immortal</b></td></tr>
+        <tr><td>That which lasts a short time</td><td><b>Ephemeral / Transient</b></td></tr>
+        <tr><td>That which is everywhere</td><td><b>Omnipresent / Ubiquitous</b></td></tr>
+        <tr><td>That which knows everything</td><td><b>Omniscient</b></td></tr>
+        <tr><td>That which is all-powerful</td><td><b>Omnipotent</b></td></tr>
+        <tr><td>Capable of using both hands equally</td><td><b>Ambidextrous</b></td></tr>
+        <tr><td>Existing in name only</td><td><b>Nominal</b></td></tr>
+        <tr><td>Necessary for life</td><td><b>Vital</b></td></tr>
+        <tr><td>Easy to read</td><td><b>Legible</b></td></tr>
+        <tr><td>Difficult / impossible to read</td><td><b>Illegible</b></td></tr>
+        <tr><td>That which can be carried</td><td><b>Portable</b></td></tr>
+        <tr><td>That which can be done</td><td><b>Feasible / Possible</b></td></tr>
+        <tr><td>That which is fit to be selected</td><td><b>Eligible</b></td></tr>
+        <tr><td>That which cannot be removed</td><td><b>Permanent</b></td></tr>
+        <tr><td>That which cannot be defeated</td><td><b>Unbeatable</b></td></tr>
+        <tr><td>Excessive concern for detail</td><td><b>Pedantic</b></td></tr>
+        <tr><td>Vague, mysterious</td><td><b>Cryptic / Enigmatic</b></td></tr>
+        <tr><td>Of bad temper</td><td><b>Irascible / Choleric</b></td></tr>
+        <tr><td>That which has no taste</td><td><b>Insipid</b></td></tr>
+        <tr><td>Coming from outside</td><td><b>External / Exotic</b></td></tr>
+        <tr><td>That which produces no sound</td><td><b>Silent / Mute</b></td></tr>
+        <tr><td>Free from disturbance</td><td><b>Tranquil / Serene</b></td></tr>
+        <tr><td>Open to bribery</td><td><b>Venal / Corruptible</b></td></tr>
+        <tr><td>One who lives by selling things</td><td><b>Vendor / Merchant</b></td></tr>
+      </table>
+
+      <h4>Time, Periods & Events</h4>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>Period of 1000 years</td><td><b>Millennium</b></td></tr>
+        <tr><td>Period of 100 years</td><td><b>Century</b></td></tr>
+        <tr><td>Period of 10 years</td><td><b>Decade</b></td></tr>
+        <tr><td>Period of 50 years</td><td><b>Half-century / Jubilee</b></td></tr>
+        <tr><td>50-year celebration</td><td><b>Golden Jubilee</b></td></tr>
+        <tr><td>25-year celebration</td><td><b>Silver Jubilee</b></td></tr>
+        <tr><td>60-year celebration</td><td><b>Diamond Jubilee</b></td></tr>
+        <tr><td>100-year celebration</td><td><b>Centenary</b></td></tr>
+        <tr><td>Occurring every year</td><td><b>Annual</b></td></tr>
+        <tr><td>Occurring every 2 years</td><td><b>Biennial</b></td></tr>
+        <tr><td>Occurring twice a year</td><td><b>Biannual / Semiannual</b></td></tr>
+        <tr><td>Occurring every 3 years</td><td><b>Triennial</b></td></tr>
+        <tr><td>Occurring every 4 years</td><td><b>Quadrennial</b></td></tr>
+        <tr><td>Occurring every 5 years</td><td><b>Quinquennial</b></td></tr>
+        <tr><td>Occurring every 6 months</td><td><b>Semiannual</b></td></tr>
+        <tr><td>Occurring every month</td><td><b>Monthly</b></td></tr>
+        <tr><td>Occurring every week</td><td><b>Weekly</b></td></tr>
+        <tr><td>Occurring every day</td><td><b>Daily / Diurnal</b></td></tr>
+        <tr><td>Of the night</td><td><b>Nocturnal</b></td></tr>
+        <tr><td>Of the day</td><td><b>Diurnal</b></td></tr>
+        <tr><td>An animal that lives on both land and water</td><td><b>Amphibian</b></td></tr>
+        <tr><td>An animal that lives in water</td><td><b>Aquatic</b></td></tr>
+      </table>
+
+      <h4>Groups & Collections</h4>
+      <table>
+        <tr><th>Description</th><th>Word</th></tr>
+        <tr><td>A group of singers</td><td><b>Choir / Chorus</b></td></tr>
+        <tr><td>A group of musicians</td><td><b>Orchestra / Band</b></td></tr>
+        <tr><td>A group of soldiers</td><td><b>Army / Battalion / Regiment</b></td></tr>
+        <tr><td>A group of dancers</td><td><b>Troupe</b></td></tr>
+        <tr><td>A group of stars</td><td><b>Constellation</b></td></tr>
+        <tr><td>A group of bees</td><td><b>Swarm / Hive</b></td></tr>
+        <tr><td>A group of birds</td><td><b>Flock / Flight</b></td></tr>
+        <tr><td>A group of cattle</td><td><b>Herd</b></td></tr>
+        <tr><td>A group of sheep</td><td><b>Flock</b></td></tr>
+        <tr><td>A group of wolves</td><td><b>Pack</b></td></tr>
+        <tr><td>A group of lions</td><td><b>Pride</b></td></tr>
+        <tr><td>A group of fish</td><td><b>School / Shoal</b></td></tr>
+        <tr><td>A group of ships</td><td><b>Fleet</b></td></tr>
+        <tr><td>A group of islands</td><td><b>Archipelago</b></td></tr>
+        <tr><td>A series of mountains</td><td><b>Range</b></td></tr>
+        <tr><td>A bunch of grapes</td><td><b>Cluster</b></td></tr>
+        <tr><td>A collection of poems</td><td><b>Anthology</b></td></tr>
+        <tr><td>A collection of books</td><td><b>Library</b></td></tr>
+        <tr><td>A collection of coins</td><td><b>Numismatics</b></td></tr>
+        <tr><td>A collection of stamps</td><td><b>Philately</b></td></tr>
+        <tr><td>A list of books in library</td><td><b>Catalogue</b></td></tr>
+        <tr><td>A list of items / dishes</td><td><b>Menu</b></td></tr>
+        <tr><td>A list of business items for meeting</td><td><b>Agenda</b></td></tr>
+        <tr><td>A list of names</td><td><b>Register</b></td></tr>
+      </table>
+
       <h3>🎯 Tips</h3>
       <ul>
         <li>Learn by category — easier to recall.</li>
         <li>Watch for Greek/Latin roots: bio = life, geo = earth, hydro = water.</li>
         <li>"-cide" = killing; "-phile" = lover; "-phobe" = hater; "-ology" = study of; "-cracy" = government.</li>
+        <li>For 45+ score: master all 400+ entries; redo MCQs 3+ times.</li>
       </ul>
     `,
     mcq: [
