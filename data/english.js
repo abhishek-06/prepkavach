@@ -8754,6 +8754,244 @@
         <tr><td>Yacht</td><td>Yatch, Yatchht</td></tr>
       </table>
 
+      <h3>🔥 Extended List — More SSC Tricky Spellings</h3>
+      <table>
+        <tr><th>Correct</th><th>Common Wrong Forms</th></tr>
+        <tr><td>Abeyance</td><td>Abeyence</td></tr>
+        <tr><td>Abundance</td><td>Abundunce</td></tr>
+        <tr><td>Accelerate</td><td>Acelerate, Accellerate</td></tr>
+        <tr><td>Accessory</td><td>Accesory, Accesary</td></tr>
+        <tr><td>Acquiesce</td><td>Aquiesce, Acquiece</td></tr>
+        <tr><td>Adolescence</td><td>Adoloscence, Adolescense</td></tr>
+        <tr><td>Adolescent</td><td>Adoloscent</td></tr>
+        <tr><td>Adviser / Advisor</td><td>Adviser (correct)</td></tr>
+        <tr><td>Aerial</td><td>Areal, Areial</td></tr>
+        <tr><td>Affidavit</td><td>Afidavit, Afidavit</td></tr>
+        <tr><td>Aficionado</td><td>Aficianado, Afficionado</td></tr>
+        <tr><td>Aisle</td><td>Aile, Aisle</td></tr>
+        <tr><td>Anonymous</td><td>Anonimous, Anonymus</td></tr>
+        <tr><td>Apparatus</td><td>Aparatus, Aparratus</td></tr>
+        <tr><td>Apprehend</td><td>Aprehend, Apprehent</td></tr>
+        <tr><td>Asphyxia</td><td>Asfixia, Asphixia</td></tr>
+        <tr><td>Assassin</td><td>Asassin, Assasin</td></tr>
+        <tr><td>Atheist</td><td>Athiest, Athist</td></tr>
+        <tr><td>Auxiliary</td><td>Auxilary, Auxillary</td></tr>
+        <tr><td>Awkward</td><td>Aukward, Akward</td></tr>
+        <tr><td>Bachelor</td><td>Batchelor, Bacherlor</td></tr>
+        <tr><td>Battalion</td><td>Battallion, Batalion</td></tr>
+        <tr><td>Beneficial</td><td>Beneficail, Beneficial</td></tr>
+        <tr><td>Bicycle</td><td>Bycycle, Bicicle</td></tr>
+        <tr><td>Biscuit</td><td>Biscut, Biscit</td></tr>
+        <tr><td>Bouquet</td><td>Bouqet, Boquet</td></tr>
+        <tr><td>Bureaucracy</td><td>Beauracracy, Bureaucrasy</td></tr>
+        <tr><td>Camouflage</td><td>Camoflage, Camoflauge</td></tr>
+        <tr><td>Catalogue</td><td>Catalog (US ok), Catlog</td></tr>
+        <tr><td>Catastrophe</td><td>Catastrofe, Catastrophy</td></tr>
+        <tr><td>Caucasian</td><td>Cocasian, Caucasion</td></tr>
+        <tr><td>Cessation</td><td>Sessation, Cesation</td></tr>
+        <tr><td>Chauffeur</td><td>Chaffeur, Chauffer</td></tr>
+        <tr><td>Choreographer</td><td>Coreographer, Choreografer</td></tr>
+        <tr><td>Coalesce</td><td>Coalese, Coallesce</td></tr>
+        <tr><td>Colleague</td><td>Coleague, Colleage</td></tr>
+        <tr><td>Colossal</td><td>Colosal, Colassal</td></tr>
+        <tr><td>Commission</td><td>Comission, Commision</td></tr>
+        <tr><td>Connoisseur</td><td>Conoiseur, Connoiseur</td></tr>
+        <tr><td>Conscious</td><td>Conscius, Concious</td></tr>
+        <tr><td>Corollary</td><td>Corolary, Corollery</td></tr>
+        <tr><td>Counterfeit</td><td>Counterfit, Counterfite</td></tr>
+        <tr><td>Curriculum</td><td>Curiculum, Curriculam</td></tr>
+        <tr><td>Cylinder</td><td>Cilinder, Cylindar</td></tr>
+        <tr><td>Defendant</td><td>Defendent, Defendant</td></tr>
+        <tr><td>Definite</td><td>Definate, Definete</td></tr>
+        <tr><td>Diarrhoea</td><td>Diarhea, Diarhoea</td></tr>
+        <tr><td>Dichotomy</td><td>Dicotomy, Dichotomi</td></tr>
+        <tr><td>Diphtheria</td><td>Difteria, Diphteria</td></tr>
+        <tr><td>Discernible</td><td>Discernable, Discernible</td></tr>
+        <tr><td>Disease</td><td>Disese, Diseise</td></tr>
+        <tr><td>Dispatch</td><td>Despatch (UK ok), Dispach</td></tr>
+        <tr><td>Disseminate</td><td>Diseminate, Dissiminate</td></tr>
+        <tr><td>Dissimilar</td><td>Disimilar, Dissimiliar</td></tr>
+        <tr><td>Eccentric</td><td>Excentric, Eccentic</td></tr>
+        <tr><td>Ecstasy</td><td>Extacy, Ecstacy</td></tr>
+        <tr><td>Eligible</td><td>Eligable, Elligible</td></tr>
+        <tr><td>Emphasis</td><td>Emphisis, Emphesis</td></tr>
+        <tr><td>Endeavour</td><td>Endevor (US ok), Endevour</td></tr>
+        <tr><td>Entrepreneur</td><td>Entrepreneur, Enterpreneur</td></tr>
+        <tr><td>Envelope</td><td>Envalope, Envellope</td></tr>
+        <tr><td>Equipped</td><td>Equiped, Equippt</td></tr>
+        <tr><td>Espionage</td><td>Espionage, Espionege</td></tr>
+        <tr><td>Etiquette</td><td>Etiquete, Etiket</td></tr>
+        <tr><td>Excellent</td><td>Excelent, Excelent</td></tr>
+        <tr><td>Existence</td><td>Existance</td></tr>
+        <tr><td>Extinguish</td><td>Extingush, Extinquish</td></tr>
+        <tr><td>Facsimile</td><td>Facimile, Facsmile</td></tr>
+        <tr><td>Fascinate</td><td>Fasinate, Fascinete</td></tr>
+        <tr><td>Feasible</td><td>Feasable, Feasible</td></tr>
+        <tr><td>Forfeit</td><td>Forfiet, Forfit</td></tr>
+        <tr><td>Frequency</td><td>Frequensy, Frequency</td></tr>
+        <tr><td>Fulfil / Fulfill</td><td>Fullfil</td></tr>
+        <tr><td>Furniture</td><td>Furniteur, Forniture</td></tr>
+        <tr><td>Gauge</td><td>Guage, Gauge</td></tr>
+        <tr><td>Genuine</td><td>Geniune, Genuin</td></tr>
+        <tr><td>Glamorous</td><td>Glamerous, Glamourous</td></tr>
+        <tr><td>Government</td><td>Goverment</td></tr>
+        <tr><td>Guarantee</td><td>Garantee, Guarrantee</td></tr>
+        <tr><td>Guardian</td><td>Gaurdian, Guardian</td></tr>
+        <tr><td>Hallucination</td><td>Halucination, Hallucinaton</td></tr>
+        <tr><td>Handkerchief</td><td>Handkercheif, Handerchief</td></tr>
+        <tr><td>Harass</td><td>Harras</td></tr>
+        <tr><td>Hereditary</td><td>Hereditery, Heriditary</td></tr>
+        <tr><td>Hierarchy</td><td>Heirarchy, Hierarcy</td></tr>
+        <tr><td>Honorary</td><td>Honourary, Honory</td></tr>
+        <tr><td>Hypocrisy</td><td>Hypocricy, Hipocrisy</td></tr>
+        <tr><td>Idiosyncrasy</td><td>Idiosyncracy, Idiocyncracy</td></tr>
+        <tr><td>Imminent</td><td>Iminent, Imminant</td></tr>
+        <tr><td>Indispensable</td><td>Indispensible</td></tr>
+        <tr><td>Inflammable</td><td>Inflamable</td></tr>
+        <tr><td>Innocuous</td><td>Inocuous, Innocous</td></tr>
+        <tr><td>Inoculate</td><td>Innoculate, Inoclate</td></tr>
+        <tr><td>Inquisitive</td><td>Inquistive, Inquisitive</td></tr>
+        <tr><td>Inseparable</td><td>Inseperable</td></tr>
+        <tr><td>Inundate</td><td>Inundate, Inundete</td></tr>
+        <tr><td>Itinerary</td><td>Itinerery, Itenerary</td></tr>
+        <tr><td>Jealousy</td><td>Jealousy, Jelousy</td></tr>
+        <tr><td>Jewellery</td><td>Jewelery, Jewlery</td></tr>
+        <tr><td>Judgement</td><td>Judgment (US ok), Judgement</td></tr>
+        <tr><td>Knowledgeable</td><td>Knowledgable</td></tr>
+        <tr><td>Labelled</td><td>Labeled, Labelled</td></tr>
+        <tr><td>Laboratory</td><td>Labratory</td></tr>
+        <tr><td>Leisure</td><td>Liesure, Leasure</td></tr>
+        <tr><td>Liaison</td><td>Liason</td></tr>
+        <tr><td>Lieutenant</td><td>Liutenent, Leutenant</td></tr>
+        <tr><td>Lightning</td><td>Lightening (for weather, not the adj)</td></tr>
+        <tr><td>Linguist</td><td>Linguist, Lingust</td></tr>
+        <tr><td>Maintain</td><td>Maintian, Maintean</td></tr>
+        <tr><td>Maintenance</td><td>Maintainance, Maintnance</td></tr>
+        <tr><td>Manoeuvre</td><td>Maneuver (US ok), Manouvre</td></tr>
+        <tr><td>Marriage</td><td>Marraige, Marrige</td></tr>
+        <tr><td>Mathematics</td><td>Mathmatics</td></tr>
+        <tr><td>Mayonnaise</td><td>Mayonaise, Mayonaisse</td></tr>
+        <tr><td>Medieval</td><td>Mediaeval (UK ok), Medeival</td></tr>
+        <tr><td>Memorise</td><td>Memorize (US ok)</td></tr>
+        <tr><td>Millennium</td><td>Milennium, Millenium</td></tr>
+        <tr><td>Mischievous</td><td>Mischievious, Mischevious</td></tr>
+        <tr><td>Misspell</td><td>Mispell</td></tr>
+        <tr><td>Monastery</td><td>Monestery, Monastry</td></tr>
+        <tr><td>Mortgage</td><td>Morgage, Mortage</td></tr>
+        <tr><td>Mosquito</td><td>Mosqito, Mosquoto</td></tr>
+        <tr><td>Naphthalene</td><td>Napthalene, Naphtalene</td></tr>
+        <tr><td>Nausea</td><td>Nausia, Nausa</td></tr>
+        <tr><td>Necessary</td><td>Neccessary, Necesary</td></tr>
+        <tr><td>Neighbour</td><td>Niegbour, Neighbor (US ok)</td></tr>
+        <tr><td>Neither</td><td>Nethier, Neather</td></tr>
+        <tr><td>Niche</td><td>Niech, Nich</td></tr>
+        <tr><td>Notorious</td><td>Notorius, Notarious</td></tr>
+        <tr><td>Nuisance</td><td>Nuisence, Nuisanse</td></tr>
+        <tr><td>Obscene</td><td>Obscean, Obscine</td></tr>
+        <tr><td>Occasion</td><td>Ocassion, Occassion</td></tr>
+        <tr><td>Occurrence</td><td>Occurance, Occurence</td></tr>
+        <tr><td>Omission</td><td>Ommission</td></tr>
+        <tr><td>Opportunity</td><td>Oportunity, Opurtunity</td></tr>
+        <tr><td>Original</td><td>Originel, Origenal</td></tr>
+        <tr><td>Overrule</td><td>Overule</td></tr>
+        <tr><td>Pamphlet</td><td>Pampflet, Pamflet</td></tr>
+        <tr><td>Paradise</td><td>Paradice, Paradice</td></tr>
+        <tr><td>Parallel</td><td>Paralel, Paralell</td></tr>
+        <tr><td>Paralysis</td><td>Paralisis, Paralyses</td></tr>
+        <tr><td>Pastime</td><td>Passtime, Pastimes</td></tr>
+        <tr><td>Pedlar / Peddler</td><td>Pedler, Pedlar</td></tr>
+        <tr><td>Peninsula</td><td>Pennisula, Peninsuala</td></tr>
+        <tr><td>Pharmaceutical</td><td>Pharmacutical, Pharmaceutial</td></tr>
+        <tr><td>Phenomenon</td><td>Phenominon, Phenomenom</td></tr>
+        <tr><td>Physician</td><td>Phisician, Physisian</td></tr>
+        <tr><td>Picnicking</td><td>Picniking, Picnicing</td></tr>
+        <tr><td>Plagiarism</td><td>Plagarism, Plagiarisim</td></tr>
+        <tr><td>Pneumonia</td><td>Numonia, Pneumonea</td></tr>
+        <tr><td>Possession</td><td>Posession</td></tr>
+        <tr><td>Posthumous</td><td>Posthemous, Posthumus</td></tr>
+        <tr><td>Practically</td><td>Practicaly</td></tr>
+        <tr><td>Privilege</td><td>Priviledge, Privelege</td></tr>
+        <tr><td>Procedure</td><td>Proceedure, Procedeur</td></tr>
+        <tr><td>Pronunciation</td><td>Pronounciation</td></tr>
+        <tr><td>Psychology</td><td>Psycology, Sychology</td></tr>
+        <tr><td>Pursue</td><td>Persue, Pursie</td></tr>
+        <tr><td>Quarrel</td><td>Quarell, Quarell</td></tr>
+        <tr><td>Question</td><td>Questin, Questaion</td></tr>
+        <tr><td>Queue</td><td>Que, Queu</td></tr>
+        <tr><td>Realise</td><td>Realize (US ok)</td></tr>
+        <tr><td>Receipt</td><td>Reciept, Reciept</td></tr>
+        <tr><td>Recommend</td><td>Recomend, Recomendd</td></tr>
+        <tr><td>Reconnaissance</td><td>Reconaissance, Reconnasance</td></tr>
+        <tr><td>Reference</td><td>Refrence, Refference</td></tr>
+        <tr><td>Refrigerator</td><td>Refridgerator, Refrigerater</td></tr>
+        <tr><td>Reminiscence</td><td>Reminicense, Reminiscence</td></tr>
+        <tr><td>Renaissance</td><td>Renaisance, Renaissence</td></tr>
+        <tr><td>Repertoire</td><td>Repertory, Reportoire</td></tr>
+        <tr><td>Reservoir</td><td>Reservior, Reseirvor</td></tr>
+        <tr><td>Restaurateur</td><td>Restauranteur, Restauratur</td></tr>
+        <tr><td>Resuscitate</td><td>Recussitate, Resusitate</td></tr>
+        <tr><td>Rhinoceros</td><td>Rhynoceros, Rhinosceros</td></tr>
+        <tr><td>Sacrilege</td><td>Sacrilage, Sacrilige</td></tr>
+        <tr><td>Sandwich</td><td>Sandwitch, Sanwich</td></tr>
+        <tr><td>Schedule</td><td>Sehedule, Schedual</td></tr>
+        <tr><td>Scissors</td><td>Sissors, Scisors</td></tr>
+        <tr><td>Secretary</td><td>Secretery, Sectary</td></tr>
+        <tr><td>Separate</td><td>Seperate</td></tr>
+        <tr><td>Sergeant</td><td>Sargeant, Sergent</td></tr>
+        <tr><td>Sieve</td><td>Seive, Sive</td></tr>
+        <tr><td>Silhouette</td><td>Silhouete, Silhouete</td></tr>
+        <tr><td>Sincerely</td><td>Sincerly</td></tr>
+        <tr><td>Soldier</td><td>Solder, Soldjer</td></tr>
+        <tr><td>Souvenir</td><td>Sovenir, Souvenire</td></tr>
+        <tr><td>Sovereign</td><td>Soverign, Soveriegn</td></tr>
+        <tr><td>Specialty / Speciality</td><td>Specialaty</td></tr>
+        <tr><td>Stationary (adj)</td><td>Stationery (different word — supplies)</td></tr>
+        <tr><td>Successful</td><td>Successfull, Succesful</td></tr>
+        <tr><td>Supersede</td><td>Supercede</td></tr>
+        <tr><td>Suppress</td><td>Supress</td></tr>
+        <tr><td>Surprise</td><td>Suprise, Surpise</td></tr>
+        <tr><td>Surveillance</td><td>Surviellance, Surveilance</td></tr>
+        <tr><td>Symmetry</td><td>Symmetery, Symmetre</td></tr>
+        <tr><td>Tableau</td><td>Tablau, Tableu</td></tr>
+        <tr><td>Tariff</td><td>Tarrif, Tariff</td></tr>
+        <tr><td>Tattoo</td><td>Tatoo, Tatoo</td></tr>
+        <tr><td>Technique</td><td>Tecnique, Techneeq</td></tr>
+        <tr><td>Temperament</td><td>Temprament, Temperment</td></tr>
+        <tr><td>Tenant</td><td>Tennant, Tenent</td></tr>
+        <tr><td>Threshold</td><td>Threshhold, Thresshold</td></tr>
+        <tr><td>Tomato (tomatoes pl)</td><td>Tomatoe (sing wrong)</td></tr>
+        <tr><td>Tongue</td><td>Toung, Tonge</td></tr>
+        <tr><td>Tournament</td><td>Tornament</td></tr>
+        <tr><td>Traffic</td><td>Trafic, Trafic</td></tr>
+        <tr><td>Tragedy</td><td>Tradegy, Tragdy</td></tr>
+        <tr><td>Transferred</td><td>Transfered</td></tr>
+        <tr><td>Tremendous</td><td>Tremendious, Tremendus</td></tr>
+        <tr><td>Truly</td><td>Truely</td></tr>
+        <tr><td>Tyranny</td><td>Tyrany, Tirany</td></tr>
+        <tr><td>Underneath</td><td>Undernieth, Underneeth</td></tr>
+        <tr><td>Unforgettable</td><td>Unforgetable</td></tr>
+        <tr><td>Unforeseen</td><td>Unforseen</td></tr>
+        <tr><td>Unnecessary</td><td>Unneccessary</td></tr>
+        <tr><td>Vacuum</td><td>Vaccum, Vacumm</td></tr>
+        <tr><td>Vegetable</td><td>Vegtable, Vegetble</td></tr>
+        <tr><td>Vehicle</td><td>Vehichle, Vehical</td></tr>
+        <tr><td>Vengeance</td><td>Vengence</td></tr>
+        <tr><td>Vicissitude</td><td>Vicisitude, Vicissatude</td></tr>
+        <tr><td>Victuals</td><td>Vituals (silent c)</td></tr>
+        <tr><td>Village</td><td>Vilage, Vilage</td></tr>
+        <tr><td>Vulnerable</td><td>Vunerable, Vulnerble</td></tr>
+        <tr><td>Wednesday</td><td>Wensday, Wedensday</td></tr>
+        <tr><td>Whether</td><td>Wether (means another)</td></tr>
+        <tr><td>Wholly</td><td>Wholy, Wholley</td></tr>
+        <tr><td>Whose</td><td>Who's (means "who is")</td></tr>
+        <tr><td>Withhold</td><td>Withold</td></tr>
+        <tr><td>Wreath</td><td>Wreathe (verb form different)</td></tr>
+        <tr><td>Wreck</td><td>Wrec, Wreck</td></tr>
+        <tr><td>Xylophone</td><td>Xilophone, Xylofone</td></tr>
+        <tr><td>Yield</td><td>Yeild</td></tr>
+        <tr><td>Zealous</td><td>Zelous, Zealious</td></tr>
+      </table>
+
       <h3>🔥 Spelling Rules</h3>
 
       <h4>1. "I before E except after C"</h4>
