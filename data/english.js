@@ -7013,11 +7013,299 @@
         <li><b>Work out</b>: exercise / solve / succeed.</li>
       </ul>
 
+      <h3>🔥 Extended SSC Phrasal Verbs — Advanced List</h3>
+
+      <h4>ACT</h4>
+      <ul>
+        <li><b>Act on</b>: take action based on.</li>
+        <li><b>Act up</b>: misbehave / malfunction.</li>
+        <li><b>Act out</b>: dramatize / perform.</li>
+      </ul>
+
+      <h4>BACK</h4>
+      <ul>
+        <li><b>Back down</b>: withdraw from position.</li>
+        <li><b>Back off</b>: retreat.</li>
+        <li><b>Back out</b>: withdraw from commitment.</li>
+        <li><b>Back up</b>: support / make copy.</li>
+      </ul>
+
+      <h4>BLOW</h4>
+      <ul>
+        <li><b>Blow out</b>: extinguish / explode.</li>
+        <li><b>Blow over</b>: pass without serious consequence.</li>
+        <li><b>Blow up</b>: explode / lose temper.</li>
+        <li><b>Blow away</b>: defeat / amaze.</li>
+      </ul>
+
+      <h4>CARRY</h4>
+      <ul>
+        <li><b>Carry away</b>: be overcome by emotion.</li>
+        <li><b>Carry off</b>: succeed at difficult task.</li>
+        <li><b>Carry on</b>: continue.</li>
+        <li><b>Carry out</b>: execute / perform.</li>
+        <li><b>Carry over</b>: transfer to later period.</li>
+        <li><b>Carry through</b>: complete despite difficulty.</li>
+      </ul>
+
+      <h4>CATCH</h4>
+      <ul>
+        <li><b>Catch on</b>: become popular / understand.</li>
+        <li><b>Catch up</b>: reach the level / get current.</li>
+        <li><b>Catch out</b>: detect in wrongdoing.</li>
+        <li><b>Catch up with</b>: meet again after long.</li>
+      </ul>
+
+      <h4>CHECK</h4>
+      <ul>
+        <li><b>Check in</b>: register at hotel.</li>
+        <li><b>Check out</b>: leave hotel / investigate.</li>
+        <li><b>Check up on</b>: investigate.</li>
+        <li><b>Check off</b>: tick from list.</li>
+      </ul>
+
+      <h4>COME</h4>
+      <ul>
+        <li><b>Come about</b>: happen.</li>
+        <li><b>Come across as</b>: appear / seem.</li>
+        <li><b>Come after</b>: pursue / follow.</li>
+        <li><b>Come back</b>: return.</li>
+        <li><b>Come down with</b>: become ill.</li>
+        <li><b>Come forward</b>: volunteer.</li>
+        <li><b>Come in for</b>: receive (criticism).</li>
+        <li><b>Come into</b>: inherit.</li>
+        <li><b>Come off</b>: succeed / take place.</li>
+        <li><b>Come out</b>: be revealed / be published.</li>
+        <li><b>Come up</b>: arise unexpectedly.</li>
+        <li><b>Come up to</b>: equal / match.</li>
+        <li><b>Come up with</b>: think of.</li>
+      </ul>
+
+      <h4>CUT</h4>
+      <ul>
+        <li><b>Cut back</b>: reduce.</li>
+        <li><b>Cut down</b>: reduce / chop.</li>
+        <li><b>Cut in</b>: interrupt.</li>
+        <li><b>Cut off</b>: disconnect / isolate.</li>
+        <li><b>Cut out</b>: stop / remove.</li>
+        <li><b>Cut up</b>: cut into pieces.</li>
+      </ul>
+
+      <h4>DO</h4>
+      <ul>
+        <li><b>Do away with</b>: abolish.</li>
+        <li><b>Do over</b>: do again.</li>
+        <li><b>Do up</b>: fasten / decorate.</li>
+        <li><b>Do without</b>: manage without.</li>
+      </ul>
+
+      <h4>DRAW</h4>
+      <ul>
+        <li><b>Draw back</b>: retreat.</li>
+        <li><b>Draw on</b>: use as resource.</li>
+        <li><b>Draw out</b>: prolong / extract.</li>
+        <li><b>Draw up</b>: prepare document.</li>
+        <li><b>Draw in</b>: attract.</li>
+      </ul>
+
+      <h4>FALL</h4>
+      <ul>
+        <li><b>Fall apart</b>: break.</li>
+        <li><b>Fall back</b>: retreat.</li>
+        <li><b>Fall back on</b>: rely on as backup.</li>
+        <li><b>Fall behind</b>: not keep up.</li>
+        <li><b>Fall down</b>: collapse.</li>
+        <li><b>Fall for</b>: be deceived / fall in love.</li>
+        <li><b>Fall in with</b>: agree with.</li>
+        <li><b>Fall off</b>: decrease.</li>
+        <li><b>Fall out</b>: quarrel.</li>
+        <li><b>Fall through</b>: fail to happen.</li>
+      </ul>
+
+      <h4>GET</h4>
+      <ul>
+        <li><b>Get across</b>: communicate.</li>
+        <li><b>Get along with</b>: have good relationship.</li>
+        <li><b>Get around</b>: avoid / travel.</li>
+        <li><b>Get at</b>: imply / mean.</li>
+        <li><b>Get away</b>: escape.</li>
+        <li><b>Get away with</b>: escape punishment.</li>
+        <li><b>Get back at</b>: take revenge.</li>
+        <li><b>Get behind</b>: support / fall behind schedule.</li>
+        <li><b>Get by</b>: manage / survive.</li>
+        <li><b>Get down to</b>: start working seriously.</li>
+        <li><b>Get in</b>: enter / arrive.</li>
+        <li><b>Get into</b>: become involved in.</li>
+        <li><b>Get on</b>: progress / age.</li>
+        <li><b>Get on with</b>: continue / have good relationship.</li>
+        <li><b>Get out</b>: leave / become known.</li>
+        <li><b>Get over</b>: recover from.</li>
+        <li><b>Get rid of</b>: discard.</li>
+        <li><b>Get through</b>: finish / pass exam.</li>
+        <li><b>Get together</b>: meet.</li>
+        <li><b>Get up</b>: rise from bed.</li>
+      </ul>
+
+      <h4>HOLD</h4>
+      <ul>
+        <li><b>Hold back</b>: restrain.</li>
+        <li><b>Hold down</b>: keep (a job).</li>
+        <li><b>Hold off</b>: delay.</li>
+        <li><b>Hold on</b>: wait / persist.</li>
+        <li><b>Hold out</b>: persist / offer.</li>
+        <li><b>Hold over</b>: postpone.</li>
+        <li><b>Hold up</b>: delay / rob / support.</li>
+        <li><b>Hold with</b>: agree with.</li>
+      </ul>
+
+      <h4>KEEP</h4>
+      <ul>
+        <li><b>Keep at</b>: persevere.</li>
+        <li><b>Keep away</b>: stay distant.</li>
+        <li><b>Keep back</b>: withhold.</li>
+        <li><b>Keep down</b>: control / suppress.</li>
+        <li><b>Keep off</b>: stay away from.</li>
+        <li><b>Keep on</b>: continue.</li>
+        <li><b>Keep out</b>: prevent entry.</li>
+        <li><b>Keep up</b>: maintain.</li>
+        <li><b>Keep up with</b>: match pace.</li>
+      </ul>
+
+      <h4>LET</h4>
+      <ul>
+        <li><b>Let down</b>: disappoint.</li>
+        <li><b>Let in</b>: allow to enter.</li>
+        <li><b>Let off</b>: release / not punish.</li>
+        <li><b>Let on</b>: reveal secret.</li>
+        <li><b>Let out</b>: release / make wider.</li>
+        <li><b>Let up</b>: stop / slow down.</li>
+      </ul>
+
+      <h4>MAKE</h4>
+      <ul>
+        <li><b>Make for</b>: head toward.</li>
+        <li><b>Make of</b>: understand / interpret.</li>
+        <li><b>Make off with</b>: steal.</li>
+        <li><b>Make out</b>: see / understand.</li>
+        <li><b>Make over</b>: transfer ownership / redo.</li>
+        <li><b>Make up</b>: invent / reconcile / apply cosmetics.</li>
+        <li><b>Make up for</b>: compensate.</li>
+        <li><b>Make up to</b>: try to please.</li>
+      </ul>
+
+      <h4>PASS</h4>
+      <ul>
+        <li><b>Pass away</b>: die.</li>
+        <li><b>Pass by</b>: ignore.</li>
+        <li><b>Pass for</b>: be accepted as.</li>
+        <li><b>Pass on</b>: convey / die.</li>
+        <li><b>Pass out</b>: faint / graduate.</li>
+        <li><b>Pass over</b>: ignore.</li>
+        <li><b>Pass up</b>: refuse opportunity.</li>
+      </ul>
+
+      <h4>PICK</h4>
+      <ul>
+        <li><b>Pick at</b>: eat in small amounts.</li>
+        <li><b>Pick on</b>: bully / criticize.</li>
+        <li><b>Pick out</b>: choose / identify.</li>
+        <li><b>Pick up</b>: collect / learn / arrest.</li>
+        <li><b>Pick up on</b>: notice.</li>
+      </ul>
+
+      <h4>PULL</h4>
+      <ul>
+        <li><b>Pull apart</b>: separate / criticize.</li>
+        <li><b>Pull down</b>: demolish.</li>
+        <li><b>Pull off</b>: succeed.</li>
+        <li><b>Pull out</b>: withdraw.</li>
+        <li><b>Pull over</b>: stop vehicle at side.</li>
+        <li><b>Pull through</b>: survive.</li>
+        <li><b>Pull together</b>: cooperate.</li>
+        <li><b>Pull up</b>: stop vehicle / reprimand.</li>
+      </ul>
+
+      <h4>PUT</h4>
+      <ul>
+        <li><b>Put across</b>: communicate.</li>
+        <li><b>Put aside</b>: save.</li>
+        <li><b>Put away</b>: store / jail.</li>
+        <li><b>Put back</b>: replace / delay.</li>
+        <li><b>Put forth</b>: propose.</li>
+        <li><b>Put in</b>: install / submit.</li>
+        <li><b>Put off</b>: postpone / discourage.</li>
+        <li><b>Put on</b>: wear / pretend.</li>
+        <li><b>Put out</b>: extinguish / inconvenience.</li>
+        <li><b>Put through</b>: complete / connect call.</li>
+        <li><b>Put up</b>: build / accommodate.</li>
+        <li><b>Put up with</b>: tolerate.</li>
+      </ul>
+
+      <h4>SET</h4>
+      <ul>
+        <li><b>Set about</b>: start.</li>
+        <li><b>Set apart</b>: distinguish.</li>
+        <li><b>Set aside</b>: reserve.</li>
+        <li><b>Set back</b>: delay.</li>
+        <li><b>Set down</b>: write / put down.</li>
+        <li><b>Set forth</b>: present / start journey.</li>
+        <li><b>Set in</b>: begin (weather).</li>
+        <li><b>Set off</b>: begin journey / cause.</li>
+        <li><b>Set out</b>: start / display.</li>
+        <li><b>Set up</b>: establish.</li>
+      </ul>
+
+      <h4>STAND</h4>
+      <ul>
+        <li><b>Stand by</b>: support / wait ready.</li>
+        <li><b>Stand down</b>: resign.</li>
+        <li><b>Stand for</b>: represent.</li>
+        <li><b>Stand in for</b>: substitute for.</li>
+        <li><b>Stand out</b>: be conspicuous.</li>
+        <li><b>Stand up to</b>: resist.</li>
+      </ul>
+
+      <h4>TAKE</h4>
+      <ul>
+        <li><b>Take aback</b>: surprise.</li>
+        <li><b>Take after</b>: resemble.</li>
+        <li><b>Take apart</b>: dismantle.</li>
+        <li><b>Take back</b>: retract.</li>
+        <li><b>Take down</b>: write / dismantle.</li>
+        <li><b>Take for</b>: assume.</li>
+        <li><b>Take in</b>: deceive / absorb.</li>
+        <li><b>Take off</b>: remove / leave ground.</li>
+        <li><b>Take on</b>: undertake / hire.</li>
+        <li><b>Take out</b>: remove / escort.</li>
+        <li><b>Take over</b>: assume control.</li>
+        <li><b>Take to</b>: develop liking.</li>
+        <li><b>Take up</b>: begin (hobby) / occupy.</li>
+      </ul>
+
+      <h4>TURN</h4>
+      <ul>
+        <li><b>Turn against</b>: become hostile.</li>
+        <li><b>Turn around</b>: reverse / improve.</li>
+        <li><b>Turn aside</b>: deflect.</li>
+        <li><b>Turn away</b>: refuse entry.</li>
+        <li><b>Turn back</b>: return.</li>
+        <li><b>Turn down</b>: reject / lower.</li>
+        <li><b>Turn in</b>: submit / go to bed.</li>
+        <li><b>Turn into</b>: become.</li>
+        <li><b>Turn off</b>: switch off / disgust.</li>
+        <li><b>Turn on</b>: switch on / attack.</li>
+        <li><b>Turn out</b>: prove to be / produce.</li>
+        <li><b>Turn over</b>: revolve / hand over.</li>
+        <li><b>Turn to</b>: seek help.</li>
+        <li><b>Turn up</b>: appear / raise volume.</li>
+      </ul>
+
       <h3>🎯 Tips</h3>
       <ul>
         <li>Learn in clusters: all "look + particle", all "put + particle", etc.</li>
         <li>Make sentences for context-based recall.</li>
         <li>Particles change meaning entirely.</li>
+        <li>For 45+ score: master all 200+ phrasal verbs; redo MCQs 3+ times.</li>
       </ul>
     `,
     mcq: [
